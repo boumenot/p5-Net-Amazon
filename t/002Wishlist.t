@@ -8,7 +8,7 @@
 use strict;
 use warnings;
 
-use Test::More tests => 4;
+use Test::More tests => 5;
 BEGIN { use_ok('Net::Amazon') };
 
 use Net::Amazon::Request::Wishlist;
@@ -79,6 +79,12 @@ $resp = $ua->request($req);
 #print $resp->as_string;
 like($resp->as_string(), qr#Samsung.*?Stallman#s, "Complete 11-item list");
 
+$req = Net::Amazon::Request::Wishlist->new(
+    wishlist  => '1XL5DWOUFMFVJ'
+);
+
+ok($req, "Check 0.29 param bugfix");
+
 ######################################################################
 # handle canned responses
 ######################################################################
@@ -93,3 +99,4 @@ sub canned {
         push @Net::Amazon::CANNED_RESPONSES, $data;
     }
 }
+
