@@ -75,6 +75,7 @@ t/canned/browse.xml
 t/canned/dvd.xml
 t/canned/manufacturer.xml
 t/canned/power.xml
+t/canned/power_empty.xml
 t/canned/power_sorted.xml
 t/canned/reviews.xml
 t/canned/textstream.xml
