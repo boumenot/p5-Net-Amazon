@@ -612,7 +612,7 @@ development, please send a message to the mailing list
 
 =head1 AUTHOR
 
-Mike Schilli, E<lt>na@perlmeister.comE<gt> (Please contact me via the mailing list: net-amazon-devel@lists.sourceforge.net)
+Mike Schilli, E<lt>na@perlmeister.comE<gt> (Please contact me via the mailing list: net-amazon-devel@lists.sourceforge.net )
 
 =head1 COPYRIGHT AND LICENSE
 
