@@ -8,7 +8,7 @@ use 5.006;
 use strict;
 use warnings;
 
-our $VERSION          = '0.10';
+our $VERSION          = '0.09';
 our $AMZN_XML_URL     = "http://xml.amazon.com/onca/xml2";
 our @CANNED_RESPONSES = ();
 
