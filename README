@@ -1,5 +1,5 @@
 ######################################################################
-    Net::Amazon 0.16
+    Net::Amazon 0.17
 ######################################################################
 
 NAME
@@ -143,6 +143,12 @@ DESCRIPTION
     Net::Amazon::Request::UPC
         Music search by UPC (product barcode), mandatory parameter "upc".
         "mode" has to be set to "music". Returns at most one result.
+
+    Net::Amazon::Request::Blended
+        'Blended' search on a keyword, resulting in matches across the
+        board. No 'mode' parameter is allowed. According to Amazon's
+        developer's kit, this will result in up to three matches per
+        category and can yield a total of 45 matches.
 
     Check the respective man pages for details on these request objects.
     Request objects are typically created like this (with a Keyword query as
@@ -491,6 +497,7 @@ AUTHOR
         Martha Greenberg <marthag@mit.edu>
         Martin Streicher <martin.streicher@apress.com>
         Mike Evron <evronm@dtcinc.net>
+        Robert Graff, <rgraff@workingdemo.com>
         Tony Bowden <tony@kasei.com>
 
 COPYRIGHT AND LICENSE
