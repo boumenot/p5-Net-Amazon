@@ -597,13 +597,26 @@ and on CPAN.
 
 =head1 SEE ALSO
 
+=head1 CONTACT
+
+The C<Net::Amazon> project's home page is hosted on 
+
+    http://net-amazon.sourceforge.net
+
+where you can find documentation, news and the latest development and
+stable releases for download. If you have questions about how to
+use C<Net::Amazon>, want to report a bug or just participate in its
+development, please send a message to the mailing list
+
+    amazon-net-devel@lists.sourceforge.net
+
 =head1 AUTHOR
 
-Mike Schilli, E<lt>m@perlmeister.comE<gt>
+Mike Schilli, E<lt>na@perlmeister.comE<gt> (Please contact me via the mailing list: net-amazon-devel@lists.sourceforge.net)
 
 =head1 COPYRIGHT AND LICENSE
 
-Copyright 2003 by Mike Schilli E<lt>m@perlmeister.comE<gt>
+Copyright 2003 by Mike Schilli E<lt>na@perlmeister.comE<gt>
 
 This library is free software; you can redistribute it and/or modify
 it under the same terms as Perl itself. 
