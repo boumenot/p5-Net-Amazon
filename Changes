@@ -4,6 +4,8 @@ Revision history for Perl extension Net::Amazon:
    (ms) Brian <brianbrian@gmail.com> contributed code for querying sellers.
         Added docs and test cases. Added a new hierarchy N::A::Result/*
         to deal with responses containing results which aren't Amazon items.
+   (ms) fixed bug in _convert_option: Override target option only if
+        it doesn't exist already.
 
 0.28 (08/04/2004)
    (ms) ASIN search can now process several asin numbers with one request.
