@@ -2,7 +2,7 @@
 package Net::Amazon::Request;
 ######################################################################
 
-our $AMZN_XML_URL     = "http://xml.amazon.com/onca/xml2";
+our $AMZN_XML_URL     = "http://xml.amazon.com/onca/xml3";
 
 ##################################################
 sub amzn_xml_url {
