@@ -265,6 +265,9 @@ Number of collectible items available.
 
 =item NumberOfOfferings()
 
+Total number of used and new offerings (C<UsedCount()> + 
+C<ThirdPartyNewCount()>).
+
 =item UsedCount()
 
 Number of used items available.
