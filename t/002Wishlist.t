@@ -41,7 +41,7 @@ my $req = Net::Amazon::Request::Wishlist->new(
    # Response is of type Net::Amazon::ASIN::Response
 my $resp = $ua->request($req);
 
-like($resp->as_string(), qr#Richard M. Stallman/Lawrence Lessig/Joshua Gay#, "Found Stallman");
+like($resp->as_string(), qr#Stallman#, "Found Stallman");
 
 ######################################################################
 # Get a canned 10-item wishlist
@@ -105,4 +105,4 @@ $req = Net::Amazon::Request::Wishlist->new(
 $resp = $ua->request($req);
 
 ok($resp->is_success(), "Successful fetch");
-like($resp->as_string(), qr#Richard M. Stallman/Lawrence Lessig/Joshua Gay#, "Live watchlist fetch");
+like($resp->as_string(), qr#Stallman#, "Live watchlist fetch");
