@@ -1,5 +1,5 @@
 ######################################################################
-    Net::Amazon 0.12
+    Net::Amazon 0.13
 ######################################################################
 
 NAME
@@ -99,6 +99,11 @@ DESCRIPTION
     "Net::Amazon::Property::Music" feature convenience methods like
     "authors()" (returning the list of authors of a book) or "album()" for
     CDs, returning the album title.
+
+    Customer reviews: Every property features a "review_set()" method which
+    returns a "Net::Amazon::Attribute::ReviewSet" object, which in turn
+    offers a list of "Net::Amazon::Attribute::Review" objects. Check the
+    respective man pages for details on what's available.
 
   Requests behind the scenes
     "Net::Amazon"'s "search()" method is just a convenient way to create
@@ -254,6 +259,75 @@ LIVE TESTING
     live Amazon servers instead, just set the environment variable
 
         NET_AMAZON_LIVE_TESTS=1
+
+WHY ISN'T THERE SUPPORT FOR METHOD XYZ?
+    Because nobody wrote it yet. If Net::Amazon doesn't yet support a method
+    advertised on Amazon's web service, you could help us out. Net::Amazon
+    has been designed to be expanded over time, usually it only takes a
+    couple of lines to support a new method, the rest is done via
+    inheritance within Net::Amazon.
+
+    Here's the basic plot:
+
+    *   Get Net::Amazon from CVS. Use
+
+            cvs -d:pserver:anonymous@cvs.sourceforge.net:/cvsroot/Net-Amazon login
+            cvs -z3 -d:pserver:anonymous@cvs.sourceforge.net:/cvsroot/Net-Amazon co Net-Amazon
+
+    *   Write a new Net::Amazon::Request::XYZ package, start with this
+        template
+
+            ######################################
+            package Net::Amazon::Request::XYZ;
+            ######################################
+            use base qw(Net::Amazon::Request);
+
+            ######################################
+            sub new {
+            ######################################
+                my($class, %options) = @_;
+
+                if(!exists $options{XYZ_option}) {
+                    die "Mandatory parameter 'XYZ_option' not defined";
+                }
+    
+                my $self = $class->SUPER::new(%options);
+    
+                bless $self, $class;   # reconsecrate
+            }
+
+        and add documentation. Then, create a new Net::Amazon::Response::XYZ
+        module:
+
+            ##############################
+            package Net::Amazon::Response;
+            ##############################
+            use base qw(Net::Amazon::Response);
+
+            use Net::Amazon::Property;
+
+            ##############################
+            sub new {
+            ##############################
+                my($class, %options) = @_;
+    
+                my $self = $class->SUPER::new(%options);
+    
+                bless $self, $class;   # reconsecrate
+            }
+
+        and also add documentation to it. Then, add the line
+
+            use Net::Amazon::Request::XYZ;
+
+        to Net/Amazon.pm.
+
+    And that's it! Check out the different Net::Amazon::Request::* and
+    Net::Amazon::Response modules in the distribution if you need to adapt
+    your new module to fulfil any special needs, like a different Amazon URL
+    or a different way to handle the as_string() method. Also, post and
+    problems you might encounter to the mailing list, we're gonna help you
+    out.
 
 INSTALLATION
     "Net::Amazon" depends on Log::Log4perl, which can be pulled from CPAN by
