@@ -1,5 +1,9 @@
 Revision history for Perl extension Net::Amazon:
 
+0.16 (not yet released)
+   (ms) Replaced 'legacy call' onca/xml2 by onca/xml3, according to 
+        the AWS newsletter.
+
 0.15 (08/24/2003)
    (ms) Martin Streicher (martin.streicher@apress.com) provided support
         for Amazon's "Power Search". Added documentation and test case.
