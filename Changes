@@ -5,7 +5,7 @@ Revision history for Perl extension Net::Amazon:
    (ms) Added docs for new Net::Amazon homepage at net-amazon.sourceforge.net
         and mailing list
    (ms) Helper in place to assist XML::Simple in choosing the right parser,
-        to avlid install problems due to XML::SAX::RTF.
+        to avoid install problems due to XML::SAX::RTF.
 
 0.09 (06/24/2003)
    (ms) Tony Bowden <tony@kasei.com> suggested to have a $ua->search
