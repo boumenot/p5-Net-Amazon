@@ -606,9 +606,8 @@ The C<Net::Amazon> project's home page is hosted on
 where you can find documentation, news and the latest development and
 stable releases for download. If you have questions about how to
 use C<Net::Amazon>, want to report a bug or just participate in its
-development, please send a message to the mailing list
-
-    amazon-net-devel@lists.sourceforge.net
+development, please send a message to the mailing 
+list amazon-net-devel@lists.sourceforge.net
 
 =head1 AUTHOR
 
