@@ -1,8 +1,6 @@
 Revision history for Perl extension Net::Amazon:
 
 0.28 (not yet released)
-   TODO: Check if fixes work with 5.005
-
    (ms) ASIN search can now process several asin numbers with one request.
         Dan Kreft <dan@kreft.net> cleaned up the Request.pm and
         ASIN.pm implementation.
@@ -14,6 +12,8 @@ Revision history for Perl extension Net::Amazon:
         now calls to parse the XML coming back. This enables the response
         class (which can override it) to creatively interpret the 
         response XML to form the response data structure.
+   (ms) Added strict warnings to each and every module
+   (ms) Added dump_responses() for easier response canning.
 
 0.27 (07/27/2004)
    (ms) Richard Giliam <nirosys@nirostasis.net> added the isbn()

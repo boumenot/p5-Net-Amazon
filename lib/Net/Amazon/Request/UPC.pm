@@ -1,6 +1,8 @@
 ######################################################################
 package Net::Amazon::Request::UPC;
 ######################################################################
+use warnings;
+use strict;
 use base qw(Net::Amazon::Request);
 
 ##################################################
@@ -8,12 +10,11 @@ sub new {
 ##################################################
     my($class, %options) = @_;
 
-    if(exists $options{upc}) {
-        $options{UpcSearch} = $options{upc};
-        delete $options{upc};
-    } else {
-        die "Mandatory parameter 'upc' not defined";
-    }
+    $class->_assert_options_defined(\%options, 'upc');
+
+    $class->_convert_option(\%options, 
+                            'upc', 
+                            'UpcSearch');
 
     my $self = $class->SUPER::new(%options);
 

@@ -1,6 +1,8 @@
 ######################################################################
 package Net::Amazon::Property::Music;
 ######################################################################
+use warnings;
+use strict;
 use base qw(Net::Amazon::Property);
 
 __PACKAGE__->make_accessor($_) for qw(album label media nummedia upc);

@@ -1,6 +1,8 @@
 ######################################################################
 package Net::Amazon::Response::TextStream;
 ######################################################################
+use warnings;
+use strict;
 use base qw(Net::Amazon::Response);
 
 use Net::Amazon::Property;

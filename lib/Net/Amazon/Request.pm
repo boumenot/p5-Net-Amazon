@@ -2,6 +2,9 @@
 package Net::Amazon::Request;
 ######################################################################
 
+use warnings;
+use strict;
+
 use constant DEFAULT_MODE          => 'books';
 use constant DEFAULT_TYPE          => 'heavy';
 use constant DEFAULT_PAGE_COUNT    => 1;
@@ -57,6 +60,61 @@ sub response_class {
     my $response_class = ref($self);
     $response_class =~ s/Request/Response/;
     return $response_class;
+}
+
+##
+## 'PRIVATE' METHODS
+##
+
+# CLASS->_convert_option( OPTIONS, ORIGINAL, TARGET [, CALLBACK] )
+#
+# Takes a reference to a hash of OPTIONS and renames the
+# ORIGINAL key name to the TARGET key name. If the optional
+# CALLBACK subroutine reference is defined, that subroutine
+# is invoked with two arguments:
+#
+#     CALLBACK->( OPTIONS, TARGET )
+#
+# The result of the CALLBACK's execution is then returned to
+# the caller. No assumptions are made about what the CALLBACK
+# should return (or even *if* is should return)--that's the
+# caller's responsibility.
+#
+# Returns 1 in the absensence of a CALLBACK.
+#
+sub _convert_option {
+    my ($class, $options, $original, $target, $callback) = @_;
+
+    $options->{$target} = $options->{$original};
+    delete $options->{$original};
+ 
+    if ( exists $options->{$original} ) {
+        $options->{$target} = $options->{$original};
+        delete $options->{$original};
+    }
+
+    return 1 unless ( $callback );
+
+    # The key name is explicitly passed-in so that the caller doesn't
+    # have think "Hrmm..  now which key am I working on, the original
+    # or the target key?" Confusion is bad.
+    return $callback->($options, $target);
+}
+
+# CLASS->_assert_options_defined( OPTIONS, KEYS )
+#
+# Takes a reference to a hash of OPTIONS and a list of
+# one or more KEYS. Tests to see if each key in KEYS
+# has a defined value. Calls die() upon the first
+# missing key. Otherwise, returns undef.
+#
+sub _assert_options_defined {
+    my ($class, $options, @keys) = @_;
+    
+    foreach my $key ( @keys ) {
+        die "Mandatory parameter '$key' not defined"
+            unless ( defined $options->{$key} );
+    }
 }
 
 1;

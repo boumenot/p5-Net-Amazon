@@ -1,6 +1,8 @@
 ######################################################################
 package Net::Amazon::Request::BrowseNode;
 ######################################################################
+use warnings;
+use strict;
 use base qw(Net::Amazon::Request);
 
 ##################################################
@@ -8,25 +10,37 @@ sub new {
 ##################################################
     my($class, %options) = @_;
 
-    if(exists $options{browsenode}) {
-        if ($options{browsenode} =~ /^\d+$/) {
-           $options{BrowseNodeSearch} = $options{browsenode};
-           delete $options{browsenode};
-        } else {
-           die "Browse Node ID must be numeric.";
-        }
-    } else {
-        die "Mandatory parameter 'browsenode' not defined";
-    }
+    $class->_assert_options_defined(\%options,
+                                    qw(browsenode mode));
 
-    if(!exists $options{mode}) {
-        die "Mandatory parameter 'mode' not defined";
-    }
+    $class->_convert_option(\%options,
+                            'browsenode',
+                            'BrowseNodeSearch',
+                            \&_assert_node_is_numeric);
 
     my $self = $class->SUPER::new(%options);
 
     bless $self, $class;   # reconsecrate
 }
+
+##
+## 'PRIVATE' FUNCTIONS
+##
+
+# _assert_node_is_numeric( OPTIONS, KEY )
+#
+# Takes a reference to a hash of OPTIONS and makes sure
+# that the browse node id keyed by KEY is numeric. 
+#
+# Returns if all is well, dies otherwise.
+#
+sub _assert_node_is_numeric {
+    my ($options, $key) = @_;
+
+    die "Browse Node ID must be numeric."
+        if ( $options->{$key} =~ /\D/ );
+}
+
 
 1;
 

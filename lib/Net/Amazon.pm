@@ -19,16 +19,22 @@ use URI;
 use Log::Log4perl qw(:easy get_logger);
 use Time::HiRes qw(usleep gettimeofday tv_interval);
 
-use Net::Amazon::Request::ASIN;
-use Net::Amazon::Request::Artist;
-use Net::Amazon::Request::Blended;
-use Net::Amazon::Request::BrowseNode;
-use Net::Amazon::Request::Keyword;
-use Net::Amazon::Request::Wishlist;
-use Net::Amazon::Request::UPC;
-use Net::Amazon::Request::Similar;
-use Net::Amazon::Request::Power;
-use Net::Amazon::Request::TextStream;
+# Each key represents a search() type, and each value indicates which
+# Net::Amazon::Request:: class to use to handle it.
+use constant SEARCH_TYPE_CLASS_MAP => {
+    artist       => 'Artist',
+    asin         => 'ASIN',
+    blended      => 'Blended',
+    browsenode   => 'BrowseNode',
+    keyword      => 'Keyword',
+    manufacturer => 'Manufacturer',
+    power        => 'Power',
+    similar      => 'Similar',
+    textstream   => 'TextStream',
+    upc          => 'UPC',
+    wishlist     => 'Wishlist',
+};
+
 
 ##################################################
 sub new {
@@ -44,10 +50,11 @@ sub new {
     }
 
     my $self = {
-        strict     => 1,
-        rate_limit => 1.0,  # 1 req/sec
-        max_pages  => 5,
-        ua         => LWP::UserAgent->new(),
+        strict         => 1,
+        response_dump  => 0,
+        rate_limit     => 1.0,  # 1 req/sec
+        max_pages      => 5,
+        ua             => LWP::UserAgent->new(),
         %options,
                };
 
@@ -61,40 +68,21 @@ sub search {
 ##################################################
     my($self, %params) = @_;
 
-    my $req;
-
-    if(0) {
-    } elsif(exists $params{asin}) {
-        $req = Net::Amazon::Request::ASIN->new(%params);
-    } elsif(exists $params{artist}) {
-        $req = Net::Amazon::Request::Artist->new(%params);
-    } elsif(exists $params{blended}) {
-        $req = Net::Amazon::Request::Blended->new(%params);
-    } elsif(exists $params{wishlist}) {
-        $req = Net::Amazon::Request::Wishlist->new(
-                                   id => $params{wishlist}, %params);
-    } elsif(exists $params{upc}) {
-        $req = Net::Amazon::Request::UPC->new(%params);
-    } elsif(exists $params{keyword}) {
-        $req = Net::Amazon::Request::Keyword->new(%params);
-    } elsif(exists $params{similar}) {
-        $req = Net::Amazon::Request::Similar->new(asin => $params{similar},
-                                                  %params);
-    } elsif(exists $params{power}) {
-        $req = Net::Amazon::Request::Power->new(%params);
-    } elsif(exists $params{browsenode}) {
-        $req = Net::Amazon::Request::BrowseNode->new(%params);
-    } elsif(exists $params{manufacturer}) {
-        $req = Net::Amazon::Request::Manufacturer->new(%params);
-    } elsif(exists $params{textstream}) {
-        $req = Net::Amazon::Request::TextStream->new(%params);
-
-    } else {
-        warn "No Net::Amazon::Request type could be determined";
-        return;
+    foreach my $key ( keys %params ) {
+        next unless ( my $class = SEARCH_TYPE_CLASS_MAP->{$key} );
+        
+        return $self->_make_request($class, \%params);
     }
 
-    return $self->request($req);
+    # FIX?
+    # This seems like it really should be a die() instead...this is
+    # indicative of a programming problem. Generally speaking, it's
+    # best to issue warnings from a module--you can't be sure that the
+    # client has a stderr to begin with, or that he wants errors
+    # spewed to it.
+    warn "No Net::Amazon::Request type could be determined";
+
+    return undef;
 }
 
 ##################################################
@@ -298,6 +286,14 @@ sub fetch_url {
             }
         }
 
+        if($self->{response_dump}) {
+            my $dumpfile = "response-$self->{response_dump}.txt";
+            open FILE, ">$dumpfile" or die "Cannot open $dumpfile";
+            print FILE $resp->content();
+            close FILE;
+            $self->{response_dump}++;
+        }
+
         if($resp->content =~ /<ErrorMsg>/ &&
            $resp->content =~ /Please retry/i) {
             if($max_retries-- >= 0) {
@@ -473,6 +469,28 @@ sub pause {
         $logger->error("Ratelimiting: Sleeping $dur microseconds"); 
         usleep($dur);
     }
+}
+
+##
+## 'PRIVATE' METHODS
+##
+
+# $self->_make_request( TYPE, PARAMS )
+#
+# Takes a TYPE that corresponds to a Net::Amazon::Request
+# class, require()s that class, instantiates it, and returns
+# the result of that instance's request() method.
+#
+sub _make_request {
+    my ($self, $type, $params) = @_;
+
+    my $class = "Net::Amazon::Request::$type";
+
+    eval "require $class";
+
+    my $req = $class->new(%{$params});
+    
+    return $self->request($req);
 }
 
 1;

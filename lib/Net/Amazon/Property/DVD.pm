@@ -1,6 +1,8 @@
 ######################################################################
 package Net::Amazon::Property::DVD;
 ######################################################################
+use warnings;
+use strict;
 use base qw(Net::Amazon::Property);
 
 __PACKAGE__->make_accessor($_) for qw(title studio theatrical_release_date

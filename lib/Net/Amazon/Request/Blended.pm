@@ -1,6 +1,8 @@
 ######################################################################
 package Net::Amazon::Request::Blended;
 ######################################################################
+use warnings;
+use strict;
 use base qw(Net::Amazon::Request);
 
 ##################################################
@@ -8,12 +10,11 @@ sub new {
 ##################################################
     my($class, %options) = @_;
 
-    if(exists $options{blended}) {
-        $options{BlendedSearch} = $options{blended};
-        delete $options{blended};
-    } else {
-        die "Mandatory parameter 'blended' not defined";
-    }
+    $class->_assert_options_defined(\%options, 'blended');
+
+    $class->_convert_option(\%options,
+                            'blended',
+                            'BlendedSearch');
 
     my $self = $class->SUPER::new(%options);
 

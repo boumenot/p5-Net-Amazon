@@ -1,6 +1,8 @@
 ######################################################################
 package Net::Amazon::Response::Artist;
 ######################################################################
+use warnings;
+use strict;
 use base qw(Net::Amazon::Response);
 
 use Net::Amazon::Property;

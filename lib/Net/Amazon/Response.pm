@@ -1,6 +1,9 @@
 ######################################################################
 package Net::Amazon::Response;
 ######################################################################
+use warnings;
+use strict;
+
 use base qw(Net::Amazon);
 
 use Text::Wrap qw($columns wrap);

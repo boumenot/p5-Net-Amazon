@@ -1,6 +1,8 @@
 ######################################################################
 package Net::Amazon::Response::Manufacturer;
 ######################################################################
+use warnings;
+use strict;
 use base qw(Net::Amazon::Response);
 
 use Net::Amazon::Property;

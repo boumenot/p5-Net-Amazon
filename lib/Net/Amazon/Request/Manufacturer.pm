@@ -1,6 +1,8 @@
 ######################################
 package Net::Amazon::Request::Manufacturer;
 ######################################
+use warnings;
+use strict;
 use base qw(Net::Amazon::Request);
 
 ######################################
@@ -8,12 +10,12 @@ sub new {
 ######################################
    my($class, %options) = @_;
 
-   if(exists $options{manufacturer}) {
-        $options{ManufacturerSearch} = $options{manufacturer};
-        delete $options{manufacturer};
-   } else {
-      die "Mandatory parameter 'manufacture' not defined";
-   }
+   $class->_assert_options_defined(\%options,
+                                   'manufacturer');
+
+   $class->_convert_option(\%options,
+                           'manufacturer',
+                           'ManufacturerSearch');
 
    my $self = $class->SUPER::new(%options);
 

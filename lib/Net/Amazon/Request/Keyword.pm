@@ -1,6 +1,8 @@
 ######################################################################
 package Net::Amazon::Request::Keyword;
 ######################################################################
+use warnings;
+use strict;
 use base qw(Net::Amazon::Request);
 
 ##################################################
@@ -8,16 +10,12 @@ sub new {
 ##################################################
     my($class, %options) = @_;
 
-    if(exists $options{keyword}) {
-        $options{KeywordSearch} = $options{keyword};
-        delete $options{keyword};
-    } else {
-        die "Mandatory parameter 'keyword' not defined";
-    }
+    $class->_assert_options_defined(\%options, 
+                                    qw(keyword mode));
 
-    if(!exists $options{mode}) {
-        die "Mandatory parameter 'mode' not defined";
-    }
+    $class->_convert_option(\%options,
+                            'keyword',
+                            'KeywordSearch');
 
     my $self = $class->SUPER::new(%options);
 

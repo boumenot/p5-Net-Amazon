@@ -1,6 +1,8 @@
 ######################################################################
 package Net::Amazon::Request::Wishlist;
 ######################################################################
+use warnings;
+use strict;
 use base qw(Net::Amazon::Request);
 
 ##################################################
@@ -8,12 +10,14 @@ sub new {
 ##################################################
     my($class, %options) = @_;
 
-    if(exists $options{id}) {
-        $options{WishlistSearch} = $options{id};
-        delete $options{id};
-    } else {
-        die "Mandatory parameter 'id' not defined";
-    }
+    # For backwards compatibility:
+    $class->_convert_option(\%options, 'id', 'wishlist');
+
+    $class->_assert_options_defined(\%options, 'wishlist');
+
+    $class->_convert_option(\%options,
+                            'wishlist',
+                            'WishlistSearch');
 
     my $self = $class->SUPER::new(%options);
 
@@ -38,7 +42,7 @@ Net::Amazon::Request::Wishlist - request class for wishlist search
   );
 
   my $req = Net::Amazon::Request::Wishlist->new( 
-      id  => '1XL5DWOUFMFVJ',
+      wishlist => '1XL5DWOUFMFVJ',
   );
 
     # Response is of type Net::Amazon::Response::Wishlist
@@ -59,7 +63,7 @@ of C<Net::Amazon::Property::*> objects.
 
 =over 4
 
-=item new(id => $id)
+=item new(wishlist => $id)
 
 Constructs a new C<Net::Amazon::Request::Wishlist> object, used to query
 the Amazon web service for a specific wishlist, identified by the wishlist

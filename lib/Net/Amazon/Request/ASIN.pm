@@ -1,6 +1,8 @@
 ######################################################################
 package Net::Amazon::Request::ASIN;
 ######################################################################
+use warnings;
+use strict;
 use base qw(Net::Amazon::Request);
 
 # These values are defined in the AWS SDK
@@ -16,7 +18,12 @@ sub new {
 ##################################################
     my($class, %options) = @_;
 
-    $class->_process_asin_option(\%options);
+    $class->_assert_options_defined(\%options, 'asin');
+
+    $class->_convert_option(\%options,
+                            'asin',
+                            'AsinSearch',
+                            \&_process_asin_option);
 
     my $self = $class->SUPER::new(%options);
 
@@ -24,52 +31,42 @@ sub new {
 }
 
 ##
-## PRIVATE METHODS
+## PRIVATE FUNCTIONS
 ##
 
-# $class->_process_asin_option( OPTIONS )
+# _process_asin_option( OPTIONS, KEY )
 #
-# Takes a reference to a hash of OPTIONS ('asin' is the
-# only mandatory key) and turns the 'asin' key into
-# 'AsinSearch'. If the value associated with 'asin' is an array,
-# we check to make sure that we're not asking for too many asins
-# at once.
+# Takes a reference to a hash of OPTIONS and checks the value keyed by
+# KEY to make sure it looks legitimate.  If the value associated with
+# KEY is an array, we check to make sure that we're not asking for
+# too many asins at once.
 #
-# Returns void if all goes well. If any problems are encountered,
+# Returns true if all goes well. If any problems are encountered,
 # die() will be called.
 #
 sub _process_asin_option {
-    my ($class, $options) = @_;
-
-    # Only testing for existence of the 'asin' key will not catch
-    # cases where someone provides an empty asin list, so we test
-    # for truth instead, which is slightly better.
-    die "Mandatory parameter 'asin' not provided."
-        unless ( $options->{'asin'} );
+    my ($options, $key) = @_;
 
     # If the asins are supplied in the form of an array, we have to
     # make sure that the caller isn't trying to ask for too many at a
     # time. If we don't make this test, those excessive asins will be
     # silently ignored by the AWS servers...resulting in potentially
     # confusing results for the user.
-    if ( ref $options->{'asin'} eq 'ARRAY' ) {
-        my $type      = $options{'type'} || $class->SUPER::DEFAULT_TYPE;
+    if ( ref $options->{$key} eq 'ARRAY' ) {
+        my $type      = $options->{'type'} || __PACKAGE__->SUPER::DEFAULT_TYPE;
         my $max_asins = MAX_ASINS_PER_TYPE->{$type};
 
         # Dying is the right thing to do here because this is
         # indicative of a programming error.
         die "Only $max_asins may be requested at a time using type '$type'"
-            if ( @{$options->{'asin'}} > $max_asins );
+            if ( @{$options->{$key}} > $max_asins );
 
-        $options{'asin'} = join ',', @{$options->{'asin'}};
-    } elsif ( ref $options->{'asin'} ) {
+        $options->{$key} = join ',', @{$options->{$key}};
+    } elsif ( ref $options->{$key} ) {
         die "The 'asin' parameter must either be a scalar or an array";
     }
 
-    $options{'AsinSearch'} = $options{'asin'};
-    delete $options{'asin'};
-
-    return;
+    return 1;
 }
 
 1;

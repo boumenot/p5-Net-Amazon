@@ -1,6 +1,8 @@
 ######################################################################
 package Net::Amazon::Request::Power;
 ######################################################################
+use warnings;
+use strict;
 use base qw(Net::Amazon::Request);
 
 ##################################################
@@ -8,16 +10,12 @@ sub new {
 ##################################################
     my($class, %options) = @_;
 
-    if(exists $options{power}) {
-        $options{PowerSearch} = $options{power};
-        delete $options{power};
-    } else {
-        die "Mandatory parameter 'power' not defined";
-    }
+    $class->_assert_options_defined(\%options, 
+                                    qw(power mode));
 
-    if(!exists $options{mode}) { 
-        die "Mandatory parameter 'mode' not defined";
-    }
+    $class->_convert_option(\%options,
+                            'power',
+                            'PowerSearch');
 
     my $self = $class->SUPER::new(%options);
 

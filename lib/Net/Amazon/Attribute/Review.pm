@@ -1,6 +1,8 @@
 ######################################################################
 package Net::Amazon::Attribute::Review;
 ######################################################################
+use warnings;
+use strict;
 use Log::Log4perl qw(:easy);
 use base qw(Net::Amazon);
 

@@ -1,6 +1,8 @@
 ######################################################################
 package Net::Amazon::Property;
 ######################################################################
+use warnings;
+use strict;
 use base qw(Net::Amazon);
 
 use Net::Amazon::Property::DVD;

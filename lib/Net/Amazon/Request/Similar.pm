@@ -1,6 +1,8 @@
 ######################################################################
 package Net::Amazon::Request::Similar;
 ######################################################################
+use warnings;
+use strict;
 use base qw(Net::Amazon::Request);
 
 our $AMZN_XML_URL     = "http://xml.amazon.com/onca/xml3";
@@ -16,12 +18,14 @@ sub new {
 ##################################################
     my($class, %options) = @_;
 
-    if(exists $options{asin}) {
-        $options{SimilaritySearch} = $options{asin};
-        delete $options{asin};
-    } else {
-        die "Mandatory parameter 'asin' not defined";
-    }
+    # For backwards compatibility
+    $class->convert_option(\%options, 'asin', 'similar');
+
+    $class->_assert_options_defined(\%options, 'similar');
+
+    $class->_convert_option(\%options,
+                            'similar',
+                            'SimilaritySearch');
 
     my $self = $class->SUPER::new(%options);
 
@@ -46,7 +50,7 @@ Net::Amazon::Request::Similar - request class for 'Similarities Search'
   );
 
   my $req = Net::Amazon::Request::Similar->new( 
-      asin => 'B00005B6TL',
+      similar => 'B00005B6TL',
   );
 
     # Response is of type Net::Amazon::Response::Similar
@@ -67,7 +71,7 @@ of C<Net::Amazon::Property::*> objects.
 
 =over 4
 
-=item new(asin => $asin)
+=item new(similar => $asin)
 
 Constructs a new C<Net::Amazon::Request::Similar> object.
 
