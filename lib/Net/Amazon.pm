@@ -629,6 +629,8 @@ from CPAN, please check their documentation for details.
 Here's an example utilizing a file cache which causes C<Net::Amazon> to
 cache responses for 30 minutes:
 
+    use File::Cache;
+
     my $cache = Cache::File->new( 
         cache_root        => '/tmp/mycache',
         default_expires   => '30 min',
