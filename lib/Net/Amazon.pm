@@ -461,7 +461,10 @@ sub pause {
 
     my $t1 = [gettimeofday];
     my $dur = (1.0 -  tv_interval($self->{t0}, $t1)) * 1000000;
-    usleep($dur) unless $dur < 0;
+    if($dur > 0) {
+        ERROR("Ratelimiting: Sleeping $dur microseconds"); 
+        usleep($dur);
+    }
 }
 
 1;
