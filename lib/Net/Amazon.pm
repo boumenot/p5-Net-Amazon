@@ -538,7 +538,23 @@ in Amazon's database:
              $_->OurPrice(), "\n";
     }
 
-Also the specialized classes C<Net::Amazon::Property::Book> and
+Commonly available accessors are 
+C<OurPrice()>,
+C<ImageUrlLarge()>,
+C<ImageUrlMedium()>,
+C<ImageUrlSmall()>,
+C<ReleaseDate()>,
+C<Catalog()>,
+C<Asin()>,
+C<url()>,
+C<Manufacturer()>,
+C<UsedPrice()>,
+C<ListPrice()>,
+C<ProductName()>,
+C<Availability()>.
+For details, check L<Net::Amazon::Property>.
+
+Also, the specialized classes C<Net::Amazon::Property::Book> and
 C<Net::Amazon::Property::Music> feature convenience methods like
 C<authors()> (returning the list of authors of a book) or 
 C<album()> for CDs, returning the album title.
