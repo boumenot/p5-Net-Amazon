@@ -26,6 +26,8 @@ sub init_via_xmlref {
 ##################################################
     my($self, $xmlref) = @_;
 
+    $self->SUPER::init_via_xmlref($xmlref);
+
     $self->authors($xmlref->{Authors}->{Author});
     $self->title($xmlref->{ProductName});
     $self->publisher($xmlref->{Manufacturer});
