@@ -16,7 +16,7 @@ use HTTP::Request::Common;
 use XML::Simple;
 use Data::Dumper;
 use URI;
-use Log::Log4perl qw(:easy);
+use Log::Log4perl qw(:easy get_logger);
 use Time::HiRes qw(usleep gettimeofday tv_interval);
 
 use Net::Amazon::Request::ASIN;
@@ -43,9 +43,10 @@ sub new {
     }
 
     my $self = {
-        strict    => 1,
-        max_pages => 5,
-        ua        => LWP::UserAgent->new(),
+        strict     => 1,
+        rate_limit => 1.0,  # 1 req/sec
+        max_pages  => 5,
+        ua         => LWP::UserAgent->new(),
         %options,
                };
 
@@ -270,7 +271,7 @@ sub fetch_url {
     {
         # wait up to a second before the next request so
         # as to not violate Amazon's 1 query per second
-        # rule.
+        # rule (or the configured rate_limit).
         $self->pause() if $self->{strict};
 
         $resp = $ua->request(GET $url);
@@ -460,9 +461,15 @@ sub pause {
     return unless ($self->{t0});
 
     my $t1 = [gettimeofday];
-    my $dur = (1.0 -  tv_interval($self->{t0}, $t1)) * 1000000;
+    my $dur = (1.0/$self->{rate_limit} - 
+               tv_interval($self->{t0}, $t1)) * 1000000;
     if($dur > 0) {
-        ERROR("Ratelimiting: Sleeping $dur microseconds"); 
+            # Use a pseudo subclass for the logger, since the app
+            # might not want to log that as 'ERROR'. Log4perl's
+            # inheritance mechanism makes sure it does the right
+            # thing for the current class.
+        my $logger = get_logger(__PACKAGE__ . "::RateLimit");
+        $logger->error("Ratelimiting: Sleeping $dur microseconds"); 
         usleep($dur);
     }
 }
@@ -726,15 +733,9 @@ Additional optional parameters:
 
 =over 4
 
-=item C<< strict => 1 >>
-
-Makes sure that Net::Amazon complies with Amazon's terms of service
-by limiting the number of outgoing requests to 1 per second. Defaults
-to C<1>.
-
 =item C<< max_pages => $max_pages >>
 
-sets how many 
+Sets how many 
 result pages the module is supposed to fetch back from Amazon, which
 only sends back 10 results per page.  
 Since each page requires a new query to Amazon, at most one query 
@@ -747,6 +748,19 @@ returning many pages of results.
 your Amazon affiliate ID, if you have one. It defaults to 
 C<webservices-20> which is currently (as of 06/2003) 
 required by Amazon.
+
+=item C<< strict => 1 >>
+
+Makes sure that C<Net::Amazon> complies with Amazon's terms of service
+by limiting the number of outgoing requests to 1 per second. Defaults
+to C<1>, enabling rate limiting as defined via C<rate_limit>.
+
+=item C<< rate_limit => $reqs_per_sec >>
+
+Sets the rate limit to C<$reqs_per_sec> requests per second if 
+rate limiting has been enabled with C<strict> (see above).
+Defaults to C<1>, limiting the number of outgoing requests to 
+1 per second.
 
 =back
 
