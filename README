@@ -1,5 +1,5 @@
 ######################################################################
-    Net::Amazon 0.15
+    Net::Amazon 0.16
 ######################################################################
 
 NAME
@@ -395,6 +395,50 @@ WHY ISN'T THERE SUPPORT FOR METHOD XYZ?
     and if it works, I'll accept it and will work it into the main
     distribution. Your name will show up in the contributor's list below
     (unless you tell me otherwise).
+
+  SAMPLE SCRIPTS
+    There's a number of useful scripts in the distribution's eg/ directory.
+    Take "power" for example, written by Martin Streicher
+    <martin.streicher@apress.com>: I lets you perform a *power search* using
+    Amazon's query language. To search for all books written by Randal
+    Schwartz about Perl, call this from the command line:
+
+        power 'author: schwartz subject: perl'
+
+    Note that you need to quote the query string to pass it as one argument
+    to "power". If a power search returns more results than you want to
+    process at a time, just limit the number of pages, telling "power" which
+    page to start at ("-s") and which one to finish with ("-f"). Here's a
+    search for all books on the subject "computer", limited to the first 10
+    pages:
+
+        power -s 1 -f 10 'subject: computer'
+
+    Check out the script "power" in eg/ for more options.
+
+  HOW TO SEND ME PATCHES
+    If you want me to include your modification or enhancement in the
+    distribution of Net::Amazon, please do the following:
+
+    *   Work off the latest CVS version. Here's the steps to get it:
+
+            CVSROOT=:pserver:anonymous@cvs.net-amazon.sourceforge.net:/cvsroot/net-amazon
+            export CVSROOT
+            cvs login (just hit Enter)
+            cvs co Net-Amazon
+
+        This will create a new "Net-Amazon" directory with the latest
+        development version of "Net::Amazon" on your local machine.
+
+    *   Apply your changes to this development tree.
+
+    *   Run a diff between the tree and your changes it in this way:
+
+            cd Net-Amazon
+            cvs diff -Nau >patch_to_mike.txt
+
+    *   Email me "patch_to_mike.txt". If your patch works (and you've
+        included test cases and documentation), I'll apply it on the spot.
 
 INSTALLATION
     "Net::Amazon" depends on Log::Log4perl, which can be pulled from CPAN by
