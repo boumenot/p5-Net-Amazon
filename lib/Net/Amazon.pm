@@ -8,7 +8,7 @@ use 5.006;
 use strict;
 use warnings;
 
-our $VERSION          = '0.13';
+our $VERSION          = '0.14';
 our @CANNED_RESPONSES = ();
 
 use LWP::UserAgent;
@@ -132,7 +132,7 @@ sub request {
         );
 
         my $urlstr = $url->as_string;
-        my $xml = fetch_url($urlstr, $res);
+        my $xml = fetch_url($self, $urlstr, $res);
 
         if(!defined $xml) {
             return $res;
@@ -206,7 +206,7 @@ sub request {
 ##################################################
 sub fetch_url {
 ##################################################
-    my($url, $res) = @_;
+    my($self, $url, $res) = @_;
 
     my $max_retries = 2;
 
@@ -215,6 +215,16 @@ sub fetch_url {
     if(@CANNED_RESPONSES) {
         INFO("Serving canned response (testing)");
         return shift @CANNED_RESPONSES;
+    }
+
+    if(exists $self->{cache}) {
+        my $resp = $self->{cache}->get($url);
+        if(defined $resp) {
+            INFO("Serving from cache");
+            return $resp;
+        }
+
+        INFO("Cache miss");
     }
 
     my $ua = LWP::UserAgent->new();
@@ -242,6 +252,10 @@ sub fetch_url {
                 return undef;
             }
         }
+    }
+
+    if(exists $self->{cache}) {
+        $self->{cache}->set($url, $resp->content());
     }
 
     return $resp->content();
@@ -604,6 +618,33 @@ And here's one displaying someone's wishlist:
     } else {
         print $resp->message(), "\n";
     }
+
+=head1 CACHING
+
+Responses from the Amazon web service can be cached locally. C<Net::Amazon>'s
+C<new> method accepts a reference to a C<Cache> object. C<Cache> (and its
+companions like C<Cache::Memory>, C<Cache::File>, etc. can be downloaded
+from CPAN, please check their documentation for details. 
+
+Here's an example utilizing a file cache which causes C<Net::Amazon> to
+cache responses for 30 minutes:
+
+    my $cache = Cache::File->new( 
+        cache_root        => '/tmp/mycache',
+        default_expires   => '30 min',
+    );
+
+    my $ua = Net::Amazon->new(
+        token       => 'YOUR_AMZN_TOKEN',
+        cache       => $cache,
+    );
+
+C<Net::Amazon> uses I<positive> caching only, errors won't be cached. The
+associated requests will be sent to Amazon every time. 
+
+Positive cache 
+entries are keyed by the full URL used internally by requests submitted 
+to Amazon.
 
 =head1 DEBUGGING
 
