@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?><ProductInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://xml.amazon.com/schemas2/dev-heavy.xsd">
+
+   <Details url="http://www.amazon.com/exec/obidos/ASIN/0201360683/webservices-20?dev-t=YOUR_AMZN_TOKEN">
+      <Asin>0201360683</Asin>
+      <ProductName>Perl Power!: A JumpStart Guide to Programming with Perl 5</ProductName>
+      <Catalog>Book</Catalog>
+      <Authors>
+         <Author>Michael Schilli</Author>
+      </Authors>
+      <ReleaseDate>16 December, 1998</ReleaseDate>
+      <Manufacturer>Addison-Wesley Pub Co</Manufacturer>
+      <ImageUrlSmall>http://images.amazon.com/images/P/0201360683.01.THUMBZZZ.jpg</ImageUrlSmall>
+      <ImageUrlMedium>http://images.amazon.com/images/P/0201360683.01.MZZZZZZZ.jpg</ImageUrlMedium>
+      <ImageUrlLarge>http://images.amazon.com/images/P/0201360683.01.LZZZZZZZ.jpg</ImageUrlLarge>
+      <ListPrice>$39.99</ListPrice>
+      <OurPrice>$39.99</OurPrice>
+      <UsedPrice>$3.00</UsedPrice>
+      <ThirdPartyNewPrice>$14.97</ThirdPartyNewPrice>
+      <SalesRank>221,770</SalesRank>
+      <Lists>
+         <ListId>2J4E2VTVBUIYE</ListId>
+      </Lists>
+      <BrowseList>
+         <BrowseNode>
+            <BrowseName>Perl (Computer program languag</BrowseName>
+         </BrowseNode>
+         <BrowseNode>
+            <BrowseName>Object-Oriented Programming</BrowseName>
+         </BrowseNode>
+         <BrowseNode>
+            <BrowseName>Computer Bks - Languages / Programming</BrowseName>
+         </BrowseNode>
+         <BrowseNode>
+            <BrowseName>Computers</BrowseName>
+         </BrowseNode>
+         <BrowseNode>
+            <BrowseName>Programming Languages - CGI, Javascript, Perl, VBScript</BrowseName>
+         </BrowseNode>
+         <BrowseNode>
+            <BrowseName>Programming - General</BrowseName>
+         </BrowseNode>
+         <BrowseNode>
+            <BrowseName>Professional - General</BrowseName>
+         </BrowseNode>
+         <BrowseNode>
+            <BrowseName>Programming - Object Oriented Programming</BrowseName>
+         </BrowseNode>
+      </BrowseList>
+      <Media>Paperback</Media>
+      <NumMedia>1</NumMedia>
+      <Isbn>0201360683</Isbn>
+      <Availability>THIS TITLE IS CURRENTLY NOT AVAILABLE. If you would like to purchase this title, we recommend that you occasionally check this page to see if it has become available.</Availability>
+      <Reviews>
+         <AvgCustomerRating>4.33</AvgCustomerRating>
+         <TotalCustomerReviews>6</TotalCustomerReviews>
+         <CustomerReview>
+            <Rating>4</Rating>
+            <Summary>Good introduction to Perl, and great reference</Summary>
+            <Comment>From its corny title you might expect another one of those sleazy introductions to Perl (I can name a few), but I can happily say that this book is an exception. The overview of the language is excellent and very comprehensible. Even after reading Learning Perl and Programming Perl, I picked up some valuable tips. The chapters on Object Oriented Programming and Perl/Tk are also good. For the Perl/CGI part, you might consider reading additional material, however. All in all, a surprisingly good introduction and reference to Perl 5, both for the beginner and the more advanced programmer.</Comment>
+         </CustomerReview>
+         <CustomerReview>
+            <Rating>5</Rating>
+            <Summary>Perl power</Summary>
+            <Comment>Excellent book that gets you started with lots of areas of perl. Most of the code I have tried works fine with Activestates's 523 build and with the perl development kit 1.2.4. Having code that work is rare with these books especially with Windows. I use 98 and NT and unix. This book is not a diffinitive guide to perl but it gives you a good summay in most of the important area's and enought code to get started quickly. It gave me lots of ideas on things I could use perl for. I also like "Perl 5 complete" for theory, but the code for that book is very buggy and hard to get to work. I like its detailed explanation of how things are suppose to work. "Perl Cookbook" is also excellent for how to solve problems various kinds of problems. These are the best of the perl books I have.</Comment>
+         </CustomerReview>
+         <CustomerReview>
+            <Rating>2</Rating>
+            <Summary>Don't buy this book for CGI programming</Summary>
+            <Comment>I bought this book based on the 5-star reviews - never do THAT again......long on abstract examples that don't mirror the real world, short on logical explanations for the common man(woman).. I have had several other PERL books from the local library that were much better (Castros book is good, don't believe the condescending reviews) - not for the CGI web programmer</Comment>
+         </CustomerReview>
+      </Reviews>
+      <SimilarProducts>
+         <Product>0672320673</Product>
+      </SimilarProducts>
+   </Details>
+</ProductInfo>
