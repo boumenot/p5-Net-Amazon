@@ -1,5 +1,12 @@
 Revision history for Perl extension Net::Amazon:
 
+0.32 (10/16/2004)
+   (ms) Greg McCann <greg@cambria.com> added CollectiblePrice, 
+        CollectibleCount, NumberOfOfferings, UsedCount, ThirdPartyNewPrice,
+        ThirdPartyNewCount as default properties.
+
+   TODO: Add descriptions to =item CollectiblePrice() etc. in Property.pm
+
 0.31 (09/22/2004)
    (ms) Lance P Cleveland <lance@lancecleveland.com> noticed that somewhere
         between 0.26 and 0.30 the properties() method lost the ability to 

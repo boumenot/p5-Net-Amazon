@@ -8,7 +8,7 @@ use 5.006;
 use strict;
 use warnings;
 
-our $VERSION          = '0.31';
+our $VERSION          = '0.32';
 our @CANNED_RESPONSES = ();
 
 use LWP::UserAgent;
@@ -179,13 +179,14 @@ sub request {
                 last;
             }
                 
-	    if (ref($ref->{ErrorMsg}) eq "ARRAY") {
-	      # multiple errors, set arrary ref
-	      $res->messages( $ref->{ErrorMsg} );
-	    } else {
-	      # single error, create array
-	      $res->messages( [ $ref->{ErrorMsg} ] );
+            if (ref($ref->{ErrorMsg}) eq "ARRAY") {
+              # multiple errors, set arrary ref
+              $res->messages( $ref->{ErrorMsg} );
+            } else {
+              # single error, create array
+              $res->messages( [ $ref->{ErrorMsg} ] );
             }
+
             ERROR("Fetch Error: " . $res->message );
             $res->status("");
             return $res;
@@ -675,7 +676,13 @@ C<UsedPrice()>,
 C<ListPrice()>,
 C<ProductName()>,
 C<Availability()>,
-C<SalesRank()>.
+C<SalesRank()>,
+C<CollectiblePrice()>,
+C<CollectibleCount()>,
+C<NumberOfOfferings()>,
+C<UsedCount()>,
+C<ThirdPartyNewPrice()>,
+C<ThirdPartyNewCount()>.
 For details, check L<Net::Amazon::Property>.
 
 Also, the specialized classes C<Net::Amazon::Property::Book> and
@@ -767,7 +774,7 @@ as an example):
 
     my $req = Net::Amazon::Request::Keyword->new(
         keyword   => 'perl',
-        mode      => 'books',
+	mode      => 'books',
     );
 
 and are handed over to the user agent like that:
@@ -819,8 +826,6 @@ Sets the rate limit to C<$reqs_per_sec> requests per second if
 rate limiting has been enabled with C<strict> (see above).
 Defaults to C<1>, limiting the number of outgoing requests to 
 1 per second.
-
-=back
 
 =item C<< $resp = $ua->request($request) >>
 

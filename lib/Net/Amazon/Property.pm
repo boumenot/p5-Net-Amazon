@@ -19,7 +19,10 @@ our @DEFAULT_ATTRIBUTES = qw(
   OurPrice ImageUrlLarge ImageUrlMedium ImageUrlSmall
   ReleaseDate Catalog Asin url Manufacturer UsedPrice
   ListPrice ProductName Availability SalesRank
-  Media NumMedia ProductDescription);
+  Media NumMedia ProductDescription
+  CollectiblePrice CollectibleCount NumberOfOfferings
+  UsedCount ThirdPartyNewPrice ThirdPartyNewCount
+);
 
 __PACKAGE__->make_accessor($_) for @DEFAULT_ATTRIBUTES;
 __PACKAGE__->make_accessor($_) for qw(year review_set);
@@ -251,6 +254,28 @@ Number of media the item carries (1,2 CDs etc.).
 =item ProductDescription()
 
 Lengthy textual description of the product.
+
+=item CollectiblePrice() 
+
+Lowest collectible price.
+
+=item CollectibleCount()
+
+Number of collectible items available.
+
+=item NumberOfOfferings()
+
+=item UsedCount()
+
+Number of used items available.
+
+=item ThirdPartyNewPrice()
+
+Lowest third party price.
+
+=item ThirdPartyNewCount()
+
+Number of third party items available.
 
 =item year()
 

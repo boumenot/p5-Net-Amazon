@@ -1,5 +1,5 @@
 ######################################################################
-    Net::Amazon 0.31
+    Net::Amazon 0.32
 ######################################################################
 
 NAME
@@ -141,7 +141,9 @@ DESCRIPTION
     "Net::Amazon::Property" objects are "OurPrice()", "ImageUrlLarge()",
     "ImageUrlMedium()", "ImageUrlSmall()", "ReleaseDate()", "Catalog()",
     "Asin()", "url()", "Manufacturer()", "UsedPrice()", "ListPrice()",
-    "ProductName()", "Availability()", "SalesRank()". For details, check
+    "ProductName()", "Availability()", "SalesRank()", "CollectiblePrice()",
+    "CollectibleCount()", "NumberOfOfferings()", "UsedCount()",
+    "ThirdPartyNewPrice()", "ThirdPartyNewCount()". For details, check
     Net::Amazon::Property.
 
     Also, the specialized classes "Net::Amazon::Property::Book" and
@@ -259,374 +261,381 @@ DESCRIPTION
             limiting has been enabled with "strict" (see above). Defaults to
             1, limiting the number of outgoing requests to 1 per second.
 
-    "$resp = $ua->request($request)"
-        Sends a request to the Amazon web service. $request is of a
-        "Net::Amazon::Request::*" type and $response will be of the
-        corresponding "Net::Amazon::Response::*" type.
+        "$resp = $ua->request($request)"
+            Sends a request to the Amazon web service. $request is of a
+            "Net::Amazon::Request::*" type and $response will be of the
+            corresponding "Net::Amazon::Response::*" type.
 
   Accessing foreign Amazon Catalogs
-    As of this writing (07/2003), Amazon also offers its web service for the
-    UK, Germany, and Japan. Just pass in
+        As of this writing (07/2003), Amazon also offers its web service for
+        the UK, Germany, and Japan. Just pass in
 
-        locale => 'uk'
-        locale => 'de'
-        locale => 'jp'
+            locale => 'uk'
+            locale => 'de'
+            locale => 'jp'
 
-    respectively to "Net::Amazon"'s constructor "new()" and instead of
-    returning results sent by the US mothership, it will query the
-    particular country's catalog and show prices in (gack!) local
-    currencies.
+        respectively to "Net::Amazon"'s constructor "new()" and instead of
+        returning results sent by the US mothership, it will query the
+        particular country's catalog and show prices in (gack!) local
+        currencies.
 
   EXAMPLE
-    Here's a full-fledged example doing a artist search:
+        Here's a full-fledged example doing a artist search:
 
-        use Net::Amazon;
-        use Net::Amazon::Request::Artist;
-        use Data::Dumper;
+            use Net::Amazon;
+            use Net::Amazon::Request::Artist;
+            use Data::Dumper;
 
-        die "usage: $0 artist\n(use Zwan as an example)\n"
-            unless defined $ARGV[0];
+            die "usage: $0 artist\n(use Zwan as an example)\n"
+                unless defined $ARGV[0];
 
-        my $ua = Net::Amazon->new(
-            token       => 'YOUR_AMZN_TOKEN',
-        );
+            my $ua = Net::Amazon->new(
+                token       => 'YOUR_AMZN_TOKEN',
+            );
 
-        my $req = Net::Amazon::Request::Artist->new(
-            artist  => $ARGV[0],
-        );
+            my $req = Net::Amazon::Request::Artist->new(
+                artist  => $ARGV[0],
+            );
 
-           # Response is of type Net::Amazon::Artist::Response
-        my $resp = $ua->request($req);
+               # Response is of type Net::Amazon::Artist::Response
+            my $resp = $ua->request($req);
 
-        if($resp->is_success()) {
-            print $resp->as_string, "\n";
-        } else {
-            print $resp->message(), "\n";
-        }
+            if($resp->is_success()) {
+                print $resp->as_string, "\n";
+            } else {
+                print $resp->message(), "\n";
+            }
 
-    And here's one displaying someone's wishlist:
+        And here's one displaying someone's wishlist:
 
-        use Net::Amazon;
-        use Net::Amazon::Request::Wishlist;
+            use Net::Amazon;
+            use Net::Amazon::Request::Wishlist;
 
-        die "usage: $0 wishlist_id\n" .
-            "(use 1XL5DWOUFMFVJ as an example)\n" unless $ARGV[0];
+            die "usage: $0 wishlist_id\n" .
+                "(use 1XL5DWOUFMFVJ as an example)\n" unless $ARGV[0];
 
-        my $ua = Net::Amazon->new(
-            token       => 'YOUR_AMZN_TOKEN',
-        );
+            my $ua = Net::Amazon->new(
+                token       => 'YOUR_AMZN_TOKEN',
+            );
 
-        my $req = Net::Amazon::Request::Wishlist->new(
-            id  => $ARGV[0]
-        );
+            my $req = Net::Amazon::Request::Wishlist->new(
+                id  => $ARGV[0]
+            );
 
-           # Response is of type Net::Amazon::ASIN::Response
-        my $resp = $ua->request($req);
+               # Response is of type Net::Amazon::ASIN::Response
+            my $resp = $ua->request($req);
 
-        if($resp->is_success()) {
-            print $resp->as_string, "\n";
-        } else {
-            print $resp->message(), "\n";
-        }
+            if($resp->is_success()) {
+                print $resp->as_string, "\n";
+            } else {
+                print $resp->message(), "\n";
+            }
 
 CACHING
-    Responses returned by Amazon's web service can be cached locally.
-    "Net::Amazon"'s "new" method accepts a reference to a "Cache" object.
-    "Cache" (or one of its companions like "Cache::Memory", "Cache::File",
-    etc.) can be downloaded from CPAN, please check their documentation for
-    details. In fact, any other type of cache implementation will do as
-    well, see the requirements below.
+        Responses returned by Amazon's web service can be cached locally.
+        "Net::Amazon"'s "new" method accepts a reference to a "Cache"
+        object. "Cache" (or one of its companions like "Cache::Memory",
+        "Cache::File", etc.) can be downloaded from CPAN, please check their
+        documentation for details. In fact, any other type of cache
+        implementation will do as well, see the requirements below.
 
-    Here's an example utilizing a file cache which causes "Net::Amazon" to
-    cache responses for 30 minutes:
+        Here's an example utilizing a file cache which causes "Net::Amazon"
+        to cache responses for 30 minutes:
 
-        use Cache::File;
+            use Cache::File;
 
-        my $cache = Cache::File->new( 
-            cache_root        => '/tmp/mycache',
-            default_expires   => '30 min',
-        );
+            my $cache = Cache::File->new( 
+                cache_root        => '/tmp/mycache',
+                default_expires   => '30 min',
+            );
 
-        my $ua = Net::Amazon->new(
-            token       => 'YOUR_AMZN_TOKEN',
-            cache       => $cache,
-        );
+            my $ua = Net::Amazon->new(
+                token       => 'YOUR_AMZN_TOKEN',
+                cache       => $cache,
+            );
 
-    "Net::Amazon" uses *positive* caching only, errors won't be cached.
-    Erroneous requests will be sent to Amazon every time. Positive cache
-    entries are keyed by the full URL used internally by requests submitted
-    to Amazon.
+        "Net::Amazon" uses *positive* caching only, errors won't be cached.
+        Erroneous requests will be sent to Amazon every time. Positive cache
+        entries are keyed by the full URL used internally by requests
+        submitted to Amazon.
 
-    Caching isn't limited to the "Cache" class. Any cache object which
-    adheres to the following interface can be used:
+        Caching isn't limited to the "Cache" class. Any cache object which
+        adheres to the following interface can be used:
 
-            # Set a cache value
-        $cache->set($key, $value);
+                # Set a cache value
+            $cache->set($key, $value);
 
-            # Return a cached value, 'undef' if it doesn't exist
-        $cache->get($key);
+                # Return a cached value, 'undef' if it doesn't exist
+            $cache->get($key);
 
 PROXY SETTINGS
-    "Net::Amazon" uses "LWP::UserAgent" under the hood to send web requests
-    to Amazon's web site. If you're in an environment where all Web traffic
-    goes through a proxy, there's two ways to configure that.
+        "Net::Amazon" uses "LWP::UserAgent" under the hood to send web
+        requests to Amazon's web site. If you're in an environment where all
+        Web traffic goes through a proxy, there's two ways to configure
+        that.
 
-    First, "Net::Amazon" picks up proxy settings from environment variables:
+        First, "Net::Amazon" picks up proxy settings from environment
+        variables:
 
-        export http_proxy=http://proxy.my.place:8080
+            export http_proxy=http://proxy.my.place:8080
 
-    in the surrounding shell or setting
+        in the surrounding shell or setting
 
-        $ENV{http_proxy} = "http://proxy.my.place:8080";
+            $ENV{http_proxy} = "http://proxy.my.place:8080";
 
-    in your Perl script will route all requests through the specified proxy.
+        in your Perl script will route all requests through the specified
+        proxy.
 
-    Secondly, you can pass a user agent instance to Net::Amazon's
-    constructor:
+        Secondly, you can pass a user agent instance to Net::Amazon's
+        constructor:
 
-        use Net::Amazon;
-        use LWP::UserAgent;
+            use Net::Amazon;
+            use LWP::UserAgent;
 
-        my $ua = LWP::UserAgent->new();
-        my $na = Net::Amazon->new(ua => $ua, token => 'YOUR_AMZN_TOKEN');
-        # ...
+            my $ua = LWP::UserAgent->new();
+            my $na = Net::Amazon->new(ua => $ua, token => 'YOUR_AMZN_TOKEN');
+            # ...
 
-    This way, you can configure $ua up front before Net::Amazon will use it.
+        This way, you can configure $ua up front before Net::Amazon will use
+        it.
 
 DEBUGGING
-    If something's going wrong and you want more verbosity, just bump up
-    "Net::Amazon"'s logging level. "Net::Amazon" comes with "Log::Log4perl"
-    statements embedded, which are disabled by default. However, if you
-    initialize "Log::Log4perl", e.g. like
+        If something's going wrong and you want more verbosity, just bump up
+        "Net::Amazon"'s logging level. "Net::Amazon" comes with
+        "Log::Log4perl" statements embedded, which are disabled by default.
+        However, if you initialize "Log::Log4perl", e.g. like
 
-        use Net::Amazon;
-        use Log::Log4perl qw(:easy);
+            use Net::Amazon;
+            use Log::Log4perl qw(:easy);
 
-        Log::Log4perl->easy_init($DEBUG);
-        my Net::Amazon->new();
-        # ...
+            Log::Log4perl->easy_init($DEBUG);
+            my Net::Amazon->new();
+            # ...
 
-    you'll see what's going on behind the scenes, what URLs the module is
-    requesting from Amazon and so forth. Log::Log4perl allows all kinds of
-    fancy stuff, like writing to a file or enabling verbosity in certain
-    parts only -- check http://log4perl.sourceforge.net for details.
+        you'll see what's going on behind the scenes, what URLs the module
+        is requesting from Amazon and so forth. Log::Log4perl allows all
+        kinds of fancy stuff, like writing to a file or enabling verbosity
+        in certain parts only -- check http://log4perl.sourceforge.net for
+        details.
 
 LIVE TESTING
-    Results returned by Amazon can be incomplete or simply wrong at times,
-    due to their "best effort" design of the service. This is why the test
-    suite that comes with this module has been changed to perform its test
-    cases against canned data. If you want to perform the tests against the
-    live Amazon servers instead, just set the environment variable
+        Results returned by Amazon can be incomplete or simply wrong at
+        times, due to their "best effort" design of the service. This is why
+        the test suite that comes with this module has been changed to
+        perform its test cases against canned data. If you want to perform
+        the tests against the live Amazon servers instead, just set the
+        environment variable
 
-        NET_AMAZON_LIVE_TESTS=1
+            NET_AMAZON_LIVE_TESTS=1
 
 WHY ISN'T THERE SUPPORT FOR METHOD XYZ?
-    Because nobody wrote it yet. If Net::Amazon doesn't yet support a method
-    advertised on Amazon's web service, you could help us out. Net::Amazon
-    has been designed to be expanded over time, usually it only takes a
-    couple of lines to support a new method, the rest is done via
-    inheritance within Net::Amazon.
+        Because nobody wrote it yet. If Net::Amazon doesn't yet support a
+        method advertised on Amazon's web service, you could help us out.
+        Net::Amazon has been designed to be expanded over time, usually it
+        only takes a couple of lines to support a new method, the rest is
+        done via inheritance within Net::Amazon.
 
-    Here's the basic plot:
+        Here's the basic plot:
 
-    *   Get Net::Amazon from CVS. Use
+        *   Get Net::Amazon from CVS. Use
 
-                # (Just hit enter when prompted for a password)
-            cvs -d:pserver:anonymous@cvs.net-amazon.sourceforge.net:/cvsroot/net-amazon login
-            cvs -z3 -d:pserver:anonymous@cvs.net-amazon.sourceforge.net:/cvsroot/net-amazon co Net-Amazon
+                    # (Just hit enter when prompted for a password)
+                cvs -d:pserver:anonymous@cvs.net-amazon.sourceforge.net:/cvsroot/net-amazon login
+                cvs -z3 -d:pserver:anonymous@cvs.net-amazon.sourceforge.net:/cvsroot/net-amazon co Net-Amazon
 
-        If this doesn't work, just use the latest distribution from
-        net-amazon.sourceforge.net.
+            If this doesn't work, just use the latest distribution from
+            net-amazon.sourceforge.net.
 
-    *   Write a new Net::Amazon::Request::XYZ package, start with this
-        template
+        *   Write a new Net::Amazon::Request::XYZ package, start with this
+            template
 
-            ######################################
-            package Net::Amazon::Request::XYZ;
-            ######################################
-            use base qw(Net::Amazon::Request);
+                ######################################
+                package Net::Amazon::Request::XYZ;
+                ######################################
+                use base qw(Net::Amazon::Request);
 
-            ######################################
-            sub new {
-            ######################################
-                my($class, %options) = @_;
+                ######################################
+                sub new {
+                ######################################
+                    my($class, %options) = @_;
 
-                if(!exists $options{XYZ_option}) {
-                    die "Mandatory parameter 'XYZ_option' not defined";
+                    if(!exists $options{XYZ_option}) {
+                        die "Mandatory parameter 'XYZ_option' not defined";
+                    }
+    
+                    my $self = $class->SUPER::new(%options);
+    
+                    bless $self, $class;   # reconsecrate
                 }
+
+            and add documentation. Then, create a new
+            Net::Amazon::Response::XYZ module:
+
+                ##############################
+                package Net::Amazon::Response;
+                ##############################
+                use base qw(Net::Amazon::Response);
+
+                use Net::Amazon::Property;
+
+                ##############################
+                sub new {
+                ##############################
+                    my($class, %options) = @_;
     
-                my $self = $class->SUPER::new(%options);
+                    my $self = $class->SUPER::new(%options);
     
-                bless $self, $class;   # reconsecrate
-            }
+                    bless $self, $class;   # reconsecrate
+                }
 
-        and add documentation. Then, create a new Net::Amazon::Response::XYZ
-        module:
+            and also add documentation to it. Then, add the line
 
-            ##############################
-            package Net::Amazon::Response;
-            ##############################
-            use base qw(Net::Amazon::Response);
+                use Net::Amazon::Request::XYZ;
 
-            use Net::Amazon::Property;
+            to Net/Amazon.pm.
 
-            ##############################
-            sub new {
-            ##############################
-                my($class, %options) = @_;
-    
-                my $self = $class->SUPER::new(%options);
-    
-                bless $self, $class;   # reconsecrate
-            }
+        And that's it! Again, don't forget the *add documentation* part.
+        Modules without documentation are of no use to anybody but yourself.
 
-        and also add documentation to it. Then, add the line
+        Check out the different Net::Amazon::Request::* and
+        Net::Amazon::Response modules in the distribution if you need to
+        adapt your new module to fulfil any special needs, like a different
+        Amazon URL or a different way to handle the as_string() method.
+        Also, post and problems you might encounter to the mailing list,
+        we're gonna help you out.
 
-            use Net::Amazon::Request::XYZ;
+        If possible, provide a test case for your extension. When finished,
+        send a patch to the mailing list at
 
-        to Net/Amazon.pm.
+           net-amazon-devel@lists.sourceforge.net
 
-    And that's it! Again, don't forget the *add documentation* part. Modules
-    without documentation are of no use to anybody but yourself.
-
-    Check out the different Net::Amazon::Request::* and
-    Net::Amazon::Response modules in the distribution if you need to adapt
-    your new module to fulfil any special needs, like a different Amazon URL
-    or a different way to handle the as_string() method. Also, post and
-    problems you might encounter to the mailing list, we're gonna help you
-    out.
-
-    If possible, provide a test case for your extension. When finished, send
-    a patch to the mailing list at
-
-       net-amazon-devel@lists.sourceforge.net
-
-    and if it works, I'll accept it and will work it into the main
-    distribution. Your name will show up in the contributor's list below
-    (unless you tell me otherwise).
+        and if it works, I'll accept it and will work it into the main
+        distribution. Your name will show up in the contributor's list below
+        (unless you tell me otherwise).
 
   SAMPLE SCRIPTS
-    There's a number of useful scripts in the distribution's eg/ directory.
-    Take "power" for example, written by Martin Streicher
-    <martin.streicher@apress.com>: I lets you perform a *power search* using
-    Amazon's query language. To search for all books written by Randal
-    Schwartz about Perl, call this from the command line:
+        There's a number of useful scripts in the distribution's eg/
+        directory. Take "power" for example, written by Martin Streicher
+        <martin.streicher@apress.com>: I lets you perform a *power search*
+        using Amazon's query language. To search for all books written by
+        Randal Schwartz about Perl, call this from the command line:
 
-        power 'author: schwartz subject: perl'
+            power 'author: schwartz subject: perl'
 
-    Note that you need to quote the query string to pass it as one argument
-    to "power". If a power search returns more results than you want to
-    process at a time, just limit the number of pages, telling "power" which
-    page to start at ("-s") and which one to finish with ("-f"). Here's a
-    search for all books on the subject "computer", limited to the first 10
-    pages:
+        Note that you need to quote the query string to pass it as one
+        argument to "power". If a power search returns more results than you
+        want to process at a time, just limit the number of pages, telling
+        "power" which page to start at ("-s") and which one to finish with
+        ("-f"). Here's a search for all books on the subject "computer",
+        limited to the first 10 pages:
 
-        power -s 1 -f 10 'subject: computer'
+            power -s 1 -f 10 'subject: computer'
 
-    Check out the script "power" in eg/ for more options.
+        Check out the script "power" in eg/ for more options.
 
   HOW TO SEND ME PATCHES
-    If you want me to include your modification or enhancement in the
-    distribution of Net::Amazon, please do the following:
+        If you want me to include your modification or enhancement in the
+        distribution of Net::Amazon, please do the following:
 
-    *   Work off the latest CVS version. Here's the steps to get it:
+        *   Work off the latest CVS version. Here's the steps to get it:
 
-            CVSROOT=:pserver:anonymous@cvs.net-amazon.sourceforge.net:/cvsroot/net-amazon
-            export CVSROOT
-            cvs login (just hit Enter)
-            cvs co Net-Amazon
+                CVSROOT=:pserver:anonymous@cvs.net-amazon.sourceforge.net:/cvsroot/net-amazon
+                export CVSROOT
+                cvs login (just hit Enter)
+                cvs co Net-Amazon
 
-        This will create a new "Net-Amazon" directory with the latest
-        development version of "Net::Amazon" on your local machine.
+            This will create a new "Net-Amazon" directory with the latest
+            development version of "Net::Amazon" on your local machine.
 
-    *   Apply your changes to this development tree.
+        *   Apply your changes to this development tree.
 
-    *   Run a diff between the tree and your changes it in this way:
+        *   Run a diff between the tree and your changes it in this way:
 
-            cd Net-Amazon
-            cvs diff -Nau >patch_to_mike.txt
+                cd Net-Amazon
+                cvs diff -Nau >patch_to_mike.txt
 
-    *   Email me "patch_to_mike.txt". If your patch works (and you've
-        included test cases and documentation), I'll apply it on the spot.
+        *   Email me "patch_to_mike.txt". If your patch works (and you've
+            included test cases and documentation), I'll apply it on the
+            spot.
 
 INSTALLATION
-    "Net::Amazon" depends on Log::Log4perl, which can be pulled from CPAN by
-    simply saying
+        "Net::Amazon" depends on Log::Log4perl, which can be pulled from
+        CPAN by simply saying
 
-        perl -MCPAN -eshell 'install Log::Log4perl'
+            perl -MCPAN -eshell 'install Log::Log4perl'
 
-    Also, it needs LWP::UserAgent and XML::Simple 2.x, which can be obtained
-    in a similar way.
+        Also, it needs LWP::UserAgent and XML::Simple 2.x, which can be
+        obtained in a similar way.
 
-    Once all dependencies have been resolved, "Net::Amazon" installs with
-    the typical sequence
+        Once all dependencies have been resolved, "Net::Amazon" installs
+        with the typical sequence
 
-        perl Makefile.PL
-        make
-        make test
-        make install
+            perl Makefile.PL
+            make
+            make test
+            make install
 
-    Make sure you're connected to the Internet while running "make test"
-    because it will actually contact amazon.com and run a couple of live
-    tests.
+        Make sure you're connected to the Internet while running "make test"
+        because it will actually contact amazon.com and run a couple of live
+        tests.
 
-    The module's distribution tarball and documentation are available at
+        The module's distribution tarball and documentation are available at
 
-        http://perlmeister.com/devel/#amzn 
+            http://perlmeister.com/devel/#amzn 
 
-    and on CPAN.
+        and on CPAN.
 
 SEE ALSO
-    The following modules play well within the "Net::Amazon" framework:
+        The following modules play well within the "Net::Amazon" framework:
 
-    "Net::Amazon::RemoteCart"
-        by David Emery <dave@skiddlydee.com> provides a complete API for
-        creating Amazon shopping carts on a local site, managing them and
-        finally submitting them to Amazon for checkout. It is available on
-        CPAN.
+        "Net::Amazon::RemoteCart"
+            by David Emery <dave@skiddlydee.com> provides a complete API for
+            creating Amazon shopping carts on a local site, managing them
+            and finally submitting them to Amazon for checkout. It is
+            available on CPAN.
 
 CONTACT
-    The "Net::Amazon" project's home page is hosted on
+        The "Net::Amazon" project's home page is hosted on
 
-        http://net-amazon.sourceforge.net
+            http://net-amazon.sourceforge.net
 
-    where you can find documentation, news and the latest development and
-    stable releases for download. If you have questions about how to use
-    "Net::Amazon", want to report a bug or just participate in its
-    development, please send a message to the mailing list
-    net-amazon-devel@lists.sourceforge.net
+        where you can find documentation, news and the latest development
+        and stable releases for download. If you have questions about how to
+        use "Net::Amazon", want to report a bug or just participate in its
+        development, please send a message to the mailing list
+        net-amazon-devel@lists.sourceforge.net
 
 AUTHOR
-    Mike Schilli, <na@perlmeister.com> (Please contact me via the mailing
-    list: net-amazon-devel@lists.sourceforge.net )
+        Mike Schilli, <na@perlmeister.com> (Please contact me via the
+        mailing list: net-amazon-devel@lists.sourceforge.net )
 
-    Contributors (thanks y'all!):
+        Contributors (thanks y'all!):
 
-        Andy Grundman <andy@hybridized.org>
-        Barnaby Claydon <bclaydon@perseus.com>
-        Batara Kesuma <bkesuma@gaijinweb.com>
-        Bill Fitzpatrick
-        Brian <brianbrian@gmail.com>
-        Brian Hirt <bhirt@mobygames.com>
-        Dan Kreft <dan@kreft.net>
-        Dan Sully <daniel@electricrain.com>
-        Jackie Hamilton <kira@cgi101.com>
-        Konstantin Gredeskoul <kig@get.topica.com>
-        Lance Cleveland <lancec@proactivewm.com>
-        Martha Greenberg <marthag@mit.edu>
-        Martin Streicher <martin.streicher@apress.com>
-        Mike Evron <evronm@dtcinc.net>
-        Padraic Renaghan <padraic@renaghan.com>
-        rayg <rayg@varchars.com>
-        Robert Graff <rgraff@workingdemo.com>
-        Robert Rothenberg <wlkngowl@i-2000.com>
-        Steve Rushe <steve@deeden.co.uk>
-        Tatsuhiko Miyagawa <miyagawa@livedoor.jp>
-        Tony Bowden <tony@kasei.com>
+            Andy Grundman <andy@hybridized.org>
+            Barnaby Claydon <bclaydon@perseus.com>
+            Batara Kesuma <bkesuma@gaijinweb.com>
+            Bill Fitzpatrick
+            Brian <brianbrian@gmail.com>
+            Brian Hirt <bhirt@mobygames.com>
+            Dan Kreft <dan@kreft.net>
+            Dan Sully <daniel@electricrain.com>
+            Jackie Hamilton <kira@cgi101.com>
+            Konstantin Gredeskoul <kig@get.topica.com>
+            Lance Cleveland <lancec@proactivewm.com>
+            Martha Greenberg <marthag@mit.edu>
+            Martin Streicher <martin.streicher@apress.com>
+            Mike Evron <evronm@dtcinc.net>
+            Padraic Renaghan <padraic@renaghan.com>
+            rayg <rayg@varchars.com>
+            Robert Graff <rgraff@workingdemo.com>
+            Robert Rothenberg <wlkngowl@i-2000.com>
+            Steve Rushe <steve@deeden.co.uk>
+            Tatsuhiko Miyagawa <miyagawa@livedoor.jp>
+            Tony Bowden <tony@kasei.com>
 
 COPYRIGHT AND LICENSE
-    Copyright 2003, 2004 by Mike Schilli <na@perlmeister.com>
+        Copyright 2003, 2004 by Mike Schilli <na@perlmeister.com>
 
-    This library is free software; you can redistribute it and/or modify it
-    under the same terms as Perl itself.
+        This library is free software; you can redistribute it and/or modify
+        it under the same terms as Perl itself.
 
