@@ -1020,6 +1020,7 @@ Contributors (thanks y'all!):
     Padraic Renaghan <padraic@renaghan.com>
     rayg <rayg@varchars.com>
     Robert Graff <rgraff@workingdemo.com>
+    Tatsuhiko Miyagawa <miyagawa@livedoor.jp>
     Tony Bowden <tony@kasei.com>
 
 =head1 COPYRIGHT AND LICENSE
