@@ -618,6 +618,16 @@ is requesting from Amazon and so forth. Log::Log4perl allows all kinds
 of fancy stuff, like writing to a file or enabling verbosity in certain
 parts only -- check http://log4perl.sourceforge.net for details.
 
+=head1 LIVE TESTING
+
+Results returned by Amazon can be incomplete or simply wrong at times,
+due to their "best effort" design of the service. This is why the test
+suite that comes with this module has been changed to perform its test
+cases against canned data. If you want to perform the tests against
+the live Amazon servers instead, just set the environment variable
+
+    NET_AMAZON_LIVE_TESTS=1
+
 =head1 INSTALLATION
 
 C<Net::Amazon> depends on Log::Log4perl, which can be pulled from CPAN by
