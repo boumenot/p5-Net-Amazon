@@ -11,6 +11,9 @@ use strict;
 use Test::More tests => 22;
 BEGIN { use_ok('Net::Amazon') };
 
+#use Log::Log4perl qw(:easy);
+#Log::Log4perl->easy_init($DEBUG);
+
 use Net::Amazon::Request::ASIN;
 use Net::Amazon::Response::ASIN;
 
