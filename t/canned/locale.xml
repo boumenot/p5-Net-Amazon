@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><ProductInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://xml.amazon.com/schemas3/dev-heavy.xsd">
+
+<Request><Args><Arg value="libwww-perl/5.76" name="UserAgent"></Arg><Arg value="1MJHHX5ESW823C8R64QQ" name="RequestID"></Arg><Arg value="3827313783" name="AsinSearch"></Arg><Arg value="de" name="locale"></Arg><Arg value="1" name="page"></Arg><Arg value="YOUR_AMZN_TOKEN" name="dev-t"></Arg><Arg value="webservices-20" name="t"></Arg><Arg value="xml" name="f"></Arg><Arg value="books" name="mode"></Arg><Arg value="heavy" name="type"></Arg><Arg value="+salesrank" name="sort"></Arg></Args></Request>   <Details url="http://www.amazon.de/exec/obidos/ASIN/3827313783/webservices-20?dev-t=YOUR_AMZN_TOKEN%26camp=2025%26link_code=xm2">
+      <Asin>3827313783</Asin>
+      <ProductName>Go To Perl 5 .</ProductName>
+      <Catalog>Book</Catalog>
+      <Authors>
+         <Author>Michael Schilli</Author>
+      </Authors>
+      <ReleaseDate>15. Juni 1998</ReleaseDate>
+      <Manufacturer>Addison-Wesley</Manufacturer>
+      <ImageUrlSmall>http://images-eu.amazon.com/images/P/3827313783.03.THUMBZZZ.jpg</ImageUrlSmall>
+      <ImageUrlMedium>http://images-eu.amazon.com/images/P/3827313783.03.MZZZZZZZ.jpg</ImageUrlMedium>
+      <ImageUrlLarge>http://images-eu.amazon.com/images/P/3827313783.03.LZZZZZZZ.jpg</ImageUrlLarge>
+      <ListPrice>EUR 32,66</ListPrice>
+      <OurPrice>EUR 34,95</OurPrice>
+      <UsedPrice>EUR 10,00</UsedPrice>
+      <ThirdPartyNewPrice>EUR 34,95</ThirdPartyNewPrice>
+      <SalesRank>49.850</SalesRank>
+      <Lists>
+         <ListId>AZ30P8S2SVXI</ListId>
+      </Lists>
+      <BrowseList>
+         <BrowseNode>
+            <BrowseId>1201700</BrowseId>
+            <BrowseName>Kategorien - Computer &amp; Internet - Programmierung - Programmiersprachen - Perl - Alle Bücher</BrowseName>
+         </BrowseNode>
+         <BrowseNode>
+            <BrowseId>1201708</BrowseId>
+            <BrowseName>Kategorien - Computer &amp; Internet - Programmierung - Programmiersprachen - Perl - Für Programmierer</BrowseName>
+         </BrowseNode>
+         <BrowseNode>
+            <BrowseId>502640</BrowseId>
+            <BrowseName>Kategorien - Computer &amp; Internet - Überblick</BrowseName>
+         </BrowseNode>
+         <BrowseNode>
+            <BrowseId>655740</BrowseId>
+            <BrowseName>Kategorien - Fachbücher - Informatik - Praktische Informatik - Programmiersprachen &amp; Interpreter</BrowseName>
+         </BrowseNode>
+      </BrowseList>
+      <Media>Gebundene Ausgabe</Media>
+      <Isbn>3827313783</Isbn>
+      <Availability>F&amp;uuml;hren wir nicht oder nicht mehr - jetzt gebraucht vorbestellen.</Availability>
+      <Reviews>
+         <AvgCustomerRating>2.95</AvgCustomerRating>
+         <TotalCustomerReviews>19</TotalCustomerReviews>
+         <CustomerReview>
+            <Rating>5</Rating>
+            <Summary>sehr gutes Perl-Buch!</Summary>
+            <Comment>Michael Schilli, der vielen Lesern des Linux-Magazins durch seine monatlichen Kolumnen bekannt ist, hat ein hervorragendes Buch für den Einstieg in Perl geschrieben.&lt;P>Schilli hat sein Buch in 5 Abschnitte gegliedert. Im ersten Abschnitt, der Einführung in Perl, werden die Grundlagen der Skriptsprache erklärt. Anhand vieler Beispiele tasten sich die Leser dann bereits an File-Handling und Reguläre Ausdrücke heran. Bereits der zweite Abschnitt des Buches widmet sich der objekt-orientierten Programmierung, d.h. man lernt ziemlich schnell, wie man komplexere Programme in Angriff nehmen kann. Daran anschliessend widmet sich ein Abschnitt dem Einbinden von Modulen in eigene Programme. Für alle die, die ihre Programme mit einer schmucken GUI (Graphical User Interface) versehen wollen, sollte der Abschnitt "Graphische Oberflächen mit Tk" das Herz höher schlagen lassen. Hier wird erklärt, wie man mit dem Tk-Paket eigene graphische Frontends für seine Programme entwickeln kann. Der letzte Abschnitt des Buches widmet sich der Perl-Programmierung im Internet. Hier wird anhand vieler Beispiele gezeigt, wie man beispielsweise Daten von Websites automatisch per Perl extrahieren und in eigene Seiten einbinden kann. &lt;P>Das Buch verfügt weiterhin über einen großen Appendix-Teil, in dem erklärt wird, wie Perl zu installieren ist, wie man Scripts startet und Fehler findet. Auf der beiliegenden CD sind neben den zahlreichen Beispielen auch eine aktuelle Perl-Distribution sowie der Apache Webserver enthalten.&lt;P>Fazit: Dieses Buch ist sehr empfehlenswert. &lt;font size="-1" face="geneva, arial, helvetica">(Dies ist eine &lt;b>Amazon.de an der Uni&lt;/b>-Studentenrezension.)&lt;/font></Comment>
+         </CustomerReview>
+         <CustomerReview>
+            <Rating>5</Rating>
+            <Summary>Excellentes Buch auch für Fortgeschrittene</Summary>
+            <Comment>Nach langer Überlegung, denn Computerbücher sind meist teuer, habe ich mich doch für dieses Buch entschieden, weil es sehr umfassend auf verschiedenste Anwendungsbereiche von Perl eingeht. Es vergeht keine Seite ohne Beispiele, die man Dank der CD-ROM aber nicht mal mehr abtippen muß und alles ist "idiotensicher" beschrieben. Was mich nur ein wenig stört ist, daß fast nur die Arbeit mit Modulen beschrieben wird, obwohl sich manche Probleme mit etwas Umstand viel systemnaher und somit erheblich schneller, als es mit den Modulen möglich wäre, lösen lassen, denn Module sind öfters etwas träge oder klobig und manchmal auch fehlerhaft.</Comment>
+         </CustomerReview>
+         <CustomerReview>
+            <Rating>2</Rating>
+            <Summary>Verwirrend!</Summary>
+            <Comment>Mit der Aussage, daß es DAS Buch für Einsteiger und Fortgeschrittene sei, hat der Autor mein Interesse geweckt. Einstieg und Fortschritt in einem Buch, das hörte sich gut an. Außerdem hat mich zusätzlich die graphische Programmierung interessiert. Nachdem ich mich durch das erste Kapitel gearbeitet hatte, entstand in meinem Kopf ein wirrer Wust an Informationen, die ich irgendwie nicht ordnen konnte, geschweige denn sinnvoll anwenden konnte. Verzweifelt und vor allem enttäuscht hielt ich Ausschau nach einem neuen Buch und fand mit Perl 5 für Dummies genau das, was ich von Go to Perl 5 erwartet hatte. Alle Probleme und Fragen die sich bei mir mit GtP5 innerhalb einiger Stunden ergeben haben, hat das Buch innerhalb einer halben Stunde, ohne groß zu suchen, gelöst. Meiner Meinung nach ist GtP5 keinesfalls für den Einsteiger geeignet. An allen Enden und Ecken fehlen Syntaxbeschreibungen, die man sich erst mühselig aus der englischen Perl-Hilfe raussuchen muß. Vielleicht werde ich als Fortgeschrittener wieder auf das Buch zurückgreifen können. Jetzt verstaubt es leider bei mir im Zimmer. Für mich keinesfalls sein (teures) Geld wert.</Comment>
+         </CustomerReview>
+      </Reviews>
+   </Details>
+</ProductInfo>

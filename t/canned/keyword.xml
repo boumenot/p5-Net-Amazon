@@ -1,0 +1,409 @@
+<?xml version="1.0" encoding="UTF-8"?><ProductInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://xml.amazon.com/schemas3/dev-heavy.xsd">
+
+<Request><Args><Arg value="libwww-perl/5.76" name="UserAgent"></Arg><Arg value="1D4EECR73VG7D3G9T0F4" name="RequestID"></Arg><Arg value="us" name="locale"></Arg><Arg value="1" name="page"></Arg><Arg value="perl power" name="KeywordSearch"></Arg><Arg value="YOUR_AMZN_TOKEN" name="dev-t"></Arg><Arg value="webservices-20" name="t"></Arg><Arg value="xml" name="f"></Arg><Arg value="books" name="mode"></Arg><Arg value="heavy" name="type"></Arg><Arg value="+salesrank" name="sort"></Arg></Args></Request>   <TotalResults>6</TotalResults>
+   <TotalPages>1</TotalPages>
+   <Details url="http://www.amazon.com/exec/obidos/ASIN/1861004494/webservices-20?dev-t=YOUR_AMZN_TOKEN%26camp=2025%26link_code=xm2">
+      <Asin>1861004494</Asin>
+      <ProductName>Professional Perl Programming</ProductName>
+      <Catalog>Book</Catalog>
+      <Authors>
+         <Author>Peter Wainwright</Author>
+         <Author>Aldo Calpini</Author>
+         <Author>Arthur Corliss</Author>
+         <Author>Juan Julian Merelo Guervos</Author>
+         <Author>Chris Nandor</Author>
+         <Author>Aalhad Saraf</Author>
+         <Author>Shelley Powers</Author>
+         <Author>Arthur Corliss</Author>
+         <Author>Simon Cozens</Author>
+         <Author>JJ Merelo-Guervos</Author>
+      </Authors>
+      <ReleaseDate>February, 2001</ReleaseDate>
+      <Manufacturer>Wrox Press Inc</Manufacturer>
+      <ImageUrlSmall>http://images.amazon.com/images/P/1861004494.01.THUMBZZZ.jpg</ImageUrlSmall>
+      <ImageUrlMedium>http://images.amazon.com/images/P/1861004494.01.MZZZZZZZ.jpg</ImageUrlMedium>
+      <ImageUrlLarge>http://images.amazon.com/images/P/1861004494.01.LZZZZZZZ.jpg</ImageUrlLarge>
+      <ListPrice>$59.99</ListPrice>
+      <OurPrice>$59.99</OurPrice>
+      <UsedPrice>$5.24</UsedPrice>
+      <CollectiblePrice>$38.12</CollectiblePrice>
+      <ThirdPartyNewPrice>$4.90</ThirdPartyNewPrice>
+      <SalesRank>190,686</SalesRank>
+      <Lists>
+         <ListId>3K5KHAMQDHZPL</ListId>
+         <ListId>2G9AXENSOIAWP</ListId>
+      </Lists>
+      <BrowseList>
+         <BrowseNode>
+            <BrowseName>Computer Bks - Languages / Programming</BrowseName>
+         </BrowseNode>
+         <BrowseNode>
+            <BrowseName>Computer Books: General</BrowseName>
+         </BrowseNode>
+         <BrowseNode>
+            <BrowseName>Computers</BrowseName>
+         </BrowseNode>
+         <BrowseNode>
+            <BrowseName>Internet - General</BrowseName>
+         </BrowseNode>
+         <BrowseNode>
+            <BrowseName>Perl (Computer program language)</BrowseName>
+         </BrowseNode>
+         <BrowseNode>
+            <BrowseName>Programming - General</BrowseName>
+         </BrowseNode>
+         <BrowseNode>
+            <BrowseName>Programming Languages - CGI, Javascript, Perl, VBScript</BrowseName>
+         </BrowseNode>
+      </BrowseList>
+      <Media>Paperback</Media>
+      <NumMedia>1</NumMedia>
+      <Isbn>1861004494</Isbn>
+      <Availability>Out of Print--Limited Availability</Availability>
+      <Reviews>
+         <AvgCustomerRating>3.8</AvgCustomerRating>
+         <TotalCustomerReviews>5</TotalCustomerReviews>
+         <CustomerReview>
+            <Rating>3</Rating>
+            <Summary>very detailed but not easy to read</Summary>
+            <Comment>The book is very detailed and comprehensive, but it is not easy to read and probably not suitable for beginners. Specifically, it does not provide complete examples with inputs, code, and output. There are also plenty of typos and small errors. &lt;P>Still, in all fairness, this is a very comprehensive book with lots of topics not covered in other books. Also the paper is of good quality. Probably every advanced user should go through the book to pick up on things other books leave out.</Comment>
+         </CustomerReview>
+         <CustomerReview>
+            <Rating>5</Rating>
+            <Summary>Highly recommended for a broad audience</Summary>
+            <Comment>This is a very good Perl book! For beginners, intermediates or even advanced programmers in Perl. The book takes you from the basics to advanced applied Perl programming concepts.&lt;BR>The book manages what many others fail to do: It might be the only Perl book you ever need. If you worked through this book, additional information is readily available on the Internet. This book is comprehensive enough to cover everything you need to know about the Perl language to write large scale 'mission critical' applications. &lt;BR>Admitted, if you already own the O'Reillys 'Learning Perl', 'Perl' and 'Perl Cookbook' this book will not contain many news. However, it is written very well and it is understandable, something I cannot always say about the 'original' Perl books or documentation.&lt;BR>If you do web programming, a logical addition to this book is 'Professional Perl Development' which offers lots of good information on how to design sophisiticated web applications.</Comment>
+         </CustomerReview>
+         <CustomerReview>
+            <Rating>5</Rating>
+            <Summary>An excellent book for advanced programmers.</Summary>
+            <Comment>This is an excellent, thorough, fairly advanced book. &lt;P>Until now, I was an o'reilly zealot, clinging to my camel book and my CD bookshelf as the Only True Word. &lt;P>Finally, here is the first real competitor to that series of books, with a fresh approach to the language that shows that the authors really know what they are doing.&lt;P>So far, the book has done a great job covering all my industrial-strength perl questions with _examples that work_ and clear, concise explanations of the methods and the context. I find that the examples are really applicable to my professional needs as a contract perl programmer.&lt;P>There's a great section on object-oriented perl, as well as a good debugging section.&lt;P>IMHO, This is the best perl book out in a while.</Comment>
+         </CustomerReview>
+      </Reviews>
+      <SimilarProducts>
+         <Product>1861004389</Product>
+         <Product>1861003145</Product>
+         <Product>073571228X</Product>
+         <Product>0130351814</Product>
+         <Product>0672320673</Product>
+      </SimilarProducts>
+   </Details>
+   <Details url="http://www.amazon.com/exec/obidos/ASIN/1881957322/webservices-20?dev-t=YOUR_AMZN_TOKEN%26camp=2025%26link_code=xm2">
+      <Asin>1881957322</Asin>
+      <ProductName>Macperl: Power and Ease</ProductName>
+      <Catalog>Book</Catalog>
+      <Authors>
+         <Author>Vicki Brown</Author>
+      </Authors>
+      <ReleaseDate>01 April, 1998</ReleaseDate>
+      <Manufacturer>Prime Time Freeware</Manufacturer>
+      <ImageUrlSmall>http://images.amazon.com/images/P/1881957322.01.THUMBZZZ.jpg</ImageUrlSmall>
+      <ImageUrlMedium>http://images.amazon.com/images/P/1881957322.01.MZZZZZZZ.jpg</ImageUrlMedium>
+      <ImageUrlLarge>http://images.amazon.com/images/P/1881957322.01.LZZZZZZZ.jpg</ImageUrlLarge>
+      <ListPrice>$40.00</ListPrice>
+      <OurPrice>$40.00</OurPrice>
+      <UsedPrice>$3.17</UsedPrice>
+      <SalesRank>46,487</SalesRank>
+      <Lists>
+         <ListId>27Q0AG701NM9Y</ListId>
+      </Lists>
+      <BrowseList>
+         <BrowseNode>
+            <BrowseName>Computer Bks - Apple / Macintosh</BrowseName>
+         </BrowseNode>
+         <BrowseNode>
+            <BrowseName>Computer Books And Software</BrowseName>
+         </BrowseNode>
+         <BrowseNode>
+            <BrowseName>Hardware - Personal Computers - Macintosh</BrowseName>
+         </BrowseNode>
+         <BrowseNode>
+            <BrowseName>Programming Languages - CGI, Javascript, Perl, VBScript</BrowseName>
+         </BrowseNode>
+      </BrowseList>
+      <Media>Paperback</Media>
+      <NumMedia>1</NumMedia>
+      <Isbn>1881957322</Isbn>
+      <Availability>THIS TITLE IS CURRENTLY NOT AVAILABLE. If you would like to purchase this title, we recommend that you occasionally check this page to see if it has become available.</Availability>
+      <Reviews>
+         <AvgCustomerRating>3.62</AvgCustomerRating>
+         <TotalCustomerReviews>8</TotalCustomerReviews>
+         <CustomerReview>
+            <Rating>1</Rating>
+            <Summary>20 pages at the most</Summary>
+            <Comment>This book touches on several subjects without really explaining very many of them. Perhaps written by persons better able to write code than books, the syntax is overly loose and informal. The really useful data in this book would fit about 20 pages. The rest is teaser and fluff, the beginning of an idea without the essence. MacPerl is a wonderful, free tool for the Macintosh, but this book is not worth the price of admission.&lt;P>To sum it all up, its a hack job and a frustrating read.</Comment>
+         </CustomerReview>
+         <CustomerReview>
+            <Rating>3</Rating>
+            <Summary>It needs work</Summary>
+            <Comment>I'm glad this book was written because I love the Mac OS and want to see Perl developed on it. However, this book is not easy to use. It's clear that the authors do know what they're talking about, but they're not great at conveying lessons to the reader. Some script examples can be confusing to walk through when the authors say stuff like "Let's add this line to the script we've been writing" without telling you where in the script to add it, or what to line to replace. It seems as if they're so excited about the subject of the book that they fail to stick to repetetive teaching conventions (which I personally find very helpful with programming books. I'm sure not everyone does. Call me dry.) I plan to finish this book, but I actually found my C++ books easier to read, and that can't be becuase C++ is easier. I think with some revision, this book could be a great staple for Perl programming on the Mac. Namely: Pick a lesson format and stick with it. Don't just wander through the features of Perl. Still glad they wrote it, though. Viva the Mac OS. If you're an absolute beginner, buy this book if you're prepared to re-read sections. If you're somewhat experienced, this book will probably prove quite useful to you.</Comment>
+         </CustomerReview>
+         <CustomerReview>
+            <Rating>5</Rating>
+            <Summary>A superb way to learn Perl!</Summary>
+            <Comment>I first encountered this book first in electronic format on macperl.com, and used it to learn Perl with great success. In fact, I liked it so much that I actually ordered it!&lt;P>This is a superb book for learning programming. The approach to learning may be annoying for more experienced computer people, but for me it was just perfect. In under 2 months I have become extremely proficient in Perl programming. &lt;P>This book isn't merely good for Mac users either. A UNIX friend of mine gave up on "Learning Perl" from O'Reilly publishing, but he managed to learn Perl from this book! Kudos to Vicki Brown and Chris Nandor...and thanks for revamping the Slashcode, Chris!&lt;P>If you want to learn Perl, buy it!</Comment>
+         </CustomerReview>
+      </Reviews>
+      <SimilarProducts>
+         <Product>0596005571</Product>
+         <Product>0596006152</Product>
+         <Product>0596004605</Product>
+         <Product>0596005008</Product>
+      </SimilarProducts>
+   </Details>
+   <Details url="http://www.amazon.com/exec/obidos/ASIN/1850322538/webservices-20?dev-t=YOUR_AMZN_TOKEN%26camp=2025%26link_code=xm2">
+      <Asin>1850322538</Asin>
+      <ProductName>The Webmaster's Handbook: Perl Power for Your Web Server</ProductName>
+      <Catalog>Book</Catalog>
+      <Authors>
+         <Author>Christian Neuss</Author>
+         <Author>Johan Vromans</Author>
+      </Authors>
+      <ReleaseDate>01 February, 1996</ReleaseDate>
+      <Manufacturer>Itp New Media</Manufacturer>
+      <ImageUrlSmall>http://images.amazon.com/images/P/1850322538.01.THUMBZZZ.jpg</ImageUrlSmall>
+      <ImageUrlMedium>http://images.amazon.com/images/P/1850322538.01.MZZZZZZZ.jpg</ImageUrlMedium>
+      <ImageUrlLarge>http://images.amazon.com/images/P/1850322538.01.LZZZZZZZ.jpg</ImageUrlLarge>
+      <ListPrice>$29.95</ListPrice>
+      <OurPrice>$29.95</OurPrice>
+      <UsedPrice>$9.00</UsedPrice>
+      <ThirdPartyNewPrice>$19.99</ThirdPartyNewPrice>
+      <SalesRank>603,391</SalesRank>
+      <BrowseList>
+         <BrowseNode>
+            <BrowseName>Computer Bks - Internet</BrowseName>
+         </BrowseNode>
+         <BrowseNode>
+            <BrowseName>Computer Books: General</BrowseName>
+         </BrowseNode>
+         <BrowseNode>
+            <BrowseName>Computer Networks</BrowseName>
+         </BrowseNode>
+         <BrowseNode>
+            <BrowseName>Internet - General</BrowseName>
+         </BrowseNode>
+      </BrowseList>
+      <Media>Paperback</Media>
+      <NumMedia>1</NumMedia>
+      <Isbn>1850322538</Isbn>
+      <Availability>Special Order</Availability>
+      <Reviews>
+         <AvgCustomerRating>5</AvgCustomerRating>
+         <TotalCustomerReviews>2</TotalCustomerReviews>
+         <CustomerReview>
+            <Rating>5</Rating>
+            <Summary>It's still the best if you want to get to know the basics</Summary>
+            <Comment>I can highly recommend this book if you are interested, how things really work on the Web. It explains all the basics that are still - after 6 years - fundamental to most static and dynamic Web sites. The examples are very useful in the daily business of a Web master. Only a few books on this topic present really helpful information in a compact and easy to read way - this book does!&lt;P>Many thanks to Christian and Johan :-)</Comment>
+         </CustomerReview>
+         <CustomerReview>
+            <Rating>5</Rating>
+            <Summary>It's amazing they put so much info in such a thin book!</Summary>
+            <Comment>It presents all and only the information needed to start a web site. It gives reader a transparent view on how web works, no added complication or subtracted information. Has elegant examples in Perl, covering most of the basic needs in web development, from form handling to log file analysis, even have a working example of shopping cart. Gives a concise descriptions of HTTP and HTML. I read the book from cover to cover over a weekend, while have practically no prior knowledge on CGI or Perl, and get a jump start on both. It seems that every word in the book is useful and helpful. It's bit "old" now, but still gives one a solid understanding of how web works. An excellent technical book.</Comment>
+         </CustomerReview>
+      </Reviews>
+   </Details>
+   <Details url="http://www.amazon.com/exec/obidos/ASIN/0201360683/webservices-20?dev-t=YOUR_AMZN_TOKEN%26camp=2025%26link_code=xm2">
+      <Asin>0201360683</Asin>
+      <ProductName>Perl Power!: A JumpStart Guide to Programming with Perl 5</ProductName>
+      <Catalog>Book</Catalog>
+      <Authors>
+         <Author>Michael Schilli</Author>
+      </Authors>
+      <ReleaseDate>16 December, 1998</ReleaseDate>
+      <Manufacturer>Addison-Wesley Professional</Manufacturer>
+      <ImageUrlSmall>http://images.amazon.com/images/P/0201360683.01.THUMBZZZ.jpg</ImageUrlSmall>
+      <ImageUrlMedium>http://images.amazon.com/images/P/0201360683.01.MZZZZZZZ.jpg</ImageUrlMedium>
+      <ImageUrlLarge>http://images.amazon.com/images/P/0201360683.01.LZZZZZZZ.jpg</ImageUrlLarge>
+      <ListPrice>$39.99</ListPrice>
+      <OurPrice>$39.99</OurPrice>
+      <UsedPrice>$1.00</UsedPrice>
+      <ThirdPartyNewPrice>$9.41</ThirdPartyNewPrice>
+      <SalesRank>260,218</SalesRank>
+      <Lists>
+         <ListId>2J4E2VTVBUIYE</ListId>
+      </Lists>
+      <BrowseList>
+         <BrowseNode>
+            <BrowseName>Computer Bks - Languages / Programming</BrowseName>
+         </BrowseNode>
+         <BrowseNode>
+            <BrowseName>Computer Books And Software</BrowseName>
+         </BrowseNode>
+         <BrowseNode>
+            <BrowseName>Computers</BrowseName>
+         </BrowseNode>
+         <BrowseNode>
+            <BrowseName>Object-Oriented Programming</BrowseName>
+         </BrowseNode>
+         <BrowseNode>
+            <BrowseName>Perl (Computer program language)</BrowseName>
+         </BrowseNode>
+         <BrowseNode>
+            <BrowseName>Professional - General</BrowseName>
+         </BrowseNode>
+         <BrowseNode>
+            <BrowseName>Programming - General</BrowseName>
+         </BrowseNode>
+         <BrowseNode>
+            <BrowseName>Programming - Object Oriented Programming</BrowseName>
+         </BrowseNode>
+         <BrowseNode>
+            <BrowseName>Programming Languages - CGI, Javascript, Perl, VBScript</BrowseName>
+         </BrowseNode>
+      </BrowseList>
+      <Media>Paperback</Media>
+      <NumMedia>1</NumMedia>
+      <Isbn>0201360683</Isbn>
+      <Availability>Out of Print--Limited Availability</Availability>
+      <Reviews>
+         <AvgCustomerRating>4.33</AvgCustomerRating>
+         <TotalCustomerReviews>6</TotalCustomerReviews>
+         <CustomerReview>
+            <Rating>4</Rating>
+            <Summary>Good introduction to Perl, and great reference</Summary>
+            <Comment>From its corny title you might expect another one of those sleazy introductions to Perl (I can name a few), but I can happily say that this book is an exception. The overview of the language is excellent and very comprehensible. Even after reading Learning Perl and Programming Perl, I picked up some valuable tips. The chapters on Object Oriented Programming and Perl/Tk are also good. For the Perl/CGI part, you might consider reading additional material, however. All in all, a surprisingly good introduction and reference to Perl 5, both for the beginner and the more advanced programmer.</Comment>
+         </CustomerReview>
+         <CustomerReview>
+            <Rating>5</Rating>
+            <Summary>Perl power</Summary>
+            <Comment>Excellent book that gets you started with lots of areas of perl. Most of the code I have tried works fine with Activestates's 523 build and with the perl development kit 1.2.4. Having code that work is rare with these books especially with Windows. I use 98 and NT and unix. This book is not a diffinitive guide to perl but it gives you a good summay in most of the important area's and enought code to get started quickly. It gave me lots of ideas on things I could use perl for. I also like "Perl 5 complete" for theory, but the code for that book is very buggy and hard to get to work. I like its detailed explanation of how things are suppose to work. "Perl Cookbook" is also excellent for how to solve problems various kinds of problems. These are the best of the perl books I have.</Comment>
+         </CustomerReview>
+         <CustomerReview>
+            <Rating>2</Rating>
+            <Summary>Don't buy this book for CGI programming</Summary>
+            <Comment>I bought this book based on the 5-star reviews - never do THAT again......long on abstract examples that don't mirror the real world, short on logical explanations for the common man(woman).. I have had several other PERL books from the local library that were much better (Castros book is good, don't believe the condescending reviews) - not for the CGI web programmer</Comment>
+         </CustomerReview>
+      </Reviews>
+      <SimilarProducts>
+         <Product>0130351814</Product>
+         <Product>0596000278</Product>
+      </SimilarProducts>
+   </Details>
+   <Details url="http://www.amazon.com/exec/obidos/ASIN/0134393996/webservices-20?dev-t=YOUR_AMZN_TOKEN%26camp=2025%26link_code=xm2">
+      <Asin>0134393996</Asin>
+      <ProductName>Html 3.0 Cd With Javascript for the Mac and Power Mac</ProductName>
+      <Catalog>Book</Catalog>
+      <Authors>
+         <Author>Vivian Neou</Author>
+         <Author>Mimi Recker</Author>
+      </Authors>
+      <ReleaseDate>01 June, 1996</ReleaseDate>
+      <Manufacturer>Prentice Hall</Manufacturer>
+      <ImageUrlSmall>http://images.amazon.com/images/P/0134393996.01.THUMBZZZ.jpg</ImageUrlSmall>
+      <ImageUrlMedium>http://images.amazon.com/images/P/0134393996.01.MZZZZZZZ.jpg</ImageUrlMedium>
+      <ImageUrlLarge>http://images.amazon.com/images/P/0134393996.01.LZZZZZZZ.jpg</ImageUrlLarge>
+      <ListPrice>$44.95</ListPrice>
+      <OurPrice>$44.95</OurPrice>
+      <UsedPrice>$1.00</UsedPrice>
+      <CollectiblePrice>$11.44</CollectiblePrice>
+      <ThirdPartyNewPrice>$88.17</ThirdPartyNewPrice>
+      <SalesRank>504,397</SalesRank>
+      <BrowseList>
+         <BrowseNode>
+            <BrowseName>Computer Bks - Apple / Macintosh</BrowseName>
+         </BrowseNode>
+         <BrowseNode>
+            <BrowseName>Computer Books: General</BrowseName>
+         </BrowseNode>
+         <BrowseNode>
+            <BrowseName>Computer Networks</BrowseName>
+         </BrowseNode>
+         <BrowseNode>
+            <BrowseName>Computer Programming Languages</BrowseName>
+         </BrowseNode>
+         <BrowseNode>
+            <BrowseName>Computers</BrowseName>
+         </BrowseNode>
+         <BrowseNode>
+            <BrowseName>HTML (Document markup language)</BrowseName>
+         </BrowseNode>
+         <BrowseNode>
+            <BrowseName>Internet - Web Site Design</BrowseName>
+         </BrowseNode>
+         <BrowseNode>
+            <BrowseName>Java (Computer program language)</BrowseName>
+         </BrowseNode>
+         <BrowseNode>
+            <BrowseName>Programming Languages - CGI, Javascript, Perl, VBScript</BrowseName>
+         </BrowseNode>
+         <BrowseNode>
+            <BrowseName>Programming Languages - General</BrowseName>
+         </BrowseNode>
+         <BrowseNode>
+            <BrowseName>Programming Languages - HTML</BrowseName>
+         </BrowseNode>
+      </BrowseList>
+      <Media>Paperback</Media>
+      <NumMedia>1</NumMedia>
+      <Isbn>0134393996</Isbn>
+      <Availability>Out of Print--Limited Availability</Availability>
+      <Reviews>
+         <AvgCustomerRating>4</AvgCustomerRating>
+         <TotalCustomerReviews>1</TotalCustomerReviews>
+         <CustomerReview>
+            <Rating>4</Rating>
+            <Summary>Very good book!</Summary>
+            <Comment>I have read it several times, very good!</Comment>
+         </CustomerReview>
+      </Reviews>
+   </Details>
+   <Details url="http://www.amazon.com/exec/obidos/ASIN/0789706598/webservices-20?dev-t=YOUR_AMZN_TOKEN%26camp=2025%26link_code=xm2">
+      <Asin>0789706598</Asin>
+      <ProductName>Special Edition Using Perl 5 for Web Programming</ProductName>
+      <Catalog>Book</Catalog>
+      <Authors>
+         <Author>David Harlan</Author>
+         <Author>Micheal O Foghlu</Author>
+         <Author>Paul Doyle</Author>
+         <Author>Shelley Powers</Author>
+         <Author>Matthew D. Healy</Author>
+      </Authors>
+      <ReleaseDate>01 September, 1996</ReleaseDate>
+      <Manufacturer>Que</Manufacturer>
+      <ImageUrlSmall>http://images.amazon.com/images/P/0789706598.01.THUMBZZZ.jpg</ImageUrlSmall>
+      <ImageUrlMedium>http://images.amazon.com/images/P/0789706598.01.MZZZZZZZ.jpg</ImageUrlMedium>
+      <ImageUrlLarge>http://images.amazon.com/images/P/0789706598.01.LZZZZZZZ.jpg</ImageUrlLarge>
+      <ListPrice>$49.99</ListPrice>
+      <OurPrice>$49.99</OurPrice>
+      <UsedPrice>$1.90</UsedPrice>
+      <CollectiblePrice>$27.50</CollectiblePrice>
+      <ThirdPartyNewPrice>$4.71</ThirdPartyNewPrice>
+      <SalesRank>208,614</SalesRank>
+      <BrowseList>
+         <BrowseNode>
+            <BrowseName>Computer Bks - Languages / Programming</BrowseName>
+         </BrowseNode>
+         <BrowseNode>
+            <BrowseName>Computer Books: Languages</BrowseName>
+         </BrowseNode>
+         <BrowseNode>
+            <BrowseName>Programming - General</BrowseName>
+         </BrowseNode>
+         <BrowseNode>
+            <BrowseName>Programming Languages - General</BrowseName>
+         </BrowseNode>
+      </BrowseList>
+      <Media>Paperback</Media>
+      <NumMedia>1</NumMedia>
+      <Isbn>0789706598</Isbn>
+      <Availability>Out of Print--Limited Availability</Availability>
+      <Reviews>
+         <AvgCustomerRating>3.5</AvgCustomerRating>
+         <TotalCustomerReviews>8</TotalCustomerReviews>
+         <CustomerReview>
+            <Rating>3</Rating>
+            <Summary>Rushed into hardcopy</Summary>
+            <Comment>QUE must have pushed this book into print. As other reviewers have noted, one has to have dogged determination and stamina to digest this book. It presents a confusing, unrelated and diverse array of "my pet way do it" by several authors. The examples on the CD are pathetic - all lumped into one directory, no readme file(s), incomplete and therefore not runnable as-is. Example: to extract the files related to Ch 9 required sifting through the entire chapter, and then register.htm and its CGI backend were conspicuously missing. However, after bludgeoning my way through most of the book, I have extracted a small number of gems that are actually useful in real-life projects. The CD contains this whole book plus two others in HTML format. A nice idea, but each one is disorganized by a totally different team of people. There is no unified 'look-n-feel' and navigation is painful in all three books. Good as a reference, shop for it 2nd hand (and pay only what it is worth).</Comment>
+         </CustomerReview>
+         <CustomerReview>
+            <Rating>5</Rating>
+            <Summary>Very good if you want to make websites using Perl/CGI</Summary>
+            <Comment>I've read at least 6 books on perl, but if you want to specifically learn perl for websites, then this book is very good. It talks about databases (DBMs and SQL). Managing sessions and validating users, and it also talks about creating a shopping cart system. There is a chapter on CGI sercurity. Although the book was written in 1996 its a very good step in the right direction of making good, reliable CGI applications. In fact, compared to other CGI books printed in 96, this book is years ahead of them.</Comment>
+         </CustomerReview>
+         <CustomerReview>
+            <Rating>4</Rating>
+            <Summary>Be patient, and it'll pay off</Summary>
+            <Comment>When I bought this book, I had absolutely no serious programming background. I was pretty accomplished in HTML, but nothing advanced. At first, the book was a bit hard. But the technique that I found helpful is to re-read each section (or each topic). I haven't even looked on the CD yet, and I'm learning loads about Perl. Also, reading this book really helps one understand some more advanced Perl tutorials on the web. It doesn't get 5 stars though, because the reader has to really be committed. This isn't a light read: get in the thinking mood when you read it.</Comment>
+         </CustomerReview>
+      </Reviews>
+   </Details>
+</ProductInfo>
