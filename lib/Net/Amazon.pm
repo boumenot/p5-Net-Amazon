@@ -538,14 +538,16 @@ corresponding C<Net::Amazon::Response::*> type.
 
 =head2 Accessing foreign Amazon Catalogs
 
-As of this writing (06/2003), Amazon also offers its web service for
-its UK catalog. Just pass
+As of this writing (07/2003), Amazon also offers its web service for
+the UK, Germany, and Japan. Just pass in
 
     locale => 'uk'
+    locale => 'de'
+    locale => 'jp'
 
-to C<Net::Amazon>'s constructor C<new()> and instead of returning
-results sent by the US mothership, it will query the UK catalog
-and show prices in (gack!) Pounds.
+respectively to C<Net::Amazon>'s constructor C<new()> and instead of returning
+results sent by the US mothership, it will query the particular country's
+catalog and show prices in (gack!) local currencies.
 
 =head2 EXAMPLE
 
