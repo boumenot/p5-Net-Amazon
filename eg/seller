@@ -1,0 +1,31 @@
+#!/usr/bin/perl
+############################################################
+# Seller test
+############################################################
+use strict;
+use warnings;
+
+use Net::Amazon;
+use Net::Amazon::Request::Seller;
+use Log::Log4perl qw(:easy);
+
+#Log::Log4perl->easy_init($DEBUG);
+
+my $ua = Net::Amazon->new(
+    token       => 'YOUR_AMZN_TOKEN',
+);
+
+my $req = Net::Amazon::Request::Seller->new(
+    seller  => 'A2GXAGU54VOP7',
+);
+
+my $resp = $ua->request(
+    $req,
+);
+
+if($resp->is_success()) {
+    print $resp->result()->as_string(), "\n";
+} else {
+    print "Error: ",
+          $resp->message(), "\n";
+}

@@ -20,6 +20,7 @@ eg/maxauthors
 eg/power
 eg/rate_limit
 eg/reviews
+eg/seller
 eg/sim
 eg/textstream
 eg/upc
@@ -39,6 +40,7 @@ lib/Net/Amazon/Request/BrowseNode.pm
 lib/Net/Amazon/Request/Keyword.pm
 lib/Net/Amazon/Request/Manufacturer.pm
 lib/Net/Amazon/Request/Power.pm
+lib/Net/Amazon/Request/Seller.pm
 lib/Net/Amazon/Request/Similar.pm
 lib/Net/Amazon/Request/Sort.pm
 lib/Net/Amazon/Request/TextStream.pm
@@ -52,10 +54,13 @@ lib/Net/Amazon/Response/BrowseNode.pm
 lib/Net/Amazon/Response/Keyword.pm
 lib/Net/Amazon/Response/Manufacturer.pm
 lib/Net/Amazon/Response/Power.pm
+lib/Net/Amazon/Response/Seller.pm
 lib/Net/Amazon/Response/Similar.pm
 lib/Net/Amazon/Response/TextStream.pm
 lib/Net/Amazon/Response/UPC.pm
 lib/Net/Amazon/Response/Wishlist.pm
+lib/Net/Amazon/Result/Seller.pm
+lib/Net/Amazon/Result/Seller/Listing.pm
 Makefile.PL
 MANIFEST			This list of files
 MANIFEST.SKIP
@@ -73,6 +78,7 @@ t/009Blended.t
 t/010Artist.t
 t/011Locale.t
 t/012Keyword.t
+t/013Seller.t
 t/canned/artist.xml
 t/canned/asin_cd.xml
 t/canned/asin_cdm.xml
@@ -90,6 +96,7 @@ t/canned/power.xml
 t/canned/power_empty.xml
 t/canned/power_sorted.xml
 t/canned/reviews.xml
+t/canned/seller.xml
 t/canned/textstream.xml
 t/canned/upc_zwan.xml
 t/canned/wishlist1.xml

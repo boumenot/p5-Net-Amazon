@@ -8,7 +8,7 @@ use 5.006;
 use strict;
 use warnings;
 
-our $VERSION          = '0.28';
+our $VERSION          = '0.29_01';
 our @CANNED_RESPONSES = ();
 
 use LWP::UserAgent;
@@ -29,6 +29,7 @@ use constant SEARCH_TYPE_CLASS_MAP => {
     keyword      => 'Keyword',
     manufacturer => 'Manufacturer',
     power        => 'Power',
+    seller       => 'Seller',
     similar      => 'Similar',
     textstream   => 'TextStream',
     upc          => 'UPC',
@@ -611,7 +612,8 @@ checked for success or failure:
       print "Error: ", $resp->message(), "\n";
   }
 
-In case the request succeeds, the response contains one or more
+In case the request for an item search 
+succeeds, the response contains one or more
 Amazon 'properties', as it calls the products found.
 All matches can be retrieved from the Response 
 object using it's C<properties()> method.
@@ -725,6 +727,14 @@ for details. Mandatory parameter C<power>.
 
 Searches for all items made by a given manufacturer. Mandatory parameter
 C<manufacturer>.
+
+=item Net::Amazon::Request::Seller
+
+Searches for a third-party seller on Amazon by seller ID. This search
+is different than the previous ones, since it doesn't return Amazon
+items, but a single seller record. Don't use the C<properties()> method
+on the response, use C<result()> instead, which returns a 
+Net::Amazon::Result::Seller object. Check the manpage for details.
 
 =back
 
@@ -1172,6 +1182,7 @@ Contributors (thanks y'all!):
     Barnaby Claydon <bclaydon@perseus.com>
     Batara Kesuma <bkesuma@gaijinweb.com>
     Bill Fitzpatrick
+    Brian <brianbrian@gmail.com>
     Brian Hirt <bhirt@mobygames.com>
     Dan Kreft <dan@kreft.net>
     Dan Sully <daniel@electricrain.com>

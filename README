@@ -1,5 +1,5 @@
 ######################################################################
-    Net::Amazon 0.28
+    Net::Amazon 0.29_01
 ######################################################################
 
 NAME
@@ -183,6 +183,11 @@ DESCRIPTION
     Net::Amazon::Request::Manufacturer
         Searches for all items made by a given manufacturer. Mandatory
         parameter "manufacturer".
+
+    Net::Amazon::Request::Seller
+        Searches for a third-party seller on Amazon by seller ID. This
+        search is different than the previous ones, since it doesn't return
+        Amazon items, but a single seller record.
 
     Check the respective man pages for details on these request objects.
     Request objects are typically created like this (with a Keyword query as
@@ -579,6 +584,7 @@ AUTHOR
         Barnaby Claydon <bclaydon@perseus.com>
         Batara Kesuma <bkesuma@gaijinweb.com>
         Bill Fitzpatrick
+        Brian <brianbrian@gmail.com>
         Brian Hirt <bhirt@mobygames.com>
         Dan Kreft <dan@kreft.net>
         Dan Sully <daniel@electricrain.com>

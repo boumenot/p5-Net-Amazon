@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?><SellerSearch xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://xml.amazon.com/schemas3/dev-heavy.xsd">
+
+<Request><Args><Arg value="libwww-perl/5.76" name="UserAgent"></Arg><Arg value="0FSY2GPG03C1RDF25WN7" name="RequestID"></Arg><Arg value="us" name="locale"></Arg><Arg value="1" name="page"></Arg><Arg value="YOUR_AMZN_TOKEN" name="dev-t"></Arg><Arg value="webservices-20" name="t"></Arg><Arg value="xml" name="f"></Arg><Arg value="books" name="mode"></Arg><Arg value="A2GXAGU54VOP7" name="SellerSearch"></Arg><Arg value="heavy" name="type"></Arg><Arg value="+salesrank" name="sort"></Arg></Args></Request>   <SellerSearchDetails>
+      <SellerNickname>_athenaeum_</SellerNickname>
+      <StoreId>S1CTCSZADC15MI</StoreId>
+      <StoreName>myAthenaeum</StoreName>
+      <NumberOfOpenListings>32000</NumberOfOpenListings>
+      <ListingProductInfo>
+         <ListingProductDetails>
+            <ExchangeId>Y01Y5300403Y4827404</ExchangeId>
+            <ListingId>0529T326057</ListingId>
+            <ExchangeTitle>Train Song [Library Binding]  by Siebert, Diane; Wimmer, Mike</ExchangeTitle>
+            <ExchangePrice>$2.98</ExchangePrice>
+            <ExchangeAsin>0690047282</ExchangeAsin>
+            <ExchangeEndDate>12/31/1969 16:00:00 PST</ExchangeEndDate>
+            <ExchangeOfferingType>used</ExchangeOfferingType>
+            <ExchangeSellerId>A2GXAGU54VOP7</ExchangeSellerId>
+            <ExchangeSellerNickname>_athenaeum_</ExchangeSellerNickname>
+            <ExchangeStartDate>05/29/2004 12:58:17 PDT</ExchangeStartDate>
+            <ExchangeStatus>Open</ExchangeStatus>
+            <ExchangeQuantity>1</ExchangeQuantity>
+            <ExchangeQuantityAllocated>0</ExchangeQuantityAllocated>
+            <ExchangeFeaturedCategory>68297</ExchangeFeaturedCategory>
+            <ExchangeCondition>EX-LIBRARY item sometimes shows stamps, stickers and library marks.  Items not meeting quality expectations may be returned for refund.</ExchangeCondition>
+            <ExchangeConditionType>good</ExchangeConditionType>
+            <ExchangeAvailability>Usually ships in 1-2 business days</ExchangeAvailability>
+            <ExchangeSellerState>CO</ExchangeSellerState>
+            <ExchangeSellerCountry>United States</ExchangeSellerCountry>
+            <ExchangeSellerRating>4.5</ExchangeSellerRating>
+         </ListingProductDetails>
+         <ListingProductDetails>
+            <ExchangeId>Y01Y4762949Y4451986</ExchangeId>
+            <ListingId>0709W594490</ListingId>
+            <ExchangeTitle>Railroad Schemes (Thorndike Large Print Basic Series) [LARGE PRINT]  by Holland</ExchangeTitle>
+            <ExchangePrice>$1.95</ExchangePrice>
+            <ExchangeAsin>0786213213</ExchangeAsin>
+            <ExchangeEndDate>12/31/1969 16:00:00 PST</ExchangeEndDate>
+            <ExchangeOfferingType>used</ExchangeOfferingType>
+            <ExchangeSellerId>A2GXAGU54VOP7</ExchangeSellerId>
+            <ExchangeSellerNickname>_athenaeum_</ExchangeSellerNickname>
+            <ExchangeStartDate>07/09/2004 23:38:08 PDT</ExchangeStartDate>
+            <ExchangeStatus>Open</ExchangeStatus>
+            <ExchangeQuantity>1</ExchangeQuantity>
+            <ExchangeQuantityAllocated>0</ExchangeQuantityAllocated>
+            <ExchangeFeaturedCategory>68297</ExchangeFeaturedCategory>
+            <ExchangeCondition>EX-LIBRARY item sometimes shows stamps, stickers and library marks.  Items not meeting quality expectations may be returned for refund.</ExchangeCondition>
+            <ExchangeConditionType>good</ExchangeConditionType>
+            <ExchangeAvailability>Usually ships in 1-2 business days</ExchangeAvailability>
+            <ExchangeSellerState>CO</ExchangeSellerState>
+            <ExchangeSellerCountry>United States</ExchangeSellerCountry>
+            <ExchangeSellerRating>4.5</ExchangeSellerRating>
+         </ListingProductDetails>
+      </ListingProductInfo>
+   </SellerSearchDetails>
+</SellerSearch>
