@@ -1,5 +1,9 @@
 Revision history for Perl extension Net::Amazon:
 
+0.27 (07/21/2004)
+   (ms) Richard Giliam <nirosys@nirostasis.net> added the isbn()
+        method to the Book.pm property.
+
 0.26 (07/07/2004)
    (ms) Added ProductDescription to Properties.pm
    (ms) Applied patch by Robert Rothenberg <wlkngowl@i-2000.com> for 
