@@ -146,8 +146,3 @@ Revision history for Perl extension Net::Amazon:
 
 0.01
    (ms) where it all started
-
-TODO:
-   * tests with lite/heavy
-   * raw xml access
-   * heavy accessors
