@@ -453,7 +453,7 @@ C<album()> for CDs, returning the album title.
 =head2 Requests behind the scenes
 
 C<Net::Amazon>'s C<search()> method is just a convenient way to 
-create different kinds of requests objects behind the scenes and
+create different kinds of request objects behind the scenes and
 trigger them to send requests to Amazon.
 
 Depending on the parameters fed to the C<search> method, C<Net::Amazon> will
