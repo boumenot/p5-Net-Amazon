@@ -16,6 +16,7 @@ sub new {
     $class->SUPER::make_accessor("media");
     $class->SUPER::make_accessor("nummedia");
     $class->SUPER::make_accessor("upc");
+    $class->SUPER::make_array_accessor("artists");
 
     if(exists $options{xmlref}) {
         $self->init_via_xmlref($options{xmlref});
@@ -31,23 +32,6 @@ sub artist {
 
     # Only return the first artist
     return ($self->artists($nameref))[0];
-}
-
-##################################################
-sub artists {
-##################################################
-    my($self, $nameref) = @_;
-
-    if(defined $nameref) {
-        if(ref $nameref eq "ARRAY") {
-            $self->{artists} = $nameref;
-        } else {
-            $self->{artists} = [$nameref];
-        }
-    }
-
-       # Return a list
-    return @{$self->{artists}};
 }
 
 ##################################################

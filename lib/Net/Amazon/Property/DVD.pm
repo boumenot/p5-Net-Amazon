@@ -13,12 +13,29 @@ sub new {
 
     $class->SUPER::make_accessor("title");
     $class->SUPER::make_accessor("studio");
+    $class->SUPER::make_accessor("theatrical_release_date");
+    $class->SUPER::make_accessor("media");
+    $class->SUPER::make_accessor("nummedia");
+    $class->SUPER::make_accessor("upc");
+    $class->SUPER::make_accessor("mpaa_rating");
+    $class->SUPER::make_array_accessor("directors");
+    $class->SUPER::make_array_accessor("starring");
+    $class->SUPER::make_array_accessor("features");
 
     if(exists $options{xmlref}) {
         $self->init_via_xmlref($options{xmlref});
     }
 
     return $self;
+}
+
+##################################################
+sub director {
+##################################################
+    my($self, $nameref) = @_;
+
+    # Only return the first director
+    return ($self->directors($nameref))[0];
 }
 
 ##################################################
@@ -30,6 +47,14 @@ sub init_via_xmlref {
 
     $self->title($xmlref->{ProductName});
     $self->studio($xmlref->{Manufacturer});
+    $self->directors($xmlref->{Directors}->{Director});
+    $self->starring($xmlref->{Starring}->{Actor});
+    $self->media($xmlref->{Media});
+    $self->nummedia($xmlref->{NumMedia});
+    $self->upc($xmlref->{Upc});
+    $self->theatrical_release_date($xmlref->{TheatricalReleaseDate});
+    $self->mpaa_rating($xmlref->{MpaaRating});
+    $self->features($xmlref->{Features}->{Feature});
 }
 
 1;
@@ -71,6 +96,42 @@ Returns the title of the DVD.
 =item studio()
 
 Returns the studio.
+
+=item directors()
+
+Returns a list of directors. Note that there's also a director() method
+only returning the first director.
+
+=item starring()
+
+Returns a list of actors starring in the movie.
+
+=item upc()
+
+Returns the DVD's UPC as a string.
+
+=item media()
+
+Returns the DVD's media type as a string.
+
+=item nummedia()
+
+Returns the DVD's number of media (number of discs) as a string.
+Amazon doesn't always send this back, so if you get undef assume it
+is 1.
+
+=item theatrical_release_date()
+
+Returns the DVD's theatrical release date.
+
+=item mpaa_rating()
+
+Returns the DVD's MPAA rating.
+
+=item features()
+
+Returns the DVD's features as a list of strings. Examples: 
+"Color", "Closed-captioned", "Widescreen".
 
 =item new(xmlref => $xmlref)
 

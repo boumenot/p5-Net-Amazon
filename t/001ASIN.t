@@ -8,7 +8,7 @@
 use warnings;
 use strict;
 
-use Test::More tests => 22;
+use Test::More tests => 27;
 BEGIN { use_ok('Net::Amazon') };
 
 #use Log::Log4perl qw(:easy);
@@ -24,7 +24,7 @@ $CANNED = File::Spec->catfile("t", "canned") unless -d $CANNED;
 if(! exists $ENV{NET_AMAZON_LIVE_TESTS}) {
     for(map { File::Spec->catfile($CANNED, $_) }
         qw(asin_pp.xml asin_err.xml 
-           asin_mua.xml asin_cd.xml asin_cdm.xml)) {
+           asin_mua.xml asin_cd.xml asin_cdm.xml dvd.xml)) {
         open FILE, "<$_" or die "Cannot open $_";
         my $data = join '', <FILE>;
         close FILE;
@@ -123,9 +123,30 @@ $resp = $ua->request($req);
 
 ok($resp->is_success(), "Successful fetch");
 like($resp->as_string(), qr(Anne Sofie von Otter/Elvis Costello), 
-     "Found Zwan");
+     "Found Otter/Costello");
 ($cd) = $resp->properties();
 is($cd->artist(), "Anne Sofie von Otter", "artist() on mult artists");
 is(join('#', $cd->artists()), "Anne Sofie von Otter#Elvis Costello",
     "artists() with mult artists");
 
+######################################################################
+# Net::Amazon::Property::DVD item with two artists
+######################################################################
+$req = Net::Amazon::Request::ASIN->new(
+    asin  => '6305181772',
+);
+
+   # Response is of type Net::Amazon::ASIN::Response
+$resp = $ua->request($req);
+
+ok($resp->is_success(), "Successful fetch");
+like($resp->as_string(), qr(Mission Impossible), 
+     "Found Mission Impossible");
+my ($dvd) = $resp->properties();
+
+is($dvd->director(), "Brian De Palma", "director() finds first director");
+is(join('#', $dvd->directors()), "Brian De Palma",
+    "directors() finds first director");
+
+is(join('#', $dvd->starring()), "Tom Cruise#Jon Voight#Emmanuelle Béart",
+    "starring() finds actors");

@@ -310,6 +310,45 @@ EOT
 }
 
 ##################################################
+# Make accessors for arrays
+##################################################
+sub make_array_accessor {
+##################################################
+    my($package, $name) = @_;
+
+    no strict qw(refs);
+
+    my $code = <<EOT;
+        *{"$package\\::$name"} = sub {
+            my(\$self, \$nameref) = \@_;
+            if(defined \$nameref) {
+                if(ref \$nameref eq "ARRAY") {
+                    \$self->{$name} = \$nameref;
+                } else {
+                    \$self->{$name} = [\$nameref];
+                }
+            }
+               # Return a list
+            return \@{\$self->{$name}};
+        }
+EOT
+
+    if(! defined *{"$package\::$name"}) {
+        eval $code or die "$@";
+    }
+}
+
+##################################################
+sub artist {
+##################################################
+    my($self, $nameref) = @_;
+
+    # Only return the first artist
+    return ($self->artists($nameref))[0];
+}
+
+
+##################################################
 sub xmlref_add {
 ##################################################
     my($self, $xmlref) = @_;
