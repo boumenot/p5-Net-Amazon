@@ -13,6 +13,9 @@ sub new {
 
     $class->SUPER::make_accessor("album");
     $class->SUPER::make_accessor("label");
+    $class->SUPER::make_accessor("media");
+    $class->SUPER::make_accessor("nummedia");
+    $class->SUPER::make_accessor("upc");
 
     if(exists $options{xmlref}) {
         $self->init_via_xmlref($options{xmlref});
@@ -57,6 +60,9 @@ sub init_via_xmlref {
     $self->artists($xmlref->{Artists}->{Artist});
     $self->album($xmlref->{ProductName});
     $self->label($xmlref->{Manufacturer});
+    $self->upc($xmlref->{Upc});
+    $self->media($xmlref->{Media});
+    $self->nummedia($xmlref->{NumMedia});
 }
 
 ##################################################
@@ -90,7 +96,10 @@ Net::Amazon::Property::Music - Class for pop CDs on amazon.com
           print join("/", $_->artists(), " ",
                 $_->album(), " ",
                 $_->label(), " ",
-                $_->year(), "\n";
+                $_->year(), " ";
+                $_->upc(), " ";
+                $_->media(), " ";
+                $_->nummedia(), "\n";
   }
 
 =head1 DESCRIPTION
@@ -117,6 +126,20 @@ Returns the music label as a string.
 
 Returns the CD's title as a string.
 
+=item upc()
+
+Returns the CD's UPC as a string.
+
+=item media()
+
+Returns the CD's media type as a string.
+
+=item nummedia()
+
+Returns the CD's number of media (number of discs) as a string.
+Amazon doesn't always send this back, so if you get undef assume it
+is 1.
+
 =item new(xmlref => $xmlref)
 
 Initializes an object by passing a hash of hashes structure containing
@@ -135,6 +158,11 @@ C<year>, C<OurPrice>, C<ListPrice>, etc.
 
 Mike Schilli, E<lt>m@perlmeister.comE<gt>
 
+=head1 THANKS
+
+Thanks to Padraic Renaghan E<lt>padraic@renaghan.com<gt> for adding
+the upc/media/nummedia fields.
+
 =head1 COPYRIGHT AND LICENSE
 
 Copyright 2003 by Mike Schilli E<lt>m@perlmeister.comE<gt>
@@ -143,3 +171,4 @@ This library is free software; you can redistribute it and/or modify
 it under the same terms as Perl itself. 
 
 =cut
+
