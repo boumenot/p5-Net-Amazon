@@ -246,6 +246,15 @@ DEBUGGING
     fancy stuff, like writing to a file or enabling verbosity in certain
     parts only -- check http://log4perl.sourceforge.net for details.
 
+LIVE TESTING
+    Results returned by Amazon can be incomplete or simply wrong at times,
+    due to their "best effort" design of the service. This is why the test
+    suite that comes with this module has been changed to perform its test
+    cases against canned data. If you want to perform the tests against the
+    live Amazon servers instead, just set the environment variable
+
+        NET_AMAZON_LIVE_TESTS=1
+
 INSTALLATION
     "Net::Amazon" depends on Log::Log4perl, which can be pulled from CPAN by
     simply saying
