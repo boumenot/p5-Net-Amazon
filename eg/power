@@ -17,7 +17,7 @@ use Getopt::Std;
 
 my %opts        = ();   
 my $usage       = "usage: $0 [-s start] [-f finish] phrase [mode]\n".
-                  "(use 'subject: perl and author: schwartz' books".
+                  "(use 'subject: perl and author: schwartz' books ".
 		  "as an example)\n";
 
 getopts("s:f:", \%opts) || do {print $usage; exit 1};
