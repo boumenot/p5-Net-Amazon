@@ -79,6 +79,28 @@ sub search {
 }
 
 ##################################################
+sub intl_url {
+##################################################
+    my($self, $url) = @_;
+
+    # Every time Amazon is adding a new country to the web service,
+    # they're rolling a dice on what the new URL is going to be.
+    # This method will try to keep up with their crazy mappings.
+
+    if(! exists $self->{locale}) {
+        return $url;
+    }
+
+    if($self->{locale} eq "uk" or
+       $self->{locale} eq "de") {
+        $url =~ s/xml/xml-eu/;
+        return $url;
+    }
+        
+    return $url;
+}
+
+##################################################
 sub request {
 ##################################################
     my($self, $request) = @_;
@@ -92,7 +114,7 @@ sub request {
 
     my $res  = $resp_class->new();
 
-    my $url  = URI->new($request->amzn_xml_url());
+    my $url  = URI->new($self->intl_url($request->amzn_xml_url()));
     my $page = 0;
     my $ref;
 
