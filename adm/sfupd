@@ -1,0 +1,53 @@
+#!/usr/bin/perl
+######################################################################
+# adm/sfupd -- 2003, Mike Schilli <m@perlmeister.com>
+######################################################################
+# Update Net::Amazon on Sourceforge
+######################################################################
+use strict;
+use warnings;
+
+my  $VERSION = "0.01";
+our $CVSVERSION = '$Revision: 1.1 $';
+
+use Net::Sourceforge;
+
+my $sf = Net::Sourceforge->new(
+    sf_user         => 'mschilli',
+    sf_package_id   => 85267,
+    sf_group_id     => 82968,
+);
+
+$sf->readin_password();
+
+$sf->ftp_upload();
+$sf->sf_release();
+
+__END__
+
+=head1 NAME
+
+    adm/sfupd - Update Net::Amazon on Sourceforge
+
+=head1 SYNOPSIS
+
+    adm/sfupd
+
+=head1 DESCRIPTION
+
+Takes the first tarball it finds and pushes it up to the
+Net-Amazon project page on sourceforge.net
+
+=head1 EXAMPLES
+
+  $ adm/sfupd
+
+=head1 LEGALESE
+
+Copyright 2003 by Mike Schilli, all rights reserved.
+This program is free software, you can redistribute it and/or
+modify it under the same terms as Perl itself.
+
+=head1 AUTHOR
+
+2003, Mike Schilli <m@perlmeister.com>
