@@ -1,5 +1,5 @@
 ######################################################################
-    Net::Amazon 0.29
+    Net::Amazon 0.30
 ######################################################################
 
 NAME
@@ -90,6 +90,16 @@ DESCRIPTION
         Initiate a search for all items made by a given manufacturrer. Can
         return many results. See Net::Amazon::Request::Manufacturer for
         details.
+
+    "$ua->search(blended => "Perl")"
+        Initiate a search for items in all categories.
+
+    "$ua->search(seller => "A2GXAGU54VOP7")"
+        Start a search on items sold by a specific third-party seller,
+        referenced by its ID (not seller name).
+
+    "$ua->search(textstream => "Blah blah Rolling Stones blah blah")"
+        Find items related to keywords within a text stream.
 
     The user agent's "search" method returns a response object, which can be
     checked for success or failure:
@@ -184,6 +194,12 @@ DESCRIPTION
     Net::Amazon::Request::Manufacturer
         Searches for all items made by a given manufacturer. Mandatory
         parameter "manufacturer".
+
+    Net::Amazon::Request::Similar
+        Finds items similar to a given one.
+
+    Net::Amazon::Request::Wishlist
+        Find item on someone's wish list.
 
     Net::Amazon::Request::Seller
         Searches for a third-party seller on Amazon by seller ID. This
@@ -594,6 +610,7 @@ AUTHOR
         Dan Sully <daniel@electricrain.com>
         Jackie Hamilton <kira@cgi101.com>
         Konstantin Gredeskoul <kig@get.topica.com>
+        Lance Cleveland <lancec@proactivewm.com>
         Martha Greenberg <marthag@mit.edu>
         Martin Streicher <martin.streicher@apress.com>
         Mike Evron <evronm@dtcinc.net>
