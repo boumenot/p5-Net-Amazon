@@ -146,7 +146,8 @@ that all request types have in common, here they are:
 =item type
 
 Defaults to C<heavy>, but can be set to C<lite> if no reviews etc.
-on a product are wanted.
+on a product are wanted. Some fields (e.g. C<isbn>) are not going to be 
+available in C<lite> mode, though.
 
 =item mode
 
