@@ -8,7 +8,7 @@ use 5.006;
 use strict;
 use warnings;
 
-our $VERSION          = '0.19';
+our $VERSION          = '0.20';
 our @CANNED_RESPONSES = ();
 
 use LWP::UserAgent;
@@ -26,6 +26,7 @@ use Net::Amazon::Request::Wishlist;
 use Net::Amazon::Request::UPC;
 use Net::Amazon::Request::Similar;
 use Net::Amazon::Request::Power;
+use Net::Amazon::Request::TextStream;
 
 ##################################################
 sub new {
@@ -80,6 +81,8 @@ sub search {
         $req = Net::Amazon::Request::BrowseNode->new(%params);
     } elsif(exists $params{manufacturer}) {
         $req = Net::Amazon::Request::Manufacturer->new(%params);
+    } elsif(exists $params{textstream}) {
+        $req = Net::Amazon::Request::TextStream->new(%params);
 
     } else {
         warn "No Net::Amazon::Request type could be determined";
@@ -764,11 +767,12 @@ Here's the basic plot:
 
 Get Net::Amazon from CVS. Use
 
-    cvs -d:pserver:anonymous@cvs.sourceforge.net:/cvsroot/Net-Amazon login
-    cvs -z3 -d:pserver:anonymous@cvs.sourceforge.net:/cvsroot/Net-Amazon co Net-Amazon
+        # (Just hit enter when prompted for a password)
+    cvs -d:pserver:anonymous@cvs.net-amazon.sourceforge.net:/cvsroot/net-amazon login
+    cvs -z3 -d:pserver:anonymous@cvs.net-amazon.sourceforge.net:/cvsroot/net-amazon co Net-Amazon
 
-If this doesn't work (and it didn't work at the time of this writing), just
-use the latest distribution from net-amazon.sourceforge.net.
+If this doesn't work, just use the latest distribution from 
+net-amazon.sourceforge.net.
 
 =item *
 
@@ -954,12 +958,13 @@ Contributors (thanks y'all!):
     Martin Streicher <martin.streicher@apress.com>
     Mike Evron <evronm@dtcinc.net>
     Padraic Renaghan <padraic@renaghan.com>
+    rayg <rayg@varchars.com>
     Robert Graff <rgraff@workingdemo.com>
     Tony Bowden <tony@kasei.com>
 
 =head1 COPYRIGHT AND LICENSE
 
-Copyright 2003 by Mike Schilli E<lt>na@perlmeister.comE<gt>
+Copyright 2003, 2004 by Mike Schilli E<lt>na@perlmeister.comE<gt>
 
 This library is free software; you can redistribute it and/or modify
 it under the same terms as Perl itself. 

@@ -20,6 +20,7 @@ sub new {
         type       => 'heavy',
         page       => 1,
         f          => 'xml',
+        sort       => '+salesrank',
         %options,
     };
 
@@ -61,6 +62,7 @@ Net::Amazon::Request - Baseclass for requests to Amazon's web service
                      [ type => 'heavy', ]
                      [ page => $start_page, ]
                      [ mode => $mode, ]
+                     [ sort => $sort_type, ]
     );
 
 =head1 DESCRIPTION
@@ -90,6 +92,42 @@ start with a different result page. Used in conjunction with the
 C<max_pages> parameter of the C<Net::Amazon> object. C<page> is the
 offset, C<max_pages> is the maximum number of pages pulled in starting
 at C<page>.
+
+=item sort
+
+Defaults to C<+salesrank>, but search results can be sorted in various
+ways, depending on the type of product returned by the search.  Search
+results may be sorted by the following criteria:
+
+=over 8
+
+=item *
+Featured Items                                                           
+
+=item *
+Bestselling                                                              
+
+=item *
+Alphabetical (A-Z and Z-A)                                               
+
+=item *
+Price (High to Low and Low to High)                                      
+
+=item *
+Publication or Release Date                                              
+
+=item *
+Manufacturer                                                             
+
+=item *
+Average Customer Review                                                  
+
+=item *
+Artist Name                                   
+
+=back
+
+Consult L<Net::Amazon::Request::Sort> for details.
 
 =back
 

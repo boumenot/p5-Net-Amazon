@@ -1,0 +1,768 @@
+<?xml version="1.0" encoding="UTF-8"?><ProductInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://xml.amazon.com/schemas3/dev-heavy.xsd">
+
+<Request><Args><Arg value="libwww-perl/5.76" name="UserAgent"></Arg><Arg value="1HE4HRXV9DGAZ5X8H2C2" name="RequestID"></Arg><Arg value="us" name="locale"></Arg><Arg value="1" name="page"></Arg><Arg value="MY_AMZN_TOKEN" name="dev-t"></Arg><Arg value="webservices-20" name="t"></Arg><Arg value="xml" name="f"></Arg><Arg value="Here's some blurb mentioning the rolling stones" name="TextStreamSearch"></Arg><Arg value="books" name="mode"></Arg><Arg value="heavy" name="type"></Arg><Arg value="+salesrank" name="sort"></Arg></Args></Request>   <Details url="http://www.amazon.com/exec/obidos/ASIN/0743201205/webservices-20?dev-t=MY_AMZN_TOKEN%26camp=2025%26link_code=xm2">
+      <Asin>0743201205</Asin>
+      <ProductName>The Rolling Stone Encyclopedia of Rock &amp; Roll (Revised and Updated for the 21st Century)</ProductName>
+      <Catalog>Book</Catalog>
+      <Authors>
+         <Author>Holly George-Warren</Author>
+         <Author>Patricia Romanowski</Author>
+         <Author>Jon Pareles</Author>
+      </Authors>
+      <ReleaseDate>30 October, 2001</ReleaseDate>
+      <Manufacturer>Fireside</Manufacturer>
+      <ImageUrlSmall>http://images.amazon.com/images/P/0743201205.01.THUMBZZZ.jpg</ImageUrlSmall>
+      <ImageUrlMedium>http://images.amazon.com/images/P/0743201205.01.MZZZZZZZ.jpg</ImageUrlMedium>
+      <ImageUrlLarge>http://images.amazon.com/images/P/0743201205.01.LZZZZZZZ.jpg</ImageUrlLarge>
+      <ListPrice>$27.00</ListPrice>
+      <OurPrice>$27.00</OurPrice>
+      <UsedPrice>$10.73</UsedPrice>
+      <CollectiblePrice>$29.97</CollectiblePrice>
+      <ThirdPartyNewPrice>$10.71</ThirdPartyNewPrice>
+      <SalesRank>28,865</SalesRank>
+      <Lists>
+         <ListId>17VV8YRGRHWVB</ListId>
+         <ListId>25ZJGHH0NTBW1</ListId>
+         <ListId>1ABMBLX8XBI7G</ListId>
+      </Lists>
+      <BrowseList>
+         <BrowseNode>
+            <BrowseName>Rock music</BrowseName>
+         </BrowseNode>
+         <BrowseNode>
+            <BrowseName>Encyclopedias</BrowseName>
+         </BrowseNode>
+         <BrowseNode>
+            <BrowseName>Music</BrowseName>
+         </BrowseNode>
+         <BrowseNode>
+            <BrowseName>Rock</BrowseName>
+         </BrowseNode>
+         <BrowseNode>
+            <BrowseName>Reference</BrowseName>
+         </BrowseNode>
+      </BrowseList>
+      <Media>Paperback</Media>
+      <NumMedia>1</NumMedia>
+      <Isbn>0743201205</Isbn>
+      <Availability>Usually ships within 24 hours</Availability>
+      <Reviews>
+         <AvgCustomerRating>3.73</AvgCustomerRating>
+         <TotalCustomerReviews>11</TotalCustomerReviews>
+         <CustomerReview>
+            <Rating>4</Rating>
+            <Summary>The Rolling Stone Encyclopedia of Rock &amp; Roll</Summary>
+            <Comment>We purchased the original one and are thrilled that they finally came out with an update! Such a great tool to learn about your favorite groups, their history, their top hits, etc. Music selection is so much easier and really helps refresh your memory of the great Rock and Roll you grew up with!&lt;P>Now, if only we could get it on CD (would make quick lookups a breeze, especially when you know a hit song but can't remember who sings it, or vice versa).</Comment>
+         </CustomerReview>
+         <CustomerReview>
+            <Rating>2</Rating>
+            <Summary>Well written book - but incomplete (without an index!)</Summary>
+            <Comment>The Rolling Stone Encyclopedia of Rock&amp;Roll is the bible of Rock&amp;Roll for the most of music lovers except those who like to listen to the music of e.g. The Mission (UK), M People, Talk Talk and Nik Kershaw who aren't included (they weren't in the second edition neither!). Among the artists who were excluded from this edition are some that didn't deserve this, e.g. The Soup Dragons, Level 42 and Gene Loves Jezebel. On back cover of the encyclopedia it's written that it's "the authoritative volume on world's music makers - from the one-hit wonders to the megastars". But most of the artist I've just mentioned are more than one-hit wonders.&lt;P>However, the essential fault of this (self proclaimed?) music bible is a fact that there is no index in it. I can hardly believe that in the era of computerized text editing such book (with a plenty of names mentioned) is published without an index! Very well written articles are a poor consolation if I can't find which band's member is e.g. James Iha whose solo CD I've seen once, or - if I can't recall the name of The Fugees - where to search for Pras.&lt;P>PS&lt;BR>I gave The Rolling Stone Encyclopedia of Rock&amp;Roll 4 stars for its articles and 1 stars for its editorial scheme (missing Index!).</Comment>
+         </CustomerReview>
+         <CustomerReview>
+            <Rating>2</Rating>
+            <Summary>FAR from complete.</Summary>
+            <Comment>I got this book for Christmas last year. Good resource for a lot of bands and musicians. So what's wrong?&lt;P>Where's Pantera?&lt;P>Where's Dream Theater?&lt;P>Those are the only two I can think of offhand. There is way, WAY too much vital stuff missing.</Comment>
+         </CustomerReview>
+      </Reviews>
+      <SimilarProducts>
+         <Product>0679737286</Product>
+         <Product>1841953121</Product>
+         <Product>087930653X</Product>
+         <Product>0823076903</Product>
+         <Product>0811829782</Product>
+      </SimilarProducts>
+   </Details>
+   <Details url="http://www.amazon.com/exec/obidos/ASIN/0811840603/webservices-20?dev-t=MY_AMZN_TOKEN%26camp=2025%26link_code=xm2">
+      <Asin>0811840603</Asin>
+      <ProductName>According to the Rolling Stones</ProductName>
+      <Catalog>Book</Catalog>
+      <Authors>
+         <Author>The Rolling Stones</Author>
+      </Authors>
+      <ReleaseDate>October, 2003</ReleaseDate>
+      <Manufacturer>Chronicle Books</Manufacturer>
+      <ImageUrlSmall>http://images.amazon.com/images/P/0811840603.01.THUMBZZZ.jpg</ImageUrlSmall>
+      <ImageUrlMedium>http://images.amazon.com/images/P/0811840603.01.MZZZZZZZ.jpg</ImageUrlMedium>
+      <ImageUrlLarge>http://images.amazon.com/images/P/0811840603.01.LZZZZZZZ.jpg</ImageUrlLarge>
+      <ListPrice>$40.00</ListPrice>
+      <OurPrice>$28.00</OurPrice>
+      <UsedPrice>$14.98</UsedPrice>
+      <ThirdPartyNewPrice>$15.99</ThirdPartyNewPrice>
+      <SalesRank>5,897</SalesRank>
+      <Lists>
+         <ListId>36OAHKEGVESDQ</ListId>
+         <ListId>2G9ZRPHAYQGL2</ListId>
+         <ListId>3E9XTGMN0UGPQ</ListId>
+      </Lists>
+      <BrowseList>
+         <BrowseNode>
+            <BrowseName>Composers &amp; Musicians - General</BrowseName>
+         </BrowseNode>
+         <BrowseNode>
+            <BrowseName>Biography &amp; Autobiography</BrowseName>
+         </BrowseNode>
+         <BrowseNode>
+            <BrowseName>Music</BrowseName>
+         </BrowseNode>
+         <BrowseNode>
+            <BrowseName>Rock</BrowseName>
+         </BrowseNode>
+         <BrowseNode>
+            <BrowseName>History &amp; Criticism - General</BrowseName>
+         </BrowseNode>
+      </BrowseList>
+      <Media>Hardcover</Media>
+      <NumMedia>1</NumMedia>
+      <Isbn>0811840603</Isbn>
+      <Availability>Usually ships within 24 hours</Availability>
+      <ProductDescription>&lt;I>According to the Rolling Stones&lt;/I> hews closely to the formula set in 2000 by the publication of &lt;I>The Beatles Anthology&lt;/I>. Like its predecessor, it's a beautiful coffee table tome with hundreds of gorgeous photographs, from childhood pics of Mick Jagger and Keith Richards to concert shots from the 40 Licks Tour. The text is taken from recent interviews with the band's four latter-day members (Mick, Keith, Charlie Watts, and Ronnie Wood). Notably missing, however, is any contribution from former bassist Bill Wyman, who left the band in the early '90s and published his own history of the band in 2002, &lt;I>Rolling with the Stones&lt;/I>. Where Wyman is an obsessive collector and diarist, the other Stones are more impressionistic in their memories, lending an approach to history as casual as the band&amp;#146;s concerts are rigorously planned and staged. &lt;p>  The first half of the Stones story has plenty of high drama (tours through the segregated South, Brian Jones's death, Altamont), which no one seems eager to reflect on deeply. (Charlie is the only one even to mention Altamont.) The more recent years has seen a long string of ever-more-successful tours and ever-less-popular albums, interrupted only by Mick and Keith&amp;#146;s near divorce in the '80s, plus rehab stints for Charlie and Ronnie. While &lt;I>The Beatles Anthology&lt;/I> offered the surviving members' interpretations of their experiences at a distance of 30 or more years, the Stones are still living the tale they're trying to tell--and they aren&amp;#146;t always the most self-aware narrators. Or generous: Wyman's three-decade tenure is given short shrift, but the book finds enough space for some unnecessary digs (Wyman has "tiny hands," we're told, and an "almost effeminate" style of playing).&lt;p>  To flesh out the band members' own recollections, the book also contains 13 essays from music-industry friends (Ahmet Ertegun, Marshall Chess), collaborators (Don Was), famous fans (Sheryl Crow, novelist Carl Hiaasen), and, yes, even the band's financial advisor for the past 33 years, Prince Rupert Lowenstein. Their views are sometimes fascinating (the unvarnished perspective of Crawdaddy Club owner Giorgio Gomelsky, the well-told stories of art &lt;I>bon vivant&lt;/I> Christopher Gibbs), but just as often self-indulgent or sycophantic. Fans looking for an artfully designed volume of photos spanning the Stones' career won't be disappointed. Anyone seeking a comprehensive history of the band may want to wait for the band's definitive biography, which has attempted many times but has yet to be written. &lt;I>--Keith Moerer&lt;/I></ProductDescription>
+      <Reviews>
+         <AvgCustomerRating>3.85</AvgCustomerRating>
+         <TotalCustomerReviews>13</TotalCustomerReviews>
+         <CustomerReview>
+            <Rating>5</Rating>
+            <Summary>Great Book for Stones Fans or anyone who loves Rock and Roll</Summary>
+            <Comment>If you are a Stones fan, you'll love this book. I've been a Stones fan for years and seen many books about them, but According To The Rolling Stones has tons of pictures, stories, and information that are new to me. The lay-out of the text and photos makes it a great coffee table book, and the writing by the Stones themselves is fascinating. I actually preferred this book to The Beatles Anthology, but that is probably because I prefer the Stones to the Beatles, not because of the quality of either of the books. Not only is it good for fans of the band, any one who has an appreciation of rock and roll history will learn a lot from this book.</Comment>
+         </CustomerReview>
+         <CustomerReview>
+            <Rating>3</Rating>
+            <Summary>Not Too Bad - Not Too Good Either</Summary>
+            <Comment>Content is weak and very incomplete. Furthermore, a little too much Brian bashing for my taste. Good photographs however. A much better Stones book is Bill Wyman's. There is a reason why According to the Rolling Stones is selling at $24.00 down from the original $40.00 - it probably is not selling well, and for good reason. There are better Stones books than these two also out there.......check them out. I remember In Their Own words being entertaining, just interviews.....either Mick Jagger or Rolling Sones, can't remember. David Dalton has a great book: The first twenty years.</Comment>
+         </CustomerReview>
+         <CustomerReview>
+            <Rating>1</Rating>
+            <Summary>I'm Angry at The Stones!</Summary>
+            <Comment>The new Stones "coffee table book" is a disgrace in how it treats Mick Taylor. Ronnie Wood feels "sorry" for Mick Taylor? What a pitiful joke! Ronnie Wood's guitar playing is the only thing that's "sorry"! And that story about Taylor passing a note backstage stating that he was broke and had no confidence. It sounds "fishy" to me, but even if it's true, Wood has no class for repeating it. Even Charlie Watts jumped on the bandwagon with some anti-Taylor remarks. What's the point? It's not like Taylor is cutting into their record sales or anything like that. Why are they being so vindictive? Overall, I still like their music and their shows are entertaining, but this book has angered me. One of the other posters nailed it on Woody: He's just Mick Jagger's mouthpiece. Ronnie Wood couldn't shine Mick Taylor's shoes when it comes to playing guitar. The biggest joke on their last tour was Ronnie's horrible guitar playing on Can't You Hear Me Knockin'. With all their money and all their success, their insecurity shines through with the terrible trashing they gave the most talented guitarist that ever played with them. If it wasn't for Mick Taylor, there would have been no "golden period" for the band. Can you imagine Wood playing on Exile or Ya-Ya's or Sticky Fingers? Those great albums would have been mediocre at best if Wood had played on them!!!! I can't even think about it. It's too upsetting! One last thing on this book: Keith, in particular, really let me down with his comments about Taylor. He says that Taylor hasn't done anything since leaving the Stones. To that I'll reply with one of Keith's own favorite responses: "Rubbish!" Just because Taylor's albums don't sell millions of copies doesn't mean he hasn't done anything or that he isn't a great musician or performer! Let's face it, other than Tatoo You (which was mostly pulled from the Taylor-year archives ANYWAY) and Some Girls, most of their stuff since Taylor left the band is lackluster at best or tired retreads of hits from their golden years with Taylor at worst. The Stones have no class...plain and simple. I saw Mick Taylor at the Stanhope House in Stanhope, NJ recently and he put on a great show! Nobody plays lead or slide like him and noone ever will. Keith and Woody are just jealous because Taylor proves his superiority every time he picks up a guitar. Sign me "Angry at the Stones in Jersey City"!!!</Comment>
+         </CustomerReview>
+      </Reviews>
+      <SimilarProducts>
+         <Product>B0000BV21X</Product>
+         <Product>1901447049</Product>
+         <Product>0752589717</Product>
+         <Product>0972370404</Product>
+         <Product>0789489678</Product>
+      </SimilarProducts>
+   </Details>
+   <Details url="http://www.amazon.com/exec/obidos/ASIN/0898987393/webservices-20?dev-t=MY_AMZN_TOKEN%26camp=2025%26link_code=xm2">
+      <Asin>0898987393</Asin>
+      <ProductName>The Rolling Stones Singles Collection: The London Years / Guitar Tab Edition</ProductName>
+      <Catalog>Book</Catalog>
+      <Authors>
+         <Author>Rolling Stones</Author>
+         <Author>Carol Cuellar</Author>
+      </Authors>
+      <ReleaseDate>15 April, 1991</ReleaseDate>
+      <Manufacturer>Warner Brothers Publications</Manufacturer>
+      <ImageUrlSmall>http://images.amazon.com/images/P/0898987393.01.THUMBZZZ.jpg</ImageUrlSmall>
+      <ImageUrlMedium>http://images.amazon.com/images/P/0898987393.01.MZZZZZZZ.jpg</ImageUrlMedium>
+      <ImageUrlLarge>http://images.amazon.com/images/P/0898987393.01.LZZZZZZZ.jpg</ImageUrlLarge>
+      <ListPrice>$29.95</ListPrice>
+      <OurPrice>$29.95</OurPrice>
+      <UsedPrice>$21.38</UsedPrice>
+      <ThirdPartyNewPrice>$21.19</ThirdPartyNewPrice>
+      <SalesRank>43,025</SalesRank>
+      <Lists>
+         <ListId>18EOYXY8CYHX0</ListId>
+      </Lists>
+      <BrowseList>
+         <BrowseNode>
+            <BrowseName>Music</BrowseName>
+         </BrowseNode>
+         <BrowseNode>
+            <BrowseName>Songbooks - Popular</BrowseName>
+         </BrowseNode>
+         <BrowseNode>
+            <BrowseName>Rock</BrowseName>
+         </BrowseNode>
+         <BrowseNode>
+            <BrowseName>Musical Instruments - Guitar</BrowseName>
+         </BrowseNode>
+      </BrowseList>
+      <Media>Paperback</Media>
+      <NumMedia>1</NumMedia>
+      <Isbn>0898987393</Isbn>
+      <Availability>Usually ships within 24 hours</Availability>
+      <Reviews>
+         <AvgCustomerRating>4</AvgCustomerRating>
+         <TotalCustomerReviews>1</TotalCustomerReviews>
+         <CustomerReview>
+            <Rating>4</Rating>
+            <Summary>Great tabs on the stones</Summary>
+            <Comment>Well put together edition of all of the stones earlier songs. Easy to read and follow.</Comment>
+         </CustomerReview>
+      </Reviews>
+      <SimilarProducts>
+         <Product>0793564379</Product>
+         <Product>0898986710</Product>
+         <Product>0634062867</Product>
+         <Product>0962477060</Product>
+         <Product>063405712X</Product>
+      </SimilarProducts>
+   </Details>
+   <Details url="http://www.amazon.com/exec/obidos/ASIN/0679737286/webservices-20?dev-t=MY_AMZN_TOKEN%26camp=2025%26link_code=xm2">
+      <Asin>0679737286</Asin>
+      <ProductName>The Rolling Stone Illustrated History of Rock and Roll : The Definitive History of the Most Important Artists and Their Music</ProductName>
+      <Catalog>Book</Catalog>
+      <Authors>
+         <Author>Rolling Stone Magazine</Author>
+      </Authors>
+      <ReleaseDate>10 November, 1992</ReleaseDate>
+      <Manufacturer>Random House</Manufacturer>
+      <ImageUrlSmall>http://images.amazon.com/images/P/0679737286.01.THUMBZZZ.jpg</ImageUrlSmall>
+      <ImageUrlMedium>http://images.amazon.com/images/P/0679737286.01.MZZZZZZZ.jpg</ImageUrlMedium>
+      <ImageUrlLarge>http://images.amazon.com/images/P/0679737286.01.LZZZZZZZ.jpg</ImageUrlLarge>
+      <ListPrice>$34.95</ListPrice>
+      <OurPrice>$24.47</OurPrice>
+      <UsedPrice>$13.95</UsedPrice>
+      <ThirdPartyNewPrice>$22.50</ThirdPartyNewPrice>
+      <SalesRank>29,931</SalesRank>
+      <Lists>
+         <ListId>1ASP3N6YVM1OB</ListId>
+         <ListId>39QBEORKRDX3I</ListId>
+         <ListId>1MPSUY77L20DU</ListId>
+      </Lists>
+      <BrowseList>
+         <BrowseNode>
+            <BrowseName>Rock music</BrowseName>
+         </BrowseNode>
+         <BrowseNode>
+            <BrowseName>History and criticism</BrowseName>
+         </BrowseNode>
+         <BrowseNode>
+            <BrowseName>Rock musicians</BrowseName>
+         </BrowseNode>
+         <BrowseNode>
+            <BrowseName>Biography</BrowseName>
+         </BrowseNode>
+         <BrowseNode>
+            <BrowseName>Music</BrowseName>
+         </BrowseNode>
+         <BrowseNode>
+            <BrowseName>Rock</BrowseName>
+         </BrowseNode>
+      </BrowseList>
+      <Media>Paperback</Media>
+      <NumMedia>1</NumMedia>
+      <Isbn>0679737286</Isbn>
+      <Availability>Usually ships within 24 hours</Availability>
+      <Reviews>
+         <AvgCustomerRating>3.75</AvgCustomerRating>
+         <TotalCustomerReviews>4</TotalCustomerReviews>
+         <CustomerReview>
+            <Rating>3</Rating>
+            <Summary>Mixed Bag</Summary>
+            <Comment>This history of Rock and Roll comes from Rolling Stone, one of the biggest and longest-lasting names in Rock reporting and coverage. It is truly a mixed bag, ranging anywhere from great historical content to outright howlers. &lt;P>First, the book does an excellent job of covering the entirety of rock history and drawing out its influences and evolutions. It does a wonderful job of covering the different local scenes and how they were integrated in with the whole of rock music. Whole chapters are generally rewarded to the most influential bands, and not just those that sold more album. &lt;P>However, the book suffers a number of strong drawbacks. First, as many pointed out, the book is clearly slanted toward the Rolling Stone perspective. Artists such as Billy Joel, who have not had good relations with the magazine, have been omitted. Several others, such as Bob Seger, were also given no treatment. There is also a bit of redundent content, such as giving the Beatles two whole chapters and then devoting a third (British Invasion) to a primarily Beatles-related topic. Also, there are separate chapters on Motown and Stevie Wonder. &lt;P>Secondly, the book is often skewed toward the "pop" scene when it comments on more current acts. Rolling Stone has been getting even worse about this in its magazine. One particular example that stands out is in the heavy metal section. My edition was published in 1991 and the writer heaps load and loads of praise upon such hair-metal acts as Motley Crue, Poison, Ratt and Warrant. Other, more talented but less popular metal acts, such as Metallica, are put down and summarily dismissed. However, we all know that if this were to have been written 5 years later, Rolling Stone would be worshipping Metallica and praising them for destroying such hair-bands. RS makes the mistake of "going with the flow" one too many times. &lt;P>Overall - nice book, but with some obvious problems.</Comment>
+         </CustomerReview>
+         <CustomerReview>
+            <Rating>3</Rating>
+            <Summary>Definitive? According to who?</Summary>
+            <Comment>Rolling Stone has been around reporting on rock music for nearly 35 years. That longevity only earns them stripes, but not exactly the monker of expert.&lt;P>RS editors - in all fairness like most journalists - have an agenda, and accuracy and fairness in rock isn't exactly one of them. One writer (below) asked why Billy Joel was snubbed. Simple; RS and Joel have publically feuded for years so as far as RS is concerned, one of rock's greatest acts (and an inductee to the Rock Hall of Fame) doesn't exist. In the rock world according to Jann Wenner, there is no greater act in rock history than the Rolling Stones. They're certainly a bellweather act in rock history, but not "the greatest"...but that's how RS sees it, and apparently so should history.&lt;P>So take what they say with a grain of salt, enjoy it for what it is (their fave-raves, as valid as the Listmania right here on Amazon) - cuz after all, it's only rock and roll.</Comment>
+         </CustomerReview>
+         <CustomerReview>
+            <Rating>5</Rating>
+            <Summary>Much more than I expected at this price</Summary>
+            <Comment>I am fond of The Rolling Stone series. This is history of Most important artists, and for me every important for the rock&amp;roll music can be found in this book. (And much more than I expected at this low price). I am big music fan and this is real thing for my library. Strongly recommended.</Comment>
+         </CustomerReview>
+      </Reviews>
+      <SimilarProducts>
+         <Product>0531158462</Product>
+         <Product>0789496496</Product>
+         <Product>0811829782</Product>
+         <Product>1929049498</Product>
+         <Product>013022636X</Product>
+      </SimilarProducts>
+   </Details>
+   <Details url="http://www.amazon.com/exec/obidos/ASIN/0789489678/webservices-20?dev-t=MY_AMZN_TOKEN%26camp=2025%26link_code=xm2">
+      <Asin>0789489678</Asin>
+      <ProductName>Rolling with the Stones</ProductName>
+      <Catalog>Book</Catalog>
+      <Authors>
+         <Author>Bill Wyman</Author>
+         <Author>Richard Havers</Author>
+      </Authors>
+      <ReleaseDate>28 October, 2002</ReleaseDate>
+      <Manufacturer>DK Publishing</Manufacturer>
+      <ImageUrlSmall>http://images.amazon.com/images/P/0789489678.01.THUMBZZZ.jpg</ImageUrlSmall>
+      <ImageUrlMedium>http://images.amazon.com/images/P/0789489678.01.MZZZZZZZ.jpg</ImageUrlMedium>
+      <ImageUrlLarge>http://images.amazon.com/images/P/0789489678.01.LZZZZZZZ.jpg</ImageUrlLarge>
+      <ListPrice>$50.00</ListPrice>
+      <OurPrice>$35.00</OurPrice>
+      <UsedPrice>$10.79</UsedPrice>
+      <ThirdPartyNewPrice>$23.25</ThirdPartyNewPrice>
+      <SalesRank>8,049</SalesRank>
+      <Lists>
+         <ListId>3I9E1FWXMI9XU</ListId>
+      </Lists>
+      <BrowseList>
+         <BrowseNode>
+            <BrowseName>Rolling Stones</BrowseName>
+         </BrowseNode>
+         <BrowseNode>
+            <BrowseName>Rock musicians</BrowseName>
+         </BrowseNode>
+         <BrowseNode>
+            <BrowseName>England</BrowseName>
+         </BrowseNode>
+         <BrowseNode>
+            <BrowseName>Biography</BrowseName>
+         </BrowseNode>
+         <BrowseNode>
+            <BrowseName>Rock music</BrowseName>
+         </BrowseNode>
+         <BrowseNode>
+            <BrowseName>Biography / Autobiography</BrowseName>
+         </BrowseNode>
+         <BrowseNode>
+            <BrowseName>Entertainment &amp; Performing Arts - General</BrowseName>
+         </BrowseNode>
+         <BrowseNode>
+            <BrowseName>Composers &amp; Musicians - Rock</BrowseName>
+         </BrowseNode>
+         <BrowseNode>
+            <BrowseName>Rock</BrowseName>
+         </BrowseNode>
+         <BrowseNode>
+            <BrowseName>Biography &amp; Autobiography</BrowseName>
+         </BrowseNode>
+         <BrowseNode>
+            <BrowseName>History &amp; Criticism - General</BrowseName>
+         </BrowseNode>
+         <BrowseNode>
+            <BrowseName>Music</BrowseName>
+         </BrowseNode>
+      </BrowseList>
+      <Media>Hardcover</Media>
+      <NumMedia>1</NumMedia>
+      <Isbn>0789489678</Isbn>
+      <Availability>THIS TITLE IS CURRENTLY NOT AVAILABLE. If you would like to purchase this title, we recommend that you occasionally check this page to see if it has become available.</Availability>
+      <ProductDescription>Of his own choosing, Bill Wyman's career as a founding member of the Rolling Stones has achieved a perspective that his legendary bandmates don't yet enjoy: a beginning, middle, and end. Indeed, the musicians once hailed as the greatest rock &amp; roll band in the world have become more like the band that wouldn't die. But history can't be denied, and the man born William Perks of Lower Sydenham, London, has lovingly assembled this over-500-page book, equal parts memoir and lavishly illustrated coffee-table tome, with a winning mix of clear-eyed reportage (based on his own voluminous diaries) and an eye for colorful detail and ephemera worthy of a proud family scrapbook. Which, in many ways, &lt;I>Rolling with the Stones&lt;/I> most resembles: family--and musical--trees are acknowledged, career moves dissected, deaths mourned, and triumphs and foibles alike are dispensed with equal candor. Wyman deflates the myth of the Stones as rock's preternatural bad boys (a conservative, sensationalist press made it all too easy to live down to expectations) yet allows the tragic legend of band founder Brian Jones to assume its proper perspective. A half-decade older than his bandmates, the retired Stone has few illusions about the band's true cultural impact and creative arc, devoting nearly three-quarters of the book to the Stones' first, turbulent decade. What is more gratifying is that he avoids the myopic constraints of the similarly sized &lt;i>Beatles Anthology&lt;/I>, generously weaving the recollections of band members, associates, family, reporters, and even fan letters into a narrative whose outline is epic, but whose viewpoint has a decidedly human scale. &lt;I>--Jerry McCulley&lt;/I></ProductDescription>
+      <Reviews>
+         <AvgCustomerRating>4.47</AvgCustomerRating>
+         <TotalCustomerReviews>19</TotalCustomerReviews>
+         <CustomerReview>
+            <Rating>5</Rating>
+            <Summary>Get this book on the Rolling Stones if you only get one!</Summary>
+            <Comment>I'm also prejudiced as I'm a very strong and longtime Stones fan, e.g. I've got all the new SACD albums and have seen them 6 times on the 2002 US tour! This book is a superb summary of both their off and on stage escapades with lots of details too. Designed as a high end coffee book it is more than its 2,000 photos, 45 two page tour spreads (yes - each tour and every date is listed up to 1993 - when Bill Wyman had left). Plus their are lots of quotes from many who were there and so much more! It literaly starts with where they were born and goes on from there. Definitely easy to dip in to, say for your favorite album or tour, or to read through in one very long sitting. Highly recommended. Enjoy!</Comment>
+         </CustomerReview>
+         <CustomerReview>
+            <Rating>5</Rating>
+            <Summary>Great Coffee Table Book on the Stones!</Summary>
+            <Comment>I was interested when I found out Bill Wyman was doing another book on the history of the "Greatest Rock And Roll Band in the World." His first book "Stone Alone" is one the better books I have read on the history of the band. Unfortunately that book ends at the start of the 1970s. Wyman's new book "Rolling with the Stones" follows the exploits of the band through his entire tenure with the band. Fanatics will enjoy the many pictures of memorabilia from Wyman's own collection. There are a number of rare photographs including some from when the band members were only kids. Other interesting items include many magazine covers and articles, tour posters, and pictures of rare import single sleeves. Album and single releases include track listings, chart positions and information about the original versions of songs the Stones covered. A general set list of songs played on each tour is included as well as list of tour dates and opening acts for each tour. Wyman makes the book a good read by spicing the book with quotes and stories from fans, friends, family, other fellow musicians and the Stones themselves. Many of the quotes and stories pertain to the memorabilia and photos included in the book. Another great aspect of the book is that since Bill Wyman was involved that book does not focus almost entirely on Mick Jagger, Keith Richards, and Brian Jones. The pictures are divided up more evenly among the band members including Ian Stewart. The book is essential to anyone with more than just a passing interest in the Rolling Stones. It was well worth the price especially since I got it on sale.</Comment>
+         </CustomerReview>
+         <CustomerReview>
+            <Rating>5</Rating>
+            <Summary>The Holy Grail for the Rolling Stones fan</Summary>
+            <Comment>So much has been written about the Rolling Stones over the years, but as shown in his autobiography Stone Alone, Bill Wyman's accounts carry much weight because he was there. This massive book is a huge collage of trivia, photos and memorabilia of the band's long reign. Still, the written content is just as valuable, and Wyman packs every page with inside information and personal observations which makes this priceless. &lt;P>All the famous and not so famous moments of the Rolling Stones' career are highlighted, and the reader is spared the pretensions of the boring rock critics who usually suck the life out of their subjects. Particularly enjoyable (as in Stone Alone) are the anecdotes about the early Stones and their unlikely rise to fame.&lt;P>Lots of tidbits all over; for example, Wyman still seems pissed 30 years later about Keith Richards overdubbing the bass on "Happy". There's trivia, like the story behind the cover shoot of Get Your Ya-Yas out and Andy Warhol's disapproval of the Love You Live cover, as well as detail like the typical set lists from all the tours. Ticket stubs and concert posters are everywhere, now if only I could find my 1979 Oshawa concert ticket that's pictured in the book!&lt;P>Wyman still manages to convey the excitement of the whole experience, and its obvious that he loves being an integral part of the Rolling Stones' legacy.</Comment>
+         </CustomerReview>
+      </Reviews>
+      <SimilarProducts>
+         <Product>0811840603</Product>
+         <Product>0306807831</Product>
+         <Product>0823084167</Product>
+         <Product>0789480468</Product>
+         <Product>0767903137</Product>
+      </SimilarProducts>
+   </Details>
+   <Details url="http://www.amazon.com/exec/obidos/ASIN/0306811995/webservices-20?dev-t=MY_AMZN_TOKEN%26camp=2025%26link_code=xm2">
+      <Asin>0306811995</Asin>
+      <ProductName>S.T.P.: A Journey Through America With The Rolling Stones</ProductName>
+      <Catalog>Book</Catalog>
+      <Authors>
+         <Author>Robert Greenfield</Author>
+      </Authors>
+      <ReleaseDate>03 September, 2002</ReleaseDate>
+      <Manufacturer>DaCapo Press</Manufacturer>
+      <ImageUrlSmall>http://images.amazon.com/images/P/0306811995.01.THUMBZZZ.jpg</ImageUrlSmall>
+      <ImageUrlMedium>http://images.amazon.com/images/P/0306811995.01.MZZZZZZZ.jpg</ImageUrlMedium>
+      <ImageUrlLarge>http://images.amazon.com/images/P/0306811995.01.LZZZZZZZ.jpg</ImageUrlLarge>
+      <ListPrice>$16.50</ListPrice>
+      <OurPrice>$11.55</OurPrice>
+      <UsedPrice>$4.95</UsedPrice>
+      <ThirdPartyNewPrice>$4.93</ThirdPartyNewPrice>
+      <SalesRank>71,030</SalesRank>
+      <BrowseList>
+         <BrowseNode>
+            <BrowseName>Rolling Stones</BrowseName>
+         </BrowseNode>
+         <BrowseNode>
+            <BrowseName>Rock Music</BrowseName>
+         </BrowseNode>
+         <BrowseNode>
+            <BrowseName>Biography / Autobiography</BrowseName>
+         </BrowseNode>
+         <BrowseNode>
+            <BrowseName>Music</BrowseName>
+         </BrowseNode>
+         <BrowseNode>
+            <BrowseName>Composers &amp; Musicians - Rock</BrowseName>
+         </BrowseNode>
+         <BrowseNode>
+            <BrowseName>Rock</BrowseName>
+         </BrowseNode>
+         <BrowseNode>
+            <BrowseName>History &amp; Criticism - General</BrowseName>
+         </BrowseNode>
+      </BrowseList>
+      <Media>Paperback</Media>
+      <NumMedia>1</NumMedia>
+      <Isbn>0306811995</Isbn>
+      <Availability>Usually ships within 24 hours</Availability>
+      <Reviews>
+         <AvgCustomerRating>4.5</AvgCustomerRating>
+         <TotalCustomerReviews>2</TotalCustomerReviews>
+         <CustomerReview>
+            <Rating>5</Rating>
+            <Summary>ROLLING WITH THE STONES '72</Summary>
+            <Comment>After being out of print for almost 30 years, I'm glad to see S.T.P. finally available. I've seen and heard references to it for years. I almost broke down and bought a used copy of it on eBay several times. I'm sure glad I waited (and saved a lot of money). While not focused entirely on the Stones themselves, this book does a good job of giving you the flavor of what it was like to tour North America in the summer of '72 with the Stones (and assorted hangers-on) as they brought Exile On Main Street (and Stevie Wonder) to the masses. I couldn't make it all the way through without pulling out my DVD copy of C.S. Blues (the making of which was mentioned in the book). A great look back at the Stones in their prime.</Comment>
+         </CustomerReview>
+         <CustomerReview>
+            <Rating>4</Rating>
+            <Summary>For Stones fans.</Summary>
+            <Comment>A readable and interesting book. I wasn't that interested in those on the peripherals of the Stones touring party, which fills much of this book, but the bits including the Stones themselves are very interesting and entertaining. In the intro, the author says this book has been out of print since 1974, and just got back in print in June, 2002. (I just read a passing reference to it in the Nov., 2002 issue of VOGUE. First I'd heard about it.) He's there when Mick and Keith get arrested for hitting a photographer. He's there when the Governor of Rhode Island tells the chief of police to spring Mick and Keith from jail, for public safety (the waiting audience for a Stones show could riot if deprived of the Stones!). He's there to show that being on tour with the greatest rock and roll band in the world CAN, truly and believably, get mind-numbingly dull. It's an interesting inside look, by a journalist who is impressively objective. (He doesn't despise nor worship the Stones, and actually gives an interesting run down of why, at that time, the Stones actually were NOT very wealthy, despite ten years of success. That's changed since, of course.) Worth reading if you're a Stones fan.</Comment>
+         </CustomerReview>
+      </Reviews>
+      <SimilarProducts>
+         <Product>0811840603</Product>
+         <Product>1556524005</Product>
+         <Product>0823084167</Product>
+         <Product>0972370404</Product>
+         <Product>0312141165</Product>
+      </SimilarProducts>
+   </Details>
+   <Details url="http://www.amazon.com/exec/obidos/ASIN/0821227815/webservices-20?dev-t=MY_AMZN_TOKEN%26camp=2025%26link_code=xm2">
+      <Asin>0821227815</Asin>
+      <ProductName>Tattoo Nation: Portraits of Celebrity Body Art</ProductName>
+      <Catalog>Book</Catalog>
+      <Authors>
+         <Author>Editors of Rolling Stone</Author>
+      </Authors>
+      <ReleaseDate>08 November, 2002</ReleaseDate>
+      <Manufacturer>Bulfinch</Manufacturer>
+      <ImageUrlSmall>http://images.amazon.com/images/P/0821227815.01.THUMBZZZ.jpg</ImageUrlSmall>
+      <ImageUrlMedium>http://images.amazon.com/images/P/0821227815.01.MZZZZZZZ.jpg</ImageUrlMedium>
+      <ImageUrlLarge>http://images.amazon.com/images/P/0821227815.01.LZZZZZZZ.jpg</ImageUrlLarge>
+      <ListPrice>$35.00</ListPrice>
+      <OurPrice>$24.50</OurPrice>
+      <UsedPrice>$17.00</UsedPrice>
+      <ThirdPartyNewPrice>$22.99</ThirdPartyNewPrice>
+      <SalesRank>127,478</SalesRank>
+      <Lists>
+         <ListId>1AFEZFPA7ABZ4</ListId>
+      </Lists>
+      <BrowseList>
+         <BrowseNode>
+            <BrowseName>Tattooing</BrowseName>
+         </BrowseNode>
+         <BrowseNode>
+            <BrowseName>Pictorial works</BrowseName>
+         </BrowseNode>
+         <BrowseNode>
+            <BrowseName>Celebrities</BrowseName>
+         </BrowseNode>
+         <BrowseNode>
+            <BrowseName>Portraits</BrowseName>
+         </BrowseNode>
+         <BrowseNode>
+            <BrowseName>United States</BrowseName>
+         </BrowseNode>
+         <BrowseNode>
+            <BrowseName>Photography</BrowseName>
+         </BrowseNode>
+         <BrowseNode>
+            <BrowseName>Subjects &amp; Themes - Portraits</BrowseName>
+         </BrowseNode>
+         <BrowseNode>
+            <BrowseName>Photoessays &amp; Documentaries</BrowseName>
+         </BrowseNode>
+         <BrowseNode>
+            <BrowseName>Tattoos, Mehndi, &amp; Body Painting</BrowseName>
+         </BrowseNode>
+      </BrowseList>
+      <Media>Hardcover</Media>
+      <NumMedia>1</NumMedia>
+      <Isbn>0821227815</Isbn>
+      <Availability>Usually ships within 24 hours</Availability>
+      <Reviews>
+         <AvgCustomerRating>2.25</AvgCustomerRating>
+         <TotalCustomerReviews>4</TotalCustomerReviews>
+         <CustomerReview>
+            <Rating>1</Rating>
+            <Summary>Be a rebel!</Summary>
+            <Comment>Be a rebel - look like everyone else! Another lame book from Rolling Stone.</Comment>
+         </CustomerReview>
+         <CustomerReview>
+            <Rating>5</Rating>
+            <Summary>Beautiful Photography of American Culture</Summary>
+            <Comment>If you don't like tatoos, get this book for the wonderful photography. It portrays celebrities in their best light. It also features quotes about how each person feels about their tatoo and the reasoning and personal memories behind it. Tatoos are a growing part of American Culture, and it seems now that the peolple that are unique, are the ones that are un-inked. This a great and fun coffee-table book, and also makes an amazing gift.</Comment>
+         </CustomerReview>
+         <CustomerReview>
+            <Rating>1</Rating>
+            <Summary>Photographs of the famous..Oh yes and some tattoos.</Summary>
+            <Comment>I was disappointed when I received this book. The title is very deceitful. What the book really showed was posed photographs of rock stars and actors. What was not shown were detailed photographs of tattoos, nor was there really any explanation or narrative about the individual photograph itself. The book is weak and definately not for someone interested in tattoos. However, if your interested in photographs of a few famous people, you should buy the book.</Comment>
+         </CustomerReview>
+      </Reviews>
+      <SimilarProducts>
+         <Product>0312267843</Product>
+         <Product>1560253231</Product>
+         <Product>0446670014</Product>
+         <Product>006039367X</Product>
+         <Product>0896597989</Product>
+      </SimilarProducts>
+   </Details>
+   <Details url="http://www.amazon.com/exec/obidos/ASIN/0316754684/webservices-20?dev-t=MY_AMZN_TOKEN%26camp=2025%26link_code=xm2">
+      <Asin>0316754684</Asin>
+      <ProductName>Rolling Stone Images of Rock N' Roll</ProductName>
+      <Catalog>Book</Catalog>
+      <Authors>
+         <Author>Editors of Rolling Stone</Author>
+      </Authors>
+      <ReleaseDate>01 November, 1995</ReleaseDate>
+      <Manufacturer>Little Brown &amp; Company</Manufacturer>
+      <ImageUrlSmall>http://images.amazon.com/images/P/0316754684.01.THUMBZZZ.jpg</ImageUrlSmall>
+      <ImageUrlMedium>http://images.amazon.com/images/P/0316754684.01.MZZZZZZZ.jpg</ImageUrlMedium>
+      <ImageUrlLarge>http://images.amazon.com/images/P/0316754684.01.LZZZZZZZ.jpg</ImageUrlLarge>
+      <ListPrice>$50.00</ListPrice>
+      <OurPrice>$35.00</OurPrice>
+      <UsedPrice>$9.95</UsedPrice>
+      <CollectiblePrice>$15.50</CollectiblePrice>
+      <ThirdPartyNewPrice>$24.95</ThirdPartyNewPrice>
+      <SalesRank>134,188</SalesRank>
+      <Lists>
+         <ListId>2SF791ZX1QTVM</ListId>
+         <ListId>2Z3A4Q2EG9V4A</ListId>
+      </Lists>
+      <BrowseList>
+         <BrowseNode>
+            <BrowseName>Rock music</BrowseName>
+         </BrowseNode>
+         <BrowseNode>
+            <BrowseName>Pictorial works</BrowseName>
+         </BrowseNode>
+         <BrowseNode>
+            <BrowseName>Rock musicians</BrowseName>
+         </BrowseNode>
+         <BrowseNode>
+            <BrowseName>Portraits</BrowseName>
+         </BrowseNode>
+         <BrowseNode>
+            <BrowseName>Collections Of Photographs</BrowseName>
+         </BrowseNode>
+         <BrowseNode>
+            <BrowseName>Music</BrowseName>
+         </BrowseNode>
+         <BrowseNode>
+            <BrowseName>Fiction</BrowseName>
+         </BrowseNode>
+         <BrowseNode>
+            <BrowseName>Rock</BrowseName>
+         </BrowseNode>
+      </BrowseList>
+      <Media>Hardcover</Media>
+      <NumMedia>1</NumMedia>
+      <Isbn>0316754684</Isbn>
+      <Availability>Usually ships within 24 hours</Availability>
+      <ProductDescription>Elvis, Michael, Patti, Bruce--icons all. The &lt;I>Rolling Stone&lt;/I> portraits assembled in this book depict five decades worth of musical sensations and idols. The juxtaposition of the shots heightens the fun of flipping through the photos: A young Mick Jagger sitting under a hairdryer faces Snoop Doggy Dog, his curls caught up in a hairdresser's clips; David Bowie in a loincloth counterbalances Bj&amp;ouml;rk in a fig leaf; Chris Isaak and John Lee Hooker stand opposite one another, each in a polka-dot shirt; Jimi Hendrix and Bob Marley, side by side and enveloped in clouds of smoke. These alignments of musicians from different eras and different genres make a simple, visual statement about the transcendent power of music. Every page reveals another familiar image that transports the readers to the moment they first saw the musicians on the cover of the magazine or heard their music. The undiscovered pictures are a treat as well. Individually, these portraits expose the essence of their subjects and speak volumes about the characters that created and sustain rock and roll.</ProductDescription>
+      <Reviews>
+         <AvgCustomerRating>5</AvgCustomerRating>
+         <TotalCustomerReviews>4</TotalCustomerReviews>
+         <CustomerReview>
+            <Rating>5</Rating>
+            <Summary>superb music photos</Summary>
+            <Comment>an excellent collection of rock photos from rolling stone&lt;BR>beautiful work</Comment>
+         </CustomerReview>
+         <CustomerReview>
+            <Rating>5</Rating>
+            <Summary>Capturing The Moment</Summary>
+            <Comment>This is one of the best photographic books I have ever seen. The photographers who took these photos really captured the feeling and emotions of the artists at the time. All the classic and famous personalities of music are here, from Ike and Tina to Bob Dylan; from Elvis to Bowie to Nirvana; from The Beatles and Stones to Alice Cooper and all that lies between (too too many to list here). An excellent array of both black and white and colour shots. The close ups allow you to see into the sometimes troubled, sometimes happy, but ever changing eyes of these rock icons. The broader shots show some of these bands and performers in their most comfortable and bizarre surrounds. A worthwhile purchase, that allows you to ponder each and every photo for hours and hours. In the back is a complete copy (small version) of the photos together with a who is who. Buy the hardcover; not only is it worth the price, but it will last forever. This is easily the greatest and most comprehensive collection of rock and roll pictures in one publication!</Comment>
+         </CustomerReview>
+         <CustomerReview>
+            <Rating>5</Rating>
+            <Summary>courtney love is on the cover!</Summary>
+            <Comment>the best part was courtney love on the cover, and nirvana on the last page.</Comment>
+         </CustomerReview>
+      </Reviews>
+      <SimilarProducts>
+         <Product>0810982064</Product>
+         <Product>0679737286</Product>
+         <Product>0811828166</Product>
+         <Product>0821223925</Product>
+         <Product>0811829782</Product>
+      </SimilarProducts>
+   </Details>
+   <Details url="http://www.amazon.com/exec/obidos/ASIN/0743235819/webservices-20?dev-t=MY_AMZN_TOKEN%26camp=2025%26link_code=xm2">
+      <Asin>0743235819</Asin>
+      <ProductName>Harrison</ProductName>
+      <Catalog>Book</Catalog>
+      <Authors>
+         <Author>Editors of Rolling Stone</Author>
+      </Authors>
+      <ReleaseDate>01 May, 2002</ReleaseDate>
+      <Manufacturer>Simon &amp; Schuster</Manufacturer>
+      <ImageUrlSmall>http://images.amazon.com/images/P/0743235819.01.THUMBZZZ.jpg</ImageUrlSmall>
+      <ImageUrlMedium>http://images.amazon.com/images/P/0743235819.01.MZZZZZZZ.jpg</ImageUrlMedium>
+      <ImageUrlLarge>http://images.amazon.com/images/P/0743235819.01.LZZZZZZZ.jpg</ImageUrlLarge>
+      <ListPrice>$29.95</ListPrice>
+      <OurPrice>$29.95</OurPrice>
+      <UsedPrice>$4.94</UsedPrice>
+      <CollectiblePrice>$15.84</CollectiblePrice>
+      <ThirdPartyNewPrice>$11.88</ThirdPartyNewPrice>
+      <SalesRank>85,847</SalesRank>
+      <Lists>
+         <ListId>T07N12L8JI1</ListId>
+         <ListId>188Z3K3GQV3XZ</ListId>
+         <ListId>1YNSDYR5FH6Z0</ListId>
+      </Lists>
+      <BrowseList>
+         <BrowseNode>
+            <BrowseName>Entertainment &amp; Performing Arts - General</BrowseName>
+         </BrowseNode>
+         <BrowseNode>
+            <BrowseName>Harrison, George,</BrowseName>
+         </BrowseNode>
+         <BrowseNode>
+            <BrowseName>1943-</BrowseName>
+         </BrowseNode>
+         <BrowseNode>
+            <BrowseName>Rock musicians</BrowseName>
+         </BrowseNode>
+         <BrowseNode>
+            <BrowseName>England</BrowseName>
+         </BrowseNode>
+         <BrowseNode>
+            <BrowseName>Biography</BrowseName>
+         </BrowseNode>
+         <BrowseNode>
+            <BrowseName>Rock Music</BrowseName>
+         </BrowseNode>
+         <BrowseNode>
+            <BrowseName>Biography &amp; Autobiography</BrowseName>
+         </BrowseNode>
+         <BrowseNode>
+            <BrowseName>Biography / Autobiography</BrowseName>
+         </BrowseNode>
+         <BrowseNode>
+            <BrowseName>Composers &amp; Musicians - Rock</BrowseName>
+         </BrowseNode>
+         <BrowseNode>
+            <BrowseName>Historical - British</BrowseName>
+         </BrowseNode>
+         <BrowseNode>
+            <BrowseName>Rock</BrowseName>
+         </BrowseNode>
+      </BrowseList>
+      <Media>Hardcover</Media>
+      <NumMedia>1</NumMedia>
+      <Isbn>0743235819</Isbn>
+      <Availability>Usually ships within 24 hours</Availability>
+      <Reviews>
+         <AvgCustomerRating>4.82</AvgCustomerRating>
+         <TotalCustomerReviews>17</TotalCustomerReviews>
+         <CustomerReview>
+            <Rating>5</Rating>
+            <Summary>Living With Good &amp; Bad, I Always Looked Up To You</Summary>
+            <Comment>Unlike nearly every other book on George Harrison, this is of the highest quality &amp; doesn't wander off into gossipy corridors. George's memory is well-served by the book's mature analysis of his wonderful music and its respectful portrayal of George as a human being. I feel compelled to say that when I heard of George's passing, I was extremely upset. Not only was George an amazing songwriter and guitarist, he was also (from what I gather) an extremely gentle person. The world is a much poorer place due to his departure. &lt;P>The book is finely illustrated with many rare pictures; I was delighted that it didn't gloss over George's neglected solo career. Another particular delight is the introduction penned by Mrs. Harrison. Like her husband, Mrs. Harrison is a very dignified, articulate person and I wish her the very best. Pictures of George's son (who looks just like him, by the way) are also included. Thank you for the music, George.</Comment>
+         </CustomerReview>
+         <CustomerReview>
+            <Rating>5</Rating>
+            <Summary>GREAT BOOK! BUY IT!</Summary>
+            <Comment>This is one George Harrison that was not thrown together after his death to make a quick buck. The book is well written, full of great photos, and has a beautiful foreword written by George's wife Olivia...the book also includes personal stories of friends who were very close to George.&lt;P>It's a great book about one of the great artists of the 20th century...it's "fab" and "gear"...you should be scraping your hooter in this bloomin' book!</Comment>
+         </CustomerReview>
+         <CustomerReview>
+            <Rating>4</Rating>
+            <Summary>THE CONFLICTED ONE</Summary>
+            <Comment>Harrison is a coffee table book put out by the editors of Rolling Stone as a tribute to the late Beatles guitarist. What you have here is mostly pictures but there is text in the form of a short biography that scans over George's whole career. It features photographs from the 60s when Beatlemania was at its height and even offers commentary by the people who took those pictures. It also has pictures of his post Beatle career. It also has musical documentation of all of Harrison's output on his and other artist recordings. All of his interviews in Rolling Stone magazine are compiled in this book. &lt;P>The picture of George that emerges after reading this book is of a man who ideally lives his life according to certain religious precepts but nevertheless has to live in the material world. Left to himself, George would have painted himself as a purely spiritual being. The pettiness of the Beatles in their breakup and how shamefully they all acted, including George himself, shows that no divine being can exist in human flesh. It seems he was always conflicted between being an entertainer and being somewhat of a divine monk. I don't think he ever reconciled the two. &lt;P>An especially poignant moment is when an interviewer asks him about his relationship with John Lennon right before he was shot to death. George says that he felt John was trying to reconnect with him. He went to see him in New York and he could tell John wanted so badly to restart a relationship with him but because of his circumstances, probably Yoko's possessiveness of him, he could not communicate what he wanted to say. &lt;P>It was also apparent that time heals most wounds and that George was at peace with his Beatles past, a past which at one time he hated. He seemed resentful that all his life was judged by a span of 7 short years. Remember, he was only 27 years old at the time the Beatles broke up. Paradoxically, he missed his old band, just like John, Paul, and Ringo did. Beneath all their spats in later years, they knew they had a good situation. They were the best band on the planet.</Comment>
+         </CustomerReview>
+      </Reviews>
+      <SimilarProducts>
+         <Product>0811837939</Product>
+         <Product>031230109X</Product>
+         <Product>B0000CEB4V</Product>
+         <Product>0946719500</Product>
+         <Product>B000096BLD</Product>
+      </SimilarProducts>
+   </Details>
+   <Details url="http://www.amazon.com/exec/obidos/ASIN/0811828166/webservices-20?dev-t=MY_AMZN_TOKEN%26camp=2025%26link_code=xm2">
+      <Asin>0811828166</Asin>
+      <ProductName>Rolling Stone: The Illustrated Portraits</ProductName>
+      <Catalog>Book</Catalog>
+      <Authors>
+         <Author>Fred Woodward</Author>
+      </Authors>
+      <ReleaseDate>August, 2000</ReleaseDate>
+      <Manufacturer>Chronicle Books</Manufacturer>
+      <ImageUrlSmall>http://images.amazon.com/images/P/0811828166.01.THUMBZZZ.jpg</ImageUrlSmall>
+      <ImageUrlMedium>http://images.amazon.com/images/P/0811828166.01.MZZZZZZZ.jpg</ImageUrlMedium>
+      <ImageUrlLarge>http://images.amazon.com/images/P/0811828166.01.LZZZZZZZ.jpg</ImageUrlLarge>
+      <ListPrice>$40.00</ListPrice>
+      <OurPrice>$28.00</OurPrice>
+      <UsedPrice>$6.99</UsedPrice>
+      <CollectiblePrice>$14.58</CollectiblePrice>
+      <ThirdPartyNewPrice>$16.77</ThirdPartyNewPrice>
+      <SalesRank>84,755</SalesRank>
+      <Lists>
+         <ListId>1IMI7Y9X24HSA</ListId>
+      </Lists>
+      <BrowseList>
+         <BrowseNode>
+            <BrowseName>Magazine illustration</BrowseName>
+         </BrowseNode>
+         <BrowseNode>
+            <BrowseName>United States</BrowseName>
+         </BrowseNode>
+         <BrowseNode>
+            <BrowseName>20th century</BrowseName>
+         </BrowseNode>
+         <BrowseNode>
+            <BrowseName>Celebrities</BrowseName>
+         </BrowseNode>
+         <BrowseNode>
+            <BrowseName>Portraits</BrowseName>
+         </BrowseNode>
+         <BrowseNode>
+            <BrowseName>Pop Arts / Pop Culture</BrowseName>
+         </BrowseNode>
+         <BrowseNode>
+            <BrowseName>Performing Arts</BrowseName>
+         </BrowseNode>
+         <BrowseNode>
+            <BrowseName>Mass Media - Magazines</BrowseName>
+         </BrowseNode>
+         <BrowseNode>
+            <BrowseName>Popular Culture - General</BrowseName>
+         </BrowseNode>
+         <BrowseNode>
+            <BrowseName>American - General</BrowseName>
+         </BrowseNode>
+      </BrowseList>
+      <Media>Hardcover</Media>
+      <NumMedia>1</NumMedia>
+      <Isbn>0811828166</Isbn>
+      <Availability>Usually ships within 24 hours</Availability>
+      <Reviews>
+         <AvgCustomerRating>4.33</AvgCustomerRating>
+         <TotalCustomerReviews>3</TotalCustomerReviews>
+         <CustomerReview>
+            <Rating>3</Rating>
+            <Summary>The Robert Risko and Philip Burke Nineties show</Summary>
+            <Comment>I don't know if Rolling Stone didn't use any art in their early days, or if the editors of this book just figured that they had to concentrate on appealing to their contemporary audience. Anyway, these very entertaining caricatures are mostly from the late Eighties through the Nineties. Risko and Burke account for a large percentage of the total. Risko especially is good, practically the second coming of Miguel Covarrubias. There's too much Madonna and not enough Sixties, but overall this is a fine compilation.</Comment>
+         </CustomerReview>
+         <CustomerReview>
+            <Rating>5</Rating>
+            <Summary>a great overview</Summary>
+            <Comment>this is a great collection of pictures.before Rolling Stone sold out this was a very important magazine.many great Artists are featured here.i like to remember what made the Magazine great in the first place&amp;this is one of them.</Comment>
+         </CustomerReview>
+         <CustomerReview>
+            <Rating>5</Rating>
+            <Summary>Perfect Coffee Table Book</Summary>
+            <Comment>This book has everyone from Elvis to Marilyn Manson included. The illustrations in this book are phenomenal. It is a pretty large book, all pictures for all ages. It is the perfect gift book to anyone who has lived in the 70's, 80's or 90's. I have a copy sitting on my coffee table and everyone who comes over picks it up and cannot put it down until they have seen every picture. :-)</Comment>
+         </CustomerReview>
+      </Reviews>
+      <SimilarProducts>
+         <Product>0316754684</Product>
+         <Product>0810982064</Product>
+         <Product>1880418568</Product>
+         <Product>B00003CXC5</Product>
+      </SimilarProducts>
+   </Details>
+</ProductInfo>

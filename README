@@ -1,5 +1,5 @@
 ######################################################################
-    Net::Amazon 0.19
+    Net::Amazon 0.20
 ######################################################################
 
 NAME
@@ -346,11 +346,11 @@ WHY ISN'T THERE SUPPORT FOR METHOD XYZ?
 
     *   Get Net::Amazon from CVS. Use
 
-            cvs -d:pserver:anonymous@cvs.sourceforge.net:/cvsroot/Net-Amazon login
-            cvs -z3 -d:pserver:anonymous@cvs.sourceforge.net:/cvsroot/Net-Amazon co Net-Amazon
+                # (Just hit enter when prompted for a password)
+            cvs -d:pserver:anonymous@cvs.net-amazon.sourceforge.net:/cvsroot/net-amazon login
+            cvs -z3 -d:pserver:anonymous@cvs.net-amazon.sourceforge.net:/cvsroot/net-amazon co Net-Amazon
 
-        If this doesn't work (and it didn't work at the time of this
-        writing), just use the latest distribution from
+        If this doesn't work, just use the latest distribution from
         net-amazon.sourceforge.net.
 
     *   Write a new Net::Amazon::Request::XYZ package, start with this
@@ -519,11 +519,12 @@ AUTHOR
         Martin Streicher <martin.streicher@apress.com>
         Mike Evron <evronm@dtcinc.net>
         Padraic Renaghan <padraic@renaghan.com>
+        rayg <rayg@varchars.com>
         Robert Graff <rgraff@workingdemo.com>
         Tony Bowden <tony@kasei.com>
 
 COPYRIGHT AND LICENSE
-    Copyright 2003 by Mike Schilli <na@perlmeister.com>
+    Copyright 2003, 2004 by Mike Schilli <na@perlmeister.com>
 
     This library is free software; you can redistribute it and/or modify it
     under the same terms as Perl itself.

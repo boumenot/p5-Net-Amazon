@@ -1,0 +1,407 @@
+<?xml version="1.0" encoding="UTF-8"?><ProductInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://xml.amazon.com/schemas3/dev-heavy.xsd">
+
+<Request><Args><Arg value="libwww-perl/5.76" name="UserAgent"></Arg><Arg value="19SG51K23T50ZFJYJZ78" name="RequestID"></Arg><Arg value="subject: perl and author: schwartz" name="PowerSearch"></Arg><Arg value="us" name="locale"></Arg><Arg value="1" name="page"></Arg><Arg value="MY_AMAZON_TOKEN" name="dev-t"></Arg><Arg value="webservices-20" name="t"></Arg><Arg value="xml" name="f"></Arg><Arg value="books" name="mode"></Arg><Arg value="heavy" name="type"></Arg><Arg value="+pricerank" name="sort"></Arg></Args></Request>   <TotalResults>6</TotalResults>
+   <TotalPages>1</TotalPages>
+   <Details url="http://www.amazon.com/exec/obidos/ASIN/B00005R09A/webservices-20?dev-t=MY_AMAZON_TOKEN%26camp=2025%26link_code=xm2">
+      <Asin>B00005R09A</Asin>
+      <ProductName>Learning Perl (2nd Edition)</ProductName>
+      <Catalog>Book</Catalog>
+      <Authors>
+         <Author>Randal L. Schwartz</Author>
+         <Author>Tom Christiansen</Author>
+         <Author>Larry Wall</Author>
+      </Authors>
+      <ReleaseDate>July, 1997</ReleaseDate>
+      <ImageUrlSmall>http://images.amazon.com/images/P/B00005R09A.01.THUMBZZZ.jpg</ImageUrlSmall>
+      <ImageUrlMedium>http://images.amazon.com/images/P/B00005R09A.01.MZZZZZZZ.jpg</ImageUrlMedium>
+      <ImageUrlLarge>http://images.amazon.com/images/P/B00005R09A.01.LZZZZZZZ.jpg</ImageUrlLarge>
+      <ListPrice>$29.95</ListPrice>
+      <OurPrice>$14.99</OurPrice>
+      <UsedPrice>$9.00</UsedPrice>
+      <SalesRank>428,814</SalesRank>
+      <BrowseList>
+         <BrowseNode>
+            <BrowseName>Perl (Computer program languag</BrowseName>
+         </BrowseNode>
+         <BrowseNode>
+            <BrowseName>Perl (Computer language)</BrowseName>
+         </BrowseNode>
+         <BrowseNode>
+            <BrowseName>Computer Programming Languages</BrowseName>
+         </BrowseNode>
+         <BrowseNode>
+            <BrowseName>Unix (Operating System)</BrowseName>
+         </BrowseNode>
+         <BrowseNode>
+            <BrowseName>Computer Bks - Languages / Programming</BrowseName>
+         </BrowseNode>
+         <BrowseNode>
+            <BrowseName>Computers</BrowseName>
+         </BrowseNode>
+         <BrowseNode>
+            <BrowseName>Programming Languages - CGI, Javascript, Perl, VBScript</BrowseName>
+         </BrowseNode>
+         <BrowseNode>
+            <BrowseName>Bargain</BrowseName>
+         </BrowseNode>
+      </BrowseList>
+      <Media>Paperback</Media>
+      <NumMedia>1</NumMedia>
+      <Isbn>B00005R09A</Isbn>
+      <Availability>THIS TITLE IS CURRENTLY NOT AVAILABLE. If you would like to purchase this title, we recommend that you occasionally check this page to see if it has become available.</Availability>
+      <ProductDescription>In this smooth, carefully paced course, a leading Perl trainer  teaches you to program in the language that threatens to make C, sed, awk, and the Unix shell obsolete for many tasks.  This book is the "official" guide for both formal (classroom) and informal learning.  It is fully  accessible to the novice programmer.</ProductDescription>
+      <Reviews>
+         <AvgCustomerRating>4.2</AvgCustomerRating>
+         <TotalCustomerReviews>233</TotalCustomerReviews>
+         <CustomerReview>
+            <Rating>5</Rating>
+            <Summary>From a programming novice, this book is an outstanding tool</Summary>
+            <Comment>As a non-programmer, I purchased this book to assist me in my duties as a systems administrator. After reading the book cover-to-cover (reading some chapters twice, to make up for my lack of programming experience), I was able to gain a solid understanding of the Perl programming language. Though this book will not make you an expert on the subject, it will give you enough knowledge to begin using Perl for many tasks, and can be a stepping stone to more advanced Perl books (such as O'Reilly's 'Learning Perl', considered by many to be the unofficial bible of the language). For non-programmers like myself, this book is an outstanding learning tool; within a matter of just a few weeks, this book can help you become well-versed in the basics of Perl.</Comment>
+         </CustomerReview>
+         <CustomerReview>
+            <Rating>4</Rating>
+            <Summary>Not straightforward, but contains valuble information</Summary>
+            <Comment>While this book isn't quite as comprihensive as 'Programming Perl' by Larry Wall, it still assumes basic knowledge of procedural programming. I bought this book after one semester of C++, and shortly thereafter, I was rewriting that semester's work in Perl. Also, the 'Regular Expressions' Chapter does make several refrences to grep and sed, which seems to irritate some non-UNIX savvy reviewers. I have no real knowledge of UNIX shell scripting, but I was able to understand the sections in the book which make heavy reference to it, those references may just make it easier for UNIX programmers to undestand; it's hardly an impediment to anyone else.&lt;P>Overall, the book is not easy reading, but if you got an 'A' in your introductory C/C++ class, this book should not be a problem. One common thing I've noticed about programming books on amazon is that, either reviewers praise or bash a particular book, so make sure you 'get' programming before spending $50 on a non-introductory book like this one.</Comment>
+         </CustomerReview>
+         <CustomerReview>
+            <Rating>2</Rating>
+            <Summary>Overrated because there are no competing books</Summary>
+            <Comment>I've think I've owned every edition of this book and each time I return it after unsuccessfully trying to get anything useful out of it. Lately I've wanted to really get scripting under my hands to expand my skills as a sysadmin. So I bought this book again (erroneously thinking I'd not tried hard enough the first 2-3 times I used this book to try and learn Perl). While I'm no developer, I'm no stranger to the concepts of coding. I wouldn't exactly call myself a beginner. Nevertheless, this book seems bent on confusing the reader by introducing concept after concept with absolutely no hands on application of the material covered. How exactly are you going to remember all the ways you can list the contents of an arrray without some practical examples?&lt;P>Reading this book this time (and hopefully for the last time), I keep getting the feeling that these authors wrote the book to appease Perl gurus, not to help people who are new to Perl and who are not senior developers in other programming languages. The constant bombardment of superfluous footnotes also serves to distract the frustrated Perl student from learning the language in any useful fashion. And what gives with the first exercise in the book (!) being about finding the circumference of a circle and the square root of such-and-such? Sadly I never took those math courses, does that mean I can't learn Perl? Or does it just mean that the authors assume all who read this book are math wizzes with years of programming experience?&lt;P>I noticed another reviewer said that this book is not a reference. I do agree him that a book about learning Perl shouldn't be a reference. But I have to say that this book reads like a reference book....too many concepts thrown in the Perl student's lap without showing him/her at least a couple ways in which the concept(s) might be used.&lt;P>My opinion is the book is probably good for advanced programmers who want a quick-and-dirty overview of Perl. But to be truly useful (and to live up to the name "learning perl" not "learning perl for math geeks and programming gurus") the book should be bigger, allowing for useful examples that the less-experienced student can run that teach how to actually use these concepts.</Comment>
+         </CustomerReview>
+      </Reviews>
+      <SimilarProducts>
+         <Product>0596000278</Product>
+         <Product>0596003137</Product>
+         <Product>1565924193</Product>
+         <Product>0596002890</Product>
+         <Product>0596003749</Product>
+      </SimilarProducts>
+   </Details>
+   <Details url="http://www.amazon.com/exec/obidos/ASIN/B00007FYAG/webservices-20?dev-t=MY_AMAZON_TOKEN%26camp=2025%26link_code=xm2">
+      <Asin>B00007FYAG</Asin>
+      <ProductName>Learning Perl on Win32 Systems</ProductName>
+      <Catalog>Book</Catalog>
+      <Authors>
+         <Author>Randal L. Schwartz</Author>
+         <Author>Tom Christiansen</Author>
+         <Author>Erik W. Olson</Author>
+         <Author>Erik Olsen</Author>
+      </Authors>
+      <ReleaseDate>August, 1997</ReleaseDate>
+      <Manufacturer>O'Reilly &amp; Associates</Manufacturer>
+      <ImageUrlSmall>http://images.amazon.com/images/P/B00007FYAG.01.THUMBZZZ.jpg</ImageUrlSmall>
+      <ImageUrlMedium>http://images.amazon.com/images/P/B00007FYAG.01.MZZZZZZZ.jpg</ImageUrlMedium>
+      <ImageUrlLarge>http://images.amazon.com/images/P/B00007FYAG.01.LZZZZZZZ.jpg</ImageUrlLarge>
+      <ListPrice>$29.95</ListPrice>
+      <OurPrice>$14.99</OurPrice>
+      <SalesRank>1,250,377</SalesRank>
+      <BrowseList>
+         <BrowseNode>
+            <BrowseName>Perl (Computer program languag</BrowseName>
+         </BrowseNode>
+         <BrowseNode>
+            <BrowseName>Microsoft Win32</BrowseName>
+         </BrowseNode>
+         <BrowseNode>
+            <BrowseName>Computer Programming Languages</BrowseName>
+         </BrowseNode>
+         <BrowseNode>
+            <BrowseName>Computer Bks - Languages / Programming</BrowseName>
+         </BrowseNode>
+         <BrowseNode>
+            <BrowseName>Computers</BrowseName>
+         </BrowseNode>
+         <BrowseNode>
+            <BrowseName>Operating Systems - Windows</BrowseName>
+         </BrowseNode>
+         <BrowseNode>
+            <BrowseName>Programming Languages - General</BrowseName>
+         </BrowseNode>
+         <BrowseNode>
+            <BrowseName>Bargain</BrowseName>
+         </BrowseNode>
+      </BrowseList>
+      <Media>Paperback</Media>
+      <NumMedia>1</NumMedia>
+      <Features>
+         <Feature>Bargain Price</Feature>
+      </Features>
+      <Isbn>B00007FYAG</Isbn>
+      <Availability>THIS TITLE IS CURRENTLY NOT AVAILABLE. If you would like to purchase this title, we recommend that you occasionally check this page to see if it has become available.</Availability>
+      <Reviews>
+         <AvgCustomerRating>3.48</AvgCustomerRating>
+         <TotalCustomerReviews>29</TotalCustomerReviews>
+         <CustomerReview>
+            <Rating>3</Rating>
+            <Summary>Shallow, but a Helpful Intro to Perl for Win32 People</Summary>
+            <Comment>I concur with the bulk of the reviews here: This is a shallow book, especially given Perl's scope. But it WILL help Windows folks understand many of the key Perl concepts that otherwise go unmentioned.&lt;P>And that's the major point here. The book may be a trivial intro to Perl, but at least it doesn't assume you're a *NIX weenie. After getting annoyed reading the 3rd edition of the camel book, I bought this book. It was helpful in clearing up all those references to the weird stuff that *NIX dudes apparently are born knowning, and got me quickly into writing simple Perl scripts.&lt;P>You want heavy details of the Win32 or NT-specific functions? Go read the POD embedded in those modules. Or get a different book.&lt;P>This is "LEARNING Perl on Win32 Systems"... I read it in about 6 hours, total, cover to cover. And in that time it provided just about as good an intro as I could hope for.</Comment>
+         </CustomerReview>
+         <CustomerReview>
+            <Rating>3</Rating>
+            <Summary>Ok language intro, but missing context</Summary>
+            <Comment>This book provided a reasonable introduction to the language elements. As a complete novice, I learned enough to read CGI scripts. It was helpful to work on the well-done examples and then to look at the answers. I would have preferred a "log cracking" example rather than "secret words". Although I got the syntax of the hashes, I missed their glory in solving problems. The regular expression examples were good, but I could have used a full-blown example here also. This book sent me searching for CGI/web packages, such as the database package DBI (which may have been more useful than the DBM), the graphics package (GD), and more on writing HTML code from Perl scripts.</Comment>
+         </CustomerReview>
+         <CustomerReview>
+            <Rating>4</Rating>
+            <Summary>Easy to read, easy to understand.</Summary>
+            <Comment>I found that this book was good, particularly for the Win32 platform, and recommend it to anyone who uses Windows, regardless of their initial interest in programming. The only problems I had with the book are that the CGI (and OOP, which is introduced only in the context of CGI...but it could be so much more) chapter is left in limbo as far as being able to use any of the examples. If it were used on a Unix webserver (which are almost always setup to handle Perl CGI scripts), the examples would work fine. However, this is Perl for Win32, so IIS or PWS (if possible...I don't think it is, however) should be the web platforms targetted, and a "quick and dirty" setup instruction would be good to be able to test those examples.</Comment>
+         </CustomerReview>
+      </Reviews>
+   </Details>
+   <Details url="http://www.amazon.com/exec/obidos/ASIN/B00005R09P/webservices-20?dev-t=MY_AMAZON_TOKEN%26camp=2025%26link_code=xm2">
+      <Asin>B00005R09P</Asin>
+      <ProductName>Programming Perl (2nd Edition)</ProductName>
+      <Catalog>Book</Catalog>
+      <Authors>
+         <Author>Larry Wall</Author>
+         <Author>Tom Christiansen</Author>
+         <Author>Randal L. Schwartz</Author>
+         <Author>Stephen Potter</Author>
+      </Authors>
+      <ReleaseDate>October, 1996</ReleaseDate>
+      <ImageUrlSmall>http://images.amazon.com/images/P/B00005R09P.01.THUMBZZZ.jpg</ImageUrlSmall>
+      <ImageUrlMedium>http://images.amazon.com/images/P/B00005R09P.01.MZZZZZZZ.jpg</ImageUrlMedium>
+      <ImageUrlLarge>http://images.amazon.com/images/P/B00005R09P.01.LZZZZZZZ.jpg</ImageUrlLarge>
+      <ListPrice>$44.95</ListPrice>
+      <OurPrice>$19.99</OurPrice>
+      <SalesRank>494,824</SalesRank>
+      <BrowseList>
+         <BrowseNode>
+            <BrowseName>Operating Systems - UNIX</BrowseName>
+         </BrowseNode>
+         <BrowseNode>
+            <BrowseName>Computer Books: Languages</BrowseName>
+         </BrowseNode>
+         <BrowseNode>
+            <BrowseName>Unix (Operating System)</BrowseName>
+         </BrowseNode>
+         <BrowseNode>
+            <BrowseName>Computer Bks - Languages / Programming</BrowseName>
+         </BrowseNode>
+         <BrowseNode>
+            <BrowseName>Computers</BrowseName>
+         </BrowseNode>
+         <BrowseNode>
+            <BrowseName>Programming Languages - CGI, Javascript, Perl, VBScript</BrowseName>
+         </BrowseNode>
+         <BrowseNode>
+            <BrowseName>Bargain</BrowseName>
+         </BrowseNode>
+      </BrowseList>
+      <Media>Paperback</Media>
+      <NumMedia>1</NumMedia>
+      <Isbn>B00005R09P</Isbn>
+      <Availability>THIS TITLE IS CURRENTLY NOT AVAILABLE. If you would like to purchase this title, we recommend that you occasionally check this page to see if it has become available.</Availability>
+      <ProductDescription>The second edition of the Camel Book is more than 600 pages long and full of excellent instruction and sound advice. Topics include all the good stuff from the first edition plus Perl 5 features such as nested data structures (ever made a hash of arrays of hashes?), modules, and objects. From &lt;NOBR>&lt;CODE>"Howdy World"&lt;/CODE>&lt;/NOBR> to making your own modules, this book has it all.</ProductDescription>
+      <Reviews>
+         <AvgCustomerRating>4.17</AvgCustomerRating>
+         <TotalCustomerReviews>209</TotalCustomerReviews>
+         <CustomerReview>
+            <Rating>5</Rating>
+            <Summary>Who said ....</Summary>
+            <Comment>The book is definetely written for those who at least have some (or maybe a little more than just "some") programming background, and willing to learn Perl from the author of the language.&lt;P>I read the first edition of the book, which was about 200 pages, or something in that range, which filled my mind with nothing but questions. Current edition, however, could answer to all of those questions (well, almost). Of course, to make it answer them I had to re-read the book four times. But none of the books I currently own (and I own quite a few) could've taken me to the innards of the language so deep no matter how many times I had read them. So the book is of value. &lt;P>The Camel book, especially, does a great job on Regular Expressions and pattern matching. If you want to learn RegEx of perl in very details, you definitely need listen to the author of Perl. "Mastering Regular Expressions" by Jeffrey Friedl is also a good choise, but doesn't include the latest updates.&lt;P>Formats aren't covered very well though. So you might consider "The Lama book" for that ("Learning Perl"). Still, none of the books can tell you about the innards of the Perl in so much detail overall than "Programming Perl".&lt;P>OOP is also toched upon in the book. Since purpose of the author is not to preach you OO lingo (but plain Perl), you'll treat that part just as an intorduction to OOP and consider "Object Oriented perl" by Damian Convey as the next text book. &lt;P>I found chpater 14, "Tied variables" very helpfull though. It might remind you of DBM/Berkley DB, through the syntax &lt;P>tie my %db, 'AnyDBM_File', 'my_file', O_CREAT|O_RDWR, 0664;&lt;P>but unfortunately it's not about DBM at all. It is about how the "tie" function works, and teaches you how to create your own classes for implementing with "tie". After that chapter, I even had to update some of my classes and saved lots of time for their updates. &lt;P>"Compiling", chapter 18 ,is a must read chapter for those who "live &amp; breath" with Perl (like me, may be ?).&lt;P>I don't want you to buy the book unless you have a good understanding of Programming or/and have knowledge of some programming languages. Otherwise, it won't help at all. &lt;P>If your purpose is just to get started with Web applications, go for "CGI progamming 101" by Jacqueline Hamilton. It is a good start. But if you want to go even deeper, "Learning Perl" and "Perl Coookbook" is the next choise. Keep the "The Camel" book as the next (but definitely, not the last).</Comment>
+         </CustomerReview>
+         <CustomerReview>
+            <Rating>5</Rating>
+            <Summary>A hard earned tip for tutorial use</Summary>
+            <Comment>Hola! from the most wired dormatory in America, &lt;P>I thought my CS friends were crazy. Fell asleep to Chapter 2. I dare not even look at the alphabetical Ch. 3 and 7. How can this be the famous tutorial? The problem is simple: it's a bible. Quite literally. No nonsense details, and lots of it. Don't give up. The authors thought of you. There's hope. &lt;P>Heed Ch. 2's subtle suggestion as to how you might want to use the book as a tutorial: &lt;P>A. The >contexts&lt; in which Perl language features, basic Perl functions, and core Perl libraries will be used are not in Ch. 2, 3, or 7--Ch. 4-6 reveals all. Look there instead. Code examples and real world use are simply saved for later. This is a great way to preserve the succinct nature of a deskside reference.&lt;P>B. Read it backwards! Skim pass Ch. 2, 3, and 7 if you have some programming background. Refer to them as you stumble across strange terrain during your careful study of Ch 4-6. Read this way the reference becomes a tender tutorial. Your fingers will also become very familiar with the whereabouts of each toy in this treasure chest. &lt;P>This book is a pearl. So is the community.</Comment>
+         </CustomerReview>
+         <CustomerReview>
+            <Rating>4</Rating>
+            <Summary>The Perl bible, plain and simple</Summary>
+            <Comment>I regard this book as the Perl equivalent of Stroustrup's The C++ Programming Language. Simply put, it is the bible for the language: long, thorough, authoratative, and indulging in a fair amount of proselytizing. (The preaching becomes almost amusing when it tries to portray Perl's implementation of OOP as anything but ugly.) If nothing else, the authors' enthusiasm for the language shines through. Along with a somewhat witty writing style, it makes for good reading.&lt;P>I have to disagree with those warning Perl newbies away from this book. I must admit that I did read Learning Perl first, as a result of all these cautionary tales. However, I felt that I learning nothing useful from the Llama, and I didn't even write my first Perl program until I began the Camel. Reading Programming Perl was very satisfying in that it portrayed the language in a no-nonsense manner that allowed me at last to see all that Learning Perl tried so hard to hide. Certainly, I don't recommend Programming Perl to those who are programming for the first time. However, experienced C programmers and computer scientists will probably pick up Perl pretty readily from this book. If nothing else, at least try Programming Perl first. You'll certainly need it eventually, since Learning Perl is not sufficient for anything but the most surface understanding of how to use the language. (The authors at least address the reader as somebody who knows nothing about Perl.)&lt;P>The bottom line: if you're a programmer, you should have this book. Perl is just too useful a language not to know.</Comment>
+         </CustomerReview>
+      </Reviews>
+      <SimilarProducts>
+         <Product>0596001320</Product>
+         <Product>0596003137</Product>
+         <Product>0596002890</Product>
+         <Product>1565922204</Product>
+         <Product>1565924193</Product>
+      </SimilarProducts>
+   </Details>
+   <Details url="http://www.amazon.com/exec/obidos/ASIN/1590593235/webservices-20?dev-t=MY_AMAZON_TOKEN%26camp=2025%26link_code=xm2">
+      <Asin>1590593235</Asin>
+      <ProductName>Randal Schwartz's Perls of Wisdom</ProductName>
+      <Catalog>Book</Catalog>
+      <Authors>
+         <Author>Randal Schwartz</Author>
+         <Author>Randal L. Schwartz</Author>
+         <Author>Apress</Author>
+      </Authors>
+      <ReleaseDate>01 March, 2004</ReleaseDate>
+      <Manufacturer>APress</Manufacturer>
+      <ImageUrlSmall>http://images.amazon.com/images/P/1590593235.01.THUMBZZZ.jpg</ImageUrlSmall>
+      <ImageUrlMedium>http://images.amazon.com/images/P/1590593235.01.MZZZZZZZ.jpg</ImageUrlMedium>
+      <ImageUrlLarge>http://images.amazon.com/images/P/1590593235.01.LZZZZZZZ.jpg</ImageUrlLarge>
+      <ListPrice>$29.99</ListPrice>
+      <OurPrice>$20.99</OurPrice>
+      <BrowseList>
+         <BrowseNode>
+            <BrowseName>Computer Books: Languages</BrowseName>
+         </BrowseNode>
+         <BrowseNode>
+            <BrowseName>Computer Bks - Languages / Programming</BrowseName>
+         </BrowseNode>
+         <BrowseNode>
+            <BrowseName>Computers</BrowseName>
+         </BrowseNode>
+         <BrowseNode>
+            <BrowseName>Programming Languages - CGI, Javascript, Perl, VBScript</BrowseName>
+         </BrowseNode>
+      </BrowseList>
+      <Media>Paperback</Media>
+      <NumMedia>1</NumMedia>
+      <Isbn>1590593235</Isbn>
+      <Availability>Not yet released.</Availability>
+   </Details>
+   <Details url="http://www.amazon.com/exec/obidos/ASIN/0201419750/webservices-20?dev-t=MY_AMAZON_TOKEN%26camp=2025%26link_code=xm2">
+      <Asin>0201419750</Asin>
+      <ProductName>Effective Perl Programming: Writing Better Programs With Perl</ProductName>
+      <Catalog>Book</Catalog>
+      <Authors>
+         <Author>Joseph N. Hall</Author>
+         <Author>Randal Schwartz</Author>
+      </Authors>
+      <ReleaseDate>30 December, 1997</ReleaseDate>
+      <Manufacturer>Addison-Wesley Pub Co</Manufacturer>
+      <ImageUrlSmall>http://images.amazon.com/images/P/0201419750.01.THUMBZZZ.jpg</ImageUrlSmall>
+      <ImageUrlMedium>http://images.amazon.com/images/P/0201419750.01.MZZZZZZZ.jpg</ImageUrlMedium>
+      <ImageUrlLarge>http://images.amazon.com/images/P/0201419750.01.LZZZZZZZ.jpg</ImageUrlLarge>
+      <ListPrice>$34.95</ListPrice>
+      <OurPrice>$24.47</OurPrice>
+      <UsedPrice>$17.86</UsedPrice>
+      <ThirdPartyNewPrice>$20.00</ThirdPartyNewPrice>
+      <SalesRank>45,282</SalesRank>
+      <Lists>
+         <ListId>IEF1DNVKZO8B</ListId>
+         <ListId>HB1RWLRSGVKC</ListId>
+         <ListId>22BZURF930GVX</ListId>
+      </Lists>
+      <BrowseList>
+         <BrowseNode>
+            <BrowseName>Perl (Computer program languag</BrowseName>
+         </BrowseNode>
+         <BrowseNode>
+            <BrowseName>Object-Oriented Programming</BrowseName>
+         </BrowseNode>
+         <BrowseNode>
+            <BrowseName>Computer Programming Languages</BrowseName>
+         </BrowseNode>
+         <BrowseNode>
+            <BrowseName>Computer Bks - Languages / Programming</BrowseName>
+         </BrowseNode>
+         <BrowseNode>
+            <BrowseName>Computers</BrowseName>
+         </BrowseNode>
+         <BrowseNode>
+            <BrowseName>Programming Languages - CGI, Javascript, Perl, VBScript</BrowseName>
+         </BrowseNode>
+         <BrowseNode>
+            <BrowseName>Programming - Object Oriented Programming</BrowseName>
+         </BrowseNode>
+      </BrowseList>
+      <Media>Paperback</Media>
+      <NumMedia>1</NumMedia>
+      <Isbn>0201419750</Isbn>
+      <Availability>Usually ships within 24 hours</Availability>
+      <ProductDescription>&lt;I>Effective Perl Programming&lt;/I> is a gem of a Perl book. Its author, Joseph Hall, is a well-known Perl instructor and frequent poster on the seminal comp.lang.perl.misc newsgroup. The book's technical editor is none other than Randal Schwartz, noted Net personality, enigmatic author of &lt;I>Learning Perl&lt;/I>, and contributor to &lt;I>Programming Perl&lt;/I>.&lt;p> Hall has distilled his years of Perl experience into a book for Perl programmers that is both fluid and fun to read. It's somewhat like reading the Perl FAQ; even when you think you know everything, there's so much you don't know.&lt;p> &lt;I>Effective Perl Programming&lt;/I> has a clear layout: the text is easy on the eyes and the monospaced font makes a clear distinction between backticks and single quotes. Hall uses his PEGS (PErl Graphical Structures) notation to show the difference between Perl's different types of data structures and how everything ties together.&lt;p> Packed with great examples and code snippets, this book is an excellent source of tips and tricks to make your Perl programs faster and easier to read. You'll also find a strong section on using the Perl debugger to improve your Perl programming skills. In yet another section, Hall walks the reader through the creation of a complete XS module that can boost the performance of array shuffling eight-fold. All in all, this is a great book for programmers who want to move beyond plain, verbose Perl toward a more succinct and powerful coding style.</ProductDescription>
+      <Reviews>
+         <AvgCustomerRating>4.85</AvgCustomerRating>
+         <TotalCustomerReviews>40</TotalCustomerReviews>
+         <CustomerReview>
+            <Rating>4</Rating>
+            <Summary>lightweight</Summary>
+            <Comment>Well written, succinct, no fat. Material is too simple for CS or Perl experts or for advanced readers who want a deeper look under the covers. Covers a broad swath of perl issues in a very shallow manner. Pricy for the skinny size of the book -- I read it over 4 days before going to bed. Not much of a reference. Good starting point for many ideas and other more specialized books and online docs.&lt;P>I wanted to give it 3*. But I am not the intended audience since I have nearly 10 years of professional experience in Perl. I wish I borrowed a copy or read it in the book store. For someone with 6 months to 2 years of Perl experience it could be a good book to kick you up to the next level of Perl.</Comment>
+         </CustomerReview>
+         <CustomerReview>
+            <Rating>4</Rating>
+            <Summary>A little more in-depth.</Summary>
+            <Comment>This book covers some cool tricks and tips and more efficient coding than some of the other Perl books. Few books I believe actually add to your knowledge and offer ideas and inspiration. For a Perl book after you've got some experience--or even not--this one's pretty good.</Comment>
+         </CustomerReview>
+         <CustomerReview>
+            <Rating>4</Rating>
+            <Summary>Write more perl-ish perl</Summary>
+            <Comment>I started writing perl around ten years ago, and at the time my perl looked a lot like the c code I wrote in 1990.. or the FORTRAN code I wrote in 1975! And so it was for many years.&lt;P>But this book, more than any other, helped turn me into an actual perl programmer. It covers the basics- things like 'use "$_" implcitly whenever possible, but don't refer to it explicitly if you don't have to'. There's a good description of slurp mode. And it covers those neat little tricks, like using:&lt;P>($a,$b)[$a&lt;$b]&lt;P>to return the greater of two scalars.&lt;P>It's not a book for the absolute beginner. But once you've written a few programs and start wondering why your perl doesn't look like that written by the perl gurus, this is the book to get.</Comment>
+         </CustomerReview>
+      </Reviews>
+      <SimilarProducts>
+         <Product>1884777791</Product>
+         <Product>0596003137</Product>
+         <Product>0596004788</Product>
+         <Product>0596000278</Product>
+         <Product>0596002890</Product>
+      </SimilarProducts>
+   </Details>
+   <Details url="http://www.amazon.com/exec/obidos/ASIN/0596004788/webservices-20?dev-t=MY_AMAZON_TOKEN%26camp=2025%26link_code=xm2">
+      <Asin>0596004788</Asin>
+      <ProductName>Learning Perl Objects, References &amp; Modules</ProductName>
+      <Catalog>Book</Catalog>
+      <Authors>
+         <Author>Randal L. Schwartz</Author>
+         <Author>Tom Phoenix</Author>
+      </Authors>
+      <ReleaseDate>06 June, 2003</ReleaseDate>
+      <Manufacturer>O'Reilly &amp; Associates</Manufacturer>
+      <ImageUrlSmall>http://images.amazon.com/images/P/0596004788.01.THUMBZZZ.jpg</ImageUrlSmall>
+      <ImageUrlMedium>http://images.amazon.com/images/P/0596004788.01.MZZZZZZZ.jpg</ImageUrlMedium>
+      <ImageUrlLarge>http://images.amazon.com/images/P/0596004788.01.LZZZZZZZ.jpg</ImageUrlLarge>
+      <ListPrice>$34.95</ListPrice>
+      <OurPrice>$24.47</OurPrice>
+      <UsedPrice>$21.95</UsedPrice>
+      <ThirdPartyNewPrice>$22.99</ThirdPartyNewPrice>
+      <SalesRank>7,760</SalesRank>
+      <Lists>
+         <ListId>1OQV9AGCQG0ED</ListId>
+         <ListId>1BIH9M0YMNUFG</ListId>
+         <ListId>2ECDFGNWHAGNL</ListId>
+      </Lists>
+      <BrowseList>
+         <BrowseNode>
+            <BrowseName>Computer Books: Languages</BrowseName>
+         </BrowseNode>
+         <BrowseNode>
+            <BrowseName>Computer Bks - Languages / Programming</BrowseName>
+         </BrowseNode>
+         <BrowseNode>
+            <BrowseName>Computers</BrowseName>
+         </BrowseNode>
+         <BrowseNode>
+            <BrowseName>Programming Languages - CGI, Javascript, Perl, VBScript</BrowseName>
+         </BrowseNode>
+         <BrowseNode>
+            <BrowseName>Programming - General</BrowseName>
+         </BrowseNode>
+      </BrowseList>
+      <Media>Paperback</Media>
+      <NumMedia>1</NumMedia>
+      <Isbn>0596004788</Isbn>
+      <Availability>Usually ships within 24 hours</Availability>
+      <Reviews>
+         <AvgCustomerRating>4.83</AvgCustomerRating>
+         <TotalCustomerReviews>6</TotalCustomerReviews>
+         <CustomerReview>
+            <Rating>5</Rating>
+            <Summary>Great book for beginners and pros</Summary>
+            <Comment>This book does a great job on helping you grasp the concepts of objects and oop related concepts. I already know perl well, and use daily as part of my job. But I'm so used to procedural programming that I sometimes forget the details about oop. This book helps remind me about oop, and I try to use the examples here when coding new stuff :)</Comment>
+         </CustomerReview>
+         <CustomerReview>
+            <Rating>5</Rating>
+            <Summary>Perfect book for taking your Perl skills to the next level</Summary>
+            <Comment>In the world of Perl there was once only the 'camel book,' held in perhaps as much reverence as 'K &amp; R' among C programmers. It certainly appealed to roughly the same audience, those who wanted a short, sharp introduction to a programming language. It was with a problem that needed solving and a copy of the camel book that I started as a Perl programmer.&lt;P>Then for those that wanted a introduction to Perl and programming Randal L. Schwartz wrote Learning Perl, a book that has arguably become the definitive textbook for teaching Perl. The one weakness was that it left off before really getting to the guts of building large, complex projects in Perl. It did not cover classes, objects, breaking your code up into pieces or the more arcane aspects of variables, references. For this we had to resort to the last few chapters of the 'camel book' and I, for one, have never really been totally comfortable at this end of the language; when I'm reading someone else's code it might take a couple of reads to fully understand the process. &lt;P>Now this weakness has been well and truly addressed. Schwartz, with Tom Phoenix, has written "Learning Perl Objects, References &amp; Modules", a volume that takes the same steady approach to teaching you the more advanced topics as the earlier 'Learning Perl'. Schwartz has spent the years since writing 'Learning Perl' teaching and writing. You can tell, this is a superbly written book, not that 'Learning Perl' wasn't well written; it's just that this volume is far better. &lt;P>The Guts &lt;P>The book starts with a chapter on building larger programs that covers @INC, eval, do and require before discussing packages and scope. It then has several chapters on references that explains in well understandable fashion and increasing complexity all the ins and outs of references including dereferencing, nested references, references to subroutines and references to anonymous data before a final chapter on references that gives you some incredibly useful tricks such as sorting and recursively defining complex data. &lt;P>The book continues with three chapters that give you a solid grounding in Perl objects. Here Schwartz has assumed that you know at least a little about object oriented programming, some may feel the need for more explanation of concepts might be required, but if you've had any experience in OOP before then the clear examples and descriptions here are probably all you want. &lt;P>Modules are not as well covered, with only a single chapter, but it is hard to think of anything left out, it covers using them and building your own so well that it left me wondering what all the fuss was about, "seems obvious to me." The book concludes with chapters on building a distribution out of your module, testing it using make test (with Test::Harness), Test::Simple and Test::More before a chapter telling you how to contribute to CPAN. &lt;P>Each chapter of the book concludes with a number of small exercises, designed to be done in just a few minutes, that cement the learning of the previous chapter. The answers to these are at the end of the book. &lt;P>Conclusion &lt;P>Once I'd finished I felt I had a much more solid grounding in Perl, certainly I was much better able to understand another programmer's code that dealt with such things as subroutine references and some complex data structures. While the subject matter of this book is almost entirely covered in 'Programming Perl' the tutorial aspects of this book made it much easier going. The style would be familiar to anyone who has read 'Learning Perl', light without being frivolous and extremely well written, Schwartz seems a master at reducing complexity to manageable bites. &lt;P>This book is deceptively easy to follow, each new idea built onto earlier ones, each new language concept introduced in an easy manner. The writing is excellent, it's hard to explain why I appreciated it so much. That may be the reason, the writing isn't forced or heavy or too light or obvious. It just allows the solid material of the book to shine through. Go to the ubiquitous O'Reilly website and grab the example chapter (the site also has a few Errata, the Table of Contents and the code from the book) and give it a look. &lt;P>I think this may well become a classic, I may well in ten years time talk of Schwartz's books with the same awe I now talk of Brian Kernighan's. I'll certainly eagerly await his next book and keep this one close until it comes. Oh, and Randal, how about 'Software Tools for Perl Programmers'?</Comment>
+         </CustomerReview>
+         <CustomerReview>
+            <Rating>4</Rating>
+            <Summary>Good for intermediate perl programmers</Summary>
+            <Comment>To me, this book seemed like two books:&lt;P>1) Shared Libraries, References, Data Structures, Scoping, and other things in perl. -- For internmediate programmers.&lt;P>2) OO Perl, Distributions, and Testing in Perl - Step-by-Step - For advnaced perl programmers who aspire to be wizards.&lt;P>For me, part 1 was mostly review. Part 2 is good schtuff, but it's not very deep. You could call it "a gentle introduction to OO"&lt;P>My conclusion: The earlier in your career you read this book, the better. If the topics in #1 or #2 are "new" to you, go buy the book. Seriously. The comments on h2xs and the design patterns that schwartz sets up -alone- make it worth the price.</Comment>
+         </CustomerReview>
+      </Reviews>
+      <SimilarProducts>
+         <Product>0596003137</Product>
+         <Product>0596004990</Product>
+         <Product>0596002270</Product>
+         <Product>0596001320</Product>
+         <Product>0596000278</Product>
+      </SimilarProducts>
+   </Details>
+</ProductInfo>

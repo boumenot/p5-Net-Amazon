@@ -39,6 +39,7 @@ while ($pagecnt <= $limit) {
         power     => $ARGV[0],
         mode      => $mode,
         page      => $pagecnt++,
+        sort      => '+pricerank',
     );
 
     # Response: Net::Amazon::Power::Response

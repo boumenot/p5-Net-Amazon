@@ -35,6 +35,8 @@ lib/Net/Amazon/Request/Keyword.pm
 lib/Net/Amazon/Request/Manufacturer.pm
 lib/Net/Amazon/Request/Power.pm
 lib/Net/Amazon/Request/Similar.pm
+lib/Net/Amazon/Request/Sort.pm
+lib/Net/Amazon/Request/TextStream.pm
 lib/Net/Amazon/Request/UPC.pm
 lib/Net/Amazon/Request/Wishlist.pm
 lib/Net/Amazon/Response.pm
@@ -46,6 +48,7 @@ lib/Net/Amazon/Response/Keyword.pm
 lib/Net/Amazon/Response/Manufacturer.pm
 lib/Net/Amazon/Response/Power.pm
 lib/Net/Amazon/Response/Similar.pm
+lib/Net/Amazon/Response/TextStream.pm
 lib/Net/Amazon/Response/UPC.pm
 lib/Net/Amazon/Response/Wishlist.pm
 Makefile.PL
