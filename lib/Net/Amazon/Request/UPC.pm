@@ -55,7 +55,7 @@ The UPC number to search for is specified in the C<upc> parameter.
 It currently only works in the C<music> department.
 
 Upon success, the response's C<properties()> method will return a single
-C<Net::Amazon::Properties::Music> object.
+C<Net::Amazon::Property::Music> object.
 
 =head2 METHODS
 

@@ -52,7 +52,7 @@ to the Amazon web service.
 The ASIN of the item to look is specified in the C<asin> parameter.
 
 Upon success, the responses' C<properties()> method will return one
-single C<Net::Amazon::Properties::*> object.
+single C<Net::Amazon::Property::*> object.
 
 =head2 METHODS
 

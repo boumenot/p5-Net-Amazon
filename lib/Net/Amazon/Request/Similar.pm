@@ -45,11 +45,11 @@ Net::Amazon::Request::Similar - request class for 'Similarities Search'
       token       => 'YOUR_AMZN_TOKEN'
   );
 
-  my $req = Net::Amazon::Request::Wishlist->new( 
+  my $req = Net::Amazon::Request::Similar->new( 
       asin => 'B00005B6TL',
   );
 
-    # Response is of type Net::Amazon::Response::Wishlist
+    # Response is of type Net::Amazon::Response::Similar
   my $resp = $ua->request($req);
 
 =head1 DESCRIPTION
@@ -61,7 +61,7 @@ The C<asin> parameter specifies the ASIN of the item which you want
 to get similar items for.
 
 Upon success, the response's C<properties()> method will return a list
-of C<Net::Amazon::Properties::*> objects.
+of C<Net::Amazon::Property::*> objects.
 
 =head2 METHODS
 

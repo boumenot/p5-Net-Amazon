@@ -53,7 +53,7 @@ requests to the Amazon web service.
 The artist to search for is specified in the C<artist> parameter.
 
 Upon success, the responses' C<properties()> method will return a list of
-C<Net::Amazon::Properties::Music> objects.
+C<Net::Amazon::Property::Music> objects.
 
 Check L<Net::Amazon::Request> for common request parameters not listed here.
 

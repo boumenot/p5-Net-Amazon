@@ -53,7 +53,7 @@ The wishlist ID (can be found as parameters in URLs when a customer's
 Amazon wishlist is being pulled up) is specified in the C<id> parameter.
 
 Upon success, the response's C<properties()> method will return a list
-of C<Net::Amazon::Properties::*> objects.
+of C<Net::Amazon::Property::*> objects.
 
 =head2 METHODS
 

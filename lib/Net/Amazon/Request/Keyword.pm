@@ -60,7 +60,7 @@ The catalog to search in is specified in the C<mode> parameter,
 typical values are C<books>, C<music>, C<classical> or C<electronics>.
 
 Upon success, the responses' C<properties()> method will return a list of
-C<Net::Amazon::Properties::*> objects.
+C<Net::Amazon::Property::*> objects.
 
 =head2 METHODS
 
