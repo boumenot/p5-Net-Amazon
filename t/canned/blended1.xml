@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="UTF-8"?><BlendedSearch xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://xml.amazon.com/schemas3/dev-heavy.xsd">
+
+<Request><Args><Arg value="libwww-perl/5.76" name="UserAgent"></Arg><Arg value="Perl" name="BlendedSearch"></Arg><Arg value="1EY7JMTH3HMTTD6K2GMA" name="RequestID"></Arg><Arg value="us" name="locale"></Arg><Arg value="1" name="page"></Arg><Arg value="AMAZON_TOKEN" name="dev-t"></Arg><Arg value="webservices-20" name="t"></Arg><Arg value="xml" name="f"></Arg><Arg value="books" name="mode"></Arg><Arg value="heavy" name="type"></Arg><Arg value="+salesrank" name="sort"></Arg></Args></Request><ProductLine>
+   <Mode>books</Mode>
+   <RelevanceRank>1</RelevanceRank>
+<ProductInfo>
+   <TotalResults>708</TotalResults>
+   <TotalPages>71</TotalPages>
+   <Details url="http://www.amazon.com/exec/obidos/ASIN/0596000480/webservices-20?dev-t=AMAZON_TOKEN%26camp=2025%26link_code=xm2">
+      <Asin>0596000480</Asin>
+      <ProductName>JavaScript: The Definitive Guide</ProductName>
+      <Catalog>Book</Catalog>
+      <Authors>
+         <Author>David Flanagan</Author>
+      </Authors>
+      <ReleaseDate>15 December, 2001</ReleaseDate>
+      <Manufacturer>O'Reilly &amp; Associates</Manufacturer>
+      <ImageUrlSmall>http://images.amazon.com/images/P/0596000480.01.THUMBZZZ.jpg</ImageUrlSmall>
+      <ImageUrlMedium>http://images.amazon.com/images/P/0596000480.01.MZZZZZZZ.jpg</ImageUrlMedium>
+      <ImageUrlLarge>http://images.amazon.com/images/P/0596000480.01.LZZZZZZZ.jpg</ImageUrlLarge>
+      <ListPrice>$44.95</ListPrice>
+      <OurPrice>$31.46</OurPrice>
+      <UsedPrice>$26.99</UsedPrice>
+      <CollectiblePrice>$19.95</CollectiblePrice>
+      <ThirdPartyNewPrice>$28.98</ThirdPartyNewPrice>
+      <SalesRank>1,607</SalesRank>
+      <Lists>
+         <ListId>IEF1DNVKZO8B</ListId>
+         <ListId>1446GTNVA7HF2</ListId>
+         <ListId>1R36BE3AUD988</ListId>
+      </Lists>
+      <BrowseList>
+         <BrowseNode>
+            <BrowseName>Computer Bks - Languages / Programming</BrowseName>
+         </BrowseNode>
+         <BrowseNode>
+            <BrowseName>Computer Books: Languages</BrowseName>
+         </BrowseNode>
+         <BrowseNode>
+            <BrowseName>Computer Networks</BrowseName>
+         </BrowseNode>
+         <BrowseNode>
+            <BrowseName>Computer Programming Languages</BrowseName>
+         </BrowseNode>
+         <BrowseNode>
+            <BrowseName>Computers</BrowseName>
+         </BrowseNode>
+         <BrowseNode>
+            <BrowseName>JavaScript (Computer program language)</BrowseName>
+         </BrowseNode>
+         <BrowseNode>
+            <BrowseName>Object-oriented programming (Computer science)</BrowseName>
+         </BrowseNode>
+         <BrowseNode>
+            <BrowseName>Programming - General</BrowseName>
+         </BrowseNode>
+         <BrowseNode>
+            <BrowseName>Programming - Object Oriented Programming</BrowseName>
+         </BrowseNode>
+         <BrowseNode>
+            <BrowseName>Programming Languages - CGI, Javascript, Perl, VBScript</BrowseName>
+         </BrowseNode>
+         <BrowseNode>
+            <BrowseName>Programming Languages - Java</BrowseName>
+         </BrowseNode>
+         <BrowseNode>
+            <BrowseName>Web servers</BrowseName>
+         </BrowseNode>
+         <BrowseNode>
+            <BrowseName>Java &amp; variants</BrowseName>
+         </BrowseNode>
+      </BrowseList>
+      <Media>Paperback</Media>
+      <NumMedia>1</NumMedia>
+      <Isbn>0596000480</Isbn>
+      <Availability>Usually ships within 24 hours</Availability>
+      <ProductDescription>Since the earliest days of Internet scripting, Web developers have considered &lt;I>JavaScript: The Definitive Guide&lt;/I> an essential resource. David Flanagan's approach, which combines tutorials and examples with easy-to-use syntax guides and object references, suits the typical programmer's requirements nicely. The brand-new fourth edition of Flanagan's "Rhino Book" includes coverage of JavaScript 1.5, JScript 5.5, ECMAScript 3, and the Document Object Model (DOM) Level 2 standard from the World Wide Web Consortium (W3C). Interestingly, the author has shifted away from specifying--as he did in earlier editions--what browsers support each bit of the language. Rather than say Netscape 3.0 supports the Image object while Internet Explorer 3.0 does not, he specifies that JavaScript 1.1 and JScript 3.0 support Image. More usefully, he specifies the contents of independent standards like ECMAScript, which encourages scripters to write applications for these standards and browser vendors to support them. As Flanagan says, JavaScript and its related subjects are very complex in their pure forms. It's impossible to keep track of the differences among half a dozen vendors' generally similar implementations. Nonetheless, a lot of examples make reference to specific browsers' capabilities.&lt;p>  Though he does not cover server-side APIs, Flanagan has chosen to separate coverage of core JavaScript (all the keywords, general syntax, and utility objects like Array) from coverage of client-side JavaScript (which includes objects, like History and Event, that have to do with Web browsers and users' interactions with them. This approach makes this book useful to people using JavaScript for applications other than Web pages. By the way, the other classic JavaScript text--Danny Goodman's &lt;I>JavaScript Bible&lt;/I>--isn't as current as this book, but it's still a fantastic (and perhaps somewhat more novice-friendly) guide to the JavaScript language and its capabilities. &lt;I>--David Wall&lt;/I>&lt;p>  &lt;B>Topics covered:&lt;/B> The JavaScript language (version 1.0 through version 1.5) and its relatives, JScript and ECMAScript, as well as the W3C DOM standards they're often used to manipulate. Tutorial sections show how to program in JavaScript, while reference sections summarize syntax and options while providing copious code examples.</ProductDescription>
+      <Reviews>
+         <AvgCustomerRating>4.31</AvgCustomerRating>
+         <TotalCustomerReviews>191</TotalCustomerReviews>
+         <CustomerReview>
+            <Rating>5</Rating>
+            <Summary>Definitive is the word I would use.</Summary>
+            <Comment>I have tried several books on Javascritping and while they all seem to have the same format of learning, this book draws from a different line of thought, make it simple and you can learn. This book may just be the definitive guide to learning Javascritping.&lt;P> &lt;P>Starting off this 750 plus page book is the explanation how JavaScript works from the client side and then from the server side of the things. This understanding is crucial to making sure your code is set up properly and that is works correctly the first time.&lt;P> &lt;P>Other topics covered in the book include data types, values, variables, expressions, operators, functions, objects and arrays. All of these topics are detailed yet simplified so even I could understand the nature of the text.&lt;P> &lt;P>Moving on you'll also cover how to setup windows, frames, DOM, events, forms, DHTML, cookies and security. All this is coupled with actual code screen shots to show you what the final outcome should look like.&lt;P> &lt;P>The author's ability to break down each topic and show you what you need to know in order to write the best possible code is the basis of this book. Overall this book is one to have and use on a constant basis.</Comment>
+         </CustomerReview>
+         <CustomerReview>
+            <Rating>5</Rating>
+            <Summary>Best reference on JavaScript I have ever seen</Summary>
+            <Comment>I have read many books on JavaScript before but this is by far the most comprehansive guide to the scripting language. This book is not for beginners. &lt;BR>I use it as a reference guide. If you know the object's name or the method's name on either client side or server side, you can just look it up in this book's index section and it will reference you to a particular page with detailed explonations and more often then not with examples. &lt;BR>Absolutely love this book</Comment>
+         </CustomerReview>
+         <CustomerReview>
+            <Rating>5</Rating>
+            <Summary>Must have for learning and reference</Summary>
+            <Comment>As a long time C++ programmer, I found this book to be neither too hard or too easy. Readers with no programming experience at all might have a harder time with the text, but if you have any kind of programming background, the text will serve you well. As a reference, the text is second to none. Even the DOM reference is one of the best out there.</Comment>
+         </CustomerReview>
+      </Reviews>
+   </Details>
+   <Details url="http://www.amazon.com/exec/obidos/ASIN/0596001320/webservices-20?dev-t=AMAZON_TOKEN%26camp=2025%26link_code=xm2">
+      <Asin>0596001320</Asin>
+      <ProductName>Learning Perl, Third Edition</ProductName>
+      <Catalog>Book</Catalog>
+      <Authors>
+         <Author>Randal L. Schwartz</Author>
+         <Author>Tom Phoenix</Author>
+      </Authors>
+      <ReleaseDate>15 July, 2001</ReleaseDate>
+      <Manufacturer>O'Reilly &amp; Associates</Manufacturer>
+      <ImageUrlSmall>http://images.amazon.com/images/P/0596001320.01.THUMBZZZ.jpg</ImageUrlSmall>
+      <ImageUrlMedium>http://images.amazon.com/images/P/0596001320.01.MZZZZZZZ.jpg</ImageUrlMedium>
+      <ImageUrlLarge>http://images.amazon.com/images/P/0596001320.01.LZZZZZZZ.jpg</ImageUrlLarge>
+      <ListPrice>$34.95</ListPrice>
+      <OurPrice>$23.77</OurPrice>
+      <UsedPrice>$20.50</UsedPrice>
+      <CollectiblePrice>$17.95</CollectiblePrice>
+      <ThirdPartyNewPrice>$22.94</ThirdPartyNewPrice>
+      <SalesRank>1,032</SalesRank>
+      <Lists>
+         <ListId>1OQV9AGCQG0ED</ListId>
+         <ListId>1T2AN3P86O3Z6</ListId>
+         <ListId>343HS65N1SO1Z</ListId>
+      </Lists>
+      <BrowseList>
+         <BrowseNode>
+            <BrowseName>Computer Bks - Languages / Programming</BrowseName>
+         </BrowseNode>
+         <BrowseNode>
+            <BrowseName>Computer Books: General</BrowseName>
+         </BrowseNode>
+         <BrowseNode>
+            <BrowseName>Computers</BrowseName>
+         </BrowseNode>
+         <BrowseNode>
+            <BrowseName>Perl (Computer language)</BrowseName>
+         </BrowseNode>
+         <BrowseNode>
+            <BrowseName>Perl (Computer program languag</BrowseName>
+         </BrowseNode>
+         <BrowseNode>
+            <BrowseName>Perl (Computer program language)</BrowseName>
+         </BrowseNode>
+         <BrowseNode>
+            <BrowseName>Programming Languages - CGI, Javascript, Perl, VBScript</BrowseName>
+         </BrowseNode>
+         <BrowseNode>
+            <BrowseName>Internet languages</BrowseName>
+         </BrowseNode>
+         <BrowseNode>
+            <BrowseName>Programming languages</BrowseName>
+         </BrowseNode>
+      </BrowseList>
+      <Media>Paperback</Media>
+      <NumMedia>1</NumMedia>
+      <Isbn>0596001320</Isbn>
+      <Availability>Usually ships within 24 hours</Availability>
+      <Upc>636920001324</Upc>
+      <ProductDescription>In this smooth, carefully paced course, a leading Perl trainer  teaches you to program in the language that threatens to make C, sed, awk, and the Unix shell obsolete for many tasks.  This book is the "official" guide for both formal (classroom) and informal learning.  It is fully  accessible to the novice programmer.</ProductDescription>
+      <Reviews>
+         <AvgCustomerRating>4.21</AvgCustomerRating>
+         <TotalCustomerReviews>238</TotalCustomerReviews>
+         <CustomerReview>
+            <Rating>3</Rating>
+            <Summary>Not really for absolute beginners</Summary>
+            <Comment>This book calls itself "Learning Perl," apparently because it is geared towards beginners. However, upon reading more and more of this book, it becomes increasingly clear that this book is not at all a learning tool, as it is a good reference for those who already learned the basics of Perl. The first chapter should be skipped over entirely if you're a beginner, because it will do nothing more than confuse you and turn you off to Perl. The subsequent chapters covers all relevant topics, but they skimp on providing descriptive key examples which would help you to better understand the concept. This book makes too many references to C and other languages, implying that you already know previous programming languages. The chapter on regular expressions is shamefully cursory and lacking in examples which can be adequately picked up by the Perl novice. The language of the text is not for the beginner user, as it throws around too many Perl-centric terms and definitions. For an intermediate, this may be sufficient, but it will not do for the beginner. I recommend Perl for Dummies as the ultimate beginner's tool. That book doesn't cover as many topics as this book, but it certainly explains conceps in a much more novice-friendly language than Learning Perl. Learning Perl makes the mistake of not keeping it simple. This is a very important teaching idea, when your expected audience are complete novices who need to have everything explained to them in basic layman's terms. This book is more of a sophisticated primer for already skilled programmers.</Comment>
+         </CustomerReview>
+         <CustomerReview>
+            <Rating>5</Rating>
+            <Summary>Top of the line</Summary>
+            <Comment>This is as good as it gets.&lt;P>The writing style is fun throughout, the chosen examples interesting, organization very well thought out, presentation clear. You pick it up and you will keep reading.&lt;P>The first chapter gives an overview of what the language can do via an example ("guess the secret word") which is developed more and more using more and more features of the language.&lt;P>In your average programming book the examples are tortured and boring so that it's hard to keep reading. Not so here.&lt;BR>Everything is well motivated and the writing style is amusing throughout.&lt;P>If you are coming from a system language background you will be hooked immediately. The ease with which many tasks are dealt with in Perl is astonishing.&lt;P>The amusing style and excellent presentation is kept up in all chapters of the book. The book will give you an overview of the language and basic skills. &lt;P>None of the programming books I have seen comes close to explaining basic constructs as clearly as this one. If this is your first book of first language you are very lucky.&lt;P>You will feel the need for an in depth presentation. This is not a criticism of the book. What's presented here is already very powerful.&lt;BR>Even after 2 days I was able to write a script doing some useful work I could not otherwise have accomplished. &lt;P>Perl is too rich to give an exhaustive treatment in 260 pages. You'll need Larry Wall's book also and this is clearly stated in the book.&lt;P>This book makes learning Perl fun and will create a lot of fans for the language. It's the perfect entry and will keep you strongly motivated to delve deeper.</Comment>
+         </CustomerReview>
+         <CustomerReview>
+            <Rating>5</Rating>
+            <Summary>A great introduction</Summary>
+            <Comment>This book is aimed at Perl novices and sys admins who need to get up to speed quickly. As with most O'Reilly books I found the authors know thier stuff and the book was well edited. &lt;P>The book contains enough info to allow you to script most sys admin tasks, and has the benefit of being short and therefore easy to carry, but once you get a taste of Perl's power you will no doubt want to get the "camel" (programming perl), which is more comprehensive.</Comment>
+         </CustomerReview>
+      </Reviews>
+   </Details>
+   <Details url="http://www.amazon.com/exec/obidos/ASIN/0596000278/webservices-20?dev-t=AMAZON_TOKEN%26camp=2025%26link_code=xm2">
+      <Asin>0596000278</Asin>
+      <ProductName>Programming Perl (3rd Edition)</ProductName>
+      <Catalog>Book</Catalog>
+      <Authors>
+         <Author>Larry Wall</Author>
+         <Author>Tom Christiansen</Author>
+         <Author>Jon Orwant</Author>
+      </Authors>
+      <ReleaseDate>01 July, 2000</ReleaseDate>
+      <Manufacturer>O'Reilly &amp; Associates</Manufacturer>
+      <ImageUrlSmall>http://images.amazon.com/images/P/0596000278.01.THUMBZZZ.jpg</ImageUrlSmall>
+      <ImageUrlMedium>http://images.amazon.com/images/P/0596000278.01.MZZZZZZZ.jpg</ImageUrlMedium>
+      <ImageUrlLarge>http://images.amazon.com/images/P/0596000278.01.LZZZZZZZ.jpg</ImageUrlLarge>
+      <ListPrice>$49.95</ListPrice>
+      <OurPrice>$34.96</OurPrice>
+      <UsedPrice>$33.84</UsedPrice>
+      <CollectiblePrice>$23.95</CollectiblePrice>
+      <ThirdPartyNewPrice>$30.00</ThirdPartyNewPrice>
+      <SalesRank>1,424</SalesRank>
+      <Lists>
+         <ListId>IEF1DNVKZO8B</ListId>
+         <ListId>HB1RWLRSGVKC</ListId>
+         <ListId>394U0M62XG64T</ListId>
+      </Lists>
+      <BrowseList>
+         <BrowseNode>
+            <BrowseName>Computer Bks - Languages / Programming</BrowseName>
+         </BrowseNode>
+         <BrowseNode>
+            <BrowseName>Computer Books: Languages</BrowseName>
+         </BrowseNode>
+         <BrowseNode>
+            <BrowseName>Computer Programming Languages</BrowseName>
+         </BrowseNode>
+         <BrowseNode>
+            <BrowseName>Computers</BrowseName>
+         </BrowseNode>
+         <BrowseNode>
+            <BrowseName>Perl (Computer language)</BrowseName>
+         </BrowseNode>
+         <BrowseNode>
+            <BrowseName>Perl (Computer program languag</BrowseName>
+         </BrowseNode>
+         <BrowseNode>
+            <BrowseName>Perl (Computer program language)</BrowseName>
+         </BrowseNode>
+         <BrowseNode>
+            <BrowseName>Programming - General</BrowseName>
+         </BrowseNode>
+         <BrowseNode>
+            <BrowseName>Programming Languages - CGI, Javascript, Perl, VBScript</BrowseName>
+         </BrowseNode>
+         <BrowseNode>
+            <BrowseName>Programming Languages - Java</BrowseName>
+         </BrowseNode>
+         <BrowseNode>
+            <BrowseName>Unix (Operating System)</BrowseName>
+         </BrowseNode>
+         <BrowseNode>
+            <BrowseName>High level programming languages</BrowseName>
+         </BrowseNode>
+         <BrowseNode>
+            <BrowseName>Internet languages</BrowseName>
+         </BrowseNode>
+      </BrowseList>
+      <Media>Paperback</Media>
+      <NumMedia>1</NumMedia>
+      <Isbn>0596000278</Isbn>
+      <Availability>Usually ships within 24 hours</Availability>
+      <Upc>636920000273</Upc>
+      <ProductDescription>Larry Wall wrote Perl and he wrote &lt;I>Programming Perl&lt;/I>. Better yet,  he writes amusingly and well--all of which comes across in this latest edition  of the definitive guide to the language.&lt;p>  Like Topsy, Perl just grew, and as a result the need for a third edition came  about. It's now over 1,000 pages, which it needs to be, as it performs several  different duties. First, it's an introduction to the Perl language for those who  are new to programming; also, it's a guide for those who are coming from other  languages; and, finally, it's a Perl language reference. &lt;p>  Among Larry Wall's other pursuits is being a linguist, and it's perhaps for this  reason that Perl is a peculiarly flexible language with many routes to achieving  the same ends, as the authors ably demonstrate. It's also extensible in several  ways, designed to work with many other languages. Also, as it's largely  interpreted, programs written in Perl tend to run unmodified on a variety of  platforms--although platform-specific Perl modules and programming practices are  also discussed.&lt;p>  A major strength of &lt;I>Programming Perl&lt;/I> is the way subject areas are  approached from several directions. This constant shift of viewpoint eliminates  blind spots in the reader's understanding and provides a pleasing echo of the  way Perl itself can take many routes from here to there. &lt;p>  Because the Perl community is both knowledgeable and active, the language covers  much more ground here than in the previous edition. Even if you have both  previous editions, you'll want this latest version--if only for the new jokes.  &lt;I>--Steve Patient, amazon.co.uk&lt;/I></ProductDescription>
+      <Reviews>
+         <AvgCustomerRating>4.13</AvgCustomerRating>
+         <TotalCustomerReviews>214</TotalCustomerReviews>
+         <CustomerReview>
+            <Rating>5</Rating>
+            <Summary>Who said ....</Summary>
+            <Comment>The book is definetely written for those who at least have some (or maybe a little more than just "some") programming background, and willing to learn Perl from the author of the language.&lt;P>I read the first edition of the book, which was about 200 pages, or something in that range, which filled my mind with nothing but questions. Current edition, however, could answer to all of those questions (well, almost). Of course, to make it answer them I had to re-read the book four times. But none of the books I currently own (and I own quite a few) could've taken me to the innards of the language so deep no matter how many times I had read them. So the book is of value. &lt;P>The Camel book, especially, does a great job on Regular Expressions and pattern matching. If you want to learn RegEx of perl in very details, you definitely need listen to the author of Perl. "Mastering Regular Expressions" by Jeffrey Friedl is also a good choise, but doesn't include the latest updates.&lt;P>Formats aren't covered very well though. So you might consider "The Lama book" for that ("Learning Perl"). Still, none of the books can tell you about the innards of the Perl in so much detail overall than "Programming Perl".&lt;P>OOP is also toched upon in the book. Since purpose of the author is not to preach you OO lingo (but plain Perl), you'll treat that part just as an intorduction to OOP and consider "Object Oriented perl" by Damian Convey as the next text book. &lt;P>I found chpater 14, "Tied variables" very helpfull though. It might remind you of DBM/Berkley DB, through the syntax &lt;P>tie my %db, 'AnyDBM_File', 'my_file', O_CREAT|O_RDWR, 0664;&lt;P>but unfortunately it's not about DBM at all. It is about how the "tie" function works, and teaches you how to create your own classes for implementing with "tie". After that chapter, I even had to update some of my classes and saved lots of time for their updates. &lt;P>"Compiling", chapter 18 ,is a must read chapter for those who "live &amp; breath" with Perl (like me, may be ?).&lt;P>I don't want you to buy the book unless you have a good understanding of Programming or/and have knowledge of some programming languages. Otherwise, it won't help at all. &lt;P>If your purpose is just to get started with Web applications, go for "CGI progamming 101" by Jacqueline Hamilton. It is a good start. But if you want to go even deeper, "Learning Perl" and "Perl Coookbook" is the next choise. Keep the "The Camel" book as the next (but definitely, not the last).</Comment>
+         </CustomerReview>
+         <CustomerReview>
+            <Rating>4</Rating>
+            <Summary>Its the reference, but don't use it for learning</Summary>
+            <Comment>Unless you happen to have a degree in Unix and programming (I haven't anyway), don't use this book to learn Perl beyond Randal's Llama book (Learning Perl, excellent!). Programming Perl is a complete reference of the language but is was not made for teaching you Perl. Advanced Perl like references (actually everything after chapter 4) is quite diffucult to understand in the way it was written. Yes, I read the Llama book first but this doesn't mean you will understand the Camel. I would recommend:&lt;P>more examples (and their outputs)&lt;BR> less focus on cool snippets (provide every day code)&lt;BR> less C and Unix (Perl is mutli platform, why refer to a Unix man page instead of explaining a function?)&lt;BR> try to find simple words to explain things.&lt;P>Not everyone is an advanced programmer but everyone should use Perl. Its a wonderful language.</Comment>
+         </CustomerReview>
+         <CustomerReview>
+            <Rating>4</Rating>
+            <Summary>Good introduction</Summary>
+            <Comment>This isn't the book for a first-time programmer. Outside of that, it's a great reference. Maybe the more advanced language features need more clarification, but it's plenty to get you going on your first few Perl programs.&lt;P>Perl is a pleasant oddity among programming langauges. It has lots of features that make it great as a "glue" language, for holding other programs together and for doing those irksome little translations between incompatible formats. Those are the things that shell scripts used to do: setting up files, command lines, and environment variables, checking results, preparing reports. Perl does all that, better, and gives you the full power of a programming language on top of it all. That means the transformations aren't at the mercy of available filters, and don't count on the dozen different syntaxes of the dozen different filter programs. It's a great language for all those little one-off tasks that crop up, especially in system and web admin.&lt;P>That's my problem with Perl, though - the free-wheeling, never-look-back, whatever-works spirit of the people who use Perl. I know there are disciplined, competent software engineers who develop and use Perl, and I don't mean to disparage them at all. Still, the gonzo style that's so common and the revival tent spirit of books like this put me off a bit.&lt;P>The language is very useful, and make lots of hard jobs easy. This book, despite its true-believer style, gives a thorough introduction to the language and its core APIs.</Comment>
+         </CustomerReview>
+      </Reviews>
+   </Details>
+</ProductInfo>
+</ProductLine>
+</BlendedSearch>
