@@ -17,7 +17,7 @@ our @DEFAULT_ATTRIBUTES = qw(
   OurPrice ImageUrlLarge ImageUrlMedium ImageUrlSmall
   ReleaseDate Catalog Asin url Manufacturer UsedPrice
   ListPrice ProductName Availability SalesRank
-  Media NumMedia);
+  Media NumMedia ProductDescription);
 
 __PACKAGE__->make_accessor($_) for @DEFAULT_ATTRIBUTES;
 __PACKAGE__->make_accessor($_) for qw(year review_set);
@@ -245,6 +245,10 @@ Type of media (Paperback, etc.).
 =item NumMedia()
 
 Number of media the item carries (1,2 CDs etc.).
+
+=item ProductDescription()
+
+Lengthy textual description of the product.
 
 =item year()
 

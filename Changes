@@ -1,6 +1,7 @@
 Revision history for Perl extension Net::Amazon:
 
-0.26 (not yet released)
+0.26 (07/07/2004)
+   (ms) Added ProductDescription to Properties.pm
    (ms) Applied patch by Robert Rothenberg <wlkngowl@i-2000.com> for 
         Media and NumMedia properties.
 
