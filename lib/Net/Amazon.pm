@@ -369,7 +369,7 @@ like
   );
 
 which you pass your personal amazon developer's token (can be obtained
-from http://amazon.com/soap) and (optionally) the maximum number of 
+from L<http://amazon.com/soap>) and (optionally) the maximum number of 
 result pages the agent is going to request from Amazon in case all
 results don't fit on a single page (typically holding 20 items).
 
@@ -508,7 +508,7 @@ The convenient C<search()> method just does these two steps in one.
 
 Create a new Net::Amazon useragent. C<$token> is the value of 
 the mandatory Amazon developer's token, which can be obtained from
-http://amazon.com/soap. 
+L<http://amazon.com/soap>. 
 
 Additional optional parameters:
 
