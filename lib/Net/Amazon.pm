@@ -449,6 +449,12 @@ Can return many results.
 Initiate a power search for all books matching the power query.
 Can return many results. See L<Net::Amazon::Request::Power> for details.
 
+=item C<< $ua->search(manufacturer => "o'reilly", mode => "books") >>
+
+Initiate a search for all items made by a given manufacturrer.
+Can return many results. See L<Net::Amazon::Request::Manufacturer> 
+for details.
+
 =back
 
 The user agent's C<search> method returns a response object, which can be 
