@@ -1,0 +1,3 @@
+
+cd /home/groups/n/ne/net-amazon/htdocs/releases/Net-Amazon
+/home/users/m/ms/mschilli/bin/pod2htmltree /releases/Net-Amazon

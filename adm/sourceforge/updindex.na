@@ -1,0 +1,59 @@
+#!/usr/bin/perl
+
+my $IDX = "/home/groups/n/ne/net-amazon/htdocs/index.html";
+
+my ($version, $devprod) = @ARGV;
+
+die "usage: $0 version" unless $version =~ /^[\d.]+\w+$/;
+
+open FILE, "<$IDX" or die "Cannot open $IDX";
+my $data = join '', <FILE>;
+close FILE;
+
+my ($sec,$min,$hour,$mday,$mon,$year,$wday,$yday,$isdst) = localtime(time);
+my $date = sprintf "%02d/%02d/%d", $mon+1, $mday, $year+1900;
+
+$data =~ s/<!--NEWS-->.*?<!--\/NEWS-->/repnews()/se;
+
+if(defined $devprod and $devprod =~ /(dev)|(alpha)|(beta)/) {
+    $data =~ s/<!--DEV-->.*?<!--\/DEV-->/repdev()/se;
+} else {
+    $data =~ s/<!--STABLE-->.*?<!--\/STABLE-->/repstable()/se;
+}
+
+##################################################
+sub repnews {
+##################################################
+    return <<EOT
+<!--NEWS-->
+<FONT SIZE=-1><B>$date:</B></FONT><BR>
+<FONT COLOR='#8dbf85'><B>Released</B></FONT> version <A HREF=/releases/Net-Amazon-$version.tar.gz>$version</A><BR>
+<!--/NEWS-->
+EOT
+}
+
+##################################################
+sub repstable {
+##################################################
+    return <<EOT
+<!--STABLE-->
+<FONT SIZE=-1><B>Stable Release ($date)</B></FONT>
+<B><A HREF=/releases/Net-Amazon-$version.tar.gz>Net-Amazon-$version.tar.gz</A></B>
+<!--/STABLE-->
+EOT
+}
+
+##################################################
+sub repdev {
+##################################################
+    return <<EOT
+<!--DEV-->
+<FONT SIZE=-1><B>Development Release ($date)</B></FONT>
+<B><A HREF=/releases/Net-Amazon-$version.tar.gz>Net-Amazon-$version.tar.gz</A></B>
+<!--/DEV-->
+EOT
+}
+
+open FILE, ">$IDX" or die "Cannot open $IDX";
+print FILE $data;
+close FILE;
