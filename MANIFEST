@@ -10,6 +10,7 @@ eg/asin-de
 eg/asin_cache
 eg/asin_fetch
 eg/asin_img
+eg/blended.pl
 eg/browse
 eg/cheapo
 eg/heavy
@@ -30,6 +31,7 @@ lib/Net/Amazon/Property/Music.pm
 lib/Net/Amazon/Request.pm
 lib/Net/Amazon/Request/ASIN.pm
 lib/Net/Amazon/Request/Artist.pm
+lib/Net/Amazon/Request/Blended.pm
 lib/Net/Amazon/Request/BrowseNode.pm
 lib/Net/Amazon/Request/Keyword.pm
 lib/Net/Amazon/Request/Power.pm
@@ -39,6 +41,7 @@ lib/Net/Amazon/Request/Wishlist.pm
 lib/Net/Amazon/Response.pm
 lib/Net/Amazon/Response/ASIN.pm
 lib/Net/Amazon/Response/Artist.pm
+lib/Net/Amazon/Response/Blended.pm
 lib/Net/Amazon/Response/BrowseNode.pm
 lib/Net/Amazon/Response/Keyword.pm
 lib/Net/Amazon/Response/Power.pm
