@@ -1,5 +1,5 @@
 ######################################################################
-    Net::Amazon 0.28
+    Net::Amazon 0.28_04
 ######################################################################
 
 NAME
@@ -580,6 +580,7 @@ AUTHOR
         Batara Kesuma <bkesuma@gaijinweb.com>
         Bill Fitzpatrick
         Brian Hirt <bhirt@mobygames.com>
+        Dan Kreft <dan@kreft.net>
         Dan Sully <daniel@electricrain.com>
         Jackie Hamilton <kira@cgi101.com>
         Konstantin Gredeskoul <kig@get.topica.com>
