@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><ProductInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://xml.amazon.com/schemas2/dev-lite.xsd">
+
+   <Details url="http://www.amazon.com/exec/obidos/ASIN/0201633612/webservices-20?dev-t=YOUR_AMZN_TOKEN">
+      <Asin>0201633612</Asin>
+      <ProductName>Design Patterns</ProductName>
+      <Catalog>Book</Catalog>
+      <Authors>
+         <Author>Erich Gamma</Author>
+         <Author>Richard Helm</Author>
+         <Author>Ralph Johnson</Author>
+         <Author>John Vlissides</Author>
+      </Authors>
+      <ReleaseDate>15 January, 1995</ReleaseDate>
+      <Manufacturer>Addison-Wesley Pub Co</Manufacturer>
+      <ImageUrlSmall>http://images.amazon.com/images/P/0201633612.01.THUMBZZZ.jpg</ImageUrlSmall>
+      <ImageUrlMedium>http://images.amazon.com/images/P/0201633612.01.MZZZZZZZ.jpg</ImageUrlMedium>
+      <ImageUrlLarge>http://images.amazon.com/images/P/0201633612.01.LZZZZZZZ.jpg</ImageUrlLarge>
+      <ListPrice>$54.99</ListPrice>
+      <OurPrice>$48.12</OurPrice>
+      <UsedPrice>$35.50</UsedPrice>
+   </Details>
+</ProductInfo>

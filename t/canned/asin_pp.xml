@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><ProductInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://xml.amazon.com/schemas2/dev-lite.xsd">
+
+   <Details url="http://www.amazon.com/exec/obidos/ASIN/0201360683/webservices-20?dev-t=YOUR_AMZN_TOKEN">
+      <Asin>0201360683</Asin>
+      <ProductName>Perl Power!: A JumpStart Guide to Programming with Perl 5</ProductName>
+      <Catalog>Book</Catalog>
+      <Authors>
+         <Author>Michael Schilli</Author>
+      </Authors>
+      <ReleaseDate>16 December, 1998</ReleaseDate>
+      <Manufacturer>Addison-Wesley Pub Co</Manufacturer>
+      <ImageUrlSmall>http://images.amazon.com/images/P/0201360683.01.THUMBZZZ.jpg</ImageUrlSmall>
+      <ImageUrlMedium>http://images.amazon.com/images/P/0201360683.01.MZZZZZZZ.jpg</ImageUrlMedium>
+      <ImageUrlLarge>http://images.amazon.com/images/P/0201360683.01.LZZZZZZZ.jpg</ImageUrlLarge>
+      <ListPrice>$39.99</ListPrice>
+      <OurPrice>$39.99</OurPrice>
+      <UsedPrice>$3.00</UsedPrice>
+   </Details>
+</ProductInfo>

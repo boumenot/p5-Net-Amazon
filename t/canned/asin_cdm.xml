@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><ProductInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://xml.amazon.com/schemas2/dev-lite.xsd">
+
+   <Details url="http://www.amazon.com/exec/obidos/ASIN/B00005A46I/webservices-20?dev-t=YOUR_AMZN_TOKEN">
+      <Asin>B00005A46I</Asin>
+      <ProductName>For the Stars</ProductName>
+      <Catalog>Music</Catalog>
+      <Artists>
+         <Artist>Anne Sofie von Otter</Artist>
+         <Artist>Elvis Costello</Artist>
+      </Artists>
+      <ReleaseDate>10 April, 2001</ReleaseDate>
+      <Manufacturer>Polygram Records</Manufacturer>
+      <ImageUrlSmall>http://images.amazon.com/images/P/B00005A46I.01.THUMBZZZ.jpg</ImageUrlSmall>
+      <ImageUrlMedium>http://images.amazon.com/images/P/B00005A46I.01.MZZZZZZZ.jpg</ImageUrlMedium>
+      <ImageUrlLarge>http://images.amazon.com/images/P/B00005A46I.01.LZZZZZZZ.jpg</ImageUrlLarge>
+      <ListPrice>$17.98</ListPrice>
+      <OurPrice>$14.99</OurPrice>
+      <UsedPrice>$8.68</UsedPrice>
+   </Details>
+</ProductInfo>

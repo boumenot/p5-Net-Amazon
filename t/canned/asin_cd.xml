@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><ProductInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://xml.amazon.com/schemas2/dev-lite.xsd">
+
+   <Details url="http://www.amazon.com/exec/obidos/ASIN/B00007M84Q/webservices-20?dev-t=YOUR_AMZN_TOKEN">
+      <Asin>B00007M84Q</Asin>
+      <ProductName>Mary Star of the Sea</ProductName>
+      <Catalog>Music</Catalog>
+      <Artists>
+         <Artist>Zwan</Artist>
+      </Artists>
+      <ReleaseDate>28 January, 2003</ReleaseDate>
+      <Manufacturer>Warner Brothers</Manufacturer>
+      <ImageUrlSmall>http://images.amazon.com/images/P/B00007M84Q.01.THUMBZZZ.jpg</ImageUrlSmall>
+      <ImageUrlMedium>http://images.amazon.com/images/P/B00007M84Q.01.MZZZZZZZ.jpg</ImageUrlMedium>
+      <ImageUrlLarge>http://images.amazon.com/images/P/B00007M84Q.01.LZZZZZZZ.jpg</ImageUrlLarge>
+      <ListPrice>$18.98</ListPrice>
+      <OurPrice>$13.99</OurPrice>
+      <UsedPrice>$7.50</UsedPrice>
+   </Details>
+</ProductInfo>
