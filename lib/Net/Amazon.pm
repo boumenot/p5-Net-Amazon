@@ -8,7 +8,7 @@ use 5.006;
 use strict;
 use warnings;
 
-our $VERSION          = '0.09';
+our $VERSION          = '0.10';
 our $AMZN_XML_URL     = "http://xml.amazon.com/onca/xml2";
 our @CANNED_RESPONSES = ();
 
@@ -42,6 +42,8 @@ sub new {
         max_pages => 5,
         %options,
                };
+
+    help_xml_simple_choose_a_parser();
 
     bless $self, $class;
 }
@@ -279,6 +281,23 @@ sub xmlref_add {
 
     #DEBUG("xmlref_add (after):", Data::Dumper::Dumper($self));
     return $nof_items_added;
+}
+
+##################################################
+sub help_xml_simple_choose_a_parser {
+##################################################
+    
+    eval "require XML::Parser";
+    unless($@) {
+        $XML::Simple::PREFERRED_PARSER = "XML::Parser";
+        return;
+    }
+
+    eval "require XML::SAX::PurePerl";
+    unless($@) {
+        $XML::Simple::PREFERRED_PARSER = "XML::SAX::PurePerl";
+        return;
+    }
 }
 
 1;
