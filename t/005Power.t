@@ -12,7 +12,7 @@ use Test::More qw(no_plan);
 BEGIN { use_ok('Net::Amazon') };
 
 use Log::Log4perl qw(:easy);
-Log::Log4perl->easy_init({level => $DEBUG, file => ">out"});
+#Log::Log4perl->easy_init({level => $DEBUG, file => ">out"});
 
 use Net::Amazon;
 use File::Spec;
