@@ -18,9 +18,9 @@ use File::Spec;
 my $CANNED = "canned";
 $CANNED = File::Spec->catfile("t", "canned") unless -d $CANNED;
 
-use Log::Log4perl qw(:easy);
-Log::Log4perl->easy_init({level  => $DEBUG, file => "STDOUT",
-                          layout => "%F{1}%L> %m%n" });
+#use Log::Log4perl qw(:easy);
+#Log::Log4perl->easy_init({level  => $DEBUG, file => "STDOUT",
+#                          layout => "%F{1}%L> %m%n" });
 
 ######################################################################
 # Get a 1-item wishlist

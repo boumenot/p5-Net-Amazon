@@ -13,6 +13,10 @@ BEGIN { use_ok('Net::Amazon') };
 
 use Net::Amazon::Request::UPC;
 use Net::Amazon::Response::UPC;
+use File::Spec;
+
+my $CANNED = "canned";
+$CANNED = File::Spec->catfile("t", "canned") unless -d $CANNED;
 
 #Only for debugging
 #use Log::Log4perl qw(:easy);
@@ -21,6 +25,9 @@ use Net::Amazon::Response::UPC;
 ######################################################################
 # Successful UPC fetch
 ######################################################################
+
+canned("upc_zwan.xml");
+
 my $ua = Net::Amazon->new(
     token       => 'YOUR_AMZN_TOKEN',
 );
@@ -45,3 +52,18 @@ is($p->artist(), "Zwan", "Artist is Zwan");
 is($p->album(), "Mary Star of the Sea", "Album is Mary Star of the Sea");
 is($p->year(), "2003", "Year is 2003");
 is($p->label(), "Warner Brothers", "Label is Warner Brothers");
+
+######################################################################
+# handle canned responses
+######################################################################
+sub canned {
+    my($file) = @_;
+
+    if(! exists $ENV{NET_AMAZON_LIVE_TESTS} ) {
+        $file = File::Spec->catfile($CANNED, $file);
+        open FILE, "<$file" or die "Cannot open $file";
+        my $data = join '', <FILE>;
+        close FILE;
+        push @Net::Amazon::CANNED_RESPONSES, $data;
+    }
+}
