@@ -125,9 +125,10 @@ Net::Amazon::Request - Baseclass for requests to Amazon's web service
 =head1 SYNOPSIS
 
     my $req = Net::Amazon::Request::XXX->new(
-                     [ type => 'heavy', ]
-                     [ page => $start_page, ]
-                     [ mode => $mode, ]
+                     [ type  => 'heavy', ]
+                     [ page  => $start_page, ]
+                     [ mode  => $mode, ]
+                     [ offer => 'All', ]
                      [ sort => $sort_type, ]
     );
 
@@ -194,6 +195,12 @@ Artist Name
 =back
 
 Consult L<Net::Amazon::Request::Sort> for details.
+
+=item offer
+
+To receive values for the fields
+C<CollectibleCount>, C<NumberOfOfferings>, C<UsedCount>, 
+specify C<offer =E<gt> "All">.
 
 =back
 
