@@ -79,6 +79,7 @@ t/010Artist.t
 t/011Locale.t
 t/012Keyword.t
 t/013Seller.t
+t/014Constructors.t
 t/canned/artist.xml
 t/canned/asin_cd.xml
 t/canned/asin_cdm.xml
