@@ -69,13 +69,22 @@ t/005Power.t
 t/006Browse.t
 t/007Manufacturer.t
 t/008Textstream.t
+t/009Blended.t
+t/010Artist.t
+t/011Locale.t
+t/012Keyword.t
+t/canned/artist.xml
 t/canned/asin_cd.xml
 t/canned/asin_cdm.xml
 t/canned/asin_err.xml
 t/canned/asin_mua.xml
 t/canned/asin_pp.xml
+t/canned/blended1.xml
+t/canned/blendedm.xml
 t/canned/browse.xml
 t/canned/dvd.xml
+t/canned/keyword.xml
+t/canned/locale.xml
 t/canned/manufacturer.xml
 t/canned/power.xml
 t/canned/power_empty.xml
@@ -86,3 +95,4 @@ t/canned/upc_zwan.xml
 t/canned/wishlist1.xml
 t/canned/wishlist10_1.xml
 t/canned/wishlist10_2.xml
+t/init.pl
