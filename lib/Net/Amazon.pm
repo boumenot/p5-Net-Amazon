@@ -8,7 +8,7 @@ use 5.006;
 use strict;
 use warnings;
 
-our $VERSION          = '0.29_01';
+our $VERSION          = '0.29_02';
 our @CANNED_RESPONSES = ();
 
 use LWP::UserAgent;
