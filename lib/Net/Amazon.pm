@@ -8,7 +8,7 @@ use 5.006;
 use strict;
 use warnings;
 
-our $VERSION          = '0.22';
+our $VERSION          = '0.23';
 our @CANNED_RESPONSES = ();
 
 use LWP::UserAgent;
@@ -571,7 +571,8 @@ C<Manufacturer()>,
 C<UsedPrice()>,
 C<ListPrice()>,
 C<ProductName()>,
-C<Availability()>.
+C<Availability()>,
+C<SalesRank()>.
 For details, check L<Net::Amazon::Property>.
 
 Also, the specialized classes C<Net::Amazon::Property::Book> and

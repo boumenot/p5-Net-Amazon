@@ -1,5 +1,5 @@
 ######################################################################
-    Net::Amazon 0.22
+    Net::Amazon 0.23
 ######################################################################
 
 NAME
@@ -120,7 +120,7 @@ DESCRIPTION
     Commonly available accessors are "OurPrice()", "ImageUrlLarge()",
     "ImageUrlMedium()", "ImageUrlSmall()", "ReleaseDate()", "Catalog()",
     "Asin()", "url()", "Manufacturer()", "UsedPrice()", "ListPrice()",
-    "ProductName()", "Availability()". For details, check
+    "ProductName()", "Availability()", "SalesRank()". For details, check
     Net::Amazon::Property.
 
     Also, the specialized classes "Net::Amazon::Property::Book" and

@@ -1,5 +1,9 @@
 Revision history for Perl extension Net::Amazon:
 
+0.23 (not yet released)
+   (ms) Evaldas Imbrasas <evaldas@wolfram.com> suggested to add SalesRank
+        to Properties.pm -- added field and test case.
+
 0.22 (05/09/2004)
    (ms) fixed warnings during make test (backwards-compatible without
         tracks())

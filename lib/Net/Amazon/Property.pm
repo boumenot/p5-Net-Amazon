@@ -31,7 +31,7 @@ sub new {
         # Set default attributes
     for my $attr (qw(OurPrice ImageUrlLarge ImageUrlMedium ImageUrlSmall
                      ReleaseDate Catalog Asin url Manufacturer UsedPrice
-                     ListPrice ProductName Availability)) {
+                     ListPrice ProductName Availability SalesRank)) {
         $class->SUPER::make_accessor($attr);
         $self->$attr($options{xmlref}->{$attr});
     }
@@ -217,6 +217,10 @@ Amazon price of the item
 =item UsedPrice()
 
 Used price of the item
+
+=item SalesRank()
+
+Sales rank of the item (contains digits and commas, like 1,000,001)
 
 =item year()
 

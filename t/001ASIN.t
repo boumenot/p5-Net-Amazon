@@ -8,7 +8,7 @@
 use warnings;
 use strict;
 
-use Test::More tests => 28;
+use Test::More tests => 29;
 BEGIN { use_ok('Net::Amazon') };
 
 #use Log::Log4perl qw(:easy);
@@ -145,6 +145,7 @@ like($resp->as_string(), qr(Mission Impossible),
 my ($dvd) = $resp->properties();
 
 is($dvd->director(), "Brian De Palma", "director() finds first director");
+like($dvd->SalesRank(), qr/^[\d,]+$/, "Checking SalesRank");
 is(join('#', $dvd->directors()), "Brian De Palma",
     "directors() finds first director");
 
