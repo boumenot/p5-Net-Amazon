@@ -1,5 +1,9 @@
 Revision history for Perl extension Net::Amazon:
 
+0.10 (06/27/2003)
+   (ms) Adapted wishlist test case for change in AMZN's catalog
+   (ms) 
+
 0.09 (06/24/2003)
    (ms) Tony Bowden <tony@kasei.com> suggested to have a $ua->search
         method, abstracting the usage of the different request objects.
