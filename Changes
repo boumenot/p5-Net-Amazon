@@ -4,6 +4,10 @@ Revision history for Perl extension Net::Amazon:
    (ms) Mike Evron <evronm@dtcinc.net> noticed that the SYNOPSIS code
         on the main documentation page had the wrong "search" syntax 
         -- thanks, Mike!
+   (ms) Changed all tests to process canned data, live tests turned out
+        to be too unreliable, due to Amazon's "best effort" responses.
+        If you want the test suite to process live data, you need to
+        set the environment variable NET_AMAZON_LIVE_TESTS.
         
 0.11 (07/14/2003)
    (ms) Added 'Similar Searches' API
