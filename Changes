@@ -1,5 +1,9 @@
 Revision history for Perl extension Net::Amazon:
 
+0.17 (not yet released)
+   (ms) Robert Graff (rgraff@workingdemo.com) provided a patch for 
+        'blended' searches.
+
 0.16 (10/10/2003)
    (ms) Replaced 'legacy call' onca/xml2 by onca/xml3, according to 
         the AWS newsletter.

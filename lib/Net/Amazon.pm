@@ -62,6 +62,8 @@ sub search {
         $req = Net::Amazon::Request::ASIN->new(%params);
     } elsif(exists $params{artist}) {
         $req = Net::Amazon::Request::Artist->new(%params);
+    } elsif(exists $params{blended}) {
+        $req = Net::Amazon::Request::Blended->new(%params);
     } elsif(exists $params{wishlist}) {
         $req = Net::Amazon::Request::Wishlist->new(
                                    id => $params{wishlist}, %params);
