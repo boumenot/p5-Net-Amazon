@@ -3,6 +3,8 @@ Revision history for Perl extension Net::Amazon:
 0.23 (not yet released)
    (ms) Evaldas Imbrasas <evaldas@wolfram.com> suggested to add SalesRank
         to Properties.pm -- added field and test case.
+   (ms) Added eg/dejazz, a sample program to retrieve the 10 best-selling
+        jazz CDs in Germany, as presented by an article in iX magazine.
 
 0.22 (05/09/2004)
    (ms) fixed warnings during make test (backwards-compatible without
