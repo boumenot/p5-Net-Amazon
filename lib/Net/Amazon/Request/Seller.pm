@@ -52,8 +52,8 @@ requests to the Amazon web service.
 The seller to search for is specified in the C<seller> parameter, which
 contains the seller's ID (not the seller's nickname!).
 
-Upon success, the responses' C<properties()> method will return a single
-C<Net::Amazon::Property::Seller> object.
+Upon success, the responses' C<result()> method will return a single
+C<Net::Amazon::Result::Seller> object.
 
 Check L<Net::Amazon::Request> for common request parameters not listed here.
 
