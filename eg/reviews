@@ -18,7 +18,7 @@ my $ua = Net::Amazon->new(
 );
 
 my $resp = $ua->search(
-    asin  => '0471237124'
+    asin  => ($ARGV[0] || "0471237124"),
 );
 
 die "Request failed" unless $resp->is_success();
