@@ -1,5 +1,5 @@
 ######################################################################
-    Net::Amazon 0.29_01
+    Net::Amazon 0.29_02
 ######################################################################
 
 NAME
@@ -100,9 +100,10 @@ DESCRIPTION
           print "Error: ", $resp->message(), "\n";
       }
 
-    In case the request succeeds, the response contains one or more Amazon
-    'properties', as it calls the products found. All matches can be
-    retrieved from the Response object using it's "properties()" method.
+    In case the request for an item search succeeds, the response contains
+    one or more Amazon 'properties', as it calls the products found. All
+    matches can be retrieved from the Response object using it's
+    "properties()" method.
 
     In case the request fails, the response contains one or more error
     messages. The response object's "message()" method will return it (or
@@ -187,7 +188,10 @@ DESCRIPTION
     Net::Amazon::Request::Seller
         Searches for a third-party seller on Amazon by seller ID. This
         search is different than the previous ones, since it doesn't return
-        Amazon items, but a single seller record.
+        Amazon items, but a single seller record. Don't use the
+        "properties()" method on the response, use "result()" instead, which
+        returns a Net::Amazon::Result::Seller object. Check the manpage for
+        details.
 
     Check the respective man pages for details on these request objects.
     Request objects are typically created like this (with a Keyword query as
