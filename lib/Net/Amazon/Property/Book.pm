@@ -56,7 +56,7 @@ sub authors {
     }
 
        # Return a list
-    return @{$self->{authors}};
+    return $self->{authors} ? @{$self->{authors}} : ();
 }
 
 ##################################################
