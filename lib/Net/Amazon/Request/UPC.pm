@@ -53,7 +53,16 @@ C<Net::Amazon::Request::UPC> is a class used to submit UPC (product barcode)
 search requests to the Amazon web service.
 
 The UPC number to search for is specified in the C<upc> parameter.
-It currently only works in the C<music> department.
+It currently works with the following values of the C<mode> parameter:
+C<music>, 
+C<classical>,
+C<software>,
+C<dvd>, 
+C<video>,
+C<vhs>, 
+C<electronics>,
+C<pc-hardware>, and 
+C<photo>.
 
 Upon success, the response's C<properties()> method will return a single
 C<Net::Amazon::Property::Music> object.
