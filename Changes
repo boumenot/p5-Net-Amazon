@@ -1,6 +1,6 @@
 Revision history for Perl extension Net::Amazon:
 
-0.20 (not yet released)
+0.20 (03/08/2004)
    (ms) rayg <rayg@varchars.com> added textstream search and support
         for sorting results.
    (ms) added directors(), director() and starring() to DVD.pm
