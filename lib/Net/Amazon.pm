@@ -122,12 +122,10 @@ sub request {
     my $res  = $resp_class->new();
 
     my $url  = URI->new($self->intl_url($request->amzn_xml_url()));
-    my $page = 0;
+    my $page = $request->{page};
     my $ref;
 
     {
-        $page++;
-
         my %params = $request->params();
         $params{page}   = $page;
         $params{locale} = $self->{locale} if exists $self->{locale};
@@ -194,12 +192,14 @@ sub request {
           ) {
             $AMZN_WISHLIST_BUG_ENCOUNTERED = 1;
             DEBUG("Trying to fetch additional wishlist page (AMZN bug)");
+            $page++;
             redo;
         }
 
         if(exists $ref->{TotalPages} and
            $ref->{TotalPages} > $page) {
             DEBUG("Page $page of $ref->{TotalPages} fetched - continuing");
+            $page++;
             redo;
         }
 
