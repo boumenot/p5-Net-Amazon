@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><ProductInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://xml.amazon.com/schemas2/dev-lite.xsd">
+
+   <Details url="http://www.amazon.com/exec/obidos/redirect?tag=webservices-20%26creative=YOUR_AMZN_TOKEN%26camp=2025%26link_code=xm2%26path=ASIN/1882114981">
+      <Asin>1882114981</Asin>
+      <ProductName>Free Software, Free Society: Selected Essays of Richard M. Stallman</ProductName>
+      <Catalog>Book</Catalog>
+      <Authors>
+         <Author>Richard M. Stallman</Author>
+         <Author>Lawrence Lessig</Author>
+         <Author>Joshua Gay</Author>
+      </Authors>
+      <ReleaseDate>01 October, 2002</ReleaseDate>
+      <Manufacturer>Free Software Foundation</Manufacturer>
+      <ImageUrlSmall>http://images.amazon.com/images/P/1882114981.01.THUMBZZZ.jpg</ImageUrlSmall>
+      <ImageUrlMedium>http://images.amazon.com/images/P/1882114981.01.MZZZZZZZ.jpg</ImageUrlMedium>
+      <ImageUrlLarge>http://images.amazon.com/images/P/1882114981.01.LZZZZZZZ.jpg</ImageUrlLarge>
+      <ListPrice>$24.95</ListPrice>
+      <OurPrice>$19.96</OurPrice>
+      <UsedPrice>$18.14</UsedPrice>
+   </Details>
+</ProductInfo>

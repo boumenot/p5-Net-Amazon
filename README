@@ -1,0 +1,279 @@
+######################################################################
+    Net::Amazon 0.09
+######################################################################
+
+NAME
+    Net::Amazon - Framework for accessing amazon.com via SOAP and XML/HTTP
+
+SYNOPSIS
+      use Net::Amazon;
+
+      my $ua = Net::Amazon->new(token => 'YOUR_AMZN_TOKEN');
+
+      my $resp = $ua->search(asin => '0201360683');
+
+        # Response is of type Net::Amazon::Response::ASIN
+      my $resp = $ua->request($req);
+
+      if($resp->is_success()) {
+          print $resp->as_string(), "\n";
+      } else {
+          print "Error: ", $resp->message(), "\n";
+      }
+
+ABSTRACT
+      Net::Amazon provides an object-oriented interface to amazon.com's
+      SOAP and XML/HTTP interfaces. This way it's possible to create applications
+      using Amazon's vast amount of data via a functional interface, without
+      having to worry about the underlying communication mechanism.
+
+DESCRIPTION
+    "Net::Amazon" works very much like "LWP": First you define a useragent
+    like
+
+      my $ua = Net::Amazon->new(
+          token     => 'YOUR_AMZN_TOKEN',
+          max_pages => 3,
+      );
+
+    which you pass your personal amazon developer's token (can be obtained
+    from http://amazon.com/soap) and (optionally) the maximum number of
+    result pages the agent is going to request from Amazon in case all
+    results don't fit on a single page (typically holding 20 items).
+
+    According to the different search methods on Amazon, there's a bunch of
+    different request types in "Net::Amazon". The user agent's convenience
+    method "search()" triggers different request objects, depending on which
+    parameters you pass to it:
+
+    "$ua->search(asin => "0201360683")"
+        The "asin" parameter has Net::Amazon search for an item with the
+        specified ASIN. Returns at most one result.
+
+    "$ua->search(artist => "Rolling Stones")"
+        The "artist" parameter has the user agent search for items created
+        by the specified artist. Can return many results.
+
+    "$ua->search(keyword => "perl xml", mode => "books")"
+        Search by keyword, mandatory parameters "keyword" and "mode". Can
+        return many results.
+
+    "$ua->search(wishlist => "1XL5DWOUFMFVJ")"
+        Search for all items in a specified wishlist. Can return many
+        results.
+
+    "$ua->search(upc => "075596278324", mode => "music")"
+        Music search by UPC (product barcode), mandatory parameter "upc".
+        "mode" has to be set to "music". Returns at most one result.
+
+    The user agent's "search" method returns a response object, which can be
+    checked for success or failure:
+
+      if($resp->is_success()) {
+          print $resp->as_string();
+      } else {
+          print "Error: ", $resp->message(), "\n";
+      }
+
+    In case the request succeeds, the response contains one or more Amazon
+    'properties', as it calls the products found. All matches can be
+    retrieved from the Response object using it's "properties()" method.
+
+    Response objects always have the methods "is_success()", "is_error()",
+    "message()", "as_string()" and "properties()" available.
+
+    "properties()" returns one or more "Net::Amazon::Property" objects of
+    type "Net::Amazon::Property" (or one of its subclasses like
+    "Net::Amazon::Property::Book", "Net::Amazon::Property::Music" or
+    Net::Amazon::Property::DVD), each of which features accessors named
+    after the attributes of the product found in Amazon's database:
+
+        for ($resp->properties) {
+           print $_->Asin(), " ",
+                 $_->OurPrice(), "\n";
+        }
+
+    Also the specialized classes "Net::Amazon::Property::Book" and
+    "Net::Amazon::Property::Music" feature convenience methods like
+    "authors()" (returning the list of authors of a book) or "album()" for
+    CDs, returning the album title.
+
+  Requests behind the scenes
+    "Net::Amazon"'s "search()" method is just a convenient way to create
+    different kinds of requests objects behind the scenes and trigger them
+    to send requests to Amazon.
+
+    Depending on the parameters fed to the "search" method, "Net::Amazon"
+    will determine the kind of search requested and create one of the
+    following request objects:
+
+    Net::Amazon::Request::ASIN
+        Search by ASIN, mandatory parameter "asin". Returns at most one
+        result.
+
+    Net::Amazon::Request::Artist
+        Music search by Artist, mandatory parameter "artist". Can return
+        many results.
+
+    Net::Amazon::Request::Keyword
+        Keyword search, mandatory parameters "keyword" and "mode". Can
+        return many results.
+
+    Net::Amazon::Request::UPC
+        Music search by UPC (product barcode), mandatory parameter "upc".
+        "mode" has to be set to "music". Returns at most one result.
+
+    Check the respective man pages for details on these request objects.
+    Request objects are typically created like this (with a Keyword query as
+    an example):
+
+        my $req = Net::Amazon::Request::Keyword->new(
+            keyword   => 'perl',
+            mode      => 'books',
+        );
+
+    and are handed over to the user agent like that:
+
+        # Response is of type Net::Amazon::Response::ASIN
+      my $resp = $ua->request($req);
+
+    The convenient "search()" method just does these two steps in one.
+
+  METHODS
+    $ua = Net::Amazon->new(token => $token, ...)
+        Create a new Net::Amazon useragent. $token is the value of the
+        mandatory Amazon developer's token, which can be obtained from
+        http://amazon.com/soap.
+
+        Additional optional parameters:
+
+        "max_pages => $max_pages"
+            sets how many result pages the module is supposed to fetch back
+            from Amazon, which only sends back 10 results per page.
+
+        "affiliate_id => $affiliate_id"
+            your Amazon affiliate ID, if you have one. It defaults to
+            "webservices-20" which is currently (as of 06/2003) required by
+            Amazon.
+
+    "$resp = $ua->request($request)"
+        Sends a request to the Amazon web service. $request is of a
+        "Net::Amazon::Request::*" type and $response will be of the
+        corresponding "Net::Amazon::Response::*" type.
+
+  Accessing foreign Amazon Catalogs
+    As of this writing (06/2003), Amazon also offers its web service for its
+    UK catalog. Just pass
+
+        locale => 'uk'
+
+    to "Net::Amazon"'s constructor "new()" and instead of returning results
+    sent by the US mothership, it will query the UK catalog and show prices
+    in (gack!) Pounds.
+
+  EXAMPLE
+    Here's a full-fledged example doing a artist search:
+
+        use Net::Amazon;
+        use Net::Amazon::Request::Artist;
+        use Data::Dumper;
+
+        die "usage: $0 artist\n(use Zwan as an example)\n"
+            unless defined $ARGV[0];
+
+        my $ua = Net::Amazon->new(
+            token       => 'YOUR_AMZN_TOKEN',
+        );
+
+        my $req = Net::Amazon::Request::Artist->new(
+            artist  => $ARGV[0],
+        );
+
+           # Response is of type Net::Amazon::Artist::Response
+        my $resp = $ua->request($req);
+
+        if($resp->is_success()) {
+            print $resp->as_string, "\n";
+        } else {
+            print $resp->message(), "\n";
+        }
+
+    And here's one displaying someone's wishlist:
+
+        use Net::Amazon;
+        use Net::Amazon::Request::Wishlist;
+
+        die "usage: $0 wishlist_id\n" .
+            "(use 1XL5DWOUFMFVJ as an example)\n" unless $ARGV[0];
+
+        my $ua = Net::Amazon->new(
+            token       => 'YOUR_AMZN_TOKEN',
+        );
+
+        my $req = Net::Amazon::Request::Wishlist->new(
+            id  => $ARGV[0]
+        );
+
+           # Response is of type Net::Amazon::ASIN::Response
+        my $resp = $ua->request($req);
+
+        if($resp->is_success()) {
+            print $resp->as_string, "\n";
+        } else {
+            print $resp->message(), "\n";
+        }
+
+DEBUGGING
+    If something's going wrong and you want more verbosity, just bump up
+    "Net::Amazon"'s logging level. "Net::Amazon" comes with "Log::Log4perl"
+    statements embedded, which are disabled by default. However, if you
+    initialize "Log::Log4perl", e.g. like
+
+        use Net::Amazon;
+        use Log::Log4perl qw(:easy);
+
+        Log::Log4perl->easy_init($DEBUG);
+        my Net::Amazon->new();
+        # ...
+
+    you'll see what's going on behind the scenes, what URLs the module is
+    requesting from Amazon and so forth. Log::Log4perl allows all kinds of
+    fancy stuff, like writing to a file or enabling verbosity in certain
+    parts only -- check http://log4perl.sourceforge.net for details.
+
+INSTALLATION
+    "Net::Amazon" depends on Log::Log4perl, which can be pulled from CPAN by
+    simply saying
+
+        perl -MCPAN -eshell 'install Log::Log4perl'
+
+    Also, it needs XML::Simple 2.x, which can be obtained in a similar way.
+
+    Once all dependencies have been resolved, "Net::Amazon" installs with
+    the typical sequence
+
+        perl Makefile.PL
+        make
+        make test
+        make install
+
+    Make sure you're connected to the Internet while running "make test"
+    because it will actually contact amazon.com and run a couple of live
+    tests.
+
+    The module's distribution tarball and documentation are available at
+
+        http://perlmeister.com/devel/#amzn 
+
+    and on CPAN.
+
+SEE ALSO
+AUTHOR
+    Mike Schilli, <m@perlmeister.com>
+
+COPYRIGHT AND LICENSE
+    Copyright 2003 by Mike Schilli <m@perlmeister.com>
+
+    This library is free software; you can redistribute it and/or modify it
+    under the same terms as Perl itself.
+

@@ -1,0 +1,9 @@
+blib
+eg/similar
+^Makefile$
+^Makefile.old$
+CVS
+.cvsignore
+docs
+MANIFEST.bak
+adm/release

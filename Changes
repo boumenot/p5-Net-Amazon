@@ -1,0 +1,80 @@
+Revision history for Perl extension Net::Amazon:
+
+0.09 (06/24/2003)
+   (ms) Tony Bowden <tony@kasei.com> suggested to have a $ua->search
+        method, abstracting the usage of the different request objects.
+        Implemented that.
+   (ms) Resolved warnings and strict errors in test cases
+
+0.08 (06/22/2003)
+   (ms) Changed dependencies to 5.006, XML::Simple and LWP::UserAgent
+
+0.07 (06/10/2003)
+   (ms) fixed bug with single-item-wishlists
+   (ms) Lists printed as strings now have numbered bullets
+   (ms) Tests are using new wishlist 1XL5DWOUFMFVJ (Net::Amazon)
+   (ms) Added tests with canned reponses
+
+0.06 (06/07/2003)
+   (ms) applied workaround for AMZN's wishlist bug: If a wishlist
+     is longer than 10 items, AMZN returns the first 10 items with
+     no indication if there's any followup pages. The workaround
+     just tries to fetch another batch in case there's exactly 10 and 
+     hides eventually encountered errors. 
+
+   Dan Sully <daniel@electricrain.com> provided a patch
+     to suppress a warning in case a music item isn't returning a 'year'
+     field
+
+   Barnaby Claydon <bclaydon@perseus.com> reported a couple of problems
+   with wishlists, they're fixed by the following patches:
+
+   (ms) Added new property Net::Amazon::Property::DVD
+
+   (ms) Changed as_string() of default Net::Amazon::Property (used if
+     we come across a 'Toy' or 'Video Game' category) to return
+     a more human-readable format.
+
+   (ms) Implemented retry strategy on Amazon's temporary errors, if we
+     encounter one, we'll sleep for 1 sec and then retry at most
+     twice.
+
+   (ms) Accessors have been changed to return an empty string if 
+     a value hasn't been specified in XML. Products without price and
+     other anomalies won't cause perl warnings anymore.
+
+0.05 (05/31/2003)
+   Martha Greenberg <marthag@mit.edu> provided bug reports 
+   and patches for
+       * 'music' parameter for UPC searches (fixed in doc)
+       * Net::Amazon::Property::Music now deals correctly with
+         CDs by multiple artists.
+       * missing documentation of 'locale' parameter
+
+   (ms) Net::Amazon now takes the 'locale' parameter also in
+   the main Net::Amazon object's constructor.
+
+0.04 (05/29/2003)
+   Dan Sully <daniel@electricrain.com> provided a patch
+   to check if a response indeed contains the {Details} hash.
+
+0.03 (05/06/2003)
+   (ms) properties returns empty list on failure now
+
+   Martha Greenberg <marthag@mit.edu> provided patch for 
+       * the now mandatory associates-id in the query
+       * two documentation bugs
+
+   Konstantin Gredeskoul <kig@get.topica.com> also provided an almost
+       identical patch to the problem :).
+
+0.02
+   (ms) documentation updated
+
+0.01
+   (ms) where it all started
+
+TODO:
+   * tests with lite/heavy
+   * raw xml access
+   * heavy accessors
