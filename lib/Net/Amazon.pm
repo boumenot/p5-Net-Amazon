@@ -659,7 +659,9 @@ in Amazon's database:
              $_->OurPrice(), "\n";
     }
 
-Commonly available accessors are 
+In scalar context, C<properties()> just returns the I<first> 
+C<Net::Amazon::Property> object found.
+Commonly available accessors to C<Net::Amazon::Property> objects are
 C<OurPrice()>,
 C<ImageUrlLarge()>,
 C<ImageUrlMedium()>,
