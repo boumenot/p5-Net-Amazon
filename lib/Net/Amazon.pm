@@ -1036,6 +1036,7 @@ Mike Schilli, E<lt>na@perlmeister.comE<gt> (Please contact me via the mailing li
 Contributors (thanks y'all!):
 
     Barnaby Claydon <bclaydon@perseus.com>
+    Batara Kesuma <bkesuma@gaijinweb.com>
     Bill Fitzpatrick
     Brian Hirt <bhirt@mobygames.com>
     Dan Sully <daniel@electricrain.com>
