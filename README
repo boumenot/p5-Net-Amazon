@@ -1,5 +1,5 @@
 ######################################################################
-    Net::Amazon 0.21
+    Net::Amazon 0.22
 ######################################################################
 
 NAME
@@ -102,10 +102,12 @@ DESCRIPTION
     return a reference to an array of message strings.
 
     Response objects always have the methods "is_success()", "is_error()",
-    "message()", "as_string()" and "properties()" available.
+    "message()", "total_results()", "as_string()" and "properties()"
+    available.
 
-    "properties()" returns one or more "Net::Amazon::Property" objects of
-    type "Net::Amazon::Property" (or one of its subclasses like
+    "total_results()" returns the total number of results the search
+    yielded. "properties()" returns one or more "Net::Amazon::Property"
+    objects of type "Net::Amazon::Property" (or one of its subclasses like
     "Net::Amazon::Property::Book", "Net::Amazon::Property::Music" or
     Net::Amazon::Property::DVD), each of which features accessors named
     after the attributes of the product found in Amazon's database:

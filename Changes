@@ -1,8 +1,10 @@
 Revision history for Perl extension Net::Amazon:
 
-0.22 (not yet released)
+0.22 (04/30/2004)
    (ms) fixed warnings during make test (backwards-compatible without
         tracks())
+   (ms) Batara Kesuma <bkesuma@gaijinweb.com> sent in a patch to 
+        access TotalPages (now available as $resp->total_pages()).
 
 0.21 (03/21/2004)
    (ms) Tatsuhiko Miyagawa <miyagawa@livedoor.jp> provided a patch to

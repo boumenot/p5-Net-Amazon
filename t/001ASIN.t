@@ -150,3 +150,5 @@ is(join('#', $dvd->directors()), "Brian De Palma",
 
 like(join('#', $dvd->starring()), qr/Tom Cruise#Jon Voight#Emmanuelle B/, 
      "starring() finds actors");
+
+is($resp->total_results, 1, "Total of 1");

@@ -8,7 +8,7 @@ use 5.006;
 use strict;
 use warnings;
 
-our $VERSION          = '0.21';
+our $VERSION          = '0.22';
 our @CANNED_RESPONSES = ();
 
 use LWP::UserAgent;
@@ -173,6 +173,10 @@ sub request {
             INFO("Page $page/$ref->{TotalPages}");
         }
 
+        if(exists $ref->{TotalResults}) {
+            $res->total_results( $ref->{TotalResults} );
+        }
+
         if(exists $ref->{ErrorMsg}) {
 
             if($AMZN_WISHLIST_BUG_ENCOUNTERED &&
@@ -225,6 +229,9 @@ sub request {
     }
 
     $res->status(1);
+    # We have a valid response, so if TotalResults isn't set, 
+    # we most likely have a single response
+    $res->total_results(1) unless defined $res->total_results();
     return $res;
 }
 
@@ -533,9 +540,12 @@ Response objects always have the methods
 C<is_success()>,
 C<is_error()>,
 C<message()>,
+C<total_results()>,
 C<as_string()> and
 C<properties()> available.
 
+C<total_results()> returns the total number of results the search
+yielded.
 C<properties()> returns one or more C<Net::Amazon::Property> objects of type
 C<Net::Amazon::Property> (or one of its subclasses like
 C<Net::Amazon::Property::Book>, C<Net::Amazon::Property::Music>

@@ -11,17 +11,18 @@ sub new {
     my($class, %options) = @_;
 
     my $self = {
-        status  => "",
-        messages => [],
-        items   => [],
-        xmlref  => {},
+        status        => "",
+        messages      => [],
+        items         => [],
+        xmlref        => {},
+        total_results => undef,
     };
 
     $class->SUPER::make_accessor("status");
     $class->SUPER::make_accessor("messages");
     $class->SUPER::make_accessor("items");
     $class->SUPER::make_accessor("xmlref");
-
+    $class->SUPER::make_accessor("total_results");
     bless $self, $class;
 }
 
