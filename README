@@ -498,6 +498,14 @@ INSTALLATION
     and on CPAN.
 
 SEE ALSO
+    The following modules play well within the "Net::Amazon" framework:
+
+    "Net::Amazon::RemoteCart"
+        by David Emery <dave@skiddlydee.com> provides a complete API for
+        creating Amazon shopping carts on a local site, managing them and
+        finally submitting them to Amazon for checkout. It is available on
+        CPAN.
+
 CONTACT
     The "Net::Amazon" project's home page is hosted on
 
