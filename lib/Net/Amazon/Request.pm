@@ -2,7 +2,15 @@
 package Net::Amazon::Request;
 ######################################################################
 
-our $AMZN_XML_URL     = "http://xml.amazon.com/onca/xml3";
+use constant DEFAULT_MODE          => 'books';
+use constant DEFAULT_TYPE          => 'heavy';
+use constant DEFAULT_PAGE_COUNT    => 1;
+use constant DEFAULT_FORMAT        => 'xml';
+use constant DEFAULT_SORT_CRITERIA => '+salesrank';
+
+use constant VALID_TYPES => { map { $_ => 1 } qw(heavy lite) };
+
+our $AMZN_XML_URL  = "http://xml.amazon.com/onca/xml3";
 
 ##################################################
 sub amzn_xml_url {
@@ -16,13 +24,16 @@ sub new {
     my($class, %options) = @_;
 
     my $self = {
-        mode       => 'books',
-        type       => 'heavy',
-        page       => 1,
-        f          => 'xml',
-        sort       => '+salesrank',
+        mode       => DEFAULT_MODE,
+        type       => DEFAULT_TYPE,
+        page       => DEFAULT_PAGE_COUNT,
+        f          => DEFAULT_FORMAT,
+        sort       => DEFAULT_SORT_CRITERIA,
         %options,
     };
+
+    die "Unknown type in ", __PACKAGE__, " constructor: ",
+        $self->{type} unless exists VALID_TYPES->{$self->{type}};
 
     bless $self, $class;
 }

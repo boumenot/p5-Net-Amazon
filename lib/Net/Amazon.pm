@@ -8,7 +8,7 @@ use 5.006;
 use strict;
 use warnings;
 
-our $VERSION          = '0.28';
+our $VERSION          = '0.28_03';
 our @CANNED_RESPONSES = ();
 
 use LWP::UserAgent;
@@ -1155,6 +1155,7 @@ Contributors (thanks y'all!):
     Batara Kesuma <bkesuma@gaijinweb.com>
     Bill Fitzpatrick
     Brian Hirt <bhirt@mobygames.com>
+    Dan Kreft <dan@kreft.net>
     Dan Sully <daniel@electricrain.com>
     Jackie Hamilton <kira@cgi101.com>
     Konstantin Gredeskoul <kig@get.topica.com>

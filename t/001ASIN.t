@@ -8,7 +8,7 @@
 use warnings;
 use strict;
 
-use Test::More tests => 30;
+use Test::More tests => 31;
 BEGIN { use_ok('Net::Amazon') };
 
 #use Log::Log4perl qw(:easy);
@@ -154,3 +154,10 @@ like(join('#', $dvd->starring()), qr/Tom Cruise#Jon Voight#Emmanuelle B/,
      "starring() finds actors");
 
 is($resp->total_results, 1, "Total of 1");
+
+######################################################################
+# Illegal request type
+######################################################################
+eval {$req = Net::Amazon::Request::ASIN->new(asin  => "6305181772",
+                                             type  => "whackamole");};
+like($@, qr/Unknown type/, "Check illegal request type");
