@@ -7,7 +7,7 @@ Revision history for Perl extension Net::Amazon:
         enforce Amazon's no-more-than-1-request-per-second rule. 
         A new parameter 'strict' has been added to the Net::Amazon 
         constructor, which will limit the number of requests if 
-        necessary. Defaults to 1.
+        set to 1. Defaults to 1.
 
 0.26 (07/07/2004)
    (ms) Added ProductDescription to Properties.pm
