@@ -621,10 +621,12 @@ And here's one displaying someone's wishlist:
 
 =head1 CACHING
 
-Responses from the Amazon web service can be cached locally. C<Net::Amazon>'s
-C<new> method accepts a reference to a C<Cache> object. C<Cache> (and its
-companions like C<Cache::Memory>, C<Cache::File>, etc. can be downloaded
-from CPAN, please check their documentation for details. 
+Responses returned by Amazon's web service can be cached locally.
+C<Net::Amazon>'s C<new> method accepts a reference to a C<Cache>
+object. C<Cache> (or one of its companions like C<Cache::Memory>,
+C<Cache::File>, etc.) can be downloaded from CPAN, please check their
+documentation for details. In fact, any other type of cache
+implementation will do as well, see the requirements below.
 
 Here's an example utilizing a file cache which causes C<Net::Amazon> to
 cache responses for 30 minutes:
@@ -641,12 +643,19 @@ cache responses for 30 minutes:
         cache       => $cache,
     );
 
-C<Net::Amazon> uses I<positive> caching only, errors won't be cached. The
-associated requests will be sent to Amazon every time. 
-
-Positive cache 
+C<Net::Amazon> uses I<positive> caching only, errors won't be cached. 
+Erroneous requests will be sent to Amazon every time. Positive cache 
 entries are keyed by the full URL used internally by requests submitted 
 to Amazon.
+
+Caching isn't limited to the C<Cache> class. Any cache object which
+adheres to the following interface can be used:
+
+        # Set a cache value
+    $cache->set($key, $value);
+
+        # Return a cached value, 'undef' if it doesn't exist
+    $cache->get($key);
 
 =head1 DEBUGGING
 
