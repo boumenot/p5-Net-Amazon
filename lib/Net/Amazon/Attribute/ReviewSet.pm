@@ -15,7 +15,7 @@ sub new {
     };
 
     $class->make_accessor("average_customer_rating");
-    $class->make_accessor("total_customer_reviews");
+    $class->make_accessor("total_reviews");
 
     bless $self, $class;
 }
@@ -47,7 +47,7 @@ sub init_via_xmlref {
     my($self, $xmlref) = @_;
 
     my @pairs = qw(AvgCustomerRating    average_customer_rating
-                   TotalCustomerReviews total_customer_reviews);
+                   TotalCustomerReviews total_reviews);
 
     while(my($field, $method) = splice @pairs, 0, 2) {
         
@@ -85,7 +85,7 @@ Net::Amazon::Attribute::ReviewSet - A set of customer reviews
     use Net::Amazon::Attribute::ReviewSet;
     my $rev = Net::Amazon::Attribute::Review->new(
         average_customer_rating => $avg,
-        total_customer_reviews  => $total,
+        total_reviews  => $total,
         );
 
 =head1 DESCRIPTION

@@ -33,7 +33,7 @@ if($resp->is_success()) {
         print "Average rating:    ", 
               $reviewset->average_customer_rating(), "\n";
         print "Number of reviews: ", 
-              $reviewset->total_customer_reviews(), "\n";
+              $reviewset->total_reviews(), "\n";
         for my $review ($reviewset->reviews()) {
             print "Review:\n";
             print "Comment: ", $review->comment(), "\n";

@@ -51,7 +51,7 @@ my $result = "";
 for my $property ($resp->properties()) {
     my $reviewset = $property->review_set();
     $result .= "AVG=" . $reviewset->average_customer_rating() . "," .
-               "TOT=" . $reviewset->total_customer_reviews() . ",";
+               "TOT=" . $reviewset->total_reviews() . ",";
     for my $review ($reviewset->reviews()) {
         $result .= "COM=" . $review->comment() . "," .
                    "SUM=" . $review->summary() . "," .
