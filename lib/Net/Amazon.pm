@@ -1,4 +1,4 @@
-######################################################################
+#####################################################################
 package Net::Amazon;
 ######################################################################
 # Mike Schilli <m@perlmeister.com>, 2003
@@ -8,8 +8,7 @@ use 5.006;
 use strict;
 use warnings;
 
-our $VERSION          = '0.09';
-our $AMZN_XML_URL     = "http://xml.amazon.com/onca/xml2";
+our $VERSION          = '0.11';
 our @CANNED_RESPONSES = ();
 
 use LWP::UserAgent;
@@ -24,6 +23,7 @@ use Net::Amazon::Request::Artist;
 use Net::Amazon::Request::Keyword;
 use Net::Amazon::Request::Wishlist;
 use Net::Amazon::Request::UPC;
+use Net::Amazon::Request::Similar;
 
 ##################################################
 sub new {
@@ -67,6 +67,9 @@ sub search {
         $req = Net::Amazon::Request::UPC->new(%params);
     } elsif(exists $params{keyword}) {
         $req = Net::Amazon::Request::Keyword->new(%params);
+    } elsif(exists $params{similar}) {
+        $req = Net::Amazon::Request::Similar->new(asin => $params{similar},
+                                                  %params);
     } else {
         warn "No Net::Amazon::Request type could be determined";
         return;
@@ -89,7 +92,7 @@ sub request {
 
     my $res  = $resp_class->new();
 
-    my $url  = URI->new($AMZN_XML_URL);
+    my $url  = URI->new($request->amzn_xml_url());
     my $page = 0;
     my $ref;
 
@@ -314,7 +317,8 @@ Net::Amazon - Framework for accessing amazon.com via SOAP and XML/HTTP
 
   my $ua = Net::Amazon->new(token => 'YOUR_AMZN_TOKEN');
 
-  my $resp = $ua->search(asin => '0201360683');
+    # Get a request object
+  my $req = $ua->search(asin => '0201360683');
 
     # Response is of type Net::Amazon::Response::ASIN
   my $resp = $ua->request($req);
@@ -378,6 +382,11 @@ Can return many results.
 
 Music search by UPC (product barcode), mandatory parameter C<upc>.
 C<mode> has to be set to C<music>. Returns at most one result.
+
+=item C<< $ua->search(similar => "0201360683") >>
+
+Search for all items similar to the one represented by the ASIN provided.
+Can return many results.
 
 =back
 

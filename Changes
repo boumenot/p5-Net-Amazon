@@ -1,5 +1,9 @@
 Revision history for Perl extension Net::Amazon:
 
+0.11 (07/14/2003)
+   (ms) Added 'Similar Searches' API
+   (ms) Adapted for new amazon.de and amazon.co.uk searches
+
 0.10 (06/28/2003)
    (ms) Adapted wishlist test case for change in AMZN's catalog
    (ms) Added docs for new Net::Amazon homepage at net-amazon.sourceforge.net

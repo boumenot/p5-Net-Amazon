@@ -1,5 +1,5 @@
 Changes
-MANIFEST
+MANIFEST			This list of files
 MANIFEST.SKIP
 Makefile.PL
 README
@@ -12,6 +12,7 @@ eg/cheapo
 eg/heavy
 eg/keyword
 eg/maxauthors
+eg/sim
 eg/upc
 eg/wishlist
 lib/Net/Amazon.pm
@@ -23,12 +24,14 @@ lib/Net/Amazon/Request.pm
 lib/Net/Amazon/Request/ASIN.pm
 lib/Net/Amazon/Request/Artist.pm
 lib/Net/Amazon/Request/Keyword.pm
+lib/Net/Amazon/Request/Similar.pm
 lib/Net/Amazon/Request/UPC.pm
 lib/Net/Amazon/Request/Wishlist.pm
 lib/Net/Amazon/Response.pm
 lib/Net/Amazon/Response/ASIN.pm
 lib/Net/Amazon/Response/Artist.pm
 lib/Net/Amazon/Response/Keyword.pm
+lib/Net/Amazon/Response/Similar.pm
 lib/Net/Amazon/Response/UPC.pm
 lib/Net/Amazon/Response/Wishlist.pm
 t/001ASIN.t

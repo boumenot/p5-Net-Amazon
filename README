@@ -1,5 +1,5 @@
 ######################################################################
-    Net::Amazon 0.10
+    Net::Amazon 0.11
 ######################################################################
 
 NAME
@@ -10,7 +10,8 @@ SYNOPSIS
 
       my $ua = Net::Amazon->new(token => 'YOUR_AMZN_TOKEN');
 
-      my $resp = $ua->search(asin => '0201360683');
+        # Get a request object
+      my $req = $ua->search(asin => '0201360683');
 
         # Response is of type Net::Amazon::Response::ASIN
       my $resp = $ua->request($req);
@@ -65,6 +66,10 @@ DESCRIPTION
     "$ua->search(upc => "075596278324", mode => "music")"
         Music search by UPC (product barcode), mandatory parameter "upc".
         "mode" has to be set to "music". Returns at most one result.
+
+    "$ua->search(similar => "0201360683")"
+        Search for all items similar to the one represented by the ASIN
+        provided. Can return many results.
 
     The user agent's "search" method returns a response object, which can be
     checked for success or failure:
