@@ -4,6 +4,9 @@ package Net::Amazon::Response;
 use base qw(Net::Amazon);
 
 use Text::Wrap qw($columns wrap);
+use XML::Simple;
+
+our @FORCE_ARRAY_FIELDS = ();
 
 __PACKAGE__->make_accessor($_) for qw(
   status messages items xmlref total_results);
@@ -99,6 +102,15 @@ sub properties {
     }
 
     return (@properties);
+}
+
+##################################################
+sub xml_parse {
+##################################################
+    my($self, $xml) = @_;
+
+    my $xs = XML::Simple->new();
+    return $xs->XMLin($xml, ForceArray => [ @FORCE_ARRAY_FIELDS ]);
 }
 
 1;

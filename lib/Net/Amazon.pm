@@ -21,6 +21,7 @@ use Time::HiRes qw(usleep gettimeofday tv_interval);
 
 use Net::Amazon::Request::ASIN;
 use Net::Amazon::Request::Artist;
+use Net::Amazon::Request::Blended;
 use Net::Amazon::Request::BrowseNode;
 use Net::Amazon::Request::Keyword;
 use Net::Amazon::Request::Wishlist;
@@ -161,8 +162,8 @@ sub request {
 
         DEBUG(sub { "Received [ " . $xml . "]" });
 
-        my $xs = XML::Simple->new();
-        $ref = $xs->XMLin($xml);
+            # Let the response class parse the XML
+        $ref = $res->xml_parse($xml);
 
         # DEBUG(sub { Data::Dumper::Dumper($ref) });
 
