@@ -428,7 +428,7 @@ Can return many results.
 =item C<< $ua->search(power => "subject: perl and author: schwartz", mode => "books") >>
 
 Initiate a power search for all books matching the power query.
-Can return many results.
+Can return many results. See L<Net::Amazon::Request::Power> for details.
 
 =back
 
