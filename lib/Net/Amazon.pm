@@ -990,6 +990,18 @@ and on CPAN.
 
 =head1 SEE ALSO
 
+The following modules play well within the C<Net::Amazon> framework:
+
+=over 4
+
+=item C<Net::Amazon::RemoteCart>
+
+by David Emery E<lt>dave@skiddlydee.comE<gt> provides a complete API for
+creating Amazon shopping carts on a local site, managing them and finally 
+submitting them to Amazon for checkout. It is available on CPAN.
+
+=back
+
 =head1 CONTACT
 
 The C<Net::Amazon> project's home page is hosted on 
