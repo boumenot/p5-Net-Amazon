@@ -136,7 +136,9 @@ DESCRIPTION
                  $_->OurPrice(), "\n";
         }
 
-    Commonly available accessors are "OurPrice()", "ImageUrlLarge()",
+    In scalar context, "properties()" just returns the *first*
+    "Net::Amazon::Property" object found. Commonly available accessors to
+    "Net::Amazon::Property" objects are "OurPrice()", "ImageUrlLarge()",
     "ImageUrlMedium()", "ImageUrlSmall()", "ReleaseDate()", "Catalog()",
     "Asin()", "url()", "Manufacturer()", "UsedPrice()", "ListPrice()",
     "ProductName()", "Availability()", "SalesRank()". For details, check
