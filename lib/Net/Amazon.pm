@@ -105,6 +105,11 @@ sub intl_url {
         return $url;
     }
 
+    if ($self->{locale} eq "jp") {
+       $url =~ s/\.com/.co.jp/;
+       return $url;
+    }
+
     if($self->{locale} eq "uk" or
        $self->{locale} eq "de") {
         $url =~ s/xml/xml-eu/;
