@@ -8,6 +8,7 @@ WriteMakefile(
     'PREREQ_PM'		=> { Log::Log4perl  => 0.30,
                              XML::Simple    => 2.08,
                              LWP::UserAgent => 2,
+                             Time::HiRes    => 1,
                              Data::Dumper   => undef,
                              URI            => undef,
                            }, # e.g., Module::Name => 1.1

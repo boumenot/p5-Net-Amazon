@@ -17,6 +17,7 @@ use XML::Simple;
 use Data::Dumper;
 use URI;
 use Log::Log4perl qw(:easy);
+use Time::HiRes qw(usleep gettimeofday tv_interval);
 
 use Net::Amazon::Request::ASIN;
 use Net::Amazon::Request::Artist;
@@ -42,6 +43,7 @@ sub new {
     }
 
     my $self = {
+        strict    => 1,
         max_pages => 5,
         ua        => LWP::UserAgent->new(),
         %options,
@@ -266,19 +268,38 @@ sub fetch_url {
     my $resp;
 
     {
+        # wait up to a second before the next request so
+        # as to not violate Amazon's 1 query per second
+        # rule.
+        $self->pause() if $self->{strict};
+
         $resp = $ua->request(GET $url);
 
+        $self->reset_timer() if $self->{strict};
+
         if($resp->is_error) {
-            $res->status("");
-            $res->messages( [ $resp->message ] );
-            return undef;
+            # retry on 503 Service Unavailable errors
+            if ($resp->code == 503) {
+                if ($max_retries-- >= 0) {
+                    INFO("Temporary Amazon error 503, retrying");
+                    redo;
+                } else {
+                    INFO("Out of retries, giving up");
+                    $res->status("");
+                    $res->messages( [ "Too many temporary Amazon errors" ] );
+                    return undef;
+                }
+            } else {
+                $res->status("");
+                $res->messages( [ $resp->message ] );
+                return undef;
+            }
         }
 
         if($resp->content =~ /<ErrorMsg>/ &&
            $resp->content =~ /Please retry/i) {
             if($max_retries-- >= 0) {
                 INFO("Temporary Amazon error, retrying");
-                sleep(1);
                 redo;
             } else {
                 INFO("Out of retries, giving up");
@@ -418,6 +439,31 @@ sub help_xml_simple_choose_a_parser {
     }
 }
 
+##################################################
+# This timer makes sure we don't query Amazon more
+# than once a second.
+##################################################
+sub reset_timer {
+##################################################
+
+    my $self = shift;
+    $self->{t0} = [gettimeofday];
+}
+
+##################################################
+# Pause for up to a second if necessary.
+##################################################
+sub pause {
+##################################################
+
+    my $self = shift;
+    return unless ($self->{t0});
+
+    my $t1 = [gettimeofday];
+    my $dur = (1.0 -  tv_interval($self->{t0}, $t1)) * 1000000;
+    usleep($dur) unless $dur < 0;
+}
+
 1;
 
 __END__
@@ -461,7 +507,9 @@ like
 which you pass your personal amazon developer's token (can be obtained
 from L<http://amazon.com/soap>) and (optionally) the maximum number of 
 result pages the agent is going to request from Amazon in case all
-results don't fit on a single page (typically holding 20 items).
+results don't fit on a single page (typically holding 20 items).  Note that
+each new page requires a minimum delay of 1 second to comply with Amazon's
+one-query-per-second policy.
 
 According to the different search methods on Amazon, there's a bunch
 of different request types in C<Net::Amazon>. The user agent's 
@@ -675,11 +723,21 @@ Additional optional parameters:
 
 =over 4
 
+=item C<< strict => 1 >>
+
+Makes sure that Net::Amazon complies with Amazon's terms of service
+by limiting the number of outgoing requests to 1 per second. Defaults
+to C<1>.
+
 =item C<< max_pages => $max_pages >>
 
 sets how many 
 result pages the module is supposed to fetch back from Amazon, which
-only sends back 10 results per page. 
+only sends back 10 results per page.  
+Since each page requires a new query to Amazon, at most one query 
+per second will be made in C<strict> mode to comply with Amazon's terms 
+of service. This will impact performance if you perform a search 
+returning many pages of results.
 
 =item C<< affiliate_id => $affiliate_id >>
 
@@ -1068,6 +1126,7 @@ Mike Schilli, E<lt>na@perlmeister.comE<gt> (Please contact me via the mailing li
 
 Contributors (thanks y'all!):
 
+    Andy Grundman <andy@hybridized.org>
     Barnaby Claydon <bclaydon@perseus.com>
     Batara Kesuma <bkesuma@gaijinweb.com>
     Bill Fitzpatrick
