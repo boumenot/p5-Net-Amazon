@@ -38,7 +38,7 @@ DESCRIPTION
       );
 
     which you pass your personal amazon developer's token (can be obtained
-    from http://amazon.com/soap) and (optionally) the maximum number of
+    from <http://amazon.com/soap>) and (optionally) the maximum number of
     result pages the agent is going to request from Amazon in case all
     results don't fit on a single page (typically holding 20 items).
 
@@ -105,8 +105,8 @@ DESCRIPTION
 
   Requests behind the scenes
     "Net::Amazon"'s "search()" method is just a convenient way to create
-    different kinds of requests objects behind the scenes and trigger them
-    to send requests to Amazon.
+    different kinds of request objects behind the scenes and trigger them to
+    send requests to Amazon.
 
     Depending on the parameters fed to the "search" method, "Net::Amazon"
     will determine the kind of search requested and create one of the
@@ -148,7 +148,7 @@ DESCRIPTION
     $ua = Net::Amazon->new(token => $token, ...)
         Create a new Net::Amazon useragent. $token is the value of the
         mandatory Amazon developer's token, which can be obtained from
-        http://amazon.com/soap.
+        <http://amazon.com/soap>.
 
         Additional optional parameters:
 
