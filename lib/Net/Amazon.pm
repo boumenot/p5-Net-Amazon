@@ -8,7 +8,7 @@ use 5.006;
 use strict;
 use warnings;
 
-our $VERSION          = '0.16';
+our $VERSION          = '0.17';
 our @CANNED_RESPONSES = ();
 
 use LWP::UserAgent;
@@ -523,6 +523,13 @@ Can return many results.
 
 Music search by UPC (product barcode), mandatory parameter C<upc>.
 C<mode> has to be set to C<music>. Returns at most one result.
+
+=item Net::Amazon::Request::Blended
+
+'Blended' search on a keyword, resulting in matches across the board.
+No 'mode' parameter is allowed. According to Amazon's developer's kit, 
+this will result in up to three matches per category and can yield
+a total of 45 matches.
 
 =back
 
