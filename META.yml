@@ -1,7 +1,7 @@
 # http://module-build.sourceforge.net/META-spec.html
 #XXXXXXX This is a prototype!!!  It will change in the future!!! XXXXX#
 name:         Net-Amazon
-version:      0.30
+version:      0.31
 version_from: lib/Net/Amazon.pm
 installdirs:  site
 requires:
@@ -13,4 +13,4 @@ requires:
     XML::Simple:                   2.08
 
 distribution_type: module
-generated_by: ExtUtils::MakeMaker version 6.21
+generated_by: ExtUtils::MakeMaker version 6.17

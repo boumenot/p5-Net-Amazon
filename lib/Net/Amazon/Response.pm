@@ -104,7 +104,17 @@ sub properties {
         }
     }
 
-    return (@properties);
+    if(wantarray) {
+        return (@properties);
+    }
+
+    if(@properties) {
+            # Scalar context and we've got results. Return the first one.
+        return $properties[0];
+    }
+
+        # Scalar context and we don't have anything.
+    return undef;
 }
 
 ##################################################

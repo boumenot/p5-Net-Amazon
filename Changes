@@ -1,6 +1,12 @@
 Revision history for Perl extension Net::Amazon:
 
-0.30 (09/10/2004)
+0.31 (09/22/2004)
+   (ms) Lance P Cleveland <lance@lancecleveland.com> noticed that somewhere
+        between 0.26 and 0.30 the properties() method lost the ability to 
+        be called in scalar context and return only the first result. Added
+        logic to re-enable it.
+
+0.30 (09/14/2004)
    (ms) Lance Cleveland <lancec@proactivewm.com> provided a patch to
         fix a typo which caused N::A::Request::Similar to fail. Added more
         documentation on request classes and test cases for all constructors.

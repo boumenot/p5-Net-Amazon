@@ -8,7 +8,7 @@
 use warnings;
 use strict;
 
-use Test::More tests => 31;
+use Test::More tests => 32;
 BEGIN { use_ok('Net::Amazon') };
 
 #use Log::Log4perl qw(:easy);
@@ -74,6 +74,14 @@ $resp = $ua->request($req);
 
 ok($resp->is_success(), "Found Gamma");
 my($book) = $resp->properties();
+like(join('&', $book->authors()), 
+     qr#Erich Gamma&Richard Helm&Ralph Johnson&John Vlissides#,
+     "Found multiple authors");
+
+######################################################################
+# properties() in scalar context
+######################################################################
+$book = $resp->properties();
 like(join('&', $book->authors()), 
      qr#Erich Gamma&Richard Helm&Ralph Johnson&John Vlissides#,
      "Found multiple authors");
