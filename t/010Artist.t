@@ -36,11 +36,12 @@ my $req = Net::Amazon::Request::Artist->new(
 my $resp = $ua->request($req);
 
 ok($resp->is_success(), "Request successful");
-is(scalar $resp->properties(), 6, "6 hits");
+my @properties = $resp->properties();
+is(scalar @properties, 6, "6 hits");
 
 like($resp->as_string(), qr/Honestly.*?Honestly.*?Honestly/s, "Examine Hits");
 
-my @properties = $resp->properties();
+@properties = $resp->properties();
 is($properties[3]->artist, "Zwan", "Check artist");
 is($properties[3]->album, "Lyric / Nobody Cept You / Autumn Leaves", 
    "Check album");
