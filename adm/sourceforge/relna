@@ -6,6 +6,6 @@ tar zxfv $1
 dir=`echo $1 | sed 's/.tar.gz//'`
 rm -f Net-Amazon
 ln -s $dir Net-Amazon
-version=`echo $1 | sed 's/.\tar\.gz//' | sed 's/.*-//'`
+version=`echo $1 | sed 's/\.tar\.gz//' | sed 's/.*-//'`
 /home/users/m/ms/mschilli/bin/updindex.na $version $2
 /home/users/m/ms/mschilli/bin/upddoc.na
