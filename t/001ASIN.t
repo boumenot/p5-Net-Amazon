@@ -8,7 +8,7 @@
 use warnings;
 use strict;
 
-use Test::More tests => 27;
+use Test::More tests => 28;
 BEGIN { use_ok('Net::Amazon') };
 
 #use Log::Log4perl qw(:easy);
