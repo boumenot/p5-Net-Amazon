@@ -1,5 +1,5 @@
 ######################################################################
-    Net::Amazon 0.20
+    Net::Amazon 0.21
 ######################################################################
 
 NAME
@@ -115,7 +115,13 @@ DESCRIPTION
                  $_->OurPrice(), "\n";
         }
 
-    Also the specialized classes "Net::Amazon::Property::Book" and
+    Commonly available accessors are "OurPrice()", "ImageUrlLarge()",
+    "ImageUrlMedium()", "ImageUrlSmall()", "ReleaseDate()", "Catalog()",
+    "Asin()", "url()", "Manufacturer()", "UsedPrice()", "ListPrice()",
+    "ProductName()", "Availability()". For details, check
+    Net::Amazon::Property.
+
+    Also, the specialized classes "Net::Amazon::Property::Book" and
     "Net::Amazon::Property::Music" feature convenience methods like
     "authors()" (returning the list of authors of a book) or "album()" for
     CDs, returning the album title.
@@ -521,6 +527,7 @@ AUTHOR
         Padraic Renaghan <padraic@renaghan.com>
         rayg <rayg@varchars.com>
         Robert Graff <rgraff@workingdemo.com>
+        Tatsuhiko Miyagawa <miyagawa@livedoor.jp>
         Tony Bowden <tony@kasei.com>
 
 COPYRIGHT AND LICENSE

@@ -1,6 +1,6 @@
 Revision history for Perl extension Net::Amazon:
 
-0.21 (not yet released)
+0.21 (03/21/2004)
    (ms) Tatsuhiko Miyagawa <miyagawa@livedoor.jp> provided a patch to
         adapt N:A for Amazon's change of "locale=jp" requests, which 
         should be sent to xml.amazon.co.jp, instead of xml.amazon.com:
