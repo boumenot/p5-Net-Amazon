@@ -1,5 +1,5 @@
 ######################################################################
-    Net::Amazon 0.27
+    Net::Amazon 0.28
 ######################################################################
 
 NAME
@@ -37,7 +37,9 @@ DESCRIPTION
     which you pass your personal amazon developer's token (can be obtained
     from <http://amazon.com/soap>) and (optionally) the maximum number of
     result pages the agent is going to request from Amazon in case all
-    results don't fit on a single page (typically holding 20 items).
+    results don't fit on a single page (typically holding 20 items). Note
+    that each new page requires a minimum delay of 1 second to comply with
+    Amazon's one-query-per-second policy.
 
     According to the different search methods on Amazon, there's a bunch of
     different request types in "Net::Amazon". The user agent's convenience
@@ -46,7 +48,13 @@ DESCRIPTION
 
     "$ua->search(asin => "0201360683")"
         The "asin" parameter has Net::Amazon search for an item with the
-        specified ASIN. Returns at most one result.
+        specified ASIN. If the specified value is an arrayref instead of a
+        single scalar, like in
+
+            $ua->search(asin => ["0201360683", "0596005083"]) 
+
+        then a search for multiple ASINs is performed, returning a list of
+        results.
 
     "$ua->search(artist => "Rolling Stones")"
         The "artist" parameter has the user agent search for items created
@@ -201,13 +209,28 @@ DESCRIPTION
         Additional optional parameters:
 
         "max_pages => $max_pages"
-            sets how many result pages the module is supposed to fetch back
-            from Amazon, which only sends back 10 results per page.
+            Sets how many result pages the module is supposed to fetch back
+            from Amazon, which only sends back 10 results per page. Since
+            each page requires a new query to Amazon, at most one query per
+            second will be made in "strict" mode to comply with Amazon's
+            terms of service. This will impact performance if you perform a
+            search returning many pages of results.
 
         "affiliate_id => $affiliate_id"
             your Amazon affiliate ID, if you have one. It defaults to
             "webservices-20" which is currently (as of 06/2003) required by
             Amazon.
+
+        "strict => 1"
+            Makes sure that "Net::Amazon" complies with Amazon's terms of
+            service by limiting the number of outgoing requests to 1 per
+            second. Defaults to 1, enabling rate limiting as defined via
+            "rate_limit".
+
+        "rate_limit => $reqs_per_sec"
+            Sets the rate limit to $reqs_per_sec requests per second if rate
+            limiting has been enabled with "strict" (see above). Defaults to
+            1, limiting the number of outgoing requests to 1 per second.
 
     "$resp = $ua->request($request)"
         Sends a request to the Amazon web service. $request is of a
@@ -552,6 +575,7 @@ AUTHOR
 
     Contributors (thanks y'all!):
 
+        Andy Grundman <andy@hybridized.org>
         Barnaby Claydon <bclaydon@perseus.com>
         Batara Kesuma <bkesuma@gaijinweb.com>
         Bill Fitzpatrick

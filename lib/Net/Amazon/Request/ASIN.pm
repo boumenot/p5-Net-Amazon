@@ -9,7 +9,11 @@ sub new {
     my($class, %options) = @_;
 
     if(exists $options{asin}) {
-        $options{AsinSearch} = $options{asin};
+        if(ref $options{asin} eq "ARRAY") {
+            $options{AsinSearch} = join ',', @{$options{asin}};
+        } else {
+            $options{AsinSearch} = $options{asin};
+        }
         delete $options{asin};
     } else {
         die "Mandatory parameter 'asin' not defined";
@@ -62,6 +66,13 @@ single C<Net::Amazon::Property::*> object.
 
 Constructs a new C<Net::Amazon::Request::ASIN> object, used to query
 the Amazon web service for an item with the specified ASIN number.
+
+C<$asin> can also be a reference to an array of ASINs, like in
+
+    $ua->search(asin => ["0201360683", "0596005083"]) 
+
+in which case a search for multiple ASINs is performed, returning a list of 
+results.
 
 =back
 

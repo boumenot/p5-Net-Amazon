@@ -8,7 +8,7 @@ use 5.006;
 use strict;
 use warnings;
 
-our $VERSION          = '0.27';
+our $VERSION          = '0.28';
 our @CANNED_RESPONSES = ();
 
 use LWP::UserAgent;
@@ -531,7 +531,13 @@ depending on which parameters you pass to it:
 =item C<< $ua->search(asin => "0201360683") >>
 
 The C<asin> parameter has Net::Amazon search for an item with the 
-specified ASIN. Returns at most one result.
+specified ASIN. If the specified value is an arrayref instead of a single
+scalar, like in
+
+    $ua->search(asin => ["0201360683", "0596005083"]) 
+
+then a search for multiple ASINs is performed, returning a list of 
+results.
 
 =item C<< $ua->search(artist => "Rolling Stones") >>
 

@@ -1,5 +1,9 @@
 Revision history for Perl extension Net::Amazon:
 
+0.28 (not yet released)
+   (ms) ASIN search can now process several asin numbers with one request.
+        Thanks to Dan Kreft <dan@kreft.net> for suggesting this!
+
 0.27 (07/27/2004)
    (ms) Richard Giliam <nirosys@nirostasis.net> added the isbn()
         method to the Book.pm property.
