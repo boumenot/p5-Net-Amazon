@@ -3,6 +3,7 @@ MANIFEST
 MANIFEST.SKIP
 Makefile.PL
 README
+adm/podok
 eg/artist
 eg/asin
 eg/asin_fetch
