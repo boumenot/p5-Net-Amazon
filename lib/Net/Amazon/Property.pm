@@ -6,6 +6,7 @@ use base qw(Net::Amazon);
 use Net::Amazon::Property::DVD;
 use Net::Amazon::Property::Book;
 use Net::Amazon::Property::Music;
+use Net::Amazon::Attribute::ReviewSet;
 use Data::Dumper;
 use Log::Log4perl qw(:easy);
 
@@ -43,6 +44,8 @@ sub new {
     } else {
         $self->year("");
     }
+
+    $class->SUPER::make_accessor("review_set");
 
     return $self;
 }
@@ -94,6 +97,20 @@ sub factory {
     }
 
     return $obj;
+}
+
+##################################################
+sub init_via_xmlref {
+##################################################
+    my($self, $xmlref) = @_;
+
+    my $reviewset = Net::Amazon::Attribute::ReviewSet->new();
+
+    if(exists $xmlref->{Reviews}) {
+        $reviewset->init_via_xmlref($xmlref->{Reviews});
+    }
+
+    $self->review_set($reviewset); 
 }
 
 1;
