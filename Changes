@@ -1,5 +1,11 @@
 Revision history for Perl extension Net::Amazon:
 
+0.19 (not yet released)
+   (ms) Michael Coulter <mjc@bitz.ca> noticed that eg/review had the
+        wrong path to Review.pm.
+   (ms) Sam Smith <s@msmith.net> noticed that the dependency on
+        LWP::UserAgent was missing from the documentation.
+
 0.18 (12/22/2003)
    (ms) Brian Hirt <bhirt@mobygames.com> provided a patch for
         multiple error messages returned by some requests to AMZN.
