@@ -1,0 +1,34 @@
+#!/usr/bin/perl
+###########################################
+# release -- Release this module
+# Mike Schilli, 2003 (m@perlmeister.com)
+###########################################
+# RELEASE checklist:
+###########################################
+
+use warnings;
+use strict;
+
+    # Available at http://perlmeister.com/scripts
+use lib "$ENV{HOME}/perl-modules";
+use ModDevUtils;
+use Test::Pod;
+use Test::More;
+use File::Find;
+use Test::Harness;
+
+my($devprod) = @ARGV;
+
+    # Check if all the POD complies with the standard
+my $admdir = ".";
+$admdir = "adm" if -d "lib";
+runtests("$admdir/podok");
+
+ModDevUtils::release(0) or exit 0;
+
+my $ball = ModDevUtils::tarball_name();
+print "Copying $ball to net-amazon.sourceforge.net ...\n";
+system("scp $ball net-amazon.sourceforge.net:");
+print "Releasing it on sourceforge.net ...\n";
+
+system("ssh net-amazon.sourceforge.net bin/rel $ball\n");
