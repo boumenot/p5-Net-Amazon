@@ -101,10 +101,6 @@ reviews, each of type C<Net::Amazon::Attribute::Review>.
 
 Returns a list of C<Net::Amazon::Attribute::Review> objects.
 
-=item C<< $self->add_review($rev) >>
-
-Add a C<Net::Amazon::Attribute::Review> object to the list.
-
 =item C<< $self->average_customer_rating() >>
 
 Accessor for the average customer rating, a numeric value.
@@ -116,6 +112,11 @@ might not be equal to the number of reviews held in the list, since
 there might be less customer reviews than total reviews (reviews
 can also be non-customer-reviews, but they're not available by
 the web service as of Aug 2003).
+
+=item C<< $self->add_review($rev) >>
+
+Add a C<Net::Amazon::Attribute::Review> object to the list.
+(Used internally only).
 
 =back
 
