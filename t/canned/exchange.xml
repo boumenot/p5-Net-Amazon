@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><ExchangeSearch xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://xml.amazon.com/schemas3/dev-lite.xsd">
+
+<Request><Args><Arg value="libwww-perl/5.803" name="UserAgent"></Arg><Arg value="0G3PJQM4MZVS91DH5BY2" name="RequestID"></Arg><Arg value="us" name="locale"></Arg><Arg value="1" name="page"></Arg><Arg value="[dev token here]" name="dev-t"></Arg><Arg value="webservices-20" name="t"></Arg><Arg value="xml" name="f"></Arg><Arg value="Y04Y3424291Y2398445" name="ExchangeSearch"></Arg><Arg value="" name="mode"></Arg><Arg value="lite" name="type"></Arg><Arg value="+salesrank" name="sort"></Arg></Args></Request>   <ListingProductDetails>
+      <ExchangeId>Y04Y3424291Y2398445</ExchangeId>
+      <ListingId>0219T568068</ListingId>
+      <ExchangeTitle>Bold Visions for the Garden: Basics, Magic &amp; Inspiration [Paperback]  by...</ExchangeTitle>
+      <ExchangeDescription>Title: Bold Visions for the Garden: Basics, Magic &amp; Inspiration
+: Hartlage, Richard W.
+</ExchangeDescription>
+      <ExchangePrice>$11.95</ExchangePrice>
+      <ExchangeAsin>1555913164</ExchangeAsin>
+      <ExchangeEndDate>02/04/2008 04:32:20 PST</ExchangeEndDate>
+      <ExchangeOfferingType>used</ExchangeOfferingType>
+      <ExchangeSellerId>AZPQKLIWQKVZ</ExchangeSellerId>
+      <ExchangeSellerNickname>powells_books</ExchangeSellerNickname>
+      <ExchangeStartDate>02/19/2005 04:32:20 PST</ExchangeStartDate>
+      <ExchangeStatus>Open</ExchangeStatus>
+      <ExchangeQuantity>1</ExchangeQuantity>
+      <ExchangeQuantityAllocated>0</ExchangeQuantityAllocated>
+      <ExchangeFeaturedCategory>68297</ExchangeFeaturedCategory>
+      <ExchangeConditionType>verygood</ExchangeConditionType>
+      <ExchangeAvailability>Usually ships in 1-2 business days</ExchangeAvailability>
+      <ExchangeSellerRating>4.7</ExchangeSellerRating>
+   </ListingProductDetails>
+</ExchangeSearch>

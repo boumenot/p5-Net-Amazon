@@ -14,6 +14,7 @@ eg/browse
 eg/cd_fetch
 eg/cheapo
 eg/dejazz
+eg/exchange
 eg/heavy
 eg/keyword
 eg/manufacturer
@@ -38,6 +39,7 @@ lib/Net/Amazon/Request/Artist.pm
 lib/Net/Amazon/Request/ASIN.pm
 lib/Net/Amazon/Request/Blended.pm
 lib/Net/Amazon/Request/BrowseNode.pm
+lib/Net/Amazon/Request/Exchange.pm
 lib/Net/Amazon/Request/Keyword.pm
 lib/Net/Amazon/Request/Manufacturer.pm
 lib/Net/Amazon/Request/Power.pm
@@ -52,6 +54,7 @@ lib/Net/Amazon/Response/Artist.pm
 lib/Net/Amazon/Response/ASIN.pm
 lib/Net/Amazon/Response/Blended.pm
 lib/Net/Amazon/Response/BrowseNode.pm
+lib/Net/Amazon/Response/Exchange.pm
 lib/Net/Amazon/Response/Keyword.pm
 lib/Net/Amazon/Response/Manufacturer.pm
 lib/Net/Amazon/Response/Power.pm
@@ -81,6 +84,7 @@ t/011Locale.t
 t/012Keyword.t
 t/013Seller.t
 t/014Constructors.t
+t/015Exchange.t
 t/canned/artist.xml
 t/canned/asin_cd.xml
 t/canned/asin_cdm.xml
@@ -91,6 +95,7 @@ t/canned/blended1.xml
 t/canned/blendedm.xml
 t/canned/browse.xml
 t/canned/dvd.xml
+t/canned/exchange.xml
 t/canned/keyword.xml
 t/canned/locale.xml
 t/canned/manufacturer.xml

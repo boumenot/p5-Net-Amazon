@@ -8,7 +8,7 @@ use 5.006;
 use strict;
 use warnings;
 
-our $VERSION          = '0.32';
+our $VERSION          = '0.33';
 our @CANNED_RESPONSES = ();
 
 use LWP::UserAgent;
@@ -26,6 +26,7 @@ use constant SEARCH_TYPE_CLASS_MAP => {
     asin         => 'ASIN',
     blended      => 'Blended',
     browsenode   => 'BrowseNode',
+    exchange     => 'Exchange',
     keyword      => 'Keyword',
     manufacturer => 'Manufacturer',
     power        => 'Power',
@@ -571,6 +572,11 @@ Returns a list of items by category ID (node). For example node "4025"
 is the CGI books category.  You can add a keywords parameter to filter 
 the results by that keyword.
 
+=item C<< $ua->search(exchange => 'Y04Y3424291Y2398445') >>
+
+Returns an item offered by a third-party seller. The item is referenced
+by the so-called I<exchange ID>.
+
 =item C<< $ua->search(keyword => "perl xml", mode => "books") >>
 
 Search by keyword, mandatory parameters C<keyword> and C<mode>.
@@ -764,7 +770,17 @@ Searches for a third-party seller on Amazon by seller ID. This search
 is different than the previous ones, since it doesn't return Amazon
 items, but a single seller record. Don't use the C<properties()> method
 on the response, use C<result()> instead, which returns a 
-Net::Amazon::Result::Seller object. Check the manpage for details.
+L<Net::Amazon::Result::Seller> object. Check the manpage for details.
+
+=item Net::Amazon::Request::Exchange
+
+Searches for items offered by third-party sellers. Items are referenced
+by their so-called I<Exchange ID>.
+Similar to L<Net::Amazon::Request::Seller>,
+this request doesn't return a list of Amazon properties, so please use
+C<result()> instead, which will return a I<single>
+L<Net::Amazon::Result::Seller::Listing> item.
+Check the manpage for details on what attributes are available there.
 
 =back
 
