@@ -3,6 +3,8 @@ Revision history for Perl extension Net::Amazon:
 0.15 (08/24/2003)
    (ms) Martin Streicher (martin.streicher@apress.com) provided support
         for Amazon's "Power Search". Added documentation and test case.
+   (ms) Jackie Hamilton (kira@cgi101.com) provided a patch plus
+        documentation for Browse Nodes. Added test case.
 
 0.14 (08/12/2003)
    (ms) Mike Evron <evronm@dtcinc.net> suggested to implement caching
