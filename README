@@ -78,6 +78,11 @@ DESCRIPTION
         Initiate a power search for all books matching the power query. Can
         return many results. See Net::Amazon::Request::Power for details.
 
+    "$ua->search(manufacturer => "o'reilly", mode => "books")"
+        Initiate a search for all items made by a given manufacturrer. Can
+        return many results. See Net::Amazon::Request::Manufacturer for
+        details.
+
     The user agent's "search" method returns a response object, which can be
     checked for success or failure:
 
