@@ -1,6 +1,6 @@
 Revision history for Perl extension Net::Amazon:
 
-0.23 (06/10/2004)
+0.24 (06/10/2004)
    (ms) Fixed test bug in 007Manufacturer.t
    (ms) Applied patch by Steve Rushe <steve@deeden.co.uk> for book->binding()
 
