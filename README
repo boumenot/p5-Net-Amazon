@@ -234,14 +234,17 @@ DESCRIPTION
         }
 
 CACHING
-    Responses from the Amazon web service can be cached locally.
+    Responses returned by Amazon's web service can be cached locally.
     "Net::Amazon"'s "new" method accepts a reference to a "Cache" object.
-    "Cache" (and its companions like "Cache::Memory", "Cache::File", etc.
-    can be downloaded from CPAN, please check their documentation for
-    details.
+    "Cache" (or one of its companions like "Cache::Memory", "Cache::File",
+    etc.) can be downloaded from CPAN, please check their documentation for
+    details. In fact, any other type of cache implementation will do as
+    well, see the requirements below.
 
     Here's an example utilizing a file cache which causes "Net::Amazon" to
     cache responses for 30 minutes:
+
+        use File::Cache;
 
         my $cache = Cache::File->new( 
             cache_root        => '/tmp/mycache',
@@ -253,11 +256,19 @@ CACHING
             cache       => $cache,
         );
 
-    "Net::Amazon" uses *positive* caching only, errors won't be cached. The
-    associated requests will be sent to Amazon every time.
+    "Net::Amazon" uses *positive* caching only, errors won't be cached.
+    Erroneous requests will be sent to Amazon every time. Positive cache
+    entries are keyed by the full URL used internally by requests submitted
+    to Amazon.
 
-    Positive cache entries are keyed by the full URL used internally by
-    requests submitted to Amazon.
+    Caching isn't limited to the "Cache" class. Any cache object which
+    adheres to the following interface can be used:
+
+            # Set a cache value
+        $cache->set($key, $value);
+
+            # Return a cached value, 'undef' if it doesn't exist
+        $cache->get($key);
 
 DEBUGGING
     If something's going wrong and you want more verbosity, just bump up
