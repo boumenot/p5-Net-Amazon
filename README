@@ -1,5 +1,5 @@
 ######################################################################
-    Net::Amazon 0.24
+    Net::Amazon 0.25
 ######################################################################
 
 NAME
@@ -316,6 +316,33 @@ CACHING
             # Return a cached value, 'undef' if it doesn't exist
         $cache->get($key);
 
+PROXY SETTINGS
+    "Net::Amazon" uses "LWP::UserAgent" under the hood to send web requests
+    to Amazon's web site. If you're in an environment where all Web traffic
+    goes through a proxy, there's two ways to configure that.
+
+    First, "Net::Amazon" picks up proxy settings from environment variables:
+
+        export http_proxy=http://proxy.my.place:8080
+
+    in the surrounding shell or setting
+
+        $ENV{http_proxy} = "http://proxy.my.place:8080";
+
+    in your Perl script will route all requests through the specified proxy.
+
+    Secondly, you can pass a user agent instance to Net::Amazon's
+    constructor:
+
+        use Net::Amazon;
+        use LWP::UserAgent;
+
+        my $ua = LWP::UserAgent->new();
+        my $na = Net::Amazon->new(ua => $ua, token => 'YOUR_AMZN_TOKEN');
+        # ...
+
+    This way, you can configure $ua up front before Net::Amazon will use it.
+
 DEBUGGING
     If something's going wrong and you want more verbosity, just bump up
     "Net::Amazon"'s logging level. "Net::Amazon" comes with "Log::Log4perl"
@@ -538,6 +565,7 @@ AUTHOR
         Padraic Renaghan <padraic@renaghan.com>
         rayg <rayg@varchars.com>
         Robert Graff <rgraff@workingdemo.com>
+        Robert Rothenberg <wlkngowl@i-2000.com>
         Steve Rushe <steve@deeden.co.uk>
         Tatsuhiko Miyagawa <miyagawa@livedoor.jp>
         Tony Bowden <tony@kasei.com>
