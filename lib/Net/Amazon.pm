@@ -926,6 +926,7 @@ Mike Schilli, E<lt>na@perlmeister.comE<gt> (Please contact me via the mailing li
 Contributors (thanks y'all!):
 
     Barnaby Claydon <bclaydon@perseus.com>
+    Brian Hirt <bhirt@mobygames.com>
     Dan Sully <daniel@electricrain.com>
     Jackie Hamilton <kira@cgi101.com>
     Konstantin Gredeskoul <kig@get.topica.com>
