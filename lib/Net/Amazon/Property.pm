@@ -22,6 +22,7 @@ our @DEFAULT_ATTRIBUTES = qw(
   Media NumMedia ProductDescription
   CollectiblePrice CollectibleCount NumberOfOfferings
   UsedCount ThirdPartyNewPrice ThirdPartyNewCount
+  ThirdPartyProductInfo
 );
 
 __PACKAGE__->make_accessor($_) for @DEFAULT_ATTRIBUTES;
