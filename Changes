@@ -8,6 +8,7 @@ Revision history for Perl extension Net::Amazon:
         returning them stringed together for backwards compatibility.
    (ms) Padraic Renaghan <padraic@renaghan.com> provided a patch
         for access to upc/media/nummedia fields in Music.pm
+   (ms) Fixed test suite warnings with perl 5.8.2 in N::A::Property::Book.
 
 0.17 (11/18/2003)
    (ms) Robert Graff <rgraff@workingdemo.com> provided a patch for 
