@@ -1,5 +1,9 @@
 Revision history for Perl extension Net::Amazon:
 
+0.14 (08/12/2003)
+   (ms) Mike Evron <evronm@dtcinc.net> suggested to implement caching
+        for responses. Added a Cache::File-based implementation.
+
 0.13 (08/07/2003)
    (ms) Added customer reviews for all properties. Changed default
         request mode to 'heavy' for that. Now all properties have a

@@ -1,5 +1,5 @@
 ######################################################################
-    Net::Amazon 0.13
+    Net::Amazon 0.14
 ######################################################################
 
 NAME
@@ -232,6 +232,34 @@ DESCRIPTION
         } else {
             print $resp->message(), "\n";
         }
+
+CACHING
+    Responses from the Amazon web service can be cached locally.
+    "Net::Amazon"'s "new" method accepts a reference to a "Cache" object.
+    "Cache" (and its companions like "Cache::Memory", "Cache::File", etc.
+    can be downloaded from CPAN, please check their documentation for
+    details.
+
+    Here's an example utilizing a file cache which causes "Net::Amazon" to
+    cache responses for 30 minutes:
+
+        use File::Cache;
+
+        my $cache = Cache::File->new( 
+            cache_root        => '/tmp/mycache',
+            default_expires   => '30 min',
+        );
+
+        my $ua = Net::Amazon->new(
+            token       => 'YOUR_AMZN_TOKEN',
+            cache       => $cache,
+        );
+
+    "Net::Amazon" uses *positive* caching only, errors won't be cached. The
+    associated requests will be sent to Amazon every time.
+
+    Positive cache entries are keyed by the full URL used internally by
+    requests submitted to Amazon.
 
 DEBUGGING
     If something's going wrong and you want more verbosity, just bump up
