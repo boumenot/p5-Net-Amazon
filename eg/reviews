@@ -27,7 +27,20 @@ my $req = Net::Amazon::Request::Review->new(
 my $resp = $ua->request($req);
 
 if($resp->is_success()) {
-    print $resp->as_string(), "\n";
+    for my $property ($resp->properties()) {
+        print $property->as_string(), "\n";
+        my $reviewset = $property->review_set();
+        print "Average rating:    ", 
+              $reviewset->average_customer_rating(), "\n";
+        print "Number of reviews: ", 
+              $reviewset->total_customer_reviews(), "\n";
+        for my $review ($reviewset->reviews()) {
+            print "Review:\n";
+            print "Comment: ", $review->comment(), "\n";
+            print "Summary: ", $review->summary(), "\n";
+            print "Rating:  ", $review->rating(), "\n";
+        }
+    }
 } else {
     print "Error: ", 
           $resp->message(), "\n";

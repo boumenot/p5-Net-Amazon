@@ -13,10 +13,13 @@ eg/cheapo
 eg/heavy
 eg/keyword
 eg/maxauthors
+eg/reviews
 eg/sim
 eg/upc
 eg/wishlist
 lib/Net/Amazon.pm
+lib/Net/Amazon/Attribute/Review.pm
+lib/Net/Amazon/Attribute/ReviewSet.pm
 lib/Net/Amazon/Property.pm
 lib/Net/Amazon/Property/Book.pm
 lib/Net/Amazon/Property/DVD.pm
@@ -38,11 +41,13 @@ lib/Net/Amazon/Response/Wishlist.pm
 t/001ASIN.t
 t/002Wishlist.t
 t/003UPC.t
+t/004Reviews.t
 t/canned/asin_cd.xml
 t/canned/asin_cdm.xml
 t/canned/asin_err.xml
 t/canned/asin_mua.xml
 t/canned/asin_pp.xml
+t/canned/reviews.xml
 t/canned/upc_zwan.xml
 t/canned/wishlist1.xml
 t/canned/wishlist10_1.xml
