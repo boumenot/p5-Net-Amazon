@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?><ProductInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://xml.amazon.com/schemas2/dev-heavy.xsd">
+
+   <TotalResults>3</TotalResults>
+   <TotalPages>1</TotalPages>
+   <Details url="http://www.amazon.com/exec/obidos/ASIN/1571691014/webservices-20?dev-t=MY_AMAZON_TOKEN%26camp=2025%26link_code=xm2">
+      <Asin>1571691014</Asin>
+      <ProductName>Cgi Programming Interactive Course</ProductName>
+      <Catalog>Book</Catalog>
+      <Authors>
+         <Author>Reuven Lerner</Author>
+      </Authors>
+      <ReleaseDate>October, 1997</ReleaseDate>
+      <Manufacturer>Waite Group Pr</Manufacturer>
+      <ImageUrlSmall>http://images.amazon.com/images/P/1571691014.01.THUMBZZZ.jpg</ImageUrlSmall>
+      <ImageUrlMedium>http://images.amazon.com/images/P/1571691014.01.MZZZZZZZ.jpg</ImageUrlMedium>
+      <ImageUrlLarge>http://images.amazon.com/images/P/1571691014.01.LZZZZZZZ.jpg</ImageUrlLarge>
+      <ListPrice>$49.99</ListPrice>
+      <OurPrice>$49.99</OurPrice>
+      <SalesRank>2,512,920</SalesRank>
+      <BrowseList>
+         <BrowseNode>
+            <BrowseName>CGI (Computer network protocol</BrowseName>
+         </BrowseNode>
+         <BrowseNode>
+            <BrowseName>Web servers</BrowseName>
+         </BrowseNode>
+         <BrowseNode>
+            <BrowseName>Computer programs</BrowseName>
+         </BrowseNode>
+         <BrowseNode>
+            <BrowseName>Computer Interfaces</BrowseName>
+         </BrowseNode>
+         <BrowseNode>
+            <BrowseName>Data Transmission Systems - General</BrowseName>
+         </BrowseNode>
+         <BrowseNode>
+            <BrowseName>Computers</BrowseName>
+         </BrowseNode>
+      </BrowseList>
+      <Media>Hardcover</Media>
+      <Isbn>1571691014</Isbn>
+      <Availability>Out of Print--Limited Availability</Availability>
+      <Reviews>
+         <AvgCustomerRating>0</AvgCustomerRating>
+         <TotalCustomerReviews>0</TotalCustomerReviews>
+      </Reviews>
+   </Details>
+   <Details url="http://www.amazon.com/exec/obidos/ASIN/1562439588/webservices-20?dev-t=MY_AMAZON_TOKEN%26camp=2025%26link_code=xm2">
+      <Asin>1562439588</Asin>
+      <ProductName>Mastering Cgi/Perl One-Day Course</ProductName>
+      <Catalog>Book</Catalog>
+      <ReleaseDate>November, 1900</ReleaseDate>
+      <Manufacturer>DDC Publishing, Inc.</Manufacturer>
+      <ImageUrlSmall>http://images.amazon.com/images/P/1562439588.01.THUMBZZZ.jpg</ImageUrlSmall>
+      <ImageUrlMedium>http://images.amazon.com/images/P/1562439588.01.MZZZZZZZ.jpg</ImageUrlMedium>
+      <ImageUrlLarge>http://images.amazon.com/images/P/1562439588.01.LZZZZZZZ.jpg</ImageUrlLarge>
+      <ListPrice>$22.00</ListPrice>
+      <OurPrice>$22.00</OurPrice>
+      <BrowseList>
+         <BrowseNode>
+            <BrowseName>Computer Books: General</BrowseName>
+         </BrowseNode>
+      </BrowseList>
+      <Media>Paperback</Media>
+      <Isbn>1562439588</Isbn>
+      <Availability>Out of Print--Limited Availability</Availability>
+      <Reviews>
+         <AvgCustomerRating>0</AvgCustomerRating>
+         <TotalCustomerReviews>0</TotalCustomerReviews>
+      </Reviews>
+   </Details>
+   <Details url="http://www.amazon.com/exec/obidos/ASIN/1585770671/webservices-20?dev-t=MY_AMAZON_TOKEN%26camp=2025%26link_code=xm2">
+      <Asin>1585770671</Asin>
+      <ProductName>Developing Cgi Scripts Using Perl One-Day Course</ProductName>
+      <Catalog>Book</Catalog>
+      <ReleaseDate>November, 1900</ReleaseDate>
+      <Manufacturer>DDC Publishing, Inc.</Manufacturer>
+      <ImageUrlSmall>http://images.amazon.com/images/P/1585770671.01.THUMBZZZ.jpg</ImageUrlSmall>
+      <ImageUrlMedium>http://images.amazon.com/images/P/1585770671.01.MZZZZZZZ.jpg</ImageUrlMedium>
+      <ImageUrlLarge>http://images.amazon.com/images/P/1585770671.01.LZZZZZZZ.jpg</ImageUrlLarge>
+      <ListPrice>$30.00</ListPrice>
+      <OurPrice>$30.00</OurPrice>
+      <SalesRank>2,520,242</SalesRank>
+      <BrowseList>
+         <BrowseNode>
+            <BrowseName>Computer Books: General</BrowseName>
+         </BrowseNode>
+      </BrowseList>
+      <Media>Paperback</Media>
+      <Isbn>1585770671</Isbn>
+      <Availability>Out of Print--Limited Availability</Availability>
+      <Reviews>
+         <AvgCustomerRating>0</AvgCustomerRating>
+         <TotalCustomerReviews>0</TotalCustomerReviews>
+      </Reviews>
+   </Details>
+</ProductInfo>
