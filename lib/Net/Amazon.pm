@@ -631,7 +631,7 @@ implementation will do as well, see the requirements below.
 Here's an example utilizing a file cache which causes C<Net::Amazon> to
 cache responses for 30 minutes:
 
-    use File::Cache;
+    use Cache::File;
 
     my $cache = Cache::File->new( 
         cache_root        => '/tmp/mycache',
