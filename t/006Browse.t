@@ -49,5 +49,7 @@ like($resp->as_string(), qr/1571691014/, "Found Cgi Programming Interactive");
 like($resp->as_string(), qr/1562439588/, "Found Mastering Cgi/Perl");
 like($resp->as_string(), qr/1585770671/, "Found: Developing CGI scripts");
 like(($resp->properties())[0]->Availability, qr/Out of Print/, "Checking availability");
+my $nodes = join('&', ($resp->properties())[0]->browse_nodes());
+is($nodes, "CGI (Computer network protocol&Web servers&Computer programs&Computer Interfaces&Data Transmission Systems - General&Computers", "Browse Nodes");
 
 __END__

@@ -47,6 +47,19 @@ sub new {
 
     $class->SUPER::make_accessor("review_set");
 
+    $class->SUPER::make_array_accessor("browse_nodes");
+    my $browse_nodes = $options{xmlref}->{BrowseList}->{BrowseNode};
+    if(ref($browse_nodes) eq "ARRAY") {
+      my @nodes = map {
+        $_->{BrowseName}
+      } @{ $browse_nodes };
+      $self->browse_nodes(\@nodes);
+    } elsif (ref($browse_nodes) eq "HASH") {
+      $self->browse_nodes([ $browse_nodes->{BrowseName} ]);
+    } else {
+      $self->browse_nodes([ ]);
+    }
+
     return $self;
 }
 
@@ -225,6 +238,10 @@ Sales rank of the item (contains digits and commas, like 1,000,001)
 =item year()
 
 The release year extracted from ReleaseDate()
+
+=item browse_nodes()
+
+Returns a list of browse nodes (text string categories) for that item.
 
 =back
 
