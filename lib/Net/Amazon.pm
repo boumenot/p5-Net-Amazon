@@ -334,7 +334,12 @@ sub make_array_accessor {
                 }
             }
                # Return a list
-            return \@{\$self->{$name}};
+            if(exists \$self->{$name} and
+               ref \$self->{$name} eq "ARRAY") {
+                return \@{\$self->{$name}};
+            }
+
+            return undef;
         }
 EOT
 
