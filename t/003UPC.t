@@ -19,8 +19,8 @@ my $CANNED = "canned";
 $CANNED = File::Spec->catfile("t", "canned") unless -d $CANNED;
 
 #Only for debugging
-#use Log::Log4perl qw(:easy);
-#Log::Log4perl->easy_init($DEBUG);
+use Log::Log4perl qw(:easy);
+Log::Log4perl->easy_init($DEBUG);
 
 ######################################################################
 # Successful UPC fetch
