@@ -16,7 +16,8 @@ use strict;
 our @DEFAULT_ATTRIBUTES = qw(
   OurPrice ImageUrlLarge ImageUrlMedium ImageUrlSmall
   ReleaseDate Catalog Asin url Manufacturer UsedPrice
-  ListPrice ProductName Availability SalesRank);
+  ListPrice ProductName Availability SalesRank
+  Media NumMedia);
 
 __PACKAGE__->make_accessor($_) for @DEFAULT_ATTRIBUTES;
 __PACKAGE__->make_accessor($_) for qw(year review_set);
@@ -236,6 +237,14 @@ Used price of the item
 =item SalesRank()
 
 Sales rank of the item (contains digits and commas, like 1,000,001)
+
+=item Media()
+
+Type of media (Paperback, etc.).
+
+=item NumMedia()
+
+Number of media the item carries (1,2 CDs etc.).
 
 =item year()
 
