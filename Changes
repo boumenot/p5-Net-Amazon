@@ -1,6 +1,6 @@
 Revision history for Perl extension Net::Amazon:
 
-0.28 (not yet released)
+0.28 (08/04/2004)
    (ms) ASIN search can now process several asin numbers with one request.
         Dan Kreft <dan@kreft.net> cleaned up the implementation of 
         Request.pm, ASIN.pm and a bunch of other files.
