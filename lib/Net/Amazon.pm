@@ -8,7 +8,7 @@ use 5.006;
 use strict;
 use warnings;
 
-our $VERSION          = '0.12';
+our $VERSION          = '0.13';
 our @CANNED_RESPONSES = ();
 
 use LWP::UserAgent;
@@ -446,6 +446,12 @@ Also the specialized classes C<Net::Amazon::Property::Book> and
 C<Net::Amazon::Property::Music> feature convenience methods like
 C<authors()> (returning the list of authors of a book) or 
 C<album()> for CDs, returning the album title.
+
+Customer reviews:
+Every property features a C<review_set()> method which returns a
+C<Net::Amazon::Attribute::ReviewSet> object, which in turn offers
+a list of C<Net::Amazon::Attribute::Review> objects. Check the respective
+man pages for details on what's available.
 
 =head2 Requests behind the scenes
 
