@@ -800,6 +800,43 @@ and if it works, I'll accept it and will work it into the main distribution.
 Your name will show up in the contributor's list below (unless you tell
 me otherwise).
 
+=head2 HOW TO SEND ME PATCHES
+
+If you want me to include your modification or enhancement 
+in the distribution of Net::Amazon, please do the following:
+
+=over 4
+
+=item *
+
+Work off the latest CVS version. Here's the steps to get it:
+
+    CVSROOT=:pserver:anonymous@cvs.net-amazon.sourceforge.net:/cvsroot/net-amazon
+    export CVSROOT
+    cvs login (just hit Enter)
+    cvs co Net-Amazon
+
+This will create a new C<Net-Amazon> directory with the latest 
+development version of C<Net::Amazon> on your local machine.
+
+=item *
+
+Apply your changes to this development tree.
+
+=item *
+
+Run a diff between the tree and your changes it in this way:
+
+    cd Net-Amazon
+    cvs diff -Nau >patch_to_mike.txt
+
+=item *
+
+Email me C<patch_to_mike.txt>. If your patch works (and you've included
+test cases and documentation), I'll apply it on the spot.
+
+=back
+
 =head1 INSTALLATION
 
 C<Net::Amazon> depends on Log::Log4perl, which can be pulled from CPAN by
