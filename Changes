@@ -1,5 +1,8 @@
 Revision history for Perl extension Net::Amazon:
 
+0.33 (01/25/2005)
+   (ms) Makefile.PL prerequisite changed from undef to '0'.
+
 0.32 (10/16/2004)
    (ms) Greg McCann <greg@cambria.com> added CollectiblePrice, 
         CollectibleCount, NumberOfOfferings, UsedCount, ThirdPartyNewPrice,
