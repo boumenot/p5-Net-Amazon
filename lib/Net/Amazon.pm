@@ -340,15 +340,12 @@ Net::Amazon - Framework for accessing amazon.com via SOAP and XML/HTTP
   my $ua = Net::Amazon->new(token => 'YOUR_AMZN_TOKEN');
 
     # Get a request object
-  my $req = $ua->search(asin => '0201360683');
+  my $response = $ua->search(asin => '0201360683');
 
-    # Response is of type Net::Amazon::Response::ASIN
-  my $resp = $ua->request($req);
-
-  if($resp->is_success()) {
-      print $resp->as_string(), "\n";
+  if($response->is_success()) {
+      print $response->as_string(), "\n";
   } else {
-      print "Error: ", $resp->message(), "\n";
+      print "Error: ", $response->message(), "\n";
   }
 
 =head1 ABSTRACT
