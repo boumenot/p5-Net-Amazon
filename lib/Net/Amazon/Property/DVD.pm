@@ -26,6 +26,8 @@ sub init_via_xmlref {
 ##################################################
     my($self, $xmlref) = @_;
 
+    $self->SUPER::init_via_xmlref($xmlref);
+
     $self->title($xmlref->{ProductName});
     $self->studio($xmlref->{Manufacturer});
 }
