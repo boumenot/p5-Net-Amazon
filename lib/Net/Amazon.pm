@@ -8,7 +8,7 @@ use 5.006;
 use strict;
 use warnings;
 
-our $VERSION          = '0.17';
+our $VERSION          = '0.18';
 our @CANNED_RESPONSES = ();
 
 use LWP::UserAgent;
@@ -154,7 +154,7 @@ sub request {
 
         if(! defined $ref) {
             ERROR("Invalid XML");
-            $res->message("Invalid XML");
+            $res->messages( [ "Invalid XML" ]);
             $res->status("");
             return $res;
         }
@@ -171,8 +171,14 @@ sub request {
                 last;
             }
                 
-            ERROR("Fetch Error: $ref->{ErrorMsg}");
-            $res->message("$ref->{ErrorMsg}");
+	    if (ref($ref->{ErrorMsg}) eq "ARRAY") {
+	      # multiple errors, set arrary ref
+	      $res->messages( $ref->{ErrorMsg} );
+	    } else {
+	      # single error, create array
+	      $res->messages( [ $ref->{ErrorMsg} ] );
+            }
+            ERROR("Fetch Error: " . $res->message );
             $res->status("");
             return $res;
         }
@@ -244,7 +250,7 @@ sub fetch_url {
 
         if($resp->is_error) {
             $res->status("");
-            $res->message($resp->message);
+            $res->messages( [ $resp->message ] );
             return undef;
         }
 
@@ -257,7 +263,7 @@ sub fetch_url {
             } else {
                 INFO("Out of retries, giving up");
                 $res->status("");
-                $res->message("Too many temporary Amazon errrors");
+                $res->messages( [ "Too many temporary Amazon errors" ] );
                 return undef;
             }
         }
@@ -456,6 +462,12 @@ In case the request succeeds, the response contains one or more
 Amazon 'properties', as it calls the products found.
 All matches can be retrieved from the Response 
 object using it's C<properties()> method.
+
+In case the request fails, the response contains one or more
+error messages. The response object's C<message()> method will
+return it (or them) as a single string, while C<messages()> (notice
+the plural) will
+return a reference to an array of message strings.
 
 Response objects always have the methods 
 C<is_success()>,

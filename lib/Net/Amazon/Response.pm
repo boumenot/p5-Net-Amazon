@@ -12,17 +12,23 @@ sub new {
 
     my $self = {
         status  => "",
-        message => "",
+        messages => [],
         items   => [],
         xmlref  => {},
     };
 
     $class->SUPER::make_accessor("status");
-    $class->SUPER::make_accessor("message");
+    $class->SUPER::make_accessor("messages");
     $class->SUPER::make_accessor("items");
     $class->SUPER::make_accessor("xmlref");
 
     bless $self, $class;
+}
+
+sub message {
+  my($self) = @_;
+
+  return join(";",@{$self->{messages}});
 }
 
 ###########################################
@@ -154,6 +160,17 @@ by the query.
 =item as_string()
 
 Dumps the content of the response.
+
+=item message()
+
+Returns the error message as a string in case an error occurred. In case
+several errors occurred, they're stringed together. Look up C<messages()>
+if you need them separated.
+
+=item messages()
+
+Returns all error messages for a response as a reference to an array
+of string messages.
 
 =back
 

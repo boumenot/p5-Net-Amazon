@@ -1,5 +1,12 @@
 Revision history for Perl extension Net::Amazon:
 
+0.18 (12/02/2003)
+   (ms) Brian Hirt (bhirt@mobygames.com) provided a patch for
+        multiple error messages returned by some requests to AMZN.
+        There's two accessors now, Response->messages() returning
+        a ref to an array of error messages, and Response->message()
+        returning them stringed together for backwards compatibility.
+
 0.17 (11/18/2003)
    (ms) Robert Graff (rgraff@workingdemo.com) provided a patch for 
         'blended' searches.

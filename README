@@ -1,5 +1,5 @@
 ######################################################################
-    Net::Amazon 0.17
+    Net::Amazon 0.18
 ######################################################################
 
 NAME
@@ -90,6 +90,11 @@ DESCRIPTION
     In case the request succeeds, the response contains one or more Amazon
     'properties', as it calls the products found. All matches can be
     retrieved from the Response object using it's "properties()" method.
+
+    In case the request fails, the response contains one or more error
+    messages. The response object's "message()" method will return it (or
+    them) as a single string, while "messages()" (notice the plural) will
+    return a reference to an array of message strings.
 
     Response objects always have the methods "is_success()", "is_error()",
     "message()", "as_string()" and "properties()" available.
