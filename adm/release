@@ -31,4 +31,4 @@ print "Copying $ball to net-amazon.sourceforge.net ...\n";
 system("scp $ball net-amazon.sourceforge.net:");
 print "Releasing it on sourceforge.net ...\n";
 
-system("ssh net-amazon.sourceforge.net bin/relna $ball\n");
+system("ssh net-amazon.sourceforge.net bin/rel $ball\n");
