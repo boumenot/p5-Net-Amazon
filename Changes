@@ -1,9 +1,14 @@
 Revision history for Perl extension Net::Amazon:
 
-0.25 (not yet released)
-   (ms) applied patch by Robert Rothenberg <wlkngowl@i-2000.com> to
+0.25 (06/19/2004)
+   (ms) Applied patch by Robert Rothenberg <wlkngowl@i-2000.com> to
         Properties.pm that returns the browse_nodes (categories) for 
         a result.
+   (ms) Dave Holland <dave@biff.org.uk> suggested to provide access
+        to the user agent's proxy settings. Now, proxy settings via
+        environment variables are supported (env_proxy()) as well as
+        passing Net::Amazon->new(); a prepped LWP::UserAgent instance
+        via the 'ua' parameter (see docs).
    
 0.24 (06/10/2004)
    (ms) Fixed test bug in 007Manufacturer.t
