@@ -15,6 +15,7 @@ our @DEFAULT_ATTRIBUTES = qw(
   ExchangeQuantityAllocated ExchangeQuantity ExchangeSellerCountry
   ExchangeSellerState ExchangeSellerNickname ExchangeFeaturedCategory
   ExchangeAvailability ExchangeOfferingType ListingId ExchangeCondition
+  ExchangeDescription
 );
 
 __PACKAGE__->make_accessor($_) for @DEFAULT_ATTRIBUTES;
@@ -52,7 +53,7 @@ sub as_string {
     my $result = 
                  $self->ExchangeTitle() .
                  " (" .
-                 $self->ExchangeASIN() . 
+                 $self->ExchangeAsin() . 
                  "): " .
                  $self->ExchangePrice() .
                  "";
@@ -77,8 +78,11 @@ Net::Amazon::Result::Seller::Listing - Class for a single Listing of a Seller
 =head1 DESCRIPTION
 
 C<Net::Amazon::Result::Seller::Listing> is a container for a single listing
-owned by a seller, who is represented by a C<Net::Amazon::Result::Seller>
-object.
+owned by a third-party seller, who is represented by a
+C<Net::Amazon::Result::Seller> object.
+
+An object of this class is also returned by an C<Exchange> request, using
+C<Net::Amazon::Response::Exchange>'s C<result> method.
 
 =head2 METHODS
 
@@ -88,11 +92,41 @@ object.
 
 =item ExchangeConditionType()
 
-  ExchangeAsin ExchangeSellerId ExchangeEndDate ExchangePrice
-  ExchangeSellerRating ExchangeStatus ExchangeId ExchangeTitle
-  ExchangeQuantityAllocated ExchangeQuantity ExchangeSellerCountry
-  ExchangeSellerState ExchangeSellerNickname ExchangeFeaturedCategory
-  ExchangeAvailability ExchangeOfferingType ListingId ExchangeCondition
+=item ExchangeAsin()
+
+=item ExchangeSellerId()
+
+=item ExchangeEndDate()
+
+=item ExchangePrice()
+
+=item ExchangeSellerRating()
+
+=item ExchangeStatus()
+
+=item ExchangeId()
+
+=item ExchangeTitle()
+
+=item ExchangeQuantityAllocated()
+
+=item ExchangeQuantity()
+
+=item ExchangeSellerCountry()
+
+=item ExchangeSellerState()
+
+=item ExchangeSellerNickname()
+
+=item ExchangeFeaturedCategory()
+
+=item ExchangeAvailability()
+
+=item ExchangeOfferingType()
+
+=item ListingId()
+
+=item ExchangeCondition()
 
 =back
 
