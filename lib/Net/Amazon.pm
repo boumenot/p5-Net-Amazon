@@ -8,7 +8,7 @@ use 5.006;
 use strict;
 use warnings;
 
-our $VERSION          = '0.18';
+our $VERSION          = '0.19';
 our @CANNED_RESPONSES = ();
 
 use LWP::UserAgent;
@@ -886,7 +886,8 @@ simply saying
 
     perl -MCPAN -eshell 'install Log::Log4perl'
 
-Also, it needs XML::Simple 2.x, which can be obtained in a similar way.
+Also, it needs LWP::UserAgent and XML::Simple 2.x, which can be obtained 
+in a similar way.
 
 Once all dependencies have been resolved, C<Net::Amazon> installs with
 the typical sequence
