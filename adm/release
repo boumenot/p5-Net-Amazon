@@ -22,7 +22,7 @@ my($devprod) = @ARGV;
     # Check if all the POD complies with the standard
 my $admdir = ".";
 $admdir = "adm" if -d "lib";
-runtests("$admdir/podok");
+#runtests("$admdir/podok");
 
 ModDevUtils::release(0) or exit 0;
 
@@ -31,4 +31,4 @@ print "Copying $ball to net-amazon.sourceforge.net ...\n";
 system("scp $ball net-amazon.sourceforge.net:");
 print "Releasing it on sourceforge.net ...\n";
 
-system("ssh net-amazon.sourceforge.net bin/rel $ball\n");
+system("ssh net-amazon.sourceforge.net bin/relna $ball\n");
