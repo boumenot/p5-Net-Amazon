@@ -601,6 +601,19 @@ Initiate a search for all items made by a given manufacturrer.
 Can return many results. See L<Net::Amazon::Request::Manufacturer> 
 for details.
 
+=item C<< $ua->search(blended => "Perl") >>
+
+Initiate a search for items in all categories.
+
+=item C<< $ua->search(seller => "A2GXAGU54VOP7") >>
+
+Start a search on items sold by a specific third-party seller, referenced
+by its ID (not seller name).
+
+=item C<< $ua->search(textstream => "Blah blah Rolling Stones blah blah") >>
+
+Find items related to keywords within a text stream.
+
 =back
 
 The user agent's C<search> method returns a response object, which can be 
@@ -727,6 +740,14 @@ for details. Mandatory parameter C<power>.
 
 Searches for all items made by a given manufacturer. Mandatory parameter
 C<manufacturer>.
+
+=item Net::Amazon::Request::Similar
+
+Finds items similar to a given one.
+
+=item Net::Amazon::Request::Wishlist
+
+Find item on someone's wish list.
 
 =item Net::Amazon::Request::Seller
 
@@ -1188,6 +1209,7 @@ Contributors (thanks y'all!):
     Dan Sully <daniel@electricrain.com>
     Jackie Hamilton <kira@cgi101.com>
     Konstantin Gredeskoul <kig@get.topica.com>
+    Lance Cleveland <lancec@proactivewm.com>
     Martha Greenberg <marthag@mit.edu>
     Martin Streicher <martin.streicher@apress.com>
     Mike Evron <evronm@dtcinc.net>

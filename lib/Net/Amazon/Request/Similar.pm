@@ -19,7 +19,7 @@ sub new {
     my($class, %options) = @_;
 
     # For backwards compatibility
-    $class->convert_option(\%options, 'asin', 'similar');
+    $class->_convert_option(\%options, 'asin', 'similar');
 
     $class->_assert_options_defined(\%options, 'similar');
 
