@@ -1,5 +1,11 @@
 Revision history for Perl extension Net::Amazon:
 
+0.21 (not yet released)
+   (ms) Tatsuhiko Miyagawa <miyagawa@livedoor.jp> provided a patch to
+        adapt N:A for Amazon's change of "locale=jp" requests, which 
+        should be sent to xml.amazon.co.jp, instead of xml.amazon.com:
+        http://forums.prospero.com/n/mb/message.asp?webtag=am-assocdevxml&msg=4629.1&ctx=4096
+
 0.20 (03/08/2004)
    (ms) rayg <rayg@varchars.com> added textstream search and support
         for sorting results.
