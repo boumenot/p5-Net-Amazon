@@ -17,7 +17,7 @@ sub new {
 
     my $self = {
         mode       => 'books',
-        type       => 'lite',
+        type       => 'heavy',
         page       => 1,
         f          => 'xml',
         %options,
@@ -58,7 +58,7 @@ Net::Amazon::Request - Baseclass for requests to Amazon's web service
 =head1 SYNOPSIS
 
     my $req = Net::Amazon::Request::XXX->new(
-                     [ type => 'lite', ]
+                     [ type => 'heavy', ]
                      [ page => $start_page, ]
                      [ mode => $mode, ]
     );
@@ -76,8 +76,8 @@ that all request types have in common, here they are:
 
 =item type
 
-Defaults to C<lite>, but can be set to C<heavy> if additional info
-on a product is wanted.
+Defaults to C<heavy>, but can be set to C<lite> if no reviews etc.
+on a product are wanted.
 
 =item mode
 
