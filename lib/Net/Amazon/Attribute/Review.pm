@@ -4,6 +4,8 @@ package Net::Amazon::Attribute::Review;
 use Log::Log4perl qw(:easy);
 use base qw(Net::Amazon);
 
+__PACKAGE__->make_accessor($_) for qw(rating summary comment);
+
 ##################################################
 sub new {
 ##################################################
@@ -15,10 +17,6 @@ sub new {
         comment => "",
         %options,
     };
-
-    $class->make_accessor("rating");
-    $class->make_accessor("summary");
-    $class->make_accessor("comment");
 
     bless $self, $class;
 }

@@ -3,6 +3,9 @@ package Net::Amazon::Property::Music;
 ######################################################################
 use base qw(Net::Amazon::Property);
 
+__PACKAGE__->make_accessor($_) for qw(album label media nummedia upc);
+__PACKAGE__->make_array_accessor($_) for qw(artists tracks);
+
 ##################################################
 sub new {
 ##################################################
@@ -10,14 +13,6 @@ sub new {
 
     my $self = $class->SUPER::new(%options);
     bless $self, $class; # Bless into this class
-
-    $class->SUPER::make_accessor("album");
-    $class->SUPER::make_accessor("label");
-    $class->SUPER::make_accessor("media");
-    $class->SUPER::make_accessor("nummedia");
-    $class->SUPER::make_accessor("upc");
-    $class->SUPER::make_array_accessor("artists");
-    $class->SUPER::make_array_accessor("tracks");
 
     if(exists $options{xmlref}) {
         $self->init_via_xmlref($options{xmlref});

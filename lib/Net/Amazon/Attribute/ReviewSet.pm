@@ -5,6 +5,8 @@ use Log::Log4perl qw(:easy);
 use Net::Amazon::Attribute::Review;
 use base qw(Net::Amazon);
 
+__PACKAGE__->make_accessor($_) for qw(average_customer_rating total_reviews);
+
 ##################################################
 sub new {
 ##################################################
@@ -13,9 +15,6 @@ sub new {
     my $self = {
         reviews => [],  # list of reviews
     };
-
-    $class->make_accessor("average_customer_rating");
-    $class->make_accessor("total_reviews");
 
     bless $self, $class;
 }

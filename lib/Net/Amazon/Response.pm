@@ -5,6 +5,9 @@ use base qw(Net::Amazon);
 
 use Text::Wrap qw($columns wrap);
 
+__PACKAGE__->make_accessor($_) for qw(
+  status messages items xmlref total_results);
+
 ##################################################
 sub new {
 ##################################################
@@ -18,11 +21,6 @@ sub new {
         total_results => undef,
     };
 
-    $class->SUPER::make_accessor("status");
-    $class->SUPER::make_accessor("messages");
-    $class->SUPER::make_accessor("items");
-    $class->SUPER::make_accessor("xmlref");
-    $class->SUPER::make_accessor("total_results");
     bless $self, $class;
 }
 

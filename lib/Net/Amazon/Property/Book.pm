@@ -3,6 +3,8 @@ package Net::Amazon::Property::Book;
 ######################################################################
 use base qw(Net::Amazon::Property);
 
+__PACKAGE__->make_accessor($_) for qw(title publisher binding);
+
 ##################################################
 sub new {
 ##################################################
@@ -10,10 +12,6 @@ sub new {
 
     my $self = $class->SUPER::new(%options);
     bless $self, $class; # Bless into this class
-
-    $class->make_accessor("title");
-    $class->make_accessor("publisher");
-    $class->make_accessor("binding");
 
     if(exists $options{xmlref}) {
         $self->init_via_xmlref($options{xmlref});

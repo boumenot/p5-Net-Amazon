@@ -3,6 +3,10 @@ package Net::Amazon::Property::DVD;
 ######################################################################
 use base qw(Net::Amazon::Property);
 
+__PACKAGE__->make_accessor($_) for qw(title studio theatrical_release_date
+  media nummedia upc mpaa_rating);
+__PACKAGE__->make_array_accessor($_) for qw(directors starring features);
+
 ##################################################
 sub new {
 ##################################################
@@ -10,17 +14,6 @@ sub new {
 
     my $self = $class->SUPER::new(%options);
     bless $self, $class; # Bless into this class
-
-    $class->SUPER::make_accessor("title");
-    $class->SUPER::make_accessor("studio");
-    $class->SUPER::make_accessor("theatrical_release_date");
-    $class->SUPER::make_accessor("media");
-    $class->SUPER::make_accessor("nummedia");
-    $class->SUPER::make_accessor("upc");
-    $class->SUPER::make_accessor("mpaa_rating");
-    $class->SUPER::make_array_accessor("directors");
-    $class->SUPER::make_array_accessor("starring");
-    $class->SUPER::make_array_accessor("features");
 
     if(exists $options{xmlref}) {
         $self->init_via_xmlref($options{xmlref});

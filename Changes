@@ -9,6 +9,9 @@ Revision history for Perl extension Net::Amazon:
         environment variables are supported (env_proxy()) as well as
         passing Net::Amazon->new(); a prepped LWP::UserAgent instance
         via the 'ua' parameter (see docs).
+   (ms) Accessors are no longer created in the constructors, but on the
+        package level. Thanks to tony@tmtm.com who reported this to the
+        CPAN bug tracker.
    
 0.24 (06/10/2004)
    (ms) Fixed test bug in 007Manufacturer.t
