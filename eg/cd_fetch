@@ -24,4 +24,7 @@ if($resp->is_success()) {
     print "nummedia .... ", $cd->nummedia, "\n";
     print "label ....... ", $cd->label, "\n";
     print "media ....... ", $cd->media, "\n";
+    print "tracks ...... ", join("\n              ", $cd->tracks()), "\n";
+} else {
+    print $resp->message();
 }

@@ -17,6 +17,7 @@ sub new {
     $class->SUPER::make_accessor("nummedia");
     $class->SUPER::make_accessor("upc");
     $class->SUPER::make_array_accessor("artists");
+    $class->SUPER::make_array_accessor("tracks");
 
     if(exists $options{xmlref}) {
         $self->init_via_xmlref($options{xmlref});
@@ -42,6 +43,7 @@ sub init_via_xmlref {
     $self->SUPER::init_via_xmlref($xmlref);
 
     $self->artists($xmlref->{Artists}->{Artist});
+    $self->tracks($xmlref->{Tracks}->{Track});
     $self->album($xmlref->{ProductName});
     $self->label($xmlref->{Manufacturer});
     $self->upc($xmlref->{Upc});
@@ -101,6 +103,10 @@ popular music CD parameters.
 
 Returns a list of the CD's artists. There's also a C<artist()> method
 which just returns the first artist.
+
+=item tracks()
+
+Returns a list of the CD's track titles.
 
 =item label()
 
