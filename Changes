@@ -1,6 +1,6 @@
 Revision history for Perl extension Net::Amazon:
 
-0.17 (not yet released)
+0.17 (11/18/2003)
    (ms) Robert Graff (rgraff@workingdemo.com) provided a patch for 
         'blended' searches.
 
