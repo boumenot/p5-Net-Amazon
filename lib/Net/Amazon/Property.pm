@@ -257,32 +257,31 @@ Lengthy textual description of the product.
 
 =item CollectiblePrice() 
 
-Lowest collectible price.
+Lowest price in "Collectible" category.
 
 =item CollectibleCount()
 
-Number of collectible items available.
+Number of offerings in "Collectible" category.
 
 =item NumberOfOfferings()
 
-Total number of used and new offerings (C<UsedCount()> + 
-C<ThirdPartyNewCount()>).
+Total number of offerings in all categories.
 
 =item UsedCount()
 
-Number of used items available.
+Number of offerings in "Used" category.
 
 =item ThirdPartyNewPrice()
 
-Lowest third party price.
+Lowest price in "Third Party New" category.
 
 =item ThirdPartyNewCount()
 
-Number of third party items available.
+Number of offerings in "Third Party New" category.
 
 =item year()
 
-The release year extracted from ReleaseDate()
+The release year extracted from ReleaseDate().
 
 =item browse_nodes()
 
