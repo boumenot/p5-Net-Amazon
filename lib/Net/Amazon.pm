@@ -933,7 +933,8 @@ Contributors (thanks y'all!):
     Martha Greenberg <marthag@mit.edu>
     Martin Streicher <martin.streicher@apress.com>
     Mike Evron <evronm@dtcinc.net>
-    Robert Graff, <rgraff@workingdemo.com>
+    Padraic Renaghan <padraic@renaghan.com>
+    Robert Graff <rgraff@workingdemo.com>
     Tony Bowden <tony@kasei.com>
 
 =head1 COPYRIGHT AND LICENSE
