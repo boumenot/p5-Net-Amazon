@@ -8,7 +8,7 @@
 use warnings;
 use strict;
 
-use Test::More tests => 29;
+use Test::More tests => 30;
 BEGIN { use_ok('Net::Amazon') };
 
 #use Log::Log4perl qw(:easy);
@@ -85,6 +85,7 @@ is($book->title, "Design Patterns", "Title");
 is($book->year, "1995", "Year");
 like($book->OurPrice, qr/\$/, "Amazon Price");
 like($book->ListPrice, qr/\$/, "List Price");
+is($book->binding, "Hardcover", "Binding");
 
 ######################################################################
 # Successful ASIN fetch of a music CD

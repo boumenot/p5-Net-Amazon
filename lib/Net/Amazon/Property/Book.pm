@@ -13,6 +13,7 @@ sub new {
 
     $class->make_accessor("title");
     $class->make_accessor("publisher");
+    $class->make_accessor("binding");
 
     if(exists $options{xmlref}) {
         $self->init_via_xmlref($options{xmlref});
@@ -31,6 +32,7 @@ sub init_via_xmlref {
     $self->authors($xmlref->{Authors}->{Author});
     $self->title($xmlref->{ProductName});
     $self->publisher($xmlref->{Manufacturer});
+    $self->binding($xmlref->{Media});
 }
 
 ##################################################
