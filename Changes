@@ -1,6 +1,6 @@
 Revision history for Perl extension Net::Amazon:
 
-0.22 (04/30/2004)
+0.22 (05/09/2004)
    (ms) fixed warnings during make test (backwards-compatible without
         tracks())
    (ms) Batara Kesuma <bkesuma@gaijinweb.com> sent in a patch to 
