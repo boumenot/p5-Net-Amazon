@@ -67,3 +67,4 @@ t/canned/upc_zwan.xml
 t/canned/wishlist1.xml
 t/canned/wishlist10_1.xml
 t/canned/wishlist10_2.xml
+META.yml                                 Module meta-data (added by MakeMaker)

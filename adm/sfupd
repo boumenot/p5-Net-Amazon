@@ -8,9 +8,11 @@ use strict;
 use warnings;
 
 my  $VERSION = "0.01";
-our $CVSVERSION = '$Revision: 1.1 $';
+our $CVSVERSION = '$Revision: 1.2 $';
 
 use Net::Sourceforge;
+#use Log::Log4perl qw(:easy);
+#Log::Log4perl->easy_init($DEBUG);
 
 my $sf = Net::Sourceforge->new(
     sf_user         => 'mschilli',
