@@ -12,6 +12,7 @@ eg/cd_fetch
 eg/cheapo
 eg/heavy
 eg/keyword
+eg/manufacturer
 eg/maxauthors
 eg/power
 eg/reviews
@@ -31,6 +32,7 @@ lib/Net/Amazon/Request/ASIN.pm
 lib/Net/Amazon/Request/Blended.pm
 lib/Net/Amazon/Request/BrowseNode.pm
 lib/Net/Amazon/Request/Keyword.pm
+lib/Net/Amazon/Request/Manufacturer.pm
 lib/Net/Amazon/Request/Power.pm
 lib/Net/Amazon/Request/Similar.pm
 lib/Net/Amazon/Request/UPC.pm
@@ -41,6 +43,7 @@ lib/Net/Amazon/Response/ASIN.pm
 lib/Net/Amazon/Response/Blended.pm
 lib/Net/Amazon/Response/BrowseNode.pm
 lib/Net/Amazon/Response/Keyword.pm
+lib/Net/Amazon/Response/Manufacturer.pm
 lib/Net/Amazon/Response/Power.pm
 lib/Net/Amazon/Response/Similar.pm
 lib/Net/Amazon/Response/UPC.pm
@@ -56,12 +59,14 @@ t/003UPC.t
 t/004Reviews.t
 t/005Power.t
 t/006Browse.t
+t/007Manufacturer.t
 t/canned/asin_cd.xml
 t/canned/asin_cdm.xml
 t/canned/asin_err.xml
 t/canned/asin_mua.xml
 t/canned/asin_pp.xml
 t/canned/browse.xml
+t/canned/manufacturer.xml
 t/canned/power.xml
 t/canned/reviews.xml
 t/canned/upc_zwan.xml

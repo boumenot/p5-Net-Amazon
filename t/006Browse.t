@@ -48,5 +48,6 @@ ok($resp->is_success(), "Successful browse node fetch");
 like($resp->as_string(), qr/1571691014/, "Found Cgi Programming Interactive");
 like($resp->as_string(), qr/1562439588/, "Found Mastering Cgi/Perl");
 like($resp->as_string(), qr/1585770671/, "Found: Developing CGI scripts");
+like(($resp->properties())[0]->Availability, qr/Out of Print/, "Checking availability");
 
 __END__

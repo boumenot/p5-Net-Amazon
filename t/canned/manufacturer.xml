@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?><ProductInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://xml.amazon.com/schemas3/dev-lite.xsd">
+
+<Request><Args><Arg value="Wget/1.5.3" name="UserAgent"></Arg><Arg value="1J9SJ9BDQAH0BTPZ474V" name="RequestID"></Arg><Arg value="us" name="locale"></Arg><Arg value="9" name="page"></Arg><Arg value="YOUR_TOKEN_HERE" name="dev-t"></Arg><Arg value="webservices-20" name="t"></Arg><Arg value="xml" name="f"></Arg><Arg value="books" name="mode"></Arg><Arg value="lite" name="type"></Arg><Arg value="Black Belt Communications, Inc." name="ManufacturerSearch"></Arg></Args></Request>   <TotalResults>92</TotalResults>
+   <TotalPages>10</TotalPages>
+   <Details url="http://www.amazon.com/exec/obidos/ASIN/0897501012/webservices-20?dev-t=YOUR_TOKEN_HERE%26camp=2025%26link_code=xm2">
+      <Asin>0897501012</Asin>
+      <ProductName>Kama: Karate Weapon of Self-Defense</ProductName>
+      <Catalog>Book</Catalog>
+      <Authors>
+         <Author>Fumio Demura</Author>
+         <Author>Mike Lee</Author>
+      </Authors>
+      <ReleaseDate>September, 1984</ReleaseDate>
+      <Manufacturer>Black Belt Communications, Inc.</Manufacturer>
+      <ImageUrlSmall>http://images.amazon.com/images/P/0897501012.01.THUMBZZZ.jpg</ImageUrlSmall>
+      <ImageUrlMedium>http://images.amazon.com/images/P/0897501012.01.MZZZZZZZ.jpg</ImageUrlMedium>
+      <ImageUrlLarge>http://images.amazon.com/images/P/0897501012.01.LZZZZZZZ.jpg</ImageUrlLarge>
+      <Availability>Out of Print--Limited Availability</Availability>
+      <ListPrice>$8.95</ListPrice>
+      <OurPrice>$8.95</OurPrice>
+      <UsedPrice>$138.81</UsedPrice>
+   </Details>
+   <Details url="http://www.amazon.com/exec/obidos/ASIN/0897501152/webservices-20?dev-t=YOUR_TOKEN_HERE%26camp=2025%26link_code=xm2">
+      <Asin>0897501152</Asin>
+      <ProductName>High Intensity Weight Training for the Martial Artist</ProductName>
+      <Catalog>Book</Catalog>
+      <Authors>
+         <Author>Manuel Silverio</Author>
+         <Author>Manuel Siverio</Author>
+         <Author>Mike Lee</Author>
+         <Author>Harry Banks</Author>
+      </Authors>
+      <ReleaseDate>June, 1988</ReleaseDate>
+      <Manufacturer>Black Belt Communications, Inc.</Manufacturer>
+      <ImageUrlSmall>http://images.amazon.com/images/P/0897501152.01.THUMBZZZ.jpg</ImageUrlSmall>
+      <ImageUrlMedium>http://images.amazon.com/images/P/0897501152.01.MZZZZZZZ.jpg</ImageUrlMedium>
+      <ImageUrlLarge>http://images.amazon.com/images/P/0897501152.01.LZZZZZZZ.jpg</ImageUrlLarge>
+      <Availability>Out of Print--Limited Availability</Availability>
+      <ListPrice>$12.95</ListPrice>
+      <OurPrice>$12.95</OurPrice>
+   </Details>
+   <Details url="http://www.amazon.com/exec/obidos/ASIN/0897501276/webservices-20?dev-t=YOUR_TOKEN_HERE%26camp=2025%26link_code=xm2">
+      <Asin>0897501276</Asin>
+      <ProductName>Elements of Advanced Karate/No. 440</ProductName>
+      <Catalog>Book</Catalog>
+      <Authors>
+         <Author>Lester Ingber</Author>
+      </Authors>
+      <ReleaseDate>June, 1985</ReleaseDate>
+      <Manufacturer>Black Belt Communications, Inc.</Manufacturer>
+      <ImageUrlSmall>http://images.amazon.com/images/P/0897501276.01.THUMBZZZ.jpg</ImageUrlSmall>
+      <ImageUrlMedium>http://images.amazon.com/images/P/0897501276.01.MZZZZZZZ.jpg</ImageUrlMedium>
+      <ImageUrlLarge>http://images.amazon.com/images/P/0897501276.01.LZZZZZZZ.jpg</ImageUrlLarge>
+      <Availability>Out of Print--Limited Availability</Availability>
+      <ListPrice>$11.95</ListPrice>
+      <OurPrice>$11.95</OurPrice>
+   </Details>
+   <Details url="http://www.amazon.com/exec/obidos/ASIN/0897500644/webservices-20?dev-t=YOUR_TOKEN_HERE%26camp=2025%26link_code=xm2">
+      <Asin>0897500644</Asin>
+      <ProductName>Technique and Form of the Three Sectional Staff in Kung Fu</ProductName>
+      <Catalog>Book</Catalog>
+      <Authors>
+         <Author>Kam Yuen</Author>
+      </Authors>
+      <ReleaseDate>December, 1979</ReleaseDate>
+      <Manufacturer>Black Belt Communications, Inc.</Manufacturer>
+      <ImageUrlSmall>http://images.amazon.com/images/P/0897500644.01.THUMBZZZ.jpg</ImageUrlSmall>
+      <ImageUrlMedium>http://images.amazon.com/images/P/0897500644.01.MZZZZZZZ.jpg</ImageUrlMedium>
+      <ImageUrlLarge>http://images.amazon.com/images/P/0897500644.01.LZZZZZZZ.jpg</ImageUrlLarge>
+      <Availability>Out of Print--Limited Availability</Availability>
+      <ListPrice>$7.95</ListPrice>
+      <OurPrice>$7.95</OurPrice>
+      <UsedPrice>$19.95</UsedPrice>
+   </Details>
+   <Details url="http://www.amazon.com/exec/obidos/ASIN/0897500466/webservices-20?dev-t=YOUR_TOKEN_HERE%26camp=2025%26link_code=xm2">
+      <Asin>0897500466</Asin>
+      <ProductName>Path to Oriental Wisdom: Introductory Studies in Eastern Philosophy</ProductName>
+      <Catalog>Book</Catalog>
+      <Authors>
+         <Author>George, Jr. Parulski</Author>
+      </Authors>
+      <ReleaseDate>December, 1995</ReleaseDate>
+      <Manufacturer>Black Belt Communications, Inc.</Manufacturer>
+      <ImageUrlSmall>http://images.amazon.com/images/P/0897500466.01.THUMBZZZ.jpg</ImageUrlSmall>
+      <ImageUrlMedium>http://images.amazon.com/images/P/0897500466.01.MZZZZZZZ.jpg</ImageUrlMedium>
+      <ImageUrlLarge>http://images.amazon.com/images/P/0897500466.01.LZZZZZZZ.jpg</ImageUrlLarge>
+      <Availability>Out of Print--Limited Availability</Availability>
+      <ListPrice>$16.95</ListPrice>
+      <OurPrice>$16.95</OurPrice>
+      <UsedPrice>$6.35</UsedPrice>
+   </Details>
+   <Details url="http://www.amazon.com/exec/obidos/ASIN/0897500326/webservices-20?dev-t=YOUR_TOKEN_HERE%26camp=2025%26link_code=xm2">
+      <Asin>0897500326</Asin>
+      <ProductName>Sil Lum Kung Fu: The Chinese Art of Self Defense</ProductName>
+      <Catalog>Book</Catalog>
+      <Authors>
+         <Author>Leo T. Fong</Author>
+      </Authors>
+      <ReleaseDate>June, 1971</ReleaseDate>
+      <Manufacturer>Black Belt Communications, Inc.</Manufacturer>
+      <ImageUrlSmall>http://images.amazon.com/images/P/0897500326.01.THUMBZZZ.jpg</ImageUrlSmall>
+      <ImageUrlMedium>http://images.amazon.com/images/P/0897500326.01.MZZZZZZZ.jpg</ImageUrlMedium>
+      <ImageUrlLarge>http://images.amazon.com/images/P/0897500326.01.LZZZZZZZ.jpg</ImageUrlLarge>
+      <Availability>Out of Print--Limited Availability</Availability>
+      <ListPrice>$8.95</ListPrice>
+      <OurPrice>$8.95</OurPrice>
+      <UsedPrice>$4.99</UsedPrice>
+   </Details>
+   <Details url="http://www.amazon.com/exec/obidos/ASIN/0897500423/webservices-20?dev-t=YOUR_TOKEN_HERE%26camp=2025%26link_code=xm2">
+      <Asin>0897500423</Asin>
+      <ProductName>Beginning Kung-Fu</ProductName>
+      <Catalog>Book</Catalog>
+      <Authors>
+         <Author>Kam Yuen</Author>
+      </Authors>
+      <ReleaseDate>June, 1975</ReleaseDate>
+      <Manufacturer>Black Belt Communications, Inc.</Manufacturer>
+      <ImageUrlSmall>http://images.amazon.com/images/P/0897500423.01.THUMBZZZ.jpg</ImageUrlSmall>
+      <ImageUrlMedium>http://images.amazon.com/images/P/0897500423.01.MZZZZZZZ.jpg</ImageUrlMedium>
+      <ImageUrlLarge>http://images.amazon.com/images/P/0897500423.01.LZZZZZZZ.jpg</ImageUrlLarge>
+      <Availability>Out of Print--Limited Availability</Availability>
+      <ListPrice>$10.95</ListPrice>
+      <OurPrice>$10.95</OurPrice>
+      <UsedPrice>$4.75</UsedPrice>
+   </Details>
+   <Details url="http://www.amazon.com/exec/obidos/ASIN/0897500784/webservices-20?dev-t=YOUR_TOKEN_HERE%26camp=2025%26link_code=xm2">
+      <Asin>0897500784</Asin>
+      <ProductName>Basic Training for Kicking</ProductName>
+      <Catalog>Book</Catalog>
+      <Authors>
+         <Author>Pugill Gwon</Author>
+      </Authors>
+      <ReleaseDate>December, 1981</ReleaseDate>
+      <Manufacturer>Black Belt Communications, Inc.</Manufacturer>
+      <ImageUrlSmall>http://images.amazon.com/images/P/0897500784.01.THUMBZZZ.jpg</ImageUrlSmall>
+      <ImageUrlMedium>http://images.amazon.com/images/P/0897500784.01.MZZZZZZZ.jpg</ImageUrlMedium>
+      <ImageUrlLarge>http://images.amazon.com/images/P/0897500784.01.LZZZZZZZ.jpg</ImageUrlLarge>
+      <Availability>Out of Print--Limited Availability</Availability>
+      <ListPrice>$9.50</ListPrice>
+      <OurPrice>$9.50</OurPrice>
+      <UsedPrice>$4.49</UsedPrice>
+   </Details>
+   <Details url="http://www.amazon.com/exec/obidos/ASIN/0897500830/webservices-20?dev-t=YOUR_TOKEN_HERE%26camp=2025%26link_code=xm2">
+      <Asin>0897500830</Asin>
+      <ProductName>Kicks for Competition</ProductName>
+      <Catalog>Book</Catalog>
+      <Authors>
+         <Author>Chong Lee</Author>
+      </Authors>
+      <ReleaseDate>March, 1989</ReleaseDate>
+      <Manufacturer>Black Belt Communications, Inc.</Manufacturer>
+      <ImageUrlSmall>http://images.amazon.com/images/P/0897500830.01.THUMBZZZ.jpg</ImageUrlSmall>
+      <ImageUrlMedium>http://images.amazon.com/images/P/0897500830.01.MZZZZZZZ.jpg</ImageUrlMedium>
+      <ImageUrlLarge>http://images.amazon.com/images/P/0897500830.01.LZZZZZZZ.jpg</ImageUrlLarge>
+      <Availability>Out of Print--Limited Availability</Availability>
+      <ListPrice>$9.50</ListPrice>
+      <OurPrice>$9.50</OurPrice>
+      <UsedPrice>$5.00</UsedPrice>
+   </Details>
+   <Details url="http://www.amazon.com/exec/obidos/ASIN/0897500911/webservices-20?dev-t=YOUR_TOKEN_HERE%26camp=2025%26link_code=xm2">
+      <Asin>0897500911</Asin>
+      <ProductName>American Law and the Trained Fighter</ProductName>
+      <Catalog>Book</Catalog>
+      <Authors>
+         <Author>Carl Brown</Author>
+         <Author>Todd Henschell</Author>
+      </Authors>
+      <ReleaseDate>March, 1989</ReleaseDate>
+      <Manufacturer>Black Belt Communications, Inc.</Manufacturer>
+      <ImageUrlSmall>http://images.amazon.com/images/P/0897500911.01.THUMBZZZ.jpg</ImageUrlSmall>
+      <ImageUrlMedium>http://images.amazon.com/images/P/0897500911.01.MZZZZZZZ.jpg</ImageUrlMedium>
+      <ImageUrlLarge>http://images.amazon.com/images/P/0897500911.01.LZZZZZZZ.jpg</ImageUrlLarge>
+      <Availability>Out of Print--Limited Availability</Availability>
+      <ListPrice>$7.95</ListPrice>
+      <OurPrice>$7.95</OurPrice>
+      <UsedPrice>$4.50</UsedPrice>
+   </Details>
+</ProductInfo>

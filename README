@@ -155,6 +155,14 @@ DESCRIPTION
         developer's kit, this will result in up to three matches per
         category and can yield a total of 45 matches.
 
+    Net::Amazon::Request::Power
+        Understands power search strings. See Net::Amazon::Request::Power
+        for details. Mandatory parameter "power".
+
+    Net::Amazon::Request::Manufacturer
+        Searches for all items made by a given manufacturer. Mandatory
+        parameter "manufacturer".
+
     Check the respective man pages for details on these request objects.
     Request objects are typically created like this (with a Keyword query as
     an example):
@@ -497,6 +505,7 @@ AUTHOR
     Contributors (thanks y'all!):
 
         Barnaby Claydon <bclaydon@perseus.com>
+        Bill Fitzpatrick
         Brian Hirt <bhirt@mobygames.com>
         Dan Sully <daniel@electricrain.com>
         Jackie Hamilton <kira@cgi101.com>

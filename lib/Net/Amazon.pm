@@ -78,6 +78,8 @@ sub search {
         $req = Net::Amazon::Request::Power->new(%params);
     } elsif(exists $params{browsenode}) {
         $req = Net::Amazon::Request::BrowseNode->new(%params);
+    } elsif(exists $params{manufacturer}) {
+        $req = Net::Amazon::Request::Manufacturer->new(%params);
 
     } else {
         warn "No Net::Amazon::Request type could be determined";
@@ -543,6 +545,16 @@ No 'mode' parameter is allowed. According to Amazon's developer's kit,
 this will result in up to three matches per category and can yield
 a total of 45 matches.
 
+=item Net::Amazon::Request::Power
+
+Understands power search strings. See L<Net::Amazon::Request::Power>
+for details. Mandatory parameter C<power>.
+
+=item Net::Amazon::Request::Manufacturer
+
+Searches for all items made by a given manufacturer. Mandatory parameter
+C<manufacturer>.
+
 =back
 
 Check the respective man pages for details on these request objects.
@@ -927,6 +939,7 @@ Mike Schilli, E<lt>na@perlmeister.comE<gt> (Please contact me via the mailing li
 Contributors (thanks y'all!):
 
     Barnaby Claydon <bclaydon@perseus.com>
+    Bill Fitzpatrick
     Brian Hirt <bhirt@mobygames.com>
     Dan Sully <daniel@electricrain.com>
     Jackie Hamilton <kira@cgi101.com>

@@ -31,7 +31,7 @@ sub new {
         # Set default attributes
     for my $attr (qw(OurPrice ImageUrlLarge ImageUrlMedium ImageUrlSmall
                      ReleaseDate Catalog Asin url Manufacturer UsedPrice
-                     ListPrice ProductName)) {
+                     ListPrice ProductName Availability)) {
         $class->SUPER::make_accessor($attr);
         $self->$attr($options{xmlref}->{$attr});
     }
@@ -169,6 +169,12 @@ The item's ASIN number.
 =item ProductName()
 
 Book title, CD album name or item name
+
+=item Availability()
+
+Text string describing if the item is available. Examples:
+C<"Usually ships within 24 hours"> or
+C<"Out of Print--Limited Availability">.
 
 =item Catalog()
 
