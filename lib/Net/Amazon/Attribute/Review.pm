@@ -33,7 +33,7 @@ sub init_via_xmlref {
         if($xmlref->{$_}) {
             $self->$method($xmlref->{$_});
         } else {
-            LOGWARN "No '$_'";
+            #LOGWARN "No '$_'";
             return undef;
         }
     }
