@@ -4,6 +4,7 @@ eg/artist
 eg/asin
 eg/asin-de
 eg/asin_cache
+eg/asin_dvd
 eg/asin_fetch
 eg/asin_img
 eg/blended.pl
@@ -17,6 +18,7 @@ eg/maxauthors
 eg/power
 eg/reviews
 eg/sim
+eg/textstream
 eg/upc
 eg/wishlist
 lib/Net/Amazon.pm
@@ -63,15 +65,19 @@ t/004Reviews.t
 t/005Power.t
 t/006Browse.t
 t/007Manufacturer.t
+t/008Textstream.t
 t/canned/asin_cd.xml
 t/canned/asin_cdm.xml
 t/canned/asin_err.xml
 t/canned/asin_mua.xml
 t/canned/asin_pp.xml
 t/canned/browse.xml
+t/canned/dvd.xml
 t/canned/manufacturer.xml
 t/canned/power.xml
+t/canned/power_sorted.xml
 t/canned/reviews.xml
+t/canned/textstream.xml
 t/canned/upc_zwan.xml
 t/canned/wishlist1.xml
 t/canned/wishlist10_1.xml
