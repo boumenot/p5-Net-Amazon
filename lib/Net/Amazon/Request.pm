@@ -85,9 +85,6 @@ sub response_class {
 sub _convert_option {
     my ($class, $options, $original, $target, $callback) = @_;
 
-    $options->{$target} = $options->{$original};
-    delete $options->{$original};
- 
     if ( exists $options->{$original} ) {
         $options->{$target} = $options->{$original};
         delete $options->{$original};
