@@ -12,10 +12,25 @@ use Test::More tests => 22;
 BEGIN { use_ok('Net::Amazon') };
 
 #use Log::Log4perl qw(:easy);
-#Log::Log4perl->easy_init($DEBUG);
+#Log::Log4perl->easy_init($INFO);
 
 use Net::Amazon::Request::ASIN;
 use Net::Amazon::Response::ASIN;
+use File::Spec;
+
+my $CANNED = "canned";
+$CANNED = File::Spec->catfile("t", "canned") unless -d $CANNED;
+
+if(! exists $ENV{NET_AMAZON_LIVE_TESTS}) {
+    for(map { File::Spec->catfile($CANNED, $_) }
+        qw(asin_pp.xml asin_err.xml 
+           asin_mua.xml asin_cd.xml asin_cdm.xml)) {
+        open FILE, "<$_" or die "Cannot open $_";
+        my $data = join '', <FILE>;
+        close FILE;
+        push @Net::Amazon::CANNED_RESPONSES, $data;
+    }
+}
 
 ######################################################################
 # Successful ASIN fetch
