@@ -1,6 +1,6 @@
 Revision history for Perl extension Net::Amazon:
 
-0.29 (not yet released)
+0.29 (08/12/2004)
    (ms) Brian <brianbrian@gmail.com> contributed code for querying sellers.
         Added docs and test cases. Added a new hierarchy N::A::Result/*
         to deal with responses containing results which aren't Amazon items.
