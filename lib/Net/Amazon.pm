@@ -8,7 +8,7 @@ use 5.006;
 use strict;
 use warnings;
 
-our $VERSION          = '0.15';
+our $VERSION          = '0.16';
 our @CANNED_RESPONSES = ();
 
 use LWP::UserAgent;
@@ -799,6 +799,27 @@ a patch to the mailing list at
 and if it works, I'll accept it and will work it into the main distribution.
 Your name will show up in the contributor's list below (unless you tell
 me otherwise).
+
+=head2 SAMPLE SCRIPTS
+
+There's a number of useful scripts in the distribution's eg/ directory.
+Take C<power> for example, written by Martin Streicher 
+E<lt>martin.streicher@apress.comE<gt>: I lets you perform 
+a I<power search> using Amazon's query language. To search for all books 
+written by Randal Schwartz about Perl, call this from the command line:
+
+    power 'author: schwartz subject: perl'
+
+Note that you need to quote the query string to pass it as one argument
+to C<power>. If a power search returns more results than you want to
+process at a time, just limit the number of pages, telling C<power>
+which page to start at (C<-s>) and which one to finish with (C<-f>).
+Here's a search for all books on the subject C<computer>, limited
+to the first 10 pages:
+
+    power -s 1 -f 10 'subject: computer'
+
+Check out the script C<power> in eg/ for more options.
 
 =head2 HOW TO SEND ME PATCHES
 
