@@ -52,6 +52,11 @@ DESCRIPTION
         The "artist" parameter has the user agent search for items created
         by the specified artist. Can return many results.
 
+    "$ua->search(browsenode=>"4025", mode=>"books" [, keywords=>"perl"])"
+        Returns a list of items by category ID (node). For example node
+        "4025" is the CGI books category. You can add a keywords parameter
+        to filter the results by that keyword.
+
     "$ua->search(keyword => "perl xml", mode => "books")"
         Search by keyword, mandatory parameters "keyword" and "mode". Can
         return many results.
@@ -126,6 +131,10 @@ DESCRIPTION
     Net::Amazon::Request::Artist
         Music search by Artist, mandatory parameter "artist". Can return
         many results.
+
+    Net::Amazon::Request::BrowseNode
+        Returns category (node) listing. Mandatory parameters "browsenode"
+        (must be numeric) and "mode". Can return many results.
 
     Net::Amazon::Request::Keyword
         Keyword search, mandatory parameters "keyword" and "mode". Can
@@ -429,9 +438,11 @@ AUTHOR
     Mike Schilli, <na@perlmeister.com> (Please contact me via the mailing
     list: net-amazon-devel@lists.sourceforge.net )
 
-        Contributors (thanks y'all!):
+    Contributors (thanks y'all!):
+
         Barnaby Claydon <bclaydon@perseus.com>
         Dan Sully <daniel@electricrain.com>
+        Jackie Hamilton <kira@cgi101.com>
         Konstantin Gredeskoul <kig@get.topica.com>
         Martha Greenberg <marthag@mit.edu>
         Martin Streicher <martin.streicher@apress.com>
