@@ -20,6 +20,7 @@ use Log::Log4perl qw(:easy);
 
 use Net::Amazon::Request::ASIN;
 use Net::Amazon::Request::Artist;
+use Net::Amazon::Request::BrowseNode;
 use Net::Amazon::Request::Keyword;
 use Net::Amazon::Request::Wishlist;
 use Net::Amazon::Request::UPC;
@@ -73,6 +74,8 @@ sub search {
                                                   %params);
     } elsif(exists $params{power}) {
         $req = Net::Amazon::Request::Power->new(%params);
+    } elsif(exists $params{browsenode}) {
+        $req = Net::Amazon::Request::BrowseNode->new(%params);
 
     } else {
         warn "No Net::Amazon::Request type could be determined";
@@ -405,6 +408,12 @@ specified ASIN. Returns at most one result.
 The C<artist> parameter has the user agent search for items created by
 the specified artist. Can return many results.
 
+=item C<< $ua->search(browsenode=>"4025", mode=>"books" [, keywords=>"perl"]) >>
+
+Returns a list of items by category ID (node). For example node "4025"
+is the CGI books category.  You can add a keywords parameter to filter 
+the results by that keyword.
+
 =item C<< $ua->search(keyword => "perl xml", mode => "books") >>
 
 Search by keyword, mandatory parameters C<keyword> and C<mode>.
@@ -497,6 +506,11 @@ Returns at most one result.
 
 Music search by Artist, mandatory parameter C<artist>.
 Can return many results.
+
+=item Net::Amazon::Request::BrowseNode
+
+Returns category (node) listing. Mandatory parameters C<browsenode>
+(must be numeric) and C<mode>. Can return many results.
 
 =item Net::Amazon::Request::Keyword
 
@@ -830,9 +844,11 @@ list net-amazon-devel@lists.sourceforge.net
 
 Mike Schilli, E<lt>na@perlmeister.comE<gt> (Please contact me via the mailing list: net-amazon-devel@lists.sourceforge.net )
 
-    Contributors (thanks y'all!):
+Contributors (thanks y'all!):
+
     Barnaby Claydon <bclaydon@perseus.com>
     Dan Sully <daniel@electricrain.com>
+    Jackie Hamilton <kira@cgi101.com>
     Konstantin Gredeskoul <kig@get.topica.com>
     Martha Greenberg <marthag@mit.edu>
     Martin Streicher <martin.streicher@apress.com>
