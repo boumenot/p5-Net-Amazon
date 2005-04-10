@@ -1,5 +1,11 @@
 Revision history for Perl extension Net::Amazon:
 
+0.34 (04/09/2005)
+   (ms) Steven Alyari reported a caching problem on v5.8.1-RC3/darwin,
+        where perl's hashes are stored differently between invocations
+        of the same program, confusing Net::Amazon's URL-based caching
+        algorithm. Applied his fix, which sorts the query arguments.
+
 0.33 (02/23/2005)
    (ms) Makefile.PL prerequisite changed from undef to '0'.
    (ms) Greg McCann <greg@cambria.com> added ThirdPartyProductInfo.

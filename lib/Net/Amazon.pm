@@ -140,7 +140,7 @@ sub request {
         $url->query_form(
             'dev-t' => $self->{token},
             't'     => $self->{affiliate_id},
-            %params,
+            map { $_, $params{$_} } sort keys %params,
         );
 
         my $urlstr = $url->as_string;
