@@ -1,5 +1,4 @@
 blib
-eg/similar
 ^Makefile$
 ^Makefile.old$
 CVS
