@@ -147,8 +147,8 @@ DESCRIPTION
     "Asin()", "url()", "Manufacturer()", "UsedPrice()", "ListPrice()",
     "ProductName()", "Availability()", "SalesRank()", "CollectiblePrice()",
     "CollectibleCount()", "NumberOfOfferings()", "UsedCount()",
-    "ThirdPartyNewPrice()", "ThirdPartyNewCount()". For details, check
-    Net::Amazon::Property.
+    "ThirdPartyNewPrice()", "ThirdPartyNewCount()", "similar_asins()". For
+    details, check Net::Amazon::Property.
 
     Also, the specialized classes "Net::Amazon::Property::Book" and
     "Net::Amazon::Property::Music" feature convenience methods like

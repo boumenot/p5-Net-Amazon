@@ -1,6 +1,7 @@
 Revision history for Perl extension Net::Amazon:
 
-0.34 (04/09/2005)
+0.34 (07/11/2005)
+   (ms) Added similar_asins() to Net::Amazon::Property
    (ms) Steven Alyari reported a caching problem on v5.8.1-RC3/darwin,
         where perl's hashes are stored differently between invocations
         of the same program, confusing Net::Amazon's URL-based caching
