@@ -27,7 +27,7 @@ our @DEFAULT_ATTRIBUTES = qw(
 
 __PACKAGE__->make_accessor($_) for @DEFAULT_ATTRIBUTES;
 __PACKAGE__->make_accessor($_) for qw(year review_set);
-__PACKAGE__->make_array_accessor($_) for qw(browse_nodes);
+__PACKAGE__->make_array_accessor($_) for qw(browse_nodes similar_asins);
 
 ##################################################
 sub new {
@@ -67,6 +67,13 @@ sub new {
       $self->browse_nodes([ $browse_nodes->{BrowseName} ]);
     } else {
       $self->browse_nodes([ ]);
+    }
+
+    my $similar = $options{xmlref}->{SimilarProducts};
+    if(ref($similar) eq "HASH") {
+      $self->similar_asins($similar->{Product});
+    } else {
+      $self->similar_asins([ ]);
     }
 
     return $self;
@@ -286,7 +293,11 @@ The release year extracted from ReleaseDate().
 
 =item browse_nodes()
 
-Returns a list of browse nodes (text string categories) for that item.
+Returns a list of browse nodes (text string categories) for this item.
+
+=item similar_asins()
+
+Returns a list of ASINs of similar items for this item.
 
 =back
 

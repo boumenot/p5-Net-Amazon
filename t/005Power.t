@@ -22,7 +22,7 @@ $CANNED = File::Spec->catfile("t", "canned") unless -d $CANNED;
 
 if(! exists $ENV{NET_AMAZON_LIVE_TESTS}) {
     for(map { File::Spec->catfile($CANNED, $_) }
-        qw(power.xml power_sorted.xml power_empty.xml)) {
+        qw(power.xml power_sorted.xml power_empty.xml power.xml)) {
         open FILE, "<$_" or die "Cannot open $_";
         my $data = join '', <FILE>;
         close FILE;
@@ -78,3 +78,33 @@ $resp = $ua->search(
 );
 
 ok(!$resp->is_success(), "Power fetch came back empty");
+
+######################################################################
+# Similar products (could be with any other search, not just 'power')
+######################################################################
+$ua = Net::Amazon->new(
+    token       => 'YOUR_AMZN_TOKEN',
+);
+
+$resp = $ua->search(
+    power => "author: randal schwartz and author: mike schilli",
+    mode  => "books",
+);
+
+my @expected = qw(
+0596004990
+0596000278
+1565922433
+1565924193
+0596002890
+1565922204
+);
+
+for my $item ($resp->properties()) {
+    for my $asin ($item->similar_asins()) {
+        is(shift @expected, $asin, "Get expected similar product");
+        #print "Similar to ", $item->Asin(), ": $asin\n";
+    }
+}
+
+is(scalar @expected, 0, "Got all expected similar products");

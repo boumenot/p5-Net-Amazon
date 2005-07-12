@@ -8,7 +8,7 @@
 use warnings;
 use strict;
 
-use Test::More tests => 32;
+use Test::More tests => 33;
 BEGIN { use_ok('Net::Amazon') };
 
 #use Log::Log4perl qw(:easy);
@@ -77,6 +77,9 @@ my($book) = $resp->properties();
 like(join('&', $book->authors()), 
      qr#Erich Gamma&Richard Helm&Ralph Johnson&John Vlissides#,
      "Found multiple authors");
+
+my @similar = $book->similar_asins();
+is(scalar @similar, 0, "No similar items on this item");
 
 ######################################################################
 # properties() in scalar context

@@ -688,7 +688,8 @@ C<CollectibleCount()>,
 C<NumberOfOfferings()>,
 C<UsedCount()>,
 C<ThirdPartyNewPrice()>,
-C<ThirdPartyNewCount()>.
+C<ThirdPartyNewCount()>,
+C<similar_asins()>.
 For details, check L<Net::Amazon::Property>.
 
 Also, the specialized classes C<Net::Amazon::Property::Book> and
