@@ -90,7 +90,7 @@ Net::Amazon::Property::Book - Class for books on amazon.com
 
   if($resp->is_success()) {
       for my $prop ($resp->properties) {
-          print join("/", $prop->authors(), " ",
+          print join("/", $prop->authors()), " ",
                 $prop->title(), " ",
                 $prop->publisher(), " ",
                 $prop->year(), "\n";
