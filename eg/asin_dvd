@@ -29,7 +29,6 @@ my $resp = $ua->request($req);
 for($resp->properties()) {
     print "Studio: ", $_->studio(), "\n";
     print "Directors: ", join ('/', $_->directors()), "\n";
-    print "Starring: ", join ('/', $_->starring()), "\n";
     print "Features: ", join ('/', $_->features()), "\n";
     print "MPAA: ", $_->mpaa_rating(), "\n";
 }

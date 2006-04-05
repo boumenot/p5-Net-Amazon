@@ -1,5 +1,9 @@
 Revision history for Perl extension Net::Amazon:
 
+0.35 2006/04/02
+   (ms) Took starring() out of eg/asin_dvd, looks like it is no longer
+        supported by amzn (reported by Joseph Ronie).
+
 0.34 (07/11/2005)
    (ms) Added similar_asins() to Net::Amazon::Property
    (ms) Steven Alyari reported a caching problem on v5.8.1-RC3/darwin,

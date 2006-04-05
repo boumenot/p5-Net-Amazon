@@ -99,7 +99,8 @@ only returning the first director.
 
 =item starring()
 
-Returns a list of actors starring in the movie.
+USED TO BE AVAILABLE, BUT HAS BEEN MISSING LATELY.
+Used to return a list of actors starring in the movie.
 
 =item upc()
 
