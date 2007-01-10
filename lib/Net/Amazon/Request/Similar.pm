@@ -25,7 +25,7 @@ sub new {
 
     $class->_convert_option(\%options,
                             'similar',
-                            'SimilaritySearch');
+                            'ItemId');
 
     my $self = $class->SUPER::new(%options);
 

@@ -13,6 +13,8 @@ BEGIN { use_ok('Net::Amazon') };
 
 use Net::Amazon;
 use File::Spec;
+#use Log::Log4perl qw(:easy);
+#Log::Log4perl->easy_init($DEBUG);
 
 my $CANNED = "canned";
 $CANNED = File::Spec->catfile("t", "canned") unless -d $CANNED;
@@ -46,7 +48,7 @@ foreach (@properties) {
     $result .= $_->as_string();
 }
 
-like($result, qr/Flanagan.*?Schwartz.*?Wall/, "single product line");
+like($result, qr/Larry Wall/, "single product line");
 
 ####################
 # Mult product lines
@@ -64,7 +66,7 @@ foreach (@properties) {
     $result .= $_->as_string();
 }
 
-like($result, qr/Flanagan.*?Tarzan.*?Stainless/, "multiple product linse");
+like($result, qr/Wall.*?Beethoven/, "multiple product lines");
 #print $result;
 
 ######################################################################

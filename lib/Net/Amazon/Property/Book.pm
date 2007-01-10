@@ -1,11 +1,13 @@
-######################################################################
+###################################################################### 
 package Net::Amazon::Property::Book;
 ######################################################################
 use warnings;
 use strict;
 use base qw(Net::Amazon::Property);
 
-__PACKAGE__->make_accessor($_) for qw(title publisher binding isbn);
+__PACKAGE__->make_accessor($_) for qw(title publisher binding isbn 
+    dewey_decimal numpages edition ean);
+__PACKAGE__->make_array_accessor($_) for qw(authors);
 
 ##################################################
 sub new {
@@ -29,11 +31,26 @@ sub init_via_xmlref {
 
     $self->SUPER::init_via_xmlref($xmlref);
 
-    $self->authors($xmlref->{Authors}->{Author});
-    $self->title($xmlref->{ProductName});
-    $self->publisher($xmlref->{Manufacturer});
-    $self->binding($xmlref->{Media});
-    $self->isbn($xmlref->{Isbn});
+    my $ref = $xmlref->{ItemAttributes};
+
+    $self->authors($ref->{Author});
+    $self->binding($ref->{Binding});
+    $self->dewey_decimal($ref->{DeweyDecimalNumber});
+    $self->numpages($ref->{NumberOfPages});
+    $self->title($ref->{Title});
+    $self->Title($ref->{Title});
+    $self->publisher($ref->{Publisher});
+    $self->isbn($ref->{ISBN});
+    $self->edition($ref->{Edition});
+    $self->ean($ref->{EAN});
+
+    my $year = 0;
+    if (defined $ref->{PublicationDate}) {
+        $year =  (split(/\-/, $ref->{PublicationDate}))[0];
+    }
+    $self->year($year);
+
+    $self->ReleaseDate($ref->{PublicationDate});
 }
 
 ##################################################
@@ -46,32 +63,17 @@ sub author {
 }
 
 ##################################################
-sub authors {
-##################################################
-    my($self, $nameref) = @_;
-
-    if(defined $nameref) {
-        if(ref $nameref eq "ARRAY") {
-            $self->{authors} = $nameref;
-        } else {
-            $self->{authors} = [$nameref];
-        }
-    }
-
-       # Return a list
-    return $self->{authors} ? @{$self->{authors}} : ();
-}
-
-##################################################
 sub as_string {
 ##################################################
     my($self) = @_;
 
-    return join('/', $self->authors) . ", " .
+    my @a = (defined $self->authors) ? $self->authors : qw();
+
+    return join('/', @a) . ", " .
       '"' . $self->title . '"' . ", " .
       $self->year . ", " .
       $self->OurPrice . ", " .
-      $self->Asin;
+      $self->ASIN;
 }
 
 1;
@@ -123,6 +125,22 @@ Returns the book's title as a string.
 =item isbn()
 
 Returns the book's ISBN number.
+
+=item edition()
+
+Returns the book's edition.
+
+=item ean()
+
+Returns the book's EAN number.
+
+=item numpages()
+
+Returns the number of pages.
+
+=item dewey_decimal()
+
+Returns the Dewey decimal number.
 
 =item new(xmlref => $xmlref)
 

@@ -10,13 +10,17 @@ sub new {
 ##################################################
     my($class, %options) = @_;
 
-    $class->_assert_options_defined(\%options, 'upc');
+    $class->_assert_options_defined(\%options, qw(upc));
 
     $class->_convert_option(\%options, 
                             'upc', 
-                            'UpcSearch');
+                            'ItemId');
+
+	$options{'IdType'} = 'UPC';
 
     my $self = $class->SUPER::new(%options);
+
+    $self->_convert_itemsearch();
 
     bless $self, $class;   # reconsecrate
 }

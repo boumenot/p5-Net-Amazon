@@ -1,23 +1,103 @@
-<?xml version="1.0" encoding="UTF-8"?><ProductInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://xml.amazon.com/schemas2/dev-lite.xsd">
-
-   <Details url="http://www.amazon.com/exec/obidos/ASIN/0201633612/webservices-20?dev-t=YOUR_AMZN_TOKEN">
-      <Asin>0201633612</Asin>
-      <ProductName>Design Patterns</ProductName>
-      <Catalog>Book</Catalog>
-      <Authors>
-         <Author>Erich Gamma</Author>
-         <Author>Richard Helm</Author>
-         <Author>Ralph Johnson</Author>
-         <Author>John Vlissides</Author>
-      </Authors>
-      <ReleaseDate>15 January, 1995</ReleaseDate>
-      <Manufacturer>Addison-Wesley Pub Co</Manufacturer>
-      <Media>Hardcover</Media>
-      <ImageUrlSmall>http://images.amazon.com/images/P/0201633612.01.THUMBZZZ.jpg</ImageUrlSmall>
-      <ImageUrlMedium>http://images.amazon.com/images/P/0201633612.01.MZZZZZZZ.jpg</ImageUrlMedium>
-      <ImageUrlLarge>http://images.amazon.com/images/P/0201633612.01.LZZZZZZZ.jpg</ImageUrlLarge>
-      <ListPrice>$54.99</ListPrice>
-      <OurPrice>$48.12</OurPrice>
-      <UsedPrice>$35.50</UsedPrice>
-   </Details>
-</ProductInfo>
+<?xml version="1.0" encoding="UTF-8"?>
+<ItemLookupResponse xmlns="http://webservices.amazon.com/AWSECommerceService/2006-06-28">
+  <Items>
+    <Item>
+      <ASIN>0201633612</ASIN>
+      <DetailPageURL>http://www.amazon.com/exec/obidos/redirect?tag=ws%26link_code=xm2%26camp=2025%26creative=165953%26path=http://www.amazon.com/gp/redirect.html%253fASIN=0201633612%2526tag=ws%2526lcode=xm2%2526cID=2025%2526ccmID=165953%2526location=/o/ASIN/0201633612%25253FSubscriptionId=YOUR_AMAZON_TOKEN</DetailPageURL>
+      <SalesRank>655</SalesRank>
+      <SmallImage>
+        <URL>http://images.amazon.com/images/P/0201633612.01._SCTHUMBZZZ_.jpg</URL>
+        <Height Units="pixels">75</Height>
+        <Width Units="pixels">58</Width>
+      </SmallImage>
+      <MediumImage>
+        <URL>http://images.amazon.com/images/P/0201633612.01._SCMZZZZZZZ_.jpg</URL>
+        <Height Units="pixels">160</Height>
+        <Width Units="pixels">124</Width>
+      </MediumImage>
+      <LargeImage>
+        <URL>http://images.amazon.com/images/P/0201633612.01._SCLZZZZZZZ_.jpg</URL>
+        <Height Units="pixels">500</Height>
+        <Width Units="pixels">387</Width>
+      </LargeImage>
+      <ItemAttributes>
+        <Author>Erich Gamma</Author>
+        <Author>Richard Helm</Author>
+        <Author>Ralph Johnson</Author>
+        <Author>John Vlissides</Author>
+        <Binding>Hardcover</Binding>
+        <DeweyDecimalNumber>005.12</DeweyDecimalNumber>
+        <EAN>0785342633610</EAN>
+        <Edition>1st</Edition>
+        <ISBN>0201633612</ISBN>
+        <Label>Addison-Wesley Professional</Label>
+        <ListPrice>
+          <Amount>5499</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$54.99</FormattedPrice>
+        </ListPrice>
+        <Manufacturer>Addison-Wesley Professional</Manufacturer>
+        <NumberOfItems>1</NumberOfItems>
+        <NumberOfPages>395</NumberOfPages>
+        <PackageDimensions>
+          <Height Units="hundredths-inches">120</Height>
+          <Length Units="hundredths-inches">952</Length>
+          <Weight Units="hundredths-pounds">233</Weight>
+          <Width Units="hundredths-inches">768</Width>
+        </PackageDimensions>
+        <ProductGroup>Book</ProductGroup>
+        <PublicationDate>1995-01-15</PublicationDate>
+        <Publisher>Addison-Wesley Professional</Publisher>
+        <Studio>Addison-Wesley Professional</Studio>
+        <Title>Design Patterns: Elements of Reusable Object-Oriented Software (Addison-Wesley Professional Computing Series)</Title>
+        <UPC>785342633610</UPC>
+      </ItemAttributes>
+      <OfferSummary>
+        <LowestNewPrice>
+          <Amount>3290</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$32.90</FormattedPrice>
+        </LowestNewPrice>
+        <LowestUsedPrice>
+          <Amount>3159</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$31.59</FormattedPrice>
+        </LowestUsedPrice>
+        <LowestCollectiblePrice>
+          <Amount>3975</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$39.75</FormattedPrice>
+        </LowestCollectiblePrice>
+        <TotalNew>57</TotalNew>
+        <TotalUsed>38</TotalUsed>
+        <TotalCollectible>4</TotalCollectible>
+        <TotalRefurbished>0</TotalRefurbished>
+      </OfferSummary>
+      <Offers>
+        <TotalOffers>1</TotalOffers>
+        <TotalOfferPages>1</TotalOfferPages>
+        <Offer>
+          <Merchant>
+            <MerchantId>ATVPDKIKX0DER</MerchantId>
+            <GlancePage>http://www.amazon.com/gp/help/seller/home.html?seller=ATVPDKIKX0DER</GlancePage>
+            <AverageFeedbackRating>0.0</AverageFeedbackRating>
+            <TotalFeedback>0</TotalFeedback>
+          </Merchant>
+          <OfferAttributes>
+            <Condition>New</Condition>
+          </OfferAttributes>
+          <OfferListing>
+            <OfferListingId>lpSPrqma5rN9VZLfxWnBr1Lz35W1ll3YySCvuWH0K569tSZJnCvT58aRr%2Bqlou2l70I5k1fJPYE%3D</OfferListingId>
+            <Price>
+              <Amount>4654</Amount>
+              <CurrencyCode>USD</CurrencyCode>
+              <FormattedPrice>$46.54</FormattedPrice>
+            </Price>
+            <Availability>Usually ships in 24 hours</Availability>
+            <IsEligibleForSuperSaverShipping>1</IsEligibleForSuperSaverShipping>
+          </OfferListing>
+        </Offer>
+      </Offers>
+    </Item>
+  </Items>
+</ItemLookupResponse>

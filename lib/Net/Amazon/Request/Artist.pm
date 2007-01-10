@@ -10,15 +10,16 @@ sub new {
 ##################################################
     my($class, %options) = @_;
 
-    if(exists $options{artist}) {
-        $options{ArtistSearch} = $options{artist};
-        delete $options{artist};
-        $options{mode} = "music";
-    } else {
-        die "Mandatory parameter 'artist' not defined";
-    }
+    $class->_assert_options_defined(\%options, 
+                                    qw(artist));
+
+    $class->_convert_option(\%options,
+                            'artist',
+                            'Artist');
 
     my $self = $class->SUPER::new(%options);
+
+    $self->_convert_itemsearch();
 
     bless $self, $class;   # reconsecrate
 }

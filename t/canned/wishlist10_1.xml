@@ -1,116 +1,991 @@
-<?xml version="1.0" encoding="UTF-8"?><ProductInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://xml.amazon.com/schemas2/dev-lite.xsd">
-
-   <Details url="http://www.amazon.com/exec/obidos/redirect?tag=webservices-20%26creative=YOUR_AMZN_TOKEN%26camp=2025%26link_code=xm2%26path=ASIN/B00008AJJ8">
-      <Asin>B00008AJJ8</Asin>
-      <ProductName>Samsung V205 Phone (T-Mobile)</ProductName>
-      <Catalog>Wireless</Catalog>
-      <Manufacturer>Samsung</Manufacturer>
-      <ImageUrlSmall>http://images.amazon.com/images/P/B00008AJJ8.01.THUMBZZZ.jpg</ImageUrlSmall>
-      <ImageUrlMedium>http://images.amazon.com/images/P/B00008AJJ8.01.MZZZZZZZ.jpg</ImageUrlMedium>
-      <ImageUrlLarge>http://images.amazon.com/images/P/B00008AJJ8.01.LZZZZZZZ.jpg</ImageUrlLarge>
-      <ListPrice>$399.99</ListPrice>
-      <OurPrice>$399.99</OurPrice>
-   </Details>
-   <Details url="http://www.amazon.com/exec/obidos/redirect?tag=webservices-20%26creative=YOUR_AMZN_TOKEN%26camp=2025%26link_code=xm2%26path=ASIN/B00006RVH4">
-      <Asin>B00006RVH4</Asin>
-      <ProductName>Flipster 128 MB Personal Multimedia MP4 Player</ProductName>
-      <Catalog>Electronics</Catalog>
-      <Manufacturer>PoGo! Products</Manufacturer>
-      <ImageUrlSmall>http://images.amazon.com/images/P/B00006RVH4.01.THUMBZZZ.jpg</ImageUrlSmall>
-      <ImageUrlMedium>http://images.amazon.com/images/P/B00006RVH4.01.MZZZZZZZ.jpg</ImageUrlMedium>
-      <ImageUrlLarge>http://images.amazon.com/images/P/B00006RVH4.01.LZZZZZZZ.jpg</ImageUrlLarge>
-      <ListPrice>$449.00</ListPrice>
-      <OurPrice>$379.99</OurPrice>
-   </Details>
-   <Details url="http://www.amazon.com/exec/obidos/redirect?tag=webservices-20%26creative=YOUR_AMZN_TOKEN%26camp=2025%26link_code=xm2%26path=ASIN/B00006L9DW">
-      <Asin>B00006L9DW</Asin>
-      <ProductName>Motorola V60i Phone (AT&amp;T)</ProductName>
-      <Catalog>Wireless</Catalog>
-      <Manufacturer>Motorola</Manufacturer>
-      <ImageUrlSmall>http://images.amazon.com/images/P/B00006L9DW.01.THUMBZZZ.jpg</ImageUrlSmall>
-      <ImageUrlMedium>http://images.amazon.com/images/P/B00006L9DW.01.MZZZZZZZ.jpg</ImageUrlMedium>
-      <ImageUrlLarge>http://images.amazon.com/images/P/B00006L9DW.01.LZZZZZZZ.jpg</ImageUrlLarge>
-      <ListPrice>$199.99</ListPrice>
-      <OurPrice>$199.99</OurPrice>
-   </Details>
-   <Details url="http://www.amazon.com/exec/obidos/redirect?tag=webservices-20%26creative=YOUR_AMZN_TOKEN%26camp=2025%26link_code=xm2%26path=ASIN/B0000668GF">
-      <Asin>B0000668GF</Asin>
-      <ProductName>Motorola V60g Phone (T-Mobile)</ProductName>
-      <Catalog>Wireless</Catalog>
-      <Manufacturer>Motorola</Manufacturer>
-      <ImageUrlSmall>http://images.amazon.com/images/P/B0000668GF.01.THUMBZZZ.jpg</ImageUrlSmall>
-      <ImageUrlMedium>http://images.amazon.com/images/P/B0000668GF.01.MZZZZZZZ.jpg</ImageUrlMedium>
-      <ImageUrlLarge>http://images.amazon.com/images/P/B0000668GF.01.LZZZZZZZ.jpg</ImageUrlLarge>
-      <ListPrice>$199.99</ListPrice>
-      <OurPrice>$199.99</OurPrice>
-   </Details>
-   <Details url="http://www.amazon.com/exec/obidos/redirect?tag=webservices-20%26creative=YOUR_AMZN_TOKEN%26camp=2025%26link_code=xm2%26path=ASIN/B00006LEN3">
-      <Asin>B00006LEN3</Asin>
-      <ProductName>Motorola V70 Phone (T-Mobile)</ProductName>
-      <Catalog>Wireless</Catalog>
-      <Manufacturer>Motorola</Manufacturer>
-      <ImageUrlSmall>http://images.amazon.com/images/P/B00006LEN3.01.THUMBZZZ.jpg</ImageUrlSmall>
-      <ImageUrlMedium>http://images.amazon.com/images/P/B00006LEN3.01.MZZZZZZZ.jpg</ImageUrlMedium>
-      <ImageUrlLarge>http://images.amazon.com/images/P/B00006LEN3.01.LZZZZZZZ.jpg</ImageUrlLarge>
-      <ListPrice>$249.99</ListPrice>
-      <OurPrice>$249.99</OurPrice>
-   </Details>
-   <Details url="http://www.amazon.com/exec/obidos/redirect?tag=webservices-20%26creative=YOUR_AMZN_TOKEN%26camp=2025%26link_code=xm2%26path=ASIN/B00008BQZX">
-      <Asin>B00008BQZX</Asin>
-      <ProductName>Motorola T720i Phone with Camera Attachment (T-Mobile)</ProductName>
-      <Catalog>Wireless</Catalog>
-      <Manufacturer>Motorola</Manufacturer>
-      <ImageUrlSmall>http://images.amazon.com/images/P/B00008BQZX.01.THUMBZZZ.jpg</ImageUrlSmall>
-      <ImageUrlMedium>http://images.amazon.com/images/P/B00008BQZX.01.MZZZZZZZ.jpg</ImageUrlMedium>
-      <ImageUrlLarge>http://images.amazon.com/images/P/B00008BQZX.01.LZZZZZZZ.jpg</ImageUrlLarge>
-      <ListPrice>$249.99</ListPrice>
-      <OurPrice>$249.99</OurPrice>
-   </Details>
-   <Details url="http://www.amazon.com/exec/obidos/redirect?tag=webservices-20%26creative=YOUR_AMZN_TOKEN%26camp=2025%26link_code=xm2%26path=ASIN/B00006IZB0">
-      <Asin>B00006IZB0</Asin>
-      <ProductName>Sony Ericsson T68i Phone (T-Mobile)</ProductName>
-      <Catalog>Wireless</Catalog>
-      <Manufacturer>Ericsson</Manufacturer>
-      <ImageUrlSmall>http://images.amazon.com/images/P/B00006IZB0.01.THUMBZZZ.jpg</ImageUrlSmall>
-      <ImageUrlMedium>http://images.amazon.com/images/P/B00006IZB0.01.MZZZZZZZ.jpg</ImageUrlMedium>
-      <ImageUrlLarge>http://images.amazon.com/images/P/B00006IZB0.01.LZZZZZZZ.jpg</ImageUrlLarge>
-      <ListPrice>$299.99</ListPrice>
-      <OurPrice>$99.99</OurPrice>
-   </Details>
-   <Details url="http://www.amazon.com/exec/obidos/redirect?tag=webservices-20%26creative=YOUR_AMZN_TOKEN%26camp=2025%26link_code=xm2%26path=ASIN/B00006LEN1">
-      <Asin>B00006LEN1</Asin>
-      <ProductName>Samsung S105 Phone (T-Mobile)</ProductName>
-      <Catalog>Wireless</Catalog>
-      <Manufacturer>Samsung</Manufacturer>
-      <ImageUrlSmall>http://images.amazon.com/images/P/B00006LEN1.01.THUMBZZZ.jpg</ImageUrlSmall>
-      <ImageUrlMedium>http://images.amazon.com/images/P/B00006LEN1.01.MZZZZZZZ.jpg</ImageUrlMedium>
-      <ImageUrlLarge>http://images.amazon.com/images/P/B00006LEN1.01.LZZZZZZZ.jpg</ImageUrlLarge>
-      <ListPrice>$299.99</ListPrice>
-      <OurPrice>$299.99</OurPrice>
-   </Details>
-   <Details url="http://www.amazon.com/exec/obidos/redirect?tag=webservices-20%26creative=YOUR_AMZN_TOKEN%26camp=2025%26link_code=xm2%26path=ASIN/B00000JDF8">
-      <Asin>B00000JDF8</Asin>
-      <ProductName>Belkin F2N025-10 VGA HDDB15M/F Monitor Extension Cable (10 FT)</ProductName>
-      <Catalog>Electronics</Catalog>
-      <Manufacturer>Belkin Components</Manufacturer>
-      <ImageUrlSmall>http://images.amazon.com/images/P/B00000JDF8.01.THUMBZZZ.jpg</ImageUrlSmall>
-      <ImageUrlMedium>http://images.amazon.com/images/P/B00000JDF8.01.MZZZZZZZ.jpg</ImageUrlMedium>
-      <ImageUrlLarge>http://images.amazon.com/images/P/B00000JDF8.01.LZZZZZZZ.jpg</ImageUrlLarge>
-      <ListPrice>$11.99</ListPrice>
-      <OurPrice>$8.08</OurPrice>
-      <UsedPrice>$1.97</UsedPrice>
-   </Details>
-   <Details url="http://www.amazon.com/exec/obidos/redirect?tag=webservices-20%26creative=YOUR_AMZN_TOKEN%26camp=2025%26link_code=xm2%26path=ASIN/B000068PE8">
-      <Asin>B000068PE8</Asin>
-      <ProductName>Cornea MP704B 17" LCD Monitor</ProductName>
-      <Catalog>Electronics</Catalog>
-      <ReleaseDate>08 October, 2002</ReleaseDate>
-      <Manufacturer>Cornea Systems, Inc.</Manufacturer>
-      <ImageUrlSmall>http://images.amazon.com/images/P/B000068PE8.01.THUMBZZZ.jpg</ImageUrlSmall>
-      <ImageUrlMedium>http://images.amazon.com/images/P/B000068PE8.01.MZZZZZZZ.jpg</ImageUrlMedium>
-      <ImageUrlLarge>http://images.amazon.com/images/P/B000068PE8.01.LZZZZZZZ.jpg</ImageUrlLarge>
-      <ListPrice>$429.99</ListPrice>
-      <OurPrice>$370.49</OurPrice>
-      <UsedPrice>$350.00</UsedPrice>
-   </Details>
-</ProductInfo>
+<?xml version="1.0" encoding="UTF-8"?>
+<ListLookupResponse xmlns="http://webservices.amazon.com/AWSECommerceService/2006-06-28">
+  <Lists>
+    <List>
+      <ListId>1XL5DWOUFMFVJ</ListId>
+      <ListItem>
+        <Item>
+          <ASIN>076454229X</ASIN>
+          <DetailPageURL>http://www.amazon.com/exec/obidos/redirect?tag=ws%26link_code=xm2%26camp=2025%26creative=165953%26path=http://www.amazon.com/gp/redirect.html%253fASIN=076454229X%2526tag=ws%2526lcode=xm2%2526cID=2025%2526ccmID=165953%2526location=/o/ASIN/076454229X%25253FSubscriptionId=YOUR_AMAZON_TOKEN%252526coliid=I3JQXBP83I2LQU%252526colid=1XL5DWOUFMFVJ</DetailPageURL>
+          <SalesRank>289750</SalesRank>
+          <SmallImage>
+            <URL>http://images.amazon.com/images/P/076454229X.01._SCTHUMBZZZ_.jpg</URL>
+            <Height Units="pixels">60</Height>
+            <Width Units="pixels">48</Width>
+          </SmallImage>
+          <MediumImage>
+            <URL>http://images.amazon.com/images/P/076454229X.01._SCMZZZZZZZ_.jpg</URL>
+            <Height Units="pixels">140</Height>
+            <Width Units="pixels">112</Width>
+          </MediumImage>
+          <LargeImage>
+            <URL>http://images.amazon.com/images/P/076454229X.01._SCLZZZZZZZ_.jpg</URL>
+            <Height Units="pixels">475</Height>
+            <Width Units="pixels">379</Width>
+          </LargeImage>
+          <ItemAttributes>
+            <Author>Barry Press</Author>
+            <Author>Marcia Press</Author>
+            <Binding>Paperback</Binding>
+            <DeweyDecimalNumber>004.16</DeweyDecimalNumber>
+            <EAN>0785555872998</EAN>
+            <Edition>Bk&amp;CD-Rom</Edition>
+            <ISBN>076454229X</ISBN>
+            <Label>Wiley</Label>
+            <ListPrice>
+              <Amount>2999</Amount>
+              <CurrencyCode>USD</CurrencyCode>
+              <FormattedPrice>$29.99</FormattedPrice>
+            </ListPrice>
+            <Manufacturer>Wiley</Manufacturer>
+            <NumberOfItems>1</NumberOfItems>
+            <NumberOfPages>336</NumberOfPages>
+            <PackageDimensions>
+              <Height Units="hundredths-inches">80</Height>
+              <Length Units="hundredths-inches">946</Length>
+              <Weight Units="hundredths-pounds">114</Weight>
+              <Width Units="hundredths-inches">724</Width>
+            </PackageDimensions>
+            <ProductGroup>Book</ProductGroup>
+            <PublicationDate>2003-11-07</PublicationDate>
+            <Publisher>Wiley</Publisher>
+            <Studio>Wiley</Studio>
+            <Title>PC Toys: 14 Cool Projects for Home, Office, and Entertainment</Title>
+            <UPC>785555872998</UPC>
+          </ItemAttributes>
+          <OfferSummary>
+            <LowestNewPrice>
+              <Amount>157</Amount>
+              <CurrencyCode>USD</CurrencyCode>
+              <FormattedPrice>$1.57</FormattedPrice>
+            </LowestNewPrice>
+            <LowestUsedPrice>
+              <Amount>151</Amount>
+              <CurrencyCode>USD</CurrencyCode>
+              <FormattedPrice>$1.51</FormattedPrice>
+            </LowestUsedPrice>
+            <TotalNew>45</TotalNew>
+            <TotalUsed>27</TotalUsed>
+            <TotalCollectible>0</TotalCollectible>
+            <TotalRefurbished>0</TotalRefurbished>
+          </OfferSummary>
+          <Offers>
+            <TotalOffers>1</TotalOffers>
+            <TotalOfferPages>1</TotalOfferPages>
+            <Offer>
+              <Merchant>
+                <MerchantId>ATVPDKIKX0DER</MerchantId>
+                <GlancePage>http://www.amazon.com/gp/help/seller/home.html?seller=ATVPDKIKX0DER</GlancePage>
+                <AverageFeedbackRating>0.0</AverageFeedbackRating>
+                <TotalFeedback>0</TotalFeedback>
+              </Merchant>
+              <OfferAttributes>
+                <Condition>New</Condition>
+              </OfferAttributes>
+              <OfferListing>
+                <OfferListingId>S4d2rfHQPUPsd95xRzdqsk0tvlu0JbnLd%2Fn4Dmxls%2Bh3a11yb4tKBKJfRMvGnwW9J%2FipjJDF%2BsE%3D</OfferListingId>
+                <Price>
+                  <Amount>1889</Amount>
+                  <CurrencyCode>USD</CurrencyCode>
+                  <FormattedPrice>$18.89</FormattedPrice>
+                </Price>
+                <Availability>Usually ships in 24 hours</Availability>
+                <IsEligibleForSuperSaverShipping>1</IsEligibleForSuperSaverShipping>
+              </OfferListing>
+            </Offer>
+          </Offers>
+        </Item>
+      </ListItem>
+      <ListItem>
+        <Item>
+          <ASIN>0201485419</ASIN>
+          <DetailPageURL>http://www.amazon.com/exec/obidos/redirect?tag=ws%26link_code=xm2%26camp=2025%26creative=165953%26path=http://www.amazon.com/gp/redirect.html%253fASIN=0201485419%2526tag=ws%2526lcode=xm2%2526cID=2025%2526ccmID=165953%2526location=/o/ASIN/0201485419%25253FSubscriptionId=YOUR_AMAZON_TOKEN%252526coliid=I3NL4G803HXVSG%252526colid=1XL5DWOUFMFVJ</DetailPageURL>
+          <SalesRank>59301</SalesRank>
+          <SmallImage>
+            <URL>http://images.amazon.com/images/P/0201485419.01._SCTHUMBZZZ_.jpg</URL>
+            <Height Units="pixels">58</Height>
+            <Width Units="pixels">60</Width>
+          </SmallImage>
+          <MediumImage>
+            <URL>http://images.amazon.com/images/P/0201485419.01._SCMZZZZZZZ_.jpg</URL>
+            <Height Units="pixels">140</Height>
+            <Width Units="pixels">146</Width>
+          </MediumImage>
+          <LargeImage>
+            <URL>http://images.amazon.com/images/P/0201485419.01._SCLZZZZZZZ_.jpg</URL>
+            <Height Units="pixels">475</Height>
+            <Width Units="pixels">495</Width>
+          </LargeImage>
+          <ItemAttributes>
+            <Author>Donald E. Knuth</Author>
+            <Binding>Hardcover</Binding>
+            <DeweyDecimalNumber>005</DeweyDecimalNumber>
+            <EAN>0785342485417</EAN>
+            <Edition>2</Edition>
+            <ISBN>0201485419</ISBN>
+            <Label>Addison-Wesley Professional</Label>
+            <ListPrice>
+              <Amount>16499</Amount>
+              <CurrencyCode>USD</CurrencyCode>
+              <FormattedPrice>$164.99</FormattedPrice>
+            </ListPrice>
+            <Manufacturer>Addison-Wesley Professional</Manufacturer>
+            <NumberOfItems>1</NumberOfItems>
+            <NumberOfPages>896</NumberOfPages>
+            <PackageDimensions>
+              <Height Units="hundredths-inches">503</Height>
+              <Length Units="hundredths-inches">1006</Length>
+              <Weight Units="hundredths-pounds">897</Weight>
+              <Width Units="hundredths-inches">697</Width>
+            </PackageDimensions>
+            <ProductGroup>Book</ProductGroup>
+            <PublicationDate>1998-10</PublicationDate>
+            <Publisher>Addison-Wesley Professional</Publisher>
+            <Studio>Addison-Wesley Professional</Studio>
+            <Title>The Art of Computer Programming, Volumes 1-3 Boxed Set</Title>
+            <UPC>785342485417</UPC>
+          </ItemAttributes>
+          <OfferSummary>
+            <LowestNewPrice>
+              <Amount>12537</Amount>
+              <CurrencyCode>USD</CurrencyCode>
+              <FormattedPrice>$125.37</FormattedPrice>
+            </LowestNewPrice>
+            <LowestUsedPrice>
+              <Amount>12475</Amount>
+              <CurrencyCode>USD</CurrencyCode>
+              <FormattedPrice>$124.75</FormattedPrice>
+            </LowestUsedPrice>
+            <TotalNew>30</TotalNew>
+            <TotalUsed>12</TotalUsed>
+            <TotalCollectible>0</TotalCollectible>
+            <TotalRefurbished>0</TotalRefurbished>
+          </OfferSummary>
+          <Offers>
+            <TotalOffers>1</TotalOffers>
+            <TotalOfferPages>1</TotalOfferPages>
+            <Offer>
+              <Merchant>
+                <MerchantId>ATVPDKIKX0DER</MerchantId>
+                <GlancePage>http://www.amazon.com/gp/help/seller/home.html?seller=ATVPDKIKX0DER</GlancePage>
+                <AverageFeedbackRating>0.0</AverageFeedbackRating>
+                <TotalFeedback>0</TotalFeedback>
+              </Merchant>
+              <OfferAttributes>
+                <Condition>New</Condition>
+              </OfferAttributes>
+              <OfferListing>
+                <OfferListingId>y6IOV%2BWxnEk8Fnm1zHv8pztkEaddmCmt%2FG9rzdJoyazjQWpp1hUWuPuxdpyfWZ2Uo7jQ2DpwNHM%3D</OfferListingId>
+                <Price>
+                  <Amount>13199</Amount>
+                  <CurrencyCode>USD</CurrencyCode>
+                  <FormattedPrice>$131.99</FormattedPrice>
+                </Price>
+                <Availability>Usually ships in 24 hours</Availability>
+                <IsEligibleForSuperSaverShipping>0</IsEligibleForSuperSaverShipping>
+              </OfferListing>
+            </Offer>
+          </Offers>
+        </Item>
+      </ListItem>
+      <ListItem>
+        <Item>
+          <ASIN>0201541998</ASIN>
+          <DetailPageURL>http://www.amazon.com/exec/obidos/redirect?tag=ws%26link_code=xm2%26camp=2025%26creative=165953%26path=http://www.amazon.com/gp/redirect.html%253fASIN=0201541998%2526tag=ws%2526lcode=xm2%2526cID=2025%2526ccmID=165953%2526location=/o/ASIN/0201541998%25253FSubscriptionId=YOUR_AMAZON_TOKEN%252526coliid=I3N1GXOYLHPWTX%252526colid=1XL5DWOUFMFVJ</DetailPageURL>
+          <SalesRank>422364</SalesRank>
+          <SmallImage>
+            <URL>http://images.amazon.com/images/P/0201541998.01._SCTHUMBZZZ_.jpg</URL>
+            <Height Units="pixels">60</Height>
+            <Width Units="pixels">47</Width>
+          </SmallImage>
+          <MediumImage>
+            <URL>http://images.amazon.com/images/P/0201541998.01._SCMZZZZZZZ_.jpg</URL>
+            <Height Units="pixels">140</Height>
+            <Width Units="pixels">111</Width>
+          </MediumImage>
+          <LargeImage>
+            <URL>http://images.amazon.com/images/P/0201541998.01._SCLZZZZZZZ_.jpg</URL>
+            <Height Units="pixels">475</Height>
+            <Width Units="pixels">376</Width>
+          </LargeImage>
+          <ItemAttributes>
+            <Author>Michel Goossens</Author>
+            <Author>Frank Mittelbach</Author>
+            <Author>Alexander Samarin</Author>
+            <Binding>Paperback</Binding>
+            <DeweyDecimalNumber>686.22544536</DeweyDecimalNumber>
+            <EAN>0785342541991</EAN>
+            <Edition>1st</Edition>
+            <ISBN>0201541998</ISBN>
+            <Label>Addison-Wesley Professional</Label>
+            <ListPrice>
+              <Amount>4499</Amount>
+              <CurrencyCode>USD</CurrencyCode>
+              <FormattedPrice>$44.99</FormattedPrice>
+            </ListPrice>
+            <Manufacturer>Addison-Wesley Professional</Manufacturer>
+            <NumberOfItems>1</NumberOfItems>
+            <NumberOfPages>560</NumberOfPages>
+            <PackageDimensions>
+              <Height Units="hundredths-inches">83</Height>
+              <Length Units="hundredths-inches">922</Length>
+              <Weight Units="hundredths-pounds">181</Weight>
+              <Width Units="hundredths-inches">739</Width>
+            </PackageDimensions>
+            <ProductGroup>Book</ProductGroup>
+            <PublicationDate>1993-12-31</PublicationDate>
+            <Publisher>Addison-Wesley Professional</Publisher>
+            <Studio>Addison-Wesley Professional</Studio>
+            <Title>The Latex Companion (Addison-Wesley Series on Tools and Techniques for Computer T)</Title>
+            <UPC>785342541991</UPC>
+          </ItemAttributes>
+          <OfferSummary>
+            <LowestNewPrice>
+              <Amount>2925</Amount>
+              <CurrencyCode>USD</CurrencyCode>
+              <FormattedPrice>$29.25</FormattedPrice>
+            </LowestNewPrice>
+            <LowestUsedPrice>
+              <Amount>997</Amount>
+              <CurrencyCode>USD</CurrencyCode>
+              <FormattedPrice>$9.97</FormattedPrice>
+            </LowestUsedPrice>
+            <TotalNew>4</TotalNew>
+            <TotalUsed>16</TotalUsed>
+            <TotalCollectible>0</TotalCollectible>
+            <TotalRefurbished>0</TotalRefurbished>
+          </OfferSummary>
+          <Offers>
+            <TotalOffers>0</TotalOffers>
+            <TotalOfferPages>0</TotalOfferPages>
+          </Offers>
+          <Accessories>
+            <Accessory>
+              <ASIN>B0000U1OCI</ASIN>
+              <Title>Omron HJ-112 Digital Premium Pedometer</Title>
+            </Accessory>
+            <Accessory>
+              <ASIN>B0007Y6BS4</ASIN>
+              <Title>Tanita BC533 Glass Innerscan Body Composition Monitor</Title>
+            </Accessory>
+          </Accessories>
+        </Item>
+      </ListItem>
+      <ListItem>
+        <Item>
+          <ASIN>B000002MP2</ASIN>
+          <DetailPageURL>http://www.amazon.com/exec/obidos/redirect?tag=ws%26link_code=xm2%26camp=2025%26creative=165953%26path=http://www.amazon.com/gp/redirect.html%253fASIN=B000002MP2%2526tag=ws%2526lcode=xm2%2526cID=2025%2526ccmID=165953%2526location=/o/ASIN/B000002MP2%25253FSubscriptionId=YOUR_AMAZON_TOKEN%252526coliid=I1NE452W1ETG5D%252526colid=1XL5DWOUFMFVJ</DetailPageURL>
+          <SalesRank>1254</SalesRank>
+          <SmallImage>
+            <URL>http://images.amazon.com/images/P/B000002MP2.01._SCTHUMBZZZ_.jpg</URL>
+            <Height Units="pixels">74</Height>
+            <Width Units="pixels">75</Width>
+          </SmallImage>
+          <MediumImage>
+            <URL>http://images.amazon.com/images/P/B000002MP2.01._SCMZZZZZZZ_.jpg</URL>
+            <Height Units="pixels">159</Height>
+            <Width Units="pixels">160</Width>
+          </MediumImage>
+          <LargeImage>
+            <URL>http://images.amazon.com/images/P/B000002MP2.01._SCLZZZZZZZ_.jpg</URL>
+            <Height Units="pixels">300</Height>
+            <Width Units="pixels">301</Width>
+          </LargeImage>
+          <ItemAttributes>
+            <Artist>Green Day</Artist>
+            <Binding>Audio CD</Binding>
+            <EAN>0093624552925</EAN>
+            <Label>Reprise / Wea</Label>
+            <ListPrice>
+              <Amount>1198</Amount>
+              <CurrencyCode>USD</CurrencyCode>
+              <FormattedPrice>$11.98</FormattedPrice>
+            </ListPrice>
+            <Manufacturer>Reprise / Wea</Manufacturer>
+            <NumberOfDiscs>1</NumberOfDiscs>
+            <OriginalReleaseDate>1994-02-01</OriginalReleaseDate>
+            <PackageDimensions>
+              <Height Units="hundredths-inches">54</Height>
+              <Length Units="hundredths-inches">555</Length>
+              <Weight Units="hundredths-pounds">18</Weight>
+              <Width Units="hundredths-inches">497</Width>
+            </PackageDimensions>
+            <ProductGroup>Music</ProductGroup>
+            <Publisher>Reprise / Wea</Publisher>
+            <ReleaseDate>1994-02-01</ReleaseDate>
+            <Studio>Reprise / Wea</Studio>
+            <Title>Dookie</Title>
+            <UPC>093624552925</UPC>
+          </ItemAttributes>
+          <OfferSummary>
+            <LowestNewPrice>
+              <Amount>525</Amount>
+              <CurrencyCode>USD</CurrencyCode>
+              <FormattedPrice>$5.25</FormattedPrice>
+            </LowestNewPrice>
+            <LowestUsedPrice>
+              <Amount>79</Amount>
+              <CurrencyCode>USD</CurrencyCode>
+              <FormattedPrice>$0.79</FormattedPrice>
+            </LowestUsedPrice>
+            <LowestCollectiblePrice>
+              <Amount>399</Amount>
+              <CurrencyCode>USD</CurrencyCode>
+              <FormattedPrice>$3.99</FormattedPrice>
+            </LowestCollectiblePrice>
+            <TotalNew>78</TotalNew>
+            <TotalUsed>158</TotalUsed>
+            <TotalCollectible>10</TotalCollectible>
+            <TotalRefurbished>0</TotalRefurbished>
+          </OfferSummary>
+          <Offers>
+            <TotalOffers>1</TotalOffers>
+            <TotalOfferPages>1</TotalOfferPages>
+            <Offer>
+              <Merchant>
+                <MerchantId>ATVPDKIKX0DER</MerchantId>
+                <GlancePage>http://www.amazon.com/gp/help/seller/home.html?seller=ATVPDKIKX0DER</GlancePage>
+                <AverageFeedbackRating>0.0</AverageFeedbackRating>
+                <TotalFeedback>0</TotalFeedback>
+              </Merchant>
+              <OfferAttributes>
+                <Condition>New</Condition>
+              </OfferAttributes>
+              <OfferListing>
+                <OfferListingId>hPJuO88xyBeRnCexQrCZDx1yl%2FSRbn8jNiOdSh0UniCa1QwDhNiVSTnxeSsPA9Fz%2F8mnNIGIASU%3D</OfferListingId>
+                <Price>
+                  <Amount>999</Amount>
+                  <CurrencyCode>USD</CurrencyCode>
+                  <FormattedPrice>$9.99</FormattedPrice>
+                </Price>
+                <Availability>Usually ships in 24 hours</Availability>
+                <IsEligibleForSuperSaverShipping>1</IsEligibleForSuperSaverShipping>
+              </OfferListing>
+            </Offer>
+          </Offers>
+          <Tracks>
+            <Disc Number="1">
+              <Track Number="1">Burnout</Track>
+              <Track Number="2">Having A Blast</Track>
+              <Track Number="3">Chump</Track>
+              <Track Number="4">Longview</Track>
+              <Track Number="5">Welcome To Paradise</Track>
+              <Track Number="6">Pulling Teeth</Track>
+              <Track Number="7">Basket Case</Track>
+              <Track Number="8">She</Track>
+              <Track Number="9">Sassafras Roots</Track>
+              <Track Number="10">When I Come Around</Track>
+              <Track Number="11">Coming Clean</Track>
+              <Track Number="12">Emenius Sleepus</Track>
+              <Track Number="13">In The End</Track>
+              <Track Number="14">F.O.D.</Track>
+            </Disc>
+          </Tracks>
+        </Item>
+      </ListItem>
+      <ListItem>
+        <Item>
+          <ASIN>0596001320</ASIN>
+          <DetailPageURL>http://www.amazon.com/exec/obidos/redirect?tag=ws%26link_code=xm2%26camp=2025%26creative=165953%26path=http://www.amazon.com/gp/redirect.html%253fASIN=0596001320%2526tag=ws%2526lcode=xm2%2526cID=2025%2526ccmID=165953%2526location=/o/ASIN/0596001320%25253FSubscriptionId=YOUR_AMAZON_TOKEN%252526coliid=I2D4QFHURIC36I%252526colid=1XL5DWOUFMFVJ</DetailPageURL>
+          <SalesRank>38611</SalesRank>
+          <SmallImage>
+            <URL>http://images.amazon.com/images/P/0596001320.01._SCTHUMBZZZ_.jpg</URL>
+            <Height Units="pixels">75</Height>
+            <Width Units="pixels">57</Width>
+          </SmallImage>
+          <MediumImage>
+            <URL>http://images.amazon.com/images/P/0596001320.01._SCMZZZZZZZ_.jpg</URL>
+            <Height Units="pixels">160</Height>
+            <Width Units="pixels">121</Width>
+          </MediumImage>
+          <LargeImage>
+            <URL>http://images.amazon.com/images/P/0596001320.01._SCLZZZZZZZ_.jpg</URL>
+            <Height Units="pixels">500</Height>
+            <Width Units="pixels">379</Width>
+          </LargeImage>
+          <ItemAttributes>
+            <Author>Randal L. Schwartz</Author>
+            <Author>Tom Phoenix</Author>
+            <Binding>Paperback</Binding>
+            <DeweyDecimalNumber>005.133</DeweyDecimalNumber>
+            <EAN>9780596001322</EAN>
+            <Edition>3rd</Edition>
+            <ISBN>0596001320</ISBN>
+            <Label>O'Reilly</Label>
+            <ListPrice>
+              <Amount>3495</Amount>
+              <CurrencyCode>USD</CurrencyCode>
+              <FormattedPrice>$34.95</FormattedPrice>
+            </ListPrice>
+            <Manufacturer>O'Reilly</Manufacturer>
+            <NumberOfItems>1</NumberOfItems>
+            <NumberOfPages>334</NumberOfPages>
+            <PackageDimensions>
+              <Height Units="hundredths-inches">83</Height>
+              <Length Units="hundredths-inches">924</Length>
+              <Weight Units="hundredths-pounds">117</Weight>
+              <Width Units="hundredths-inches">704</Width>
+            </PackageDimensions>
+            <ProductGroup>Book</ProductGroup>
+            <PublicationDate>2001-07-15</PublicationDate>
+            <Publisher>O'Reilly</Publisher>
+            <Studio>O'Reilly</Studio>
+            <Title>Learning Perl, Third Edition</Title>
+          </ItemAttributes>
+          <OfferSummary>
+            <LowestNewPrice>
+              <Amount>562</Amount>
+              <CurrencyCode>USD</CurrencyCode>
+              <FormattedPrice>$5.62</FormattedPrice>
+            </LowestNewPrice>
+            <LowestUsedPrice>
+              <Amount>385</Amount>
+              <CurrencyCode>USD</CurrencyCode>
+              <FormattedPrice>$3.85</FormattedPrice>
+            </LowestUsedPrice>
+            <LowestCollectiblePrice>
+              <Amount>500</Amount>
+              <CurrencyCode>USD</CurrencyCode>
+              <FormattedPrice>$5.00</FormattedPrice>
+            </LowestCollectiblePrice>
+            <TotalNew>14</TotalNew>
+            <TotalUsed>26</TotalUsed>
+            <TotalCollectible>2</TotalCollectible>
+            <TotalRefurbished>0</TotalRefurbished>
+          </OfferSummary>
+          <Offers>
+            <TotalOffers>1</TotalOffers>
+            <TotalOfferPages>1</TotalOfferPages>
+            <Offer>
+              <Merchant>
+                <MerchantId>ATVPDKIKX0DER</MerchantId>
+                <GlancePage>http://www.amazon.com/gp/help/seller/home.html?seller=ATVPDKIKX0DER</GlancePage>
+                <AverageFeedbackRating>0.0</AverageFeedbackRating>
+                <TotalFeedback>0</TotalFeedback>
+              </Merchant>
+              <OfferAttributes>
+                <Condition>New</Condition>
+              </OfferAttributes>
+              <OfferListing>
+                <OfferListingId>8EsFUZf1zaZ78LWf1SwCpBjmIRSM05qm3MxjPOC4DW%2Br%2B%2F0z51MsrU%2B8qWKcn909w7S51d7kj18%3D</OfferListingId>
+                <Price>
+                  <Amount>3495</Amount>
+                  <CurrencyCode>USD</CurrencyCode>
+                  <FormattedPrice>$34.95</FormattedPrice>
+                </Price>
+                <Availability>Usually ships in 2 to 3 weeks</Availability>
+                <IsEligibleForSuperSaverShipping>1</IsEligibleForSuperSaverShipping>
+              </OfferListing>
+            </Offer>
+          </Offers>
+        </Item>
+      </ListItem>
+      <ListItem>
+        <Item>
+          <ASIN>B00006RU5B</ASIN>
+          <DetailPageURL>http://www.amazon.com/exec/obidos/redirect?tag=ws%26link_code=xm2%26camp=2025%26creative=165953%26path=http://www.amazon.com/gp/redirect.html%253fASIN=B00006RU5B%2526tag=ws%2526lcode=xm2%2526cID=2025%2526ccmID=165953%2526location=/o/ASIN/B00006RU5B%25253FSubscriptionId=YOUR_AMAZON_TOKEN%252526coliid=I8C96PYNUGOV9%252526colid=1XL5DWOUFMFVJ</DetailPageURL>
+          <SalesRank>1643</SalesRank>
+          <SmallImage>
+            <URL>http://images.amazon.com/images/P/B00006RU5B.01._SCTHUMBZZZ_.jpg</URL>
+            <Height Units="pixels">75</Height>
+            <Width Units="pixels">75</Width>
+          </SmallImage>
+          <MediumImage>
+            <URL>http://images.amazon.com/images/P/B00006RU5B.01._SCMZZZZZZZ_.jpg</URL>
+            <Height Units="pixels">160</Height>
+            <Width Units="pixels">160</Width>
+          </MediumImage>
+          <LargeImage>
+            <URL>http://images.amazon.com/images/P/B00006RU5B.01._SCLZZZZZZZ_.jpg</URL>
+            <Height Units="pixels">500</Height>
+            <Width Units="pixels">500</Width>
+          </LargeImage>
+          <ItemAttributes>
+            <Artist>Audioslave</Artist>
+            <Binding>Audio CD</Binding>
+            <EAN>0696998696822</EAN>
+            <Label>Sony</Label>
+            <ListPrice>
+              <Amount>1398</Amount>
+              <CurrencyCode>USD</CurrencyCode>
+              <FormattedPrice>$13.98</FormattedPrice>
+            </ListPrice>
+            <Manufacturer>Sony</Manufacturer>
+            <NumberOfDiscs>1</NumberOfDiscs>
+            <PackageDimensions>
+              <Height Units="hundredths-inches">50</Height>
+              <Length Units="hundredths-inches">560</Length>
+              <Weight Units="hundredths-pounds">20</Weight>
+              <Width Units="hundredths-inches">490</Width>
+            </PackageDimensions>
+            <ProductGroup>Music</ProductGroup>
+            <Publisher>Sony</Publisher>
+            <ReleaseDate>2002-11-19</ReleaseDate>
+            <Studio>Sony</Studio>
+            <Title>Audioslave</Title>
+            <UPC>696998696822</UPC>
+          </ItemAttributes>
+          <OfferSummary>
+            <LowestNewPrice>
+              <Amount>748</Amount>
+              <CurrencyCode>USD</CurrencyCode>
+              <FormattedPrice>$7.48</FormattedPrice>
+            </LowestNewPrice>
+            <LowestUsedPrice>
+              <Amount>474</Amount>
+              <CurrencyCode>USD</CurrencyCode>
+              <FormattedPrice>$4.74</FormattedPrice>
+            </LowestUsedPrice>
+            <LowestCollectiblePrice>
+              <Amount>888</Amount>
+              <CurrencyCode>USD</CurrencyCode>
+              <FormattedPrice>$8.88</FormattedPrice>
+            </LowestCollectiblePrice>
+            <TotalNew>67</TotalNew>
+            <TotalUsed>51</TotalUsed>
+            <TotalCollectible>4</TotalCollectible>
+            <TotalRefurbished>0</TotalRefurbished>
+          </OfferSummary>
+          <Offers>
+            <TotalOffers>1</TotalOffers>
+            <TotalOfferPages>1</TotalOfferPages>
+            <Offer>
+              <Merchant>
+                <MerchantId>ATVPDKIKX0DER</MerchantId>
+                <GlancePage>http://www.amazon.com/gp/help/seller/home.html?seller=ATVPDKIKX0DER</GlancePage>
+                <AverageFeedbackRating>0.0</AverageFeedbackRating>
+                <TotalFeedback>0</TotalFeedback>
+              </Merchant>
+              <OfferAttributes>
+                <Condition>New</Condition>
+              </OfferAttributes>
+              <OfferListing>
+                <OfferListingId>j96KvG6Xqa3etkgWe5qwcjl9%2B0%2FWehaRl36Lx1cDFZ5qPRAHe5Lrusi5HGDsNeIoCNuP5KRLs9o%3D</OfferListingId>
+                <Price>
+                  <Amount>897</Amount>
+                  <CurrencyCode>USD</CurrencyCode>
+                  <FormattedPrice>$8.97</FormattedPrice>
+                </Price>
+                <Availability>Usually ships in 24 hours</Availability>
+                <IsEligibleForSuperSaverShipping>1</IsEligibleForSuperSaverShipping>
+              </OfferListing>
+            </Offer>
+          </Offers>
+          <Tracks>
+            <Disc Number="1">
+              <Track Number="1">Cochise</Track>
+              <Track Number="2">Show Me How To Live</Track>
+              <Track Number="3">Gasoline</Track>
+              <Track Number="4">What You Are</Track>
+              <Track Number="5">Like A Stone</Track>
+              <Track Number="6">Set It Off</Track>
+              <Track Number="7">Shadow Of The Sun</Track>
+              <Track Number="8">I Am The Highway</Track>
+              <Track Number="9">Exploder</Track>
+              <Track Number="10">Hypnotize</Track>
+              <Track Number="11">Bring Em Back Alive</Track>
+              <Track Number="12">Light My Way</Track>
+              <Track Number="13">Getaway Car</Track>
+              <Track Number="14">The Last Remaining Light</Track>
+            </Disc>
+          </Tracks>
+        </Item>
+      </ListItem>
+      <ListItem>
+        <Item>
+          <ASIN>B0000CC6QC</ASIN>
+          <DetailPageURL>http://www.amazon.com/exec/obidos/redirect?tag=ws%26link_code=xm2%26camp=2025%26creative=165953%26path=http://www.amazon.com/gp/redirect.html%253fASIN=B0000CC6QC%2526tag=ws%2526lcode=xm2%2526cID=2025%2526ccmID=165953%2526location=/o/ASIN/B0000CC6QC%25253FSubscriptionId=YOUR_AMAZON_TOKEN%252526coliid=I24ZV4T609AWHS%252526colid=1XL5DWOUFMFVJ</DetailPageURL>
+          <SalesRank>12971</SalesRank>
+          <SmallImage>
+            <URL>http://images.amazon.com/images/P/B0000CC6QC.01._SCTHUMBZZZ_.jpg</URL>
+            <Height Units="pixels">75</Height>
+            <Width Units="pixels">74</Width>
+          </SmallImage>
+          <MediumImage>
+            <URL>http://images.amazon.com/images/P/B0000CC6QC.01._SCMZZZZZZZ_.jpg</URL>
+            <Height Units="pixels">160</Height>
+            <Width Units="pixels">159</Width>
+          </MediumImage>
+          <LargeImage>
+            <URL>http://images.amazon.com/images/P/B0000CC6QC.01._SCLZZZZZZZ_.jpg</URL>
+            <Height Units="pixels">300</Height>
+            <Width Units="pixels">299</Width>
+          </LargeImage>
+          <ItemAttributes>
+            <Artist>Barenaked Ladies</Artist>
+            <Binding>Audio CD</Binding>
+            <EAN>0093624820925</EAN>
+            <Label>Reprise / Wea</Label>
+            <ListPrice>
+              <Amount>1898</Amount>
+              <CurrencyCode>USD</CurrencyCode>
+              <FormattedPrice>$18.98</FormattedPrice>
+            </ListPrice>
+            <Manufacturer>Reprise / Wea</Manufacturer>
+            <NumberOfDiscs>1</NumberOfDiscs>
+            <OriginalReleaseDate>2003-10-21</OriginalReleaseDate>
+            <PackageDimensions>
+              <Height Units="hundredths-inches">40</Height>
+              <Length Units="hundredths-inches">550</Length>
+              <Weight Units="hundredths-pounds">15</Weight>
+              <Width Units="hundredths-inches">490</Width>
+            </PackageDimensions>
+            <ProductGroup>Music</ProductGroup>
+            <Publisher>Reprise / Wea</Publisher>
+            <ReleaseDate>2003-10-21</ReleaseDate>
+            <Studio>Reprise / Wea</Studio>
+            <Title>Everything to Everyone</Title>
+            <UPC>093624820925</UPC>
+          </ItemAttributes>
+          <OfferSummary>
+            <LowestNewPrice>
+              <Amount>449</Amount>
+              <CurrencyCode>USD</CurrencyCode>
+              <FormattedPrice>$4.49</FormattedPrice>
+            </LowestNewPrice>
+            <LowestUsedPrice>
+              <Amount>172</Amount>
+              <CurrencyCode>USD</CurrencyCode>
+              <FormattedPrice>$1.72</FormattedPrice>
+            </LowestUsedPrice>
+            <LowestCollectiblePrice>
+              <Amount>996</Amount>
+              <CurrencyCode>USD</CurrencyCode>
+              <FormattedPrice>$9.96</FormattedPrice>
+            </LowestCollectiblePrice>
+            <TotalNew>58</TotalNew>
+            <TotalUsed>57</TotalUsed>
+            <TotalCollectible>1</TotalCollectible>
+            <TotalRefurbished>0</TotalRefurbished>
+          </OfferSummary>
+          <Offers>
+            <TotalOffers>1</TotalOffers>
+            <TotalOfferPages>1</TotalOfferPages>
+            <Offer>
+              <Merchant>
+                <MerchantId>ATVPDKIKX0DER</MerchantId>
+                <GlancePage>http://www.amazon.com/gp/help/seller/home.html?seller=ATVPDKIKX0DER</GlancePage>
+                <AverageFeedbackRating>0.0</AverageFeedbackRating>
+                <TotalFeedback>0</TotalFeedback>
+              </Merchant>
+              <OfferAttributes>
+                <Condition>New</Condition>
+              </OfferAttributes>
+              <OfferListing>
+                <OfferListingId>rBLYOxpSyqNkC5vUzFFbUpQpWUMQny3XDejRbNiLIXstUZl6rWF9oE6%2Bpw7y3gxaCBwfXsbjdCI%3D</OfferListingId>
+                <Price>
+                  <Amount>1499</Amount>
+                  <CurrencyCode>USD</CurrencyCode>
+                  <FormattedPrice>$14.99</FormattedPrice>
+                </Price>
+                <Availability>Usually ships in 24 hours</Availability>
+                <IsEligibleForSuperSaverShipping>1</IsEligibleForSuperSaverShipping>
+              </OfferListing>
+            </Offer>
+          </Offers>
+          <Tracks>
+            <Disc Number="1">
+              <Track Number="1">Celebrity</Track>
+              <Track Number="2">Maybe Katie</Track>
+              <Track Number="3">Another Postcard</Track>
+              <Track Number="4">Next Time</Track>
+              <Track Number="5">For You</Track>
+              <Track Number="6">Shopping</Track>
+              <Track Number="7">Testing 1,2,3</Track>
+              <Track Number="8">Upside Down</Track>
+              <Track Number="9">War On Drugs</Track>
+              <Track Number="10">Aluminum</Track>
+              <Track Number="11">Unfinished</Track>
+              <Track Number="12">Second Best</Track>
+              <Track Number="13">Take It Outside</Track>
+              <Track Number="14">Have You Seen My Love?</Track>
+            </Disc>
+          </Tracks>
+        </Item>
+      </ListItem>
+      <ListItem>
+        <Item>
+          <ASIN>B00005RWG2</ASIN>
+          <DetailPageURL>http://www.amazon.com/exec/obidos/redirect?tag=ws%26link_code=xm2%26camp=2025%26creative=165953%26path=http://www.amazon.com/gp/redirect.html%253fASIN=B00005RWG2%2526tag=ws%2526lcode=xm2%2526cID=2025%2526ccmID=165953%2526location=/o/ASIN/B00005RWG2%25253FSubscriptionId=YOUR_AMAZON_TOKEN%252526coliid=I3I78WENSF8GZ9%252526colid=1XL5DWOUFMFVJ</DetailPageURL>
+          <SalesRank>52259</SalesRank>
+          <SmallImage>
+            <URL>http://images.amazon.com/images/P/B00005RWG2.01._SCTHUMBZZZ_.jpg</URL>
+            <Height Units="pixels">44</Height>
+            <Width Units="pixels">60</Width>
+          </SmallImage>
+          <MediumImage>
+            <URL>http://images.amazon.com/images/P/B00005RWG2.01._SCMZZZZZZZ_.jpg</URL>
+            <Height Units="pixels">111</Height>
+            <Width Units="pixels">150</Width>
+          </MediumImage>
+          <LargeImage>
+            <URL>http://images.amazon.com/images/P/B00005RWG2.01._SCLZZZZZZZ_.jpg</URL>
+            <Height Units="pixels">369</Height>
+            <Width Units="pixels">500</Width>
+          </LargeImage>
+          <ItemAttributes>
+            <Binding>Electronics</Binding>
+            <Brand>Hewlett-Packard</Brand>
+            <Compatibility>PC USB</Compatibility>
+            <EAN>0725184632471</EAN>
+            <Feature>Supports optional networking and scanner/copier attachments</Feature>
+            <Feature>1,200 x 1,200 dpi resolution</Feature>
+            <Feature>8 MB RAM, expandable to 72 MB</Feature>
+            <Feature>15 page per minute printing speed</Feature>
+            <Feature>USB and parallel connectivity; PC and Mac compatible</Feature>
+            <Label>Hewlett Packard</Label>
+            <ListPrice>
+              <Amount>49900</Amount>
+              <CurrencyCode>USD</CurrencyCode>
+              <FormattedPrice>$499.00</FormattedPrice>
+            </ListPrice>
+            <Manufacturer>Hewlett Packard</Manufacturer>
+            <Model>1200se</Model>
+            <ModemDescription>None</ModemDescription>
+            <MPN>1200se</MPN>
+            <NumberOfItems>1</NumberOfItems>
+            <PackageDimensions>
+              <Height Units="hundredths-inches">1600</Height>
+              <Length Units="hundredths-inches">1900</Length>
+              <Weight Units="hundredths-pounds">2280</Weight>
+              <Width Units="hundredths-inches">1700</Width>
+            </PackageDimensions>
+            <Platform>Windows Me</Platform>
+            <Platform>Windows NT 5</Platform>
+            <Platform>Windows NT 4</Platform>
+            <Platform>Windows NT 3.5</Platform>
+            <Platform>Windows 2000</Platform>
+            <Platform>Windows 98</Platform>
+            <Platform>Windows NT</Platform>
+            <Platform>Windows</Platform>
+            <Platform>Windows 2000 Server</Platform>
+            <Platform>Windows XP</Platform>
+            <ProductGroup>CE</ProductGroup>
+            <Publisher>Hewlett Packard</Publisher>
+            <Studio>Hewlett Packard</Studio>
+            <Title>HP LaserJet 1200se Printer</Title>
+            <UPC>725184632471</UPC>
+            <Warranty>1 year warranty</Warranty>
+          </ItemAttributes>
+          <OfferSummary>
+            <TotalNew>0</TotalNew>
+            <TotalUsed>0</TotalUsed>
+            <TotalCollectible>0</TotalCollectible>
+            <TotalRefurbished>0</TotalRefurbished>
+          </OfferSummary>
+          <Offers>
+            <TotalOffers>0</TotalOffers>
+            <TotalOfferPages>0</TotalOfferPages>
+          </Offers>
+          <Accessories>
+            <Accessory>
+              <ASIN>B000CO77RI</ASIN>
+              <Title>2-Year Service Plan for Personal Electronics</Title>
+            </Accessory>
+            <Accessory>
+              <ASIN>B000COB58K</ASIN>
+              <Title>3-Year Service Plan for Personal Electronics</Title>
+            </Accessory>
+            <Accessory>
+              <ASIN>B0000DIWW2</ASIN>
+              <Title>Netgear FWG114P 802.11g Wireless Firewall with USB Print Server</Title>
+            </Accessory>
+            <Accessory>
+              <ASIN>B0001BXVA4</ASIN>
+              <Title>Netgear USB Mini Print Server (PS121)</Title>
+            </Accessory>
+            <Accessory>
+              <ASIN>B00000J1TX</ASIN>
+              <Title>Belkin F3U133-06 USB Device Cable (6 FT)</Title>
+            </Accessory>
+          </Accessories>
+        </Item>
+      </ListItem>
+      <ListItem>
+        <Item>
+          <ASIN>0130661023</ASIN>
+          <DetailPageURL>http://www.amazon.com/exec/obidos/redirect?tag=ws%26link_code=xm2%26camp=2025%26creative=165953%26path=http://www.amazon.com/gp/redirect.html%253fASIN=0130661023%2526tag=ws%2526lcode=xm2%2526cID=2025%2526ccmID=165953%2526location=/o/ASIN/0130661023%25253FSubscriptionId=YOUR_AMAZON_TOKEN%252526coliid=IZZI1VT30Q7K4%252526colid=1XL5DWOUFMFVJ</DetailPageURL>
+          <SalesRank>12966</SalesRank>
+          <SmallImage>
+            <URL>http://images.amazon.com/images/P/0130661023.01._SCTHUMBZZZ_.jpg</URL>
+            <Height Units="pixels">75</Height>
+            <Width Units="pixels">54</Width>
+          </SmallImage>
+          <MediumImage>
+            <URL>http://images.amazon.com/images/P/0130661023.01._SCMZZZZZZZ_.jpg</URL>
+            <Height Units="pixels">160</Height>
+            <Width Units="pixels">115</Width>
+          </MediumImage>
+          <LargeImage>
+            <URL>http://images.amazon.com/images/P/0130661023.01._SCLZZZZZZZ_.jpg</URL>
+            <Height Units="pixels">500</Height>
+            <Width Units="pixels">359</Width>
+          </LargeImage>
+          <ItemAttributes>
+            <Author>Andrew S. Tanenbaum</Author>
+            <Binding>Hardcover</Binding>
+            <DeweyDecimalNumber>004.6</DeweyDecimalNumber>
+            <EAN>0076092022473</EAN>
+            <Edition>4</Edition>
+            <ISBN>0130661023</ISBN>
+            <Label>Prentice Hall PTR</Label>
+            <ListPrice>
+              <Amount>9240</Amount>
+              <CurrencyCode>USD</CurrencyCode>
+              <FormattedPrice>$92.40</FormattedPrice>
+            </ListPrice>
+            <Manufacturer>Prentice Hall PTR</Manufacturer>
+            <NumberOfItems>1</NumberOfItems>
+            <NumberOfPages>912</NumberOfPages>
+            <PackageDimensions>
+              <Height Units="hundredths-inches">151</Height>
+              <Length Units="hundredths-inches">946</Length>
+              <Weight Units="hundredths-pounds">324</Weight>
+              <Width Units="hundredths-inches">726</Width>
+            </PackageDimensions>
+            <ProductGroup>Book</ProductGroup>
+            <PublicationDate>2002-08-09</PublicationDate>
+            <Publisher>Prentice Hall PTR</Publisher>
+            <Studio>Prentice Hall PTR</Studio>
+            <Title>Computer Networks, Fourth Edition</Title>
+            <UPC>076092022473</UPC>
+          </ItemAttributes>
+          <OfferSummary>
+            <LowestNewPrice>
+              <Amount>1000</Amount>
+              <CurrencyCode>USD</CurrencyCode>
+              <FormattedPrice>$10.00</FormattedPrice>
+            </LowestNewPrice>
+            <LowestUsedPrice>
+              <Amount>3699</Amount>
+              <CurrencyCode>USD</CurrencyCode>
+              <FormattedPrice>$36.99</FormattedPrice>
+            </LowestUsedPrice>
+            <TotalNew>41</TotalNew>
+            <TotalUsed>40</TotalUsed>
+            <TotalCollectible>0</TotalCollectible>
+            <TotalRefurbished>0</TotalRefurbished>
+          </OfferSummary>
+          <Offers>
+            <TotalOffers>1</TotalOffers>
+            <TotalOfferPages>1</TotalOfferPages>
+            <Offer>
+              <Merchant>
+                <MerchantId>ATVPDKIKX0DER</MerchantId>
+                <GlancePage>http://www.amazon.com/gp/help/seller/home.html?seller=ATVPDKIKX0DER</GlancePage>
+                <AverageFeedbackRating>0.0</AverageFeedbackRating>
+                <TotalFeedback>0</TotalFeedback>
+              </Merchant>
+              <OfferAttributes>
+                <Condition>New</Condition>
+              </OfferAttributes>
+              <OfferListing>
+                <OfferListingId>0T8MGRP28kpDPpObefRbevRbOalpVag31Sd65pfBxDaMwCO9NXMe4AYBaO82LHJJgkN96pcRgNU%3D</OfferListingId>
+                <Price>
+                  <Amount>7533</Amount>
+                  <CurrencyCode>USD</CurrencyCode>
+                  <FormattedPrice>$75.33</FormattedPrice>
+                </Price>
+                <Availability>Usually ships in 24 hours</Availability>
+                <IsEligibleForSuperSaverShipping>1</IsEligibleForSuperSaverShipping>
+              </OfferListing>
+            </Offer>
+          </Offers>
+        </Item>
+      </ListItem>
+      <ListItem>
+        <Item>
+          <ASIN>0201100886</ASIN>
+          <DetailPageURL>http://www.amazon.com/exec/obidos/redirect?tag=ws%26link_code=xm2%26camp=2025%26creative=165953%26path=http://www.amazon.com/gp/redirect.html%253fASIN=0201100886%2526tag=ws%2526lcode=xm2%2526cID=2025%2526ccmID=165953%2526location=/o/ASIN/0201100886%25253FSubscriptionId=YOUR_AMAZON_TOKEN%252526coliid=IL3R3Z0FJPDES%252526colid=1XL5DWOUFMFVJ</DetailPageURL>
+          <SalesRank>15756</SalesRank>
+          <SmallImage>
+            <URL>http://images.amazon.com/images/P/0201100886.01._SCTHUMBZZZ_.jpg</URL>
+            <Height Units="pixels">60</Height>
+            <Width Units="pixels">41</Width>
+          </SmallImage>
+          <MediumImage>
+            <URL>http://images.amazon.com/images/P/0201100886.01._SCMZZZZZZZ_.jpg</URL>
+            <Height Units="pixels">140</Height>
+            <Width Units="pixels">95</Width>
+          </MediumImage>
+          <LargeImage>
+            <URL>http://images.amazon.com/images/P/0201100886.01._SCLZZZZZZZ_.jpg</URL>
+            <Height Units="pixels">475</Height>
+            <Width Units="pixels">319</Width>
+          </LargeImage>
+          <ItemAttributes>
+            <Author>Alfred V. Aho</Author>
+            <Author>Ravi Sethi</Author>
+            <Author>Jeffrey D. Ullman</Author>
+            <Binding>Hardcover</Binding>
+            <DeweyDecimalNumber>005.453</DeweyDecimalNumber>
+            <EAN>9780201100884</EAN>
+            <Edition>US Ed</Edition>
+            <ISBN>0201100886</ISBN>
+            <Label>Addison Wesley</Label>
+            <ListPrice>
+              <Amount>11280</Amount>
+              <CurrencyCode>USD</CurrencyCode>
+              <FormattedPrice>$112.80</FormattedPrice>
+            </ListPrice>
+            <Manufacturer>Addison Wesley</Manufacturer>
+            <NumberOfItems>1</NumberOfItems>
+            <NumberOfPages>500</NumberOfPages>
+            <PackageDimensions>
+              <Height Units="hundredths-inches">142</Height>
+              <Length Units="hundredths-inches">950</Length>
+              <Weight Units="hundredths-pounds">263</Weight>
+              <Width Units="hundredths-inches">662</Width>
+            </PackageDimensions>
+            <ProductGroup>Book</ProductGroup>
+            <PublicationDate>1986-01-01</PublicationDate>
+            <Publisher>Addison Wesley</Publisher>
+            <Studio>Addison Wesley</Studio>
+            <Title>Compilers</Title>
+          </ItemAttributes>
+          <OfferSummary>
+            <LowestNewPrice>
+              <Amount>4898</Amount>
+              <CurrencyCode>USD</CurrencyCode>
+              <FormattedPrice>$48.98</FormattedPrice>
+            </LowestNewPrice>
+            <LowestUsedPrice>
+              <Amount>2554</Amount>
+              <CurrencyCode>USD</CurrencyCode>
+              <FormattedPrice>$25.54</FormattedPrice>
+            </LowestUsedPrice>
+            <TotalNew>36</TotalNew>
+            <TotalUsed>47</TotalUsed>
+            <TotalCollectible>0</TotalCollectible>
+            <TotalRefurbished>0</TotalRefurbished>
+          </OfferSummary>
+          <Offers>
+            <TotalOffers>1</TotalOffers>
+            <TotalOfferPages>1</TotalOfferPages>
+            <Offer>
+              <Merchant>
+                <MerchantId>ATVPDKIKX0DER</MerchantId>
+                <GlancePage>http://www.amazon.com/gp/help/seller/home.html?seller=ATVPDKIKX0DER</GlancePage>
+                <AverageFeedbackRating>0.0</AverageFeedbackRating>
+                <TotalFeedback>0</TotalFeedback>
+              </Merchant>
+              <OfferAttributes>
+                <Condition>New</Condition>
+              </OfferAttributes>
+              <OfferListing>
+                <OfferListingId>TCwRZHVR5yr4s5Ak87OQWIVaZ4D2Tl3UgqT8gAWXplhUFuCab9oSIyUJxMW8ls93RkK5FOGXBSQ%3D</OfferListingId>
+                <Price>
+                  <Amount>8559</Amount>
+                  <CurrencyCode>USD</CurrencyCode>
+                  <FormattedPrice>$85.59</FormattedPrice>
+                </Price>
+                <Availability>Usually ships in 24 hours</Availability>
+                <IsEligibleForSuperSaverShipping>1</IsEligibleForSuperSaverShipping>
+              </OfferListing>
+            </Offer>
+          </Offers>
+        </Item>
+      </ListItem>
+    </List>
+  </Lists>
+</ListLookupResponse>

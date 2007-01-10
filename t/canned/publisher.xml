@@ -1,0 +1,758 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ItemSearchResponse xmlns="http://webservices.amazon.com/AWSECommerceService/2006-06-28">
+  <Items>
+    <TotalResults>27</TotalResults>
+    <TotalPages>3</TotalPages>
+    <Item>
+      <ASIN>0897500385</ASIN>
+      <DetailPageURL>http://www.amazon.com/exec/obidos/redirect?tag=ws%26link_code=xm2%26camp=2025%26creative=165953%26path=http://www.amazon.com/gp/redirect.html%253fASIN=0897500385%2526tag=ws%2526lcode=xm2%2526cID=2025%2526ccmID=165953%2526location=/o/ASIN/0897500385%25253FSubscriptionId=YOUR_AMAZON_TOKEN</DetailPageURL>
+      <SalesRank>84161</SalesRank>
+      <SmallImage>
+        <URL>http://images.amazon.com/images/P/0897500385.01._SCTHUMBZZZ_.jpg</URL>
+        <Height Units="pixels">60</Height>
+        <Width Units="pixels">40</Width>
+      </SmallImage>
+      <MediumImage>
+        <URL>http://images.amazon.com/images/P/0897500385.01._SCMZZZZZZZ_.jpg</URL>
+        <Height Units="pixels">140</Height>
+        <Width Units="pixels">93</Width>
+      </MediumImage>
+      <LargeImage>
+        <URL>http://images.amazon.com/images/P/0897500385.01._SCLZZZZZZZ_.jpg</URL>
+        <Height Units="pixels">475</Height>
+        <Width Units="pixels">314</Width>
+      </LargeImage>
+      <ItemAttributes>
+        <Author>Bucksam Kong</Author>
+        <Author>Eugene H. Ho</Author>
+        <Binding>Paperback</Binding>
+        <EAN>9780897500388</EAN>
+        <ISBN>0897500385</ISBN>
+        <Label>Black Belt Communications Inc</Label>
+        <ListPrice>
+          <Amount>1600</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$16.00</FormattedPrice>
+        </ListPrice>
+        <Manufacturer>Black Belt Communications Inc</Manufacturer>
+        <NumberOfPages>224</NumberOfPages>
+        <PackageDimensions>
+          <Height Units="hundredths-inches">900</Height>
+          <Length Units="hundredths-inches">50</Length>
+          <Weight Units="hundredths-pounds">65</Weight>
+          <Width Units="hundredths-inches">600</Width>
+        </PackageDimensions>
+        <ProductGroup>Book</ProductGroup>
+        <PublicationDate>1973-06</PublicationDate>
+        <Publisher>Black Belt Communications Inc</Publisher>
+        <Studio>Black Belt Communications Inc</Studio>
+        <Title>Hung Gar Kung-Fu</Title>
+      </ItemAttributes>
+      <OfferSummary>
+        <LowestNewPrice>
+          <Amount>1040</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$10.40</FormattedPrice>
+        </LowestNewPrice>
+        <LowestUsedPrice>
+          <Amount>997</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$9.97</FormattedPrice>
+        </LowestUsedPrice>
+        <LowestCollectiblePrice>
+          <Amount>1695</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$16.95</FormattedPrice>
+        </LowestCollectiblePrice>
+        <TotalNew>14</TotalNew>
+        <TotalUsed>7</TotalUsed>
+        <TotalCollectible>1</TotalCollectible>
+        <TotalRefurbished>0</TotalRefurbished>
+      </OfferSummary>
+      <Offers>
+        <TotalOffers>1</TotalOffers>
+        <TotalOfferPages>1</TotalOfferPages>
+        <Offer>
+          <Merchant>
+            <MerchantId>ATVPDKIKX0DER</MerchantId>
+            <GlancePage>http://www.amazon.com/gp/help/seller/home.html?seller=ATVPDKIKX0DER</GlancePage>
+            <AverageFeedbackRating>0.0</AverageFeedbackRating>
+            <TotalFeedback>0</TotalFeedback>
+          </Merchant>
+          <OfferAttributes>
+            <Condition>New</Condition>
+          </OfferAttributes>
+          <OfferListing>
+            <OfferListingId>VhiK4aWYGzWsBZOg7Grfaoa1%2Fo2cbEPcbMASyJqi8P2vMChUs9MmBty7FBkquK4kpekhVHc9ZaA%3D</OfferListingId>
+            <Price>
+              <Amount>1040</Amount>
+              <CurrencyCode>USD</CurrencyCode>
+              <FormattedPrice>$10.40</FormattedPrice>
+            </Price>
+            <Availability>Usually ships in 24 hours</Availability>
+            <IsEligibleForSuperSaverShipping>1</IsEligibleForSuperSaverShipping>
+          </OfferListing>
+        </Offer>
+      </Offers>
+    </Item>
+    <Item>
+      <ASIN>0897501039</ASIN>
+      <DetailPageURL>http://www.amazon.com/exec/obidos/redirect?tag=ws%26link_code=xm2%26camp=2025%26creative=165953%26path=http://www.amazon.com/gp/redirect.html%253fASIN=0897501039%2526tag=ws%2526lcode=xm2%2526cID=2025%2526ccmID=165953%2526location=/o/ASIN/0897501039%25253FSubscriptionId=YOUR_AMAZON_TOKEN</DetailPageURL>
+      <SalesRank>527206</SalesRank>
+      <SmallImage>
+        <URL>http://images.amazon.com/images/P/0897501039.01._SCTHUMBZZZ_.jpg</URL>
+        <Height Units="pixels">60</Height>
+        <Width Units="pixels">40</Width>
+      </SmallImage>
+      <MediumImage>
+        <URL>http://images.amazon.com/images/P/0897501039.01._SCMZZZZZZZ_.jpg</URL>
+        <Height Units="pixels">140</Height>
+        <Width Units="pixels">93</Width>
+      </MediumImage>
+      <LargeImage>
+        <URL>http://images.amazon.com/images/P/0897501039.01._SCLZZZZZZZ_.jpg</URL>
+        <Height Units="pixels">475</Height>
+        <Width Units="pixels">314</Width>
+      </LargeImage>
+      <ItemAttributes>
+        <Author>Eric Lee</Author>
+        <Binding>Paperback</Binding>
+        <Creator Role="Photographer">Mario Prado</Creator>
+        <DeweyDecimalNumber>796.8159</DeweyDecimalNumber>
+        <EAN>9780897501033</EAN>
+        <ISBN>0897501039</ISBN>
+        <Label>Black Belt Communications Inc</Label>
+        <ListPrice>
+          <Amount>1600</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$16.00</FormattedPrice>
+        </ListPrice>
+        <Manufacturer>Black Belt Communications Inc</Manufacturer>
+        <NumberOfPages>223</NumberOfPages>
+        <PackageDimensions>
+          <Height Units="hundredths-inches">850</Height>
+          <Length Units="hundredths-inches">50</Length>
+          <Weight Units="hundredths-pounds">65</Weight>
+          <Width Units="hundredths-inches">575</Width>
+        </PackageDimensions>
+        <ProductGroup>Book</ProductGroup>
+        <PublicationDate>1985-06</PublicationDate>
+        <Publisher>Black Belt Communications Inc</Publisher>
+        <Studio>Black Belt Communications Inc</Studio>
+        <Title>Advanced Three Sectional Staff: Kung Fu Weapon of Self-Defense</Title>
+      </ItemAttributes>
+      <OfferSummary>
+        <LowestNewPrice>
+          <Amount>1040</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$10.40</FormattedPrice>
+        </LowestNewPrice>
+        <LowestUsedPrice>
+          <Amount>1000</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$10.00</FormattedPrice>
+        </LowestUsedPrice>
+        <LowestCollectiblePrice>
+          <Amount>1499</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$14.99</FormattedPrice>
+        </LowestCollectiblePrice>
+        <TotalNew>14</TotalNew>
+        <TotalUsed>7</TotalUsed>
+        <TotalCollectible>2</TotalCollectible>
+        <TotalRefurbished>0</TotalRefurbished>
+      </OfferSummary>
+      <Offers>
+        <TotalOffers>1</TotalOffers>
+        <TotalOfferPages>1</TotalOfferPages>
+        <Offer>
+          <Merchant>
+            <MerchantId>ATVPDKIKX0DER</MerchantId>
+            <GlancePage>http://www.amazon.com/gp/help/seller/home.html?seller=ATVPDKIKX0DER</GlancePage>
+            <AverageFeedbackRating>0.0</AverageFeedbackRating>
+            <TotalFeedback>0</TotalFeedback>
+          </Merchant>
+          <OfferAttributes>
+            <Condition>New</Condition>
+          </OfferAttributes>
+          <OfferListing>
+            <OfferListingId>5%2FfwJ0BUY70keizrJ0H6fZHSdLt1OqdLGFOyt7BDhB%2BIcn3DbQsE3jF%2BsbwD6qrs%2B6IXUGpRvBg%3D</OfferListingId>
+            <Price>
+              <Amount>1040</Amount>
+              <CurrencyCode>USD</CurrencyCode>
+              <FormattedPrice>$10.40</FormattedPrice>
+            </Price>
+            <Availability>Usually ships in 24 hours</Availability>
+            <IsEligibleForSuperSaverShipping>1</IsEligibleForSuperSaverShipping>
+          </OfferListing>
+        </Offer>
+      </Offers>
+    </Item>
+    <Item>
+      <ASIN>0897500865</ASIN>
+      <DetailPageURL>http://www.amazon.com/exec/obidos/redirect?tag=ws%26link_code=xm2%26camp=2025%26creative=165953%26path=http://www.amazon.com/gp/redirect.html%253fASIN=0897500865%2526tag=ws%2526lcode=xm2%2526cID=2025%2526ccmID=165953%2526location=/o/ASIN/0897500865%25253FSubscriptionId=YOUR_AMAZON_TOKEN</DetailPageURL>
+      <SalesRank>435318</SalesRank>
+      <SmallImage>
+        <URL>http://images.amazon.com/images/P/0897500865.01._SCTHUMBZZZ_.jpg</URL>
+        <Height Units="pixels">60</Height>
+        <Width Units="pixels">40</Width>
+      </SmallImage>
+      <MediumImage>
+        <URL>http://images.amazon.com/images/P/0897500865.01._SCMZZZZZZZ_.jpg</URL>
+        <Height Units="pixels">140</Height>
+        <Width Units="pixels">93</Width>
+      </MediumImage>
+      <LargeImage>
+        <URL>http://images.amazon.com/images/P/0897500865.01._SCLZZZZZZZ_.jpg</URL>
+        <Height Units="pixels">475</Height>
+        <Width Units="pixels">316</Width>
+      </LargeImage>
+      <ItemAttributes>
+        <Author>Joseph C. Hess</Author>
+        <Binding>Paperback</Binding>
+        <DeweyDecimalNumber>796.8153</DeweyDecimalNumber>
+        <EAN>9780897500869</EAN>
+        <ISBN>0897500865</ISBN>
+        <Label>Black Belt Communications Inc</Label>
+        <ListPrice>
+          <Amount>1700</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$17.00</FormattedPrice>
+        </ListPrice>
+        <Manufacturer>Black Belt Communications Inc</Manufacturer>
+        <NumberOfItems>1</NumberOfItems>
+        <NumberOfPages>224</NumberOfPages>
+        <PackageDimensions>
+          <Height Units="hundredths-inches">900</Height>
+          <Length Units="hundredths-inches">50</Length>
+          <Weight Units="hundredths-pounds">60</Weight>
+          <Width Units="hundredths-inches">600</Width>
+        </PackageDimensions>
+        <ProductGroup>Book</ProductGroup>
+        <PublicationDate>1983-03</PublicationDate>
+        <Publisher>Black Belt Communications Inc</Publisher>
+        <Studio>Black Belt Communications Inc</Studio>
+        <Title>Nunchaku in Action (Weapons Series)</Title>
+      </ItemAttributes>
+      <OfferSummary>
+        <LowestNewPrice>
+          <Amount>1695</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$16.95</FormattedPrice>
+        </LowestNewPrice>
+        <LowestUsedPrice>
+          <Amount>488</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$4.88</FormattedPrice>
+        </LowestUsedPrice>
+        <LowestCollectiblePrice>
+          <Amount>2965</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$29.65</FormattedPrice>
+        </LowestCollectiblePrice>
+        <TotalNew>2</TotalNew>
+        <TotalUsed>6</TotalUsed>
+        <TotalCollectible>1</TotalCollectible>
+        <TotalRefurbished>0</TotalRefurbished>
+      </OfferSummary>
+      <Offers>
+        <TotalOffers>1</TotalOffers>
+        <TotalOfferPages>1</TotalOfferPages>
+        <Offer>
+          <Merchant>
+            <MerchantId>ATVPDKIKX0DER</MerchantId>
+            <GlancePage>http://www.amazon.com/gp/help/seller/home.html?seller=ATVPDKIKX0DER</GlancePage>
+            <AverageFeedbackRating>0.0</AverageFeedbackRating>
+            <TotalFeedback>0</TotalFeedback>
+          </Merchant>
+          <OfferAttributes>
+            <Condition>New</Condition>
+          </OfferAttributes>
+          <OfferListing>
+            <OfferListingId>HAGyChkOj4BwDjqKrgcOyD72xnoBIMbMsJxZP%2BCJ86czqUMJXCd1fNm1S96XnBLJV5fM3L1UxGY%3D</OfferListingId>
+            <Price>
+              <Amount>1700</Amount>
+              <CurrencyCode>USD</CurrencyCode>
+              <FormattedPrice>$17.00</FormattedPrice>
+            </Price>
+            <Availability>Usually ships in 24 hours</Availability>
+            <IsEligibleForSuperSaverShipping>1</IsEligibleForSuperSaverShipping>
+          </OfferListing>
+        </Offer>
+      </Offers>
+    </Item>
+    <Item>
+      <ASIN>0897501071</ASIN>
+      <DetailPageURL>http://www.amazon.com/exec/obidos/redirect?tag=ws%26link_code=xm2%26camp=2025%26creative=165953%26path=http://www.amazon.com/gp/redirect.html%253fASIN=0897501071%2526tag=ws%2526lcode=xm2%2526cID=2025%2526ccmID=165953%2526location=/o/ASIN/0897501071%25253FSubscriptionId=YOUR_AMAZON_TOKEN</DetailPageURL>
+      <SalesRank>415420</SalesRank>
+      <SmallImage>
+        <URL>http://images.amazon.com/images/P/0897501071.01._SCTHUMBZZZ_.gif</URL>
+        <Height Units="pixels">60</Height>
+        <Width Units="pixels">40</Width>
+      </SmallImage>
+      <MediumImage>
+        <URL>http://images.amazon.com/images/P/0897501071.01._SCMZZZZZZZ_.gif</URL>
+        <Height Units="pixels">140</Height>
+        <Width Units="pixels">93</Width>
+      </MediumImage>
+      <LargeImage>
+        <URL>http://images.amazon.com/images/P/0897501071.01._SCLZZZZZZZ_.gif</URL>
+        <Height Units="pixels">475</Height>
+        <Width Units="pixels">313</Width>
+      </LargeImage>
+      <ItemAttributes>
+        <Author>William Cheung</Author>
+        <Author>Mike Lee</Author>
+        <Binding>Paperback</Binding>
+        <DeweyDecimalNumber>796.8159</DeweyDecimalNumber>
+        <EAN>9780897501071</EAN>
+        <ISBN>0897501071</ISBN>
+        <Label>Black Belt Communications Inc</Label>
+        <ListPrice>
+          <Amount>1400</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$14.00</FormattedPrice>
+        </ListPrice>
+        <Manufacturer>Black Belt Communications Inc</Manufacturer>
+        <NumberOfItems>1</NumberOfItems>
+        <NumberOfPages>128</NumberOfPages>
+        <PackageDimensions>
+          <Height Units="hundredths-inches">900</Height>
+          <Length Units="hundredths-inches">50</Length>
+          <Weight Units="hundredths-pounds">35</Weight>
+          <Width Units="hundredths-inches">600</Width>
+        </PackageDimensions>
+        <ProductGroup>Book</ProductGroup>
+        <PublicationDate>1986-06</PublicationDate>
+        <Publisher>Black Belt Communications Inc</Publisher>
+        <Studio>Black Belt Communications Inc</Studio>
+        <Title>Kung Fu Dragon Pole</Title>
+      </ItemAttributes>
+      <OfferSummary>
+        <LowestNewPrice>
+          <Amount>1395</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$13.95</FormattedPrice>
+        </LowestNewPrice>
+        <LowestUsedPrice>
+          <Amount>398</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$3.98</FormattedPrice>
+        </LowestUsedPrice>
+        <LowestCollectiblePrice>
+          <Amount>7500</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$75.00</FormattedPrice>
+        </LowestCollectiblePrice>
+        <TotalNew>2</TotalNew>
+        <TotalUsed>6</TotalUsed>
+        <TotalCollectible>1</TotalCollectible>
+        <TotalRefurbished>0</TotalRefurbished>
+      </OfferSummary>
+      <Offers>
+        <TotalOffers>1</TotalOffers>
+        <TotalOfferPages>1</TotalOfferPages>
+        <Offer>
+          <Merchant>
+            <MerchantId>ATVPDKIKX0DER</MerchantId>
+            <GlancePage>http://www.amazon.com/gp/help/seller/home.html?seller=ATVPDKIKX0DER</GlancePage>
+            <AverageFeedbackRating>0.0</AverageFeedbackRating>
+            <TotalFeedback>0</TotalFeedback>
+          </Merchant>
+          <OfferAttributes>
+            <Condition>New</Condition>
+          </OfferAttributes>
+          <OfferListing>
+            <OfferListingId>WRSybH9PWJ%2BLUQ9Jnwg6xN7E6ThTfwDMPqHM3dJaQS3I3E1s%2BUqsAuBG8CIgIM3OYzYRiI023%2Bg%3D</OfferListingId>
+            <Price>
+              <Amount>1400</Amount>
+              <CurrencyCode>USD</CurrencyCode>
+              <FormattedPrice>$14.00</FormattedPrice>
+            </Price>
+            <Availability>Usually ships in 24 hours</Availability>
+            <IsEligibleForSuperSaverShipping>1</IsEligibleForSuperSaverShipping>
+          </OfferListing>
+        </Offer>
+      </Offers>
+    </Item>
+    <Item>
+      <ASIN>0897500857</ASIN>
+      <DetailPageURL>http://www.amazon.com/exec/obidos/redirect?tag=ws%26link_code=xm2%26camp=2025%26creative=165953%26path=http://www.amazon.com/gp/redirect.html%253fASIN=0897500857%2526tag=ws%2526lcode=xm2%2526cID=2025%2526ccmID=165953%2526location=/o/ASIN/0897500857%25253FSubscriptionId=YOUR_AMAZON_TOKEN</DetailPageURL>
+      <SalesRank>350985</SalesRank>
+      <SmallImage>
+        <URL>http://images.amazon.com/images/P/0897500857.01._SCTHUMBZZZ_.jpg</URL>
+        <Height Units="pixels">60</Height>
+        <Width Units="pixels">39</Width>
+      </SmallImage>
+      <MediumImage>
+        <URL>http://images.amazon.com/images/P/0897500857.01._SCMZZZZZZZ_.jpg</URL>
+        <Height Units="pixels">140</Height>
+        <Width Units="pixels">92</Width>
+      </MediumImage>
+      <LargeImage>
+        <URL>http://images.amazon.com/images/P/0897500857.01._SCLZZZZZZZ_.jpg</URL>
+        <Height Units="pixels">475</Height>
+        <Width Units="pixels">313</Width>
+      </LargeImage>
+      <ItemAttributes>
+        <Author>Richard Chun</Author>
+        <Binding>Paperback</Binding>
+        <EAN>9780897500852</EAN>
+        <ISBN>0897500857</ISBN>
+        <Label>Black Belt Communications Inc</Label>
+        <ListPrice>
+          <Amount>1900</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$19.00</FormattedPrice>
+        </ListPrice>
+        <Manufacturer>Black Belt Communications Inc</Manufacturer>
+        <NumberOfItems>1</NumberOfItems>
+        <NumberOfPages>256</NumberOfPages>
+        <PackageDimensions>
+          <Height Units="hundredths-inches">925</Height>
+          <Length Units="hundredths-inches">75</Length>
+          <Weight Units="hundredths-pounds">65</Weight>
+          <Width Units="hundredths-inches">625</Width>
+        </PackageDimensions>
+        <ProductGroup>Book</ProductGroup>
+        <PublicationDate>1986-06</PublicationDate>
+        <Publisher>Black Belt Communications Inc</Publisher>
+        <Studio>Black Belt Communications Inc</Studio>
+        <Title>Moo Duk Kwan Tae Kwon Do, Vol. 2 (Moo Duk Kwan Tae Kwon Do)</Title>
+      </ItemAttributes>
+      <OfferSummary>
+        <LowestNewPrice>
+          <Amount>1900</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$19.00</FormattedPrice>
+        </LowestNewPrice>
+        <LowestUsedPrice>
+          <Amount>1675</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$16.75</FormattedPrice>
+        </LowestUsedPrice>
+        <LowestCollectiblePrice>
+          <Amount>3850</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$38.50</FormattedPrice>
+        </LowestCollectiblePrice>
+        <TotalNew>2</TotalNew>
+        <TotalUsed>3</TotalUsed>
+        <TotalCollectible>1</TotalCollectible>
+        <TotalRefurbished>0</TotalRefurbished>
+      </OfferSummary>
+      <Offers>
+        <TotalOffers>1</TotalOffers>
+        <TotalOfferPages>1</TotalOfferPages>
+        <Offer>
+          <Merchant>
+            <MerchantId>ATVPDKIKX0DER</MerchantId>
+            <GlancePage>http://www.amazon.com/gp/help/seller/home.html?seller=ATVPDKIKX0DER</GlancePage>
+            <AverageFeedbackRating>0.0</AverageFeedbackRating>
+            <TotalFeedback>0</TotalFeedback>
+          </Merchant>
+          <OfferAttributes>
+            <Condition>New</Condition>
+          </OfferAttributes>
+          <OfferListing>
+            <OfferListingId>7FoalF4jRqb5YoGKgFBmVJxJI8TbBOs22sZrgRhnBsgSYbuARDMbu15Xu5ENE8UHDQU%2BoLUHlaw%3D</OfferListingId>
+            <Price>
+              <Amount>1900</Amount>
+              <CurrencyCode>USD</CurrencyCode>
+              <FormattedPrice>$19.00</FormattedPrice>
+            </Price>
+            <Availability>Usually ships in 24 hours</Availability>
+            <IsEligibleForSuperSaverShipping>1</IsEligibleForSuperSaverShipping>
+          </OfferListing>
+        </Offer>
+      </Offers>
+    </Item>
+    <Item>
+      <ASIN>0897500350</ASIN>
+      <DetailPageURL>http://www.amazon.com/exec/obidos/redirect?tag=ws%26link_code=xm2%26camp=2025%26creative=165953%26path=http://www.amazon.com/gp/redirect.html%253fASIN=0897500350%2526tag=ws%2526lcode=xm2%2526cID=2025%2526ccmID=165953%2526location=/o/ASIN/0897500350%25253FSubscriptionId=YOUR_AMAZON_TOKEN</DetailPageURL>
+      <SalesRank>881951</SalesRank>
+      <ItemAttributes>
+        <Author>Leo T. Fong</Author>
+        <Binding>Paperback</Binding>
+        <DeweyDecimalNumber>796.8153</DeweyDecimalNumber>
+        <EAN>9780897500357</EAN>
+        <ISBN>0897500350</ISBN>
+        <Label>Black Belt Communications Inc</Label>
+        <ListPrice>
+          <Amount>995</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$9.95</FormattedPrice>
+        </ListPrice>
+        <Manufacturer>Black Belt Communications Inc</Manufacturer>
+        <ProductGroup>Book</ProductGroup>
+        <PublicationDate>1972-06</PublicationDate>
+        <Publisher>Black Belt Communications Inc</Publisher>
+        <Studio>Black Belt Communications Inc</Studio>
+        <Title>Choy Lay Fut Kung-Fu: Chinese Art of Self-Defense</Title>
+      </ItemAttributes>
+      <OfferSummary>
+        <LowestUsedPrice>
+          <Amount>1500</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$15.00</FormattedPrice>
+        </LowestUsedPrice>
+        <TotalNew>0</TotalNew>
+        <TotalUsed>6</TotalUsed>
+        <TotalCollectible>0</TotalCollectible>
+        <TotalRefurbished>0</TotalRefurbished>
+      </OfferSummary>
+      <Offers>
+        <TotalOffers>0</TotalOffers>
+        <TotalOfferPages>0</TotalOfferPages>
+      </Offers>
+    </Item>
+    <Item>
+      <ASIN>089750108X</ASIN>
+      <DetailPageURL>http://www.amazon.com/exec/obidos/redirect?tag=ws%26link_code=xm2%26camp=2025%26creative=165953%26path=http://www.amazon.com/gp/redirect.html%253fASIN=089750108X%2526tag=ws%2526lcode=xm2%2526cID=2025%2526ccmID=165953%2526location=/o/ASIN/089750108X%25253FSubscriptionId=YOUR_AMAZON_TOKEN</DetailPageURL>
+      <SalesRank>894777</SalesRank>
+      <ItemAttributes>
+        <Author>William Cheung</Author>
+        <Binding>Paperback</Binding>
+        <EAN>9780897501088</EAN>
+        <ISBN>089750108X</ISBN>
+        <Label>Black Belt Communications Inc</Label>
+        <ListPrice>
+          <Amount>1095</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$10.95</FormattedPrice>
+        </ListPrice>
+        <Manufacturer>Black Belt Communications Inc</Manufacturer>
+        <NumberOfItems>1</NumberOfItems>
+        <NumberOfPages>191</NumberOfPages>
+        <ProductGroup>Book</ProductGroup>
+        <PublicationDate>1986-07</PublicationDate>
+        <Publisher>Black Belt Communications Inc</Publisher>
+        <Studio>Black Belt Communications Inc</Studio>
+        <Title>How to Develop Chi Power (Literary links to the Orient)</Title>
+      </ItemAttributes>
+      <OfferSummary>
+        <LowestNewPrice>
+          <Amount>1095</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$10.95</FormattedPrice>
+        </LowestNewPrice>
+        <LowestUsedPrice>
+          <Amount>374</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$3.74</FormattedPrice>
+        </LowestUsedPrice>
+        <LowestCollectiblePrice>
+          <Amount>2498</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$24.98</FormattedPrice>
+        </LowestCollectiblePrice>
+        <TotalNew>2</TotalNew>
+        <TotalUsed>8</TotalUsed>
+        <TotalCollectible>1</TotalCollectible>
+        <TotalRefurbished>0</TotalRefurbished>
+      </OfferSummary>
+      <Offers>
+        <TotalOffers>1</TotalOffers>
+        <TotalOfferPages>1</TotalOfferPages>
+        <Offer>
+          <Merchant>
+            <MerchantId>ATVPDKIKX0DER</MerchantId>
+            <GlancePage>http://www.amazon.com/gp/help/seller/home.html?seller=ATVPDKIKX0DER</GlancePage>
+            <AverageFeedbackRating>0.0</AverageFeedbackRating>
+            <TotalFeedback>0</TotalFeedback>
+          </Merchant>
+          <OfferAttributes>
+            <Condition>New</Condition>
+          </OfferAttributes>
+          <OfferListing>
+            <OfferListingId>7EGcB82OLdkMkbjqWnAvkeGhke3USY%2FDv2xhVyqi1kEI%2BqYcK%2F5cJKrP4hLqxVFyqh8MXonFhw4%3D</OfferListingId>
+            <Price>
+              <Amount>1095</Amount>
+              <CurrencyCode>USD</CurrencyCode>
+              <FormattedPrice>$10.95</FormattedPrice>
+            </Price>
+            <Availability>Usually ships in 24 hours</Availability>
+            <IsEligibleForSuperSaverShipping>1</IsEligibleForSuperSaverShipping>
+          </OfferListing>
+        </Offer>
+      </Offers>
+    </Item>
+    <Item>
+      <ASIN>0897500695</ASIN>
+      <DetailPageURL>http://www.amazon.com/exec/obidos/redirect?tag=ws%26link_code=xm2%26camp=2025%26creative=165953%26path=http://www.amazon.com/gp/redirect.html%253fASIN=0897500695%2526tag=ws%2526lcode=xm2%2526cID=2025%2526ccmID=165953%2526location=/o/ASIN/0897500695%25253FSubscriptionId=YOUR_AMAZON_TOKEN</DetailPageURL>
+      <SalesRank>1000268</SalesRank>
+      <SmallImage>
+        <URL>http://images.amazon.com/images/P/0897500695.01._SCTHUMBZZZ_.jpg</URL>
+        <Height Units="pixels">60</Height>
+        <Width Units="pixels">47</Width>
+      </SmallImage>
+      <MediumImage>
+        <URL>http://images.amazon.com/images/P/0897500695.01._SCMZZZZZZZ_.jpg</URL>
+        <Height Units="pixels">140</Height>
+        <Width Units="pixels">111</Width>
+      </MediumImage>
+      <LargeImage>
+        <URL>http://images.amazon.com/images/P/0897500695.01._SCLZZZZZZZ_.jpg</URL>
+        <Height Units="pixels">475</Height>
+        <Width Units="pixels">377</Width>
+      </LargeImage>
+      <ItemAttributes>
+        <Binding>Paperback</Binding>
+        <Creator Role="Corporate Author">Ohara Publications</Creator>
+        <EAN>9780897500692</EAN>
+        <Edition>Reissue</Edition>
+        <ISBN>0897500695</ISBN>
+        <Label>Black Belt Communications Inc</Label>
+        <ListPrice>
+          <Amount>1595</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$15.95</FormattedPrice>
+        </ListPrice>
+        <Manufacturer>Black Belt Communications Inc</Manufacturer>
+        <NumberOfItems>1</NumberOfItems>
+        <NumberOfPages>96</NumberOfPages>
+        <PackageDimensions>
+          <Height Units="hundredths-inches">1000</Height>
+          <Length Units="hundredths-inches">50</Length>
+          <Weight Units="hundredths-pounds">45</Weight>
+          <Width Units="hundredths-inches">850</Width>
+        </PackageDimensions>
+        <ProductGroup>Book</ProductGroup>
+        <PublicationDate>1996-02</PublicationDate>
+        <Publisher>Black Belt Communications Inc</Publisher>
+        <Studio>Black Belt Communications Inc</Studio>
+        <Title>Dear Bruce Lee</Title>
+      </ItemAttributes>
+      <OfferSummary>
+        <LowestNewPrice>
+          <Amount>1022</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$10.22</FormattedPrice>
+        </LowestNewPrice>
+        <LowestUsedPrice>
+          <Amount>1295</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$12.95</FormattedPrice>
+        </LowestUsedPrice>
+        <TotalNew>7</TotalNew>
+        <TotalUsed>5</TotalUsed>
+        <TotalCollectible>0</TotalCollectible>
+        <TotalRefurbished>0</TotalRefurbished>
+      </OfferSummary>
+      <Offers>
+        <TotalOffers>1</TotalOffers>
+        <TotalOfferPages>1</TotalOfferPages>
+        <Offer>
+          <Merchant>
+            <MerchantId>ATVPDKIKX0DER</MerchantId>
+            <GlancePage>http://www.amazon.com/gp/help/seller/home.html?seller=ATVPDKIKX0DER</GlancePage>
+            <AverageFeedbackRating>0.0</AverageFeedbackRating>
+            <TotalFeedback>0</TotalFeedback>
+          </Merchant>
+          <OfferAttributes>
+            <Condition>New</Condition>
+          </OfferAttributes>
+          <OfferListing>
+            <OfferListingId>xdEqKBnhYo9LK8JLOFpHgY3kG%2BJGFScawhoPadlWTP6Zh9IZ%2BVkckeMATXnTV8fKAK3wjK8lEcU%3D</OfferListingId>
+            <Price>
+              <Amount>1595</Amount>
+              <CurrencyCode>USD</CurrencyCode>
+              <FormattedPrice>$15.95</FormattedPrice>
+            </Price>
+            <Availability>Usually ships in 24 hours</Availability>
+            <IsEligibleForSuperSaverShipping>1</IsEligibleForSuperSaverShipping>
+          </OfferListing>
+        </Offer>
+      </Offers>
+    </Item>
+    <Item>
+      <ASIN>0897500938</ASIN>
+      <DetailPageURL>http://www.amazon.com/exec/obidos/redirect?tag=ws%26link_code=xm2%26camp=2025%26creative=165953%26path=http://www.amazon.com/gp/redirect.html%253fASIN=0897500938%2526tag=ws%2526lcode=xm2%2526cID=2025%2526ccmID=165953%2526location=/o/ASIN/0897500938%25253FSubscriptionId=YOUR_AMAZON_TOKEN</DetailPageURL>
+      <SalesRank>1118678</SalesRank>
+      <ItemAttributes>
+        <Author>Leo Fong</Author>
+        <Author>Ron Marchin</Author>
+        <Binding>Paperback</Binding>
+        <DeweyDecimalNumber>796.8153</DeweyDecimalNumber>
+        <EAN>9780897500937</EAN>
+        <ISBN>0897500938</ISBN>
+        <Label>Black Belt Communications Inc</Label>
+        <ListPrice>
+          <Amount>995</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$9.95</FormattedPrice>
+        </ListPrice>
+        <Manufacturer>Black Belt Communications Inc</Manufacturer>
+        <NumberOfPages>191</NumberOfPages>
+        <ProductGroup>Book</ProductGroup>
+        <PublicationDate>1983-08</PublicationDate>
+        <Publisher>Black Belt Communications Inc</Publisher>
+        <Studio>Black Belt Communications Inc</Studio>
+        <Title>Advanced Power Training in Kung Fu and Karate (Literary links to the Orient)</Title>
+      </ItemAttributes>
+      <OfferSummary>
+        <LowestUsedPrice>
+          <Amount>999</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$9.99</FormattedPrice>
+        </LowestUsedPrice>
+        <TotalNew>0</TotalNew>
+        <TotalUsed>7</TotalUsed>
+        <TotalCollectible>0</TotalCollectible>
+        <TotalRefurbished>0</TotalRefurbished>
+      </OfferSummary>
+      <Offers>
+        <TotalOffers>0</TotalOffers>
+        <TotalOfferPages>0</TotalOfferPages>
+      </Offers>
+    </Item>
+    <Item>
+      <ASIN>0897500911</ASIN>
+      <DetailPageURL>http://www.amazon.com/exec/obidos/redirect?tag=ws%26link_code=xm2%26camp=2025%26creative=165953%26path=http://www.amazon.com/gp/redirect.html%253fASIN=0897500911%2526tag=ws%2526lcode=xm2%2526cID=2025%2526ccmID=165953%2526location=/o/ASIN/0897500911%25253FSubscriptionId=YOUR_AMAZON_TOKEN</DetailPageURL>
+      <SalesRank>1141244</SalesRank>
+      <ItemAttributes>
+        <Author>Carl Brown</Author>
+        <Binding>Paperback</Binding>
+        <EAN>9780897500913</EAN>
+        <ISBN>0897500911</ISBN>
+        <Label>Black Belt Communications Inc</Label>
+        <ListPrice>
+          <Amount>795</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$7.95</FormattedPrice>
+        </ListPrice>
+        <Manufacturer>Black Belt Communications Inc</Manufacturer>
+        <NumberOfItems>1</NumberOfItems>
+        <NumberOfPages>96</NumberOfPages>
+        <PackageDimensions>
+          <Weight Units="hundredths-pounds">34</Weight>
+        </PackageDimensions>
+        <ProductGroup>Book</ProductGroup>
+        <PublicationDate>1983-08</PublicationDate>
+        <Publisher>Black Belt Communications Inc</Publisher>
+        <Studio>Black Belt Communications Inc</Studio>
+        <Title>American Law and the Trained Fighter (Literary links to the Orient)</Title>
+      </ItemAttributes>
+      <OfferSummary>
+        <LowestUsedPrice>
+          <Amount>136</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$1.36</FormattedPrice>
+        </LowestUsedPrice>
+        <LowestCollectiblePrice>
+          <Amount>499</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$4.99</FormattedPrice>
+        </LowestCollectiblePrice>
+        <TotalNew>0</TotalNew>
+        <TotalUsed>7</TotalUsed>
+        <TotalCollectible>1</TotalCollectible>
+        <TotalRefurbished>0</TotalRefurbished>
+      </OfferSummary>
+      <Offers>
+        <TotalOffers>0</TotalOffers>
+        <TotalOfferPages>0</TotalOfferPages>
+      </Offers>
+    </Item>
+  </Items>
+</ItemSearchResponse>

@@ -3,31 +3,57 @@ package Net::Amazon::Property;
 ######################################################################
 use warnings;
 use strict;
+
 use base qw(Net::Amazon);
 
-use Net::Amazon::Property::DVD;
 use Net::Amazon::Property::Book;
+use Net::Amazon::Property::CE;
+use Net::Amazon::Property::DVD;
 use Net::Amazon::Property::Music;
+use Net::Amazon::Property::Software;
+use Net::Amazon::Property::VideoGames;
 use Net::Amazon::Attribute::ReviewSet;
 use Data::Dumper;
 use Log::Log4perl qw(:easy);
 
-use warnings; 
-use strict;
+# read: a poor man's XPath
+our %DEFAULT_ATTRIBUTES_XPATH = (
+    Availability => [qw(Offers Offer OfferListing Availability)],
+    Catalog => [qw(ItemAttributes ProductGroup)],
+    Binding => [qw(ItemAttributes Binding)],
+    CollectibleCount => [qw(OfferSummary TotalCollectible)],
+    CollectiblePrice => [qw(OfferSummary LowestCollectiblePrice FormattedPrice)],
+    LargeImageUrl => [qw(LargeImage URL)],
+    ListPrice => [qw(ItemAttributes ListPrice FormattedPrice)],
+    Manufacturer => [qw(ItemAttributes Manufacturer)],
+    MediumImageUrl => [qw(MediumImage URL)],
+    OurPrice => [qw(Offers Offer OfferListing Price FormattedPrice)],
+    SmallImageUrl => [qw(SmallImage URL)],
+    SuperSaverShipping => [qw(Offers Offer OfferListing IsEligibleForSuperSaverShipping)],
+    Title => [qw(Title)],
+    ThirdPartyNewCount => [qw(OfferSummary TotalNew)],
+    ThirdPartyNewPrice => [qw(OfferSummary LowestNewPrice FormattedPrice)],
+    TotalOffers => [qw(Offers TotalOffers)],
+    UsedCount => [qw(OfferSummary TotalUsed)],
+    UsedPrice => [qw(OfferSummary LowestUsedPrice FormattedPrice)],
+);
 
 our @DEFAULT_ATTRIBUTES = qw(
-  OurPrice ImageUrlLarge ImageUrlMedium ImageUrlSmall
-  ReleaseDate Catalog Asin url Manufacturer UsedPrice
-  ListPrice ProductName Availability SalesRank
-  Media NumMedia ProductDescription
-  CollectiblePrice CollectibleCount NumberOfOfferings
-  UsedCount ThirdPartyNewPrice ThirdPartyNewCount
-  ThirdPartyProductInfo
+  SalesRank ASIN DetailPageURL ProductDescription
+  NumMedia ReleaseDate NumberOfOfferings
+);
+
+our %COMPATIBLE_ATTRIBUTES = (
+	'Asin'     => 'ASIN',
+	'url'      => 'DetailPageURL',
+    'Media'    => 'Binding',
 );
 
 __PACKAGE__->make_accessor($_) for @DEFAULT_ATTRIBUTES;
-__PACKAGE__->make_accessor($_) for qw(year review_set);
+__PACKAGE__->make_accessor($_) for keys %DEFAULT_ATTRIBUTES_XPATH;
+__PACKAGE__->make_accessor($_) for qw(year review_set image_set offer_set);
 __PACKAGE__->make_array_accessor($_) for qw(browse_nodes similar_asins);
+__PACKAGE__->make_compatible_accessor($_, $COMPATIBLE_ATTRIBUTES{$_}) for keys %COMPATIBLE_ATTRIBUTES;
 
 ##################################################
 sub new {
@@ -40,7 +66,7 @@ sub new {
 
     my $self = { 
         %options, 
-               };
+    };
 
     bless $self, $class;
 
@@ -49,33 +75,35 @@ sub new {
         $self->$attr($options{xmlref}->{$attr});
     }
 
-    # The release date is sometimes missing
-    if($options{xmlref}->{ReleaseDate}) {
-        my ($year) = ($options{xmlref}->{ReleaseDate} =~ /(\d{4})/);
-        $self->year($year);
-    } else {
-        $self->year("");
+    for my $attr (keys %DEFAULT_ATTRIBUTES_XPATH) {
+        my $value = __PACKAGE__->walk_hash_ref($options{xmlref}, $DEFAULT_ATTRIBUTES_XPATH{$attr});
+        $self->$attr($value);
     }
 
-    my $browse_nodes = $options{xmlref}->{BrowseList}->{BrowseNode};
-    if(ref($browse_nodes) eq "ARRAY") {
-      my @nodes = map {
-        $_->{BrowseName}
-      } @{ $browse_nodes };
-      $self->browse_nodes(\@nodes);
-    } elsif (ref($browse_nodes) eq "HASH") {
-      $self->browse_nodes([ $browse_nodes->{BrowseName} ]);
-    } else {
-      $self->browse_nodes([ ]);
-    }
+    $self->NumberOfOfferings($self->UsedCount() + $self->ThirdPartyNewCount() + $self->CollectibleCount());
+    $self->ProductDescription($options{xmlref}->{EditorialReviews}->{EditorialReview}->[0]->{Content});
 
-    my $similar = $options{xmlref}->{SimilarProducts};
-    if(ref($similar) eq "HASH") {
-      $self->similar_asins($similar->{Product});
-    } else {
-      $self->similar_asins([ ]);
-    }
+    my @browse_nodes;
+    if (ref $options{xmlref}->{BrowseNodes}->{BrowseNode} eq 'ARRAY') {
+        for my $bn (@{$options{xmlref}->{BrowseNodes}->{BrowseNode}}) {
+            push @browse_nodes, $bn->{Name};     
 
+            # Walk the BrowseNode Ancestors and collect the other BrowseNode Ids
+            for (my $ref = $bn->{Ancestors}->{BrowseNode}; defined $ref; $ref = $ref->{Ancestors}->{BrowseNode}) {    
+                # The BrowseNodeId is also available...
+                push @browse_nodes, $ref->{Name};     
+            }
+        }
+    }
+    $self->browse_nodes(\@browse_nodes);
+
+    my @similars;
+    for my $similar (@{$options{xmlref}->{SimilarProducts}->{SimilarProduct}}) {
+        # You could also capture the Title as well...
+        push @similars, $similar->{ASIN};
+    }
+    $self->similar_asins(\@similars); 
+    
     return $self;
 }
 
@@ -84,16 +112,16 @@ sub as_string {
 ##################################################
     my($self) = @_;
 
-    my $result = "\"$self->{xmlref}->{ProductName}\", ";
+    my $result = "\"" . $self->Title . "\", ";
 
     if($self->{xmlref}->{Manufacturer}) {
         $result .= "$self->{xmlref}->{Manufacturer}, ";
     }
 
     $result .= $self->year() . ", " if $self->year();
-
     $result .= $self->OurPrice() . ", ";
-    $result .= $self->Asin();
+    $result .= $self->ASIN();
+
     return $result;
 }
 
@@ -105,9 +133,9 @@ sub factory {
     my $xmlref = $options{xmlref};
     die "Called factory without xmlref" unless $xmlref;
 
-    # DEBUG(sub {"factory xmlref=" . Data::Dumper::Dumper($xmlref)});
+    #DEBUG(sub {"factory xmlref=" . Data::Dumper::Dumper($xmlref)});
 
-    my $catalog = $xmlref->{Catalog};
+    my $catalog = $xmlref->{ItemAttributes}->{ProductGroup};
     my $obj;
 
     if(0) {
@@ -120,7 +148,18 @@ sub factory {
     } elsif($catalog eq "DVD") {
         DEBUG("Creating new DVD Property");
         $obj = Net::Amazon::Property::DVD->new(xmlref => $xmlref);
+    } elsif($catalog eq "Software") {
+        DEBUG("Creating new Software Property");
+        $obj = Net::Amazon::Property::Software->new(xmlref => $xmlref);
+    } elsif($catalog eq "Video Games") {
+        DEBUG("Creating new Video Games Property");
+        $obj = Net::Amazon::Property::VideoGames->new(xmlref => $xmlref);
+    } elsif($catalog eq "CE") { # Consumer Electronics?
+        DEBUG("Creating new CE Property");
+        $obj = Net::Amazon::Property::CE->new(xmlref => $xmlref);
     } else {
+#         print "UNKNOWN CATALOG: ", Data::Dumper::Dumper($xmlref), "\n";
+#         die "%Error: there is no property defined for type '$catalog'\n";
         DEBUG("Creating new Default Property ($catalog)");
         $obj = Net::Amazon::Property->new(xmlref => $xmlref);
     }
@@ -135,12 +174,19 @@ sub init_via_xmlref {
 
     my $reviewset = Net::Amazon::Attribute::ReviewSet->new();
 
-    if(exists $xmlref->{Reviews}) {
-        $reviewset->init_via_xmlref($xmlref->{Reviews});
+    if(exists $xmlref->{CustomerReviews}) {
+        $reviewset->init_via_xmlref($xmlref->{CustomerReviews});
     }
 
     $self->review_set($reviewset); 
 }
+
+
+##################################################
+##################################################
+
+
+##################################################
 
 1;
 
@@ -192,6 +238,10 @@ field.
 =over 4
 
 =item Asin()
+
+The item's ASIN number.  This option is deprecated, please use ASIN.
+
+=item ASIN()
 
 The item's ASIN number.
 
@@ -279,6 +329,10 @@ Total number of offerings in all categories.
 
 Number of offerings in "Used" category.
 
+=item TotalOffers()
+
+Number of offerings of the product.
+
 =item ThirdPartyNewPrice()
 
 Lowest price in "Third Party New" category.
@@ -286,6 +340,11 @@ Lowest price in "Third Party New" category.
 =item ThirdPartyNewCount()
 
 Number of offerings in "Third Party New" category.
+
+=item SuperSaverShipping()
+
+Boolean value that indicates if the product is eligible for super saver
+shipping.
 
 =item year()
 

@@ -22,7 +22,7 @@ my $cache = Cache::File->new(
 );
 
 my $ua = Net::Amazon->new(
-    token       => 'YOUR_AMZN_TOKEN',
+    token       => $ENV{AMAZON_TOKEN},
     cache       => $cache,
 );
 

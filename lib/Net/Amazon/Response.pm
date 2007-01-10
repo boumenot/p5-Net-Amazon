@@ -8,8 +8,10 @@ use base qw(Net::Amazon);
 
 use Text::Wrap qw($columns wrap);
 use XML::Simple;
+use Log::Log4perl qw(:easy get_logger);
 
-our @FORCE_ARRAY_FIELDS = ();
+our @FORCE_ARRAY_FIELDS = qw(Author Artist Creator Director Review 
+EditorialReview SimilarProduct);
 
 __PACKAGE__->make_accessor($_) for qw(
   status messages items xmlref total_results);
@@ -75,7 +77,7 @@ sub list_as_string {
 
     my $full = "";
 
-        # Column with
+    # Column with
     $columns   = 60;
     my $bullet = 1;
 
@@ -97,8 +99,8 @@ sub properties {
 
     my @properties = ();
 
-    if($self->is_success && ref($self->{xmlref}->{Details}) eq 'ARRAY') {
-        foreach my $xmlref (@{$self->{xmlref}->{Details}}) {
+    if($self->is_success && ref($self->{xmlref}->{Items}) eq 'ARRAY') {
+        foreach my $xmlref (@{$self->{xmlref}->{Items}}) {
             my $property = Net::Amazon::Property::factory(xmlref => $xmlref);
             push @properties, $property;
         }
@@ -109,11 +111,11 @@ sub properties {
     }
 
     if(@properties) {
-            # Scalar context and we've got results. Return the first one.
+        # Scalar context and we've got results. Return the first one.
         return $properties[0];
     }
 
-        # Scalar context and we don't have anything.
+    # Scalar context and we don't have anything.
     return undef;
 }
 

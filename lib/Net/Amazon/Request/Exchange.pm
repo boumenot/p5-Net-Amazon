@@ -10,18 +10,13 @@ sub new {
 ##################################################
     my($class, %options) = @_;
 
-   if(exists $options{exchange}) {
-       $options{ExchangeSearch} = $options{exchange};
-       delete $options{exchange};
-       $options{type} = "lite";
-       $options{mode} = "";
-  } else {
-      die "Mandatory parameter 'exchange' not defined";
-  }
+    $class->_assert_options_defined(\%options,
+                                   'exchange');
 
-#    if(!exists $options{exchange}) {
-#        die "Mandatory parameter 'exchange' not defined";
-#    }
+    $options{IdType} = "Exchange";
+    $class->_convert_option(\%options,
+                            'exchange',
+                            'Id');
 
    my $self = $class->SUPER::new(%options);
 

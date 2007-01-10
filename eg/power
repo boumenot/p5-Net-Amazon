@@ -30,7 +30,7 @@ my $limit       = $opts{f} || $opts{s} || 1;
 my $mode        = $ARGV[1] || "books";
 
 my $ua = Net::Amazon->new(
-    token       => 'MY_AMAZON_TOKEN',
+    token       => $ENV{AMAZON_TOKEN},
     max_pages   => 1,
 );
 
@@ -39,7 +39,7 @@ while ($pagecnt <= $limit) {
         power     => $ARGV[0],
         mode      => $mode,
         page      => $pagecnt++,
-        sort      => '+pricerank',
+        sort      => 'inverse-pricerank',
     );
 
     # Response: Net::Amazon::Power::Response

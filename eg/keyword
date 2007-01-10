@@ -17,7 +17,7 @@ die "usage: $0 keyword what mode\n(use " .
     unless defined $ARGV[1];
 
 my $ua = Net::Amazon->new(
-    token       => 'YOUR_AMZN_TOKEN',
+    token       => $ENV{AMAZON_TOKEN},
     max_pages   => 5,
 );
 

@@ -10,7 +10,7 @@ use Log::Log4perl qw(:easy);
 use Net::Amazon::Result::Seller::Listing;
 
 our @DEFAULT_ATTRIBUTES = qw(StoreName SellerNickname 
-                             NumberOfOpenListings StoreId);
+                             NumberOfOpenListings StoreId SellerId);
 __PACKAGE__->make_accessor($_) for @DEFAULT_ATTRIBUTES;
 __PACKAGE__->make_array_accessor($_) for qw(listings);
 
@@ -31,13 +31,15 @@ sub new {
 
     bless $self, $class;
 
-        # Set default attributes
-    for my $attr (@DEFAULT_ATTRIBUTES) {
-        DEBUG "Setting attribute $attr to $options{xmlref}->{$attr}";
-        $self->$attr($options{xmlref}->{$attr});
-    }
+    my $ref = $options{xmlref};
 
-    for my $listing (@{$options{xmlref}->{ListingProductInfo}->{ListingProductDetails}}) {
+    $self->StoreName($ref->[0]->{Seller}->{Nickname});
+    $self->SellerNickname($ref->[0]->{Seller}->{Nickname});
+    $self->SellerId($ref->[0]->{Seller}->{SellerId});
+    $self->StoreId($ref->[0]->{Seller}->{SellerId});
+    $self->NumberOfOpenListings(scalar(@$ref));
+
+    for my $listing (@$ref) {
         push @listings, 
              Net::Amazon::Result::Seller::Listing->new(
                  xmlref => $listing);

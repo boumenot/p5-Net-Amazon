@@ -15,7 +15,7 @@ use Log::Log4perl qw(:easy);
 Log::Log4perl->easy_init($DEBUG);
 
 my $ua = Net::Amazon->new(
-    token       => 'YOUR_AMZN_TOKEN',
+    token       => $ENV{AMAZON_TOKEN},
 );
 
 die "usage: $0 asin\n(use 0201360683 as " .

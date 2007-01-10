@@ -1,67 +1,128 @@
-<?xml version="1.0" encoding="UTF-8"?><ProductInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://xml.amazon.com/schemas3/dev-heavy.xsd">
-
-<Request><Args><Arg value="libwww-perl/5.76" name="UserAgent"></Arg><Arg value="1" name="page"></Arg><Arg value="YOUR_AMZN_TOKEN" name="dev-t"></Arg><Arg value="xml" name="f"></Arg><Arg value="heavy" name="type"></Arg><Arg value="02JG80RP8X0ADEC5PJCR" name="RequestID"></Arg><Arg value="6305181772" name="AsinSearch"></Arg><Arg value="us" name="locale"></Arg><Arg value="webservices-20" name="t"></Arg><Arg value="books" name="mode"></Arg><Arg value="+salesrank" name="sort"></Arg></Args></Request>   <Details url="http://www.amazon.com/exec/obidos/ASIN/6305181772/webservices-20?dev-t=YOUR_AMZN_TOKEN%26camp=2025%26link_code=xm2">
-      <Asin>6305181772</Asin>
-      <ProductName>Mission Impossible</ProductName>
-      <Catalog>DVD</Catalog>
-      <Starring>
-         <Actor>Tom Cruise</Actor>
-         <Actor>Jon Voight</Actor>
-         <Actor>Emmanuelle Béart</Actor>
-      </Starring>
-      <Directors>
-         <Director>Brian De Palma</Director>
-      </Directors>
-      <TheatricalReleaseDate>22 May, 1996</TheatricalReleaseDate>
-      <ReleaseDate>19 August, 2003</ReleaseDate>
-      <Manufacturer>Paramount Studio</Manufacturer>
-      <ImageUrlSmall>http://images.amazon.com/images/P/6305181772.01.THUMBZZZ.jpg</ImageUrlSmall>
-      <ImageUrlMedium>http://images.amazon.com/images/P/6305181772.01.MZZZZZZZ.jpg</ImageUrlMedium>
-      <ImageUrlLarge>http://images.amazon.com/images/P/6305181772.01.LZZZZZZZ.jpg</ImageUrlLarge>
-      <ListPrice>$19.99</ListPrice>
-      <OurPrice>$17.99</OurPrice>
-      <UsedPrice>$9.48</UsedPrice>
-      <ThirdPartyNewPrice>$12.60</ThirdPartyNewPrice>
-      <SalesRank>2,983</SalesRank>
-      <Lists>
-         <ListId>9EU0KCW0Y41D</ListId>
-         <ListId>U4IFXSTRXYT7</ListId>
-         <ListId>1A0OA3KN1UZM4</ListId>
-      </Lists>
-      <BrowseList>
-         <BrowseNode>
-            <BrowseName>Feature Film-action/Adventure</BrowseName>
-         </BrowseNode>
-      </BrowseList>
-      <Media>DVD</Media>
-      <NumMedia>1</NumMedia>
-      <Features>
-         <Feature>Color</Feature>
-         <Feature>Closed-captioned</Feature>
-         <Feature>Widescreen</Feature>
-      </Features>
-      <MpaaRating>PG-13 (Parental Guidance Suggested)</MpaaRating>
-      <Availability>Usually ships within 24 hours</Availability>
-      <Upc>097361549774</Upc>
-      <ProductDescription>A flashy, splashy summer-movie blockbuster that's fun and exciting without being mindless? That's the impossible mission accomplished by director Brian De Palma, star-coproducer Tom Cruise, and the crack team of &lt;I>Mission: Impossible&lt;/I>. Based on the '60s TV show and an almost impenetrably complex (but nonetheless thrilling) original story by David Koepp (&lt;I>Jurassic Park&lt;/I>) and Steven Zaillian (&lt;I>Schindler's List&lt;/I>), with a screenplay by Koepp and Robert Towne (&lt;I>Chinatown&lt;/I>, &lt;I>Shampoo&lt;/I>), &lt;I>Mission: Impossible&lt;/I> begins with veteran agent Jim Phelps (Jon Voight) and his expert crew embarking on a mission that goes horribly, horribly wrong. But nothing is what it seems. The nail-biting set piece--always a signature of director De Palma (&lt;I>Carrie&lt;/I>, &lt;I>The Untouchables&lt;/I>)--in which Cruise is lowered from the ceiling to retrieve information from a computer in a high-security vault--is an instant classic. But perhaps even more impressive, at least in retrospect, is a flashback sequence in which two characters attempt to reconstruct a series of events from multiple points of view. It's pretty daring and sophisticated stuff for a big-budget spy movie, but brains were always what put the &lt;I>Mission: Impossible&lt;/I> team ahead of the competition, anyway, no? &lt;I>--Jim Emerson&lt;/I></ProductDescription>
-      <Reviews>
-         <AvgCustomerRating>3.71</AvgCustomerRating>
-         <TotalCustomerReviews>139</TotalCustomerReviews>
-         <CustomerReview>
-            <Rating>4</Rating>
-            <Summary>Mission: Not Exactly Accomplished</Summary>
-            <Comment>"Mission: Impossible" was (I thought) supposed to be the movie sequel to the classic TV series. If not, why call it "Mission: Impossible"? But something happened on the way to the theater, because this is nothing like the old TV show. In fact, any similarity appears to be purely coincidental. And that's the major problem with this film. The title raises expectations, but the film doesn't deliver on those expectations.&lt;P>Taken purely as a spy thriller, this flick is fine. It has some great action sequences. In particular, the CIA break-in is clever and tense. The end piece in the tunnel is also entertaining, but it stretches credibility a long way. The plot is almost too complicated -- sometimes it's hard to keep up with who is doing what to whom. But, hey, that's good. Better a bit complex than so simple a two-year-old could keep up. The acting is generally acceptable, too. Yeah, Tom Cruise is a little hard to accept as a master spy, but he gets by.&lt;P>As a spy thriller, "Mission: Impossible" is a strong four star effort (maybe even a soft five stars). That it's linked with the "Mission: Impossible" TV series is a negative. I'd still like to see an "M:I" movie. You know: top agent gets extremely difficult assignments, formulates plans, picks teams of operatives with suitable skills and abilities, and, using a combination of sleight-of-hand, high tech trickery, and sheer daring, achieves the objective. Those were great fun. This film is also fun, but "M:I" it isn't. I'm giving it four stars strictly on its own merits. Rated as a "Mission: Impossible" sequel it would get only two stars.</Comment>
-         </CustomerReview>
-         <CustomerReview>
-            <Rating>4</Rating>
-            <Summary>Alot of bark. No bite.</Summary>
-            <Comment>In the style of my favorite DVD site, IGN.com, I'm going to review this movie based on four areas: The movie, the video, the audio, and the extras.&lt;P>THE MOVIE Wow. Tom Cruise is at his energetic best. Ethan Hunt is a young and very skilled IMF operative. After all, his mentor is one of the best: Jim Phelps. A man named Golitsyn has gotten himself into a position to steal the CIA's NOC list, and has the intent of selling it on the black market. Phelps, along with Ethan Hunt and the other four members of his IMF team are given the mission to catch Golitsyn in the act of stealing the NOC list, apprehend him, thereby retrieving the stolen list. Everything goes wrong. All members of the team, except Ethan are killed, including Phelps. The operation was a molehunt. Hunt is supected of the killings, and accused of imbessling money from the CIA. This is just the surface. There are many many more major-players, all part of a huge and complex conspiracy. Brian De Palma did an amazing job. This film is visual feast, for half the story is told through camera movement. The film's plot is extremely complicated. I have watched the film several times, and everytime I do, I notice something new and a another little detail that makes more sense of the plot. This film is one that has to be watched closely. Many of the plot points and nuances are subtle and require you to pay close attention. An Action/suspense film that has brains. Who would have thought?&lt;P>THE VIDEO&lt;P> Stunning. A little dirty, but that is expected. After all, an original theatrical print was used for the transfer. Slight graniness, but you won't really notice unless finding flaws is the reason you are watching the movie. You also have the choice of watching the film in Pan-and-Scan or Widescreen.&lt;P>THE AUDIO&lt;P> Pretty good if you have the right equipment.I usually set the disc at Dolby 5.1 sound. That option is great if you have good speakers. For those of you that hve just your Televisions, keep the disc on 2 channel. You also have the option to watch it in French.&lt;P>THE EXTRA&lt;P> The heading should be THE EXTRAS. However, there is only one extra. All you get is the theatrical trailer. That isn't bad, but is definately not enough. Sorry, but scene selection, interactive menus, captions, and subtitles do not count as special features, especially to today's DVD's standards. (Have you seen the Fight Club DVD?)&lt;P> Not a bad package when you consider the quality of the sound and video, but special features are very important. Without them, you might as well go and and buy the VHS version, and save yourself a couple of bucks.</Comment>
-         </CustomerReview>
-         <CustomerReview>
-            <Rating>3</Rating>
-            <Summary>why all the bad review?</Summary>
-            <Comment>Mission: Impossible is one of the rare-good spy movies out there. In almost every way, it surpasses M:I-2 in terms of story, suspense, and acting. This movie proves a spy movie doesn't need a lot of action to be good. &lt;BR>As the movie starts, agent Ethan Hunt and his team start on a normal mission, when it starts to go terribly wrong. One by one, his team is killed, and he must find out who killed his team and who set him up. My personal favorite scene is when Ethan Hunt (Tom Cruise) blows up the fish tank.&lt;P>critics are ass-heads</Comment>
-         </CustomerReview>
-      </Reviews>
-   </Details>
-</ProductInfo>
+<?xml version="1.0" encoding="UTF-8"?>
+<ItemLookupResponse xmlns="http://webservices.amazon.com/AWSECommerceService/2006-06-28">
+  <Items>
+    <Item>
+      <ASIN>6305181772</ASIN>
+      <DetailPageURL>http://www.amazon.com/exec/obidos/redirect?tag=ws%26link_code=xm2%26camp=2025%26creative=165953%26path=http://www.amazon.com/gp/redirect.html%253fASIN=6305181772%2526tag=ws%2526lcode=xm2%2526cID=2025%2526ccmID=165953%2526location=/o/ASIN/6305181772%25253FSubscriptionId=YOUR_AMAZON_TOKEN</DetailPageURL>
+      <SalesRank>25629</SalesRank>
+      <SmallImage>
+        <URL>http://images.amazon.com/images/P/6305181772.01._SCTHUMBZZZ_.jpg</URL>
+        <Height Units="pixels">60</Height>
+        <Width Units="pixels">43</Width>
+      </SmallImage>
+      <MediumImage>
+        <URL>http://images.amazon.com/images/P/6305181772.01._SCMZZZZZZZ_.jpg</URL>
+        <Height Units="pixels">140</Height>
+        <Width Units="pixels">100</Width>
+      </MediumImage>
+      <LargeImage>
+        <URL>http://images.amazon.com/images/P/6305181772.01._SCLZZZZZZZ_.jpg</URL>
+        <Height Units="pixels">475</Height>
+        <Width Units="pixels">339</Width>
+      </LargeImage>
+      <ItemAttributes>
+        <Actor>Tom Cruise</Actor>
+        <Actor>Jon Voight</Actor>
+        <Actor>Emmanuelle Béart</Actor>
+        <Actor>Henry Czerny</Actor>
+        <Actor>Jean Reno</Actor>
+        <Actor>Ving Rhames</Actor>
+        <Actor>Kristin Scott Thomas</Actor>
+        <Actor>Vanessa Redgrave</Actor>
+        <Actor>Dale Dye</Actor>
+        <Actor>Marcel Iures</Actor>
+        <Actor>Ion Caramitru</Actor>
+        <Actor>Ingeborga Dapkunaite</Actor>
+        <Actor>Valentina Yakunina</Actor>
+        <Actor>Marek Vasut</Actor>
+        <Actor>Nathan Osgood</Actor>
+        <Actor>John McLaughlin</Actor>
+        <Actor>Rolf Saxon</Actor>
+        <Actor>Karel Dobry</Actor>
+        <Actor>Andreas Wisniewski</Actor>
+        <Actor>David Shaeffer</Actor>
+        <AspectRatio>2.35:1</AspectRatio>
+        <AudienceRating>PG-13 (Parental Guidance Suggested)</AudienceRating>
+        <Binding>DVD</Binding>
+        <Director>Brian De Palma</Director>
+        <DVDLayers>2</DVDLayers>
+        <DVDSides>1</DVDSides>
+        <EAN>0097361549729</EAN>
+        <Format>AC-3</Format>
+        <Format>Closed-captioned</Format>
+        <Format>Color</Format>
+        <Format>Full Screen</Format>
+        <Format>Letterboxed</Format>
+        <Format>Widescreen</Format>
+        <Format>NTSC</Format>
+        <ISBN>0792153014</ISBN>
+        <Label>Paramount</Label>
+        <Languages>
+          <Language>
+            <Name>English</Name>
+            <Type>Original Language</Type>
+            <AudioFormat>Dolby Digital 2.0 Surround</AudioFormat>
+          </Language>
+          <Language>
+            <Name>French</Name>
+            <Type>Original Language</Type>
+            <AudioFormat>Dolby Digital 2.0 Surround</AudioFormat>
+          </Language>
+          <Language>
+            <Name>Spanish</Name>
+            <Type>Subtitled</Type>
+          </Language>
+        </Languages>
+        <ListPrice>
+          <Amount>1498</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$14.98</FormattedPrice>
+        </ListPrice>
+        <Manufacturer>Paramount</Manufacturer>
+        <NumberOfItems>1</NumberOfItems>
+        <PackageDimensions>
+          <Height Units="hundredths-inches">60</Height>
+          <Length Units="hundredths-inches">750</Length>
+          <Weight Units="hundredths-pounds">25</Weight>
+          <Width Units="hundredths-inches">510</Width>
+        </PackageDimensions>
+        <PictureFormat>Letterbox</PictureFormat>
+        <PictureFormat>Pan &amp; Scan</PictureFormat>
+        <ProductGroup>DVD</ProductGroup>
+        <Publisher>Paramount</Publisher>
+        <RegionCode>1</RegionCode>
+        <ReleaseDate>1998-11-17</ReleaseDate>
+        <RunningTime Units="minutes">110</RunningTime>
+        <Studio>Paramount</Studio>
+        <TheatricalReleaseDate>1996-05-22</TheatricalReleaseDate>
+        <Title>Mission Impossible</Title>
+        <UPC>097361549729</UPC>
+      </ItemAttributes>
+      <OfferSummary>
+        <LowestNewPrice>
+          <Amount>797</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$7.97</FormattedPrice>
+        </LowestNewPrice>
+        <LowestUsedPrice>
+          <Amount>628</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$6.28</FormattedPrice>
+        </LowestUsedPrice>
+        <LowestCollectiblePrice>
+          <Amount>1482</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$14.82</FormattedPrice>
+        </LowestCollectiblePrice>
+        <TotalNew>10</TotalNew>
+        <TotalUsed>23</TotalUsed>
+        <TotalCollectible>4</TotalCollectible>
+        <TotalRefurbished>0</TotalRefurbished>
+      </OfferSummary>
+      <Offers>
+        <TotalOffers>0</TotalOffers>
+        <TotalOfferPages>0</TotalOfferPages>
+      </Offers>
+    </Item>
+  </Items>
+</ItemLookupResponse>

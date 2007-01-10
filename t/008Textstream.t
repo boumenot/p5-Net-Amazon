@@ -38,7 +38,7 @@ ok($resp->is_success(), "Successful fetch");
 # Check result
 ######################################################################
 my $p = ($resp->properties)[0];
-is($p->publisher(), "Fireside", "Check publisher");
+is($p->publisher(), "Collins", "Check publisher");
 
 ######################################################################
 # handle canned responses

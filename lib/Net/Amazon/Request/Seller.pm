@@ -8,12 +8,14 @@ sub new {
 ##################################################
     my($class, %options) = @_;
 
-    if(exists $options{seller}) {
-        $options{SellerSearch} = $options{seller};
-        delete $options{seller};
-    } else {
-        die "Mandatory parameter 'seller' not defined";
-    }
+    $class->_assert_options_defined(\%options,
+                                   'seller');
+
+    $class->_convert_option(\%options,
+                            'seller',
+                            'SellerId');
+
+#    $options{IdType} = "Listing";
 
     my $self = $class->SUPER::new(%options);
 
@@ -38,7 +40,7 @@ Net::Amazon::Request::Seller - Class for submitting Seller requests
   );
 
   my $req = Net::Amazon::Request::Seller->new( 
-      seller  => 'A2GXAGU54VOP7'
+      seller  => 'A23JJ2BNHZMFCO'
   );
 
     # Response is of type Net::Amazon::Response::Seller
@@ -64,7 +66,8 @@ Check L<Net::Amazon::Request> for common request parameters not listed here.
 =item new( seller => $seller_id )
 
 Constructs a new C<Net::Amazon::Request::Seller> object, used to query
-the Amazon web service with the given seller id.
+the Amazon web service with the given seller id, and listing id.  As of
+AWS4 listing id is a mandatory parameter.
 
 =back
 

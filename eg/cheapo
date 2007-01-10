@@ -18,7 +18,7 @@ die "usage: $0 keyword" unless
     defined $ARGV[0];
 
 my $ua = Net::Amazon->new(
-    token       => 'YOUR_AMZN_TOKEN',
+    token       => $ENV{AMAZON_TOKEN},
     max_pages   => 20,
 );
 

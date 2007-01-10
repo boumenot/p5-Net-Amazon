@@ -16,7 +16,7 @@ use Log::Log4perl qw(:easy);
 Log::Log4perl->easy_init({level => $ERROR, layout => '%F{1}-%L: %m%n'});
 
 my $ua = Net::Amazon->new(
-    token       => 'YOUR_AMZN_TOKEN',
+    token       => $ENV{AMAZON_TOKEN},
 );
 
 my $req = Net::Amazon::Request::ASIN->new(

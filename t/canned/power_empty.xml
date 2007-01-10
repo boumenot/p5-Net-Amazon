@@ -1,2 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ProductInfo><Request><Args><Arg value="libwww-perl/5.76" name="UserAgent"></Arg><Arg value="02R8H37GPR22CBYNZ2YH" name="RequestID"></Arg><Arg value="author: randal schwartz and author: mike schilli" name="PowerSearch"></Arg><Arg value="us" name="locale"></Arg><Arg value="1" name="page"></Arg><Arg value="YOUR_AMZN_TOKEN" name="dev-t"></Arg><Arg value="webservices-20" name="t"></Arg><Arg value="xml" name="f"></Arg><Arg value="books" name="mode"></Arg><Arg value="heavy" name="type"></Arg><Arg value="+salesrank" name="sort"></Arg></Args></Request><ErrorMsg>There are no exact matches for the search.</ErrorMsg></ProductInfo>
+<ItemSearchResponse xmlns="http://webservices.amazon.com/AWSECommerceService/2006-06-28">
+  <Items>
+    <Request>
+      <IsValid>True</IsValid>
+      <ItemSearchRequest>
+        <ItemPage>1</ItemPage>
+        <Power>author: randal schwartz and author: mike schilli</Power>
+        <ResponseGroup>Large</ResponseGroup>
+        <SearchIndex>Books</SearchIndex>
+        <Sort>salesrank</Sort>
+      </ItemSearchRequest>
+      <Errors>
+        <Error>
+          <Code>AWS.ECommerceService.NoExactMatches</Code>
+          <Message>We did not find any matches for your request.</Message>
+        </Error>
+      </Errors>
+    </Request>
+    <TotalResults>0</TotalResults>
+    <TotalPages>0</TotalPages>
+  </Items>
+</ItemSearchResponse>

@@ -17,7 +17,9 @@ sub new {
 
     $class->_convert_option(\%options,
                             'wishlist',
-                            'WishlistSearch');
+                            'ListId');
+
+	$options{'ListType'} = 'WishList';
 
     my $self = $class->SUPER::new(%options);
 

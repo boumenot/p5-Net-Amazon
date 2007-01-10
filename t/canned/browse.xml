@@ -1,97 +1,576 @@
-<?xml version="1.0" encoding="UTF-8"?><ProductInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://xml.amazon.com/schemas2/dev-heavy.xsd">
-
-   <TotalResults>3</TotalResults>
-   <TotalPages>1</TotalPages>
-   <Details url="http://www.amazon.com/exec/obidos/ASIN/1571691014/webservices-20?dev-t=MY_AMAZON_TOKEN%26camp=2025%26link_code=xm2">
-      <Asin>1571691014</Asin>
-      <ProductName>Cgi Programming Interactive Course</ProductName>
-      <Catalog>Book</Catalog>
-      <Authors>
-         <Author>Reuven Lerner</Author>
-      </Authors>
-      <ReleaseDate>October, 1997</ReleaseDate>
-      <Manufacturer>Waite Group Pr</Manufacturer>
-      <ImageUrlSmall>http://images.amazon.com/images/P/1571691014.01.THUMBZZZ.jpg</ImageUrlSmall>
-      <ImageUrlMedium>http://images.amazon.com/images/P/1571691014.01.MZZZZZZZ.jpg</ImageUrlMedium>
-      <ImageUrlLarge>http://images.amazon.com/images/P/1571691014.01.LZZZZZZZ.jpg</ImageUrlLarge>
-      <ListPrice>$49.99</ListPrice>
-      <OurPrice>$49.99</OurPrice>
-      <SalesRank>2,512,920</SalesRank>
-      <BrowseList>
-         <BrowseNode>
-            <BrowseName>CGI (Computer network protocol</BrowseName>
-         </BrowseNode>
-         <BrowseNode>
-            <BrowseName>Web servers</BrowseName>
-         </BrowseNode>
-         <BrowseNode>
-            <BrowseName>Computer programs</BrowseName>
-         </BrowseNode>
-         <BrowseNode>
-            <BrowseName>Computer Interfaces</BrowseName>
-         </BrowseNode>
-         <BrowseNode>
-            <BrowseName>Data Transmission Systems - General</BrowseName>
-         </BrowseNode>
-         <BrowseNode>
-            <BrowseName>Computers</BrowseName>
-         </BrowseNode>
-      </BrowseList>
-      <Media>Hardcover</Media>
-      <Isbn>1571691014</Isbn>
-      <Availability>Out of Print--Limited Availability</Availability>
-      <Reviews>
-         <AvgCustomerRating>0</AvgCustomerRating>
-         <TotalCustomerReviews>0</TotalCustomerReviews>
-      </Reviews>
-   </Details>
-   <Details url="http://www.amazon.com/exec/obidos/ASIN/1562439588/webservices-20?dev-t=MY_AMAZON_TOKEN%26camp=2025%26link_code=xm2">
-      <Asin>1562439588</Asin>
-      <ProductName>Mastering Cgi/Perl One-Day Course</ProductName>
-      <Catalog>Book</Catalog>
-      <ReleaseDate>November, 1900</ReleaseDate>
-      <Manufacturer>DDC Publishing, Inc.</Manufacturer>
-      <ImageUrlSmall>http://images.amazon.com/images/P/1562439588.01.THUMBZZZ.jpg</ImageUrlSmall>
-      <ImageUrlMedium>http://images.amazon.com/images/P/1562439588.01.MZZZZZZZ.jpg</ImageUrlMedium>
-      <ImageUrlLarge>http://images.amazon.com/images/P/1562439588.01.LZZZZZZZ.jpg</ImageUrlLarge>
-      <ListPrice>$22.00</ListPrice>
-      <OurPrice>$22.00</OurPrice>
-      <BrowseList>
-         <BrowseNode>
-            <BrowseName>Computer Books: General</BrowseName>
-         </BrowseNode>
-      </BrowseList>
-      <Media>Paperback</Media>
-      <Isbn>1562439588</Isbn>
-      <Availability>Out of Print--Limited Availability</Availability>
-      <Reviews>
-         <AvgCustomerRating>0</AvgCustomerRating>
-         <TotalCustomerReviews>0</TotalCustomerReviews>
-      </Reviews>
-   </Details>
-   <Details url="http://www.amazon.com/exec/obidos/ASIN/1585770671/webservices-20?dev-t=MY_AMAZON_TOKEN%26camp=2025%26link_code=xm2">
-      <Asin>1585770671</Asin>
-      <ProductName>Developing Cgi Scripts Using Perl One-Day Course</ProductName>
-      <Catalog>Book</Catalog>
-      <ReleaseDate>November, 1900</ReleaseDate>
-      <Manufacturer>DDC Publishing, Inc.</Manufacturer>
-      <ImageUrlSmall>http://images.amazon.com/images/P/1585770671.01.THUMBZZZ.jpg</ImageUrlSmall>
-      <ImageUrlMedium>http://images.amazon.com/images/P/1585770671.01.MZZZZZZZ.jpg</ImageUrlMedium>
-      <ImageUrlLarge>http://images.amazon.com/images/P/1585770671.01.LZZZZZZZ.jpg</ImageUrlLarge>
-      <ListPrice>$30.00</ListPrice>
-      <OurPrice>$30.00</OurPrice>
-      <SalesRank>2,520,242</SalesRank>
-      <BrowseList>
-         <BrowseNode>
-            <BrowseName>Computer Books: General</BrowseName>
-         </BrowseNode>
-      </BrowseList>
-      <Media>Paperback</Media>
-      <Isbn>1585770671</Isbn>
-      <Availability>Out of Print--Limited Availability</Availability>
-      <Reviews>
-         <AvgCustomerRating>0</AvgCustomerRating>
-         <TotalCustomerReviews>0</TotalCustomerReviews>
-      </Reviews>
-   </Details>
-</ProductInfo>
+<?xml version="1.0" encoding="UTF-8"?>
+<ItemSearchResponse xmlns="http://webservices.amazon.com/AWSECommerceService/2006-06-28">
+  <Items>
+    <TotalResults>3</TotalResults>
+    <TotalPages>1</TotalPages>
+    <Item>
+      <ASIN>1585770671</ASIN>
+      <DetailPageURL>http://www.amazon.com/exec/obidos/redirect?tag=ws%26link_code=xm2%26camp=2025%26creative=165953%26path=http://www.amazon.com/gp/redirect.html%253fASIN=1585770671%2526tag=ws%2526lcode=xm2%2526cID=2025%2526ccmID=165953%2526location=/o/ASIN/1585770671%25253FSubscriptionId=YOUR_AMAZON_TOKEN</DetailPageURL>
+      <ItemAttributes>
+        <Binding>Paperback</Binding>
+        <EAN>9781585770670</EAN>
+        <Edition>Spiral</Edition>
+        <ISBN>1585770671</ISBN>
+        <Label>D D C Pub</Label>
+        <ListPrice>
+          <Amount>3000</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$30.00</FormattedPrice>
+        </ListPrice>
+        <Manufacturer>D D C Pub</Manufacturer>
+        <ProductGroup>Book</ProductGroup>
+        <PublicationDate>2001-12-01</PublicationDate>
+        <Publisher>D D C Pub</Publisher>
+        <Studio>D D C Pub</Studio>
+        <Title>Developing Cgi Scripts Using Perl One-Day Course</Title>
+      </ItemAttributes>
+      <OfferSummary>
+        <TotalNew>0</TotalNew>
+        <TotalUsed>0</TotalUsed>
+        <TotalCollectible>0</TotalCollectible>
+        <TotalRefurbished>0</TotalRefurbished>
+      </OfferSummary>
+      <Offers>
+        <TotalOffers>0</TotalOffers>
+        <TotalOfferPages>0</TotalOfferPages>
+      </Offers>
+      <BrowseNodes>
+        <BrowseNode>
+          <BrowseNodeId>4025</BrowseNodeId>
+          <Name>CGI Programming</Name>
+          <Ancestors>
+            <BrowseNode>
+              <BrowseNodeId>3952</BrowseNodeId>
+              <Name>Languages &amp; Tools</Name>
+              <Ancestors>
+                <BrowseNode>
+                  <BrowseNodeId>3839</BrowseNodeId>
+                  <Name>Programming</Name>
+                  <Ancestors>
+                    <BrowseNode>
+                      <BrowseNodeId>5</BrowseNodeId>
+                      <Name>Computers &amp; Internet</Name>
+                      <Ancestors>
+                        <BrowseNode>
+                          <BrowseNodeId>1000</BrowseNodeId>
+                          <Name>Subjects</Name>
+                          <Ancestors>
+                            <BrowseNode>
+                              <BrowseNodeId>283155</BrowseNodeId>
+                              <Name>Books</Name>
+                            </BrowseNode>
+                          </Ancestors>
+                        </BrowseNode>
+                      </Ancestors>
+                    </BrowseNode>
+                  </Ancestors>
+                </BrowseNode>
+              </Ancestors>
+            </BrowseNode>
+          </Ancestors>
+        </BrowseNode>
+        <BrowseNode>
+          <BrowseNodeId>4045</BrowseNodeId>
+          <Name>Perl</Name>
+          <Ancestors>
+            <BrowseNode>
+              <BrowseNodeId>4021</BrowseNodeId>
+              <Name>Web Programming</Name>
+              <Ancestors>
+                <BrowseNode>
+                  <BrowseNodeId>3839</BrowseNodeId>
+                  <Name>Programming</Name>
+                  <Ancestors>
+                    <BrowseNode>
+                      <BrowseNodeId>5</BrowseNodeId>
+                      <Name>Computers &amp; Internet</Name>
+                      <Ancestors>
+                        <BrowseNode>
+                          <BrowseNodeId>1000</BrowseNodeId>
+                          <Name>Subjects</Name>
+                          <Ancestors>
+                            <BrowseNode>
+                              <BrowseNodeId>283155</BrowseNodeId>
+                              <Name>Books</Name>
+                            </BrowseNode>
+                          </Ancestors>
+                        </BrowseNode>
+                      </Ancestors>
+                    </BrowseNode>
+                  </Ancestors>
+                </BrowseNode>
+              </Ancestors>
+            </BrowseNode>
+          </Ancestors>
+        </BrowseNode>
+        <BrowseNode>
+          <BrowseNodeId>657762</BrowseNodeId>
+          <Name>General</Name>
+          <Ancestors>
+            <BrowseNode>
+              <BrowseNodeId>5</BrowseNodeId>
+              <Name>Computers &amp; Internet</Name>
+              <Ancestors>
+                <BrowseNode>
+                  <BrowseNodeId>1000</BrowseNodeId>
+                  <Name>Subjects</Name>
+                  <Ancestors>
+                    <BrowseNode>
+                      <BrowseNodeId>283155</BrowseNodeId>
+                      <Name>Books</Name>
+                    </BrowseNode>
+                  </Ancestors>
+                </BrowseNode>
+              </Ancestors>
+            </BrowseNode>
+          </Ancestors>
+        </BrowseNode>
+      </BrowseNodes>
+    </Item>
+    <Item>
+      <ASIN>1562439588</ASIN>
+      <DetailPageURL>http://www.amazon.com/exec/obidos/redirect?tag=ws%26link_code=xm2%26camp=2025%26creative=165953%26path=http://www.amazon.com/gp/redirect.html%253fASIN=1562439588%2526tag=ws%2526lcode=xm2%2526cID=2025%2526ccmID=165953%2526location=/o/ASIN/1562439588%25253FSubscriptionId=YOUR_AMAZON_TOKEN</DetailPageURL>
+      <ItemAttributes>
+        <Binding>Paperback</Binding>
+        <EAN>9781562439583</EAN>
+        <Edition>Spiral</Edition>
+        <ISBN>1562439588</ISBN>
+        <Label>D D C Pub</Label>
+        <ListPrice>
+          <Amount>2200</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$22.00</FormattedPrice>
+        </ListPrice>
+        <Manufacturer>D D C Pub</Manufacturer>
+        <ProductGroup>Book</ProductGroup>
+        <PublicationDate>2000-11</PublicationDate>
+        <Publisher>D D C Pub</Publisher>
+        <Studio>D D C Pub</Studio>
+        <Title>Mastering Cgi/Perl One-Day Course</Title>
+      </ItemAttributes>
+      <OfferSummary>
+        <TotalNew>0</TotalNew>
+        <TotalUsed>0</TotalUsed>
+        <TotalCollectible>0</TotalCollectible>
+        <TotalRefurbished>0</TotalRefurbished>
+      </OfferSummary>
+      <Offers>
+        <TotalOffers>0</TotalOffers>
+        <TotalOfferPages>0</TotalOfferPages>
+      </Offers>
+      <BrowseNodes>
+        <BrowseNode>
+          <BrowseNodeId>4025</BrowseNodeId>
+          <Name>CGI Programming</Name>
+          <Ancestors>
+            <BrowseNode>
+              <BrowseNodeId>3952</BrowseNodeId>
+              <Name>Languages &amp; Tools</Name>
+              <Ancestors>
+                <BrowseNode>
+                  <BrowseNodeId>3839</BrowseNodeId>
+                  <Name>Programming</Name>
+                  <Ancestors>
+                    <BrowseNode>
+                      <BrowseNodeId>5</BrowseNodeId>
+                      <Name>Computers &amp; Internet</Name>
+                      <Ancestors>
+                        <BrowseNode>
+                          <BrowseNodeId>1000</BrowseNodeId>
+                          <Name>Subjects</Name>
+                          <Ancestors>
+                            <BrowseNode>
+                              <BrowseNodeId>283155</BrowseNodeId>
+                              <Name>Books</Name>
+                            </BrowseNode>
+                          </Ancestors>
+                        </BrowseNode>
+                      </Ancestors>
+                    </BrowseNode>
+                  </Ancestors>
+                </BrowseNode>
+              </Ancestors>
+            </BrowseNode>
+          </Ancestors>
+        </BrowseNode>
+        <BrowseNode>
+          <BrowseNodeId>4045</BrowseNodeId>
+          <Name>Perl</Name>
+          <Ancestors>
+            <BrowseNode>
+              <BrowseNodeId>4021</BrowseNodeId>
+              <Name>Web Programming</Name>
+              <Ancestors>
+                <BrowseNode>
+                  <BrowseNodeId>3839</BrowseNodeId>
+                  <Name>Programming</Name>
+                  <Ancestors>
+                    <BrowseNode>
+                      <BrowseNodeId>5</BrowseNodeId>
+                      <Name>Computers &amp; Internet</Name>
+                      <Ancestors>
+                        <BrowseNode>
+                          <BrowseNodeId>1000</BrowseNodeId>
+                          <Name>Subjects</Name>
+                          <Ancestors>
+                            <BrowseNode>
+                              <BrowseNodeId>283155</BrowseNodeId>
+                              <Name>Books</Name>
+                            </BrowseNode>
+                          </Ancestors>
+                        </BrowseNode>
+                      </Ancestors>
+                    </BrowseNode>
+                  </Ancestors>
+                </BrowseNode>
+              </Ancestors>
+            </BrowseNode>
+          </Ancestors>
+        </BrowseNode>
+        <BrowseNode>
+          <BrowseNodeId>657762</BrowseNodeId>
+          <Name>General</Name>
+          <Ancestors>
+            <BrowseNode>
+              <BrowseNodeId>5</BrowseNodeId>
+              <Name>Computers &amp; Internet</Name>
+              <Ancestors>
+                <BrowseNode>
+                  <BrowseNodeId>1000</BrowseNodeId>
+                  <Name>Subjects</Name>
+                  <Ancestors>
+                    <BrowseNode>
+                      <BrowseNodeId>283155</BrowseNodeId>
+                      <Name>Books</Name>
+                    </BrowseNode>
+                  </Ancestors>
+                </BrowseNode>
+              </Ancestors>
+            </BrowseNode>
+          </Ancestors>
+        </BrowseNode>
+      </BrowseNodes>
+    </Item>
+    <Item>
+      <ASIN>1571691014</ASIN>
+      <DetailPageURL>http://www.amazon.com/exec/obidos/redirect?tag=ws%26link_code=xm2%26camp=2025%26creative=165953%26path=http://www.amazon.com/gp/redirect.html%253fASIN=1571691014%2526tag=ws%2526lcode=xm2%2526cID=2025%2526ccmID=165953%2526location=/o/ASIN/1571691014%25253FSubscriptionId=YOUR_AMAZON_TOKEN</DetailPageURL>
+      <SalesRank>4584916</SalesRank>
+      <ItemAttributes>
+        <Author>Reuven Lerner</Author>
+        <Binding>Hardcover</Binding>
+        <EAN>9781571691019</EAN>
+        <ISBN>1571691014</ISBN>
+        <Label>Waite Group Pr</Label>
+        <ListPrice>
+          <Amount>4999</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$49.99</FormattedPrice>
+        </ListPrice>
+        <Manufacturer>Waite Group Pr</Manufacturer>
+        <ProductGroup>Book</ProductGroup>
+        <PublicationDate>1997-10</PublicationDate>
+        <Publisher>Waite Group Pr</Publisher>
+        <Studio>Waite Group Pr</Studio>
+        <Title>Cgi Programming Interactive Course</Title>
+      </ItemAttributes>
+      <OfferSummary>
+        <TotalNew>0</TotalNew>
+        <TotalUsed>0</TotalUsed>
+        <TotalCollectible>0</TotalCollectible>
+        <TotalRefurbished>0</TotalRefurbished>
+      </OfferSummary>
+      <Offers>
+        <TotalOffers>0</TotalOffers>
+        <TotalOfferPages>0</TotalOfferPages>
+      </Offers>
+      <BrowseNodes>
+        <BrowseNode>
+          <BrowseNodeId>4025</BrowseNodeId>
+          <Name>CGI Programming</Name>
+          <Ancestors>
+            <BrowseNode>
+              <BrowseNodeId>3952</BrowseNodeId>
+              <Name>Languages &amp; Tools</Name>
+              <Ancestors>
+                <BrowseNode>
+                  <BrowseNodeId>3839</BrowseNodeId>
+                  <Name>Programming</Name>
+                  <Ancestors>
+                    <BrowseNode>
+                      <BrowseNodeId>5</BrowseNodeId>
+                      <Name>Computers &amp; Internet</Name>
+                      <Ancestors>
+                        <BrowseNode>
+                          <BrowseNodeId>1000</BrowseNodeId>
+                          <Name>Subjects</Name>
+                          <Ancestors>
+                            <BrowseNode>
+                              <BrowseNodeId>283155</BrowseNodeId>
+                              <Name>Books</Name>
+                            </BrowseNode>
+                          </Ancestors>
+                        </BrowseNode>
+                      </Ancestors>
+                    </BrowseNode>
+                  </Ancestors>
+                </BrowseNode>
+              </Ancestors>
+            </BrowseNode>
+          </Ancestors>
+        </BrowseNode>
+        <BrowseNode>
+          <BrowseNodeId>13643</BrowseNodeId>
+          <Name>Engineering</Name>
+          <Children>
+            <BrowseNode>
+              <BrowseNodeId>226498</BrowseNodeId>
+              <BrowseNodeId>226498</BrowseNodeId>
+              <Name>Aerospace</Name>
+              <Name>Aerospace</Name>
+            </BrowseNode>
+            <BrowseNode>
+              <BrowseNodeId>13647</BrowseNodeId>
+              <BrowseNodeId>13647</BrowseNodeId>
+              <Name>Automotive</Name>
+              <Name>Automotive</Name>
+            </BrowseNode>
+            <BrowseNode>
+              <BrowseNodeId>226506</BrowseNodeId>
+              <BrowseNodeId>226506</BrowseNodeId>
+              <Name>Bioengineering</Name>
+              <Name>Bioengineering</Name>
+            </BrowseNode>
+            <BrowseNode>
+              <BrowseNodeId>227539</BrowseNodeId>
+              <BrowseNodeId>227539</BrowseNodeId>
+              <Name>Chemical</Name>
+              <Name>Chemical</Name>
+            </BrowseNode>
+            <BrowseNode>
+              <BrowseNodeId>227541</BrowseNodeId>
+              <BrowseNodeId>227541</BrowseNodeId>
+              <Name>Civil</Name>
+              <Name>Civil</Name>
+            </BrowseNode>
+            <BrowseNode>
+              <BrowseNodeId>227543</BrowseNodeId>
+              <BrowseNodeId>227543</BrowseNodeId>
+              <Name>Computer Technology</Name>
+              <Name>Computer Technology</Name>
+            </BrowseNode>
+            <BrowseNode>
+              <BrowseNodeId>52168011</BrowseNodeId>
+              <BrowseNodeId>52168011</BrowseNodeId>
+              <Name>Design</Name>
+              <Name>Design</Name>
+            </BrowseNode>
+            <BrowseNode>
+              <BrowseNodeId>52166011</BrowseNodeId>
+              <BrowseNodeId>52166011</BrowseNodeId>
+              <Name>Economics</Name>
+              <Name>Economics</Name>
+            </BrowseNode>
+            <BrowseNode>
+              <BrowseNodeId>52158011</BrowseNodeId>
+              <BrowseNodeId>52158011</BrowseNodeId>
+              <Name>Education</Name>
+              <Name>Education</Name>
+            </BrowseNode>
+            <BrowseNode>
+              <BrowseNodeId>227544</BrowseNodeId>
+              <BrowseNodeId>227544</BrowseNodeId>
+              <Name>Electrical &amp; Electronics</Name>
+              <Name>Electrical &amp; Electronics</Name>
+            </BrowseNode>
+            <BrowseNode>
+              <BrowseNodeId>52215011</BrowseNodeId>
+              <BrowseNodeId>52215011</BrowseNodeId>
+              <Name>Energy</Name>
+              <Name>Energy</Name>
+            </BrowseNode>
+            <BrowseNode>
+              <BrowseNodeId>13756</BrowseNodeId>
+              <BrowseNodeId>13756</BrowseNodeId>
+              <Name>General</Name>
+              <Name>General</Name>
+            </BrowseNode>
+            <BrowseNode>
+              <BrowseNodeId>227550</BrowseNodeId>
+              <BrowseNodeId>227550</BrowseNodeId>
+              <Name>Industrial, Manufacturing &amp; Operational Systems</Name>
+              <Name>Industrial, Manufacturing &amp; Operational Systems</Name>
+            </BrowseNode>
+            <BrowseNode>
+              <BrowseNodeId>52167011</BrowseNodeId>
+              <BrowseNodeId>52167011</BrowseNodeId>
+              <Name>Management</Name>
+              <Name>Management</Name>
+            </BrowseNode>
+            <BrowseNode>
+              <BrowseNodeId>226704</BrowseNodeId>
+              <BrowseNodeId>226704</BrowseNodeId>
+              <Name>Materials</Name>
+              <Name>Materials</Name>
+            </BrowseNode>
+            <BrowseNode>
+              <BrowseNodeId>227552</BrowseNodeId>
+              <BrowseNodeId>227552</BrowseNodeId>
+              <Name>Materials Science</Name>
+              <Name>Materials Science</Name>
+            </BrowseNode>
+            <BrowseNode>
+              <BrowseNodeId>13778</BrowseNodeId>
+              <BrowseNodeId>13778</BrowseNodeId>
+              <Name>Mechanical</Name>
+              <Name>Mechanical</Name>
+            </BrowseNode>
+            <BrowseNode>
+              <BrowseNodeId>13796</BrowseNodeId>
+              <BrowseNodeId>13796</BrowseNodeId>
+              <Name>Nuclear</Name>
+              <Name>Nuclear</Name>
+            </BrowseNode>
+            <BrowseNode>
+              <BrowseNodeId>52156011</BrowseNodeId>
+              <BrowseNodeId>52156011</BrowseNodeId>
+              <Name>Patents &amp; Inventions</Name>
+              <Name>Patents &amp; Inventions</Name>
+            </BrowseNode>
+            <BrowseNode>
+              <BrowseNodeId>226710</BrowseNodeId>
+              <BrowseNodeId>226710</BrowseNodeId>
+              <Name>Petroleum, Mining &amp; Geological</Name>
+              <Name>Petroleum, Mining &amp; Geological</Name>
+            </BrowseNode>
+            <BrowseNode>
+              <BrowseNodeId>16244621</BrowseNodeId>
+              <BrowseNodeId>16244621</BrowseNodeId>
+              <Name>Power Systems</Name>
+              <Name>Power Systems</Name>
+            </BrowseNode>
+            <BrowseNode>
+              <BrowseNodeId>13803</BrowseNodeId>
+              <BrowseNodeId>13803</BrowseNodeId>
+              <Name>Reference</Name>
+              <Name>Reference</Name>
+            </BrowseNode>
+            <BrowseNode>
+              <BrowseNodeId>52157011</BrowseNodeId>
+              <BrowseNodeId>52157011</BrowseNodeId>
+              <Name>Research</Name>
+              <Name>Research</Name>
+            </BrowseNode>
+            <BrowseNode>
+              <BrowseNodeId>226715</BrowseNodeId>
+              <BrowseNodeId>226715</BrowseNodeId>
+              <Name>Special Topics</Name>
+              <Name>Special Topics</Name>
+            </BrowseNode>
+            <BrowseNode>
+              <BrowseNodeId>13809</BrowseNodeId>
+              <BrowseNodeId>13809</BrowseNodeId>
+              <Name>Telecommunications</Name>
+              <Name>Telecommunications</Name>
+            </BrowseNode>
+            <BrowseNode>
+              <BrowseNodeId>16244091</BrowseNodeId>
+              <BrowseNodeId>16244091</BrowseNodeId>
+              <Name>Welding</Name>
+              <Name>Welding</Name>
+            </BrowseNode>
+          </Children>
+          <Ancestors>
+            <BrowseNode>
+              <BrowseNodeId>504360</BrowseNodeId>
+              <Name>Specialty Stores</Name>
+              <Ancestors>
+                <BrowseNode>
+                  <BrowseNodeId>283155</BrowseNodeId>
+                  <Name>Books</Name>
+                </BrowseNode>
+              </Ancestors>
+            </BrowseNode>
+          </Ancestors>
+        </BrowseNode>
+        <BrowseNode>
+          <BrowseNodeId>171114</BrowseNodeId>
+          <Name>General</Name>
+          <Ancestors>
+            <BrowseNode>
+              <BrowseNodeId>3839</BrowseNodeId>
+              <Name>Programming</Name>
+              <Ancestors>
+                <BrowseNode>
+                  <BrowseNodeId>5</BrowseNodeId>
+                  <Name>Computers &amp; Internet</Name>
+                  <Ancestors>
+                    <BrowseNode>
+                      <BrowseNodeId>1000</BrowseNodeId>
+                      <Name>Subjects</Name>
+                      <Ancestors>
+                        <BrowseNode>
+                          <BrowseNodeId>283155</BrowseNodeId>
+                          <Name>Books</Name>
+                        </BrowseNode>
+                      </Ancestors>
+                    </BrowseNode>
+                  </Ancestors>
+                </BrowseNode>
+              </Ancestors>
+            </BrowseNode>
+          </Ancestors>
+        </BrowseNode>
+        <BrowseNode>
+          <BrowseNodeId>173515</BrowseNodeId>
+          <Name>Engineering</Name>
+          <Children>
+            <BrowseNode>
+              <BrowseNodeId>107157011</BrowseNodeId>
+              <Name>Marine</Name>
+            </BrowseNode>
+          </Children>
+          <Ancestors>
+            <BrowseNode>
+              <BrowseNodeId>173507</BrowseNodeId>
+              <Name>Professional &amp; Technical</Name>
+              <Ancestors>
+                <BrowseNode>
+                  <BrowseNodeId>1000</BrowseNodeId>
+                  <Name>Subjects</Name>
+                  <Ancestors>
+                    <BrowseNode>
+                      <BrowseNodeId>283155</BrowseNodeId>
+                      <Name>Books</Name>
+                    </BrowseNode>
+                  </Ancestors>
+                </BrowseNode>
+              </Ancestors>
+            </BrowseNode>
+          </Ancestors>
+        </BrowseNode>
+        <BrowseNode>
+          <BrowseNodeId>657762</BrowseNodeId>
+          <Name>General</Name>
+          <Ancestors>
+            <BrowseNode>
+              <BrowseNodeId>5</BrowseNodeId>
+              <Name>Computers &amp; Internet</Name>
+              <Ancestors>
+                <BrowseNode>
+                  <BrowseNodeId>1000</BrowseNodeId>
+                  <Name>Subjects</Name>
+                  <Ancestors>
+                    <BrowseNode>
+                      <BrowseNodeId>283155</BrowseNodeId>
+                      <Name>Books</Name>
+                    </BrowseNode>
+                  </Ancestors>
+                </BrowseNode>
+              </Ancestors>
+            </BrowseNode>
+          </Ancestors>
+        </BrowseNode>
+      </BrowseNodes>
+    </Item>
+  </Items>
+</ItemSearchResponse>

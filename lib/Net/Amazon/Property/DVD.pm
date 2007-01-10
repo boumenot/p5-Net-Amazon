@@ -6,8 +6,8 @@ use strict;
 use base qw(Net::Amazon::Property);
 
 __PACKAGE__->make_accessor($_) for qw(title studio theatrical_release_date
-  media nummedia upc mpaa_rating);
-__PACKAGE__->make_array_accessor($_) for qw(directors starring features);
+  media nummedia upc mpaa_rating region_code label running_time publisher ean);
+__PACKAGE__->make_array_accessor($_) for qw(actors directors features starring);
 
 ##################################################
 sub new {
@@ -25,6 +25,16 @@ sub new {
 }
 
 ##################################################
+sub actor {
+##################################################
+    my($self, $nameref) = @_;
+
+    # Only return the first director
+    return ($self->actors($nameref))[0];
+}
+
+
+##################################################
 sub director {
 ##################################################
     my($self, $nameref) = @_;
@@ -34,22 +44,50 @@ sub director {
 }
 
 ##################################################
+sub feature {
+##################################################
+    my($self, $nameref) = @_;
+
+    # Only return the first feature
+    return ($self->features($nameref))[0];
+}
+
+
+##################################################
 sub init_via_xmlref {
 ##################################################
     my($self, $xmlref) = @_;
 
     $self->SUPER::init_via_xmlref($xmlref);
 
-    $self->title($xmlref->{ProductName});
-    $self->studio($xmlref->{Manufacturer});
-    $self->directors($xmlref->{Directors}->{Director});
-    $self->starring($xmlref->{Starring}->{Actor});
-    $self->media($xmlref->{Media});
-    $self->nummedia($xmlref->{NumMedia});
-    $self->upc($xmlref->{Upc});
-    $self->theatrical_release_date($xmlref->{TheatricalReleaseDate});
-    $self->mpaa_rating($xmlref->{MpaaRating});
-    $self->features($xmlref->{Features}->{Feature});
+    my $ref = $xmlref->{ItemAttributes};
+
+    $self->actors($ref->{Actor});
+    $self->starring($ref->{Actor});
+    $self->directors($ref->{Director});
+    $self->ean($ref->{EAN});
+    $self->features($ref->{Format});
+    $self->label($ref->{Label});
+    $self->mpaa_rating($ref->{AudienceRating});
+    $self->publisher($ref->{Publisher});
+    $self->region_code($ref->{RegionCode});
+    $self->running_time($ref->{RunningTime}->{content});
+    $self->studio($ref->{Studio});
+    $self->theatrical_release_date($ref->{TheatricalReleaseDate});
+    $self->title($ref->{Title});
+    $self->Title($ref->{Title});
+    $self->upc($ref->{UPC});
+
+
+    $self->media($ref->{Binding});
+
+    $self->NumMedia($ref->{NumberOfItems});
+    $self->nummedia($ref->{NumberOfItems});
+
+    my $year =  (split(/\-/, $ref->{TheatricalReleaseDate}))[0];
+    $self->year($year);
+
+    $self->ReleaseDate($ref->{TheatricalReleaseDate});
 }
 
 1;
@@ -99,8 +137,7 @@ only returning the first director.
 
 =item starring()
 
-USED TO BE AVAILABLE, BUT HAS BEEN MISSING LATELY.
-Used to return a list of actors starring in the movie.
+Returns the same list as the method actors().
 
 =item upc()
 
@@ -113,8 +150,6 @@ Returns the DVD's media type as a string.
 =item nummedia()
 
 Returns the DVD's number of media (number of discs) as a string.
-Amazon doesn't always send this back, so if you get undef assume it
-is 1.
 
 =item theatrical_release_date()
 

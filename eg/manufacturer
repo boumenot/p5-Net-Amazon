@@ -9,8 +9,8 @@ use Net::Amazon::Request::Manufacturer;
 die "usage: $0 manufacturer (e.g. disney)" unless defined $ARGV[0];
 
 my $ua = Net::Amazon->new(
-    token       => 'YOUR_AMZN_TOKEN',
-    max_pages     => 1,
+    token       => $ENV{AMAZON_TOKEN},
+    max_pages   => 1,
 );
 
 my $req = Net::Amazon::Request::Manufacturer->new(

@@ -9,7 +9,7 @@ use strict;
 use Net::Amazon;
 use Net::Amazon::Property;
 use Net::Amazon::Request::Keyword;
-use Test::More tests => 8;
+use Test::More tests => 12;
 
 ################################################################
 # Setup
@@ -24,7 +24,7 @@ use Test::More tests => 8;
 my $ua = Net::Amazon->new(
     token         => 'YOUR_AMZN_TOKEN',
     max_pages     => 5,
-    response_dump => 1,
+    #response_dump => 1,
 );
 
 my $req = Net::Amazon::Request::Keyword->new(
@@ -37,7 +37,7 @@ my $resp = $ua->request($req);
 
 ok($resp->is_success(), "Successful fetch");
 my @properties = $resp->properties();
-is(scalar @properties, 6, "6 hits");
+is(scalar @properties, 10, "10 hits");
 for ($resp->properties) {
    like $_->Asin(), qr/^\d+[\dX]$/, "Check Asin";
 }

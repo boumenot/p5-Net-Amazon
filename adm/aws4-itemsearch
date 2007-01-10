@@ -1,0 +1,341 @@
+#!/usr/bin/perl 
+#$Revision: 1.1 $$Date: 2007-01-10 03:19:05 $$Author: boumenot $
+#######################################################################
+#######################################################################
+package ItemSearch::HTML::Parser;
+use base(HTML::Parser);
+use Data::Dumper;
+
+sub new {
+    my $that = shift;
+    my $class = ref($that) || $that;
+
+    my $self = $class->SUPER::new(@_);
+    bless $self, $class;
+
+    $self->unbroken_text(1);
+
+    return $self;
+}
+
+# Keep a queue of depth two to track the last two start tags
+# encountered.  This allows me track the correct number of tags that lead
+# up to a valid entry.  I'm attempting to parse lists of the form.
+# <h2>SearchIndex: Books</h2>
+# <ul>
+# <li><p>Author</p></li>
+# <li><p>BrowseNode</p></li>
+# <li><p>Condition</p></li>
+# <li><p>Itempage</p></li>
+# ...
+# <li><p>Title</p></li>
+# </ul>
+# <h2>SearchIndex: Software</h2>
+# <ul>
+# <li><p>Brand</p></li>
+# ...
+# <li><p>Title</p></li>
+#
+# The items will have the start tag queue of the form qw(li p).
+# (Entries are added to the end of the queue, and removed from the
+# front.
+
+sub start {
+    my $self = shift;
+
+    $self->SUPER::start(@_);
+    my $tag = $_[0];
+    
+    push @{$self->{_c_tags}}, $tag;
+    shift @{$self->{_c_tags}} if @{$self->{_c_tags}} > 2;
+}
+
+# Parse the actual data contained between the start and end element.
+# The text has lots of extraneous white space so strip it out.  Amazon's
+# web pages are very regular, which makes my life easier, so don't
+# bother processing any text unless I know I'm in a known valid tag.
+# These tags are h2, and p.
+sub text {
+    my $self = shift;
+    my $text = $_[0];
+
+    $self->SUPER::text(@_);
+    
+    # these are no only valid tags before an acceptable ItemSearch list.
+    return unless grep {@{$self->{_c_tags}}[-1] eq $_} qw(h2 p);
+
+    $text =~ s/^[ \t\n\r]+//sig;
+    $text =~ s/[ \t\n\r]+$//sig;
+
+    # is there any text to process?
+    return unless length($text);
+
+    if ($self->{_c_tags}->[-1] eq "h2") {
+        if ($text =~ m/SearchIndex: ([A-Za-z]+)$/) {
+            $self->{_c_itemsearch} = $1;
+        }
+    } 
+# When Amazon's web pages are parsed for SearchIndex parameters, results are
+# grouped based on department - for lack of a better word.  For example, in the
+# department Director an SearchIndex can be based on Video, VHS, or DVD.   When
+# user input is validated for an ItemSearch operation, it cues off of the
+# SearchIndex, and the department.  Because it cues off of SearchIndex, I need to
+# "flip" the hash I generated based on Amazon's web site.
+#
+# This is what I parse:
+#   'Director' => [
+#       'Video',
+#       'VHS',
+#       'DVD'
+#    ],
+# 
+# This is what I need:
+#   'Video' => [ 'Director' ],
+#   'DVD'   => [ 'Director' ],
+#   'VHS'   => [ 'Director' ],
+    elsif ($self->is_itemsearch_list() && length($self->{_c_itemsearch})) {
+        push @{$self->{_itemsearch}->{$text}}, $self->{_c_itemsearch};
+    }
+}
+
+sub is_itemsearch_list {
+    my $self = shift;
+    return $self->{_c_tags}->[0] eq 'li' && $self->{_c_tags}->[1] eq 'p';
+}
+
+sub itemsearch_href {
+    my $self = shift;
+    return $self->{_itemsearch};
+}
+
+#######################################################################
+#######################################################################
+
+package main;
+require 5.008_001;
+
+use Getopt::Long;
+use IO::File;
+use Pod::Usage;
+use LWP::Simple;
+use Text::Template;
+use Data::Dumper;
+use File::Path;
+
+use strict;
+use warnings;
+
+use constant AWS4_ONLINE_HTML => {
+#     '4-0'        => 'http://docs.amazonwebservices.com/AWSEcommerceService/2005-10-05/',
+#     '2005-01-19' => 'http://docs.amazonwebservices.com/AWSEcommerceService/2005-01-19/',
+#     '2005-02-23' => 'http://docs.amazonwebservices.com/AWSEcommerceService/2005-02-23/',
+#     '2005-03-23' => 'http://docs.amazonwebservices.com/AWSEcommerceService/2005-03-23/',
+#     '2005-07-26' => 'http://docs.amazonwebservices.com/AWSEcommerceService/2005-07-26/',
+#     '2005-09-15' => 'http://docs.amazonwebservices.com/AWSEcommerceService/2005-09-15/',
+#     '2005-10-05' => 'http://docs.amazonwebservices.com/AWSEcommerceService/2005-10-05/',
+#     '2005-10-13' => 'http://docs.amazonwebservices.com/AWSEcommerceService/2005-10-13/',
+#     '2006-02-15' => 'http://docs.amazonwebservices.com/AWSEcommerceService/2006-02-15/',
+#     '2006-03-08' => 'http://docs.amazonwebservices.com/AWSEcommerceService/2006-03-08/',
+#     '2006-05-17' => 'http://docs.amazonwebservices.com/AWSEcommerceService/2006-05-17/',
+#     '2006-06-07' => 'http://docs.amazonwebservices.com/AWSEcommerceService/2006-06-07/',
+    '2006-06-28' => 'http://docs.amazonwebservices.com/AWSEcommerceService/2006-06-28/',
+};
+
+use constant AWS4_LOCALE_HTML => {
+    'us' => 'ApiReference/USSearchIndexMatrixArticle.html',
+    'de' => 'ApiReference/DESearchIndexMatrixArticle.html',
+    'jp' => 'ApiReference/JPSearchIndexMatrixArticle.html',
+    'uk' => 'ApiReference/UKSearchIndexMatrixArticle.html',
+    'fr' => 'ApiReference/FRSearchIndexMatrixArticle.html',
+    'ca' => 'ApiReference/CASearchIndexMatrixArticle.html',
+};
+
+my $Opt_Debug = 0;
+my $Opt_Dest = "../lib/Net/Amazon/Validate/ItemSearch";
+my $Opt_Overwrite = 0;
+
+unless (&GetOptions (
+		     "help|h"	 => \&usage,
+		     "version|V" => \&version,
+		     "debug|D"   => \$Opt_Debug,
+             "dest=s"    => \$Opt_Dest,
+		     "overwrite" => \$Opt_Overwrite,
+		     "<>"	     => \&parameter,
+		     )) {
+    usage();
+}
+
+## main #########################################
+
+unless (-d $Opt_Dest) {
+    die "The directory $Opt_Dest does not exist!\n";
+}
+
+
+for my $locale (keys %{(AWS4_LOCALE_HTML)}) {
+    my %upc;
+    for my $ver (keys %{(AWS4_ONLINE_HTML)}) {
+        my $link =  AWS4_ONLINE_HTML->{$ver}.AWS4_LOCALE_HTML->{$locale};
+        print "fetching $link ...\n" if $Opt_Debug;
+
+        my $html = get($link);
+        die "%Error: failed to fetch '$link'!\n" 
+            unless $html;
+
+        my $parser = ItemSearch::HTML::Parser->new->parse($html);
+        my $href = $parser->itemsearch_href();
+
+        print Dumper($href) if $Opt_Debug;
+
+        for my $dept (keys %$href) {
+            dump_library($href->{$dept}, $locale, $dept);
+            upc_add(\%upc, $href->{$dept});
+        }
+    }
+    my @a = keys %upc;
+    dump_library(\@a, $locale, 'UPC');
+}
+
+## subs #########################################
+
+sub usage {
+    print '$Revision: 1.1 $$Date: 2007-01-10 03:19:05 $$Author: boumenot $ ', "\n";
+    pod2usage(-verbose=>2, -exitval => 2);
+    exit (1);
+}
+
+sub version {
+    print '$Revision: 1.1 $$Date: 2007-01-10 03:19:05 $$Author: boumenot $ ', "\n";
+    exit (1);
+}
+
+sub parameter {
+    my $param = shift;
+    die "%Error: Unknown parameter: $param\n";
+}
+
+##################################################
+
+# Attempt to pick a "favored" default for the different types of
+# ItemSearch'es.  The favored list is returned in order of preference.
+# The most preferred is Books because that was the default for AWS3.  As
+# Books is not available for all types of ItemSearch'es use other
+# "favored" defaults.  They are Music, DVD, and Software in that order.
+# If none of those are a possible default then use the first item in
+# the list of acceptable values.
+
+sub select_default {
+    my $aref = shift;
+
+    for my $favored_default (qw(Books Music DVD Software)) {
+        return $favored_default if grep {$favored_default eq $_} @$aref;
+    }
+
+    return $aref->[0];
+}
+
+sub upc_add {
+    my ($href, $aref) = @_;
+    $href->{$_}++ for @$aref;
+}
+
+sub dump_library {
+    my ($aref, $locale, $dept) = @_;
+
+    my $fn = "$Opt_Dest/$locale/$dept.pm";
+    my $dn = "$Opt_Dest/$locale";
+
+    unless (-d $dn) {
+        mkpath $dn or die "Failed to create '$dn'!\n";
+    }
+
+    if (-f $fn && !$Opt_Overwrite) {
+        warn "The file $fn already exists, skipping!\n";
+        return;
+    }
+
+    my $template = Text::Template->new(
+            TYPE       => 'FILE',
+            SOURCE     => 'aws4-itemsearch.tmpl',
+            DELIMITERS => [ '[%--', '--%]', ],
+    );
+
+    my $hash = {'MODULE_NAME'    => "$locale".'::'."$dept",
+                'DEFAULT_OPTION' => select_default(\@$aref),
+                'options'        => \@$aref,
+    };
+
+    my $text = $template->fill_in(HASH => $hash);
+    unless ($text) {
+        die "Failed to fill in the text template for $locale/$dept!\n";
+    }
+
+    my $fouth = IO::File->new(">$fn") or
+        die "$! '$fn'!\n";
+
+    print $fouth $text;
+
+    $fouth->close();
+}
+
+
+
+##################################################
+__END__
+
+=pod
+
+=head1 asw4-itemsearch
+
+B<asw4-types> - convert Amazon's HTML data to Perl libraries to pick ItemSearch
+defaults.
+
+=head1 SYNOPSIS
+
+B<asw4-itemsearch> - [I<OPTION>]... [I<FILE>]...
+
+=head1 DESCRIPTION
+
+B<asw4-itemsearch> converts the data stored in Amazon's HTML pages for
+ASW4 into Perl libraries.  These libraries are used by Net::Amazon to
+validate user input, and select default entries for ItemSearch
+operations.
+
+=head1 ARGUMENTS
+
+=over 4
+
+=item -h, --help
+
+Displays this message and program version and exits.
+
+=item -V, --version
+
+Displays the program's version and exits.
+
+=item -D, --debug
+
+Prints debug information.
+
+=item --overwrite
+
+Overwrite any libraries if they already exist.
+
+=item --dest E<lt>directoryE<gt>
+
+Specify the destination where the files should be written.
+
+=back
+
+=head1 AUTHORS
+
+Written by Christopher Boumenot.
+
+=head1 REPORTING BUGS
+
+Report bugs to <boumenot@gmail.com>.
+
+=head1 SEE ALSO
+
+=cut
+

@@ -8,7 +8,7 @@
 use warnings;
 use strict;
 
-use Test::More tests => 33;
+use Test::More tests => 35;
 BEGIN { use_ok('Net::Amazon') };
 
 #use Log::Log4perl qw(:easy);
@@ -60,7 +60,7 @@ $req = Net::Amazon::Request::ASIN->new(
 $resp = $ua->request($req);
 
 ok($resp->is_error(), "Error reported correctly");
-like($resp->message(), qr/Invalid/, "Invalid ASIN reported correctly");
+like($resp->message(), qr/not a valid value/, "Invalid ASIN reported correctly");
 
 ######################################################################
 # Multiple Authors
@@ -77,6 +77,9 @@ my($book) = $resp->properties();
 like(join('&', $book->authors()), 
      qr#Erich Gamma&Richard Helm&Ralph Johnson&John Vlissides#,
      "Found multiple authors");
+is($book->numpages(), 395, "Checkiing numpages");
+is($book->dewey_decimal(), "005.12", "Checkiing dewey_decimal");
+is($book->SuperSaverShipping(), 1, "Checkiing SuperSaverShipping");
 
 my @similar = $book->similar_asins();
 is(scalar @similar, 0, "No similar items on this item");
@@ -92,7 +95,7 @@ like(join('&', $book->authors()),
 ######################################################################
 # Net::Amazon::Property::Book accessors
 ######################################################################
-is($book->title, "Design Patterns", "Title");
+like($book->title, qr/^Design Patterns/, "Title");
 is($book->year, "1995", "Year");
 like($book->OurPrice, qr/\$/, "Amazon Price");
 like($book->ListPrice, qr/\$/, "List Price");
@@ -161,8 +164,9 @@ like($dvd->SalesRank(), qr/^[\d,]+$/, "Checking SalesRank");
 is(join('#', $dvd->directors()), "Brian De Palma",
     "directors() finds first director");
 
-like(join('#', $dvd->starring()), qr/Tom Cruise#Jon Voight#Emmanuelle B/, 
-     "starring() finds actors");
+# XXX: this information is not readily available in AWS4
+# like(join('#', $dvd->starring()), qr/Tom Cruise#Jon Voight#Emmanuelle B/, 
+#      "starring() finds actors");
 
 is($resp->total_results, 1, "Total of 1");
 

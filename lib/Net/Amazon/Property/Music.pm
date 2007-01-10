@@ -5,7 +5,8 @@ use warnings;
 use strict;
 use base qw(Net::Amazon::Property);
 
-__PACKAGE__->make_accessor($_) for qw(album label media nummedia upc);
+__PACKAGE__->make_accessor($_) for qw(album label media nummedia upc
+  ean studio publisher release_date binding);
 __PACKAGE__->make_array_accessor($_) for qw(artists tracks);
 
 ##################################################
@@ -38,14 +39,46 @@ sub init_via_xmlref {
     my($self, $xmlref) = @_;
 
     $self->SUPER::init_via_xmlref($xmlref);
+    
+    my $ref = $xmlref->{ItemAttributes};
 
-    $self->artists($xmlref->{Artists}->{Artist});
-    $self->tracks($xmlref->{Tracks}->{Track});
-    $self->album($xmlref->{ProductName});
-    $self->label($xmlref->{Manufacturer});
-    $self->upc($xmlref->{Upc});
-    $self->media($xmlref->{Media});
-    $self->nummedia($xmlref->{NumMedia});
+    # It could either be a Creator (and?)/or an Artist
+    my @artists;
+    for my $artist (@{$ref->{Creator}}) {
+        push @artists, $artist->{content} if $artist->{Role} eq 'Performer';
+    }
+
+    for my $artist (@{$ref->{Artist}}) {
+        push @artists, $artist;
+    }
+    $self->artists(\@artists);
+
+    $self->album($ref->{Title});
+    $self->Title($ref->{Title});
+    $self->ean($ref->{EAN});
+    $self->label($ref->{Label});
+    $self->media($ref->{Binding});
+    $self->binding($ref->{Binding});
+    $self->nummedia($ref->{NumberOfDiscs});
+    $self->publisher($ref->{Publisher});
+    $self->release_date($ref->{ReleaseDate});
+    $self->studio($ref->{Studio});
+    $self->upc($ref->{UPC});
+
+    $self->NumMedia($ref->{NumberOfDiscs});
+
+    my @tracks;
+    for my $media (keys %{$ref->{Tracks}}) {
+        push @tracks, $_ for (@{$media->{Track}});
+    }
+    $self->tracks(\@tracks);
+
+    my $year = 0;
+    if (defined $ref->{ReleaseDate}) {
+        $year =  (split(/\-/, $ref->{ReleaseDate}))[0];
+    }
+    $self->year($year);
+    $self->ReleaseDate($ref->{ReleaseDate});
 }
 
 ##################################################

@@ -11,7 +11,7 @@ use strict;
 use Test::More qw(no_plan);
 BEGIN { use_ok('Net::Amazon') };
 
-use Log::Log4perl qw(:easy);
+#use Log::Log4perl qw(:easy);
 #Log::Log4perl->easy_init({level => $DEBUG, file => ">out"});
 
 use Net::Amazon;
@@ -44,8 +44,10 @@ my $resp = $ua->search(
 
 ok($resp->is_success(), "Successful Power fetch");
 like($resp->as_string(), qr/0596004788/, "Found 1");
-like($resp->as_string(), qr/0596001320/, "Found 2");
-is($resp->total_results(), 2, "Found 2 total results");
+like($resp->as_string(), qr/0596102062/, "Found 2");
+like($resp->as_string(), qr/0596004788/, "Found 3");
+like($resp->as_string(), qr/2841772012/, "Found 4");
+is($resp->total_results(), 4, "Found 4 total results");
 
 ######################################################################
 # Power search with different sorting method
@@ -57,11 +59,17 @@ $ua = Net::Amazon->new(
 $resp = $ua->search(
     power => "author: randal schwartz and author: tom phoenix",
     mode  => "books",
-    sort  => "+pricerank",
+    sort  => "pricerank",
 );
 
 ok($resp->is_success(), "Successful sorted power fetch");
-my @prices = ($resp->as_string =~ /\$([\d\.]+)/g);
+my @prices;
+for($resp->properties()) {
+    my $p = $_->ListPrice();
+    next unless $p;
+    $p =~ s|^\$||;
+    push @prices, $p;
+}
 my @sorted_prices = sort { $a <=> $b } @prices;
 is("@prices", "@sorted_prices", "Sorted by Price");
 
@@ -92,18 +100,28 @@ $resp = $ua->search(
 );
 
 my @expected = qw(
-0596004990
-0596000278
-1565922433
-1565924193
+0596003137
+0596003749
 0596002890
-1565922204
+0596002815
+0596004788
+0596001738
+0596004567
+0596526741
+0596003137
+0596002890
+0596003137
+0596001738
+1884777791
+0596004567
+1565926994
 );
 
 for my $item ($resp->properties()) {
     for my $asin ($item->similar_asins()) {
-        is(shift @expected, $asin, "Get expected similar product");
-        #print "Similar to ", $item->Asin(), ": $asin\n";
+        my $e = shift @expected;
+        #print STDERR "ASIN=$asin, EXPECTED=$e\n";
+        last unless is($asin, $e, "Get expected similar product");
     }
 }
 

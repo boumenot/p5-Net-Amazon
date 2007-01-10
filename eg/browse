@@ -17,7 +17,7 @@ die "usage: $0 node mode [keywords]\n".
     unless defined $ARGV[1];
 
 my $ua = Net::Amazon->new(
-    token       => 'MY_AMAZON_TOKEN',
+    token       => $ENV{AMAZON_TOKEN},
 );
 
 my $resp = $ua->search(

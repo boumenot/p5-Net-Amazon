@@ -1,2 +1,205 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ProductInfo><ErrorMsg>There are no exact matches for the search.</ErrorMsg></ProductInfo>
+<ListLookupResponse xmlns="http://webservices.amazon.com/AWSECommerceService/2006-06-28">
+  <Lists>
+    <List>
+      <ListId>1XL5DWOUFMFVJ</ListId>
+      <ListItem>
+        <Item>
+          <ASIN>0201633612</ASIN>
+          <DetailPageURL>http://www.amazon.com/exec/obidos/redirect?tag=ws%26link_code=xm2%26camp=2025%26creative=165953%26path=http://www.amazon.com/gp/redirect.html%253fASIN=0201633612%2526tag=ws%2526lcode=xm2%2526cID=2025%2526ccmID=165953%2526location=/o/ASIN/0201633612%25253FSubscriptionId=YOUR_AMAZON_TOKEN%252526coliid=I1FOJDQUPGIVUL%252526colid=1XL5DWOUFMFVJ</DetailPageURL>
+          <SalesRank>655</SalesRank>
+          <SmallImage>
+            <URL>http://images.amazon.com/images/P/0201633612.01._SCTHUMBZZZ_.jpg</URL>
+            <Height Units="pixels">75</Height>
+            <Width Units="pixels">58</Width>
+          </SmallImage>
+          <MediumImage>
+            <URL>http://images.amazon.com/images/P/0201633612.01._SCMZZZZZZZ_.jpg</URL>
+            <Height Units="pixels">160</Height>
+            <Width Units="pixels">124</Width>
+          </MediumImage>
+          <LargeImage>
+            <URL>http://images.amazon.com/images/P/0201633612.01._SCLZZZZZZZ_.jpg</URL>
+            <Height Units="pixels">500</Height>
+            <Width Units="pixels">387</Width>
+          </LargeImage>
+          <ItemAttributes>
+            <Author>Erich Gamma</Author>
+            <Author>Richard Helm</Author>
+            <Author>Ralph Johnson</Author>
+            <Author>John Vlissides</Author>
+            <Binding>Hardcover</Binding>
+            <DeweyDecimalNumber>005.12</DeweyDecimalNumber>
+            <EAN>0785342633610</EAN>
+            <Edition>1st</Edition>
+            <ISBN>0201633612</ISBN>
+            <Label>Addison-Wesley Professional</Label>
+            <ListPrice>
+              <Amount>5499</Amount>
+              <CurrencyCode>USD</CurrencyCode>
+              <FormattedPrice>$54.99</FormattedPrice>
+            </ListPrice>
+            <Manufacturer>Addison-Wesley Professional</Manufacturer>
+            <NumberOfItems>1</NumberOfItems>
+            <NumberOfPages>395</NumberOfPages>
+            <PackageDimensions>
+              <Height Units="hundredths-inches">120</Height>
+              <Length Units="hundredths-inches">952</Length>
+              <Weight Units="hundredths-pounds">233</Weight>
+              <Width Units="hundredths-inches">768</Width>
+            </PackageDimensions>
+            <ProductGroup>Book</ProductGroup>
+            <PublicationDate>1995-01-15</PublicationDate>
+            <Publisher>Addison-Wesley Professional</Publisher>
+            <Studio>Addison-Wesley Professional</Studio>
+            <Title>Design Patterns: Elements of Reusable Object-Oriented Software (Addison-Wesley Professional Computing Series)</Title>
+            <UPC>785342633610</UPC>
+          </ItemAttributes>
+          <OfferSummary>
+            <LowestNewPrice>
+              <Amount>3290</Amount>
+              <CurrencyCode>USD</CurrencyCode>
+              <FormattedPrice>$32.90</FormattedPrice>
+            </LowestNewPrice>
+            <LowestUsedPrice>
+              <Amount>3159</Amount>
+              <CurrencyCode>USD</CurrencyCode>
+              <FormattedPrice>$31.59</FormattedPrice>
+            </LowestUsedPrice>
+            <LowestCollectiblePrice>
+              <Amount>3975</Amount>
+              <CurrencyCode>USD</CurrencyCode>
+              <FormattedPrice>$39.75</FormattedPrice>
+            </LowestCollectiblePrice>
+            <TotalNew>57</TotalNew>
+            <TotalUsed>38</TotalUsed>
+            <TotalCollectible>4</TotalCollectible>
+            <TotalRefurbished>0</TotalRefurbished>
+          </OfferSummary>
+          <Offers>
+            <TotalOffers>1</TotalOffers>
+            <TotalOfferPages>1</TotalOfferPages>
+            <Offer>
+              <Merchant>
+                <MerchantId>ATVPDKIKX0DER</MerchantId>
+                <GlancePage>http://www.amazon.com/gp/help/seller/home.html?seller=ATVPDKIKX0DER</GlancePage>
+                <AverageFeedbackRating>0.0</AverageFeedbackRating>
+                <TotalFeedback>0</TotalFeedback>
+              </Merchant>
+              <OfferAttributes>
+                <Condition>New</Condition>
+              </OfferAttributes>
+              <OfferListing>
+                <OfferListingId>w%2BGbwJJjM5ZtNc2rKu%2Fz6CK%2FrhNpQsZLLF9Ugk7iSpEI%2BrB0gQ13uTCkrBWLTzbJhnpndeosJPA%3D</OfferListingId>
+                <Price>
+                  <Amount>4654</Amount>
+                  <CurrencyCode>USD</CurrencyCode>
+                  <FormattedPrice>$46.54</FormattedPrice>
+                </Price>
+                <Availability>Usually ships in 24 hours</Availability>
+                <IsEligibleForSuperSaverShipping>1</IsEligibleForSuperSaverShipping>
+              </OfferListing>
+            </Offer>
+          </Offers>
+        </Item>
+      </ListItem>
+      <ListItem>
+        <Item>
+          <ASIN>1882114981</ASIN>
+          <DetailPageURL>http://www.amazon.com/exec/obidos/redirect?tag=ws%26link_code=xm2%26camp=2025%26creative=165953%26path=http://www.amazon.com/gp/redirect.html%253fASIN=1882114981%2526tag=ws%2526lcode=xm2%2526cID=2025%2526ccmID=165953%2526location=/o/ASIN/1882114981%25253FSubscriptionId=YOUR_AMAZON_TOKEN%252526coliid=I2SZ3BJZ1PFKAJ%252526colid=1XL5DWOUFMFVJ</DetailPageURL>
+          <SalesRank>322557</SalesRank>
+          <SmallImage>
+            <URL>http://images.amazon.com/images/P/1882114981.01._SCTHUMBZZZ_.jpg</URL>
+            <Height Units="pixels">60</Height>
+            <Width Units="pixels">46</Width>
+          </SmallImage>
+          <MediumImage>
+            <URL>http://images.amazon.com/images/P/1882114981.01._SCMZZZZZZZ_.jpg</URL>
+            <Height Units="pixels">140</Height>
+            <Width Units="pixels">108</Width>
+          </MediumImage>
+          <LargeImage>
+            <URL>http://images.amazon.com/images/P/1882114981.01._SCLZZZZZZZ_.jpg</URL>
+            <Height Units="pixels">475</Height>
+            <Width Units="pixels">368</Width>
+          </LargeImage>
+          <ItemAttributes>
+            <Author>Richard M. Stallman</Author>
+            <Author>Lawrence Lessig</Author>
+            <Binding>Hardcover</Binding>
+            <Creator Role="Editor">Joshua Gay</Creator>
+            <DeweyDecimalNumber>346</DeweyDecimalNumber>
+            <EAN>9781882114986</EAN>
+            <ISBN>1882114981</ISBN>
+            <Label>Free Software Foundation</Label>
+            <ListPrice>
+              <Amount>2495</Amount>
+              <CurrencyCode>USD</CurrencyCode>
+              <FormattedPrice>$24.95</FormattedPrice>
+            </ListPrice>
+            <Manufacturer>Free Software Foundation</Manufacturer>
+            <NumberOfItems>1</NumberOfItems>
+            <NumberOfPages>224</NumberOfPages>
+            <PackageDimensions>
+              <Height Units="hundredths-inches">900</Height>
+              <Length Units="hundredths-inches">50</Length>
+              <Weight Units="hundredths-pounds">125</Weight>
+              <Width Units="hundredths-inches">700</Width>
+            </PackageDimensions>
+            <ProductGroup>Book</ProductGroup>
+            <PublicationDate>2002-10</PublicationDate>
+            <Publisher>Free Software Foundation</Publisher>
+            <Studio>Free Software Foundation</Studio>
+            <Title>Free Software, Free Society: Selected Essays of Richard M. Stallman</Title>
+          </ItemAttributes>
+          <OfferSummary>
+            <LowestNewPrice>
+              <Amount>1272</Amount>
+              <CurrencyCode>USD</CurrencyCode>
+              <FormattedPrice>$12.72</FormattedPrice>
+            </LowestNewPrice>
+            <LowestUsedPrice>
+              <Amount>1489</Amount>
+              <CurrencyCode>USD</CurrencyCode>
+              <FormattedPrice>$14.89</FormattedPrice>
+            </LowestUsedPrice>
+            <LowestCollectiblePrice>
+              <Amount>1600</Amount>
+              <CurrencyCode>USD</CurrencyCode>
+              <FormattedPrice>$16.00</FormattedPrice>
+            </LowestCollectiblePrice>
+            <TotalNew>16</TotalNew>
+            <TotalUsed>13</TotalUsed>
+            <TotalCollectible>3</TotalCollectible>
+            <TotalRefurbished>0</TotalRefurbished>
+          </OfferSummary>
+          <Offers>
+            <TotalOffers>1</TotalOffers>
+            <TotalOfferPages>1</TotalOfferPages>
+            <Offer>
+              <Merchant>
+                <MerchantId>ATVPDKIKX0DER</MerchantId>
+                <GlancePage>http://www.amazon.com/gp/help/seller/home.html?seller=ATVPDKIKX0DER</GlancePage>
+                <AverageFeedbackRating>0.0</AverageFeedbackRating>
+                <TotalFeedback>0</TotalFeedback>
+              </Merchant>
+              <OfferAttributes>
+                <Condition>New</Condition>
+              </OfferAttributes>
+              <OfferListing>
+                <OfferListingId>Sex6rLrCCL9lRuhp6fMnDoYIWf5XtclYi7kxihTFPvtjp%2Bmabj%2BgGXfUUskuXASY3yr30KxaaH0%3D</OfferListingId>
+                <Price>
+                  <Amount>1572</Amount>
+                  <CurrencyCode>USD</CurrencyCode>
+                  <FormattedPrice>$15.72</FormattedPrice>
+                </Price>
+                <Availability>Usually ships in 24 hours</Availability>
+                <IsEligibleForSuperSaverShipping>1</IsEligibleForSuperSaverShipping>
+              </OfferListing>
+            </Offer>
+          </Offers>
+        </Item>
+      </ListItem>
+    </List>
+  </Lists>
+</ListLookupResponse>

@@ -28,7 +28,7 @@ sub result {
 
     if($self->is_success()) {
         return Net::Amazon::Result::Seller::Listing->new(
-            xmlref => $self->{xmlref}->{ListingProductDetails}->[0],
+            xmlref => $self->{xmlref}->{SellerListings}->[0],
         );
     }
 
@@ -50,25 +50,29 @@ sub xmlref_add {
 
     my $nof_items_added = 0;
 
+    DEBUG("xmlref_add (before):", Data::Dumper::Dumper($xmlref));
+
     unless(ref($self->{xmlref}) eq "HASH" &&
-        ref($self->{xmlref}->{ListingProductDetails}) eq "ARRAY") {
-        $self->{xmlref}->{Details} = [];
+        ref($self->{xmlref}->{SellerListings}) eq "ARRAY") {
+        $self->{xmlref}->{SellerListings} = [];
     }
 
-    if(ref($xmlref->{ListingProductDetails}) eq "ARRAY") {
+    if(ref($xmlref->{SellerListings}->{SellerListing}) eq "ARRAY") {
             # Is it an array of items?
-        push @{$self->{xmlref}->{ListingProductDetails}},
-             @{$xmlref->{ListingProductDetails}};
-        $nof_items_added = scalar @{$xmlref->{ListingProductDetails}};
+        push @{$self->{xmlref}->{SellerListings}},
+             $_ for @{$xmlref->{SellerListings}->{SellerListing}};
+
+        $nof_items_added = scalar @{$xmlref->{SellerListings}->{SellerListing}};
     } else {
             # It is a single item
-        push @{$self->{xmlref}->{ListingProductDetails}},
-             $xmlref->{ListingProductDetails};
+        push @{$self->{xmlref}->{SellerListings}},
+             $xmlref->{SellerListings}->{SellerListing};
         $nof_items_added = 1;
     }
 
+    #DEBUG("(Seller) xmlref_add (after):", Data::Dumper::Dumper($self));
     return $nof_items_added;
-}
+} 
 
 ##################################################
 sub properties {

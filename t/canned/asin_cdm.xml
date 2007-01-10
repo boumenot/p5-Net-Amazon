@@ -1,20 +1,115 @@
-<?xml version="1.0" encoding="UTF-8"?><ProductInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://xml.amazon.com/schemas2/dev-lite.xsd">
-
-   <Details url="http://www.amazon.com/exec/obidos/ASIN/B00005A46I/webservices-20?dev-t=YOUR_AMZN_TOKEN">
-      <Asin>B00005A46I</Asin>
-      <ProductName>For the Stars</ProductName>
-      <Catalog>Music</Catalog>
-      <Artists>
-         <Artist>Anne Sofie von Otter</Artist>
-         <Artist>Elvis Costello</Artist>
-      </Artists>
-      <ReleaseDate>10 April, 2001</ReleaseDate>
-      <Manufacturer>Polygram Records</Manufacturer>
-      <ImageUrlSmall>http://images.amazon.com/images/P/B00005A46I.01.THUMBZZZ.jpg</ImageUrlSmall>
-      <ImageUrlMedium>http://images.amazon.com/images/P/B00005A46I.01.MZZZZZZZ.jpg</ImageUrlMedium>
-      <ImageUrlLarge>http://images.amazon.com/images/P/B00005A46I.01.LZZZZZZZ.jpg</ImageUrlLarge>
-      <ListPrice>$17.98</ListPrice>
-      <OurPrice>$14.99</OurPrice>
-      <UsedPrice>$8.68</UsedPrice>
-   </Details>
-</ProductInfo>
+<?xml version="1.0" encoding="UTF-8"?>
+<ItemLookupResponse xmlns="http://webservices.amazon.com/AWSECommerceService/2006-06-28">
+  <Items>
+    <Item>
+      <ASIN>B00005A46I</ASIN>
+      <DetailPageURL>http://www.amazon.com/exec/obidos/redirect?tag=ws%26link_code=xm2%26camp=2025%26creative=165953%26path=http://www.amazon.com/gp/redirect.html%253fASIN=B00005A46I%2526tag=ws%2526lcode=xm2%2526cID=2025%2526ccmID=165953%2526location=/o/ASIN/B00005A46I%25253FSubscriptionId=YOUR_AMAZON_TOKEN</DetailPageURL>
+      <SalesRank>34271</SalesRank>
+      <SmallImage>
+        <URL>http://images.amazon.com/images/P/B00005A46I.01._SCTHUMBZZZ_.jpg</URL>
+        <Height Units="pixels">75</Height>
+        <Width Units="pixels">75</Width>
+      </SmallImage>
+      <MediumImage>
+        <URL>http://images.amazon.com/images/P/B00005A46I.01._SCMZZZZZZZ_.jpg</URL>
+        <Height Units="pixels">160</Height>
+        <Width Units="pixels">160</Width>
+      </MediumImage>
+      <LargeImage>
+        <URL>http://images.amazon.com/images/P/B00005A46I.01._SCLZZZZZZZ_.jpg</URL>
+        <Height Units="pixels">300</Height>
+        <Width Units="pixels">300</Width>
+      </LargeImage>
+      <ItemAttributes>
+        <Binding>Audio CD</Binding>
+        <Creator Role="Performer">Anne Sofie von Otter</Creator>
+        <Creator Role="Performer">Elvis Costello</Creator>
+        <EAN>0028946953020</EAN>
+        <Label>Deutsche Grammophon</Label>
+        <ListPrice>
+          <Amount>1798</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$17.98</FormattedPrice>
+        </ListPrice>
+        <Manufacturer>Deutsche Grammophon</Manufacturer>
+        <NumberOfDiscs>1</NumberOfDiscs>
+        <OriginalReleaseDate>2001-04-10</OriginalReleaseDate>
+        <PackageDimensions>
+          <Height Units="hundredths-inches">47</Height>
+          <Length Units="hundredths-inches">492</Length>
+          <Weight Units="hundredths-pounds">26</Weight>
+          <Width Units="hundredths-inches">559</Width>
+        </PackageDimensions>
+        <ProductGroup>Music</ProductGroup>
+        <Publisher>Deutsche Grammophon</Publisher>
+        <ReleaseDate>2001-04-10</ReleaseDate>
+        <Studio>Deutsche Grammophon</Studio>
+        <Title>For the Stars</Title>
+        <UPC>028946953020</UPC>
+      </ItemAttributes>
+      <OfferSummary>
+        <LowestNewPrice>
+          <Amount>484</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$4.84</FormattedPrice>
+        </LowestNewPrice>
+        <LowestUsedPrice>
+          <Amount>219</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$2.19</FormattedPrice>
+        </LowestUsedPrice>
+        <TotalNew>48</TotalNew>
+        <TotalUsed>55</TotalUsed>
+        <TotalCollectible>0</TotalCollectible>
+        <TotalRefurbished>0</TotalRefurbished>
+      </OfferSummary>
+      <Offers>
+        <TotalOffers>1</TotalOffers>
+        <TotalOfferPages>1</TotalOfferPages>
+        <Offer>
+          <Merchant>
+            <MerchantId>ATVPDKIKX0DER</MerchantId>
+            <GlancePage>http://www.amazon.com/gp/help/seller/home.html?seller=ATVPDKIKX0DER</GlancePage>
+            <AverageFeedbackRating>0.0</AverageFeedbackRating>
+            <TotalFeedback>0</TotalFeedback>
+          </Merchant>
+          <OfferAttributes>
+            <Condition>New</Condition>
+          </OfferAttributes>
+          <OfferListing>
+            <OfferListingId>c70pp6vrJ%2BvSRnGBc%2BiHRdCtDzv4ThsVEcLnnCpjGogQVbimMsvFvz8uSvnpWUTxB%2BASeXIfGUc%3D</OfferListingId>
+            <Price>
+              <Amount>1564</Amount>
+              <CurrencyCode>USD</CurrencyCode>
+              <FormattedPrice>$15.64</FormattedPrice>
+            </Price>
+            <Availability>Usually ships in 24 hours</Availability>
+            <IsEligibleForSuperSaverShipping>1</IsEligibleForSuperSaverShipping>
+          </OfferListing>
+        </Offer>
+      </Offers>
+      <Tracks>
+        <Disc Number="1">
+          <Track Number="1">No Wonder</Track>
+          <Track Number="2">Baby Plays Around</Track>
+          <Track Number="3">Go Leave</Track>
+          <Track Number="4">Rope</Track>
+          <Track Number="5">Don't Talk (Put Your Head On My Shoulder)</Track>
+          <Track Number="6">Broken Bicycles / Junk</Track>
+          <Track Number="7">The Other Woman</Track>
+          <Track Number="8">Like An Angel Passing Through My Room</Track>
+          <Track Number="9">Green Song</Track>
+          <Track Number="10">April After All</Track>
+          <Track Number="11">You Still Believe In Me</Track>
+          <Track Number="12">I Want To Vanish</Track>
+          <Track Number="13">For No One</Track>
+          <Track Number="14">Shamed Into Love</Track>
+          <Track Number="15">Just A Curio</Track>
+          <Track Number="16">This House Is Empty Now</Track>
+          <Track Number="17">Take It With Me</Track>
+          <Track Number="18">For The Stars</Track>
+        </Disc>
+      </Tracks>
+    </Item>
+  </Items>
+</ItemLookupResponse>

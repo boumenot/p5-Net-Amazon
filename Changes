@@ -1,6 +1,32 @@
 Revision history for Perl extension Net::Amazon:
 
-0.35 2006/04/02
+0.36 (01/09/2007)
+   (cb) Christopher Boumenot is taking over has maintainer of Net::Amazon.
+   (cb) Update the library to use AWS4 from AWS3.  The changes involved
+        are quite deep.  While I have strived to keep interfaces the same
+        that was not always possible.  I am sure there are still bugs
+        to be had that need to be fixed.
+   (cb) Add searching by Author, Actor, MusicLabel, and Publisher.  
+   (cb) Add the property functions numpages(), dewey_decimal(), and
+        SuperSaverShipping().
+   (cb) Add new property classes for CE (consumer electronics), Software,
+        and VideoGames.
+   (cb) Restrucure the fetch code to reduce the need to directly poke
+        the XML where applicable.  There is still cleanup that needs to
+        be done.
+   (cb) Remove to need explicitly specify mode parameters.
+   (cb) Autogenerate libraries based on data from Amazon's ECS specs to
+        determine a default mode for the user.
+   (cb) Autogenerate libraries based on data form Amazon's ECS specs to
+        determine the search types available for a given.  This 
+        information is also locale specific.
+   (cb) Cleanup locale support, and add support for France, and Canada.
+        Locale support needs more testing.
+   (cb) Add support the different search response types in AWS4: small, 
+        medium, large, similarities, reviews, etc.  The search response
+        type is automatically determined based on search mode.
+
+0.35 (02/04/2006)
    (ms) Took starring() out of eg/asin_dvd, looks like it is no longer
         supported by amzn (reported by Joseph Ronie).
 

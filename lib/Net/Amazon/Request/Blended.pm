@@ -12,9 +12,10 @@ sub new {
 
     $class->_assert_options_defined(\%options, 'blended');
 
+    $options{'SearchIndex'} = 'Blended';
     $class->_convert_option(\%options,
                             'blended',
-                            'BlendedSearch');
+                            'Keywords');
 
     my $self = $class->SUPER::new(%options);
 

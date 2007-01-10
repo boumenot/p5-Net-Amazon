@@ -1,19 +1,115 @@
-<?xml version="1.0" encoding="UTF-8"?><ProductInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://xml.amazon.com/schemas2/dev-lite.xsd">
-
-   <Details url="http://www.amazon.com/exec/obidos/ASIN/B00007M84Q/webservices-20?dev-t=YOUR_AMZN_TOKEN">
-      <Asin>B00007M84Q</Asin>
-      <ProductName>Mary Star of the Sea</ProductName>
-      <Catalog>Music</Catalog>
-      <Artists>
-         <Artist>Zwan</Artist>
-      </Artists>
-      <ReleaseDate>28 January, 2003</ReleaseDate>
-      <Manufacturer>Warner Brothers</Manufacturer>
-      <ImageUrlSmall>http://images.amazon.com/images/P/B00007M84Q.01.THUMBZZZ.jpg</ImageUrlSmall>
-      <ImageUrlMedium>http://images.amazon.com/images/P/B00007M84Q.01.MZZZZZZZ.jpg</ImageUrlMedium>
-      <ImageUrlLarge>http://images.amazon.com/images/P/B00007M84Q.01.LZZZZZZZ.jpg</ImageUrlLarge>
-      <ListPrice>$18.98</ListPrice>
-      <OurPrice>$13.99</OurPrice>
-      <UsedPrice>$7.50</UsedPrice>
-   </Details>
-</ProductInfo>
+<?xml version="1.0" encoding="UTF-8"?>
+<ItemLookupResponse xmlns="http://webservices.amazon.com/AWSECommerceService/2006-06-28">
+  <Items>
+    <Item>
+      <ASIN>B00007M84Q</ASIN>
+      <DetailPageURL>http://www.amazon.com/exec/obidos/redirect?tag=ws%26link_code=xm2%26camp=2025%26creative=165953%26path=http://www.amazon.com/gp/redirect.html%253fASIN=B00007M84Q%2526tag=ws%2526lcode=xm2%2526cID=2025%2526ccmID=165953%2526location=/o/ASIN/B00007M84Q%25253FSubscriptionId=YOUR_AMAZON_TOKEN</DetailPageURL>
+      <SalesRank>19162</SalesRank>
+      <SmallImage>
+        <URL>http://images.amazon.com/images/P/B00007M84Q.01._SCTHUMBZZZ_.jpg</URL>
+        <Height Units="pixels">75</Height>
+        <Width Units="pixels">75</Width>
+      </SmallImage>
+      <MediumImage>
+        <URL>http://images.amazon.com/images/P/B00007M84Q.01._SCMZZZZZZZ_.jpg</URL>
+        <Height Units="pixels">160</Height>
+        <Width Units="pixels">160</Width>
+      </MediumImage>
+      <LargeImage>
+        <URL>http://images.amazon.com/images/P/B00007M84Q.01._SCLZZZZZZZ_.jpg</URL>
+        <Height Units="pixels">300</Height>
+        <Width Units="pixels">300</Width>
+      </LargeImage>
+      <ItemAttributes>
+        <Artist>Zwan</Artist>
+        <Binding>Audio CD</Binding>
+        <EAN>0093624843627</EAN>
+        <Label>Reprise / Wea</Label>
+        <ListPrice>
+          <Amount>1898</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$18.98</FormattedPrice>
+        </ListPrice>
+        <Manufacturer>Reprise / Wea</Manufacturer>
+        <NumberOfDiscs>1</NumberOfDiscs>
+        <OriginalReleaseDate>2003-01-28</OriginalReleaseDate>
+        <PackageDimensions>
+          <Height Units="hundredths-inches">54</Height>
+          <Length Units="hundredths-inches">555</Length>
+          <Weight Units="hundredths-pounds">18</Weight>
+          <Width Units="hundredths-inches">497</Width>
+        </PackageDimensions>
+        <ProductGroup>Music</ProductGroup>
+        <Publisher>Reprise / Wea</Publisher>
+        <ReleaseDate>2003-01-28</ReleaseDate>
+        <Studio>Reprise / Wea</Studio>
+        <Title>Mary Star of the Sea</Title>
+        <UPC>093624843627</UPC>
+      </ItemAttributes>
+      <OfferSummary>
+        <LowestNewPrice>
+          <Amount>500</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$5.00</FormattedPrice>
+        </LowestNewPrice>
+        <LowestUsedPrice>
+          <Amount>106</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$1.06</FormattedPrice>
+        </LowestUsedPrice>
+        <LowestCollectiblePrice>
+          <Amount>594</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$5.94</FormattedPrice>
+        </LowestCollectiblePrice>
+        <TotalNew>51</TotalNew>
+        <TotalUsed>80</TotalUsed>
+        <TotalCollectible>5</TotalCollectible>
+        <TotalRefurbished>0</TotalRefurbished>
+      </OfferSummary>
+      <Offers>
+        <TotalOffers>1</TotalOffers>
+        <TotalOfferPages>1</TotalOfferPages>
+        <Offer>
+          <Merchant>
+            <MerchantId>ATVPDKIKX0DER</MerchantId>
+            <GlancePage>http://www.amazon.com/gp/help/seller/home.html?seller=ATVPDKIKX0DER</GlancePage>
+            <AverageFeedbackRating>0.0</AverageFeedbackRating>
+            <TotalFeedback>0</TotalFeedback>
+          </Merchant>
+          <OfferAttributes>
+            <Condition>New</Condition>
+          </OfferAttributes>
+          <OfferListing>
+            <OfferListingId>4Gh%2BrVYqPouWDXiQHN1ZUMpSY%2B1GvUCckfuaGxyLQFF7SQGIyHlv40zB6nKIjLUvIRXFokbBD2w%3D</OfferListingId>
+            <Price>
+              <Amount>1898</Amount>
+              <CurrencyCode>USD</CurrencyCode>
+              <FormattedPrice>$18.98</FormattedPrice>
+            </Price>
+            <Availability>Usually ships in 24 hours</Availability>
+            <IsEligibleForSuperSaverShipping>1</IsEligibleForSuperSaverShipping>
+          </OfferListing>
+        </Offer>
+      </Offers>
+      <Tracks>
+        <Disc Number="1">
+          <Track Number="1">Lyric</Track>
+          <Track Number="2">Settle Down</Track>
+          <Track Number="3">Declarations Of Faith</Track>
+          <Track Number="4">Honestly</Track>
+          <Track Number="5">El Sol</Track>
+          <Track Number="6">Of A Broken Heart</Track>
+          <Track Number="7">Ride A Black Swan</Track>
+          <Track Number="8">Heartsong</Track>
+          <Track Number="9">Endless Summer</Track>
+          <Track Number="10">Baby Let's Rock!</Track>
+          <Track Number="11">Yeah!</Track>
+          <Track Number="12">Desire</Track>
+          <Track Number="13">Jesus,I / Mary Star Of The Sea</Track>
+          <Track Number="14">Come With Me</Track>
+        </Disc>
+      </Tracks>
+    </Item>
+  </Items>
+</ItemLookupResponse>

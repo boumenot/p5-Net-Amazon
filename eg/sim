@@ -9,7 +9,7 @@ use Net::Amazon;
 #Log::Log4perl->easy_init($DEBUG);
 
 my $ua = Net::Amazon->new(
-    token       => 'YOUR_AMZN_TOKEN',
+    token       => $ENV{AMAZON_TOKEN},
 );
 
 my $resp = $ua->search(

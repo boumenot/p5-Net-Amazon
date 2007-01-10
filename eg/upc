@@ -4,15 +4,23 @@ use warnings;
 use strict;
 
 use Net::Amazon;
+#use Log::Log4perl qw(:easy);
+#Log::Log4perl->easy_init($DEBUG);
 
 my $ua = Net::Amazon->new(
-    token       => 'YOUR_AMZN_TOKEN',
+    token       => $ENV{AMAZON_TOKEN},
 );
 
-my $resp = $ua->search(
-    upc  => "075596278324",
-    mode => "music",
-);
+die "usage: $0 upc [mode]\n(use " .
+    "'093624843627 music' as an example)\n"
+    unless defined $ARGV[0];
+
+
+my %options;
+$options{upc}  = $ARGV[0];
+$options{mode} = $ARGV[1] if defined $ARGV[1];
+
+my $resp = $ua->search(%options);
 
 if($resp->is_success()) {
     print $resp->as_string(), "\n";

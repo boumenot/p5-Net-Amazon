@@ -11,13 +11,15 @@ sub new {
     my($class, %options) = @_;
 
     $class->_assert_options_defined(\%options, 
-                                    qw(power mode));
+                                    qw(power));
 
     $class->_convert_option(\%options,
                             'power',
-                            'PowerSearch');
+                            'Power');
 
     my $self = $class->SUPER::new(%options);
+
+    $self->_convert_itemsearch();
 
     bless $self, $class;   # reconsecrate
 }

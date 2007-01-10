@@ -5,20 +5,23 @@ use warnings;
 use strict;
 use base qw(Net::Amazon::Request);
 
+
 ##################################################
 sub new {
 ##################################################
     my($class, %options) = @_;
 
     $class->_assert_options_defined(\%options,
-                                    qw(browsenode mode));
+                                    qw(browsenode));
 
     $class->_convert_option(\%options,
                             'browsenode',
-                            'BrowseNodeSearch',
+                            'BrowseNode',
                             \&_assert_node_is_numeric);
 
     my $self = $class->SUPER::new(%options);
+
+    $self->_convert_itemsearch();
 
     bless $self, $class;   # reconsecrate
 }
@@ -61,7 +64,7 @@ Net::Amazon::Request::BrowseNode - request class for browse node search
 
   my $req = Net::Amazon::Request::BrowseNode->new( 
       browsenode  => 30,
-      mode     => 'books'
+      mode        => 'books'
   );
 
   # Response is of type Net::Amazon::Response::BrowseNode

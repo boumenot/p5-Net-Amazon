@@ -1,21 +1,122 @@
-<?xml version="1.0" encoding="UTF-8"?><ProductInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://xml.amazon.com/schemas2/dev-lite.xsd">
-
-   <Details url="http://www.amazon.com/exec/obidos/redirect?tag=webservices-20%26creative=YOUR_AMZN_TOKEN%26camp=2025%26link_code=xm2%26path=ASIN/1882114981">
-      <Asin>1882114981</Asin>
-      <ProductName>Free Software, Free Society: Selected Essays of Richard M. Stallman</ProductName>
-      <Catalog>Book</Catalog>
-      <Authors>
-         <Author>Richard M. Stallman</Author>
-         <Author>Lawrence Lessig</Author>
-         <Author>Joshua Gay</Author>
-      </Authors>
-      <ReleaseDate>01 October, 2002</ReleaseDate>
-      <Manufacturer>Free Software Foundation</Manufacturer>
-      <ImageUrlSmall>http://images.amazon.com/images/P/1882114981.01.THUMBZZZ.jpg</ImageUrlSmall>
-      <ImageUrlMedium>http://images.amazon.com/images/P/1882114981.01.MZZZZZZZ.jpg</ImageUrlMedium>
-      <ImageUrlLarge>http://images.amazon.com/images/P/1882114981.01.LZZZZZZZ.jpg</ImageUrlLarge>
-      <ListPrice>$24.95</ListPrice>
-      <OurPrice>$19.96</OurPrice>
-      <UsedPrice>$18.14</UsedPrice>
-   </Details>
-</ProductInfo>
+<?xml version="1.0" encoding="UTF-8"?>
+<ListLookupResponse xmlns="http://webservices.amazon.com/AWSECommerceService/2005-10-05">
+  <Lists>
+    <List>
+      <ListId>1XL5DWOUFMFVJ</ListId>
+      <ListItem>
+        <Item>
+          <ASIN>1882114981</ASIN>
+          <DetailPageURL>http://www.amazon.com/exec/obidos/redirect?tag=webservices-20%26link_code=xm2%26camp=2025%26creative=165953%26path=http://www.amazon.com/gp/redirect.html%253fASIN=1882114981%2526tag=webservices-20%2526lcode=xm2%2526cID=2025%2526ccmID=165953%2526location=/o/ASIN/1882114981%25253FSubscriptionId=YOUR_AMAZON_TOKEN</DetailPageURL>
+          <SalesRank>284556</SalesRank>
+          <SmallImage>
+            <URL>http://images.amazon.com/images/P/1882114981.01._SCTHUMBZZZ_.jpg</URL>
+            <Height Units="pixels">60</Height>
+            <Width Units="pixels">46</Width>
+          </SmallImage>
+          <MediumImage>
+            <URL>http://images.amazon.com/images/P/1882114981.01._SCMZZZZZZZ_.jpg</URL>
+            <Height Units="pixels">140</Height>
+            <Width Units="pixels">108</Width>
+          </MediumImage>
+          <LargeImage>
+            <URL>http://images.amazon.com/images/P/1882114981.01._SCLZZZZZZZ_.jpg</URL>
+            <Height Units="pixels">475</Height>
+            <Width Units="pixels">368</Width>
+          </LargeImage>
+          <ImageSets>
+            <ImageSet Category="primary">
+              <SmallImage>
+                <URL>http://images.amazon.com/images/P/1882114981.01._SCTHUMBZZZ_.jpg</URL>
+                <Height Units="pixels">60</Height>
+                <Width Units="pixels">46</Width>
+              </SmallImage>
+              <MediumImage>
+                <URL>http://images.amazon.com/images/P/1882114981.01._SCMZZZZZZZ_.jpg</URL>
+                <Height Units="pixels">140</Height>
+                <Width Units="pixels">108</Width>
+              </MediumImage>
+              <LargeImage>
+                <URL>http://images.amazon.com/images/P/1882114981.01._SCLZZZZZZZ_.jpg</URL>
+                <Height Units="pixels">475</Height>
+                <Width Units="pixels">368</Width>
+              </LargeImage>
+            </ImageSet>
+          </ImageSets>
+          <ItemAttributes>
+            <Author>Richard M. Stallman</Author>
+            <Author>Lawrence Lessig</Author>
+            <Binding>Hardcover</Binding>
+            <Creator Role="Editor">Joshua Gay</Creator>
+            <DeweyDecimalNumber>346</DeweyDecimalNumber>
+            <EAN>9781882114986</EAN>
+            <ISBN>1882114981</ISBN>
+            <Label>Free Software Foundation</Label>
+            <ListPrice>
+              <Amount>2495</Amount>
+              <CurrencyCode>USD</CurrencyCode>
+              <FormattedPrice>$24.95</FormattedPrice>
+            </ListPrice>
+            <Manufacturer>Free Software Foundation</Manufacturer>
+            <NumberOfItems>1</NumberOfItems>
+            <NumberOfPages>224</NumberOfPages>
+            <PackageDimensions>
+              <Height Units="hundredths-inches">900</Height>
+              <Length Units="hundredths-inches">50</Length>
+              <Weight Units="hundredths-pounds">125</Weight>
+              <Width Units="hundredths-inches">700</Width>
+            </PackageDimensions>
+            <ProductGroup>Book</ProductGroup>
+            <PublicationDate>2002-10</PublicationDate>
+            <Publisher>Free Software Foundation</Publisher>
+            <Studio>Free Software Foundation</Studio>
+            <Title>Free Software, Free Society: Selected Essays of Richard M. Stallman</Title>
+          </ItemAttributes>
+          <OfferSummary>
+            <LowestNewPrice>
+              <Amount>1493</Amount>
+              <CurrencyCode>USD</CurrencyCode>
+              <FormattedPrice>$14.93</FormattedPrice>
+            </LowestNewPrice>
+            <LowestUsedPrice>
+              <Amount>1489</Amount>
+              <CurrencyCode>USD</CurrencyCode>
+              <FormattedPrice>$14.89</FormattedPrice>
+            </LowestUsedPrice>
+            <LowestCollectiblePrice>
+              <Amount>1600</Amount>
+              <CurrencyCode>USD</CurrencyCode>
+              <FormattedPrice>$16.00</FormattedPrice>
+            </LowestCollectiblePrice>
+            <TotalNew>7</TotalNew>
+            <TotalUsed>8</TotalUsed>
+            <TotalCollectible>3</TotalCollectible>
+            <TotalRefurbished>0</TotalRefurbished>
+          </OfferSummary>
+          <Offers>
+            <TotalOffers>1</TotalOffers>
+            <TotalOfferPages>1</TotalOfferPages>
+            <Offer>
+              <Merchant>
+                <MerchantId>ATVPDKIKX0DER</MerchantId>
+                <GlancePage>http://www.amazon.com/gp/help/seller/home.html?seller=ATVPDKIKX0DER</GlancePage>
+              </Merchant>
+              <OfferAttributes>
+                <Condition>New</Condition>
+              </OfferAttributes>
+              <OfferListing>
+                <OfferListingId>borJBNFaAHE8AIdxctyUgrf7YYvEa6JICjyxYxNMqj6efIJ2A5f0pQeLZsapZasTR8YCbadBLuY%3D</OfferListingId>
+                <Price>
+                  <Amount>1572</Amount>
+                  <CurrencyCode>USD</CurrencyCode>
+                  <FormattedPrice>$15.72</FormattedPrice>
+                </Price>
+                <Availability>Usually ships in 24 hours</Availability>
+                <IsEligibleForSuperSaverShipping>1</IsEligibleForSuperSaverShipping>
+              </OfferListing>
+            </Offer>
+          </Offers>
+        </Item>
+      </ListItem>
+    </List>
+  </Lists>
+</ListLookupResponse>

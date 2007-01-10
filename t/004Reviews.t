@@ -59,7 +59,7 @@ for my $property ($resp->properties()) {
     }
 }
 
-like($result, qr/AVG=4.33,TOT=6,COM=From.*?RAT=4,
+like($result, qr/AVG=4.5,TOT=6,COM=From.*?RAT=4,
                                 COM=Excellent.*?SUM=Perl.*?RAT=5,
                                 COM=I\sbought.*?SUM=Don.*?RAT=2
                 /sx, "customer reviews");

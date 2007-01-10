@@ -18,7 +18,7 @@ Log::Log4perl->easy_init($DEBUG);
 my $DEPTH = 1;
 
 my $ua = Net::Amazon->new(
-    token       => 'YOUR_AMZN_TOKEN',
+    token       => $ENV{AMAZON_TOKEN},
 );
 
 $ARGV[0] = "0201360683";

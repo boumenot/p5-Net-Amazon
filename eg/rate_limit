@@ -16,7 +16,7 @@ use Log::Log4perl qw(:easy);
 my $conf = q(
   log4perl.category.Net.Amazon             = WARN, Screen
 
-      # To disable the rate limiting messages
+  # To disable the rate limiting messages
   #log4perl.category.Net.Amazon.RateLimit   = FATAL, Screen
   #log4perl.additivity.Net.Amazon.RateLimit = 0
 
@@ -28,7 +28,7 @@ my $conf = q(
 Log::Log4perl::init(\$conf);
 
 my $ua = Net::Amazon->new(
-    token       => 'YOUR_AMZN_TOKEN',
+    token       => $ENV{AMAZON_TOKEN},
 );
 
 die "usage: $0 asin\n(use 0201360683 as " .

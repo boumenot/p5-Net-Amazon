@@ -7,7 +7,8 @@ use Log::Log4perl qw(:easy);
 use Net::Amazon::Attribute::Review;
 use base qw(Net::Amazon);
 
-__PACKAGE__->make_accessor($_) for qw(average_customer_rating total_reviews);
+__PACKAGE__->make_accessor($_) for qw(average_customer_rating total_reviews 
+                                      total_review_pages);
 
 ##################################################
 sub new {
@@ -47,8 +48,9 @@ sub init_via_xmlref {
 ##################################################
     my($self, $xmlref) = @_;
 
-    my @pairs = qw(AvgCustomerRating    average_customer_rating
-                   TotalCustomerReviews total_reviews);
+    my @pairs = qw(AverageRating    average_customer_rating
+                   TotalReviews     total_reviews
+                   TotalReviewPages total_review_pages);
 
     while(my($field, $method) = splice @pairs, 0, 2) {
         
@@ -61,11 +63,7 @@ sub init_via_xmlref {
         }
     }
 
-    if(ref $xmlref->{CustomerReview} ne "ARRAY") {
-        $xmlref->{CustomerReview} = [$xmlref->{CustomerReview}];
-    }
-
-    for my $review_xmlref (@{$xmlref->{CustomerReview}}) {
+    for my $review_xmlref (@{$xmlref->{Review}}) {
         my $review = Net::Amazon::Attribute::Review->new();
         $review->init_via_xmlref($review_xmlref);
         DEBUG "Adding review ", $review->summary();
@@ -113,6 +111,10 @@ might not be equal to the number of reviews held in the list, since
 there might be less customer reviews than total reviews (reviews
 can also be non-customer-reviews, but they're not available by
 the web service as of Aug 2003).
+
+=item C<< $self->total_review_pages >>
+
+Accessor for the total number of review pages.
 
 =item C<< $self->add_review($rev) >>
 

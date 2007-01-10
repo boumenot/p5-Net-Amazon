@@ -1,295 +1,420 @@
-<?xml version="1.0" encoding="UTF-8"?><ProductInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://xml.amazon.com/schemas3/dev-heavy.xsd">
-
-<Request><Args><Arg value="libwww-perl/5.76" name="UserAgent"></Arg><Arg value="0RCGS44ZYXCAT3PCW6WD" name="RequestID"></Arg><Arg value="us" name="locale"></Arg><Arg value="1" name="page"></Arg><Arg value="YOUR_AMZN_TOKEN" name="dev-t"></Arg><Arg value="webservices-20" name="t"></Arg><Arg value="Zwan" name="ArtistSearch"></Arg><Arg value="xml" name="f"></Arg><Arg value="music" name="mode"></Arg><Arg value="heavy" name="type"></Arg><Arg value="+salesrank" name="sort"></Arg></Args></Request>   <TotalResults>6</TotalResults>
-   <TotalPages>1</TotalPages>
-   <Details url="http://www.amazon.com/exec/obidos/ASIN/B00007M84Q/webservices-20?dev-t=YOUR_AMZN_TOKEN%26camp=2025%26link_code=xm2">
-      <Asin>B00007M84Q</Asin>
-      <ProductName>Mary Star of the Sea</ProductName>
-      <Catalog>Music</Catalog>
-      <Artists>
-         <Artist>Zwan</Artist>
-      </Artists>
-      <ReleaseDate>28 January, 2003</ReleaseDate>
-      <Manufacturer>Warner Brothers</Manufacturer>
-      <ImageUrlSmall>http://images.amazon.com/images/P/B00007M84Q.01.THUMBZZZ.jpg</ImageUrlSmall>
-      <ImageUrlMedium>http://images.amazon.com/images/P/B00007M84Q.01.MZZZZZZZ.jpg</ImageUrlMedium>
-      <ImageUrlLarge>http://images.amazon.com/images/P/B00007M84Q.01.LZZZZZZZ.jpg</ImageUrlLarge>
-      <ListPrice>$18.98</ListPrice>
-      <OurPrice>$14.99</OurPrice>
-      <UsedPrice>$3.49</UsedPrice>
-      <CollectiblePrice>$8.00</CollectiblePrice>
-      <ThirdPartyNewPrice>$8.48</ThirdPartyNewPrice>
-      <SalesRank>15,122</SalesRank>
-      <Lists>
-         <ListId>38HLDGYYACWGJ</ListId>
-         <ListId>12BXWA007FDXD</ListId>
-         <ListId>2U7FNYTRHN7CP</ListId>
-      </Lists>
+<?xml version="1.0" encoding="UTF-8"?>
+<ItemSearchResponse xmlns="http://webservices.amazon.com/AWSECommerceService/2006-06-28">
+  <Items>
+    <TotalResults>6</TotalResults>
+    <TotalPages>1</TotalPages>
+    <Item>
+      <ASIN>B00007M84Q</ASIN>
+      <DetailPageURL>http://www.amazon.com/exec/obidos/redirect?tag=ws%26link_code=xm2%26camp=2025%26creative=165953%26path=http://www.amazon.com/gp/redirect.html%253fASIN=B00007M84Q%2526tag=ws%2526lcode=xm2%2526cID=2025%2526ccmID=165953%2526location=/o/ASIN/B00007M84Q%25253FSubscriptionId=YOUR_AMAZON_TOKEN</DetailPageURL>
+      <SalesRank>19162</SalesRank>
+      <SmallImage>
+        <URL>http://ec1.images-amazon.com/images/P/B00007M84Q.01._SCTHUMBZZZ_.jpg</URL>
+        <Height Units="pixels">75</Height>
+        <Width Units="pixels">75</Width>
+      </SmallImage>
+      <MediumImage>
+        <URL>http://ec1.images-amazon.com/images/P/B00007M84Q.01._SCMZZZZZZZ_.jpg</URL>
+        <Height Units="pixels">160</Height>
+        <Width Units="pixels">160</Width>
+      </MediumImage>
+      <LargeImage>
+        <URL>http://ec1.images-amazon.com/images/P/B00007M84Q.01._SCLZZZZZZZ_.jpg</URL>
+        <Height Units="pixels">300</Height>
+        <Width Units="pixels">300</Width>
+      </LargeImage>
+      <ItemAttributes>
+        <Artist>Zwan</Artist>
+        <Binding>Audio CD</Binding>
+        <EAN>0093624843627</EAN>
+        <Label>Reprise / Wea</Label>
+        <ListPrice>
+          <Amount>1898</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$18.98</FormattedPrice>
+        </ListPrice>
+        <Manufacturer>Reprise / Wea</Manufacturer>
+        <NumberOfDiscs>1</NumberOfDiscs>
+        <OriginalReleaseDate>2003-01-28</OriginalReleaseDate>
+        <PackageDimensions>
+          <Height Units="hundredths-inches">54</Height>
+          <Length Units="hundredths-inches">555</Length>
+          <Weight Units="hundredths-pounds">18</Weight>
+          <Width Units="hundredths-inches">497</Width>
+        </PackageDimensions>
+        <ProductGroup>Music</ProductGroup>
+        <Publisher>Reprise / Wea</Publisher>
+        <ReleaseDate>2003-01-28</ReleaseDate>
+        <Studio>Reprise / Wea</Studio>
+        <Title>Mary Star of the Sea</Title>
+        <UPC>093624843627</UPC>
+      </ItemAttributes>
+      <OfferSummary>
+        <LowestNewPrice>
+          <Amount>500</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$5.00</FormattedPrice>
+        </LowestNewPrice>
+        <LowestUsedPrice>
+          <Amount>106</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$1.06</FormattedPrice>
+        </LowestUsedPrice>
+        <LowestCollectiblePrice>
+          <Amount>594</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$5.94</FormattedPrice>
+        </LowestCollectiblePrice>
+        <TotalNew>51</TotalNew>
+        <TotalUsed>80</TotalUsed>
+        <TotalCollectible>5</TotalCollectible>
+        <TotalRefurbished>0</TotalRefurbished>
+      </OfferSummary>
+      <Offers>
+        <TotalOffers>1</TotalOffers>
+        <TotalOfferPages>1</TotalOfferPages>
+        <Offer>
+          <Merchant>
+            <MerchantId>ATVPDKIKX0DER</MerchantId>
+            <GlancePage>http://www.amazon.com/gp/help/seller/home.html?seller=ATVPDKIKX0DER</GlancePage>
+            <AverageFeedbackRating>0.0</AverageFeedbackRating>
+            <TotalFeedback>0</TotalFeedback>
+          </Merchant>
+          <OfferAttributes>
+            <Condition>New</Condition>
+          </OfferAttributes>
+          <OfferListing>
+            <OfferListingId>DEbxxGl2LngEH02VixTb8NsVWcyY%2Bb3asoyMnROvmgcaexuYiW42Z3m2i007QxbaeGP8HXV953M%3D</OfferListingId>
+            <Price>
+              <Amount>1898</Amount>
+              <CurrencyCode>USD</CurrencyCode>
+              <FormattedPrice>$18.98</FormattedPrice>
+            </Price>
+            <Availability>Usually ships in 24 hours</Availability>
+            <IsEligibleForSuperSaverShipping>1</IsEligibleForSuperSaverShipping>
+          </OfferListing>
+        </Offer>
+      </Offers>
       <Tracks>
-         <Track>Lyric</Track>
-         <Track>Settle Down</Track>
-         <Track>Declarations Of Faith</Track>
-         <Track>Honestly</Track>
-         <Track>El Sol</Track>
-         <Track>Of A Broken Heart</Track>
-         <Track>Ride A Black Swan</Track>
-         <Track>Heartsong</Track>
-         <Track>Endless Summer</Track>
-         <Track>Baby Let's Rock!</Track>
-         <Track>Yeah!</Track>
-         <Track>Desire</Track>
-         <Track>Jesus,I / Mary Star Of The Sea</Track>
-         <Track>Come With Me</Track>
+        <Disc Number="1">
+          <Track Number="1">Lyric</Track>
+          <Track Number="2">Settle Down</Track>
+          <Track Number="3">Declarations Of Faith</Track>
+          <Track Number="4">Honestly</Track>
+          <Track Number="5">El Sol</Track>
+          <Track Number="6">Of A Broken Heart</Track>
+          <Track Number="7">Ride A Black Swan</Track>
+          <Track Number="8">Heartsong</Track>
+          <Track Number="9">Endless Summer</Track>
+          <Track Number="10">Baby Let's Rock!</Track>
+          <Track Number="11">Yeah!</Track>
+          <Track Number="12">Desire</Track>
+          <Track Number="13">Jesus,I / Mary Star Of The Sea</Track>
+          <Track Number="14">Come With Me</Track>
+        </Disc>
       </Tracks>
-      <BrowseList>
-         <BrowseNode>
-            <BrowseName>Pop</BrowseName>
-         </BrowseNode>
-         <BrowseNode>
-            <BrowseName>Rock</BrowseName>
-         </BrowseNode>
-      </BrowseList>
-      <Media>Audio CD</Media>
-      <Availability>Usually ships within 24 hours</Availability>
-      <Upc>093624843627</Upc>
-      <ProductDescription>Having dramatically misjudged their audience's loyalty to skewed, art-damaged heavy metal, the Smashing Pumpkins called it a day shortly after the release of 2000's low-grossing &lt;I>Machina/The Machines of God&lt;/I>. Three years later, frontman Billy Corgan returns with an all-star team of mostly Chicago indie rockers at his side, including Slint/Tortoise guitarist Dave Pajo, Skunk guitarist Matt Sweeney, A Perfect Circle bassist Paz Lenchantin, and fellow Pumpkin Jimmy Chamberlain on drums. But Zwan has not blunted the singer's flamboyant edge. His bonkers vocal gymnastics and whisper-to-a-scream choruses remain at the black heart of &lt;I>Mary Star of the Sea&lt;/I>, as the group works its way through the rich melodies of new classics like "Honestly" and "Endless Summer," and pleasingly shifts into downtempo mood on the gorgeous "Of a Broken Heart" and gripping "Desire." And while Corgan's tendency toward self-indulgence results in the tedious 14-minute "Jesus, I/Mary Star of the Sea," it is just a minor lapse considering the rest of the big, glamorous rock on display here. &lt;I>--Aidin Vaziri&lt;/I></ProductDescription>
-      <Reviews>
-         <AvgCustomerRating>3.96</AvgCustomerRating>
-         <TotalCustomerReviews>177</TotalCustomerReviews>
-         <CustomerReview>
-            <Rating>5</Rating>
-            <Summary>ZWAN are the 'it' band right now!</Summary>
-            <Comment>In a world filled with "American Idols", pop divas like Britney, Beyonce, and X-tina, and hip-hop...such as 50 Cent (can I get change please?), Eminem, and the illiterate Fabolous, ZWAN really shines in this dull musical landscape. Headed by ex-Smashing Pumpkins' frontman Billy Corgan, Zwan gives us music lovers the integrity, ingenuity, and creativity music should be about. Corgan is not going to write, direct, and star in a movie in the near future, and is that so bad?! Songs like "Lyric" start off the album with 'alternative' drum beats (please, no computer programming!), and "Settle Down" strips it down to melody and keeps the music heartfelt, yet hard, which is in line w/ Corgan's trademark. The epic of this album, "Jesus I/Mary Star of the Sea", is the 14 minute jam of this album, and "Come with Me" concludes the album with a mellow sound. Zwan are not the Pumpkins, or Skunk or A Perfect Circle for that matter, but introduce music to a new sound altogether, which is refreshing! Zwan goes back to basics: rock!! This is my take...</Comment>
-         </CustomerReview>
-         <CustomerReview>
-            <Rating>5</Rating>
-            <Summary>Billy's Back!!!</Summary>
-            <Comment>It's great to hear some excellent Billy Corgan music again. Having abandoned the bombast of later Pumpkins work, Billy (with some mighty impressive drum work from Jimmy Chamberlain) has rebuilt his sound around a more raw yet optimistic approach to recording. The band Zwan, and the CD Mary Star of the Sea, have instantly become as vital as early Pumpkins, and a lot more fun to listen to.&lt;BR>This disc is first, and foremost, a rock album. And Billy writes rock tunes like no one else of his generation. "Honestly", the first single, has relaxed (not whiny) vocals, propulsive guitars and a driving drumbeat that is as good as anything on the radio today. It's also got a hook that takes residence in your brain for days. And it's probably the 3rd or 4th best track on the album. "Of A Broken Heart" is destined to be an FM Radio classic - a beautiful rock ballad, crisply recorded with seductive instrumentation, and Billy's best vocal work since "Perfect". "Desire" gives Jimmy Chamberlain the opportunity to show why he is the best drummer to emerge from the American Alternative Rock movement of the early 90's. And the epic Jesus I/Mary Star of the Sea is everything you love (or hate, because some will label the track typical Billy) about a Corgan opus - a 14 minute songs that shifts in styles, melodies and vocals from a quiet hymn to jangly guitar anthem (among other movements). It's a true pleasure, brilliantly conceived and executed. I can't wait to hear it live.&lt;BR>This disc is going to be on a lot of Top Ten lists by the end of the year - it's a wonderful, melodic recording, and a very welcome return for the incredible Billy Corgan.</Comment>
-         </CustomerReview>
-         <CustomerReview>
-            <Rating>5</Rating>
-            <Summary>Zwan is pretty gay but....</Summary>
-            <Comment>(...)Either you take Zwan as it was or go f*** yourself.&lt;P>This is their only album and it has a lot of strong songs. Tracks 1-3 are excellent. I don't really care for "Honestly" anymore. "El Sol" is good. "Ride a Black Swan" should have been a single. "Yeah" should have been another single. "Jesus I/Mary Star of the Sea" is long but it's nice to hear Billy's guitar work. "Come With Me" sucks.&lt;P>I like this record alot. But I can understand why people don't like it. So I recommend you borrow this from a friend first, or from you local library, and then decide whether you want to buy it.</Comment>
-         </CustomerReview>
-      </Reviews>
-      <SimilarProducts>
-         <Product>B000042OI4</Product>
-         <Product>B000006NPY</Product>
-         <Product>B00005RGFU</Product>
-         <Product>B000000W6R</Product>
-         <Product>B000000WJZ</Product>
-      </SimilarProducts>
-   </Details>
-   <Details url="http://www.amazon.com/exec/obidos/ASIN/B000084HC0/webservices-20?dev-t=YOUR_AMZN_TOKEN%26camp=2025%26link_code=xm2">
-      <Asin>B000084HC0</Asin>
-      <ProductName>Honestly</ProductName>
-      <Catalog>Music</Catalog>
-      <Artists>
-         <Artist>Zwan</Artist>
-      </Artists>
-      <ReleaseDate>08 April, 2004</ReleaseDate>
-      <Manufacturer>Import [Generic]</Manufacturer>
-      <ImageUrlSmall>http://images.amazon.com/images/P/B000084HC0.01.THUMBZZZ.jpg</ImageUrlSmall>
-      <ImageUrlMedium>http://images.amazon.com/images/P/B000084HC0.01.MZZZZZZZ.jpg</ImageUrlMedium>
-      <ImageUrlLarge>http://images.amazon.com/images/P/B000084HC0.01.LZZZZZZZ.jpg</ImageUrlLarge>
-      <ListPrice>$12.99</ListPrice>
-      <OurPrice>$12.99</OurPrice>
-      <UsedPrice>$4.31</UsedPrice>
-      <ThirdPartyNewPrice>$4.99</ThirdPartyNewPrice>
-      <SalesRank>26,320</SalesRank>
+    </Item>
+    <Item>
+      <ASIN>B000084HC0</ASIN>
+      <DetailPageURL>http://www.amazon.com/exec/obidos/redirect?tag=ws%26link_code=xm2%26camp=2025%26creative=165953%26path=http://www.amazon.com/gp/redirect.html%253fASIN=B000084HC0%2526tag=ws%2526lcode=xm2%2526cID=2025%2526ccmID=165953%2526location=/o/ASIN/B000084HC0%25253FSubscriptionId=YOUR_AMAZON_TOKEN</DetailPageURL>
+      <SalesRank>25566</SalesRank>
+      <SmallImage>
+        <URL>http://ec1.images-amazon.com/images/P/B000084HC0.01._SCTHUMBZZZ_.jpg</URL>
+        <Height Units="pixels">75</Height>
+        <Width Units="pixels">75</Width>
+      </SmallImage>
+      <MediumImage>
+        <URL>http://ec1.images-amazon.com/images/P/B000084HC0.01._SCMZZZZZZZ_.jpg</URL>
+        <Height Units="pixels">160</Height>
+        <Width Units="pixels">160</Width>
+      </MediumImage>
+      <LargeImage>
+        <URL>http://ec1.images-amazon.com/images/P/B000084HC0.01._SCLZZZZZZZ_.jpg</URL>
+        <Height Units="pixels">300</Height>
+        <Width Units="pixels">300</Width>
+      </LargeImage>
+      <ItemAttributes>
+        <Artist>Zwan</Artist>
+        <Binding>Audio CD</Binding>
+        <EAN>0093624260929</EAN>
+        <Format>CD-single</Format>
+        <Format>Import</Format>
+        <Label>Import [Generic]</Label>
+        <ListPrice>
+          <Amount>1299</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$12.99</FormattedPrice>
+        </ListPrice>
+        <Manufacturer>Import [Generic]</Manufacturer>
+        <NumberOfDiscs>1</NumberOfDiscs>
+        <PackageDimensions>
+          <Height Units="hundredths-inches">54</Height>
+          <Length Units="hundredths-inches">555</Length>
+          <Weight Units="hundredths-pounds">18</Weight>
+          <Width Units="hundredths-inches">497</Width>
+        </PackageDimensions>
+        <ProductGroup>Music</ProductGroup>
+        <Publisher>Import [Generic]</Publisher>
+        <ReleaseDate>2004-04-08</ReleaseDate>
+        <Studio>Import [Generic]</Studio>
+        <Title>Honestly</Title>
+        <UPC>093624260929</UPC>
+      </ItemAttributes>
+      <OfferSummary>
+        <LowestNewPrice>
+          <Amount>928</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$9.28</FormattedPrice>
+        </LowestNewPrice>
+        <LowestUsedPrice>
+          <Amount>955</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$9.55</FormattedPrice>
+        </LowestUsedPrice>
+        <TotalNew>6</TotalNew>
+        <TotalUsed>2</TotalUsed>
+        <TotalCollectible>0</TotalCollectible>
+        <TotalRefurbished>0</TotalRefurbished>
+      </OfferSummary>
+      <Offers>
+        <TotalOffers>0</TotalOffers>
+        <TotalOfferPages>0</TotalOfferPages>
+      </Offers>
       <Tracks>
-         <Track>Honestly</Track>
-         <Track>Number Of The Beast</Track>
-         <Track>Freedom Aint What It Used To Be</Track>
+        <Disc Number="1">
+          <Track Number="1">Honestly</Track>
+          <Track Number="2">Number Of The Beast</Track>
+          <Track Number="3">Freedom Aint What It Used To Be</Track>
+        </Disc>
       </Tracks>
-      <BrowseList>
-         <BrowseNode>
-            <BrowseName>Pop</BrowseName>
-         </BrowseNode>
-         <BrowseNode>
-            <BrowseName>Rock</BrowseName>
-         </BrowseNode>
-      </BrowseList>
-      <Media>Audio CD</Media>
-      <Features>
-         <Feature>CD-single</Feature>
-         <Feature>Import</Feature>
-      </Features>
-      <Availability>THIS TITLE IS CURRENTLY NOT AVAILABLE. If you would like to purchase this title, we recommend that you occasionally check this page to see if it has become available.</Availability>
-      <Upc>093624260929</Upc>
-      <Reviews>
-         <AvgCustomerRating>5</AvgCustomerRating>
-         <TotalCustomerReviews>3</TotalCustomerReviews>
-         <CustomerReview>
-            <Rating>5</Rating>
-            <Summary>Great intro to Djali Zwan</Summary>
-            <Comment>Honestly is a great song but the main reason to buy this single are for the two extra songs. Also because it's a great intro to one of Zwan's incarnations, Djali Zwan which has all to do with acoustics. It has and excellent cover of Iron Maiden's "Number of the Beast" sung by Matt Sweeney and a favorite Djali Zwan song of mine "Freedom ain't What it Used to Be" Again this single is a buy for these 2 songs alone and a great intro to Djali Zwan.</Comment>
-         </CustomerReview>
-         <CustomerReview>
-            <Rating>5</Rating>
-            <Summary>2 Great Mellow Acoustic B-Sides</Summary>
-            <Comment>This Australian [EP] for the Single "Honestly" offers two great B-Sides and is worth checking out! The two tracks consist of one cover done by I believe Matt Sweeney and one original Corgan tune done by Billy with Matt &amp; "Linda Strawberry" doing backup vocals.</Comment>
-         </CustomerReview>
-         <CustomerReview>
-            <Rating>5</Rating>
-            <Summary>Honestly a great single</Summary>
-            <Comment>From the first time I heard the song Wasting Time i was in love with zwan. I am a long time fan of the Smashing Pumpkins, so to see Billy Corgan back making music again I was thrilled! Wasting Time didn't make it very far, but then the song, and feature of this CD, Honestly came out. I wouldn't call it one of Zwan's best, after hearing the rest of their first album Mary Star Of The Sea, but all in all, it's an awsome song. Freedom Ain't What it used to be is an incredible ending to this single, really showing Billy's new true colours...</Comment>
-         </CustomerReview>
-      </Reviews>
-      <SimilarProducts>
-         <Product>B00009N1U9</Product>
-         <Product>B00008K50F</Product>
-         <Product>B00005JM23</Product>
-         <Product>B00004S34Z</Product>
-         <Product>B00005RG0M</Product>
-      </SimilarProducts>
-   </Details>
-   <Details url="http://www.amazon.com/exec/obidos/ASIN/B00008K50F/webservices-20?dev-t=YOUR_AMZN_TOKEN%26camp=2025%26link_code=xm2">
-      <Asin>B00008K50F</Asin>
-      <ProductName>Honestly / Number of the Beast</ProductName>
-      <Catalog>Music</Catalog>
-      <Artists>
-         <Artist>Zwan</Artist>
-      </Artists>
-      <ReleaseDate>25 April, 2003</ReleaseDate>
-      <Manufacturer>Import [Generic]</Manufacturer>
-      <ImageUrlSmall>http://images.amazon.com/images/P/B00008K50F.01.THUMBZZZ.jpg</ImageUrlSmall>
-      <ImageUrlMedium>http://images.amazon.com/images/P/B00008K50F.01.MZZZZZZZ.jpg</ImageUrlMedium>
-      <ImageUrlLarge>http://images.amazon.com/images/P/B00008K50F.01.LZZZZZZZ.jpg</ImageUrlLarge>
-      <ListPrice>$12.99</ListPrice>
-      <OurPrice>$12.99</OurPrice>
-      <ThirdPartyNewPrice>$4.59</ThirdPartyNewPrice>
-      <SalesRank>154,680</SalesRank>
-      <BrowseList>
-         <BrowseNode>
-            <BrowseName>Pop</BrowseName>
-         </BrowseNode>
-         <BrowseNode>
-            <BrowseName>Rock</BrowseName>
-         </BrowseNode>
-      </BrowseList>
-      <Media>Audio CD</Media>
-      <Features>
-         <Feature>CD-single</Feature>
-         <Feature>Import</Feature>
-      </Features>
-      <Availability>Special Order</Availability>
-      <Upc>054391667120</Upc>
-      <SimilarProducts>
-         <Product>B000084HC0</Product>
-         <Product>B00009N1U9</Product>
-         <Product>B00005JM23</Product>
-         <Product>B000255LAC</Product>
-      </SimilarProducts>
-   </Details>
-   <Details url="http://www.amazon.com/exec/obidos/ASIN/B00009N1U9/webservices-20?dev-t=YOUR_AMZN_TOKEN%26camp=2025%26link_code=xm2">
-      <Asin>B00009N1U9</Asin>
-      <ProductName>Lyric / Nobody Cept You / Autumn Leaves</ProductName>
-      <Catalog>Music</Catalog>
-      <Artists>
-         <Artist>Zwan</Artist>
-      </Artists>
-      <ReleaseDate>03 June, 2003</ReleaseDate>
-      <Manufacturer>Wea International</Manufacturer>
-      <ImageUrlSmall>http://images.amazon.com/images/P/B00009N1U9.01.THUMBZZZ.jpg</ImageUrlSmall>
-      <ImageUrlMedium>http://images.amazon.com/images/P/B00009N1U9.01.MZZZZZZZ.jpg</ImageUrlMedium>
-      <ImageUrlLarge>http://images.amazon.com/images/P/B00009N1U9.01.LZZZZZZZ.jpg</ImageUrlLarge>
-      <ListPrice>$12.99</ListPrice>
-      <OurPrice>$12.99</OurPrice>
-      <SalesRank>48,404</SalesRank>
-      <Lists>
-         <ListId>1O9DPT5CSTYI4</ListId>
-      </Lists>
+    </Item>
+    <Item>
+      <ASIN>B000084T5E</ASIN>
+      <DetailPageURL>http://www.amazon.com/exec/obidos/redirect?tag=ws%26link_code=xm2%26camp=2025%26creative=165953%26path=http://www.amazon.com/gp/redirect.html%253fASIN=B000084T5E%2526tag=ws%2526lcode=xm2%2526cID=2025%2526ccmID=165953%2526location=/o/ASIN/B000084T5E%25253FSubscriptionId=YOUR_AMAZON_TOKEN</DetailPageURL>
+      <SalesRank>445588</SalesRank>
+      <ItemAttributes>
+        <Artist>Zwan</Artist>
+        <Binding>Audio CD</Binding>
+        <EAN>0093624843610</EAN>
+        <ItemDimensions>
+          <Height Units="hundredths-inches">12</Height>
+          <Length Units="hundredths-inches">12</Length>
+          <Width Units="hundredths-inches">12</Width>
+        </ItemDimensions>
+        <ListPrice>
+          <Amount>23649</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$236.49</FormattedPrice>
+        </ListPrice>
+        <NumberOfDiscs>2</NumberOfDiscs>
+        <ProductGroup>Music</ProductGroup>
+        <Title>Mary Star of the Sea</Title>
+        <UPC>093624843610</UPC>
+      </ItemAttributes>
+      <OfferSummary>
+        <LowestNewPrice>
+          <Amount>1995</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$19.95</FormattedPrice>
+        </LowestNewPrice>
+        <LowestUsedPrice>
+          <Amount>355</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$3.55</FormattedPrice>
+        </LowestUsedPrice>
+        <LowestCollectiblePrice>
+          <Amount>1000</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$10.00</FormattedPrice>
+        </LowestCollectiblePrice>
+        <TotalNew>4</TotalNew>
+        <TotalUsed>3</TotalUsed>
+        <TotalCollectible>2</TotalCollectible>
+        <TotalRefurbished>0</TotalRefurbished>
+      </OfferSummary>
+      <Offers>
+        <TotalOffers>0</TotalOffers>
+        <TotalOfferPages>0</TotalOfferPages>
+      </Offers>
+    </Item>
+    <Item>
+      <ASIN>B00009N1U9</ASIN>
+      <DetailPageURL>http://www.amazon.com/exec/obidos/redirect?tag=ws%26link_code=xm2%26camp=2025%26creative=165953%26path=http://www.amazon.com/gp/redirect.html%253fASIN=B00009N1U9%2526tag=ws%2526lcode=xm2%2526cID=2025%2526ccmID=165953%2526location=/o/ASIN/B00009N1U9%25253FSubscriptionId=YOUR_AMAZON_TOKEN</DetailPageURL>
+      <SalesRank>205778</SalesRank>
+      <SmallImage>
+        <URL>http://ec1.images-amazon.com/images/P/B00009N1U9.01._SCTHUMBZZZ_.jpg</URL>
+        <Height Units="pixels">67</Height>
+        <Width Units="pixels">75</Width>
+      </SmallImage>
+      <MediumImage>
+        <URL>http://ec1.images-amazon.com/images/P/B00009N1U9.01._SCMZZZZZZZ_.jpg</URL>
+        <Height Units="pixels">142</Height>
+        <Width Units="pixels">160</Width>
+      </MediumImage>
+      <LargeImage>
+        <URL>http://ec1.images-amazon.com/images/P/B00009N1U9.01._SCLZZZZZZZ_.jpg</URL>
+        <Height Units="pixels">423</Height>
+        <Width Units="pixels">475</Width>
+      </LargeImage>
+      <ItemAttributes>
+        <Artist>Zwan</Artist>
+        <Binding>Audio CD</Binding>
+        <EAN>0093624262428</EAN>
+        <Format>CD-single</Format>
+        <Format>Import</Format>
+        <Label>Wea International</Label>
+        <ListPrice>
+          <Amount>1299</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$12.99</FormattedPrice>
+        </ListPrice>
+        <Manufacturer>Wea International</Manufacturer>
+        <ProductGroup>Music</ProductGroup>
+        <Publisher>Wea International</Publisher>
+        <ReleaseDate>2003-06-03</ReleaseDate>
+        <Studio>Wea International</Studio>
+        <Title>Lyric</Title>
+        <UPC>093624262428</UPC>
+      </ItemAttributes>
+      <OfferSummary>
+        <LowestNewPrice>
+          <Amount>1299</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$12.99</FormattedPrice>
+        </LowestNewPrice>
+        <LowestUsedPrice>
+          <Amount>1298</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$12.98</FormattedPrice>
+        </LowestUsedPrice>
+        <TotalNew>1</TotalNew>
+        <TotalUsed>1</TotalUsed>
+        <TotalCollectible>0</TotalCollectible>
+        <TotalRefurbished>0</TotalRefurbished>
+      </OfferSummary>
+      <Offers>
+        <TotalOffers>0</TotalOffers>
+        <TotalOfferPages>0</TotalOfferPages>
+      </Offers>
       <Tracks>
-         <Track>Lyric</Track>
-         <Track>Nobody Cept You (Live)</Track>
-         <Track>Autumn Leaves (Live)</Track>
+        <Disc Number="1">
+          <Track Number="1">Lyric</Track>
+          <Track Number="2">Nobody 'cept You</Track>
+          <Track Number="3">Autumn Leaves</Track>
+        </Disc>
       </Tracks>
-      <BrowseList>
-         <BrowseNode>
-            <BrowseName>Pop</BrowseName>
-         </BrowseNode>
-         <BrowseNode>
-            <BrowseName>Rock</BrowseName>
-         </BrowseNode>
-      </BrowseList>
-      <Media>Audio CD</Media>
-      <Features>
-         <Feature>CD-single</Feature>
-         <Feature>Import</Feature>
-      </Features>
-      <Availability>THIS TITLE IS CURRENTLY NOT AVAILABLE. If you would like to purchase this title, we recommend that you occasionally check this page to see if it has become available.</Availability>
-      <Upc>093624262428</Upc>
-      <Reviews>
-         <AvgCustomerRating>3.5</AvgCustomerRating>
-         <TotalCustomerReviews>2</TotalCustomerReviews>
-         <CustomerReview>
-            <Rating>2</Rating>
-            <Summary>meh.</Summary>
-            <Comment>i like all three songs. it's an okay single, i guess, but it seemed like zwan half-*ssed this single by not bothering to include studio tracks. both of the b-sides are live recordings from the hideout shows.....&lt;P>it just would have been nice for them to put a little more effort into a single, and give the fans something we didn't already have.</Comment>
-         </CustomerReview>
-         <CustomerReview>
-            <Rating>5</Rating>
-            <Summary>just zwanderful!!!!</Summary>
-            <Comment>this single is great! lyric is a beautiful song that makes me feel so happy when i hear it... you must get it!!! you'll become a fan forever!!</Comment>
-         </CustomerReview>
-      </Reviews>
-      <SimilarProducts>
-         <Product>B000084HC0</Product>
-         <Product>B00005RG0M</Product>
-         <Product>B0000073W8</Product>
-         <Product>B000000WFL</Product>
-         <Product>B00008K50F</Product>
-      </SimilarProducts>
-   </Details>
-   <Details url="http://www.amazon.com/exec/obidos/ASIN/B000084T5E/webservices-20?dev-t=YOUR_AMZN_TOKEN%26camp=2025%26link_code=xm2">
-      <Asin>B000084T5E</Asin>
-      <ProductName>Mary Star of the Sea</ProductName>
-      <Catalog>Music</Catalog>
-      <Artists>
-         <Artist>Zwan</Artist>
-      </Artists>
-      <Manufacturer>Phantom</Manufacturer>
-      <ImageUrlSmall>http://images.amazon.com/images/P/B000084T5E.01.THUMBZZZ.jpg</ImageUrlSmall>
-      <ImageUrlMedium>http://images.amazon.com/images/P/B000084T5E.01.MZZZZZZZ.jpg</ImageUrlMedium>
-      <ImageUrlLarge>http://images.amazon.com/images/P/B000084T5E.01.LZZZZZZZ.jpg</ImageUrlLarge>
-      <ListPrice>$236.49</ListPrice>
-      <OurPrice>$236.49</OurPrice>
-      <CollectiblePrice>$19.95</CollectiblePrice>
-      <ThirdPartyNewPrice>$30.27</ThirdPartyNewPrice>
-      <Media>Audio CD</Media>
-      <Features>
-         <Feature>Import</Feature>
-      </Features>
-      <Availability>Usually ships within 1 to 2 weeks</Availability>
-      <Upc>093624843610</Upc>
-   </Details>
-   <Details url="http://www.amazon.com/exec/obidos/ASIN/B00008UVDM/webservices-20?dev-t=YOUR_AMZN_TOKEN%26camp=2025%26link_code=xm2">
-      <Asin>B00008UVDM</Asin>
-      <ProductName>Honestly</ProductName>
-      <Catalog>Music</Catalog>
-      <Artists>
-         <Artist>Zwan</Artist>
-      </Artists>
-      <ReleaseDate>24 February, 2003</ReleaseDate>
-      <Manufacturer>Wea</Manufacturer>
-      <ImageUrlSmall>http://images.amazon.com/images/P/B00008UVDM.01.THUMBZZZ.jpg</ImageUrlSmall>
-      <ImageUrlMedium>http://images.amazon.com/images/P/B00008UVDM.01.MZZZZZZZ.jpg</ImageUrlMedium>
-      <ImageUrlLarge>http://images.amazon.com/images/P/B00008UVDM.01.LZZZZZZZ.jpg</ImageUrlLarge>
-      <ListPrice>$11.99</ListPrice>
-      <OurPrice>$11.99</OurPrice>
-      <SalesRank>328,948</SalesRank>
+    </Item>
+    <Item>
+      <ASIN>B00008UVDM</ASIN>
+      <DetailPageURL>http://www.amazon.com/exec/obidos/redirect?tag=ws%26link_code=xm2%26camp=2025%26creative=165953%26path=http://www.amazon.com/gp/redirect.html%253fASIN=B00008UVDM%2526tag=ws%2526lcode=xm2%2526cID=2025%2526ccmID=165953%2526location=/o/ASIN/B00008UVDM%25253FSubscriptionId=YOUR_AMAZON_TOKEN</DetailPageURL>
+      <SalesRank>474411</SalesRank>
+      <SmallImage>
+        <URL>http://ec1.images-amazon.com/images/P/B00008UVDM.01._SCTHUMBZZZ_.jpg</URL>
+        <Height Units="pixels">75</Height>
+        <Width Units="pixels">75</Width>
+      </SmallImage>
+      <MediumImage>
+        <URL>http://ec1.images-amazon.com/images/P/B00008UVDM.01._SCMZZZZZZZ_.jpg</URL>
+        <Height Units="pixels">160</Height>
+        <Width Units="pixels">160</Width>
+      </MediumImage>
+      <LargeImage>
+        <URL>http://ec1.images-amazon.com/images/P/B00008UVDM.01._SCLZZZZZZZ_.jpg</URL>
+        <Height Units="pixels">300</Height>
+        <Width Units="pixels">300</Width>
+      </LargeImage>
+      <ItemAttributes>
+        <Artist>Zwan</Artist>
+        <Binding>Audio CD</Binding>
+        <EAN>0667342760629</EAN>
+        <Format>CD-single</Format>
+        <Label>Wea</Label>
+        <ListPrice>
+          <Amount>1249</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$12.49</FormattedPrice>
+        </ListPrice>
+        <Manufacturer>Wea</Manufacturer>
+        <ProductGroup>Music</ProductGroup>
+        <Publisher>Wea</Publisher>
+        <ReleaseDate>2002-11-04</ReleaseDate>
+        <Studio>Wea</Studio>
+        <Title>Honestly</Title>
+        <UPC>667342760629</UPC>
+      </ItemAttributes>
+      <OfferSummary>
+        <TotalNew>0</TotalNew>
+        <TotalUsed>0</TotalUsed>
+        <TotalCollectible>0</TotalCollectible>
+        <TotalRefurbished>0</TotalRefurbished>
+      </OfferSummary>
+      <Offers>
+        <TotalOffers>0</TotalOffers>
+        <TotalOfferPages>0</TotalOfferPages>
+      </Offers>
+    </Item>
+    <Item>
+      <ASIN>B00008K50F</ASIN>
+      <DetailPageURL>http://www.amazon.com/exec/obidos/redirect?tag=ws%26link_code=xm2%26camp=2025%26creative=165953%26path=http://www.amazon.com/gp/redirect.html%253fASIN=B00008K50F%2526tag=ws%2526lcode=xm2%2526cID=2025%2526ccmID=165953%2526location=/o/ASIN/B00008K50F%25253FSubscriptionId=YOUR_AMAZON_TOKEN</DetailPageURL>
+      <SalesRank>207882</SalesRank>
+      <SmallImage>
+        <URL>http://ec1.images-amazon.com/images/P/B00008K50F.01._SCTHUMBZZZ_.jpg</URL>
+        <Height Units="pixels">72</Height>
+        <Width Units="pixels">75</Width>
+      </SmallImage>
+      <MediumImage>
+        <URL>http://ec1.images-amazon.com/images/P/B00008K50F.01._SCMZZZZZZZ_.jpg</URL>
+        <Height Units="pixels">154</Height>
+        <Width Units="pixels">160</Width>
+      </MediumImage>
+      <LargeImage>
+        <URL>http://ec1.images-amazon.com/images/P/B00008K50F.01._SCLZZZZZZZ_.jpg</URL>
+        <Height Units="pixels">457</Height>
+        <Width Units="pixels">475</Width>
+      </LargeImage>
+      <ItemAttributes>
+        <Artist>Zwan</Artist>
+        <Binding>Audio CD</Binding>
+        <EAN>0054391667120</EAN>
+        <Format>CD-single</Format>
+        <Format>Import</Format>
+        <Label>Import [Generic]</Label>
+        <ListPrice>
+          <Amount>1299</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$12.99</FormattedPrice>
+        </ListPrice>
+        <Manufacturer>Import [Generic]</Manufacturer>
+        <NumberOfDiscs>1</NumberOfDiscs>
+        <OriginalReleaseDate>2003-02-25</OriginalReleaseDate>
+        <PackageDimensions>
+          <Height Units="hundredths-inches">24</Height>
+          <Length Units="hundredths-inches">559</Length>
+          <Weight Units="hundredths-pounds">18</Weight>
+          <Width Units="hundredths-inches">472</Width>
+        </PackageDimensions>
+        <ProductGroup>Music</ProductGroup>
+        <Publisher>Import [Generic]</Publisher>
+        <ReleaseDate>2003-04-25</ReleaseDate>
+        <Studio>Import [Generic]</Studio>
+        <Title>Honestly</Title>
+        <UPC>054391667120</UPC>
+      </ItemAttributes>
+      <OfferSummary>
+        <TotalNew>0</TotalNew>
+        <TotalUsed>0</TotalUsed>
+        <TotalCollectible>0</TotalCollectible>
+        <TotalRefurbished>0</TotalRefurbished>
+      </OfferSummary>
+      <Offers>
+        <TotalOffers>0</TotalOffers>
+        <TotalOfferPages>0</TotalOfferPages>
+      </Offers>
       <Tracks>
-         <Track>Honestly</Track>
-         <Track>Number Of The Beast</Track>
-         <Track>Freedom Ain't What It Used To Be</Track>
+        <Disc Number="1">
+          <Track Number="1">Honestly</Track>
+          <Track Number="2">Number of the Beast</Track>
+        </Disc>
       </Tracks>
-      <Media>Audio CD</Media>
-      <Features>
-         <Feature>CD-single</Feature>
-         <Feature>Import</Feature>
-      </Features>
-      <Availability>THIS TITLE IS CURRENTLY NOT AVAILABLE. If you would like to purchase this title, we recommend that you occasionally check this page to see if it has become available.</Availability>
-      <Upc>667342760629</Upc>
-   </Details>
-</ProductInfo>
+    </Item>
+  </Items>
+</ItemSearchResponse>

@@ -8,17 +8,40 @@ use base qw(Net::Amazon);
 use Data::Dumper;
 use Log::Log4perl qw(:easy);
 
-our @DEFAULT_ATTRIBUTES = qw(
-  ExchangeStartDate ExchangeConditionType
-  ExchangeAsin ExchangeSellerId ExchangeEndDate ExchangePrice
-  ExchangeSellerRating ExchangeStatus ExchangeId ExchangeTitle
-  ExchangeQuantityAllocated ExchangeQuantity ExchangeSellerCountry
-  ExchangeSellerState ExchangeSellerNickname ExchangeFeaturedCategory
-  ExchangeAvailability ExchangeOfferingType ListingId ExchangeCondition
-  ExchangeDescription
+# Tracking the different functions between AWS3 and AWS4.
+# ExchangeConditionType -> ExchangeCondition
+# ExchangeSellerRating -> ???
+# ExchangeQuantityAllocated  -> ExchangeQuantity
+# ExchangeSellerCountry -> ???
+# ExchangeSellerState -> ???
+# ExchangeFeaturedCategory -> ???
+# ExchangeAvailability -> ???
+# ExchangeOfferingType -> ??? 
+# ??? -> ExchangeSubCondition 
+# ExchangeDescription -> ???
+
+
+our %DEFAULT_ATTRIBUTES_XPATH = (
+    ExchangeStartDate    => [qw(StartDate)],
+    ExchangeEndDate      => [qw(EndDate)],
+    ExchangeAsin         => [qw(ASIN)],
+    ExchangeTitle        => [qw(Title)],
+    ListingId            => [qw(ListingId)],
+    ExchangeId           => [qw(ExchangeId)],
+    ExchangeQuantityAllocated => [qw(Quantity)],
+    ExchangeQuantity     => [qw(Quantity)],
+    ExchangeCondition    => [qw(Condition)],
+    ExchangeConditionType=> [qw(SubCondition)],
+    ExchangeSubCondition => [qw(SubCondition)],
+    ExchangeStatus       => [qw(Status)],
+    ExchangePrice        => [qw(Price FormattedPrice)],
+    ExchangeCurrencyCode => [qw(Price CurrencyCode)],
+    ExchangeAmount       => [qw(Price Amount)],
+    ExchangeSellerId     => [qw(Seller SellerId)],
+    ExchangeSellerNickname => [qw(Seller Nickname)],
 );
 
-__PACKAGE__->make_accessor($_) for @DEFAULT_ATTRIBUTES;
+__PACKAGE__->make_accessor($_) for keys %DEFAULT_ATTRIBUTES_XPATH;
 
 ##################################################
 sub new {
@@ -37,9 +60,9 @@ sub new {
 
     DEBUG "Calling Listing with xmlref=", Dumper($options{xmlref});
 
-        # Set default attributes
-    for my $attr (@DEFAULT_ATTRIBUTES) {
-        $self->$attr($options{xmlref}->{$attr});
+    for my $attr (keys %DEFAULT_ATTRIBUTES_XPATH) {
+        my $value = __PACKAGE__->walk_hash_ref($options{xmlref}, $DEFAULT_ATTRIBUTES_XPATH{$attr});
+        $self->$attr($value);
     }
 
     return $self;
@@ -92,6 +115,10 @@ C<Net::Amazon::Response::Exchange>'s C<result> method.
 
 =item ExchangeConditionType()
 
+=item ExchangeCondition()
+
+=item ExchangeSubCondition()
+
 =item ExchangeAsin()
 
 =item ExchangeSellerId()
@@ -100,7 +127,9 @@ C<Net::Amazon::Response::Exchange>'s C<result> method.
 
 =item ExchangePrice()
 
-=item ExchangeSellerRating()
+=item ExchangeAmount()
+
+=item ExchangeCurrencyCode()
 
 =item ExchangeStatus()
 
@@ -112,21 +141,9 @@ C<Net::Amazon::Response::Exchange>'s C<result> method.
 
 =item ExchangeQuantity()
 
-=item ExchangeSellerCountry()
-
-=item ExchangeSellerState()
-
 =item ExchangeSellerNickname()
 
-=item ExchangeFeaturedCategory()
-
-=item ExchangeAvailability()
-
-=item ExchangeOfferingType()
-
 =item ListingId()
-
-=item ExchangeCondition()
 
 =back
 

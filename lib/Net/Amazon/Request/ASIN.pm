@@ -8,10 +8,8 @@ use base qw(Net::Amazon::Request);
 # These values are defined in the AWS SDK
 # (http://amazon.com/webservices) under
 # "Product and Catalog Data" / "ASIN and ISBN Searches"
-use constant MAX_ASINS_PER_TYPE => {
-    heavy => 10,
-    lite  => 30,
-};
+use constant MAX_ASINS_PER_REQUEST => 10;
+
 
 ##################################################
 sub new {
@@ -22,9 +20,9 @@ sub new {
 
     $class->_convert_option(\%options,
                             'asin',
-                            'AsinSearch',
+                            'ItemId',
                             \&_process_asin_option);
-
+    
     my $self = $class->SUPER::new(%options);
 
     bless $self, $class;   # reconsecrate
@@ -53,12 +51,11 @@ sub _process_asin_option {
     # silently ignored by the AWS servers...resulting in potentially
     # confusing results for the user.
     if ( ref $options->{$key} eq 'ARRAY' ) {
-        my $type      = $options->{'type'} || __PACKAGE__->SUPER::DEFAULT_TYPE;
-        my $max_asins = MAX_ASINS_PER_TYPE->{$type};
+        my $max_asins = MAX_ASINS_PER_REQUEST;
 
         # Dying is the right thing to do here because this is
         # indicative of a programming error.
-        die "Only $max_asins may be requested at a time using type '$type'"
+        die "Only $max_asins may be requested at a time"
             if ( @{$options->{$key}} > $max_asins );
 
         $options->{$key} = join ',', @{$options->{$key}};

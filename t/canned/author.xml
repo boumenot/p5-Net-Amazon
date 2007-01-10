@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ItemSearchResponse xmlns="http://webservices.amazon.com/AWSECommerceService/2006-06-28">
+  <Items>
+    <TotalResults>2</TotalResults>
+    <TotalPages>1</TotalPages>
+    <Item>
+      <ASIN>0201360683</ASIN>
+      <DetailPageURL>http://www.amazon.com/exec/obidos/redirect?tag=ws%26link_code=xm2%26camp=2025%26creative=165953%26path=http://www.amazon.com/gp/redirect.html%253fASIN=0201360683%2526tag=ws%2526lcode=xm2%2526cID=2025%2526ccmID=165953%2526location=/o/ASIN/0201360683%25253FSubscriptionId=YOUR_AMAZON_TOKEN</DetailPageURL>
+      <SalesRank>1228318</SalesRank>
+      <SmallImage>
+        <URL>http://images.amazon.com/images/P/0201360683.01._SCTHUMBZZZ_.jpg</URL>
+        <Height Units="pixels">60</Height>
+        <Width Units="pixels">44</Width>
+      </SmallImage>
+      <MediumImage>
+        <URL>http://images.amazon.com/images/P/0201360683.01._SCMZZZZZZZ_.jpg</URL>
+        <Height Units="pixels">140</Height>
+        <Width Units="pixels">102</Width>
+      </MediumImage>
+      <LargeImage>
+        <URL>http://images.amazon.com/images/P/0201360683.01._SCLZZZZZZZ_.jpg</URL>
+        <Height Units="pixels">475</Height>
+        <Width Units="pixels">345</Width>
+      </LargeImage>
+      <ItemAttributes>
+        <Author>Michael Schilli</Author>
+        <Binding>Paperback</Binding>
+        <EAN>9780201360684</EAN>
+        <Edition>Bk&amp;CD Rom</Edition>
+        <ISBN>0201360683</ISBN>
+        <Label>Addison-Wesley Professional</Label>
+        <ListPrice>
+          <Amount>3999</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$39.99</FormattedPrice>
+        </ListPrice>
+        <Manufacturer>Addison-Wesley Professional</Manufacturer>
+        <NumberOfItems>1</NumberOfItems>
+        <NumberOfPages>464</NumberOfPages>
+        <PackageDimensions>
+          <Height Units="hundredths-inches">83</Height>
+          <Length Units="hundredths-inches">922</Length>
+          <Weight Units="hundredths-pounds">143</Weight>
+          <Width Units="hundredths-inches">674</Width>
+        </PackageDimensions>
+        <ProductGroup>Book</ProductGroup>
+        <PublicationDate>1998-12-16</PublicationDate>
+        <Publisher>Addison-Wesley Professional</Publisher>
+        <Studio>Addison-Wesley Professional</Studio>
+        <Title>Perl Power!: A JumpStart Guide to Programming with Perl 5</Title>
+      </ItemAttributes>
+      <OfferSummary>
+        <LowestNewPrice>
+          <Amount>990</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$9.90</FormattedPrice>
+        </LowestNewPrice>
+        <LowestUsedPrice>
+          <Amount>25</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$0.25</FormattedPrice>
+        </LowestUsedPrice>
+        <TotalNew>9</TotalNew>
+        <TotalUsed>7</TotalUsed>
+        <TotalCollectible>0</TotalCollectible>
+        <TotalRefurbished>0</TotalRefurbished>
+      </OfferSummary>
+      <Offers>
+        <TotalOffers>1</TotalOffers>
+        <TotalOfferPages>1</TotalOfferPages>
+        <Offer>
+          <Merchant>
+            <MerchantId>ATVPDKIKX0DER</MerchantId>
+            <GlancePage>http://www.amazon.com/gp/help/seller/home.html?seller=ATVPDKIKX0DER</GlancePage>
+            <AverageFeedbackRating>0.0</AverageFeedbackRating>
+            <TotalFeedback>0</TotalFeedback>
+          </Merchant>
+          <OfferAttributes>
+            <Condition>New</Condition>
+          </OfferAttributes>
+          <OfferListing>
+            <OfferListingId>6TFdF%2BT67HyUmexPdhB6sIUbqv8V0ot2tyNvJjJQacuuok%2BsHgTidNDY%2FQWS0KLnpujvwgMT4ME%3D</OfferListingId>
+            <Price>
+              <Amount>3999</Amount>
+              <CurrencyCode>USD</CurrencyCode>
+              <FormattedPrice>$39.99</FormattedPrice>
+            </Price>
+            <Availability>Usually ships in 1 to 3 weeks</Availability>
+            <IsEligibleForSuperSaverShipping>1</IsEligibleForSuperSaverShipping>
+          </OfferListing>
+        </Offer>
+      </Offers>
+    </Item>
+    <Item>
+      <ASIN>3540284028</ASIN>
+      <DetailPageURL>http://www.amazon.com/exec/obidos/redirect?tag=ws%26link_code=xm2%26camp=2025%26creative=165953%26path=http://www.amazon.com/gp/redirect.html%253fASIN=3540284028%2526tag=ws%2526lcode=xm2%2526cID=2025%2526ccmID=165953%2526location=/o/ASIN/3540284028%25253FSubscriptionId=YOUR_AMAZON_TOKEN</DetailPageURL>
+      <SmallImage>
+        <URL>http://images.amazon.com/images/P/3540284028.01._SCTHUMBZZZ_.jpg</URL>
+        <Height Units="pixels">75</Height>
+        <Width Units="pixels">47</Width>
+      </SmallImage>
+      <MediumImage>
+        <URL>http://images.amazon.com/images/P/3540284028.01._SCMZZZZZZZ_.jpg</URL>
+        <Height Units="pixels">160</Height>
+        <Width Units="pixels">100</Width>
+      </MediumImage>
+      <LargeImage>
+        <URL>http://images.amazon.com/images/P/3540284028.01._SCLZZZZZZZ_.jpg</URL>
+        <Height Units="pixels">500</Height>
+        <Width Units="pixels">313</Width>
+      </LargeImage>
+      <ItemAttributes>
+        <Author>August-Wilhelm Scheer</Author>
+        <Author>Manfred Boczanski</Author>
+        <Author>Michael Muth</Author>
+        <Author>Willi-Gerd Schmitz</Author>
+        <Author>Uwe Segelbacher</Author>
+        <Binding>Hardcover</Binding>
+        <Creator Role="Contributor">A. Cocchi</Creator>
+        <Creator Role="Contributor">C. Herzog</Creator>
+        <Creator Role="Contributor">I. Kern</Creator>
+        <Creator Role="Contributor">H. Okruch</Creator>
+        <Creator Role="Contributor">A. Schadenberger</Creator>
+        <Creator Role="Contributor">B. Schilli</Creator>
+        <Creator Role="Contributor">M. Stürken</Creator>
+        <EAN>9783540284024</EAN>
+        <Edition>1</Edition>
+        <ISBN>3540284028</ISBN>
+        <Label>Springer</Label>
+        <ListPrice>
+          <Amount>6995</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$69.95</FormattedPrice>
+        </ListPrice>
+        <Manufacturer>Springer</Manufacturer>
+        <NumberOfItems>1</NumberOfItems>
+        <NumberOfPages>260</NumberOfPages>
+        <ProductGroup>Book</ProductGroup>
+        <Publisher>Springer</Publisher>
+        <Studio>Springer</Studio>
+        <Title>Prozessorientiertes Product Lifecycle Management</Title>
+      </ItemAttributes>
+      <OfferSummary>
+        <LowestNewPrice>
+          <Amount>6124</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$61.24</FormattedPrice>
+        </LowestNewPrice>
+        <TotalNew>4</TotalNew>
+        <TotalUsed>0</TotalUsed>
+        <TotalCollectible>0</TotalCollectible>
+        <TotalRefurbished>0</TotalRefurbished>
+      </OfferSummary>
+      <Offers>
+        <TotalOffers>1</TotalOffers>
+        <TotalOfferPages>1</TotalOfferPages>
+        <Offer>
+          <Merchant>
+            <MerchantId>ATVPDKIKX0DER</MerchantId>
+            <GlancePage>http://www.amazon.com/gp/help/seller/home.html?seller=ATVPDKIKX0DER</GlancePage>
+            <AverageFeedbackRating>0.0</AverageFeedbackRating>
+            <TotalFeedback>0</TotalFeedback>
+          </Merchant>
+          <OfferAttributes>
+            <Condition>New</Condition>
+          </OfferAttributes>
+          <OfferListing>
+            <OfferListingId>pt47a8WLVoF5ul6mY5j2u6oymnnMXOVBXrvfSEMrNw5cjn66dWVqRoEHlcJHo4%2F4C35Pmak4eBg%3D</OfferListingId>
+            <Price>
+              <Amount>6995</Amount>
+              <CurrencyCode>USD</CurrencyCode>
+              <FormattedPrice>$69.95</FormattedPrice>
+            </Price>
+            <Availability>Usually ships in 4 to 6 weeks</Availability>
+            <IsEligibleForSuperSaverShipping>1</IsEligibleForSuperSaverShipping>
+          </OfferListing>
+        </Offer>
+      </Offers>
+    </Item>
+  </Items>
+</ItemSearchResponse>

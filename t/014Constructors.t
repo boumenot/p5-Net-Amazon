@@ -5,17 +5,21 @@
 use warnings;
 use strict;
 
-use Test::More tests => 13;
+use Test::More tests => 17;
 BEGIN { use_ok('Net::Amazon') };
 
 my @request_types = (
+['Actor'],
 ['Artist'],
+['Author'],
 ['ASIN'],
 ['Blended'],
-['BrowseNode', 'mode'],
-['Keyword', 'mode'],
+['BrowseNode'],
+['Keyword'],
 ['Manufacturer'],
-['Power', 'mode'],
+['MusicLabel', 'label'],
+['Power'],
+['Publisher'],
 ['Seller'],
 ['Similar'],
 ['TextStream'],

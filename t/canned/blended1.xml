@@ -1,271 +1,2380 @@
-<?xml version="1.0" encoding="UTF-8"?><BlendedSearch xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://xml.amazon.com/schemas3/dev-heavy.xsd">
-
-<Request><Args><Arg value="libwww-perl/5.76" name="UserAgent"></Arg><Arg value="Perl" name="BlendedSearch"></Arg><Arg value="1EY7JMTH3HMTTD6K2GMA" name="RequestID"></Arg><Arg value="us" name="locale"></Arg><Arg value="1" name="page"></Arg><Arg value="AMAZON_TOKEN" name="dev-t"></Arg><Arg value="webservices-20" name="t"></Arg><Arg value="xml" name="f"></Arg><Arg value="books" name="mode"></Arg><Arg value="heavy" name="type"></Arg><Arg value="+salesrank" name="sort"></Arg></Args></Request><ProductLine>
-   <Mode>books</Mode>
-   <RelevanceRank>1</RelevanceRank>
-<ProductInfo>
-   <TotalResults>708</TotalResults>
-   <TotalPages>71</TotalPages>
-   <Details url="http://www.amazon.com/exec/obidos/ASIN/0596000480/webservices-20?dev-t=AMAZON_TOKEN%26camp=2025%26link_code=xm2">
-      <Asin>0596000480</Asin>
-      <ProductName>JavaScript: The Definitive Guide</ProductName>
-      <Catalog>Book</Catalog>
-      <Authors>
-         <Author>David Flanagan</Author>
-      </Authors>
-      <ReleaseDate>15 December, 2001</ReleaseDate>
-      <Manufacturer>O'Reilly &amp; Associates</Manufacturer>
-      <ImageUrlSmall>http://images.amazon.com/images/P/0596000480.01.THUMBZZZ.jpg</ImageUrlSmall>
-      <ImageUrlMedium>http://images.amazon.com/images/P/0596000480.01.MZZZZZZZ.jpg</ImageUrlMedium>
-      <ImageUrlLarge>http://images.amazon.com/images/P/0596000480.01.LZZZZZZZ.jpg</ImageUrlLarge>
-      <ListPrice>$44.95</ListPrice>
-      <OurPrice>$31.46</OurPrice>
-      <UsedPrice>$26.99</UsedPrice>
-      <CollectiblePrice>$19.95</CollectiblePrice>
-      <ThirdPartyNewPrice>$28.98</ThirdPartyNewPrice>
-      <SalesRank>1,607</SalesRank>
-      <Lists>
-         <ListId>IEF1DNVKZO8B</ListId>
-         <ListId>1446GTNVA7HF2</ListId>
-         <ListId>1R36BE3AUD988</ListId>
-      </Lists>
-      <BrowseList>
-         <BrowseNode>
-            <BrowseName>Computer Bks - Languages / Programming</BrowseName>
-         </BrowseNode>
-         <BrowseNode>
-            <BrowseName>Computer Books: Languages</BrowseName>
-         </BrowseNode>
-         <BrowseNode>
-            <BrowseName>Computer Networks</BrowseName>
-         </BrowseNode>
-         <BrowseNode>
-            <BrowseName>Computer Programming Languages</BrowseName>
-         </BrowseNode>
-         <BrowseNode>
-            <BrowseName>Computers</BrowseName>
-         </BrowseNode>
-         <BrowseNode>
-            <BrowseName>JavaScript (Computer program language)</BrowseName>
-         </BrowseNode>
-         <BrowseNode>
-            <BrowseName>Object-oriented programming (Computer science)</BrowseName>
-         </BrowseNode>
-         <BrowseNode>
-            <BrowseName>Programming - General</BrowseName>
-         </BrowseNode>
-         <BrowseNode>
-            <BrowseName>Programming - Object Oriented Programming</BrowseName>
-         </BrowseNode>
-         <BrowseNode>
-            <BrowseName>Programming Languages - CGI, Javascript, Perl, VBScript</BrowseName>
-         </BrowseNode>
-         <BrowseNode>
-            <BrowseName>Programming Languages - Java</BrowseName>
-         </BrowseNode>
-         <BrowseNode>
-            <BrowseName>Web servers</BrowseName>
-         </BrowseNode>
-         <BrowseNode>
-            <BrowseName>Java &amp; variants</BrowseName>
-         </BrowseNode>
-      </BrowseList>
-      <Media>Paperback</Media>
-      <NumMedia>1</NumMedia>
-      <Isbn>0596000480</Isbn>
-      <Availability>Usually ships within 24 hours</Availability>
-      <ProductDescription>Since the earliest days of Internet scripting, Web developers have considered &lt;I>JavaScript: The Definitive Guide&lt;/I> an essential resource. David Flanagan's approach, which combines tutorials and examples with easy-to-use syntax guides and object references, suits the typical programmer's requirements nicely. The brand-new fourth edition of Flanagan's "Rhino Book" includes coverage of JavaScript 1.5, JScript 5.5, ECMAScript 3, and the Document Object Model (DOM) Level 2 standard from the World Wide Web Consortium (W3C). Interestingly, the author has shifted away from specifying--as he did in earlier editions--what browsers support each bit of the language. Rather than say Netscape 3.0 supports the Image object while Internet Explorer 3.0 does not, he specifies that JavaScript 1.1 and JScript 3.0 support Image. More usefully, he specifies the contents of independent standards like ECMAScript, which encourages scripters to write applications for these standards and browser vendors to support them. As Flanagan says, JavaScript and its related subjects are very complex in their pure forms. It's impossible to keep track of the differences among half a dozen vendors' generally similar implementations. Nonetheless, a lot of examples make reference to specific browsers' capabilities.&lt;p>  Though he does not cover server-side APIs, Flanagan has chosen to separate coverage of core JavaScript (all the keywords, general syntax, and utility objects like Array) from coverage of client-side JavaScript (which includes objects, like History and Event, that have to do with Web browsers and users' interactions with them. This approach makes this book useful to people using JavaScript for applications other than Web pages. By the way, the other classic JavaScript text--Danny Goodman's &lt;I>JavaScript Bible&lt;/I>--isn't as current as this book, but it's still a fantastic (and perhaps somewhat more novice-friendly) guide to the JavaScript language and its capabilities. &lt;I>--David Wall&lt;/I>&lt;p>  &lt;B>Topics covered:&lt;/B> The JavaScript language (version 1.0 through version 1.5) and its relatives, JScript and ECMAScript, as well as the W3C DOM standards they're often used to manipulate. Tutorial sections show how to program in JavaScript, while reference sections summarize syntax and options while providing copious code examples.</ProductDescription>
-      <Reviews>
-         <AvgCustomerRating>4.31</AvgCustomerRating>
-         <TotalCustomerReviews>191</TotalCustomerReviews>
-         <CustomerReview>
-            <Rating>5</Rating>
-            <Summary>Definitive is the word I would use.</Summary>
-            <Comment>I have tried several books on Javascritping and while they all seem to have the same format of learning, this book draws from a different line of thought, make it simple and you can learn. This book may just be the definitive guide to learning Javascritping.&lt;P> &lt;P>Starting off this 750 plus page book is the explanation how JavaScript works from the client side and then from the server side of the things. This understanding is crucial to making sure your code is set up properly and that is works correctly the first time.&lt;P> &lt;P>Other topics covered in the book include data types, values, variables, expressions, operators, functions, objects and arrays. All of these topics are detailed yet simplified so even I could understand the nature of the text.&lt;P> &lt;P>Moving on you'll also cover how to setup windows, frames, DOM, events, forms, DHTML, cookies and security. All this is coupled with actual code screen shots to show you what the final outcome should look like.&lt;P> &lt;P>The author's ability to break down each topic and show you what you need to know in order to write the best possible code is the basis of this book. Overall this book is one to have and use on a constant basis.</Comment>
-         </CustomerReview>
-         <CustomerReview>
-            <Rating>5</Rating>
-            <Summary>Best reference on JavaScript I have ever seen</Summary>
-            <Comment>I have read many books on JavaScript before but this is by far the most comprehansive guide to the scripting language. This book is not for beginners. &lt;BR>I use it as a reference guide. If you know the object's name or the method's name on either client side or server side, you can just look it up in this book's index section and it will reference you to a particular page with detailed explonations and more often then not with examples. &lt;BR>Absolutely love this book</Comment>
-         </CustomerReview>
-         <CustomerReview>
-            <Rating>5</Rating>
-            <Summary>Must have for learning and reference</Summary>
-            <Comment>As a long time C++ programmer, I found this book to be neither too hard or too easy. Readers with no programming experience at all might have a harder time with the text, but if you have any kind of programming background, the text will serve you well. As a reference, the text is second to none. Even the DOM reference is one of the best out there.</Comment>
-         </CustomerReview>
-      </Reviews>
-   </Details>
-   <Details url="http://www.amazon.com/exec/obidos/ASIN/0596001320/webservices-20?dev-t=AMAZON_TOKEN%26camp=2025%26link_code=xm2">
-      <Asin>0596001320</Asin>
-      <ProductName>Learning Perl, Third Edition</ProductName>
-      <Catalog>Book</Catalog>
-      <Authors>
-         <Author>Randal L. Schwartz</Author>
-         <Author>Tom Phoenix</Author>
-      </Authors>
-      <ReleaseDate>15 July, 2001</ReleaseDate>
-      <Manufacturer>O'Reilly &amp; Associates</Manufacturer>
-      <ImageUrlSmall>http://images.amazon.com/images/P/0596001320.01.THUMBZZZ.jpg</ImageUrlSmall>
-      <ImageUrlMedium>http://images.amazon.com/images/P/0596001320.01.MZZZZZZZ.jpg</ImageUrlMedium>
-      <ImageUrlLarge>http://images.amazon.com/images/P/0596001320.01.LZZZZZZZ.jpg</ImageUrlLarge>
-      <ListPrice>$34.95</ListPrice>
-      <OurPrice>$23.77</OurPrice>
-      <UsedPrice>$20.50</UsedPrice>
-      <CollectiblePrice>$17.95</CollectiblePrice>
-      <ThirdPartyNewPrice>$22.94</ThirdPartyNewPrice>
-      <SalesRank>1,032</SalesRank>
-      <Lists>
-         <ListId>1OQV9AGCQG0ED</ListId>
-         <ListId>1T2AN3P86O3Z6</ListId>
-         <ListId>343HS65N1SO1Z</ListId>
-      </Lists>
-      <BrowseList>
-         <BrowseNode>
-            <BrowseName>Computer Bks - Languages / Programming</BrowseName>
-         </BrowseNode>
-         <BrowseNode>
-            <BrowseName>Computer Books: General</BrowseName>
-         </BrowseNode>
-         <BrowseNode>
-            <BrowseName>Computers</BrowseName>
-         </BrowseNode>
-         <BrowseNode>
-            <BrowseName>Perl (Computer language)</BrowseName>
-         </BrowseNode>
-         <BrowseNode>
-            <BrowseName>Perl (Computer program languag</BrowseName>
-         </BrowseNode>
-         <BrowseNode>
-            <BrowseName>Perl (Computer program language)</BrowseName>
-         </BrowseNode>
-         <BrowseNode>
-            <BrowseName>Programming Languages - CGI, Javascript, Perl, VBScript</BrowseName>
-         </BrowseNode>
-         <BrowseNode>
-            <BrowseName>Internet languages</BrowseName>
-         </BrowseNode>
-         <BrowseNode>
-            <BrowseName>Programming languages</BrowseName>
-         </BrowseNode>
-      </BrowseList>
-      <Media>Paperback</Media>
-      <NumMedia>1</NumMedia>
-      <Isbn>0596001320</Isbn>
-      <Availability>Usually ships within 24 hours</Availability>
-      <Upc>636920001324</Upc>
-      <ProductDescription>In this smooth, carefully paced course, a leading Perl trainer  teaches you to program in the language that threatens to make C, sed, awk, and the Unix shell obsolete for many tasks.  This book is the "official" guide for both formal (classroom) and informal learning.  It is fully  accessible to the novice programmer.</ProductDescription>
-      <Reviews>
-         <AvgCustomerRating>4.21</AvgCustomerRating>
-         <TotalCustomerReviews>238</TotalCustomerReviews>
-         <CustomerReview>
-            <Rating>3</Rating>
-            <Summary>Not really for absolute beginners</Summary>
-            <Comment>This book calls itself "Learning Perl," apparently because it is geared towards beginners. However, upon reading more and more of this book, it becomes increasingly clear that this book is not at all a learning tool, as it is a good reference for those who already learned the basics of Perl. The first chapter should be skipped over entirely if you're a beginner, because it will do nothing more than confuse you and turn you off to Perl. The subsequent chapters covers all relevant topics, but they skimp on providing descriptive key examples which would help you to better understand the concept. This book makes too many references to C and other languages, implying that you already know previous programming languages. The chapter on regular expressions is shamefully cursory and lacking in examples which can be adequately picked up by the Perl novice. The language of the text is not for the beginner user, as it throws around too many Perl-centric terms and definitions. For an intermediate, this may be sufficient, but it will not do for the beginner. I recommend Perl for Dummies as the ultimate beginner's tool. That book doesn't cover as many topics as this book, but it certainly explains conceps in a much more novice-friendly language than Learning Perl. Learning Perl makes the mistake of not keeping it simple. This is a very important teaching idea, when your expected audience are complete novices who need to have everything explained to them in basic layman's terms. This book is more of a sophisticated primer for already skilled programmers.</Comment>
-         </CustomerReview>
-         <CustomerReview>
-            <Rating>5</Rating>
-            <Summary>Top of the line</Summary>
-            <Comment>This is as good as it gets.&lt;P>The writing style is fun throughout, the chosen examples interesting, organization very well thought out, presentation clear. You pick it up and you will keep reading.&lt;P>The first chapter gives an overview of what the language can do via an example ("guess the secret word") which is developed more and more using more and more features of the language.&lt;P>In your average programming book the examples are tortured and boring so that it's hard to keep reading. Not so here.&lt;BR>Everything is well motivated and the writing style is amusing throughout.&lt;P>If you are coming from a system language background you will be hooked immediately. The ease with which many tasks are dealt with in Perl is astonishing.&lt;P>The amusing style and excellent presentation is kept up in all chapters of the book. The book will give you an overview of the language and basic skills. &lt;P>None of the programming books I have seen comes close to explaining basic constructs as clearly as this one. If this is your first book of first language you are very lucky.&lt;P>You will feel the need for an in depth presentation. This is not a criticism of the book. What's presented here is already very powerful.&lt;BR>Even after 2 days I was able to write a script doing some useful work I could not otherwise have accomplished. &lt;P>Perl is too rich to give an exhaustive treatment in 260 pages. You'll need Larry Wall's book also and this is clearly stated in the book.&lt;P>This book makes learning Perl fun and will create a lot of fans for the language. It's the perfect entry and will keep you strongly motivated to delve deeper.</Comment>
-         </CustomerReview>
-         <CustomerReview>
-            <Rating>5</Rating>
-            <Summary>A great introduction</Summary>
-            <Comment>This book is aimed at Perl novices and sys admins who need to get up to speed quickly. As with most O'Reilly books I found the authors know thier stuff and the book was well edited. &lt;P>The book contains enough info to allow you to script most sys admin tasks, and has the benefit of being short and therefore easy to carry, but once you get a taste of Perl's power you will no doubt want to get the "camel" (programming perl), which is more comprehensive.</Comment>
-         </CustomerReview>
-      </Reviews>
-   </Details>
-   <Details url="http://www.amazon.com/exec/obidos/ASIN/0596000278/webservices-20?dev-t=AMAZON_TOKEN%26camp=2025%26link_code=xm2">
-      <Asin>0596000278</Asin>
-      <ProductName>Programming Perl (3rd Edition)</ProductName>
-      <Catalog>Book</Catalog>
-      <Authors>
-         <Author>Larry Wall</Author>
-         <Author>Tom Christiansen</Author>
-         <Author>Jon Orwant</Author>
-      </Authors>
-      <ReleaseDate>01 July, 2000</ReleaseDate>
-      <Manufacturer>O'Reilly &amp; Associates</Manufacturer>
-      <ImageUrlSmall>http://images.amazon.com/images/P/0596000278.01.THUMBZZZ.jpg</ImageUrlSmall>
-      <ImageUrlMedium>http://images.amazon.com/images/P/0596000278.01.MZZZZZZZ.jpg</ImageUrlMedium>
-      <ImageUrlLarge>http://images.amazon.com/images/P/0596000278.01.LZZZZZZZ.jpg</ImageUrlLarge>
-      <ListPrice>$49.95</ListPrice>
-      <OurPrice>$34.96</OurPrice>
-      <UsedPrice>$33.84</UsedPrice>
-      <CollectiblePrice>$23.95</CollectiblePrice>
-      <ThirdPartyNewPrice>$30.00</ThirdPartyNewPrice>
-      <SalesRank>1,424</SalesRank>
-      <Lists>
-         <ListId>IEF1DNVKZO8B</ListId>
-         <ListId>HB1RWLRSGVKC</ListId>
-         <ListId>394U0M62XG64T</ListId>
-      </Lists>
-      <BrowseList>
-         <BrowseNode>
-            <BrowseName>Computer Bks - Languages / Programming</BrowseName>
-         </BrowseNode>
-         <BrowseNode>
-            <BrowseName>Computer Books: Languages</BrowseName>
-         </BrowseNode>
-         <BrowseNode>
-            <BrowseName>Computer Programming Languages</BrowseName>
-         </BrowseNode>
-         <BrowseNode>
-            <BrowseName>Computers</BrowseName>
-         </BrowseNode>
-         <BrowseNode>
-            <BrowseName>Perl (Computer language)</BrowseName>
-         </BrowseNode>
-         <BrowseNode>
-            <BrowseName>Perl (Computer program languag</BrowseName>
-         </BrowseNode>
-         <BrowseNode>
-            <BrowseName>Perl (Computer program language)</BrowseName>
-         </BrowseNode>
-         <BrowseNode>
-            <BrowseName>Programming - General</BrowseName>
-         </BrowseNode>
-         <BrowseNode>
-            <BrowseName>Programming Languages - CGI, Javascript, Perl, VBScript</BrowseName>
-         </BrowseNode>
-         <BrowseNode>
-            <BrowseName>Programming Languages - Java</BrowseName>
-         </BrowseNode>
-         <BrowseNode>
-            <BrowseName>Unix (Operating System)</BrowseName>
-         </BrowseNode>
-         <BrowseNode>
-            <BrowseName>High level programming languages</BrowseName>
-         </BrowseNode>
-         <BrowseNode>
-            <BrowseName>Internet languages</BrowseName>
-         </BrowseNode>
-      </BrowseList>
-      <Media>Paperback</Media>
-      <NumMedia>1</NumMedia>
-      <Isbn>0596000278</Isbn>
-      <Availability>Usually ships within 24 hours</Availability>
-      <Upc>636920000273</Upc>
-      <ProductDescription>Larry Wall wrote Perl and he wrote &lt;I>Programming Perl&lt;/I>. Better yet,  he writes amusingly and well--all of which comes across in this latest edition  of the definitive guide to the language.&lt;p>  Like Topsy, Perl just grew, and as a result the need for a third edition came  about. It's now over 1,000 pages, which it needs to be, as it performs several  different duties. First, it's an introduction to the Perl language for those who  are new to programming; also, it's a guide for those who are coming from other  languages; and, finally, it's a Perl language reference. &lt;p>  Among Larry Wall's other pursuits is being a linguist, and it's perhaps for this  reason that Perl is a peculiarly flexible language with many routes to achieving  the same ends, as the authors ably demonstrate. It's also extensible in several  ways, designed to work with many other languages. Also, as it's largely  interpreted, programs written in Perl tend to run unmodified on a variety of  platforms--although platform-specific Perl modules and programming practices are  also discussed.&lt;p>  A major strength of &lt;I>Programming Perl&lt;/I> is the way subject areas are  approached from several directions. This constant shift of viewpoint eliminates  blind spots in the reader's understanding and provides a pleasing echo of the  way Perl itself can take many routes from here to there. &lt;p>  Because the Perl community is both knowledgeable and active, the language covers  much more ground here than in the previous edition. Even if you have both  previous editions, you'll want this latest version--if only for the new jokes.  &lt;I>--Steve Patient, amazon.co.uk&lt;/I></ProductDescription>
-      <Reviews>
-         <AvgCustomerRating>4.13</AvgCustomerRating>
-         <TotalCustomerReviews>214</TotalCustomerReviews>
-         <CustomerReview>
-            <Rating>5</Rating>
-            <Summary>Who said ....</Summary>
-            <Comment>The book is definetely written for those who at least have some (or maybe a little more than just "some") programming background, and willing to learn Perl from the author of the language.&lt;P>I read the first edition of the book, which was about 200 pages, or something in that range, which filled my mind with nothing but questions. Current edition, however, could answer to all of those questions (well, almost). Of course, to make it answer them I had to re-read the book four times. But none of the books I currently own (and I own quite a few) could've taken me to the innards of the language so deep no matter how many times I had read them. So the book is of value. &lt;P>The Camel book, especially, does a great job on Regular Expressions and pattern matching. If you want to learn RegEx of perl in very details, you definitely need listen to the author of Perl. "Mastering Regular Expressions" by Jeffrey Friedl is also a good choise, but doesn't include the latest updates.&lt;P>Formats aren't covered very well though. So you might consider "The Lama book" for that ("Learning Perl"). Still, none of the books can tell you about the innards of the Perl in so much detail overall than "Programming Perl".&lt;P>OOP is also toched upon in the book. Since purpose of the author is not to preach you OO lingo (but plain Perl), you'll treat that part just as an intorduction to OOP and consider "Object Oriented perl" by Damian Convey as the next text book. &lt;P>I found chpater 14, "Tied variables" very helpfull though. It might remind you of DBM/Berkley DB, through the syntax &lt;P>tie my %db, 'AnyDBM_File', 'my_file', O_CREAT|O_RDWR, 0664;&lt;P>but unfortunately it's not about DBM at all. It is about how the "tie" function works, and teaches you how to create your own classes for implementing with "tie". After that chapter, I even had to update some of my classes and saved lots of time for their updates. &lt;P>"Compiling", chapter 18 ,is a must read chapter for those who "live &amp; breath" with Perl (like me, may be ?).&lt;P>I don't want you to buy the book unless you have a good understanding of Programming or/and have knowledge of some programming languages. Otherwise, it won't help at all. &lt;P>If your purpose is just to get started with Web applications, go for "CGI progamming 101" by Jacqueline Hamilton. It is a good start. But if you want to go even deeper, "Learning Perl" and "Perl Coookbook" is the next choise. Keep the "The Camel" book as the next (but definitely, not the last).</Comment>
-         </CustomerReview>
-         <CustomerReview>
-            <Rating>4</Rating>
-            <Summary>Its the reference, but don't use it for learning</Summary>
-            <Comment>Unless you happen to have a degree in Unix and programming (I haven't anyway), don't use this book to learn Perl beyond Randal's Llama book (Learning Perl, excellent!). Programming Perl is a complete reference of the language but is was not made for teaching you Perl. Advanced Perl like references (actually everything after chapter 4) is quite diffucult to understand in the way it was written. Yes, I read the Llama book first but this doesn't mean you will understand the Camel. I would recommend:&lt;P>more examples (and their outputs)&lt;BR> less focus on cool snippets (provide every day code)&lt;BR> less C and Unix (Perl is mutli platform, why refer to a Unix man page instead of explaining a function?)&lt;BR> try to find simple words to explain things.&lt;P>Not everyone is an advanced programmer but everyone should use Perl. Its a wonderful language.</Comment>
-         </CustomerReview>
-         <CustomerReview>
-            <Rating>4</Rating>
-            <Summary>Good introduction</Summary>
-            <Comment>This isn't the book for a first-time programmer. Outside of that, it's a great reference. Maybe the more advanced language features need more clarification, but it's plenty to get you going on your first few Perl programs.&lt;P>Perl is a pleasant oddity among programming langauges. It has lots of features that make it great as a "glue" language, for holding other programs together and for doing those irksome little translations between incompatible formats. Those are the things that shell scripts used to do: setting up files, command lines, and environment variables, checking results, preparing reports. Perl does all that, better, and gives you the full power of a programming language on top of it all. That means the transformations aren't at the mercy of available filters, and don't count on the dozen different syntaxes of the dozen different filter programs. It's a great language for all those little one-off tasks that crop up, especially in system and web admin.&lt;P>That's my problem with Perl, though - the free-wheeling, never-look-back, whatever-works spirit of the people who use Perl. I know there are disciplined, competent software engineers who develop and use Perl, and I don't mean to disparage them at all. Still, the gonzo style that's so common and the revival tent spirit of books like this put me off a bit.&lt;P>The language is very useful, and make lots of hard jobs easy. This book, despite its true-believer style, gives a thorough introduction to the language and its core APIs.</Comment>
-         </CustomerReview>
-      </Reviews>
-   </Details>
-</ProductInfo>
-</ProductLine>
-</BlendedSearch>
+<?xml version="1.0" encoding="UTF-8"?>
+<ItemSearchResponse xmlns="http://webservices.amazon.com/AWSECommerceService/2006-06-28">
+  <Items>
+    <TotalResults>2008</TotalResults>
+    <TotalPages>674</TotalPages>
+    <Item>
+      <ASIN>B0006J28E6</ASIN>
+      <DetailPageURL>http://www.amazon.com/exec/obidos/redirect?tag=ws%26link_code=xm2%26camp=2025%26creative=165953%26path=http://www.amazon.com/gp/redirect.html%253fASIN=B0006J28E6%2526tag=ws%2526lcode=xm2%2526cID=2025%2526ccmID=165953%2526location=/o/ASIN/B0006J28E6%25253FSubscriptionId=YOUR_AMAZON_TOKEN</DetailPageURL>
+      <SalesRank>17435</SalesRank>
+      <SmallImage>
+        <URL>http://images.amazon.com/images/P/B0006J28E6.01._SCTHUMBZZZ_.jpg</URL>
+        <Height Units="pixels">60</Height>
+        <Width Units="pixels">43</Width>
+      </SmallImage>
+      <MediumImage>
+        <URL>http://images.amazon.com/images/P/B0006J28E6.01._SCMZZZZZZZ_.jpg</URL>
+        <Height Units="pixels">140</Height>
+        <Width Units="pixels">100</Width>
+      </MediumImage>
+      <LargeImage>
+        <URL>http://images.amazon.com/images/P/B0006J28E6.01._SCLZZZZZZZ_.jpg</URL>
+        <Height Units="pixels">500</Height>
+        <Width Units="pixels">357</Width>
+      </LargeImage>
+      <ItemAttributes>
+        <Actor>Brittany Daniel</Actor>
+        <Actor>Cynthia Daniel</Actor>
+        <Actor>Amy Danles</Actor>
+        <Actor>Shirlee Elliot</Actor>
+        <Actor>Jeremy Garrett</Actor>
+        <Actor>Tyffany Hayes</Actor>
+        <Actor>Michael Perl</Actor>
+        <Actor>Manley Pope</Actor>
+        <Actor>Harley Rodriguez</Actor>
+        <Actor>Andrea Savage</Actor>
+        <Actor>John Jocelyn</Actor>
+        <Actor>Ryan James Bittle</Actor>
+        <Actor>Bridget Flanery</Actor>
+        <Actor>Brock Burnett</Actor>
+        <Actor>Amarilis</Actor>
+        <Actor>Christopher Jackson (IV)</Actor>
+        <AspectRatio>1.33:1</AspectRatio>
+        <AudienceRating>NR (Not Rated)</AudienceRating>
+        <Binding>DVD</Binding>
+        <Director>David Winning</Director>
+        <Director>Susan Rohrer</Director>
+        <Director>Marc Lawrence (II)</Director>
+        <Director>Brian Thomas Jones</Director>
+        <Director>David Garber (II)</Director>
+        <Director>Harvey Frost</Director>
+        <Director>Joel Bender</Director>
+        <EAN>0786936264340</EAN>
+        <Format>Box set</Format>
+        <Format>Closed-captioned</Format>
+        <Format>Color</Format>
+        <Format>Dolby</Format>
+        <Format>Widescreen</Format>
+        <Format>Surround Sound</Format>
+        <Format>Full Screen</Format>
+        <Format>NTSC</Format>
+        <ISBN>0788857495</ISBN>
+        <Label>Buena Vista Home Entertainment</Label>
+        <Languages>
+          <Language>
+            <Name>English</Name>
+            <Type>Original Language</Type>
+          </Language>
+        </Languages>
+        <ListPrice>
+          <Amount>4999</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$49.99</FormattedPrice>
+        </ListPrice>
+        <Manufacturer>Buena Vista Home Entertainment</Manufacturer>
+        <NumberOfItems>3</NumberOfItems>
+        <PackageDimensions>
+          <Height Units="hundredths-inches">80</Height>
+          <Length Units="hundredths-inches">740</Length>
+          <Weight Units="hundredths-pounds">45</Weight>
+          <Width Units="hundredths-inches">520</Width>
+        </PackageDimensions>
+        <ProductGroup>DVD</ProductGroup>
+        <Publisher>Buena Vista Home Entertainment</Publisher>
+        <RegionCode>1</RegionCode>
+        <ReleaseDate>2005-03-08</ReleaseDate>
+        <RunningTime Units="minutes">400</RunningTime>
+        <Studio>Buena Vista Home Entertainment</Studio>
+        <TheatricalReleaseDate>1994-09-05</TheatricalReleaseDate>
+        <Title>Sweet Valley High - The Complete First Season</Title>
+        <UPC>786936264340</UPC>
+      </ItemAttributes>
+      <OfferSummary>
+        <LowestNewPrice>
+          <Amount>3099</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$30.99</FormattedPrice>
+        </LowestNewPrice>
+        <LowestUsedPrice>
+          <Amount>1997</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$19.97</FormattedPrice>
+        </LowestUsedPrice>
+        <LowestCollectiblePrice>
+          <Amount>4249</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$42.49</FormattedPrice>
+        </LowestCollectiblePrice>
+        <TotalNew>49</TotalNew>
+        <TotalUsed>26</TotalUsed>
+        <TotalCollectible>1</TotalCollectible>
+        <TotalRefurbished>0</TotalRefurbished>
+      </OfferSummary>
+      <Offers>
+        <TotalOffers>1</TotalOffers>
+        <TotalOfferPages>1</TotalOfferPages>
+        <Offer>
+          <Merchant>
+            <MerchantId>ATVPDKIKX0DER</MerchantId>
+            <GlancePage>http://www.amazon.com/gp/help/seller/home.html?seller=ATVPDKIKX0DER</GlancePage>
+            <AverageFeedbackRating>0.0</AverageFeedbackRating>
+            <TotalFeedback>0</TotalFeedback>
+          </Merchant>
+          <OfferAttributes>
+            <Condition>New</Condition>
+          </OfferAttributes>
+          <OfferListing>
+            <OfferListingId>kdbfnCspqv57UXpaAqCkjaZEMuTTRwEfKb48XYV4h1Lgj4Atgo1htn2McEZYYPxfs%2BLw3ugbIFg%3D</OfferListingId>
+            <Price>
+              <Amount>4499</Amount>
+              <CurrencyCode>USD</CurrencyCode>
+              <FormattedPrice>$44.99</FormattedPrice>
+            </Price>
+            <Availability>Usually ships in 24 hours</Availability>
+            <IsEligibleForSuperSaverShipping>1</IsEligibleForSuperSaverShipping>
+          </OfferListing>
+        </Offer>
+      </Offers>
+    </Item>
+    <Item>
+      <ASIN>B0006OR0IU</ASIN>
+      <DetailPageURL>http://www.amazon.com/exec/obidos/redirect?tag=ws%26link_code=xm2%26camp=2025%26creative=165953%26path=http://www.amazon.com/gp/redirect.html%253fASIN=B0006OR0IU%2526tag=ws%2526lcode=xm2%2526cID=2025%2526ccmID=165953%2526location=/o/ASIN/B0006OR0IU%25253FSubscriptionId=YOUR_AMAZON_TOKEN</DetailPageURL>
+      <SalesRank>53748</SalesRank>
+      <ItemAttributes>
+        <AspectRatio>1.77:1</AspectRatio>
+        <AudienceRating>NR (Not Rated)</AudienceRating>
+        <Author>Chopin</Author>
+        <Author>Kempf</Author>
+        <Author>Perl</Author>
+        <Author>Hewitt</Author>
+        <Binding>DVD</Binding>
+        <Brand>Opus Arte Media Productions</Brand>
+        <EAN>0809478000938</EAN>
+        <Format>Classical</Format>
+        <Format>Color</Format>
+        <Format>DTS Surround Sound</Format>
+        <Format>Widescreen</Format>
+        <Format>NTSC</Format>
+        <Label>BBC / Opus Arte</Label>
+        <Languages>
+          <Language>
+            <Name>German</Name>
+            <Type>Original Language</Type>
+          </Language>
+          <Language>
+            <Name>English</Name>
+            <Type>Dubbed</Type>
+          </Language>
+        </Languages>
+        <ListPrice>
+          <Amount>1999</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$19.99</FormattedPrice>
+        </ListPrice>
+        <Manufacturer>BBC / Opus Arte</Manufacturer>
+        <NumberOfItems>1</NumberOfItems>
+        <PackageDimensions>
+          <Height Units="hundredths-inches">58</Height>
+          <Length Units="hundredths-inches">710</Length>
+          <Weight Units="hundredths-pounds">18</Weight>
+          <Width Units="hundredths-inches">542</Width>
+        </PackageDimensions>
+        <ProductGroup>DVD</ProductGroup>
+        <Publisher>BBC / Opus Arte</Publisher>
+        <RegionCode>1</RegionCode>
+        <ReleaseDate>2005-02-22</ReleaseDate>
+        <Studio>BBC / Opus Arte</Studio>
+        <TheatricalReleaseDate>2003-01-01</TheatricalReleaseDate>
+        <Title>Chopin: Piano Music</Title>
+        <UPC>809478000938</UPC>
+      </ItemAttributes>
+      <OfferSummary>
+        <LowestNewPrice>
+          <Amount>1531</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$15.31</FormattedPrice>
+        </LowestNewPrice>
+        <LowestUsedPrice>
+          <Amount>1532</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$15.32</FormattedPrice>
+        </LowestUsedPrice>
+        <TotalNew>34</TotalNew>
+        <TotalUsed>18</TotalUsed>
+        <TotalCollectible>0</TotalCollectible>
+        <TotalRefurbished>0</TotalRefurbished>
+      </OfferSummary>
+      <Offers>
+        <TotalOffers>1</TotalOffers>
+        <TotalOfferPages>1</TotalOfferPages>
+        <Offer>
+          <Merchant>
+            <MerchantId>ATVPDKIKX0DER</MerchantId>
+            <GlancePage>http://www.amazon.com/gp/help/seller/home.html?seller=ATVPDKIKX0DER</GlancePage>
+            <AverageFeedbackRating>0.0</AverageFeedbackRating>
+            <TotalFeedback>0</TotalFeedback>
+          </Merchant>
+          <OfferAttributes>
+            <Condition>New</Condition>
+          </OfferAttributes>
+          <OfferListing>
+            <OfferListingId>dTlAcbo1%2F0nULJlOOjBmS5lxAs3QJjkOZikv2jLGIWnmbaYLLRwxd5xbx%2BNIOBBKDdGsUSVsRjo%3D</OfferListingId>
+            <Price>
+              <Amount>1799</Amount>
+              <CurrencyCode>USD</CurrencyCode>
+              <FormattedPrice>$17.99</FormattedPrice>
+            </Price>
+            <Availability>Usually ships in 24 hours</Availability>
+            <IsEligibleForSuperSaverShipping>1</IsEligibleForSuperSaverShipping>
+          </OfferListing>
+        </Offer>
+      </Offers>
+    </Item>
+    <Item>
+      <ASIN>B0001ZDLQ4</ASIN>
+      <DetailPageURL>http://www.amazon.com/exec/obidos/redirect?tag=ws%26link_code=xm2%26camp=2025%26creative=165953%26path=http://www.amazon.com/gp/redirect.html%253fASIN=B0001ZDLQ4%2526tag=ws%2526lcode=xm2%2526cID=2025%2526ccmID=165953%2526location=/o/ASIN/B0001ZDLQ4%25253FSubscriptionId=YOUR_AMAZON_TOKEN</DetailPageURL>
+      <SalesRank>54293</SalesRank>
+      <ItemAttributes>
+        <Actor>Assi Dayan</Actor>
+        <Actor>Orli Perl</Actor>
+        <Actor>Riki Gal</Actor>
+        <Actor>Aki Avni</Actor>
+        <Actor>Dana Parnas</Actor>
+        <AspectRatio>1.33:1</AspectRatio>
+        <AudienceRating>NR (Not Rated)</AudienceRating>
+        <Binding>DVD</Binding>
+        <Director>Menahem Golan</Director>
+        <EAN>0737138095126</EAN>
+        <Format>Color</Format>
+        <Format>Dolby</Format>
+        <Format>Full Screen</Format>
+        <Format>Subtitled</Format>
+        <Format>Widescreen</Format>
+        <Format>NTSC</Format>
+        <ISBN>1560862556</ISBN>
+        <Label>Sisu Home Ent.</Label>
+        <Languages>
+          <Language>
+            <Name>English</Name>
+            <Type>Original Language</Type>
+          </Language>
+          <Language>
+            <Name>Hebrew</Name>
+            <Type>Original Language</Type>
+          </Language>
+          <Language>
+            <Name>English</Name>
+            <Type>Subtitled</Type>
+          </Language>
+          <Language>
+            <Name>Hebrew</Name>
+            <Type>Subtitled</Type>
+          </Language>
+        </Languages>
+        <ListPrice>
+          <Amount>2995</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$29.95</FormattedPrice>
+        </ListPrice>
+        <Manufacturer>Sisu Home Ent.</Manufacturer>
+        <NumberOfItems>1</NumberOfItems>
+        <PackageDimensions>
+          <Height Units="hundredths-inches">58</Height>
+          <Length Units="hundredths-inches">710</Length>
+          <Weight Units="hundredths-pounds">18</Weight>
+          <Width Units="hundredths-inches">542</Width>
+        </PackageDimensions>
+        <ProductGroup>DVD</ProductGroup>
+        <Publisher>Sisu Home Ent.</Publisher>
+        <RegionCode>1</RegionCode>
+        <ReleaseDate>2004-06-08</ReleaseDate>
+        <RunningTime Units="minutes">96</RunningTime>
+        <Studio>Sisu Home Ent.</Studio>
+        <TheatricalReleaseDate>2002-01-01</TheatricalReleaseDate>
+        <Title>Return From India: A Story of Forbidden Love</Title>
+        <UPC>737138095126</UPC>
+      </ItemAttributes>
+      <OfferSummary>
+        <LowestNewPrice>
+          <Amount>2295</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$22.95</FormattedPrice>
+        </LowestNewPrice>
+        <LowestUsedPrice>
+          <Amount>1598</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$15.98</FormattedPrice>
+        </LowestUsedPrice>
+        <TotalNew>4</TotalNew>
+        <TotalUsed>2</TotalUsed>
+        <TotalCollectible>0</TotalCollectible>
+        <TotalRefurbished>0</TotalRefurbished>
+      </OfferSummary>
+      <Offers>
+        <TotalOffers>1</TotalOffers>
+        <TotalOfferPages>1</TotalOfferPages>
+        <Offer>
+          <Merchant>
+            <MerchantId>ATVPDKIKX0DER</MerchantId>
+            <GlancePage>http://www.amazon.com/gp/help/seller/home.html?seller=ATVPDKIKX0DER</GlancePage>
+            <AverageFeedbackRating>0.0</AverageFeedbackRating>
+            <TotalFeedback>0</TotalFeedback>
+          </Merchant>
+          <OfferAttributes>
+            <Condition>New</Condition>
+          </OfferAttributes>
+          <OfferListing>
+            <OfferListingId>WxKGhIMfttnvb0Iu%2Fluf0i5Q3m2E8fMZ0VULrOK5aBR9e2W5xA0cpSA5YV2GpOZjY5EayYhF7CE%3D</OfferListingId>
+            <Price>
+              <Amount>2699</Amount>
+              <CurrencyCode>USD</CurrencyCode>
+              <FormattedPrice>$26.99</FormattedPrice>
+            </Price>
+            <Availability>Usually ships in 24 hours</Availability>
+            <IsEligibleForSuperSaverShipping>1</IsEligibleForSuperSaverShipping>
+          </OfferListing>
+        </Offer>
+      </Offers>
+    </Item>
+    <Item>
+      <ASIN>B000CPA8CI</ASIN>
+      <DetailPageURL>http://www.amazon.com/exec/obidos/redirect?tag=ws%26link_code=xm2%26camp=2025%26creative=165953%26path=http://www.amazon.com/gp/redirect.html%253fASIN=B000CPA8CI%2526tag=ws%2526lcode=xm2%2526cID=2025%2526ccmID=165953%2526location=/o/ASIN/B000CPA8CI%25253FSubscriptionId=YOUR_AMAZON_TOKEN</DetailPageURL>
+      <ItemAttributes>
+        <Binding>Misc.</Binding>
+        <Brand>Plastikote</Brand>
+        <EAN>0084113855290</EAN>
+        <Label>Plastikote</Label>
+        <Manufacturer>Plastikote</Manufacturer>
+        <Model>3044</Model>
+        <MPN>3044</MPN>
+        <NumberOfItems>1</NumberOfItems>
+        <PackageDimensions>
+          <Height Units="hundredths-inches">128</Height>
+          <Length Units="hundredths-inches">294</Length>
+          <Weight Units="hundredths-pounds">1000</Weight>
+          <Width Units="hundredths-inches">128</Width>
+        </PackageDimensions>
+        <ProductGroup>Automotive Parts and Accessories</ProductGroup>
+        <Publisher>Plastikote</Publisher>
+        <Studio>Plastikote</Studio>
+        <Title>Plastikote 3044 Scrtch Color Btl Blk Perl</Title>
+        <UPC>084113855290</UPC>
+      </ItemAttributes>
+      <OfferSummary>
+        <TotalNew>0</TotalNew>
+        <TotalUsed>0</TotalUsed>
+        <TotalCollectible>0</TotalCollectible>
+        <TotalRefurbished>0</TotalRefurbished>
+      </OfferSummary>
+      <Offers>
+        <TotalOffers>0</TotalOffers>
+        <TotalOfferPages>0</TotalOfferPages>
+      </Offers>
+    </Item>
+    <Item>
+      <ASIN>6304124953</ASIN>
+      <DetailPageURL>http://www.amazon.com/exec/obidos/redirect?tag=ws%26link_code=xm2%26camp=2025%26creative=165953%26path=http://www.amazon.com/gp/redirect.html%253fASIN=6304124953%2526tag=ws%2526lcode=xm2%2526cID=2025%2526ccmID=165953%2526location=/o/ASIN/6304124953%25253FSubscriptionId=YOUR_AMAZON_TOKEN</DetailPageURL>
+      <SalesRank>29838</SalesRank>
+      <ItemAttributes>
+        <Actor>Brittany Daniel</Actor>
+        <Actor>Cynthia Daniel</Actor>
+        <Actor>Amy Danles</Actor>
+        <Actor>Shirlee Elliot</Actor>
+        <Actor>Jeremy Garrett</Actor>
+        <Actor>Tyffany Hayes</Actor>
+        <Actor>Michael Perl</Actor>
+        <Actor>Manley Pope</Actor>
+        <Actor>Harley Rodriguez</Actor>
+        <Actor>Andrea Savage</Actor>
+        <Actor>John Jocelyn</Actor>
+        <Actor>Ryan James Bittle</Actor>
+        <Actor>Bridget Flanery</Actor>
+        <Actor>Brock Burnett</Actor>
+        <Actor>Amarilis</Actor>
+        <Actor>Christopher Jackson (IV)</Actor>
+        <AudienceRating>NR (Not Rated)</AudienceRating>
+        <Binding>VHS Tape</Binding>
+        <Director>David Winning</Director>
+        <Director>Susan Rohrer</Director>
+        <Director>Marc Lawrence (II)</Director>
+        <Director>Brian Thomas Jones</Director>
+        <Director>David Garber (II)</Director>
+        <Director>Harvey Frost</Director>
+        <Director>Joel Bender</Director>
+        <EAN>0729014206535</EAN>
+        <Format>Closed-captioned</Format>
+        <Format>Color</Format>
+        <Format>NTSC</Format>
+        <ISBN>6304124953</ISBN>
+        <Label>Wea Corp</Label>
+        <ListPrice>
+          <Amount>5999</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$59.99</FormattedPrice>
+        </ListPrice>
+        <Manufacturer>Wea Corp</Manufacturer>
+        <NumberOfItems>1</NumberOfItems>
+        <ProductGroup>Video</ProductGroup>
+        <Publisher>Wea Corp</Publisher>
+        <ReleaseDate>1996-08-20</ReleaseDate>
+        <RunningTime Units="minutes">60</RunningTime>
+        <Studio>Wea Corp</Studio>
+        <TheatricalReleaseDate>1994-09-05</TheatricalReleaseDate>
+        <Title>Sweet Valley High:Dangerous Love</Title>
+        <UPC>729014206535</UPC>
+      </ItemAttributes>
+      <OfferSummary>
+        <LowestUsedPrice>
+          <Amount>232</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$2.32</FormattedPrice>
+        </LowestUsedPrice>
+        <LowestCollectiblePrice>
+          <Amount>1199</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$11.99</FormattedPrice>
+        </LowestCollectiblePrice>
+        <TotalNew>0</TotalNew>
+        <TotalUsed>6</TotalUsed>
+        <TotalCollectible>1</TotalCollectible>
+        <TotalRefurbished>0</TotalRefurbished>
+      </OfferSummary>
+      <Offers>
+        <TotalOffers>0</TotalOffers>
+        <TotalOfferPages>0</TotalOfferPages>
+      </Offers>
+    </Item>
+    <Item>
+      <ASIN>6304326246</ASIN>
+      <DetailPageURL>http://www.amazon.com/exec/obidos/redirect?tag=ws%26link_code=xm2%26camp=2025%26creative=165953%26path=http://www.amazon.com/gp/redirect.html%253fASIN=6304326246%2526tag=ws%2526lcode=xm2%2526cID=2025%2526ccmID=165953%2526location=/o/ASIN/6304326246%25253FSubscriptionId=YOUR_AMAZON_TOKEN</DetailPageURL>
+      <SalesRank>2946</SalesRank>
+      <SmallImage>
+        <URL>http://images.amazon.com/images/P/6304326246.01._SCTHUMBZZZ_.jpg</URL>
+        <Height Units="pixels">60</Height>
+        <Width Units="pixels">33</Width>
+      </SmallImage>
+      <MediumImage>
+        <URL>http://images.amazon.com/images/P/6304326246.01._SCMZZZZZZZ_.jpg</URL>
+        <Height Units="pixels">140</Height>
+        <Width Units="pixels">77</Width>
+      </MediumImage>
+      <LargeImage>
+        <URL>http://images.amazon.com/images/P/6304326246.01._SCLZZZZZZZ_.jpg</URL>
+        <Height Units="pixels">475</Height>
+        <Width Units="pixels">262</Width>
+      </LargeImage>
+      <ItemAttributes>
+        <Actor>Gila Almagor</Actor>
+        <Actor>Juliano Mer</Actor>
+        <Actor>Uri Avrahami</Actor>
+        <Actor>Yael Pearl</Actor>
+        <Actor>Alexander Peleg</Actor>
+        <Actor>Ohad Shahar</Actor>
+        <Actor>Tali Atzmon</Actor>
+        <Actor>Shimon Lev-Ari</Actor>
+        <Actor>Rahel Dobson</Actor>
+        <Actor>Helen Eleazari</Actor>
+        <Actor>Amit Gazit</Actor>
+        <Actor>Tzvi Fishzon</Actor>
+        <Actor>Geula Levy</Actor>
+        <Actor>Kaipo Cohen</Actor>
+        <Actor>Orli Perl</Actor>
+        <Actor>Riki Blich</Actor>
+        <Actor>Ohad Knoller</Actor>
+        <Actor>Jenya Kazan</Actor>
+        <Actor>Aya Schtiftal</Actor>
+        <Actor>Olga Guzman</Actor>
+        <AudienceRating>NR (Not Rated)</AudienceRating>
+        <Binding>VHS Tape</Binding>
+        <Director>Eli Cohen</Director>
+        <EAN>0720917012612</EAN>
+        <Format>Color</Format>
+        <Format>Letterboxed</Format>
+        <Format>Subtitled</Format>
+        <Format>Widescreen</Format>
+        <Format>NTSC</Format>
+        <ISBN>1572520701</ISBN>
+        <Label>Fox Lorber</Label>
+        <Languages>
+          <Language>
+            <Name>English</Name>
+            <Type>Subtitled</Type>
+          </Language>
+        </Languages>
+        <ListPrice>
+          <Amount>1998</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$19.98</FormattedPrice>
+        </ListPrice>
+        <Manufacturer>Fox Lorber</Manufacturer>
+        <NumberOfItems>1</NumberOfItems>
+        <PackageDimensions>
+          <Height Units="hundredths-inches">100</Height>
+          <Length Units="hundredths-inches">760</Length>
+          <Weight Units="hundredths-pounds">45</Weight>
+          <Width Units="hundredths-inches">410</Width>
+        </PackageDimensions>
+        <ProductGroup>Video</ProductGroup>
+        <Publisher>Fox Lorber</Publisher>
+        <ReleaseDate>1998-03-24</ReleaseDate>
+        <RunningTime Units="minutes">102</RunningTime>
+        <Studio>Fox Lorber</Studio>
+        <TheatricalReleaseDate>1996-05-17</TheatricalReleaseDate>
+        <Title>Under the Domim Tree (Ws Sub)</Title>
+        <UPC>720917012612</UPC>
+      </ItemAttributes>
+      <OfferSummary>
+        <LowestUsedPrice>
+          <Amount>382</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$3.82</FormattedPrice>
+        </LowestUsedPrice>
+        <LowestCollectiblePrice>
+          <Amount>2475</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$24.75</FormattedPrice>
+        </LowestCollectiblePrice>
+        <TotalNew>0</TotalNew>
+        <TotalUsed>5</TotalUsed>
+        <TotalCollectible>2</TotalCollectible>
+        <TotalRefurbished>0</TotalRefurbished>
+      </OfferSummary>
+      <Offers>
+        <TotalOffers>0</TotalOffers>
+        <TotalOfferPages>0</TotalOfferPages>
+      </Offers>
+    </Item>
+    <Item>
+      <ASIN>6302513367</ASIN>
+      <DetailPageURL>http://www.amazon.com/exec/obidos/redirect?tag=ws%26link_code=xm2%26camp=2025%26creative=165953%26path=http://www.amazon.com/gp/redirect.html%253fASIN=6302513367%2526tag=ws%2526lcode=xm2%2526cID=2025%2526ccmID=165953%2526location=/o/ASIN/6302513367%25253FSubscriptionId=YOUR_AMAZON_TOKEN</DetailPageURL>
+      <SalesRank>30325</SalesRank>
+      <ItemAttributes>
+        <Actor>James Earl Jones</Actor>
+        <Actor>Ossie Davis</Actor>
+        <Actor>Malcolm X</Actor>
+        <Actor>Ella Collins</Actor>
+        <Actor>James Farmer</Actor>
+        <Actor>Martin Luther King</Actor>
+        <Actor>Mister Walsh</Actor>
+        <Actor>Harry Taylor (IV)</Actor>
+        <Actor>Edwin Gardner</Actor>
+        <Actor>Bayard Rustin</Actor>
+        <Actor>King Faisal I</Actor>
+        <Actor>James X</Actor>
+        <Actor>Leon Ameer</Actor>
+        <Actor>Betty Shabazz</Actor>
+        <Actor>Charles Garry (II)</Actor>
+        <Actor>Philbert X</Actor>
+        <Actor>Huey P. Newton</Actor>
+        <Actor>William Kunstler</Actor>
+        <Actor>Jesse Jackson</Actor>
+        <Actor>John Carlos (II)</Actor>
+        <AudienceRating>PG (Parental Guidance Suggested)</AudienceRating>
+        <Binding>VHS Tape</Binding>
+        <Director>Arnold Perl</Director>
+        <EAN>0039244763037</EAN>
+        <Format>Black &amp; White</Format>
+        <Format>Color</Format>
+        <Format>NTSC</Format>
+        <ISBN>6302513367</ISBN>
+        <Label>Anchor Bay</Label>
+        <ListPrice>
+          <Amount>999</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$9.99</FormattedPrice>
+        </ListPrice>
+        <Manufacturer>Anchor Bay</Manufacturer>
+        <NumberOfItems>1</NumberOfItems>
+        <ProductGroup>Video</ProductGroup>
+        <Publisher>Anchor Bay</Publisher>
+        <ReleaseDate>1999-02-16</ReleaseDate>
+        <RunningTime Units="minutes">60</RunningTime>
+        <Studio>Anchor Bay</Studio>
+        <Title>Malcolm X</Title>
+        <UPC>039244763037</UPC>
+      </ItemAttributes>
+      <OfferSummary>
+        <LowestNewPrice>
+          <Amount>999</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$9.99</FormattedPrice>
+        </LowestNewPrice>
+        <LowestUsedPrice>
+          <Amount>750</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$7.50</FormattedPrice>
+        </LowestUsedPrice>
+        <LowestCollectiblePrice>
+          <Amount>1099</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$10.99</FormattedPrice>
+        </LowestCollectiblePrice>
+        <TotalNew>1</TotalNew>
+        <TotalUsed>3</TotalUsed>
+        <TotalCollectible>1</TotalCollectible>
+        <TotalRefurbished>0</TotalRefurbished>
+      </OfferSummary>
+      <Offers>
+        <TotalOffers>0</TotalOffers>
+        <TotalOfferPages>0</TotalOfferPages>
+      </Offers>
+    </Item>
+    <Item>
+      <ASIN>B0002TSXF8</ASIN>
+      <DetailPageURL>http://www.amazon.com/exec/obidos/redirect?tag=ws%26link_code=xm2%26camp=2025%26creative=165953%26path=http://www.amazon.com/gp/redirect.html%253fASIN=B0002TSXF8%2526tag=ws%2526lcode=xm2%2526cID=2025%2526ccmID=165953%2526location=/o/ASIN/B0002TSXF8%25253FSubscriptionId=YOUR_AMAZON_TOKEN</DetailPageURL>
+      <SmallImage>
+        <URL>http://images.amazon.com/images/P/B0002TSXF8.01-AD3HT0W6UQJ53._SCTHUMBZZZ_.jpg</URL>
+        <Height Units="pixels">75</Height>
+        <Width Units="pixels">50</Width>
+      </SmallImage>
+      <MediumImage>
+        <URL>http://images.amazon.com/images/P/B0002TSXF8.01-AD3HT0W6UQJ53._SCMZZZZZZZ_.jpg</URL>
+        <Height Units="pixels">160</Height>
+        <Width Units="pixels">107</Width>
+      </MediumImage>
+      <LargeImage>
+        <URL>http://images.amazon.com/images/P/B0002TSXF8.01-AD3HT0W6UQJ53._SCLZZZZZZZ_.jpg</URL>
+        <Height Units="pixels">350</Height>
+        <Width Units="pixels">234</Width>
+      </LargeImage>
+      <ItemAttributes>
+        <Feature>8 and 20 gage steel and copper construction</Feature>
+        <Feature>Durable satin black powder coat</Feature>
+        <Feature>Hand-polished copper door design</Feature>
+        <Feature>1.5" high by 13" wide incoming slot</Feature>
+        <Feature>Stainless steel scalped cam lock with dust shutter and 2 keys</Feature>
+        <Label>AdvantageMailboxes</Label>
+        <Manufacturer>AdvantageMailboxes</Manufacturer>
+        <ProductGroup>Kitchen</ProductGroup>
+        <Publisher>AdvantageMailboxes</Publisher>
+        <Studio>AdvantageMailboxes</Studio>
+        <Title>The Oasis Drop Box Perl Gray</Title>
+      </ItemAttributes>
+      <OfferSummary>
+        <TotalNew>0</TotalNew>
+        <TotalUsed>0</TotalUsed>
+        <TotalCollectible>0</TotalCollectible>
+        <TotalRefurbished>0</TotalRefurbished>
+      </OfferSummary>
+      <Offers>
+        <TotalOffers>0</TotalOffers>
+        <TotalOfferPages>0</TotalOfferPages>
+      </Offers>
+    </Item>
+    <Item>
+      <ASIN>B0002TSXE4</ASIN>
+      <DetailPageURL>http://www.amazon.com/exec/obidos/redirect?tag=ws%26link_code=xm2%26camp=2025%26creative=165953%26path=http://www.amazon.com/gp/redirect.html%253fASIN=B0002TSXE4%2526tag=ws%2526lcode=xm2%2526cID=2025%2526ccmID=165953%2526location=/o/ASIN/B0002TSXE4%25253FSubscriptionId=YOUR_AMAZON_TOKEN</DetailPageURL>
+      <SmallImage>
+        <URL>http://images.amazon.com/images/P/B0002TSXE4.01-AD3HT0W6UQJ53._SCTHUMBZZZ_.jpg</URL>
+        <Height Units="pixels">73</Height>
+        <Width Units="pixels">75</Width>
+      </SmallImage>
+      <MediumImage>
+        <URL>http://images.amazon.com/images/P/B0002TSXE4.01-AD3HT0W6UQJ53._SCMZZZZZZZ_.jpg</URL>
+        <Height Units="pixels">156</Height>
+        <Width Units="pixels">160</Width>
+      </MediumImage>
+      <LargeImage>
+        <URL>http://images.amazon.com/images/P/B0002TSXE4.01-AD3HT0W6UQJ53._SCLZZZZZZZ_.jpg</URL>
+        <Height Units="pixels">288</Height>
+        <Width Units="pixels">295</Width>
+      </LargeImage>
+      <ItemAttributes>
+        <Feature>8 and 20 gage steel and copper construction</Feature>
+        <Feature>Durable satin black powder coat</Feature>
+        <Feature>Hand-polished copper door design</Feature>
+        <Feature>1.5" high by 13" wide incoming slot</Feature>
+        <Feature>Stainless steel scalped cam lock with dust shutter and 2 keys</Feature>
+        <Label>AdvantageMailboxes</Label>
+        <Manufacturer>AdvantageMailboxes</Manufacturer>
+        <ProductGroup>Kitchen</ProductGroup>
+        <Publisher>AdvantageMailboxes</Publisher>
+        <Studio>AdvantageMailboxes</Studio>
+        <Title>The Oasis Locking Curbside Perl Gray</Title>
+      </ItemAttributes>
+      <OfferSummary>
+        <TotalNew>0</TotalNew>
+        <TotalUsed>0</TotalUsed>
+        <TotalCollectible>0</TotalCollectible>
+        <TotalRefurbished>0</TotalRefurbished>
+      </OfferSummary>
+      <Offers>
+        <TotalOffers>0</TotalOffers>
+        <TotalOfferPages>0</TotalOfferPages>
+      </Offers>
+    </Item>
+    <Item>
+      <ASIN>B0002TSXC6</ASIN>
+      <DetailPageURL>http://www.amazon.com/exec/obidos/redirect?tag=ws%26link_code=xm2%26camp=2025%26creative=165953%26path=http://www.amazon.com/gp/redirect.html%253fASIN=B0002TSXC6%2526tag=ws%2526lcode=xm2%2526cID=2025%2526ccmID=165953%2526location=/o/ASIN/B0002TSXC6%25253FSubscriptionId=YOUR_AMAZON_TOKEN</DetailPageURL>
+      <SmallImage>
+        <URL>http://images.amazon.com/images/P/B0002TSXC6.01-AD3HT0W6UQJ53._SCTHUMBZZZ_.jpg</URL>
+        <Height Units="pixels">75</Height>
+        <Width Units="pixels">63</Width>
+      </SmallImage>
+      <MediumImage>
+        <URL>http://images.amazon.com/images/P/B0002TSXC6.01-AD3HT0W6UQJ53._SCMZZZZZZZ_.jpg</URL>
+        <Height Units="pixels">160</Height>
+        <Width Units="pixels">135</Width>
+      </MediumImage>
+      <LargeImage>
+        <URL>http://images.amazon.com/images/P/B0002TSXC6.01-AD3HT0W6UQJ53._SCLZZZZZZZ_.jpg</URL>
+        <Height Units="pixels">350</Height>
+        <Width Units="pixels">295</Width>
+      </LargeImage>
+      <ItemAttributes>
+        <Feature>8 and 20 gage steel and copper construction</Feature>
+        <Feature>Durable satin black powder coat</Feature>
+        <Feature>Hand-polished copper door design</Feature>
+        <Feature>1.5" high by 13" wide incoming slot</Feature>
+        <Feature>Stainless steel scalped cam lock with dust shutter and 2 keys</Feature>
+        <Label>AdvantageMailboxes</Label>
+        <Manufacturer>AdvantageMailboxes</Manufacturer>
+        <ProductGroup>Kitchen</ProductGroup>
+        <Publisher>AdvantageMailboxes</Publisher>
+        <Studio>AdvantageMailboxes</Studio>
+        <Title>The soho Perl Gray</Title>
+      </ItemAttributes>
+      <OfferSummary>
+        <TotalNew>0</TotalNew>
+        <TotalUsed>0</TotalUsed>
+        <TotalCollectible>0</TotalCollectible>
+        <TotalRefurbished>0</TotalRefurbished>
+      </OfferSummary>
+      <Offers>
+        <TotalOffers>0</TotalOffers>
+        <TotalOfferPages>0</TotalOfferPages>
+      </Offers>
+    </Item>
+    <Item>
+      <ASIN>B00070FXD2</ASIN>
+      <DetailPageURL>http://www.amazon.com/exec/obidos/redirect?tag=ws%26link_code=xm2%26camp=2025%26creative=165953%26path=http://www.amazon.com/gp/redirect.html%253fASIN=B00070FXD2%2526tag=ws%2526lcode=xm2%2526cID=2025%2526ccmID=165953%2526location=/o/ASIN/B00070FXD2%25253FSubscriptionId=YOUR_AMAZON_TOKEN</DetailPageURL>
+      <SalesRank>160594</SalesRank>
+      <SmallImage>
+        <URL>http://images.amazon.com/images/P/B00070FXD2.01-A2FTC2J1QOG8UC._SCTHUMBZZZ_.jpg</URL>
+        <Height Units="pixels">75</Height>
+        <Width Units="pixels">21</Width>
+      </SmallImage>
+      <MediumImage>
+        <URL>http://images.amazon.com/images/P/B00070FXD2.01-A2FTC2J1QOG8UC._SCMZZZZZZZ_.jpg</URL>
+        <Height Units="pixels">160</Height>
+        <Width Units="pixels">45</Width>
+      </MediumImage>
+      <LargeImage>
+        <URL>http://images.amazon.com/images/P/B00070FXD2.01-A2FTC2J1QOG8UC._SCLZZZZZZZ_.jpg</URL>
+        <Height Units="pixels">350</Height>
+        <Width Units="pixels">98</Width>
+      </LargeImage>
+      <ItemAttributes>
+        <Feature>Alchemical Elixir in Homeopathic Potency 1X</Feature>
+        <Feature>Size 1/4 oz or 7.5mL, approx. 300 drops or 2-3 months supply</Feature>
+        <Feature>Liquid homeopathic medicine, 25% alcohol per volume</Feature>
+        <Label>AlchemiaNova</Label>
+        <ListPrice>
+          <Amount>3500</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$35.00</FormattedPrice>
+        </ListPrice>
+        <Manufacturer>AlchemiaNova</Manufacturer>
+        <Model>PERL</Model>
+        <ProductGroup>Health and Beauty</ProductGroup>
+        <Publisher>AlchemiaNova</Publisher>
+        <Studio>AlchemiaNova</Studio>
+        <Title>AlchemiaNova Gem Elixir of Pearl</Title>
+      </ItemAttributes>
+      <OfferSummary>
+        <TotalNew>0</TotalNew>
+        <TotalUsed>0</TotalUsed>
+        <TotalCollectible>0</TotalCollectible>
+        <TotalRefurbished>0</TotalRefurbished>
+      </OfferSummary>
+      <Offers>
+        <TotalOffers>0</TotalOffers>
+        <TotalOfferPages>0</TotalOfferPages>
+      </Offers>
+    </Item>
+    <Item>
+      <ASIN>B000EWVP76</ASIN>
+      <DetailPageURL>http://www.amazon.com/exec/obidos/redirect?tag=ws%26link_code=xm2%26camp=2025%26creative=165953%26path=http://www.amazon.com/gp/redirect.html%253fASIN=B000EWVP76%2526tag=ws%2526lcode=xm2%2526cID=2025%2526ccmID=165953%2526location=/o/ASIN/B000EWVP76%25253FSubscriptionId=YOUR_AMAZON_TOKEN</DetailPageURL>
+      <SmallImage>
+        <URL>http://images.amazon.com/images/P/B000EWVP76.01-A42O9EV9EV594._SCTHUMBZZZ_.jpg</URL>
+        <Height Units="pixels">75</Height>
+        <Width Units="pixels">46</Width>
+      </SmallImage>
+      <MediumImage>
+        <URL>http://images.amazon.com/images/P/B000EWVP76.01-A42O9EV9EV594._SCMZZZZZZZ_.jpg</URL>
+        <Height Units="pixels">160</Height>
+        <Width Units="pixels">99</Width>
+      </MediumImage>
+      <LargeImage>
+        <URL>http://images.amazon.com/images/P/B000EWVP76.01-A42O9EV9EV594._SCLZZZZZZZ_.jpg</URL>
+        <Height Units="pixels">284</Height>
+        <Width Units="pixels">175</Width>
+      </LargeImage>
+      <ItemAttributes>
+        <Binding>Misc.</Binding>
+        <ItemDimensions>
+          <Weight Units="hundredths-pounds">2500</Weight>
+        </ItemDimensions>
+        <Label>Aqua Perl</Label>
+        <Manufacturer>Aqua Perl</Manufacturer>
+        <ProductGroup>Sports</ProductGroup>
+        <Publisher>Aqua Perl</Publisher>
+        <Studio>Aqua Perl</Studio>
+        <Title>DIATOMACEOUS EARTH ALTERNATIVE by Aqua Perl</Title>
+      </ItemAttributes>
+      <OfferSummary>
+        <LowestNewPrice>
+          <Amount>990</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$9.90</FormattedPrice>
+        </LowestNewPrice>
+        <TotalNew>1</TotalNew>
+        <TotalUsed>0</TotalUsed>
+        <TotalCollectible>0</TotalCollectible>
+        <TotalRefurbished>0</TotalRefurbished>
+      </OfferSummary>
+      <Offers>
+        <TotalOffers>0</TotalOffers>
+        <TotalOfferPages>0</TotalOfferPages>
+      </Offers>
+    </Item>
+    <Item>
+      <ASIN>B000B755FW</ASIN>
+      <DetailPageURL>http://www.amazon.com/exec/obidos/redirect?tag=ws%26link_code=xm2%26camp=2025%26creative=165953%26path=http://www.amazon.com/gp/redirect.html%253fASIN=B000B755FW%2526tag=ws%2526lcode=xm2%2526cID=2025%2526ccmID=165953%2526location=/o/ASIN/B000B755FW%25253FSubscriptionId=YOUR_AMAZON_TOKEN</DetailPageURL>
+      <SmallImage>
+        <URL>http://images.amazon.com/images/P/B000B755FW.01-A42O9EV9EV594._SCTHUMBZZZ_.jpg</URL>
+        <Height Units="pixels">75</Height>
+        <Width Units="pixels">46</Width>
+      </SmallImage>
+      <MediumImage>
+        <URL>http://images.amazon.com/images/P/B000B755FW.01-A42O9EV9EV594._SCMZZZZZZZ_.jpg</URL>
+        <Height Units="pixels">160</Height>
+        <Width Units="pixels">99</Width>
+      </MediumImage>
+      <LargeImage>
+        <URL>http://images.amazon.com/images/P/B000B755FW.01-A42O9EV9EV594._SCLZZZZZZZ_.jpg</URL>
+        <Height Units="pixels">284</Height>
+        <Width Units="pixels">175</Width>
+      </LargeImage>
+      <ItemAttributes>
+        <Binding>Misc.</Binding>
+        <Feature>A unique alternative to DE</Feature>
+        <Feature>100% crystaline silica free</Feature>
+        <Feature>Use less, Save more!!</Feature>
+        <ItemDimensions>
+          <Weight Units="hundredths-pounds">1250</Weight>
+        </ItemDimensions>
+        <Label>Aqua Perl</Label>
+        <Manufacturer>Aqua Perl</Manufacturer>
+        <ProductGroup>Sports</ProductGroup>
+        <Publisher>Aqua Perl</Publisher>
+        <Studio>Aqua Perl</Studio>
+        <Title>DIATOMACEOUS EARTH ALTERNATIVE by Aqua Perl</Title>
+      </ItemAttributes>
+      <OfferSummary>
+        <LowestNewPrice>
+          <Amount>1239</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$12.39</FormattedPrice>
+        </LowestNewPrice>
+        <TotalNew>1</TotalNew>
+        <TotalUsed>0</TotalUsed>
+        <TotalCollectible>0</TotalCollectible>
+        <TotalRefurbished>0</TotalRefurbished>
+      </OfferSummary>
+      <Offers>
+        <TotalOffers>0</TotalOffers>
+        <TotalOfferPages>0</TotalOfferPages>
+      </Offers>
+    </Item>
+    <Item>
+      <ASIN>B000B5MV6A</ASIN>
+      <DetailPageURL>http://www.amazon.com/exec/obidos/redirect?tag=ws%26link_code=xm2%26camp=2025%26creative=165953%26path=http://www.amazon.com/gp/redirect.html%253fASIN=B000B5MV6A%2526tag=ws%2526lcode=xm2%2526cID=2025%2526ccmID=165953%2526location=/o/ASIN/B000B5MV6A%25253FSubscriptionId=YOUR_AMAZON_TOKEN</DetailPageURL>
+      <SalesRank>77</SalesRank>
+      <SmallImage>
+        <URL>http://images.amazon.com/images/P/B000B5MV6A.01._SCTHUMBZZZ_.jpg</URL>
+        <Height Units="pixels">59</Height>
+        <Width Units="pixels">75</Width>
+      </SmallImage>
+      <MediumImage>
+        <URL>http://images.amazon.com/images/P/B000B5MV6A.01._SCMZZZZZZZ_.jpg</URL>
+        <Height Units="pixels">126</Height>
+        <Width Units="pixels">160</Width>
+      </MediumImage>
+      <LargeImage>
+        <URL>http://images.amazon.com/images/P/B000B5MV6A.01._SCLZZZZZZZ_.jpg</URL>
+        <Height Units="pixels">393</Height>
+        <Width Units="pixels">500</Width>
+      </LargeImage>
+      <ItemAttributes>
+        <BatteriesIncluded>0</BatteriesIncluded>
+        <Binding>Electronics</Binding>
+        <Brand>Nintendo</Brand>
+        <ESRBAgeRating>Rating Pending</ESRBAgeRating>
+        <Feature>This incredible redesign features a fantastic flip-screen; Unopened, the unit fits easily in your pocket</Feature>
+        <Feature>When it's opened, gamers are in for a treat -- the screen can display up to 32,000 colors, and has a Backlit screen for comfortable game viewing</Feature>
+        <Feature>Redesigned button and D-pad placement make for hours of more comfortable playing</Feature>
+        <Feature>Powered by a rechargeable Lithium-Ion Battery that provides 18 hours of play with the light off(up to 10 hours with the light on)</Feature>
+        <Feature>Games are backwards-compatible -- your Game Boy Advance games will play just fine on the GBA SP</Feature>
+        <ItemDimensions>
+          <Height Units="hundredths-inches">650</Height>
+          <Length Units="hundredths-inches">150</Length>
+          <Weight Units="hundredths-pounds">100</Weight>
+          <Width Units="hundredths-inches">520</Width>
+        </ItemDimensions>
+        <Label>Nintendo</Label>
+        <ListPrice>
+          <Amount>7999</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$79.99</FormattedPrice>
+        </ListPrice>
+        <Manufacturer>Nintendo</Manufacturer>
+        <Model>45496716707</Model>
+        <MPN>agt s pba</MPN>
+        <NumberOfItems>1</NumberOfItems>
+        <PackageDimensions>
+          <Height Units="hundredths-inches">160</Height>
+          <Length Units="hundredths-inches">630</Length>
+          <Weight Units="hundredths-pounds">70</Weight>
+          <Width Units="hundredths-inches">510</Width>
+        </PackageDimensions>
+        <Platform>Game Boy Advance</Platform>
+        <ProductGroup>Video Games</ProductGroup>
+        <Publisher>Nintendo</Publisher>
+        <ReleaseDate>2006-06-15</ReleaseDate>
+        <Studio>Nintendo</Studio>
+        <Title>Game Boy Advance SP Pearl Blue</Title>
+        <UPC>045496716707</UPC>
+      </ItemAttributes>
+      <OfferSummary>
+        <LowestNewPrice>
+          <Amount>7799</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$77.99</FormattedPrice>
+        </LowestNewPrice>
+        <LowestUsedPrice>
+          <Amount>7475</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$74.75</FormattedPrice>
+        </LowestUsedPrice>
+        <TotalNew>13</TotalNew>
+        <TotalUsed>3</TotalUsed>
+        <TotalCollectible>0</TotalCollectible>
+        <TotalRefurbished>0</TotalRefurbished>
+      </OfferSummary>
+      <Offers>
+        <TotalOffers>1</TotalOffers>
+        <TotalOfferPages>1</TotalOfferPages>
+        <Offer>
+          <Merchant>
+            <MerchantId>ATVPDKIKX0DER</MerchantId>
+            <GlancePage>http://www.amazon.com/gp/help/seller/home.html?seller=ATVPDKIKX0DER</GlancePage>
+            <AverageFeedbackRating>0.0</AverageFeedbackRating>
+            <TotalFeedback>0</TotalFeedback>
+          </Merchant>
+          <OfferAttributes>
+            <Condition>New</Condition>
+          </OfferAttributes>
+          <OfferListing>
+            <OfferListingId>AJvEfpaELwGeq6BVY2DuUTXekb%2BuClrbvypx2ivoe6BYr624L0%2BCg0H41kKBRNqMGdhqsac3f64%3D</OfferListingId>
+            <Price>
+              <Amount>7999</Amount>
+              <CurrencyCode>USD</CurrencyCode>
+              <FormattedPrice>$79.99</FormattedPrice>
+            </Price>
+            <Availability>Usually ships in 1 to 2 weeks</Availability>
+            <IsEligibleForSuperSaverShipping>1</IsEligibleForSuperSaverShipping>
+          </OfferListing>
+        </Offer>
+      </Offers>
+      <Accessories>
+        <Accessory>
+          <ASIN>B000CO90K0</ASIN>
+          <Title>1-Year Replacement Plan for Electronics Products</Title>
+        </Accessory>
+        <Accessory>
+          <ASIN>B000COB4YK</ASIN>
+          <Title>2-Year Replacement Plan for Electronics Products</Title>
+        </Accessory>
+      </Accessories>
+    </Item>
+    <Item>
+      <ASIN>B000EGDEJY</ASIN>
+      <DetailPageURL>http://www.amazon.com/exec/obidos/redirect?tag=ws%26link_code=xm2%26camp=2025%26creative=165953%26path=http://www.amazon.com/gp/redirect.html%253fASIN=B000EGDEJY%2526tag=ws%2526lcode=xm2%2526cID=2025%2526ccmID=165953%2526location=/o/ASIN/B000EGDEJY%25253FSubscriptionId=YOUR_AMAZON_TOKEN</DetailPageURL>
+      <SalesRank>353</SalesRank>
+      <SmallImage>
+        <URL>http://images.amazon.com/images/P/B000EGDEJY.01._SCTHUMBZZZ_.jpg</URL>
+        <Height Units="pixels">58</Height>
+        <Width Units="pixels">75</Width>
+      </SmallImage>
+      <MediumImage>
+        <URL>http://images.amazon.com/images/P/B000EGDEJY.01._SCMZZZZZZZ_.jpg</URL>
+        <Height Units="pixels">123</Height>
+        <Width Units="pixels">160</Width>
+      </MediumImage>
+      <LargeImage>
+        <URL>http://images.amazon.com/images/P/B000EGDEJY.01._SCLZZZZZZZ_.jpg</URL>
+        <Height Units="pixels">384</Height>
+        <Width Units="pixels">500</Width>
+      </LargeImage>
+      <ItemAttributes>
+        <Binding>Video Game</Binding>
+        <Brand>Nintendo</Brand>
+        <EAN>0045496717278</EAN>
+        <Feature>This incredible redesign features a fantastic flip-screen; Unopened, the unit fits easily in your pocket</Feature>
+        <Feature>When it's opened, gamers are in for a treat -- the screen can display up to 32,000 colors, and has a Backlit screen for comfortable game viewing</Feature>
+        <Feature>Redesigned button and D-pad placement make for hours of more comfortable playing</Feature>
+        <Feature>Powered by a rechargeable Lithium-Ion Battery that provides 18 hours of play with the light off(up to 10 hours with the light on)</Feature>
+        <Feature>Games are backwards-compatible -- your Game Boy Advance games will play just fine on the GBA SP</Feature>
+        <IsAutographed>0</IsAutographed>
+        <IsMemorabilia>0</IsMemorabilia>
+        <ItemDimensions>
+          <Weight Units="hundredths-pounds">200</Weight>
+        </ItemDimensions>
+        <Label>Nintendo</Label>
+        <ListPrice>
+          <Amount>7999</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$79.99</FormattedPrice>
+        </ListPrice>
+        <Manufacturer>Nintendo</Manufacturer>
+        <Model>45496717278</Model>
+        <MPN>agt s ppa</MPN>
+        <NumberOfItems>1</NumberOfItems>
+        <PackageDimensions>
+          <Height Units="hundredths-inches">160</Height>
+          <Length Units="hundredths-inches">620</Length>
+          <Weight Units="hundredths-pounds">75</Weight>
+          <Width Units="hundredths-inches">530</Width>
+        </PackageDimensions>
+        <Platform>Game Boy Advance</Platform>
+        <ProductGroup>Video Games</ProductGroup>
+        <Publisher>Nintendo</Publisher>
+        <ReleaseDate>2006-06-15</ReleaseDate>
+        <Studio>Nintendo</Studio>
+        <Title>Game Boy Advance SP System Pearl Pink</Title>
+        <UPC>045496717278</UPC>
+      </ItemAttributes>
+      <OfferSummary>
+        <LowestNewPrice>
+          <Amount>7590</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$75.90</FormattedPrice>
+        </LowestNewPrice>
+        <LowestUsedPrice>
+          <Amount>7000</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$70.00</FormattedPrice>
+        </LowestUsedPrice>
+        <TotalNew>21</TotalNew>
+        <TotalUsed>3</TotalUsed>
+        <TotalCollectible>0</TotalCollectible>
+        <TotalRefurbished>0</TotalRefurbished>
+      </OfferSummary>
+      <Offers>
+        <TotalOffers>1</TotalOffers>
+        <TotalOfferPages>1</TotalOfferPages>
+        <Offer>
+          <Merchant>
+            <MerchantId>ATVPDKIKX0DER</MerchantId>
+            <GlancePage>http://www.amazon.com/gp/help/seller/home.html?seller=ATVPDKIKX0DER</GlancePage>
+            <AverageFeedbackRating>0.0</AverageFeedbackRating>
+            <TotalFeedback>0</TotalFeedback>
+          </Merchant>
+          <OfferAttributes>
+            <Condition>New</Condition>
+          </OfferAttributes>
+          <OfferListing>
+            <OfferListingId>AH4F3giJCXfAaT3EABbujIDFR5lGAyZYUU%2B83VE0PSU0uQqhBgODxNbeyk7v1Hur8uNGUWSqSd4%3D</OfferListingId>
+            <Price>
+              <Amount>7999</Amount>
+              <CurrencyCode>USD</CurrencyCode>
+              <FormattedPrice>$79.99</FormattedPrice>
+            </Price>
+            <Availability>Usually ships in 1 to 2 weeks</Availability>
+            <IsEligibleForSuperSaverShipping>1</IsEligibleForSuperSaverShipping>
+          </OfferListing>
+        </Offer>
+      </Offers>
+    </Item>
+    <Item>
+      <ASIN>B00005EBGA</ASIN>
+      <DetailPageURL>http://www.amazon.com/exec/obidos/redirect?tag=ws%26link_code=xm2%26camp=2025%26creative=165953%26path=http://www.amazon.com/gp/redirect.html%253fASIN=B00005EBGA%2526tag=ws%2526lcode=xm2%2526cID=2025%2526ccmID=165953%2526location=/o/ASIN/B00005EBGA%25253FSubscriptionId=YOUR_AMAZON_TOKEN</DetailPageURL>
+      <SalesRank>9064</SalesRank>
+      <SmallImage>
+        <URL>http://images.amazon.com/images/P/B00005EBGA.01._SCTHUMBZZZ_.jpg</URL>
+        <Height Units="pixels">60</Height>
+        <Width Units="pixels">50</Width>
+      </SmallImage>
+      <MediumImage>
+        <URL>http://images.amazon.com/images/P/B00005EBGA.01._SCMZZZZZZZ_.jpg</URL>
+        <Height Units="pixels">150</Height>
+        <Width Units="pixels">124</Width>
+      </MediumImage>
+      <LargeImage>
+        <URL>http://images.amazon.com/images/P/B00005EBGA.01._SCLZZZZZZZ_.jpg</URL>
+        <Height Units="pixels">500</Height>
+        <Width Units="pixels">415</Width>
+      </LargeImage>
+      <ItemAttributes>
+        <Binding>CD-ROM</Binding>
+        <Brand>Simon &amp; Schuster Interactive</Brand>
+        <ESRBAgeRating>Everyone</ESRBAgeRating>
+        <Label>Simon &amp; Schuster Interactive</Label>
+        <Manufacturer>Simon &amp; Schuster Interactive</Manufacturer>
+        <Model>0743509722</Model>
+        <NumberOfItems>1</NumberOfItems>
+        <PackageDimensions>
+          <Height Units="hundredths-inches">210</Height>
+          <Length Units="hundredths-inches">950</Length>
+          <Weight Units="hundredths-pounds">100</Weight>
+          <Width Units="hundredths-inches">800</Width>
+        </PackageDimensions>
+        <Platform>Windows 98</Platform>
+        <Platform>Windows 95</Platform>
+        <ProductGroup>Video Games</ProductGroup>
+        <Publisher>Simon &amp; Schuster Interactive</Publisher>
+        <ReleaseDate>2001-05-25</ReleaseDate>
+        <Studio>Simon &amp; Schuster Interactive</Studio>
+        <Title>Pearl Harbor: Zero Hour (with CD audiobook)</Title>
+      </ItemAttributes>
+      <OfferSummary>
+        <LowestNewPrice>
+          <Amount>399</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$3.99</FormattedPrice>
+        </LowestNewPrice>
+        <LowestUsedPrice>
+          <Amount>475</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$4.75</FormattedPrice>
+        </LowestUsedPrice>
+        <TotalNew>2</TotalNew>
+        <TotalUsed>2</TotalUsed>
+        <TotalCollectible>0</TotalCollectible>
+        <TotalRefurbished>0</TotalRefurbished>
+      </OfferSummary>
+      <Offers>
+        <TotalOffers>0</TotalOffers>
+        <TotalOfferPages>0</TotalOfferPages>
+      </Offers>
+    </Item>
+    <Item>
+      <ASIN>B0007N4CZ4</ASIN>
+      <DetailPageURL>http://www.amazon.com/exec/obidos/redirect?tag=ws%26link_code=xm2%26camp=2025%26creative=165953%26path=http://www.amazon.com/gp/redirect.html%253fASIN=B0007N4CZ4%2526tag=ws%2526lcode=xm2%2526cID=2025%2526ccmID=165953%2526location=/o/ASIN/B0007N4CZ4%25253FSubscriptionId=YOUR_AMAZON_TOKEN</DetailPageURL>
+      <SalesRank>183006</SalesRank>
+      <SmallImage>
+        <URL>http://images.amazon.com/images/P/B0007N4CZ4.01-A2Z1PXCSII8LAE._SCTHUMBZZZ_.jpg</URL>
+        <Height Units="pixels">75</Height>
+        <Width Units="pixels">54</Width>
+      </SmallImage>
+      <MediumImage>
+        <URL>http://images.amazon.com/images/P/B0007N4CZ4.01-A2Z1PXCSII8LAE._SCMZZZZZZZ_.jpg</URL>
+        <Height Units="pixels">160</Height>
+        <Width Units="pixels">115</Width>
+      </MediumImage>
+      <LargeImage>
+        <URL>http://images.amazon.com/images/P/B0007N4CZ4.01-A2Z1PXCSII8LAE._SCLZZZZZZZ_.jpg</URL>
+        <Height Units="pixels">500</Height>
+        <Width Units="pixels">358</Width>
+      </LargeImage>
+      <ItemAttributes>
+        <Binding>Misc.</Binding>
+        <Brand>Bonnie &amp; Clyde</Brand>
+        <Department>Girls</Department>
+        <FabricType>nylon</FabricType>
+        <Feature>2PC Tankini with Crop Top</Feature>
+        <Feature>Perl Stitching on Crop Top for Stretch and Comfort</Feature>
+        <Feature>Beautiful bright print</Feature>
+        <Feature>Full coverage back with Bow Sides</Feature>
+        <Feature>Fabric is soft and has excellent stretch.</Feature>
+        <ProductGroup>Apparel</ProductGroup>
+        <SKU>G-2-HotPink/Purple/OrangeTiki</SKU>
+        <Title>Girls 2 PC Tankini with Bows Hot Pink/Purple/Orange Tiki</Title>
+      </ItemAttributes>
+      <OfferSummary>
+        <TotalNew>0</TotalNew>
+        <TotalUsed>0</TotalUsed>
+        <TotalCollectible>0</TotalCollectible>
+        <TotalRefurbished>0</TotalRefurbished>
+      </OfferSummary>
+      <Offers>
+        <TotalOffers>0</TotalOffers>
+        <TotalOfferPages>0</TotalOfferPages>
+      </Offers>
+    </Item>
+    <Item>
+      <ASIN>B0007N4CUO</ASIN>
+      <DetailPageURL>http://www.amazon.com/exec/obidos/redirect?tag=ws%26link_code=xm2%26camp=2025%26creative=165953%26path=http://www.amazon.com/gp/redirect.html%253fASIN=B0007N4CUO%2526tag=ws%2526lcode=xm2%2526cID=2025%2526ccmID=165953%2526location=/o/ASIN/B0007N4CUO%25253FSubscriptionId=YOUR_AMAZON_TOKEN</DetailPageURL>
+      <SalesRank>256922</SalesRank>
+      <SmallImage>
+        <URL>http://images.amazon.com/images/P/B0007N4CUO.01-A2Z1PXCSII8LAE._SCTHUMBZZZ_.jpg</URL>
+        <Height Units="pixels">75</Height>
+        <Width Units="pixels">51</Width>
+      </SmallImage>
+      <MediumImage>
+        <URL>http://images.amazon.com/images/P/B0007N4CUO.01-A2Z1PXCSII8LAE._SCMZZZZZZZ_.jpg</URL>
+        <Height Units="pixels">160</Height>
+        <Width Units="pixels">109</Width>
+      </MediumImage>
+      <LargeImage>
+        <URL>http://images.amazon.com/images/P/B0007N4CUO.01-A2Z1PXCSII8LAE._SCLZZZZZZZ_.jpg</URL>
+        <Height Units="pixels">500</Height>
+        <Width Units="pixels">342</Width>
+      </LargeImage>
+      <ItemAttributes>
+        <Binding>Misc.</Binding>
+        <Brand>Bonnie &amp; Clyde</Brand>
+        <Department>Girls</Department>
+        <FabricType>nylon</FabricType>
+        <Feature>2PC Tankini with Crop Top</Feature>
+        <Feature>Perl Stitching on Crop Top for Stretch and Comfort</Feature>
+        <Feature>Beautiful bright print</Feature>
+        <Feature>Full coverage back</Feature>
+        <Feature>Fabric is soft and has excellent stretch.</Feature>
+        <ProductGroup>Apparel</ProductGroup>
+        <SKU>G-2-Navy/AquaFlowers</SKU>
+        <Title>Girls 2 PC Tankini Navy/Aqua Flowers</Title>
+      </ItemAttributes>
+      <OfferSummary>
+        <TotalNew>0</TotalNew>
+        <TotalUsed>0</TotalUsed>
+        <TotalCollectible>0</TotalCollectible>
+        <TotalRefurbished>0</TotalRefurbished>
+      </OfferSummary>
+      <Offers>
+        <TotalOffers>0</TotalOffers>
+        <TotalOfferPages>0</TotalOfferPages>
+      </Offers>
+    </Item>
+    <Item>
+      <ASIN>B0007N4D1C</ASIN>
+      <DetailPageURL>http://www.amazon.com/exec/obidos/redirect?tag=ws%26link_code=xm2%26camp=2025%26creative=165953%26path=http://www.amazon.com/gp/redirect.html%253fASIN=B0007N4D1C%2526tag=ws%2526lcode=xm2%2526cID=2025%2526ccmID=165953%2526location=/o/ASIN/B0007N4D1C%25253FSubscriptionId=YOUR_AMAZON_TOKEN</DetailPageURL>
+      <SalesRank>144253</SalesRank>
+      <SmallImage>
+        <URL>http://images.amazon.com/images/P/B0007N4D1C.01-A2Z1PXCSII8LAE._SCTHUMBZZZ_.jpg</URL>
+        <Height Units="pixels">75</Height>
+        <Width Units="pixels">53</Width>
+      </SmallImage>
+      <MediumImage>
+        <URL>http://images.amazon.com/images/P/B0007N4D1C.01-A2Z1PXCSII8LAE._SCMZZZZZZZ_.jpg</URL>
+        <Height Units="pixels">160</Height>
+        <Width Units="pixels">114</Width>
+      </MediumImage>
+      <LargeImage>
+        <URL>http://images.amazon.com/images/P/B0007N4D1C.01-A2Z1PXCSII8LAE._SCLZZZZZZZ_.jpg</URL>
+        <Height Units="pixels">500</Height>
+        <Width Units="pixels">357</Width>
+      </LargeImage>
+      <ItemAttributes>
+        <Binding>Misc.</Binding>
+        <Brand>Bonnie &amp; Clyde</Brand>
+        <Department>Girls</Department>
+        <FabricType>nylon</FabricType>
+        <Feature>2PC Tankini with Crop Top</Feature>
+        <Feature>Perl Stitching on Crop Top for Stretch and Comfort</Feature>
+        <Feature>Beautiful bright print</Feature>
+        <Feature>Full coverage back with Bow Sides</Feature>
+        <Feature>Fabric is soft and has excellent stretch.</Feature>
+        <ProductGroup>Apparel</ProductGroup>
+        <SKU>G-2-Yellow/MultiAloha</SKU>
+        <Title>Girls 2 PC Tankini with Bows Yellow/Multi Aloha</Title>
+      </ItemAttributes>
+      <OfferSummary>
+        <TotalNew>0</TotalNew>
+        <TotalUsed>0</TotalUsed>
+        <TotalCollectible>0</TotalCollectible>
+        <TotalRefurbished>0</TotalRefurbished>
+      </OfferSummary>
+      <Offers>
+        <TotalOffers>0</TotalOffers>
+        <TotalOfferPages>0</TotalOfferPages>
+      </Offers>
+    </Item>
+    <Item>
+      <ASIN>0596100469</ASIN>
+      <DetailPageURL>http://www.amazon.com/exec/obidos/redirect?tag=ws%26link_code=xm2%26camp=2025%26creative=165953%26path=http://www.amazon.com/gp/redirect.html%253fASIN=0596100469%2526tag=ws%2526lcode=xm2%2526cID=2025%2526ccmID=165953%2526location=/o/ASIN/0596100469%25253FSubscriptionId=YOUR_AMAZON_TOKEN</DetailPageURL>
+      <SalesRank>7724</SalesRank>
+      <SmallImage>
+        <URL>http://images.amazon.com/images/P/0596100469.01._SCTHUMBZZZ_.jpg</URL>
+        <Height Units="pixels">60</Height>
+        <Width Units="pixels">40</Width>
+      </SmallImage>
+      <MediumImage>
+        <URL>http://images.amazon.com/images/P/0596100469.01._SCMZZZZZZZ_.jpg</URL>
+        <Height Units="pixels">140</Height>
+        <Width Units="pixels">93</Width>
+      </MediumImage>
+      <LargeImage>
+        <URL>http://images.amazon.com/images/P/0596100469.01._SCLZZZZZZZ_.jpg</URL>
+        <Height Units="pixels">475</Height>
+        <Width Units="pixels">316</Width>
+      </LargeImage>
+      <ItemAttributes>
+        <Author>Alex Martelli</Author>
+        <Binding>Paperback</Binding>
+        <EAN>9780596100469</EAN>
+        <Edition>2</Edition>
+        <ISBN>0596100469</ISBN>
+        <Label>O'Reilly Media</Label>
+        <ListPrice>
+          <Amount>3999</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$39.99</FormattedPrice>
+        </ListPrice>
+        <Manufacturer>O'Reilly Media</Manufacturer>
+        <NumberOfItems>1</NumberOfItems>
+        <NumberOfPages>712</NumberOfPages>
+        <PackageDimensions>
+          <Height Units="hundredths-inches">127</Height>
+          <Length Units="hundredths-inches">894</Length>
+          <Weight Units="hundredths-pounds">184</Weight>
+          <Width Units="hundredths-inches">608</Width>
+        </PackageDimensions>
+        <ProductGroup>Book</ProductGroup>
+        <PublicationDate>2006-07-14</PublicationDate>
+        <Publisher>O'Reilly Media</Publisher>
+        <Studio>O'Reilly Media</Studio>
+        <Title>Python in a Nutshell (In a Nutshell (O'Reilly))</Title>
+      </ItemAttributes>
+      <OfferSummary>
+        <LowestNewPrice>
+          <Amount>2149</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$21.49</FormattedPrice>
+        </LowestNewPrice>
+        <LowestUsedPrice>
+          <Amount>2100</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$21.00</FormattedPrice>
+        </LowestUsedPrice>
+        <LowestCollectiblePrice>
+          <Amount>3999</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$39.99</FormattedPrice>
+        </LowestCollectiblePrice>
+        <TotalNew>19</TotalNew>
+        <TotalUsed>4</TotalUsed>
+        <TotalCollectible>2</TotalCollectible>
+        <TotalRefurbished>0</TotalRefurbished>
+      </OfferSummary>
+      <Offers>
+        <TotalOffers>1</TotalOffers>
+        <TotalOfferPages>1</TotalOfferPages>
+        <Offer>
+          <Merchant>
+            <MerchantId>ATVPDKIKX0DER</MerchantId>
+            <GlancePage>http://www.amazon.com/gp/help/seller/home.html?seller=ATVPDKIKX0DER</GlancePage>
+            <AverageFeedbackRating>0.0</AverageFeedbackRating>
+            <TotalFeedback>0</TotalFeedback>
+          </Merchant>
+          <OfferAttributes>
+            <Condition>New</Condition>
+          </OfferAttributes>
+          <OfferListing>
+            <OfferListingId>%2BttKTWzEzb%2FCSoFa6Img%2Fbsxe%2Fh4pXW0jdkWRZ2iTrpxoJNyv1lsHlxuoGFqG8bRsU8s6U5qA2c%3D</OfferListingId>
+            <Price>
+              <Amount>2519</Amount>
+              <CurrencyCode>USD</CurrencyCode>
+              <FormattedPrice>$25.19</FormattedPrice>
+            </Price>
+            <Availability>Usually ships in 24 hours</Availability>
+            <IsEligibleForSuperSaverShipping>1</IsEligibleForSuperSaverShipping>
+          </OfferListing>
+        </Offer>
+      </Offers>
+    </Item>
+    <Item>
+      <ASIN>0596009410</ASIN>
+      <DetailPageURL>http://www.amazon.com/exec/obidos/redirect?tag=ws%26link_code=xm2%26camp=2025%26creative=165953%26path=http://www.amazon.com/gp/redirect.html%253fASIN=0596009410%2526tag=ws%2526lcode=xm2%2526cID=2025%2526ccmID=165953%2526location=/o/ASIN/0596009410%25253FSubscriptionId=YOUR_AMAZON_TOKEN</DetailPageURL>
+      <SalesRank>484</SalesRank>
+      <SmallImage>
+        <URL>http://images.amazon.com/images/P/0596009410.01._SCTHUMBZZZ_.jpg</URL>
+        <Height Units="pixels">75</Height>
+        <Width Units="pixels">57</Width>
+      </SmallImage>
+      <MediumImage>
+        <URL>http://images.amazon.com/images/P/0596009410.01._SCMZZZZZZZ_.jpg</URL>
+        <Height Units="pixels">160</Height>
+        <Width Units="pixels">121</Width>
+      </MediumImage>
+      <LargeImage>
+        <URL>http://images.amazon.com/images/P/0596009410.01._SCLZZZZZZZ_.jpg</URL>
+        <Height Units="pixels">500</Height>
+        <Width Units="pixels">378</Width>
+      </LargeImage>
+      <ItemAttributes>
+        <Author>David Pogue</Author>
+        <Binding>Paperback</Binding>
+        <DeweyDecimalNumber>005.4465</DeweyDecimalNumber>
+        <EAN>9780596009410</EAN>
+        <Edition>3rd</Edition>
+        <ISBN>0596009410</ISBN>
+        <Label>O'Reilly Media</Label>
+        <ListPrice>
+          <Amount>2995</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$29.95</FormattedPrice>
+        </ListPrice>
+        <Manufacturer>O'Reilly Media</Manufacturer>
+        <NumberOfItems>1</NumberOfItems>
+        <NumberOfPages>847</NumberOfPages>
+        <PackageDimensions>
+          <Height Units="hundredths-inches">168</Height>
+          <Length Units="hundredths-inches">920</Length>
+          <Weight Units="hundredths-pounds">296</Weight>
+          <Width Units="hundredths-inches">696</Width>
+        </PackageDimensions>
+        <ProductGroup>Book</ProductGroup>
+        <PublicationDate>2005-08-01</PublicationDate>
+        <Publisher>O'Reilly Media</Publisher>
+        <Studio>O'Reilly Media</Studio>
+        <Title>Mac OS X Tiger: Missing Manual</Title>
+      </ItemAttributes>
+      <OfferSummary>
+        <LowestNewPrice>
+          <Amount>1850</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$18.50</FormattedPrice>
+        </LowestNewPrice>
+        <LowestUsedPrice>
+          <Amount>1750</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$17.50</FormattedPrice>
+        </LowestUsedPrice>
+        <LowestCollectiblePrice>
+          <Amount>2995</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$29.95</FormattedPrice>
+        </LowestCollectiblePrice>
+        <TotalNew>51</TotalNew>
+        <TotalUsed>18</TotalUsed>
+        <TotalCollectible>2</TotalCollectible>
+        <TotalRefurbished>0</TotalRefurbished>
+      </OfferSummary>
+      <Offers>
+        <TotalOffers>1</TotalOffers>
+        <TotalOfferPages>1</TotalOfferPages>
+        <Offer>
+          <Merchant>
+            <MerchantId>ATVPDKIKX0DER</MerchantId>
+            <GlancePage>http://www.amazon.com/gp/help/seller/home.html?seller=ATVPDKIKX0DER</GlancePage>
+            <AverageFeedbackRating>0.0</AverageFeedbackRating>
+            <TotalFeedback>0</TotalFeedback>
+          </Merchant>
+          <OfferAttributes>
+            <Condition>New</Condition>
+          </OfferAttributes>
+          <OfferListing>
+            <OfferListingId>nKt95yq5GEI%2BQnCz4VTTM3ttOHds9D3BPqJFhpxH8fHYzgLNw3iTn1a3L1i7O4EQfMQorcAJ2VM%3D</OfferListingId>
+            <Price>
+              <Amount>1887</Amount>
+              <CurrencyCode>USD</CurrencyCode>
+              <FormattedPrice>$18.87</FormattedPrice>
+            </Price>
+            <Availability>Usually ships in 24 hours</Availability>
+            <IsEligibleForSuperSaverShipping>1</IsEligibleForSuperSaverShipping>
+          </OfferListing>
+        </Offer>
+      </Offers>
+    </Item>
+    <Item>
+      <ASIN>0596000278</ASIN>
+      <DetailPageURL>http://www.amazon.com/exec/obidos/redirect?tag=ws%26link_code=xm2%26camp=2025%26creative=165953%26path=http://www.amazon.com/gp/redirect.html%253fASIN=0596000278%2526tag=ws%2526lcode=xm2%2526cID=2025%2526ccmID=165953%2526location=/o/ASIN/0596000278%25253FSubscriptionId=YOUR_AMAZON_TOKEN</DetailPageURL>
+      <SalesRank>6255</SalesRank>
+      <SmallImage>
+        <URL>http://images.amazon.com/images/P/0596000278.01._SCTHUMBZZZ_.jpg</URL>
+        <Height Units="pixels">75</Height>
+        <Width Units="pixels">57</Width>
+      </SmallImage>
+      <MediumImage>
+        <URL>http://images.amazon.com/images/P/0596000278.01._SCMZZZZZZZ_.jpg</URL>
+        <Height Units="pixels">160</Height>
+        <Width Units="pixels">121</Width>
+      </MediumImage>
+      <LargeImage>
+        <URL>http://images.amazon.com/images/P/0596000278.01._SCLZZZZZZZ_.jpg</URL>
+        <Height Units="pixels">500</Height>
+        <Width Units="pixels">379</Width>
+      </LargeImage>
+      <ItemAttributes>
+        <Author>Larry Wall</Author>
+        <Author>Tom Christiansen</Author>
+        <Author>Jon Orwant</Author>
+        <Binding>Paperback</Binding>
+        <DeweyDecimalNumber>005.133</DeweyDecimalNumber>
+        <EAN>9780596000271</EAN>
+        <Edition>3</Edition>
+        <ISBN>0596000278</ISBN>
+        <Label>O'Reilly Media</Label>
+        <ListPrice>
+          <Amount>4995</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$49.95</FormattedPrice>
+        </ListPrice>
+        <Manufacturer>O'Reilly Media</Manufacturer>
+        <NumberOfItems>1</NumberOfItems>
+        <NumberOfPages>1092</NumberOfPages>
+        <PackageDimensions>
+          <Height Units="hundredths-inches">175</Height>
+          <Length Units="hundredths-inches">917</Length>
+          <Weight Units="hundredths-pounds">304</Weight>
+          <Width Units="hundredths-inches">701</Width>
+        </PackageDimensions>
+        <ProductGroup>Book</ProductGroup>
+        <PublicationDate>2000-07-14</PublicationDate>
+        <Publisher>O'Reilly Media</Publisher>
+        <Studio>O'Reilly Media</Studio>
+        <Title>Programming Perl (3rd Edition)</Title>
+      </ItemAttributes>
+      <OfferSummary>
+        <LowestNewPrice>
+          <Amount>2400</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$24.00</FormattedPrice>
+        </LowestNewPrice>
+        <LowestUsedPrice>
+          <Amount>2186</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$21.86</FormattedPrice>
+        </LowestUsedPrice>
+        <LowestCollectiblePrice>
+          <Amount>4700</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$47.00</FormattedPrice>
+        </LowestCollectiblePrice>
+        <TotalNew>53</TotalNew>
+        <TotalUsed>33</TotalUsed>
+        <TotalCollectible>1</TotalCollectible>
+        <TotalRefurbished>0</TotalRefurbished>
+      </OfferSummary>
+      <Offers>
+        <TotalOffers>1</TotalOffers>
+        <TotalOfferPages>1</TotalOfferPages>
+        <Offer>
+          <Merchant>
+            <MerchantId>ATVPDKIKX0DER</MerchantId>
+            <GlancePage>http://www.amazon.com/gp/help/seller/home.html?seller=ATVPDKIKX0DER</GlancePage>
+            <AverageFeedbackRating>0.0</AverageFeedbackRating>
+            <TotalFeedback>0</TotalFeedback>
+          </Merchant>
+          <OfferAttributes>
+            <Condition>New</Condition>
+          </OfferAttributes>
+          <OfferListing>
+            <OfferListingId>zj%2FtEr2luwIqDptmLVK%2FN3TWNyBj2fVbrT5gi%2BI46HIvZpKXxBBn%2B0EdzRZpQKYksdqJ%2Bj4g%2FH8%3D</OfferListingId>
+            <Price>
+              <Amount>3147</Amount>
+              <CurrencyCode>USD</CurrencyCode>
+              <FormattedPrice>$31.47</FormattedPrice>
+            </Price>
+            <Availability>Usually ships in 24 hours</Availability>
+            <IsEligibleForSuperSaverShipping>1</IsEligibleForSuperSaverShipping>
+          </OfferListing>
+        </Offer>
+      </Offers>
+    </Item>
+    <Item>
+      <ASIN>B0002Y0WZC</ASIN>
+      <DetailPageURL>http://www.amazon.com/exec/obidos/redirect?tag=ws%26link_code=xm2%26camp=2025%26creative=165953%26path=http://www.amazon.com/gp/redirect.html%253fASIN=B0002Y0WZC%2526tag=ws%2526lcode=xm2%2526cID=2025%2526ccmID=165953%2526location=/o/ASIN/B0002Y0WZC%25253FSubscriptionId=YOUR_AMAZON_TOKEN</DetailPageURL>
+      <SmallImage>
+        <URL>http://images.amazon.com/images/P/B0002Y0WZC.01-A2A10ZSC2RH4RG._SCTHUMBZZZ_.jpg</URL>
+        <Height Units="pixels">27</Height>
+        <Width Units="pixels">75</Width>
+      </SmallImage>
+      <MediumImage>
+        <URL>http://images.amazon.com/images/P/B0002Y0WZC.01-A2A10ZSC2RH4RG._SCMZZZZZZZ_.jpg</URL>
+        <Height Units="pixels">57</Height>
+        <Width Units="pixels">160</Width>
+      </MediumImage>
+      <LargeImage>
+        <URL>http://images.amazon.com/images/P/B0002Y0WZC.01-A2A10ZSC2RH4RG._SCLZZZZZZZ_.jpg</URL>
+        <Height Units="pixels">65</Height>
+        <Width Units="pixels">184</Width>
+      </LargeImage>
+      <ItemAttributes>
+        <Feature>Sequence the steps in the application development process.</Feature>
+        <Feature>Identify guidelines for the analysis stage of the application development process.</Feature>
+        <Feature>Identify guidelines for the design stage of the application development process.</Feature>
+        <Feature>Identify characteristics of the Perl programming language.</Feature>
+        <Feature>Print Hypertext Markup Language (HTML) from a Perl script by using the ANYWORD method.</Feature>
+        <Format>CD</Format>
+        <Label>NetG</Label>
+        <Manufacturer>NetG</Manufacturer>
+        <ProductGroup>Software</ProductGroup>
+        <Publisher>NetG</Publisher>
+        <Studio>NetG</Studio>
+        <Title>CIW Application Developer: CGI Using Perl Fundamentals Curriculum CBT Training CDs</Title>
+        <UPC>714765308508</UPC>
+      </ItemAttributes>
+      <OfferSummary>
+        <TotalNew>0</TotalNew>
+        <TotalUsed>0</TotalUsed>
+        <TotalCollectible>0</TotalCollectible>
+        <TotalRefurbished>0</TotalRefurbished>
+      </OfferSummary>
+      <Offers>
+        <TotalOffers>0</TotalOffers>
+        <TotalOfferPages>0</TotalOfferPages>
+      </Offers>
+    </Item>
+    <Item>
+      <ASIN>B0004K5EHU</ASIN>
+      <DetailPageURL>http://www.amazon.com/exec/obidos/redirect?tag=ws%26link_code=xm2%26camp=2025%26creative=165953%26path=http://www.amazon.com/gp/redirect.html%253fASIN=B0004K5EHU%2526tag=ws%2526lcode=xm2%2526cID=2025%2526ccmID=165953%2526location=/o/ASIN/B0004K5EHU%25253FSubscriptionId=YOUR_AMAZON_TOKEN</DetailPageURL>
+      <ItemAttributes>
+        <Feature>Identify the syntax used to save form data by using the param method.</Feature>
+        <Feature>Identify characteristics of the save method.</Feature>
+        <Feature>Identify the syntax used to modify form data.</Feature>
+        <Feature>Identify characteristics of database interaction.</Feature>
+        <Feature>Identify characteristics of the database interaction process.</Feature>
+        <Format>CD</Format>
+        <Label>NetG</Label>
+        <Manufacturer>NetG</Manufacturer>
+        <ProductGroup>Software</ProductGroup>
+        <Publisher>NetG</Publisher>
+        <Studio>NetG</Studio>
+        <Title>CIW Fundamentals of CGI Using Perl Part 2: Advanced Features CBT Training CD</Title>
+        <UPC>714765297611</UPC>
+      </ItemAttributes>
+      <OfferSummary>
+        <TotalNew>0</TotalNew>
+        <TotalUsed>0</TotalUsed>
+        <TotalCollectible>0</TotalCollectible>
+        <TotalRefurbished>0</TotalRefurbished>
+      </OfferSummary>
+      <Offers>
+        <TotalOffers>0</TotalOffers>
+        <TotalOfferPages>0</TotalOfferPages>
+      </Offers>
+    </Item>
+    <Item>
+      <ASIN>B0004JRFXM</ASIN>
+      <DetailPageURL>http://www.amazon.com/exec/obidos/redirect?tag=ws%26link_code=xm2%26camp=2025%26creative=165953%26path=http://www.amazon.com/gp/redirect.html%253fASIN=B0004JRFXM%2526tag=ws%2526lcode=xm2%2526cID=2025%2526ccmID=165953%2526location=/o/ASIN/B0004JRFXM%25253FSubscriptionId=YOUR_AMAZON_TOKEN</DetailPageURL>
+      <SalesRank>18618</SalesRank>
+      <ItemAttributes>
+        <Feature>Identify the syntax of pattern binding operators.</Feature>
+        <Feature>Match metacharacters with their functions.</Feature>
+        <Feature>Identify the syntax of character classes.</Feature>
+        <Feature>Identify characteristics of subroutines.</Feature>
+        <Feature>Identify the syntax used to invoke a subroutine.</Feature>
+        <Format>CD</Format>
+        <Label>NetG</Label>
+        <Manufacturer>NetG</Manufacturer>
+        <ProductGroup>Software</ProductGroup>
+        <Publisher>NetG</Publisher>
+        <Studio>NetG</Studio>
+        <Title>CIW Perl Fundamentals Part 2: Manipulating Scripts CBT Training CD</Title>
+        <UPC>714765291688</UPC>
+      </ItemAttributes>
+      <OfferSummary>
+        <TotalNew>0</TotalNew>
+        <TotalUsed>0</TotalUsed>
+        <TotalCollectible>0</TotalCollectible>
+        <TotalRefurbished>0</TotalRefurbished>
+      </OfferSummary>
+      <Offers>
+        <TotalOffers>0</TotalOffers>
+        <TotalOfferPages>0</TotalOfferPages>
+      </Offers>
+    </Item>
+    <Item>
+      <ASIN>B000005WGJ</ASIN>
+      <DetailPageURL>http://www.amazon.com/exec/obidos/redirect?tag=ws%26link_code=xm2%26camp=2025%26creative=165953%26path=http://www.amazon.com/gp/redirect.html%253fASIN=B000005WGJ%2526tag=ws%2526lcode=xm2%2526cID=2025%2526ccmID=165953%2526location=/o/ASIN/B000005WGJ%25253FSubscriptionId=YOUR_AMAZON_TOKEN</DetailPageURL>
+      <SalesRank>89644</SalesRank>
+      <ItemAttributes>
+        <Binding>Audio CD</Binding>
+        <Creator Role="Conductor">Mikhail Gantvarg</Creator>
+        <Creator Role="Performer">St. Petersburg Soloists</Creator>
+        <Creator Role="Performer">Alfredo Perl</Creator>
+        <Creator Role="Performer">Carmen Piazzini</Creator>
+        <Creator Role="Composer">Wolfgang Amadeus Mozart</Creator>
+        <EAN>0793515711126</EAN>
+        <Label>Royal Classics</Label>
+        <ListPrice>
+          <Amount>998</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$9.98</FormattedPrice>
+        </ListPrice>
+        <Manufacturer>Royal Classics</Manufacturer>
+        <NumberOfDiscs>1</NumberOfDiscs>
+        <ProductGroup>Music</ProductGroup>
+        <Publisher>Royal Classics</Publisher>
+        <ReleaseDate>1997-07-15</ReleaseDate>
+        <Studio>Royal Classics</Studio>
+        <Title>Mozart:Concertos for Two Pianos and Orchestra</Title>
+        <UPC>793515711126</UPC>
+      </ItemAttributes>
+      <OfferSummary>
+        <LowestNewPrice>
+          <Amount>798</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$7.98</FormattedPrice>
+        </LowestNewPrice>
+        <TotalNew>1</TotalNew>
+        <TotalUsed>0</TotalUsed>
+        <TotalCollectible>0</TotalCollectible>
+        <TotalRefurbished>0</TotalRefurbished>
+      </OfferSummary>
+      <Offers>
+        <TotalOffers>0</TotalOffers>
+        <TotalOfferPages>0</TotalOfferPages>
+      </Offers>
+      <Tracks>
+        <Disc Number="1">
+          <Track Number="1">Con in F K.242 'Lodron': Allegro</Track>
+          <Track Number="2">Con in F K.242 'Lodron': Adagio</Track>
+          <Track Number="3">Con in F K.242 'Lodron': Rondeau - Tempo Di Minuetto</Track>
+          <Track Number="4">Con in E flat K.365: Allegro</Track>
+          <Track Number="5">Con in E flat K.365: Andante</Track>
+          <Track Number="6">Con in E flat K.365: Rondeau - Allegro</Track>
+        </Disc>
+      </Tracks>
+    </Item>
+    <Item>
+      <ASIN>B000005IDU</ASIN>
+      <DetailPageURL>http://www.amazon.com/exec/obidos/redirect?tag=ws%26link_code=xm2%26camp=2025%26creative=165953%26path=http://www.amazon.com/gp/redirect.html%253fASIN=B000005IDU%2526tag=ws%2526lcode=xm2%2526cID=2025%2526ccmID=165953%2526location=/o/ASIN/B000005IDU%25253FSubscriptionId=YOUR_AMAZON_TOKEN</DetailPageURL>
+      <SalesRank>324751</SalesRank>
+      <SmallImage>
+        <URL>http://images.amazon.com/images/P/B000005IDU.01._SCTHUMBZZZ_.jpg</URL>
+        <Height Units="pixels">74</Height>
+        <Width Units="pixels">75</Width>
+      </SmallImage>
+      <MediumImage>
+        <URL>http://images.amazon.com/images/P/B000005IDU.01._SCMZZZZZZZ_.jpg</URL>
+        <Height Units="pixels">158</Height>
+        <Width Units="pixels">160</Width>
+      </MediumImage>
+      <LargeImage>
+        <URL>http://images.amazon.com/images/P/B000005IDU.01._SCLZZZZZZZ_.jpg</URL>
+        <Height Units="pixels">297</Height>
+        <Width Units="pixels">300</Width>
+      </LargeImage>
+      <ItemAttributes>
+        <Binding>Audio CD</Binding>
+        <Creator Role="Performer">Alfredo Perl</Creator>
+        <Creator Role="Performer">Andrei Diev</Creator>
+        <Creator Role="Performer">Andrei Nikolsky</Creator>
+        <Creator Role="Performer">Carmen Piazzini</Creator>
+        <Creator Role="Performer">John White</Creator>
+        <Creator Role="Performer">Michael Krucker</Creator>
+        <Creator Role="Performer">Nadja Rubanenko</Creator>
+        <Creator Role="Performer">Ricardo Castro [composer]</Creator>
+        <Creator Role="Performer">Ricardo Castro [pianist]</Creator>
+        <Creator Role="Composer">Ludwig van Beethoven</Creator>
+        <Creator Role="Composer">Fryderyk Chopin</Creator>
+        <Creator Role="Composer">Claude Debussy</Creator>
+        <Creator Role="Composer">Franz Joseph Haydn</Creator>
+        <Creator Role="Composer">Wolfgang Amadeus Mozart</Creator>
+        <Creator Role="Composer">Sergey Rachmaninov</Creator>
+        <Creator Role="Composer">Erik Satie</Creator>
+        <Creator Role="Composer">Franz Schubert</Creator>
+        <Creator Role="Composer">Robert Schumann</Creator>
+        <Creator Role="Composer">Christian Sinding</Creator>
+        <EAN>0743214650929</EAN>
+        <Label>Arte Nova Records</Label>
+        <ListPrice>
+          <Amount>1249</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$12.49</FormattedPrice>
+        </ListPrice>
+        <Manufacturer>Arte Nova Records</Manufacturer>
+        <PackageDimensions>
+          <Height Units="hundredths-inches">54</Height>
+          <Length Units="hundredths-inches">555</Length>
+          <Weight Units="hundredths-pounds">18</Weight>
+          <Width Units="hundredths-inches">497</Width>
+        </PackageDimensions>
+        <ProductGroup>Music</ProductGroup>
+        <Publisher>Arte Nova Records</Publisher>
+        <ReleaseDate>1998-01-01</ReleaseDate>
+        <Studio>Arte Nova Records</Studio>
+        <Title>Für Elise and other piano favourites</Title>
+        <UPC>743214650929</UPC>
+      </ItemAttributes>
+      <OfferSummary>
+        <LowestNewPrice>
+          <Amount>1099</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$10.99</FormattedPrice>
+        </LowestNewPrice>
+        <LowestUsedPrice>
+          <Amount>1099</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$10.99</FormattedPrice>
+        </LowestUsedPrice>
+        <TotalNew>4</TotalNew>
+        <TotalUsed>2</TotalUsed>
+        <TotalCollectible>0</TotalCollectible>
+        <TotalRefurbished>0</TotalRefurbished>
+      </OfferSummary>
+      <Offers>
+        <TotalOffers>1</TotalOffers>
+        <TotalOfferPages>1</TotalOfferPages>
+        <Offer>
+          <Merchant>
+            <MerchantId>ATVPDKIKX0DER</MerchantId>
+            <GlancePage>http://www.amazon.com/gp/help/seller/home.html?seller=ATVPDKIKX0DER</GlancePage>
+            <AverageFeedbackRating>0.0</AverageFeedbackRating>
+            <TotalFeedback>0</TotalFeedback>
+          </Merchant>
+          <OfferAttributes>
+            <Condition>New</Condition>
+          </OfferAttributes>
+          <OfferListing>
+            <OfferListingId>SnO2Lcne798mMvw9M19DIO2Bgy4nPCvqH%2BIBT%2B6pI978H1lkf1k8Zh7z%2FAG%2FWiu4DWdIuQxcIOI%3D</OfferListingId>
+            <Price>
+              <Amount>1249</Amount>
+              <CurrencyCode>USD</CurrencyCode>
+              <FormattedPrice>$12.49</FormattedPrice>
+            </Price>
+            <Availability>Usually ships in 3 to 6 weeks</Availability>
+            <IsEligibleForSuperSaverShipping>1</IsEligibleForSuperSaverShipping>
+          </OfferListing>
+        </Offer>
+      </Offers>
+      <Tracks>
+        <Disc Number="1">
+          <Track Number="1">'Fur Elise' In A Minor WoO59. Poco moto</Track>
+          <Track Number="2">Nocturne No.2 Op. 9-2 In E Flat Major</Track>
+          <Track Number="3">From Sonata No. 14 In C Sharp Minor Op. 27-2 'Mondscheinsonate': Allegretto</Track>
+          <Track Number="4">Sonata In A Major D 959: Andantino</Track>
+          <Track Number="5">Prelude. Moderato (Tempo rubato)</Track>
+          <Track Number="6">Preludes Op.23: Prelude No.4 In D Major. Andante cantabile</Track>
+          <Track Number="7">'Fruhlingsrauschen' Op.32 No.3. Agitato</Track>
+          <Track Number="8">Sonata No. 13 In E Flat Major Op. 27-1 'Sonata Quasi Una Fantasia': Adagio con espressione</Track>
+          <Track Number="9">Sonata In B Flat Major KV 570: Adagio</Track>
+          <Track Number="10">Musical Offering BWV 1079: La plus que lente</Track>
+          <Track Number="11">'Gnossiennes': Gnossienne IV. sans presser; Gnossienne V. souple et expressif</Track>
+          <Track Number="12">Sonata No.38 In F Major Hob. XVI, 23: Moderato</Track>
+          <Track Number="13">Fantasy In C Major Op.117: Langsam getragen. Durchweg leise zu halten</Track>
+        </Disc>
+      </Tracks>
+    </Item>
+    <Item>
+      <ASIN>B000005I5H</ASIN>
+      <DetailPageURL>http://www.amazon.com/exec/obidos/redirect?tag=ws%26link_code=xm2%26camp=2025%26creative=165953%26path=http://www.amazon.com/gp/redirect.html%253fASIN=B000005I5H%2526tag=ws%2526lcode=xm2%2526cID=2025%2526ccmID=165953%2526location=/o/ASIN/B000005I5H%25253FSubscriptionId=YOUR_AMAZON_TOKEN</DetailPageURL>
+      <SalesRank>544043</SalesRank>
+      <SmallImage>
+        <URL>http://images.amazon.com/images/P/B000005I5H.01._SCTHUMBZZZ_.jpg</URL>
+        <Height Units="pixels">75</Height>
+        <Width Units="pixels">74</Width>
+      </SmallImage>
+      <MediumImage>
+        <URL>http://images.amazon.com/images/P/B000005I5H.01._SCMZZZZZZZ_.jpg</URL>
+        <Height Units="pixels">160</Height>
+        <Width Units="pixels">158</Width>
+      </MediumImage>
+      <LargeImage>
+        <URL>http://images.amazon.com/images/P/B000005I5H.01._SCLZZZZZZZ_.jpg</URL>
+        <Height Units="pixels">300</Height>
+        <Width Units="pixels">297</Width>
+      </LargeImage>
+      <ItemAttributes>
+        <Binding>Audio CD</Binding>
+        <Creator Role="Performer">Alfredo Perl</Creator>
+        <Creator Role="Composer">Ludwig van Beethoven</Creator>
+        <EAN>0743212776126</EAN>
+        <Format>Box set</Format>
+        <Label>Arte Nova Records</Label>
+        <ListPrice>
+          <Amount>598</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$5.98</FormattedPrice>
+        </ListPrice>
+        <Manufacturer>Arte Nova Records</Manufacturer>
+        <ProductGroup>Music</ProductGroup>
+        <Publisher>Arte Nova Records</Publisher>
+        <ReleaseDate>1998-01-01</ReleaseDate>
+        <Studio>Arte Nova Records</Studio>
+        <Title>Beethoven: Diabelli-Variations</Title>
+        <UPC>743212776126</UPC>
+      </ItemAttributes>
+      <OfferSummary>
+        <LowestUsedPrice>
+          <Amount>699</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$6.99</FormattedPrice>
+        </LowestUsedPrice>
+        <TotalNew>0</TotalNew>
+        <TotalUsed>2</TotalUsed>
+        <TotalCollectible>0</TotalCollectible>
+        <TotalRefurbished>0</TotalRefurbished>
+      </OfferSummary>
+      <Offers>
+        <TotalOffers>0</TotalOffers>
+        <TotalOfferPages>0</TotalOfferPages>
+      </Offers>
+      <Tracks>
+        <Disc Number="1">
+          <Track Number="1">Thema: Vivace</Track>
+          <Track Number="2">Var I.: Alla Marcia, Maestoso</Track>
+          <Track Number="3">Var II.: Poco Allegro</Track>
+          <Track Number="4">Var III.: L'Istesso Tempo</Track>
+          <Track Number="5">Var IV.: Un Poco Piu Vivace</Track>
+          <Track Number="6">Var V.: Allegro Vivace</Track>
+          <Track Number="7">Var VI.: Allegro Ma Non Troppo E Serioso</Track>
+          <Track Number="8">Var VII.: Un Poco Piu Allegro</Track>
+          <Track Number="9">Var VIII.: Poco Vivace</Track>
+          <Track Number="10">Var IX.: Allegro Pesante E Risoluto</Track>
+          <Track Number="11">Var X.: Presto</Track>
+          <Track Number="12">Var XI.: Allegretto</Track>
+          <Track Number="13">Var XII.: Un Poco Piu Mosso</Track>
+          <Track Number="14">Var XIII.: Vivace</Track>
+          <Track Number="15">Var XIV.: Grave E Maestoso</Track>
+          <Track Number="16">Var XV.: Presto Scherzando</Track>
+          <Track Number="17">Var XVI.: Allegro</Track>
+          <Track Number="18">Var XVII.</Track>
+          <Track Number="19">Var XVIII.: Poco Moderato</Track>
+          <Track Number="20">Var XIX.: Presto</Track>
+          <Track Number="21">Var XX.: Andante</Track>
+          <Track Number="22">Var XXI.: Allegro Con Brio</Track>
+          <Track Number="23">Var XXII.: Allegro Molto (Alla 'Notte E Giorno Faticar' Di Mozart)</Track>
+          <Track Number="24">Var XXIII.: Allegro Assai</Track>
+          <Track Number="25">Var XXIV.: Fughetta. Andante</Track>
+          <Track Number="26">Var XXV.: Allegro</Track>
+          <Track Number="27">Var XXVI.</Track>
+          <Track Number="28">Var XXVII.: Vivace</Track>
+          <Track Number="29">Var XXVIII.: Allegro</Track>
+          <Track Number="30">Var XXIX.: Adagio Ma Non Troppo</Track>
+          <Track Number="31">Var XXX.: Andante/Sempre Cantabile</Track>
+          <Track Number="32">Var XXXI.: Largo/Molto Espressivo</Track>
+          <Track Number="33">Var XXXII.: Fuga. Allegro</Track>
+          <Track Number="34">Var XXXIII.: Tempo Di Menuetto/Moderato</Track>
+        </Disc>
+      </Tracks>
+    </Item>
+    <Item>
+      <ASIN>B0001TOYZM</ASIN>
+      <DetailPageURL>http://www.amazon.com/exec/obidos/redirect?tag=ws%26link_code=xm2%26camp=2025%26creative=165953%26path=http://www.amazon.com/gp/redirect.html%253fASIN=B0001TOYZM%2526tag=ws%2526lcode=xm2%2526cID=2025%2526ccmID=165953%2526location=/o/ASIN/B0001TOYZM%25253FSubscriptionId=YOUR_AMAZON_TOKEN</DetailPageURL>
+      <SalesRank>46767</SalesRank>
+      <SmallImage>
+        <URL>http://images.amazon.com/images/P/B0001TOYZM.01-A3PL85D94NQDOF._SCTHUMBZZZ_.jpg</URL>
+        <Height Units="pixels">75</Height>
+        <Width Units="pixels">58</Width>
+      </SmallImage>
+      <MediumImage>
+        <URL>http://images.amazon.com/images/P/B0001TOYZM.01-A3PL85D94NQDOF._SCMZZZZZZZ_.jpg</URL>
+        <Height Units="pixels">160</Height>
+        <Width Units="pixels">123</Width>
+      </MediumImage>
+      <LargeImage>
+        <URL>http://images.amazon.com/images/P/B0001TOYZM.01-A3PL85D94NQDOF._SCLZZZZZZZ_.jpg</URL>
+        <Height Units="pixels">292</Height>
+        <Width Units="pixels">225</Width>
+      </LargeImage>
+      <ItemAttributes>
+        <Brand>ThinkGeek</Brand>
+        <Department>unisex-adult</Department>
+        <FabricType>cotton</FabricType>
+        <Feature>100% cotton</Feature>
+        <Feature>pre-shrunk</Feature>
+        <Feature>heavyweight</Feature>
+        <ItemDimensions>
+          <Weight Units="hundredths-pounds">70</Weight>
+        </ItemDimensions>
+        <Label>ThinkGeek</Label>
+        <Manufacturer>ThinkGeek</Manufacturer>
+        <ProductGroup>Apparel</ProductGroup>
+        <Publisher>ThinkGeek</Publisher>
+        <SKU>itemid-3814</SKU>
+        <Studio>ThinkGeek</Studio>
+        <Title>Halfling/Dragon</Title>
+      </ItemAttributes>
+      <OfferSummary>
+        <TotalNew>0</TotalNew>
+        <TotalUsed>0</TotalUsed>
+        <TotalCollectible>0</TotalCollectible>
+        <TotalRefurbished>0</TotalRefurbished>
+      </OfferSummary>
+      <Offers>
+        <TotalOffers>0</TotalOffers>
+        <TotalOfferPages>0</TotalOfferPages>
+      </Offers>
+    </Item>
+    <Item>
+      <ASIN>B0001VDERO</ASIN>
+      <DetailPageURL>http://www.amazon.com/exec/obidos/redirect?tag=ws%26link_code=xm2%26camp=2025%26creative=165953%26path=http://www.amazon.com/gp/redirect.html%253fASIN=B0001VDERO%2526tag=ws%2526lcode=xm2%2526cID=2025%2526ccmID=165953%2526location=/o/ASIN/B0001VDERO%25253FSubscriptionId=YOUR_AMAZON_TOKEN</DetailPageURL>
+      <SmallImage>
+        <URL>http://images.amazon.com/images/P/B0001VDERO.01-A2HQGEP3PNXTLG._SCTHUMBZZZ_.jpg</URL>
+        <Height Units="pixels">17</Height>
+        <Width Units="pixels">75</Width>
+      </SmallImage>
+      <MediumImage>
+        <URL>http://images.amazon.com/images/P/B0001VDERO.01-A2HQGEP3PNXTLG._SCMZZZZZZZ_.jpg</URL>
+        <Height Units="pixels">36</Height>
+        <Width Units="pixels">160</Width>
+      </MediumImage>
+      <LargeImage>
+        <URL>http://images.amazon.com/images/P/B0001VDERO.01-A2HQGEP3PNXTLG._SCLZZZZZZZ_.jpg</URL>
+        <Height Units="pixels">78</Height>
+        <Width Units="pixels">350</Width>
+      </LargeImage>
+      <ItemAttributes>
+        <Brand>Bremer Silberschmied</Brand>
+        <Feature>The image above represents only the pattern and style of the product for sale on this page</Feature>
+        <Feature>Pattern: Bremer Silberschmied Klassich Perl (Stainless)</Feature>
+        <Feature>Pattern Description: Stainless, Glossy, Beaded Edge</Feature>
+        <Feature>Length: 5 1/2 Inches</Feature>
+        <Feature>Other serving and accessory pieces may be available in this pattern!</Feature>
+        <Label>Bremer Silberschmied</Label>
+        <Manufacturer>Bremer Silberschmied</Manufacturer>
+        <ProductGroup>Kitchen</ProductGroup>
+        <Publisher>Bremer Silberschmied</Publisher>
+        <Studio>Bremer Silberschmied</Studio>
+        <Title>Bremer Silberschmied Klassich Perl (Stainless) 5 1/2" Teaspoon</Title>
+      </ItemAttributes>
+      <OfferSummary>
+        <LowestNewPrice>
+          <Amount>999</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$9.99</FormattedPrice>
+        </LowestNewPrice>
+        <TotalNew>1</TotalNew>
+        <TotalUsed>0</TotalUsed>
+        <TotalCollectible>0</TotalCollectible>
+        <TotalRefurbished>0</TotalRefurbished>
+      </OfferSummary>
+      <Offers>
+        <TotalOffers>0</TotalOffers>
+        <TotalOfferPages>0</TotalOfferPages>
+      </Offers>
+    </Item>
+    <Item>
+      <ASIN>B0001VDEQK</ASIN>
+      <DetailPageURL>http://www.amazon.com/exec/obidos/redirect?tag=ws%26link_code=xm2%26camp=2025%26creative=165953%26path=http://www.amazon.com/gp/redirect.html%253fASIN=B0001VDEQK%2526tag=ws%2526lcode=xm2%2526cID=2025%2526ccmID=165953%2526location=/o/ASIN/B0001VDEQK%25253FSubscriptionId=YOUR_AMAZON_TOKEN</DetailPageURL>
+      <SmallImage>
+        <URL>http://images.amazon.com/images/P/B0001VDEQK.01-A2HQGEP3PNXTLG._SCTHUMBZZZ_.jpg</URL>
+        <Height Units="pixels">17</Height>
+        <Width Units="pixels">75</Width>
+      </SmallImage>
+      <MediumImage>
+        <URL>http://images.amazon.com/images/P/B0001VDEQK.01-A2HQGEP3PNXTLG._SCMZZZZZZZ_.jpg</URL>
+        <Height Units="pixels">36</Height>
+        <Width Units="pixels">160</Width>
+      </MediumImage>
+      <LargeImage>
+        <URL>http://images.amazon.com/images/P/B0001VDEQK.01-A2HQGEP3PNXTLG._SCLZZZZZZZ_.jpg</URL>
+        <Height Units="pixels">78</Height>
+        <Width Units="pixels">350</Width>
+      </LargeImage>
+      <ItemAttributes>
+        <Brand>Bremer Silberschmied</Brand>
+        <Feature>The image above represents only the pattern and style of the product for sale on this page</Feature>
+        <Feature>Pattern: Bremer Silberschmied Klassich Perl (Stainless)</Feature>
+        <Feature>Pattern Description: Stainless, Glossy, Beaded Edge</Feature>
+        <Feature>Length: 6 7/8 Inches</Feature>
+        <Feature>Other serving and accessory pieces may be available in this pattern!</Feature>
+        <Label>Bremer Silberschmied</Label>
+        <Manufacturer>Bremer Silberschmied</Manufacturer>
+        <ProductGroup>Kitchen</ProductGroup>
+        <Publisher>Bremer Silberschmied</Publisher>
+        <Studio>Bremer Silberschmied</Studio>
+        <Title>Bremer Silberschmied Klassich Perl (Stainless) 6 7/8" Individual Salad Fork</Title>
+      </ItemAttributes>
+      <OfferSummary>
+        <LowestNewPrice>
+          <Amount>999</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$9.99</FormattedPrice>
+        </LowestNewPrice>
+        <TotalNew>1</TotalNew>
+        <TotalUsed>0</TotalUsed>
+        <TotalCollectible>0</TotalCollectible>
+        <TotalRefurbished>0</TotalRefurbished>
+      </OfferSummary>
+      <Offers>
+        <TotalOffers>0</TotalOffers>
+        <TotalOfferPages>0</TotalOfferPages>
+      </Offers>
+    </Item>
+    <Item>
+      <ASIN>B0001VDER4</ASIN>
+      <DetailPageURL>http://www.amazon.com/exec/obidos/redirect?tag=ws%26link_code=xm2%26camp=2025%26creative=165953%26path=http://www.amazon.com/gp/redirect.html%253fASIN=B0001VDER4%2526tag=ws%2526lcode=xm2%2526cID=2025%2526ccmID=165953%2526location=/o/ASIN/B0001VDER4%25253FSubscriptionId=YOUR_AMAZON_TOKEN</DetailPageURL>
+      <SmallImage>
+        <URL>http://images.amazon.com/images/P/B0001VDER4.01-A2HQGEP3PNXTLG._SCTHUMBZZZ_.jpg</URL>
+        <Height Units="pixels">17</Height>
+        <Width Units="pixels">75</Width>
+      </SmallImage>
+      <MediumImage>
+        <URL>http://images.amazon.com/images/P/B0001VDER4.01-A2HQGEP3PNXTLG._SCMZZZZZZZ_.jpg</URL>
+        <Height Units="pixels">36</Height>
+        <Width Units="pixels">160</Width>
+      </MediumImage>
+      <LargeImage>
+        <URL>http://images.amazon.com/images/P/B0001VDER4.01-A2HQGEP3PNXTLG._SCLZZZZZZZ_.jpg</URL>
+        <Height Units="pixels">78</Height>
+        <Width Units="pixels">350</Width>
+      </LargeImage>
+      <ItemAttributes>
+        <Brand>Bremer Silberschmied</Brand>
+        <Feature>The image above represents only the pattern and style of the product for sale on this page</Feature>
+        <Feature>Pattern: Bremer Silberschmied Klassich Perl (Stainless)</Feature>
+        <Feature>Pattern Description: Stainless, Glossy, Beaded Edge</Feature>
+        <Feature>Length: 6 7/8 Inches</Feature>
+        <Feature>Other serving and accessory pieces may be available in this pattern!</Feature>
+        <Label>Bremer Silberschmied</Label>
+        <Manufacturer>Bremer Silberschmied</Manufacturer>
+        <ProductGroup>Kitchen</ProductGroup>
+        <Publisher>Bremer Silberschmied</Publisher>
+        <Studio>Bremer Silberschmied</Studio>
+        <Title>Bremer Silberschmied Klassich Perl (Stainless) 6 7/8" Place/Oval Soup Spoon</Title>
+      </ItemAttributes>
+      <OfferSummary>
+        <LowestNewPrice>
+          <Amount>999</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$9.99</FormattedPrice>
+        </LowestNewPrice>
+        <TotalNew>1</TotalNew>
+        <TotalUsed>0</TotalUsed>
+        <TotalCollectible>0</TotalCollectible>
+        <TotalRefurbished>0</TotalRefurbished>
+      </OfferSummary>
+      <Offers>
+        <TotalOffers>0</TotalOffers>
+        <TotalOfferPages>0</TotalOfferPages>
+      </Offers>
+    </Item>
+    <Item>
+      <ASIN>B000EMAZPO</ASIN>
+      <DetailPageURL>http://www.amazon.com/exec/obidos/redirect?tag=ws%26link_code=xm2%26camp=2025%26creative=165953%26path=http://www.amazon.com/gp/redirect.html%253fASIN=B000EMAZPO%2526tag=ws%2526lcode=xm2%2526cID=2025%2526ccmID=165953%2526location=/o/ASIN/B000EMAZPO%25253FSubscriptionId=YOUR_AMAZON_TOKEN</DetailPageURL>
+      <SalesRank>1623</SalesRank>
+      <SmallImage>
+        <URL>http://images.amazon.com/images/P/B000EMAZPO.01._SCTHUMBZZZ_.jpg</URL>
+        <Height Units="pixels">75</Height>
+        <Width Units="pixels">75</Width>
+      </SmallImage>
+      <MediumImage>
+        <URL>http://images.amazon.com/images/P/B000EMAZPO.01._SCMZZZZZZZ_.jpg</URL>
+        <Height Units="pixels">160</Height>
+        <Width Units="pixels">160</Width>
+      </MediumImage>
+      <LargeImage>
+        <URL>http://images.amazon.com/images/P/B000EMAZPO.01._SCLZZZZZZZ_.jpg</URL>
+        <Height Units="pixels">500</Height>
+        <Width Units="pixels">500</Width>
+      </LargeImage>
+      <ItemAttributes>
+        <Binding>Grocery</Binding>
+        <Brand>Lipton</Brand>
+        <Feature>Case of six 20-teabag boxes (120 total teabags)</Feature>
+        <Feature>Made of long leaf black tea, gently plucked by hand</Feature>
+        <Feature>Grown on the highest-elevation tea estates in Sri Lanka</Feature>
+        <Feature>Packaged in unique pyramid bags for improved infusion</Feature>
+        <Feature>140 mg per serving of naturally protective antioxidants</Feature>
+        <Label>Lipton</Label>
+        <ListPrice>
+          <Amount>2199</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$21.99</FormattedPrice>
+        </ListPrice>
+        <Manufacturer>Lipton</Manufacturer>
+        <NumberOfItems>6</NumberOfItems>
+        <PackageDimensions>
+          <Height Units="hundredths-inches">419</Height>
+          <Length Units="hundredths-inches">813</Length>
+          <Weight Units="hundredths-pounds">92</Weight>
+          <Width Units="hundredths-inches">744</Width>
+        </PackageDimensions>
+        <ProductGroup>Grocery</ProductGroup>
+        <Publisher>Lipton</Publisher>
+        <ReleaseDate>2006-02-13</ReleaseDate>
+        <Studio>Lipton</Studio>
+        <Title>Lipton Black Tea, Black Pearl Pure Long Leaf, Premium Pyramid Tea Bags, 20-Count Boxes (Pack of 6)</Title>
+      </ItemAttributes>
+      <OfferSummary>
+        <LowestNewPrice>
+          <Amount>1881</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$18.81</FormattedPrice>
+        </LowestNewPrice>
+        <TotalNew>1</TotalNew>
+        <TotalUsed>0</TotalUsed>
+        <TotalCollectible>0</TotalCollectible>
+        <TotalRefurbished>0</TotalRefurbished>
+      </OfferSummary>
+      <Offers>
+        <TotalOffers>1</TotalOffers>
+        <TotalOfferPages>1</TotalOfferPages>
+        <Offer>
+          <Merchant>
+            <MerchantId>ATVPDKIKX0DER</MerchantId>
+            <GlancePage>http://www.amazon.com/gp/help/seller/home.html?seller=ATVPDKIKX0DER</GlancePage>
+            <AverageFeedbackRating>0.0</AverageFeedbackRating>
+            <TotalFeedback>0</TotalFeedback>
+          </Merchant>
+          <OfferAttributes>
+            <Condition>New</Condition>
+          </OfferAttributes>
+          <OfferListing>
+            <OfferListingId>bagWSh5Ps%2Fz1OeRo0kpB8bBH6bSaPeIl2%2Fkyu7aH50XdY9Z8a5qySDWYxL%2BlnAO%2BfYD50j08LXs%3D</OfferListingId>
+            <Price>
+              <Amount>1881</Amount>
+              <CurrencyCode>USD</CurrencyCode>
+              <FormattedPrice>$18.81</FormattedPrice>
+            </Price>
+            <Availability>Usually ships in 24 hours</Availability>
+            <IsEligibleForSuperSaverShipping>1</IsEligibleForSuperSaverShipping>
+          </OfferListing>
+        </Offer>
+      </Offers>
+      <Accessories>
+        <Accessory>
+          <ASIN>B000EM6PTO</ASIN>
+          <Title>Lipton White Tea, Island Mango &amp; Peach, Premium Pyramid Tea Bags, 20-Count Boxes (Pack of 6)</Title>
+        </Accessory>
+        <Accessory>
+          <ASIN>B000FN1TPM</ASIN>
+          <Title>Klean Kanteen with Loop Cap, (40 oz)</Title>
+        </Accessory>
+      </Accessories>
+    </Item>
+    <Item>
+      <ASIN>B0009PMMLQ</ASIN>
+      <DetailPageURL>http://www.amazon.com/exec/obidos/redirect?tag=ws%26link_code=xm2%26camp=2025%26creative=165953%26path=http://www.amazon.com/gp/redirect.html%253fASIN=B0009PMMLQ%2526tag=ws%2526lcode=xm2%2526cID=2025%2526ccmID=165953%2526location=/o/ASIN/B0009PMMLQ%25253FSubscriptionId=YOUR_AMAZON_TOKEN</DetailPageURL>
+      <SalesRank>2517</SalesRank>
+      <SmallImage>
+        <URL>http://images.amazon.com/images/P/B0009PMMLQ.01-A1WKUL4HSGF65L._SCTHUMBZZZ_.jpg</URL>
+        <Height Units="pixels">63</Height>
+        <Width Units="pixels">75</Width>
+      </SmallImage>
+      <MediumImage>
+        <URL>http://images.amazon.com/images/P/B0009PMMLQ.01-A1WKUL4HSGF65L._SCMZZZZZZZ_.jpg</URL>
+        <Height Units="pixels">135</Height>
+        <Width Units="pixels">160</Width>
+      </MediumImage>
+      <LargeImage>
+        <URL>http://images.amazon.com/images/P/B0009PMMLQ.01-A1WKUL4HSGF65L._SCLZZZZZZZ_.jpg</URL>
+        <Height Units="pixels">423</Height>
+        <Width Units="pixels">500</Width>
+      </LargeImage>
+      <ItemAttributes>
+        <Address>
+          <Country>china</Country>
+        </Address>
+        <Binding>Unknown Binding</Binding>
+        <Brand>Uwajimaya</Brand>
+        <Country>china</Country>
+        <Feature>Bubble tea is fun and tastes great - enjoy making it from your own home!</Feature>
+        <Feature>This kit includes everything you need: black and green tea tapioca pearls, 8 cups &amp; straws, a shaker</Feature>
+        <Feature>Flavored tea mixes included: honeydew, strawberry, black milk tea and taro!</Feature>
+        <Feature>Have a bubble tea party today!</Feature>
+        <ItemDimensions>
+          <Weight Units="hundredths-pounds">220</Weight>
+        </ItemDimensions>
+        <Label>Trojan</Label>
+        <Manufacturer>Trojan</Manufacturer>
+        <MPN>000SA 219500</MPN>
+        <ProductGroup>Gourmet</ProductGroup>
+        <Publisher>Trojan</Publisher>
+        <Studio>Trojan</Studio>
+        <Title>Bubble Tea Party Kit for Eight!</Title>
+      </ItemAttributes>
+      <OfferSummary>
+        <LowestNewPrice>
+          <Amount>1699</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$16.99</FormattedPrice>
+        </LowestNewPrice>
+        <TotalNew>1</TotalNew>
+        <TotalUsed>0</TotalUsed>
+        <TotalCollectible>0</TotalCollectible>
+        <TotalRefurbished>0</TotalRefurbished>
+      </OfferSummary>
+      <Offers>
+        <TotalOffers>0</TotalOffers>
+        <TotalOfferPages>0</TotalOfferPages>
+      </Offers>
+    </Item>
+    <Item>
+      <ASIN>B000FEH6XU</ASIN>
+      <DetailPageURL>http://www.amazon.com/exec/obidos/redirect?tag=ws%26link_code=xm2%26camp=2025%26creative=165953%26path=http://www.amazon.com/gp/redirect.html%253fASIN=B000FEH6XU%2526tag=ws%2526lcode=xm2%2526cID=2025%2526ccmID=165953%2526location=/o/ASIN/B000FEH6XU%25253FSubscriptionId=YOUR_AMAZON_TOKEN</DetailPageURL>
+      <SalesRank>1831</SalesRank>
+      <SmallImage>
+        <URL>http://images.amazon.com/images/P/B000FEH6XU.01._SCTHUMBZZZ_.jpg</URL>
+        <Height Units="pixels">75</Height>
+        <Width Units="pixels">75</Width>
+      </SmallImage>
+      <MediumImage>
+        <URL>http://images.amazon.com/images/P/B000FEH6XU.01._SCMZZZZZZZ_.jpg</URL>
+        <Height Units="pixels">160</Height>
+        <Width Units="pixels">160</Width>
+      </MediumImage>
+      <LargeImage>
+        <URL>http://images.amazon.com/images/P/B000FEH6XU.01._SCLZZZZZZZ_.jpg</URL>
+        <Height Units="pixels">500</Height>
+        <Width Units="pixels">500</Width>
+      </LargeImage>
+      <ItemAttributes>
+        <Binding>Grocery</Binding>
+        <Brand>Reese</Brand>
+        <EAN>0070670004011</EAN>
+        <Feature>Tapioca comes from the cassava plant and has been used for centuries in creamy puddings and sweet desserts</Feature>
+        <Feature>tapioca contains no impurities so the delicate taste will not mask light flavors such as vanilla peach or lemon</Feature>
+        <Feature>As a pudding Reese Tapioca is divinely soothing when served warm and delightfully refreshing when chilled</Feature>
+        <Label>Reese</Label>
+        <ListPrice>
+          <Amount>1494</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$14.94</FormattedPrice>
+        </ListPrice>
+        <Manufacturer>Reese</Manufacturer>
+        <NumberOfItems>6</NumberOfItems>
+        <PackageDimensions>
+          <Height Units="hundredths-inches">225</Height>
+          <Length Units="hundredths-inches">800</Length>
+          <Weight Units="hundredths-pounds">333</Weight>
+          <Width Units="hundredths-inches">450</Width>
+        </PackageDimensions>
+        <ProductGroup>Grocery</ProductGroup>
+        <Publisher>Reese</Publisher>
+        <ReleaseDate>2006-04-13</ReleaseDate>
+        <Studio>Reese</Studio>
+        <Title>Reese Large Pearl Tapioca, 7-Ounce Units (Pack of 6)</Title>
+        <UPC>070670004011</UPC>
+      </ItemAttributes>
+      <OfferSummary>
+        <LowestNewPrice>
+          <Amount>1200</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$12.00</FormattedPrice>
+        </LowestNewPrice>
+        <TotalNew>1</TotalNew>
+        <TotalUsed>0</TotalUsed>
+        <TotalCollectible>0</TotalCollectible>
+        <TotalRefurbished>0</TotalRefurbished>
+      </OfferSummary>
+      <Offers>
+        <TotalOffers>1</TotalOffers>
+        <TotalOfferPages>1</TotalOfferPages>
+        <Offer>
+          <Merchant>
+            <MerchantId>ATVPDKIKX0DER</MerchantId>
+            <GlancePage>http://www.amazon.com/gp/help/seller/home.html?seller=ATVPDKIKX0DER</GlancePage>
+            <AverageFeedbackRating>0.0</AverageFeedbackRating>
+            <TotalFeedback>0</TotalFeedback>
+          </Merchant>
+          <OfferAttributes>
+            <Condition>New</Condition>
+          </OfferAttributes>
+          <OfferListing>
+            <OfferListingId>0bZgbjJlLd1OtHkQsMZF9zx%2F1%2BbDcvF7Re2x3%2FxFBT3YNbgD2zadHXoqSSevw9GLEkHaKHa1kJ0%3D</OfferListingId>
+            <Price>
+              <Amount>1200</Amount>
+              <CurrencyCode>USD</CurrencyCode>
+              <FormattedPrice>$12.00</FormattedPrice>
+            </Price>
+            <Availability>Usually ships in 24 hours</Availability>
+            <IsEligibleForSuperSaverShipping>1</IsEligibleForSuperSaverShipping>
+          </OfferListing>
+        </Offer>
+      </Offers>
+      <Accessories>
+        <Accessory>
+          <ASIN>B000FEH6N0</ASIN>
+          <Title>Reese All White Crabmeat, 6-Ounce Cans (Pack of 12)</Title>
+        </Accessory>
+      </Accessories>
+    </Item>
+  </Items>
+</ItemSearchResponse>

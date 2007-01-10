@@ -20,7 +20,7 @@ $CANNED = File::Spec->catfile("t", "canned") unless -d $CANNED;
 
 #use Log::Log4perl qw(:easy);
 #Log::Log4perl->easy_init({level  => $DEBUG, file => "STDOUT",
-#                          layout => "%F{1}%L> %m%n" });
+#                         layout => "%F{1} %L> %m%n" });
 
 ######################################################################
 # Get a 1-item wishlist
@@ -37,7 +37,6 @@ my $req = Net::Amazon::Request::Wishlist->new(
 
    # Response is of type Net::Amazon::ASIN::Response
 my $resp = $ua->request($req);
-
 like($resp->as_string(), qr#Stallman#, "Found Stallman");
 
 ######################################################################
@@ -57,7 +56,8 @@ $req = Net::Amazon::Request::Wishlist->new(
    # Response is of type Net::Amazon::ASIN::Response
 $resp = $ua->request($req);
 
-like($resp->as_string(), qr#Samsung.*?Cornea#s, "Complete 10-item list");
+#like($resp->as_string(), qr#Samsung.*?Cornea#s, "Complete 10-item list");
+like($resp->as_string(), qr#Barry.*?Ullman#s, "Complete 10-item list");
 
 ######################################################################
 # Get a canned 11-item wishlist
@@ -76,8 +76,7 @@ $req = Net::Amazon::Request::Wishlist->new(
    # Response is of type Net::Amazon::ASIN::Response
 $resp = $ua->request($req);
 
-#print $resp->as_string;
-like($resp->as_string(), qr#Samsung.*?Stallman#s, "Complete 11-item list");
+like($resp->as_string(), qr#Barry.*?Stallman#s, "Complete 11-item list");
 
 $req = Net::Amazon::Request::Wishlist->new(
     wishlist  => '1XL5DWOUFMFVJ'

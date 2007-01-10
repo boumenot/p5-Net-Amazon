@@ -17,7 +17,7 @@ die "usage: $0 wishlist_id\n" .
     "(use 1XL5DWOUFMFVJ as an example)\n" unless $ARGV[0];
 
 my $ua = Net::Amazon->new(
-    token       => 'YOUR_AMZN_TOKEN',
+    token       => $ENV{AMAZON_TOKEN},
 );
 
 my $req = Net::Amazon::Request::Wishlist->new(

@@ -6,7 +6,22 @@ use strict;
 use Log::Log4perl qw(:easy);
 use base qw(Net::Amazon);
 
-__PACKAGE__->make_accessor($_) for qw(rating summary comment);
+__PACKAGE__->make_accessor($_) for qw(date asin rating summary content 
+                                      total_votes helpful_votes customer_id);
+
+__PACKAGE__->make_compatible_accessor('comment', 'content');
+
+use constant ELEMENT_TO_METHOD_MAP => {
+    # XXX: should ASIN be Asin, ASIN, or asin?
+    'ASIN'         => 'asin',
+    'Content'      => 'content',
+    'CustomerId'   => 'customer_id',
+    'Date'         => 'date',
+    'HelpfulVotes' => 'helpful_votes',
+    'Rating'       => 'rating',
+    'Summary'      => 'summary',
+    'TotalVotes'   => 'total_votes',
+};
 
 ##################################################
 sub new {
@@ -16,9 +31,18 @@ sub new {
     my $self = {
         rating  => "",
         summary => "",
-        comment => "",
+        content => "",
+        helpful_votes => "",
+        customer_id => "",
+        asin => "",
+        date => "",
+        total_votes => "",
         %options,
     };
+
+    if(defined $self->{comment}) {
+        $self->{content} = $self->{comment};
+    }
 
     bless $self, $class;
 }
@@ -28,12 +52,14 @@ sub init_via_xmlref {
 ##################################################
     my($self, $xmlref) = @_;
 
-    for(qw(Rating Summary Comment)) {
-        my $method = lc($_);
+    my $href = (ELEMENT_TO_METHOD_MAP);
+
+    for(keys %$href) {
+        my $method = lc($href->{$_});
         if($xmlref->{$_}) {
             $self->$method($xmlref->{$_});
         } else {
-            #LOGWARN "No '$_'";
+            LOGWARN "No '$_'";
             return undef;
         }
     }
@@ -51,9 +77,14 @@ Net::Amazon::Attribute::Review - Customer Review Class
 
     use Net::Amazon::Attribute::Review;
     my $rev = Net::Amazon::Attribute::Review->new(
-                 'rating'  => $rating,
-                 'summary' => $summary,
-                 'comment' => $comment,
+                 'rating'        => $rating,
+                 'summary'       => $summary,
+                 'content'       => $content,
+                 'asin'          => $asin,
+                 'customer_id'   => $customer_id,
+                 'date'          => $date,
+                 'helpful_votes' => $helpful_votes,
+                 'total_votes'   => $total_votes,
     );
 
 =head1 DESCRIPTION
@@ -74,7 +105,28 @@ Accessor for the string value of the summary.
 
 =item comment()
 
-Accessor for the string value of the customer comment.
+Accessor for the string value of the customer comment.  This accessor is deprecated in
+favor of content().
+
+=item content()
+
+Accessor for the string value of the content.
+
+=item asin()
+
+Accessor for the string value of ASIN.
+
+=item customer_id()
+
+Accessor for the string value of the customer ID.
+
+=item helpful_votes()
+
+Accessor for the numeric value of the helpful votes.
+
+=item total_votes()
+
+Accessor for the numeric value of the total votes.
 
 =back
 
@@ -94,11 +146,14 @@ it under the same terms as Perl itself.
 =cut
 
 __END__
-      <Reviews>
-         <AvgCustomerRating>4.33</AvgCustomerRating>
-         <TotalCustomerReviews>6</TotalCustomerReviews>
-         <CustomerReview>
-            <Rating>4</Rating>
-            <Summary>Good introduction to Perl, and great reference</Summary>
-            <Comment>From its corny title you might expect another one of those 
-
+<Review>
+  <ASIN>1000100010</ASIN>
+  <Rating>5</Rating>
+  <HelpfulVotes>10HelpfulVotes>
+  <CustomerId>YYYYXXXXZZZZZ</CustomerId>
+  <TotalVotes>5</TotalVotes>
+  <Date>2005-10-10</Date>
+  <Summary>Wicked Pisser!</Summary>
+  <Content>I found this book very good</Content>
+</Review>
+  

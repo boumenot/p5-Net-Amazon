@@ -6,6 +6,7 @@ use strict;
 use base qw(Net::Amazon::Response);
 
 use Net::Amazon::Property;
+use Log::Log4perl qw(:easy get_logger);
 
 ##################################################
 sub new {
@@ -15,6 +16,14 @@ sub new {
     my $self = $class->SUPER::new(%options);
 
     bless $self, $class;   # reconsecrate
+}
+
+##################################################
+sub is_page_available {
+##################################################
+    my($self, $ref, $new_items) = @_;
+    DEBUG("TextStream does not allow the fetching of more than one page");
+    return 0;
 }
 
 ##################################################

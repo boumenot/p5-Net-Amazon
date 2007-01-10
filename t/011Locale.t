@@ -25,7 +25,7 @@ use Test::More tests => 5;
 
 my $ua = Net::Amazon->new(
     token         => 'YOUR_AMZN_TOKEN',
-    response_dump => 1,
+    #response_dump => 1,
     locale        => 'de',
 );
 
@@ -39,4 +39,4 @@ ok($resp->is_success(), "ASIN Fetch successful");
 is($result->author(), "Michael Schilli", "Author");
 is($result->title(), "Go To Perl 5 .", "Title");
 is($result->publisher(), "Addison-Wesley", "Publisher");
-is($result->OurPrice(), "EUR 34,95", "Price");
+is($result->TotalOffers(), 0, "Offers");

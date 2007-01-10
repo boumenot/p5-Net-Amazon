@@ -1,4 +1,4 @@
-#####################################################################
+###################################################################
 package Net::Amazon;
 ######################################################################
 # Mike Schilli <m@perlmeister.com>, 2003
@@ -8,7 +8,9 @@ use 5.006;
 use strict;
 use warnings;
 
-our $VERSION          = '0.35';
+our $VERSION          = '0.36';
+our $WSDL_DATE        = '2006-06-28';
+our $Locale           = 'us';
 our @CANNED_RESPONSES = ();
 
 use LWP::UserAgent;
@@ -29,14 +31,15 @@ use constant SEARCH_TYPE_CLASS_MAP => {
     exchange     => 'Exchange',
     keyword      => 'Keyword',
     manufacturer => 'Manufacturer',
+    musiclabel   => 'MusicLabel',
     power        => 'Power',
+    publisher    => 'Publisher',
     seller       => 'Seller',
     similar      => 'Similar',
     textstream   => 'TextStream',
     upc          => 'UPC',
     wishlist     => 'Wishlist',
 };
-
 
 ##################################################
 sub new {
@@ -47,10 +50,6 @@ sub new {
         die "Mandatory paramter 'token' not defined";
     }
 
-    if(! exists $options{affiliate_id}) {
-        $options{affiliate_id} = "webservices-20";
-    }
-
     my $self = {
         strict         => 1,
         response_dump  => 0,
@@ -58,7 +57,7 @@ sub new {
         max_pages      => 5,
         ua             => LWP::UserAgent->new(),
         %options,
-               };
+    };
 
     help_xml_simple_choose_a_parser();
 
@@ -100,17 +99,21 @@ sub intl_url {
         return $url;
     }
 
-    if ($self->{locale} eq "jp") {
-       $url =~ s/\.com/.co.jp/;
-       return $url;
+    $Net::Amazon::Locale = $self->{locale};
+
+    if (0) {
+    } elsif ($self->{locale} eq "ca") {
+        $url =~ s/\.com/.ca/;
+    } elsif ($self->{locale} eq "de") {
+        $url =~ s/\.com/.de/;
+    } elsif ($self->{locale} eq "fr") {
+        $url =~ s/\.com/.fr/;
+    } elsif ($self->{locale} eq "jp") {
+        $url =~ s/\.com/.co.jp/;
+    } elsif ($self->{locale} eq "uk") {
+        $url =~ s/\.com/.co.uk/;
     }
 
-    if($self->{locale} eq "uk" or
-       $self->{locale} eq "de") {
-        $url =~ s/xml/xml-eu/;
-        return $url;
-    }
-        
     return $url;
 }
 
@@ -119,6 +122,7 @@ sub request {
 ##################################################
     my($self, $request) = @_;
 
+# XXX: Not sure if this bug exists in AWS4
     my $AMZN_WISHLIST_BUG_ENCOUNTERED = 0;
 
     my $resp_class = $request->response_class();
@@ -129,21 +133,26 @@ sub request {
     my $res  = $resp_class->new();
 
     my $url  = URI->new($self->intl_url($request->amzn_xml_url()));
-    my $page = $request->{page};
+    my $page = $request->page();
     my $ref;
 
-    {
-        my %params = $request->params();
-        $params{page}   = $page;
+    REQUEST: {
+        my %params = $request->params(page => $page);
         $params{locale} = $self->{locale} if exists $self->{locale};
 
         $url->query_form(
-            'dev-t' => $self->{token},
-            't'     => $self->{affiliate_id},
+            'Service'        => 'AWSECommerceService',
+            'AWSAccessKeyId' => $self->{token},
+            'Version'        => $WSDL_DATE,
             map { $_, $params{$_} } sort keys %params,
         );
 
+        DEBUG(sub { "request: params = " . Dumper(\%params) . "\n"});
+
         my $urlstr = $url->as_string;
+
+        DEBUG(sub { "urlstr=" . $urlstr });
+
         my $xml = fetch_url($self, $urlstr, $res);
 
         if(!defined $xml) {
@@ -152,7 +161,7 @@ sub request {
 
         DEBUG(sub { "Received [ " . $xml . "]" });
 
-            # Let the response class parse the XML
+        # Let the response class parse the XML
         $ref = $res->xml_parse($xml);
 
         # DEBUG(sub { Data::Dumper::Dumper($ref) });
@@ -164,61 +173,29 @@ sub request {
             return $res;
         }
 
-        if(exists $ref->{TotalPages}) {
-            INFO("Page $page/$ref->{TotalPages}");
-        }
-
-        if(exists $ref->{TotalResults}) {
-            $res->total_results( $ref->{TotalResults} );
-        }
-
-        if(exists $ref->{ErrorMsg}) {
-
-            if($AMZN_WISHLIST_BUG_ENCOUNTERED &&
-               $ref->{ErrorMsg} =~ /no exact matches/) {
-                DEBUG("End of buggy wishlist detected");
-                last;
-            }
-                
-            if (ref($ref->{ErrorMsg}) eq "ARRAY") {
-              # multiple errors, set arrary ref
-              $res->messages( $ref->{ErrorMsg} );
-            } else {
-              # single error, create array
-              $res->messages( [ $ref->{ErrorMsg} ] );
-            }
-
-            ERROR("Fetch Error: " . $res->message );
-            $res->status("");
+        $res->current_page($ref, $page);
+        $res->set_total_results($ref);
+        
+        my $rc = $res->is_page_error($ref);
+        if ($rc == 0) {
             return $res;
+        } elsif ($rc == -1) {
+            last;
         }
 
         my $new_items = $res->xmlref_add($ref);
+
         DEBUG("Received valid XML ($new_items items)");
 
         # Stop if we've fetched max_pages already
-        if($self->{max_pages} <= $page) {
+        if(defined $page && $self->{max_pages} <= $page) {
             DEBUG("Fetched max_pages ($self->{max_pages}) -- stopping");
             last;
         }
 
-        # Work around the Amazon bug not setting TotalPages properly
-        # for wishlists
-        if(ref($res) =~ /Wishlist/ and
-           !exists $ref->{TotalPages}  and
-           $new_items == 10
-          ) {
-            $AMZN_WISHLIST_BUG_ENCOUNTERED = 1;
-            DEBUG("Trying to fetch additional wishlist page (AMZN bug)");
+        if($res->is_page_available($ref, $new_items, $page)) {
             $page++;
-            redo;
-        }
-
-        if(exists $ref->{TotalPages} and
-           $ref->{TotalPages} > $page) {
-            DEBUG("Page $page of $ref->{TotalPages} fetched - continuing");
-            $page++;
-            redo;
+            redo REQUEST;
         }
 
         # We're gonna fall out of this loop here.
@@ -297,7 +274,8 @@ sub fetch_url {
             $self->{response_dump}++;
         }
 
-        if($resp->content =~ /<ErrorMsg>/ &&
+        if($resp->content =~ /<Errors>/ &&
+            # Is this the same value of AWS4?
            $resp->content =~ /Please retry/i) {
             if($max_retries-- >= 0) {
                 INFO("Temporary Amazon error, retrying");
@@ -346,6 +324,33 @@ EOT
     }
 }
 
+# An accessor for backward compatability with AWS3.
+##################################################
+sub make_compatible_accessor{
+##################################################
+    my($package, $old_name, $new_name) = @_;
+
+    no strict qw(refs);
+
+    my $code = <<EOT;
+        *{"$package\\::$old_name"} = sub {
+            my(\$self, \$value) = \@_;
+
+            if(defined \$value) {
+                \$self->{$new_name} = \$value;
+            }
+            if(exists \$self->{$new_name}) {
+                return (\$self->{$new_name});
+            } else {
+                return "";
+            }
+        }
+EOT
+    if(! defined *{"$package\::$old_name"}) {
+        eval $code or die "$@";
+    }
+}
+
 ##################################################
 # Make accessors for arrays
 ##################################################
@@ -381,6 +386,27 @@ EOT
 }
 
 ##################################################
+sub walk_hash_ref {
+##################################################
+    my ($package, $href, $aref) = @_;
+
+    return $href if scalar(@$aref) == 0;
+
+    my @a;
+    push @a, $_ for @$aref;
+
+    my $tail = pop @a;
+    my $ref = $href;
+
+    for my $part (@a) {
+        $ref = $ref->{$part};
+    }
+    
+    return $ref->{$tail};
+}
+
+
+##################################################
 sub artist {
 ##################################################
     my($self, $nameref) = @_;
@@ -389,6 +415,69 @@ sub artist {
     return ($self->artists($nameref))[0];
 }
 
+##################################################
+sub version {
+##################################################
+    my($self) = @_;
+    return $self->{Version};
+}
+
+##################################################
+sub current_page {
+##################################################
+    my($self, $ref, $page) = @_;
+    if(exists $ref->{Items}->{TotalPages}) {
+        INFO("Page $page/$ref->{Items}->{TotalPages}");
+    }
+}
+
+##################################################
+sub set_total_results {
+##################################################
+    my($self, $ref) = @_;
+    if(exists $ref->{Items}->{TotalResults}) {
+        $self->total_results( $ref->{Items}->{TotalResults} );
+    }
+}
+
+##################################################
+sub is_page_error {
+##################################################
+    my($self, $ref) = @_;
+
+    if(exists $ref->{Items}->{Request}->{Errors}) {
+        my $errref = $ref->{Items}->{Request}->{Errors};
+
+        if (ref($errref->{Error}) eq "ARRAY") {
+            my @errors;
+            for my $e (@{$errref->{Error}}) {
+                push @errors, $e->{Message};
+            }
+            # multiple errors, set arrary ref
+            $self->messages( @errors );
+        } else {
+            # single error, create array
+            $self->messages( [ $errref->{Error}->{Message} ] );
+        }
+
+        ERROR("Fetch Error: " . $self->message );
+        $self->status("");
+        return 0;
+    }
+    return 1;
+}
+
+##################################################
+sub is_page_available {
+##################################################
+    my($self, $ref, $new_items, $page) = @_;
+    if(exists $ref->{Items}->{TotalPages} and
+            $ref->{Items}->{TotalPages} > $page) {
+        DEBUG("Page $page of $ref->{Items}->{TotalPages} fetched - continuing");
+        return 1;
+    }
+    return 0;
+}
 
 ##################################################
 sub xmlref_add {
@@ -396,6 +485,7 @@ sub xmlref_add {
     my($self, $xmlref) = @_;
 
     my $nof_items_added = 0;
+    return $nof_items_added unless defined $xmlref;
 
     # Push a nested hash structure, retrieved via XMLSimple, onto the
     # object's internal 'xmlref' entry, which holds a ref to an array, 
@@ -405,21 +495,21 @@ sub xmlref_add {
     #DEBUG("xmlref_add ", Data::Dumper::Dumper($xmlref));
 
     unless(ref($self->{xmlref}) eq "HASH" &&
-           ref($self->{xmlref}->{Details}) eq "ARRAY") {
-        $self->{xmlref}->{Details} = [];
+           ref($self->{xmlref}->{Items}) eq "ARRAY") {
+        $self->{xmlref}->{Items} = [];
     }
 
-    if(ref($xmlref->{Details}) eq "ARRAY") {
-        # Is it an array of items?
-        push @{$self->{xmlref}->{Details}}, @{$xmlref->{Details}};
-        $nof_items_added = scalar @{$xmlref->{Details}};
+    if(ref($xmlref->{Items}->{Item}) eq "ARRAY") {
+        push @{$self->{xmlref}->{Items}}, @{$xmlref->{Items}->{Item}};
+        $nof_items_added = scalar @{$xmlref->{Items}->{Item}};
     } else {
-        # It is a single item
-        push @{$self->{xmlref}->{Details}}, $xmlref->{Details};
-        $nof_items_added = 1;
+        if (exists $xmlref->{Items}->{Item}->{ItemAttributes}) {
+            push @{$self->{xmlref}->{Items}}, $xmlref->{Items}->{Item};
+            $nof_items_added = 1;
+        }
     }
 
-    #DEBUG("xmlref_add (after):", Data::Dumper::Dumper($self));
+    DEBUG("xmlref_add (after):", Data::Dumper::Dumper($self));
     return $nof_items_added;
 }
 
@@ -489,6 +579,7 @@ sub _make_request {
 
     my $class = "Net::Amazon::Request::$type";
 
+	# XXX: change me back, this makes debugging a little difficult.
     eval "require $class";
 
     my $req = $class->new(%{$params});
@@ -824,12 +915,6 @@ Since each page requires a new query to Amazon, at most one query
 per second will be made in C<strict> mode to comply with Amazon's terms 
 of service. This will impact performance if you perform a search 
 returning many pages of results.
-
-=item C<< affiliate_id => $affiliate_id >>
-
-your Amazon affiliate ID, if you have one. It defaults to 
-C<webservices-20> which is currently (as of 06/2003) 
-required by Amazon.
 
 =item C<< strict => 1 >>
 

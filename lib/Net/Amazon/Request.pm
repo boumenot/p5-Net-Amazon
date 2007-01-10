@@ -2,18 +2,64 @@
 package Net::Amazon::Request;
 ######################################################################
 
+use Log::Log4perl qw(:easy get_logger);
+use Net::Amazon::Validate::Type;
+use Net::Amazon::Validate::ItemSearch;
+
+use Data::Dumper;
+
 use warnings;
 use strict;
-
 use constant DEFAULT_MODE          => 'books';
-use constant DEFAULT_TYPE          => 'heavy';
+use constant DEFAULT_TYPE          => 'Large';
 use constant DEFAULT_PAGE_COUNT    => 1;
 use constant DEFAULT_FORMAT        => 'xml';
-use constant DEFAULT_SORT_CRITERIA => '+salesrank';
+use constant PAGE_NOT_VALID        => qw(TextStream);
 
-use constant VALID_TYPES => { map { $_ => 1 } qw(heavy lite) };
+# Attempt to provide backward compatability for AWS3 types.
+use constant AWS3_VALID_TYPES_MAP => {
+	'heavy' => 'Large',
+	'lite'  => 'Medium',
+};
 
-our $AMZN_XML_URL  = "http://xml.amazon.com/onca/xml3";
+# Each key represents the REST operation used to execute the action.
+use constant SEARCH_TYPE_OPERATION_MAP => {
+    Actor        => 'ItemSearch',
+    Artist       => 'ItemSearch',
+    Author       => 'ItemSearch',
+    ASIN         => 'ItemLookup',
+    Blended      => 'ItemSearch',
+    BrowseNode   => 'ItemSearch',
+    Exchange     => 'SellerListingLookup',
+    Keyword      => 'ItemSearch',
+    # XXX: are there really two types?!?
+    Keywords     => 'ItemSearch',
+    Manufacturer => 'ItemSearch',
+    MusicLabel   => 'ItemSearch',
+    Power        => 'ItemSearch',
+    Publisher    => 'ItemSearch',
+    Seller       => 'SellerListingSearch',
+    Similar      => 'SimilarityLookup',
+    TextStream   => 'ItemSearch',
+    UPC          => 'ItemLookup',
+    Wishlist     => 'ListLookup',
+};
+
+# if it isn't defined it defaults to salesrank
+use constant DEFAULT_SORT_CRITERIA_MAP => {
+    Wishlist     => 'DateAdded',
+    Blended      => '',
+    Seller       => '',
+    Exchange     => '',
+};
+
+# if it isn't defined it defaults to ItemPage
+use constant DEFAULT_ITEM_PAGE_MAP => {
+    Seller   => 'ListingPage',
+    Wishlist => 'ProductPage',
+};
+
+our $AMZN_XML_URL  = 'http://webservices.amazon.com/onca/xml?Service=AWSECommerceService';
 
 ##################################################
 sub amzn_xml_url {
@@ -26,25 +72,89 @@ sub new {
 ##################################################
     my($class, %options) = @_;
 
+    my ($operation) = $class =~ m/([^:]+)$/;
+
     my $self = {
-        mode       => DEFAULT_MODE,
-        type       => DEFAULT_TYPE,
-        page       => DEFAULT_PAGE_COUNT,
-        f          => DEFAULT_FORMAT,
-        sort       => DEFAULT_SORT_CRITERIA,
+        Operation  => SEARCH_TYPE_OPERATION_MAP->{$operation},
         %options,
     };
 
-    die "Unknown type in ", __PACKAGE__, " constructor: ",
-        $self->{type} unless exists VALID_TYPES->{$self->{type}};
+    $self->{page} = DEFAULT_PAGE_COUNT unless exists $self->{page};
+
+    # TextStream doesn't allow a page (ItemPage) parameter
+    delete $self->{page} if grep{$operation eq $_} (PAGE_NOT_VALID);
+
+    # salesrank isn't a valid sort criteria for all operations
+    if (! exists $self->{sort}) {
+        my $sort = (defined DEFAULT_SORT_CRITERIA_MAP->{$operation}) 
+            ? DEFAULT_SORT_CRITERIA_MAP->{$operation} : 'salesrank';
+        $self->{sort} = $sort if length($sort);
+    }
+
+    my $valid = Net::Amazon::Validate::Type::factory(operation => $self->{Operation});
+
+    # There is no initial default type (ResponseGroup) defined, 
+    # if there is, then attempt to map the AWS3 type to the
+    # AWS4 type.
+    if ($self->{type}) {
+        if ( ref $self->{type} eq 'ARRAY' ) {
+            for (@{$self->{type}}) {
+                $self->{type} = AWS3_VALID_TYPES_MAP->{$self->{type}} 
+                if defined AWS3_VALID_TYPES_MAP->{$self->{type}};
+            }
+        } else {
+            $self->{type} = AWS3_VALID_TYPES_MAP->{$self->{type}} 
+            if defined AWS3_VALID_TYPES_MAP->{$self->{type}};
+        }
+        $valid->ResponseGroup($self->{type});
+    } 
+    # If no type was defined then attempt to find a default type.  If
+    # no type is found we rely on Amazon to use its default type.
+    else {
+        eval { $valid->ResponseGroup(DEFAULT_TYPE) };
+        $self->{type} = DEFAULT_TYPE unless $@;
+    }
+
+    my $item_page = (defined DEFAULT_ITEM_PAGE_MAP->{$operation}) 
+        ? DEFAULT_ITEM_PAGE_MAP->{$operation} : 'ItemPage';
+    
+    __PACKAGE__->_convert_option($self, 'page', $item_page);
+    __PACKAGE__->_convert_option($self, 'sort', 'Sort');
+    __PACKAGE__->_convert_option($self, 'type', 'ResponseGroup') if defined $self->{type};
+
+    # Convert all of the normal user input into Amazon's expected input.  Do it
+    # here to allow a user to narrow down there based on any field that is valid
+    # for a search operation.
+    #
+    # One could add all of the different qualifiers for an ItemSearch for free.
+    if (SEARCH_TYPE_OPERATION_MAP->{$operation} eq 'ItemSearch' ) {
+        for (keys %{(SEARCH_TYPE_OPERATION_MAP)}) {
+            __PACKAGE__->_convert_option($self, lc($_), $_) if defined $self->{lc($_)};
+        }
+    }
 
     bless $self, $class;
 }
 
 ##################################################
-sub params {
+sub page {
 ##################################################
     my($self) = @_;
+    return $self->{$self->_page_type};
+}
+
+##################################################
+sub params {
+##################################################
+    my ($self, %options) = @_;
+
+    my $class = ref $self;
+    my ($operation) = $class =~ m/([^:]+)$/;
+
+    unless (grep{$operation eq $_} (PAGE_NOT_VALID)) {
+        my $type = $self->_page_type;
+        $self->{$type} = $options{page};
+    }
 
     return(%$self);
 }
@@ -91,7 +201,7 @@ sub _convert_option {
     }
 
     return 1 unless ( $callback );
-
+    
     # The key name is explicitly passed-in so that the caller doesn't
     # have think "Hrmm..  now which key am I working on, the original
     # or the target key?" Confusion is bad.
@@ -114,6 +224,67 @@ sub _assert_options_defined {
     }
 }
 
+# CLASS->_option_or_default( OPTIONS, DEFAULT, USER )
+#
+# Takes a list of options, a default option, and a 
+# possibly supplied user option.  If the user option
+# is defined, it is verified that the option is valid.
+# If no user option is supplied, the default option is
+# used.
+sub _option_or_default {
+    my ($self, $options, $default, $user) = @_;
+#     if(defined $user) {
+#         unless(grep {$user eq $_} @$options) {
+#            die "User supplied value, $user, is not a valid option" 
+#         }
+#         return $user;
+#     }
+    return $default;
+}
+
+# CLASS->_itemsearch_factory()
+#
+# Create an instance of an ItemSearch validator based on the
+# Request class.  This class is used to validate user input
+# against valid options for a given mode, and the type of 
+# Request.
+sub _itemsearch_factory {
+    my($self) = @_;
+
+    my $request_class = ref($self);
+    my $request_type = (split(/::/, $request_class))[-1];
+
+    # XXX: I'm not sure what to do here.  The ItemSearch validate class
+    # is called Keywords, but the Request/Response class is called
+    # Keyword.  For now I'm going to special case Keywords to map
+    # to Keyword.
+    $request_type = 'Keywords' if $request_type eq 'Keyword'; 
+
+    return Net::Amazon::Validate::ItemSearch::factory(search_index => $request_type); 
+}
+
+sub _convert_itemsearch {
+    my($self) = @_;
+
+    my $is = $self->_itemsearch_factory();
+    $self->{mode} = $is->user_or_default($self->{mode});
+
+    __PACKAGE__->_convert_option($self, 'mode', 'SearchIndex');
+}
+
+sub _page_type {
+    my ($self, %options) = @_;
+
+    my $class = ref $self;
+    my ($operation) = $class =~ m/([^:]+)$/;
+
+    my $type = (defined DEFAULT_ITEM_PAGE_MAP->{$operation}) 
+            ? DEFAULT_ITEM_PAGE_MAP->{$operation} : 'ItemPage';
+
+    return $type;
+}
+
+
 1;
 
 __END__
@@ -125,7 +296,7 @@ Net::Amazon::Request - Baseclass for requests to Amazon's web service
 =head1 SYNOPSIS
 
     my $req = Net::Amazon::Request::XXX->new(
-                     [ type  => 'heavy', ]
+                     [ type  => 'Large', ]
                      [ page  => $start_page, ]
                      [ mode  => $mode, ]
                      [ offer => 'All', ]
@@ -145,9 +316,9 @@ that all request types have in common, here they are:
 
 =item type
 
-Defaults to C<heavy>, but can be set to C<lite> if no reviews etc.
+Defaults to C<Large>, but can be set to C<Small> if no reviews etc.
 on a product are wanted. Some fields (e.g. C<isbn>) are not going to be 
-available in C<lite> mode, though.
+available in C<small> mode, though.
 
 =item mode
 
@@ -163,7 +334,7 @@ at C<page>.
 
 =item sort
 
-Defaults to C<+salesrank>, but search results can be sorted in various
+Defaults to C<salesrank>, but search results can be sorted in various
 ways, depending on the type of product returned by the search.  Search
 results may be sorted by the following criteria:
 

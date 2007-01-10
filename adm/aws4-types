@@ -1,0 +1,246 @@
+#!/usr/bin/perl 
+#$Revision: 1.1 $$Date: 2007-01-10 03:19:05 $$Author: boumenot $
+#######################################################################
+#######################################################################
+
+require 5.008_001;
+
+use Getopt::Long;
+use IO::File;
+use Pod::Usage;
+use HTML::TableExtract;
+use LWP::Simple;
+use Text::Template;
+use Data::Dumper;
+
+use strict;
+use warnings;
+
+use constant AWS4_ONLINE_HTML => {
+#     '4-0'        => 'http://docs.amazonwebservices.com/AWSEcommerceService/4-0/',
+#     '2005-01-19' => 'http://docs.amazonwebservices.com/AWSEcommerceService/2005-01-19/',
+#     '2005-02-23' => 'http://docs.amazonwebservices.com/AWSEcommerceService/2005-02-23/',
+#     '2005-03-23' => 'http://docs.amazonwebservices.com/AWSEcommerceService/2005-03-23/',
+#     '2005-07-26' => 'http://docs.amazonwebservices.com/AWSEcommerceService/2005-07-26/',
+#     '2005-09-15' => 'http://docs.amazonwebservices.com/AWSEcommerceService/2005-09-15/',
+#     '2005-10-05' => 'http://docs.amazonwebservices.com/AWSEcommerceService/2005-10-05/',
+#     '2005-10-13' => 'http://docs.amazonwebservices.com/AWSEcommerceService/2005-10-13/',
+#     '2006-02-15' => 'http://docs.amazonwebservices.com/AWSEcommerceService/2006-02-15/',
+#     '2006-03-08' => 'http://docs.amazonwebservices.com/AWSEcommerceService/2006-03-08/',
+#     '2006-05-17' => 'http://docs.amazonwebservices.com/AWSEcommerceService/2006-05-17/',
+#     '2006-06-07' => 'http://docs.amazonwebservices.com/AWSEcommerceService/2006-06-07/',
+    '2006-06-28' => 'http://docs.amazonwebservices.com/AWSEcommerceService/2006-06-28/',
+};
+
+use constant AWS4_OPERATION_HTML => {
+    'BrowseNodeLookup'      => 'ApiReference/BrowseNodeLookupOperation.html',
+    'CartAdd'               => 'ApiReference/CartAddOperation.html',
+    'CartClear'             => 'ApiReference/CartClearOperation.html',
+    'CartCreate'            => 'ApiReference/CartCreateOperation.html',
+    'CartGet'               => 'ApiReference/CartGetOperation.html',
+    'CartModify'            => 'ApiReference/CartModifyOperation.html',
+    'CustomerContentLookup' => 'ApiReference/CustomerContentLookupOperation.html',
+    'CustomerContentSearch' => 'ApiReference/CustomerContentSearchOperation.html',
+    'Help'                  => 'ApiReference/HelpOperation.html',
+    'ItemLookup'            => 'ApiReference/ItemLookupOperation.html',
+    'ItemSearch'            => 'ApiReference/ItemSearchOperation.html',
+    'ListLookup'            => 'ApiReference/ListLookupOperation.html',
+    'ListSearch'            => 'ApiReference/ListSearchOperation.html',
+    'SellerListingLookup'   => 'ApiReference/SellerListingLookupOperation.html',
+    'SellerListingSearch'   => 'ApiReference/SellerListingSearchOperation.html',
+    'SellerLookup'          => 'ApiReference/SellerLookupOperation.html',
+    'SimilarityLookup'      => 'ApiReference/SimilarityLookupOperation.html',
+    'TransactionLookup'     => 'ApiReference/TransactionLookupOperation.html',
+};
+
+my $Opt_Debug = 0;
+my $Opt_Dest = "../lib/Net/Amazon/Validate/Type";
+my $Opt_Overwrite = 0;
+
+unless (&GetOptions (
+		     "help|h"	  => \&usage,
+		     "version|V"  => \&version,
+		     "debug|D"    => \$Opt_Debug,
+             "dest=s"     => \$Opt_Dest,
+		     "overwrite"  => \$Opt_Overwrite,
+		     "<>"		  => \&parameter,
+		     )) {
+    usage();
+}
+
+## main #########################################
+
+unless (-d $Opt_Dest) {
+    die "The directory $Opt_Dest does not exist!\n";
+}
+
+for my $ver (keys %{(AWS4_ONLINE_HTML)}) {
+    for my $op (keys %{(AWS4_OPERATION_HTML)}) {
+        my $link =  AWS4_ONLINE_HTML->{$ver}.AWS4_OPERATION_HTML->{$op};
+        print "fetching $link ...\n" if $Opt_Debug;
+
+        my $html = get($link);
+        die "%Error: failed to fetch '$link'!\n" 
+            unless $html;
+
+        my $te = HTML::TableExtract->new(headers => [qw(Parameter Value)]);
+        $te->parse($html);
+
+        my %parameters;
+        for my $row ($te->rows) {
+            @$row = map {
+                #	$_ = clean_html_text($_);
+                #	$_ =~ s/<[^>]+>//ig;
+                $_ =~ s/^[ \t\n\r]+//sig;
+                $_ =~ s/[ \t\n\r]+$//sig;
+                $_;
+            } @$row;
+
+            next unless $row->[0] eq "ResponseGroup";
+            $parameters{$row->[0]}{value} = extract_column_data($row->[-1]);
+        }
+
+# NOTE: if you want to support multiple version of the WSDL add this back
+#         my $module_name = "V$ver";
+#         $module_name =~ s|-|_|g;
+# 
+#         my $fn = "$Opt_Dest/$module_name/$op.pm";
+# 
+#         unless (-d "$Opt_Dest/$module_name") {
+#             mkdir "$Opt_Dest/$module_name" or
+#                 die "Failed to create '$Opt_Dest/$module_name'!\n";
+#         }
+
+        my $fn = "$Opt_Dest/$op.pm";
+
+        unless (-d "$Opt_Dest") {
+            mkdir "$Opt_Dest" or
+                die "Failed to create '$Opt_Dest'!\n";
+        }
+
+        if (-f $fn && !$Opt_Overwrite) {
+            warn "The file $fn already exists, skipping!\n";
+            next;
+        }
+
+        my $template = Text::Template->new(TYPE       => 'FILE',
+                                           SOURCE     => 'aws4-types.tmpl',
+                                           DELIMITERS => [ '[%--', '--%]', ],
+                                           );
+
+        #my $hash = {'MODULE_NAME' => "$module_name".'::'."$op",
+        my $hash = {'MODULE_NAME' => $op,
+                    'parameters'   => \%parameters,
+                };
+
+        my $text = $template->fill_in(HASH => $hash);
+        unless ($text) {
+            #die "Failed to fill in the text template for $module_name!\n";
+            die "Failed to fill in the text template for $op!\n";
+        }
+
+        my $fouth = IO::File->new(">$fn") or
+            die "$! '$fn'!\n";
+
+        print $fouth $text;
+
+        $fouth->close();
+    }
+}
+
+## subs #########################################
+
+sub usage {
+    print '$Revision: 1.1 $$Date: 2007-01-10 03:19:05 $$Author: boumenot $ ', "\n";
+    pod2usage(-verbose=>2, -exitval => 2);
+    exit (1);
+}
+
+sub version{
+    print '$Revision: 1.1 $$Date: 2007-01-10 03:19:05 $$Author: boumenot $ ', "\n";
+    exit (1);
+}
+
+sub parameter {
+    my $param = shift;
+    die "%Error: Unknown parameter: $param\n";
+}
+
+sub extract_column_data {
+    my $data = shift;
+    my %h;
+    
+    my $type = "default";
+    for my $line (split(/\n/, $data)) {
+        $line =~ s/^\s+//;
+        $line =~ s/\s+$//;
+        next unless $line;
+        next if defined $h{$line};
+
+        if ($line =~ m/(\w+) Value/) {
+            $type = lc($1);
+        } else {
+            $h{$line} = $type;
+        }
+    }
+    
+    return \%h;
+}
+
+##################################################
+__END__
+
+=pod
+
+=head1 asw4-types
+
+B<asw4-types> - convert Amazon's HTML data to Perl libraries.
+
+=head1 SYNOPSIS
+
+B<asw4-types> - [I<OPTION>]... [I<FILE>]...
+
+=head1 DESCRIPTION
+
+B<asw4-types> converts the data stored in Amazon's HTML pages for ASW4 into
+Perl libraries.  These libraries are used by Net::Amazon to validate user
+input.
+
+=head1 ARGUMENTS
+
+=over 4
+
+=item -h, --help
+
+Displays this message and program version and exits.
+
+=item -V, --version
+
+Displays the program's version and exits.
+
+=item -D, --debug
+
+Prints debug information.
+
+=item --overwrite
+
+Overwrite any libraries if they already exist.
+
+=item --dest E<lt>directoryE<gt>
+
+Specify the destination where the files should be written.
+
+=back
+
+=head1 AUTHORS
+
+Written by Christopher Boumenot.
+
+=head1 REPORTING BUGS
+
+Report bugs to <boumenot@gmail.com>.
+
+=head1 SEE ALSO
+
+=cut
+
