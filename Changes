@@ -1,5 +1,16 @@
 Revision history for Perl extension Net::Amazon:
 
+0.37 (01/23/2007)
+   (cb) Update to WSDL 01-17-2007.
+   (cb) Update index.html to indicate a differences between AWS3 and
+        AWS4 releases.
+   (cb) Add POD for all types of item searches.
+   (cb) Add actor, and author to the SEARCH_TYPE_CLASS_MAP.
+   (cb) README is generated from Amazon.pm, update Amazon.pm with the
+        changes made to README, and regenerate README. 
+   (cb) Mike Schilli found a bug with non-US locales for Reviews where
+        TotalVotes was always zero.  This caused a bogus warning.
+
 0.36 (01/09/2007)
    (cb) Christopher Boumenot is taking over has maintainer of Net::Amazon.
    (cb) Update the library to use AWS4 from AWS3.  The changes involved
@@ -22,9 +33,9 @@ Revision history for Perl extension Net::Amazon:
         information is also locale specific.
    (cb) Cleanup locale support, and add support for France, and Canada.
         Locale support needs more testing.
-   (cb) Add support the different search response types in AWS4: small, 
-        medium, large, similarities, reviews, etc.  The search response
-        type is automatically determined based on search mode.
+   (cb) Add support for the different search response types in AWS4: 
+        small, medium, large, similarities, reviews, etc.  The search 
+        response type is automatically determined based on search mode.
 
 0.35 (02/04/2006)
    (ms) Took starring() out of eg/asin_dvd, looks like it is no longer

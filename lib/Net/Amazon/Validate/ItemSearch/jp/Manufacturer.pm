@@ -10,10 +10,11 @@ use warnings;
 sub new {
     my ($class , %options) = @_;
     my $self = {
-        '_default' => 'Hobbies',
+        '_default' => 'HealthPersonalCare',
         %options,
     };
 
+    push @{$self->{_options}}, 'HealthPersonalCare';
     push @{$self->{_options}}, 'Hobbies';
     push @{$self->{_options}}, 'Kitchen';
     push @{$self->{_options}}, 'SportingGoods';
@@ -45,3 +46,24 @@ sub find_match {
 }
 
 1;
+
+__END__
+
+=head1 NAME
+
+Net::Amazon::Validate::ItemSearch::jp::Manufacturer;
+
+=head1 DESCRIPTION
+
+The default value is HealthPersonalCare, unless mode is specified.
+
+The list of available values are:
+
+    HealthPersonalCare
+    Hobbies
+    Kitchen
+    SportingGoods
+    Toys
+    VideoGames
+
+=cut

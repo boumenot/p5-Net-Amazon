@@ -54,13 +54,10 @@ sub init_via_xmlref {
 
     while(my($field, $method) = splice @pairs, 0, 2) {
         
-        if(defined $xmlref->{$field}) {
+        if(exists $xmlref->{$field}) {
             DEBUG "Setting $field via $method to $xmlref->{$field}";
             $self->$method($xmlref->{$field});
-        } else {
-            LOGWARN "No '$field'";
-            return undef;
-        }
+        } 
     }
 
     for my $review_xmlref (@{$xmlref->{Review}}) {

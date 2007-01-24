@@ -44,3 +44,22 @@ sub find_match {
 }
 
 1;
+
+__END__
+
+=head1 NAME
+
+Net::Amazon::Validate::ItemSearch::us::MPAARating;
+
+=head1 DESCRIPTION
+
+The default value is DVD, unless mode is specified.
+
+The list of available values are:
+
+    DVD
+    DigitalMusic
+    VHS
+    Video
+
+=cut

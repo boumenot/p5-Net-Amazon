@@ -56,12 +56,9 @@ sub init_via_xmlref {
 
     for(keys %$href) {
         my $method = lc($href->{$_});
-        if($xmlref->{$_}) {
+        if(defined $xmlref->{$_}) {
             $self->$method($xmlref->{$_});
-        } else {
-            LOGWARN "No '$_'";
-            return undef;
-        }
+        } 
     }
 }
 
@@ -147,13 +144,18 @@ it under the same terms as Perl itself.
 
 __END__
 <Review>
-  <ASIN>1000100010</ASIN>
-  <Rating>5</Rating>
-  <HelpfulVotes>10HelpfulVotes>
-  <CustomerId>YYYYXXXXZZZZZ</CustomerId>
-  <TotalVotes>5</TotalVotes>
-  <Date>2005-10-10</Date>
+  <ASIN>0201360683</ASIN>
+  <Rating>4</Rating>
+  <HelpfulVotes>2</HelpfulVotes>
+  <CustomerId>YYYYYYYXXYYYY</CustomerId>
+  <Reviewer>
+    <CustomerId>YYYYYYYXXYYYY</CustomerId>
+    <Name>John Doe</Name>
+    <Nickname>JD</Nickname>
+    <Location>New York, NY USA</Location>
+  </Reviewer>
+  <TotalVotes>2</TotalVotes>
+  <Date>2000-03-09</Date>
   <Summary>Wicked Pisser!</Summary>
-  <Content>I found this book very good</Content>
+  <Content>I found this book to be very good</Content>
 </Review>
-  

@@ -51,3 +51,29 @@ sub find_match {
 }
 
 1;
+
+__END__
+
+=head1 NAME
+
+Net::Amazon::Validate::ItemSearch::ca::Keywords;
+
+=head1 DESCRIPTION
+
+The default value is Books, unless mode is specified.
+
+The list of available values are:
+
+    Blended
+    Books
+    Classical
+    DVD
+    ForeignBooks
+    Music
+    Software
+    SoftwareVideoGames
+    VHS
+    Video
+    VideoGames
+
+=cut

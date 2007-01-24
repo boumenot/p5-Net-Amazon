@@ -43,3 +43,21 @@ sub find_match {
 }
 
 1;
+
+__END__
+
+=head1 NAME
+
+Net::Amazon::Validate::ItemSearch::us::Artist;
+
+=head1 DESCRIPTION
+
+The default value is Music, unless mode is specified.
+
+The list of available values are:
+
+    Classical
+    Merchants
+    Music
+
+=cut

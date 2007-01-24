@@ -14,6 +14,7 @@ sub new {
         %options,
     };
 
+    push @{$self->{_options}}, 'All';
     push @{$self->{_options}}, 'Apparel';
     push @{$self->{_options}}, 'Automotive';
     push @{$self->{_options}}, 'Baby';
@@ -25,7 +26,10 @@ sub new {
     push @{$self->{_options}}, 'DigitalMusic';
     push @{$self->{_options}}, 'Electronics';
     push @{$self->{_options}}, 'GourmetFood';
+    push @{$self->{_options}}, 'Grocery';
     push @{$self->{_options}}, 'HealthPersonalCare';
+    push @{$self->{_options}}, 'HomeGarden';
+    push @{$self->{_options}}, 'Industrial';
     push @{$self->{_options}}, 'Jewelry';
     push @{$self->{_options}}, 'Kitchen';
     push @{$self->{_options}}, 'Magazines';
@@ -75,3 +79,57 @@ sub find_match {
 }
 
 1;
+
+__END__
+
+=head1 NAME
+
+Net::Amazon::Validate::ItemSearch::us::UPC;
+
+=head1 DESCRIPTION
+
+The default value is Books, unless mode is specified.
+
+The list of available values are:
+
+    All
+    Apparel
+    Automotive
+    Baby
+    Beauty
+    Blended
+    Books
+    Classical
+    DVD
+    DigitalMusic
+    Electronics
+    GourmetFood
+    Grocery
+    HealthPersonalCare
+    HomeGarden
+    Industrial
+    Jewelry
+    Kitchen
+    Magazines
+    Merchants
+    Miscellaneous
+    Music
+    MusicTracks
+    MusicalInstruments
+    OfficeProducts
+    OutdoorLiving
+    PCHardware
+    PetSupplies
+    Photo
+    Restaurants
+    Software
+    SportingGoods
+    Tools
+    Toys
+    VHS
+    Video
+    VideoGames
+    Wireless
+    WirelessAccessories
+
+=cut

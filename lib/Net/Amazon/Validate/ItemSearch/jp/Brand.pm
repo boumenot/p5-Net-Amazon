@@ -44,3 +44,22 @@ sub find_match {
 }
 
 1;
+
+__END__
+
+=head1 NAME
+
+Net::Amazon::Validate::ItemSearch::jp::Brand;
+
+=head1 DESCRIPTION
+
+The default value is Software, unless mode is specified.
+
+The list of available values are:
+
+    Electronics
+    Kitchen
+    Software
+    VideoGames
+
+=cut

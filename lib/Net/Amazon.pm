@@ -8,8 +8,8 @@ use 5.006;
 use strict;
 use warnings;
 
-our $VERSION          = '0.36';
-our $WSDL_DATE        = '2006-06-28';
+our $VERSION          = '0.37';
+our $WSDL_DATE        = '2007-01-17';
 our $Locale           = 'us';
 our @CANNED_RESPONSES = ();
 
@@ -24,7 +24,9 @@ use Time::HiRes qw(usleep gettimeofday tv_interval);
 # Each key represents a search() type, and each value indicates which
 # Net::Amazon::Request:: class to use to handle it.
 use constant SEARCH_TYPE_CLASS_MAP => {
+    actor        => 'Actor',
     artist       => 'Artist',
+    author       => 'Author',
     asin         => 'ASIN',
     blended      => 'Blended',
     browsenode   => 'BrowseNode',
@@ -593,7 +595,7 @@ __END__
 
 =head1 NAME
 
-Net::Amazon - Framework for accessing amazon.com via SOAP and XML/HTTP
+Net::Amazon - Framework for accessing amazon.com via REST
 
 =head1 SYNOPSIS
 
@@ -613,7 +615,7 @@ Net::Amazon - Framework for accessing amazon.com via SOAP and XML/HTTP
 =head1 ABSTRACT
 
   Net::Amazon provides an object-oriented interface to amazon.com's
-  SOAP and XML/HTTP interfaces. This way it's possible to create applications
+  REST interface. This way it's possible to create applications
   using Amazon's vast amount of data via a functional interface, without
   having to worry about the underlying communication mechanism.
 
@@ -652,10 +654,20 @@ scalar, like in
 then a search for multiple ASINs is performed, returning a list of 
 results.
 
+=item C<< $ua->search(actor => "Adam Sandler") >>
+
+The C<actor> parameter has the user agent search for items created by
+the specified actor. Can return many results.
+
 =item C<< $ua->search(artist => "Rolling Stones") >>
 
 The C<artist> parameter has the user agent search for items created by
 the specified artist. Can return many results.
+
+=item C<< $ua->search(author => "Robert Jordan") >>
+
+The C<author> parameter has the user agent search for items created by
+the specified author. Can return many results.
 
 =item C<< $ua->search(browsenode=>"4025", mode=>"books" [, keywords=>"perl"]) >>
 
@@ -693,11 +705,22 @@ Can return many results.
 Initiate a power search for all books matching the power query.
 Can return many results. See L<Net::Amazon::Request::Power> for details.
 
-=item C<< $ua->search(manufacturer => "o'reilly", mode => "books") >>
+=item C<< $ua->search(manufacturer => "Disney") >>
 
 Initiate a search for all items made by a given manufacturrer.
 Can return many results. See L<Net::Amazon::Request::Manufacturer> 
 for details.
+
+=item C<< $ua->search(musiclabel => "Arista") >>
+
+Initiate a search for all items made by a given music label. Can return many
+results. See Net::Amazon::Request::MusicLabel for details.
+
+
+=item C<< $ua->search(publisher => "o'reilly") >>
+
+Initiate a search for all items made by a given publisher. Can return many
+results. See Net::Amazon::Request::Publisher for details.
 
 =item C<< $ua->search(blended => "Perl") >>
 
@@ -811,10 +834,18 @@ request objects:
 Search by ASIN, mandatory parameter C<asin>. 
 Returns at most one result.
 
+=item Net::Amazon::Request::Actor
+
+Music search by Actor, mandatory parameter "actor". Can return many results.
+
 =item Net::Amazon::Request::Artist
 
 Music search by Artist, mandatory parameter C<artist>.
 Can return many results.
+
+=item Net::Amazon::Request::Author
+
+Music search by Author, mandatory parameter "author". Can return many results.
 
 =item Net::Amazon::Request::BrowseNode
 
@@ -846,7 +877,14 @@ for details. Mandatory parameter C<power>.
 =item Net::Amazon::Request::Manufacturer
 
 Searches for all items made by a given manufacturer. Mandatory parameter
-C<manufacturer>.
+C<manufacturer>.  With the change to AWS4, manufacturer is no longer used to
+search for publishers.  To search via publisher use
+Net::Amazon::Request::Publisher.
+
+=item Net::Amazon::Request::Publisher
+
+Searches for all items made by a given manufacturer. Mandatory
+parameter C<publisher>.
 
 =item Net::Amazon::Request::Similar
 
@@ -937,14 +975,36 @@ corresponding C<Net::Amazon::Response::*> type.
 
 =back
 
+=head2 Modes
+
+Every search method takes a mode parameter.  The mode parameter is used to
+narrow the search to a specific field.  For example, when searching by actor
+you can search by DVD, DigitalMusic, Merchants, VHS, and Video.  By default DVD
+is used when searching by actor.  The modes available are dependent upon the
+type of search, and locale the search is conducted in.
+
+Determining the modes available to a search type are auto-generated from data
+published by Amazon on their web site.  A man page is available for each type
+of search.  The man page lists the default value if a mode is not specified.  A
+list of mode values is also provided.  The man page's name is of the form
+Net::Amazon::Validate::ItemSearch::E<lt>localeE<gt>::E<lt>typeE<gt>.
+
+E<lt>localeE<gt> is one of any ca, de, fr, jp, uk, or us.
+
+E<lt>typeE<gt> is one of Actor, Artist, Author, BrowseNode, Director, Keywords,
+Manufacturer, MusicLabel, Power, Publisher, TextStream, or UPC.
+
 =head2 Accessing foreign Amazon Catalogs
 
-As of this writing (07/2003), Amazon also offers its web service for
-the UK, Germany, and Japan. Just pass in
+As of this writing (01/2007), Amazon also offers its web service for the UK,
+Germany, Canada, France, and Japan. Just pass in
 
-    locale => 'uk'
+    locale => 'ca'
     locale => 'de'
+    locale => 'fr'
     locale => 'jp'
+    locale => 'uk'
+    locale => 'us'
 
 respectively to C<Net::Amazon>'s constructor C<new()> and instead of returning
 results sent by the US mothership, it will query the particular country's
@@ -1002,6 +1062,10 @@ And here's one displaying someone's wishlist:
     } else {
         print $resp->message(), "\n";
     }
+
+DETAILS
+        Net::Amazon is based on Amazon Web Services version 4, and uses
+        WSDL version 2007-01-17.
 
 =head1 CACHING
 
@@ -1240,11 +1304,11 @@ Apply your changes to this development tree.
 Run a diff between the tree and your changes it in this way:
 
     cd Net-Amazon
-    cvs diff -Nau >patch_to_mike.txt
+    cvs diff -Nau >patch_to_christopher.txt
 
 =item *
 
-Email me C<patch_to_mike.txt>. If your patch works (and you've included
+Email me C<patch_to_christopher.txt>. If your patch works (and you've included
 test cases and documentation), I'll apply it on the spot.
 
 =back
@@ -1305,6 +1369,8 @@ list net-amazon-devel@lists.sourceforge.net
 =head1 AUTHOR
 
 Mike Schilli, E<lt>na@perlmeister.comE<gt> (Please contact me via the mailing list: net-amazon-devel@lists.sourceforge.net )
+
+Maintainers: Christopher Boumenot, E<lt>boumenot+na@gmail.comE<gt>
 
 Contributors (thanks y'all!):
 

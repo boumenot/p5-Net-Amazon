@@ -43,3 +43,21 @@ sub find_match {
 }
 
 1;
+
+__END__
+
+=head1 NAME
+
+Net::Amazon::Validate::ItemSearch::us::Author;
+
+=head1 DESCRIPTION
+
+The default value is Books, unless mode is specified.
+
+The list of available values are:
+
+    Books
+    Merchants
+    PetSupplies
+
+=cut

@@ -56,7 +56,7 @@ requests to the Amazon web service.
 The publisher to search for is specified in the C<publisher> parameter.
 
 Upon success, the responses' C<properties()> method will return a list of
-C<Net::Amazon::Property::Music> objects.
+C<Net::Amazon::Property::Book> objects.
 
 Check L<Net::Amazon::Request> for common request parameters not listed here.
 

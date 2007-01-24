@@ -1,5 +1,5 @@
 ######################################################################
-    Net::Amazon 0.36
+    Net::Amazon 0.37
 ######################################################################
 
 NAME
@@ -57,8 +57,8 @@ DESCRIPTION
         results.
 
     "$ua->search(actor => "Adam Sandler")"
-        The "actor" parameter has the user agent search for items created
-        by the specified actor. Can return many results.
+        The "actor" parameter has the user agent search for items created by
+        the specified actor. Can return many results.
 
     "$ua->search(artist => "Rolling Stones")"
         The "artist" parameter has the user agent search for items created
@@ -192,8 +192,8 @@ DESCRIPTION
         result.
 
     Net::Amazon::Request::Actor
-        Music search by Actor, mandatory parameter "actor". Can return
-        many results.
+        Music search by Actor, mandatory parameter "actor". Can return many
+        results.
 
     Net::Amazon::Request::Artist
         Music search by Artist, mandatory parameter "artist". Can return
@@ -227,9 +227,9 @@ DESCRIPTION
 
     Net::Amazon::Request::Manufacturer
         Searches for all items made by a given manufacturer. Mandatory
-        parameter "manufacturer".  With the change to AWS4, manufacturer
-        is no longer used to search for publishers.  To search via publisher
-        use Net::Amazon::Request::Publisher.
+        parameter "manufacturer". With the change to AWS4, manufacturer is
+        no longer used to search for publishers. To search via publisher use
+        Net::Amazon::Request::Publisher.
 
     Net::Amazon::Request::Publisher
         Searches for all items made by a given manufacturer. Mandatory
@@ -304,35 +304,37 @@ DESCRIPTION
             Sends a request to the Amazon web service. $request is of a
             "Net::Amazon::Request::*" type and $response will be of the
             corresponding "Net::Amazon::Response::*" type.
+
   Modes
-    Every search method takes a mode parameter.  The mode parameter is used to
-    narrow the search to a specific field.  For example, when searching by actor
-    you can search by DVD, DigitalMusic, Merchants, VHS, and Video.  By default
-    DVD is used when searching by actor.  The modes available are dependent upon
-    the type of search, and locale the search is conducted in.
+        Every search method takes a mode parameter. The mode parameter is
+        used to narrow the search to a specific field. For example, when
+        searching by actor you can search by DVD, DigitalMusic, Merchants,
+        VHS, and Video. By default DVD is used when searching by actor. The
+        modes available are dependent upon the type of search, and locale
+        the search is conducted in.
 
-    Determining the modes available to a search type are auto-generated from data
-    published by Amazon on their web site.  As a result there is currently (as of 
-    01/2007) no man pages to inform the user about the modes available for a
-    search, nor what the default mode is for a given search or locale.  I plan 
-    rectifying that soon.  (I apologize up front for this statement.)  In the mean
-    time the source code is available, and I believe it to be fairly legible.  The 
-    classes are named Net::Amazon::Validate::ItemSearch::E<lt>localeE<gt>::E<lt>typeE<gt>.
+        Determining the modes available to a search type are auto-generated
+        from data published by Amazon on their web site. A man page is
+        available for each type of search. The man page lists the default
+        value if a mode is not specified. A list of mode values is also
+        provided. The man page's name is of the form
+        Net::Amazon::Validate::ItemSearch::<locale>::<type>.
 
-    E<lt>localeE<gt> is one of any ca, de, fr, jp, uk, or us.
+        <locale> is one of any ca, de, fr, jp, uk, or us.
 
-    E<lt>typeE<gt> is one of Actor, Artist, Author, BrowseNode, Director, Keywords,
-    Manufacturer, MusicLabel, Power, Publisher, TextStream, or UPC.
+        <type> is one of Actor, Artist, Author, BrowseNode, Director,
+        Keywords, Manufacturer, MusicLabel, Power, Publisher, TextStream, or
+        UPC.
 
   Accessing foreign Amazon Catalogs
         As of this writing (01/2007), Amazon also offers its web service for
         the UK, Germany, Canada, France, and Japan. Just pass in
 
-            locale => 'uk'
-            locale => 'de'
             locale => 'ca'
+            locale => 'de'
             locale => 'fr'
             locale => 'jp'
+            locale => 'uk'
 
         respectively to "Net::Amazon"'s constructor "new()" and instead of
         returning results sent by the US mothership, it will query the
@@ -391,9 +393,8 @@ DESCRIPTION
                 print $resp->message(), "\n";
             }
 
-DETAILS
-        Net::Amazon is based on Amazon Web Services version 4, and uses
-        WSDL version 2006-06-28.
+        DETAILS Net::Amazon is based on Amazon Web Services version 4, and
+        uses WSDL version 2006-11-14.
 
 CACHING
         Responses returned by Amazon's web service can be cached locally.
@@ -618,9 +619,9 @@ WHY ISN'T THERE SUPPORT FOR METHOD XYZ?
                 cd Net-Amazon
                 cvs diff -Nau >patch_to_christopher.txt
 
-        *   Email me "patch_to_christopher.txt". If your patch works (and you've
-            included test cases and documentation), I'll apply it on the
-            spot.
+        *   Email me "patch_to_christopher.txt". If your patch works (and
+            you've included test cases and documentation), I'll apply it on
+            the spot.
 
 INSTALLATION
         "Net::Amazon" depends on Log::Log4perl, which can be pulled from
@@ -673,8 +674,7 @@ AUTHOR
         Mike Schilli, <na@perlmeister.com> (Please contact me via the
         mailing list: net-amazon-devel@lists.sourceforge.net )
 
-        Maintainers:
-            Christopher Boumenot <boumenot@gmail.com>
+        Maintainers: Christopher Boumenot, <boumenot+na@gmail.com>
 
         Contributors (thanks y'all!):
 

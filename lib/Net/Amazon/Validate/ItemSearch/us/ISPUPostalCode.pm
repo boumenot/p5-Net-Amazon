@@ -71,3 +71,49 @@ sub find_match {
 }
 
 1;
+
+__END__
+
+=head1 NAME
+
+Net::Amazon::Validate::ItemSearch::us::ISPUPostalCode;
+
+=head1 DESCRIPTION
+
+The default value is Books, unless mode is specified.
+
+The list of available values are:
+
+    Apparel
+    Automotive
+    Baby
+    Beauty
+    Books
+    Classical
+    DVD
+    DigitalMusic
+    Electronics
+    GourmetFood
+    HealthPersonalCare
+    Jewelry
+    Kitchen
+    Magazines
+    Miscellaneous
+    Music
+    MusicTracks
+    MusicalInstruments
+    OfficeProducts
+    OutdoorLiving
+    PCHardware
+    Photo
+    Software
+    SportingGoods
+    Tools
+    Toys
+    VHS
+    Video
+    VideoGames
+    Wireless
+    WirelessAccessories
+
+=cut

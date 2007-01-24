@@ -1,6 +1,10 @@
 #!/usr/bin/perl
 
-my $IDX = "/home/groups/n/ne/net-amazon/htdocs/index.html";
+use strict;
+use warnings;
+
+#my $IDX = "/home/groups/n/ne/net-amazon/htdocs/index.html";
+my $IDX = "index.html";
 
 my ($version, $devprod) = @ARGV;
 
@@ -21,6 +25,8 @@ if(defined $devprod and $devprod =~ /(dev)|(alpha)|(beta)/) {
     $data =~ s/<!--STABLE-->.*?<!--\/STABLE-->/repstable()/se;
 }
 
+$data =~ s/<!--STABLE_AWS3-->.*?<!--\/STABLE_AWS3-->/repstable_aws3()/se;
+
 ##################################################
 sub repnews {
 ##################################################
@@ -37,9 +43,20 @@ sub repstable {
 ##################################################
     return <<EOT
 <!--STABLE-->
-<FONT SIZE=-1><B>Stable Release ($date)</B></FONT>
+<FONT SIZE=-1><B>Beta Release ($date) for AWS4</B></FONT>
 <B><A HREF=/releases/Net-Amazon-$version.tar.gz>Net-Amazon-$version.tar.gz</A></B>
 <!--/STABLE-->
+EOT
+}
+
+##################################################
+sub repstable_aws3 {
+##################################################
+    return <<EOT
+<!--STABLE_AWS3-->
+<FONT SIZE=-1><B>Stable Release (02/04/2006) for AWS3</B></FONT>
+<B><A HREF=/releases/Net-Amazon-0.35.tar.gz>Net-Amazon-0.35.tar.gz</A></B>
+<!--/STABLE-AWS3-->
 EOT
 }
 
@@ -48,7 +65,7 @@ sub repdev {
 ##################################################
     return <<EOT
 <!--DEV-->
-<FONT SIZE=-1><B>Development Release ($date)</B></FONT>
+<FONT SIZE=-1><B>Development Release ($date) for AWS4</B></FONT>
 <B><A HREF=/releases/Net-Amazon-$version.tar.gz>Net-Amazon-$version.tar.gz</A></B>
 <!--/DEV-->
 EOT

@@ -41,3 +41,19 @@ sub find_match {
 }
 
 1;
+
+__END__
+
+=head1 NAME
+
+Net::Amazon::Validate::ItemSearch::us::AudienceRating;
+
+=head1 DESCRIPTION
+
+The default value is Merchants, unless mode is specified.
+
+The list of available values are:
+
+    Merchants
+
+=cut

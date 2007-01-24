@@ -23,6 +23,7 @@ sub new {
     push @{$self->{_options}}, 'Photo';
     push @{$self->{_options}}, 'Software';
     push @{$self->{_options}}, 'SoftwareVideoGames';
+    push @{$self->{_options}}, 'SportingGoods';
     push @{$self->{_options}}, 'VideoGames';
 
     bless $self, $class;
@@ -50,3 +51,29 @@ sub find_match {
 }
 
 1;
+
+__END__
+
+=head1 NAME
+
+Net::Amazon::Validate::ItemSearch::de::Manufacturer;
+
+=head1 DESCRIPTION
+
+The default value is Software, unless mode is specified.
+
+The list of available values are:
+
+    Electronics
+    HealthPersonalCare
+    HomeGarden
+    Kitchen
+    OutdoorLiving
+    PCHardware
+    Photo
+    Software
+    SoftwareVideoGames
+    SportingGoods
+    VideoGames
+
+=cut

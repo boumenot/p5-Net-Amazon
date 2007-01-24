@@ -20,6 +20,7 @@ sub new {
     push @{$self->{_options}}, 'Beauty';
     push @{$self->{_options}}, 'Electronics';
     push @{$self->{_options}}, 'HealthPersonalCare';
+    push @{$self->{_options}}, 'HomeGarden';
     push @{$self->{_options}}, 'Kitchen';
     push @{$self->{_options}}, 'Merchants';
     push @{$self->{_options}}, 'Miscellaneous';
@@ -59,3 +60,38 @@ sub find_match {
 }
 
 1;
+
+__END__
+
+=head1 NAME
+
+Net::Amazon::Validate::ItemSearch::us::Brand;
+
+=head1 DESCRIPTION
+
+The default value is Software, unless mode is specified.
+
+The list of available values are:
+
+    Apparel
+    Automotive
+    Baby
+    Beauty
+    Electronics
+    HealthPersonalCare
+    HomeGarden
+    Kitchen
+    Merchants
+    Miscellaneous
+    MusicalInstruments
+    OfficeProducts
+    OutdoorLiving
+    PCHardware
+    PetSupplies
+    Photo
+    Software
+    SportingGoods
+    Tools
+    VideoGames
+
+=cut

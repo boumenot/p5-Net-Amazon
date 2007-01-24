@@ -44,7 +44,7 @@ Net::Amazon::Request::Actor - Class for submitting Actor requests
   );
 
   my $req = Net::Amazon::Request::Actor->new( 
-      actor => 'James Patterson'
+      actor => 'Adam Sandler'
   );
 
     # Response is of type Net::Amazon::Response::Actor
@@ -58,7 +58,7 @@ requests to the Amazon web service.
 The actor to search for is specified in the C<actor> parameter.
 
 Upon success, the responses' C<properties()> method will return a list of
-C<Net::Amazon::Property::Music> objects.
+C<Net::Amazon::Property::DVD> objects.
 
 Check L<Net::Amazon::Request> for common request parameters not listed here.
 

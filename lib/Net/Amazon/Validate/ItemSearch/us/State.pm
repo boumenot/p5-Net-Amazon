@@ -22,6 +22,7 @@ sub new {
     push @{$self->{_options}}, 'DigitalMusic';
     push @{$self->{_options}}, 'Electronics';
     push @{$self->{_options}}, 'GourmetFood';
+    push @{$self->{_options}}, 'Grocery';
     push @{$self->{_options}}, 'HealthPersonalCare';
     push @{$self->{_options}}, 'Jewelry';
     push @{$self->{_options}}, 'Kitchen';
@@ -69,3 +70,48 @@ sub find_match {
 }
 
 1;
+
+__END__
+
+=head1 NAME
+
+Net::Amazon::Validate::ItemSearch::us::State;
+
+=head1 DESCRIPTION
+
+The default value is Music, unless mode is specified.
+
+The list of available values are:
+
+    Apparel
+    Automotive
+    Baby
+    Classical
+    DVD
+    DigitalMusic
+    Electronics
+    GourmetFood
+    Grocery
+    HealthPersonalCare
+    Jewelry
+    Kitchen
+    Magazines
+    Miscellaneous
+    Music
+    MusicTracks
+    OfficeProducts
+    OutdoorLiving
+    PCHardware
+    PetSupplies
+    Photo
+    Restaurants
+    Software
+    SportingGoods
+    Tools
+    Toys
+    VHS
+    Video
+    VideoGames
+    Wireless
+
+=cut

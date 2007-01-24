@@ -19,6 +19,7 @@ sub new {
     push @{$self->{_options}}, 'DVD';
     push @{$self->{_options}}, 'Electronics';
     push @{$self->{_options}}, 'ForeignBooks';
+    push @{$self->{_options}}, 'HealthPersonalCare';
     push @{$self->{_options}}, 'Hobbies';
     push @{$self->{_options}}, 'Kitchen';
     push @{$self->{_options}}, 'Music';
@@ -54,3 +55,33 @@ sub find_match {
 }
 
 1;
+
+__END__
+
+=head1 NAME
+
+Net::Amazon::Validate::ItemSearch::jp::Title;
+
+=head1 DESCRIPTION
+
+The default value is Books, unless mode is specified.
+
+The list of available values are:
+
+    Books
+    Classical
+    DVD
+    Electronics
+    ForeignBooks
+    HealthPersonalCare
+    Hobbies
+    Kitchen
+    Music
+    Software
+    SportingGoods
+    Toys
+    VHS
+    Video
+    VideoGames
+
+=cut
