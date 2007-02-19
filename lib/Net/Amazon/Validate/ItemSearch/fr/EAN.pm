@@ -1,7 +1,7 @@
 # -*- perl -*-
 # !!! DO NOT EDIT !!!
 # This file was automatically generated.
-package Net::Amazon::Validate::ItemSearch::fr::UPC;
+package Net::Amazon::Validate::ItemSearch::fr::EAN;
 
 use 5.006;
 use strict;
@@ -48,7 +48,7 @@ sub find_match {
     for (@{$self->{_options}}) {
         return $_ if lc($_) eq lc($value);
     }
-    die "$value is not a valid value for fr::UPC!\n";
+    die "$value is not a valid value for fr::EAN!\n";
 }
 
 1;
@@ -57,7 +57,7 @@ __END__
 
 =head1 NAME
 
-Net::Amazon::Validate::ItemSearch::fr::UPC;
+Net::Amazon::Validate::ItemSearch::fr::EAN;
 
 =head1 DESCRIPTION
 

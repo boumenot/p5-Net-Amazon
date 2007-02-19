@@ -1,5 +1,19 @@
 Revision history for Perl extension Net::Amazon:
 
+0.39 (02/18/2007)
+   (cb) Update documentation, 10-digit vs. 13-digit ISBN was incorrect.
+   (cb) Add support for searching by EAN.  This is only valid for 
+        non-US locations.  Suggested by Nick Faarvang.
+   (cb) Remove UPC ItemSearch'es for non-US locales, it is invalid.
+   (cb) Fix a long standing bug when validating search against non-US
+        locales.
+
+0.38 (01/24/2007)
+   (cb) Update documentation, dewey_decimal_number is for non-fiction 
+        only.
+   (cb) Add support for searching by ISBN.
+   (cb) UPC is an ItemLookup, not an ItemSearch.
+
 0.37 (01/23/2007)
    (cb) Update to WSDL 01-17-2007.
    (cb) Update index.html to indicate a differences between AWS3 and

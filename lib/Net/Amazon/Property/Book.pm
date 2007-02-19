@@ -140,7 +140,7 @@ Returns the number of pages.
 
 =item dewey_decimal()
 
-Returns the Dewey decimal number.
+Returns the Dewey decimal number, this is for non-fiction only.
 
 =item new(xmlref => $xmlref)
 

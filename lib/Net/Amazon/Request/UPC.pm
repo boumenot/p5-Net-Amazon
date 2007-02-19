@@ -20,8 +20,6 @@ sub new {
 
     my $self = $class->SUPER::new(%options);
 
-    $self->_convert_itemsearch();
-
     bless $self, $class;   # reconsecrate
 }
 

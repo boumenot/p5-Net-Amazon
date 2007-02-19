@@ -1,7 +1,6 @@
 ######################################################################
-    Net::Amazon 0.37
+    Net::Amazon 0.39
 ######################################################################
-
 NAME
     Net::Amazon - Framework for accessing amazon.com via REST
 
@@ -88,6 +87,11 @@ DESCRIPTION
     "$ua->search(upc => "075596278324", mode => "music")"
         Music search by UPC (product barcode), mandatory parameter "upc".
         "mode" has to be set to "music". Returns at most one result.
+
+    "$ua->search(isbn => "0439784549")"
+        Book search by ISBN (International Standard Book Number), mandatory
+        parameter "isbn". Returns at most one result. When searching non-US
+        locales use the 13-digit ISBN.
 
     "$ua->search(similar => "0201360683")"
         Search for all items similar to the one represented by the ASIN
@@ -335,6 +339,7 @@ DESCRIPTION
             locale => 'fr'
             locale => 'jp'
             locale => 'uk'
+            locale => 'us'
 
         respectively to "Net::Amazon"'s constructor "new()" and instead of
         returning results sent by the US mothership, it will query the
@@ -394,7 +399,7 @@ DESCRIPTION
             }
 
         DETAILS Net::Amazon is based on Amazon Web Services version 4, and
-        uses WSDL version 2006-11-14.
+        uses WSDL version 2007-01-17.
 
 CACHING
         Responses returned by Amazon's web service can be cached locally.

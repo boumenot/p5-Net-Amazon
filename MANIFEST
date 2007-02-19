@@ -20,8 +20,10 @@ eg/browse
 eg/cd_fetch
 eg/cheapo
 eg/dejazz
+eg/ean
 eg/exchange
 eg/heavy
+eg/isbn
 eg/keyword
 eg/manufacturer
 eg/maxauthors
@@ -54,7 +56,9 @@ lib/Net/Amazon/Request/ASIN.pm
 lib/Net/Amazon/Request/Author.pm
 lib/Net/Amazon/Request/Blended.pm
 lib/Net/Amazon/Request/BrowseNode.pm
+lib/Net/Amazon/Request/EAN.pm
 lib/Net/Amazon/Request/Exchange.pm
+lib/Net/Amazon/Request/ISBN.pm
 lib/Net/Amazon/Request/Keyword.pm
 lib/Net/Amazon/Request/Manufacturer.pm
 lib/Net/Amazon/Request/MusicLabel.pm
@@ -73,7 +77,9 @@ lib/Net/Amazon/Response/ASIN.pm
 lib/Net/Amazon/Response/Author.pm
 lib/Net/Amazon/Response/Blended.pm
 lib/Net/Amazon/Response/BrowseNode.pm
+lib/Net/Amazon/Response/EAN.pm
 lib/Net/Amazon/Response/Exchange.pm
+lib/Net/Amazon/Response/ISBN.pm
 lib/Net/Amazon/Response/Keyword.pm
 lib/Net/Amazon/Response/Manufacturer.pm
 lib/Net/Amazon/Response/MusicLabel.pm
@@ -99,6 +105,7 @@ lib/Net/Amazon/Validate/ItemSearch/ca/Conductor.pm
 lib/Net/Amazon/Validate/ItemSearch/ca/Count.pm
 lib/Net/Amazon/Validate/ItemSearch/ca/DeliveryMethod.pm
 lib/Net/Amazon/Validate/ItemSearch/ca/Director.pm
+lib/Net/Amazon/Validate/ItemSearch/ca/EAN.pm
 lib/Net/Amazon/Validate/ItemSearch/ca/ItemPage.pm
 lib/Net/Amazon/Validate/ItemSearch/ca/Keywords.pm
 lib/Net/Amazon/Validate/ItemSearch/ca/Manufacturer.pm
@@ -110,7 +117,6 @@ lib/Net/Amazon/Validate/ItemSearch/ca/Power.pm
 lib/Net/Amazon/Validate/ItemSearch/ca/Publisher.pm
 lib/Net/Amazon/Validate/ItemSearch/ca/Sort.pm
 lib/Net/Amazon/Validate/ItemSearch/ca/Title.pm
-lib/Net/Amazon/Validate/ItemSearch/ca/UPC.pm
 lib/Net/Amazon/Validate/ItemSearch/de/Actor.pm
 lib/Net/Amazon/Validate/ItemSearch/de/Artist.pm
 lib/Net/Amazon/Validate/ItemSearch/de/Author.pm
@@ -121,6 +127,7 @@ lib/Net/Amazon/Validate/ItemSearch/de/Conductor.pm
 lib/Net/Amazon/Validate/ItemSearch/de/Count.pm
 lib/Net/Amazon/Validate/ItemSearch/de/DeliveryMethod.pm
 lib/Net/Amazon/Validate/ItemSearch/de/Director.pm
+lib/Net/Amazon/Validate/ItemSearch/de/EAN.pm
 lib/Net/Amazon/Validate/ItemSearch/de/ItemPage.pm
 lib/Net/Amazon/Validate/ItemSearch/de/Keywords.pm
 lib/Net/Amazon/Validate/ItemSearch/de/Manufacturer.pm
@@ -133,7 +140,6 @@ lib/Net/Amazon/Validate/ItemSearch/de/Power.pm
 lib/Net/Amazon/Validate/ItemSearch/de/Publisher.pm
 lib/Net/Amazon/Validate/ItemSearch/de/Sort.pm
 lib/Net/Amazon/Validate/ItemSearch/de/Title.pm
-lib/Net/Amazon/Validate/ItemSearch/de/UPC.pm
 lib/Net/Amazon/Validate/ItemSearch/fr/Actor.pm
 lib/Net/Amazon/Validate/ItemSearch/fr/Artist.pm
 lib/Net/Amazon/Validate/ItemSearch/fr/AudienceRating.pm
@@ -146,6 +152,7 @@ lib/Net/Amazon/Validate/ItemSearch/fr/Conductor.pm
 lib/Net/Amazon/Validate/ItemSearch/fr/Count.pm
 lib/Net/Amazon/Validate/ItemSearch/fr/DeliveryMethod.pm
 lib/Net/Amazon/Validate/ItemSearch/fr/Director.pm
+lib/Net/Amazon/Validate/ItemSearch/fr/EAN.pm
 lib/Net/Amazon/Validate/ItemSearch/fr/ItemPage.pm
 lib/Net/Amazon/Validate/ItemSearch/fr/Keywords.pm
 lib/Net/Amazon/Validate/ItemSearch/fr/Manufacturer.pm
@@ -157,7 +164,6 @@ lib/Net/Amazon/Validate/ItemSearch/fr/Power.pm
 lib/Net/Amazon/Validate/ItemSearch/fr/Publisher.pm
 lib/Net/Amazon/Validate/ItemSearch/fr/Sort.pm
 lib/Net/Amazon/Validate/ItemSearch/fr/Title.pm
-lib/Net/Amazon/Validate/ItemSearch/fr/UPC.pm
 lib/Net/Amazon/Validate/ItemSearch/jp/Actor.pm
 lib/Net/Amazon/Validate/ItemSearch/jp/Artist.pm
 lib/Net/Amazon/Validate/ItemSearch/jp/Author.pm
@@ -167,6 +173,7 @@ lib/Net/Amazon/Validate/ItemSearch/jp/Composer.pm
 lib/Net/Amazon/Validate/ItemSearch/jp/Condition.pm
 lib/Net/Amazon/Validate/ItemSearch/jp/Conductor.pm
 lib/Net/Amazon/Validate/ItemSearch/jp/Director.pm
+lib/Net/Amazon/Validate/ItemSearch/jp/EAN.pm
 lib/Net/Amazon/Validate/ItemSearch/jp/ItemPage.pm
 lib/Net/Amazon/Validate/ItemSearch/jp/Keywords.pm
 lib/Net/Amazon/Validate/ItemSearch/jp/Manufacturer.pm
@@ -179,7 +186,6 @@ lib/Net/Amazon/Validate/ItemSearch/jp/Power.pm
 lib/Net/Amazon/Validate/ItemSearch/jp/Publisher.pm
 lib/Net/Amazon/Validate/ItemSearch/jp/Sort.pm
 lib/Net/Amazon/Validate/ItemSearch/jp/Title.pm
-lib/Net/Amazon/Validate/ItemSearch/jp/UPC.pm
 lib/Net/Amazon/Validate/ItemSearch/uk/Actor.pm
 lib/Net/Amazon/Validate/ItemSearch/uk/Artist.pm
 lib/Net/Amazon/Validate/ItemSearch/uk/Author.pm
@@ -189,6 +195,7 @@ lib/Net/Amazon/Validate/ItemSearch/uk/Composer.pm
 lib/Net/Amazon/Validate/ItemSearch/uk/Condition.pm
 lib/Net/Amazon/Validate/ItemSearch/uk/Conductor.pm
 lib/Net/Amazon/Validate/ItemSearch/uk/Director.pm
+lib/Net/Amazon/Validate/ItemSearch/uk/EAN.pm
 lib/Net/Amazon/Validate/ItemSearch/uk/ItemPage.pm
 lib/Net/Amazon/Validate/ItemSearch/uk/Keywords.pm
 lib/Net/Amazon/Validate/ItemSearch/uk/Manufacturer.pm
@@ -202,7 +209,6 @@ lib/Net/Amazon/Validate/ItemSearch/uk/Power.pm
 lib/Net/Amazon/Validate/ItemSearch/uk/Publisher.pm
 lib/Net/Amazon/Validate/ItemSearch/uk/Sort.pm
 lib/Net/Amazon/Validate/ItemSearch/uk/Title.pm
-lib/Net/Amazon/Validate/ItemSearch/uk/UPC.pm
 lib/Net/Amazon/Validate/ItemSearch/us/Actor.pm
 lib/Net/Amazon/Validate/ItemSearch/us/Artist.pm
 lib/Net/Amazon/Validate/ItemSearch/us/AudienceRating.pm
@@ -278,6 +284,8 @@ t/016Publisher.t
 t/017Author.t
 t/018Actor.t
 t/019MusicLabel.t
+t/020ISBN.t
+t/021EAN.t
 t/canned/actor.xml
 t/canned/artist.xml
 t/canned/asin_cd.xml
@@ -290,7 +298,10 @@ t/canned/blended1.xml
 t/canned/blendedm.xml
 t/canned/browse.xml
 t/canned/dvd.xml
+t/canned/ean.xml
 t/canned/exchange.xml
+t/canned/isbn-de.xml
+t/canned/isbn.xml
 t/canned/keyword.xml
 t/canned/locale.xml
 t/canned/manufacturer.xml

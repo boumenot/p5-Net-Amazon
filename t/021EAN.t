@@ -8,11 +8,11 @@
 use warnings;
 use strict;
 
-use Test::More tests => 19;
+use Test::More tests => 13;
 BEGIN { use_ok('Net::Amazon') };
 
-use Net::Amazon::Request::UPC;
-use Net::Amazon::Response::UPC;
+use Net::Amazon::Request::EAN;
+use Net::Amazon::Response::EAN;
 use File::Spec;
 
 my $CANNED = "canned";
@@ -23,46 +23,40 @@ $CANNED = File::Spec->catfile("t", "canned") unless -d $CANNED;
 #Log::Log4perl->easy_init($DEBUG);
 
 ######################################################################
-# Successful UPC fetch
+# Successful EAN fetch
 ######################################################################
 
-canned("upc_zwan.xml");
+canned("ean.xml");
 
 my $ua = Net::Amazon->new(
     token       => 'YOUR_AMZN_TOKEN',
+    locale      => 'uk',
 );
 
-my $req = Net::Amazon::Request::UPC->new(
-    upc  => '093624843627',
-    mode => 'music',
+my $req = Net::Amazon::Request::EAN->new(
+    ean => '5035822647633',
 );
 
-   # Response is of type Net::Amazon::Response::UPC
+   # Response is of type Net::Amazon::Response::ISBN
 my $resp = $ua->request($req);
 
 ok($resp->is_success(), "Successful fetch");
-like($resp->as_string(), qr#Mary Star of the Sea#, "Found Zwan");
-like($resp->as_string(), qr#Zwan#, "Found Zwan");
+like($resp->as_string(), qr#U-Turn#, "Found U-Turn");
 
 ######################################################################
 # Parameters
 ######################################################################
 my $p = ($resp->properties)[0];
-is($p->artist(), "Zwan", "Artist is Zwan");
-is($p->album(), "Mary Star of the Sea", "Album is Mary Star of the Sea");
-is($p->year(), "2003", "Year is 2003");
-is($p->label(), "Reprise / Wea", "Label is Reprise / Wea");
-is($p->studio(), "Reprise / Wea", "Studio is Reprise / Wea");
-is($p->ean(), "0093624843627", "EAN is 0093624843627");
-is($p->NumMedia(), 1, "NumMedia is 1");
-is($p->nummedia(), 1, "nummedia is 1");
-is($p->Media(), "Audio CD", "Media is Audio CD");
-is($p->media(), "Audio CD", "media is Audio CD");
-is($p->binding(), "Audio CD", "binding is Audio CD");
-is($p->Binding(), "Audio CD", "Binding is Audio CD");
-is($p->upc(), "093624843627", "UPC is 093624843627");
-is($p->ASIN(), "B00007M84Q", "ASIN is B00007M84Q");
-is($p->Asin(), "B00007M84Q", "Asin is B00007M84Q");
+is($p->Asin(), "B00004CXLB", "ASIN is B00004CXLB");
+is($p->SalesRank(), "21838", "SalesRank is 21838");
+is($p->actor(), "Sean Penn", "Actor is Sean Penn");
+is($p->ean(), "5024165771907", "EAN is 5024165771907");
+is($p->director(), "Oliver Stone", "Director is Oliver Stone");
+like($p->label(), qr#Sony Pictures#, "Label is Sony Pictures");
+is($p->region_code(), '2', "Region Code is 2");
+is($p->running_time(), "119", "Running Time is 119");
+like($p->studio(), qr#Sony Pictures Home#, "Studio is Sony Pictures");
+like($p->title(), qr#U-Turn#, "Title is U-Turn");
 
 ######################################################################
 # handle canned responses

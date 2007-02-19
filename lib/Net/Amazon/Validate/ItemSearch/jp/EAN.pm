@@ -1,7 +1,7 @@
 # -*- perl -*-
 # !!! DO NOT EDIT !!!
 # This file was automatically generated.
-package Net::Amazon::Validate::ItemSearch::de::UPC;
+package Net::Amazon::Validate::ItemSearch::jp::EAN;
 
 use 5.006;
 use strict;
@@ -21,18 +21,12 @@ sub new {
     push @{$self->{_options}}, 'Electronics';
     push @{$self->{_options}}, 'ForeignBooks';
     push @{$self->{_options}}, 'HealthPersonalCare';
-    push @{$self->{_options}}, 'HomeGarden';
+    push @{$self->{_options}}, 'Hobbies';
     push @{$self->{_options}}, 'Kitchen';
-    push @{$self->{_options}}, 'Magazines';
     push @{$self->{_options}}, 'Music';
     push @{$self->{_options}}, 'MusicTracks';
-    push @{$self->{_options}}, 'OutdoorLiving';
-    push @{$self->{_options}}, 'PCHardware';
-    push @{$self->{_options}}, 'Photo';
     push @{$self->{_options}}, 'Software';
-    push @{$self->{_options}}, 'SoftwareVideoGames';
     push @{$self->{_options}}, 'SportingGoods';
-    push @{$self->{_options}}, 'Tools';
     push @{$self->{_options}}, 'Toys';
     push @{$self->{_options}}, 'VHS';
     push @{$self->{_options}}, 'Video';
@@ -59,7 +53,7 @@ sub find_match {
     for (@{$self->{_options}}) {
         return $_ if lc($_) eq lc($value);
     }
-    die "$value is not a valid value for de::UPC!\n";
+    die "$value is not a valid value for jp::EAN!\n";
 }
 
 1;
@@ -68,7 +62,7 @@ __END__
 
 =head1 NAME
 
-Net::Amazon::Validate::ItemSearch::de::UPC;
+Net::Amazon::Validate::ItemSearch::jp::EAN;
 
 =head1 DESCRIPTION
 
@@ -83,18 +77,12 @@ The list of available values are:
     Electronics
     ForeignBooks
     HealthPersonalCare
-    HomeGarden
+    Hobbies
     Kitchen
-    Magazines
     Music
     MusicTracks
-    OutdoorLiving
-    PCHardware
-    Photo
     Software
-    SoftwareVideoGames
     SportingGoods
-    Tools
     Toys
     VHS
     Video

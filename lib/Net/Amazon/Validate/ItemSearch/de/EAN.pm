@@ -1,7 +1,7 @@
 # -*- perl -*-
 # !!! DO NOT EDIT !!!
 # This file was automatically generated.
-package Net::Amazon::Validate::ItemSearch::ca::UPC;
+package Net::Amazon::Validate::ItemSearch::de::EAN;
 
 use 5.006;
 use strict;
@@ -18,10 +18,22 @@ sub new {
     push @{$self->{_options}}, 'Books';
     push @{$self->{_options}}, 'Classical';
     push @{$self->{_options}}, 'DVD';
+    push @{$self->{_options}}, 'Electronics';
     push @{$self->{_options}}, 'ForeignBooks';
+    push @{$self->{_options}}, 'HealthPersonalCare';
+    push @{$self->{_options}}, 'HomeGarden';
+    push @{$self->{_options}}, 'Kitchen';
+    push @{$self->{_options}}, 'Magazines';
     push @{$self->{_options}}, 'Music';
+    push @{$self->{_options}}, 'MusicTracks';
+    push @{$self->{_options}}, 'OutdoorLiving';
+    push @{$self->{_options}}, 'PCHardware';
+    push @{$self->{_options}}, 'Photo';
     push @{$self->{_options}}, 'Software';
     push @{$self->{_options}}, 'SoftwareVideoGames';
+    push @{$self->{_options}}, 'SportingGoods';
+    push @{$self->{_options}}, 'Tools';
+    push @{$self->{_options}}, 'Toys';
     push @{$self->{_options}}, 'VHS';
     push @{$self->{_options}}, 'Video';
     push @{$self->{_options}}, 'VideoGames';
@@ -47,7 +59,7 @@ sub find_match {
     for (@{$self->{_options}}) {
         return $_ if lc($_) eq lc($value);
     }
-    die "$value is not a valid value for ca::UPC!\n";
+    die "$value is not a valid value for de::EAN!\n";
 }
 
 1;
@@ -56,7 +68,7 @@ __END__
 
 =head1 NAME
 
-Net::Amazon::Validate::ItemSearch::ca::UPC;
+Net::Amazon::Validate::ItemSearch::de::EAN;
 
 =head1 DESCRIPTION
 
@@ -68,10 +80,22 @@ The list of available values are:
     Books
     Classical
     DVD
+    Electronics
     ForeignBooks
+    HealthPersonalCare
+    HomeGarden
+    Kitchen
+    Magazines
     Music
+    MusicTracks
+    OutdoorLiving
+    PCHardware
+    Photo
     Software
     SoftwareVideoGames
+    SportingGoods
+    Tools
+    Toys
     VHS
     Video
     VideoGames
