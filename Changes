@@ -1,5 +1,8 @@
 Revision history for Perl extension Net::Amazon:
 
+0.40 (xx/yy/2007)
+   (cb) UPC accepts a search index, so process it.
+
 0.39 (02/18/2007)
    (cb) Update documentation, 10-digit vs. 13-digit ISBN was incorrect.
    (cb) Add support for searching by EAN.  This is only valid for 
