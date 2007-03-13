@@ -20,6 +20,7 @@ eg/browse
 eg/cd_fetch
 eg/cheapo
 eg/dejazz
+eg/director
 eg/ean
 eg/exchange
 eg/heavy
@@ -37,6 +38,7 @@ eg/sim
 eg/similar
 eg/similar2
 eg/textstream
+eg/title
 eg/upc
 eg/wishlist
 lib/Net/Amazon.pm
@@ -56,6 +58,7 @@ lib/Net/Amazon/Request/ASIN.pm
 lib/Net/Amazon/Request/Author.pm
 lib/Net/Amazon/Request/Blended.pm
 lib/Net/Amazon/Request/BrowseNode.pm
+lib/Net/Amazon/Request/Director.pm
 lib/Net/Amazon/Request/EAN.pm
 lib/Net/Amazon/Request/Exchange.pm
 lib/Net/Amazon/Request/ISBN.pm
@@ -68,6 +71,7 @@ lib/Net/Amazon/Request/Seller.pm
 lib/Net/Amazon/Request/Similar.pm
 lib/Net/Amazon/Request/Sort.pm
 lib/Net/Amazon/Request/TextStream.pm
+lib/Net/Amazon/Request/Title.pm
 lib/Net/Amazon/Request/UPC.pm
 lib/Net/Amazon/Request/Wishlist.pm
 lib/Net/Amazon/Response.pm
@@ -77,6 +81,7 @@ lib/Net/Amazon/Response/ASIN.pm
 lib/Net/Amazon/Response/Author.pm
 lib/Net/Amazon/Response/Blended.pm
 lib/Net/Amazon/Response/BrowseNode.pm
+lib/Net/Amazon/Response/Director.pm
 lib/Net/Amazon/Response/EAN.pm
 lib/Net/Amazon/Response/Exchange.pm
 lib/Net/Amazon/Response/ISBN.pm
@@ -88,6 +93,7 @@ lib/Net/Amazon/Response/Publisher.pm
 lib/Net/Amazon/Response/Seller.pm
 lib/Net/Amazon/Response/Similar.pm
 lib/Net/Amazon/Response/TextStream.pm
+lib/Net/Amazon/Response/Title.pm
 lib/Net/Amazon/Response/UPC.pm
 lib/Net/Amazon/Response/Wishlist.pm
 lib/Net/Amazon/Result/Seller.pm
@@ -286,6 +292,8 @@ t/018Actor.t
 t/019MusicLabel.t
 t/020ISBN.t
 t/021EAN.t
+t/022Director.t
+t/023Title.t
 t/canned/actor.xml
 t/canned/artist.xml
 t/canned/asin_cd.xml
@@ -297,6 +305,7 @@ t/canned/author.xml
 t/canned/blended1.xml
 t/canned/blendedm.xml
 t/canned/browse.xml
+t/canned/director.xml
 t/canned/dvd.xml
 t/canned/ean.xml
 t/canned/exchange.xml
@@ -313,6 +322,7 @@ t/canned/publisher.xml
 t/canned/reviews.xml
 t/canned/seller.xml
 t/canned/textstream.xml
+t/canned/title.xml
 t/canned/upc_zwan.xml
 t/canned/wishlist1.xml
 t/canned/wishlist10_1.xml

@@ -30,6 +30,7 @@ use constant SEARCH_TYPE_OPERATION_MAP => {
     ASIN         => 'ItemLookup',
     Blended      => 'ItemSearch',
     BrowseNode   => 'ItemSearch',
+    Director     => 'ItemSearch',
     EAN          => 'ItemLookup',
     Exchange     => 'SellerListingLookup',
     ISBN         => 'ItemLookup',
@@ -43,6 +44,7 @@ use constant SEARCH_TYPE_OPERATION_MAP => {
     Seller       => 'SellerListingSearch',
     Similar      => 'SimilarityLookup',
     TextStream   => 'ItemSearch',
+    Title        => 'ItemSearch',
     UPC          => 'ItemLookup',
     Wishlist     => 'ListLookup',
 };

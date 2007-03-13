@@ -30,6 +30,7 @@ use constant SEARCH_TYPE_CLASS_MAP => {
     asin         => 'ASIN',
     blended      => 'Blended',
     browsenode   => 'BrowseNode',
+    director     => 'Director',
     ean          => 'EAN',
     exchange     => 'Exchange',
     isbn         => 'ISBN',
@@ -41,6 +42,7 @@ use constant SEARCH_TYPE_CLASS_MAP => {
     seller       => 'Seller',
     similar      => 'Similar',
     textstream   => 'TextStream',
+    title        => 'Title',
     upc          => 'UPC',
     wishlist     => 'Wishlist',
 };

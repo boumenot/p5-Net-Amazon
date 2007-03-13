@@ -1,0 +1,141 @@
+<opt xmlns="http://webservices.amazon.com/AWSECommerceService/2007-01-15">
+  <Items TotalPages="1" TotalResults="2">
+    <Item ASIN="B000FGG5NK" DetailPageURL="http://www.amazon.com/gp/redirect.html%3FASIN=B000FGG5NK%26tag=ws%26lcode=xm2%26cID=2025%26ccmID=165953%26location=/o/ASIN/B000FGG5NK%253FSubscriptionId=YOUR_AMAZON_TOKEN" SalesRank="4770">
+      <ItemAttributes AudienceRating="PG-13 (Parental Guidance Suggested)" Binding="DVD" EAN="0013138206695" Label="Manga Video" Manufacturer="Manga Video" NumberOfItems="1" OriginalReleaseDate="1991-04-03" ProductGroup="DVD" ProductTypeName="ABIS_DVD" Publisher="Manga Video" ReleaseDate="2006-08-29" Studio="Manga Video" TheatricalReleaseDate="1991-04-03" Title="Lupin the III: The Castle of Cagliostro (Special Edition)" UPC="013138206695">
+        <Actor>Yasuo Yamada</Actor>
+        <Actor>Bob Bergen</Actor>
+        <Actor>Eiko Masuyama</Actor>
+        <Actor>Kiyoshi Kobayashi</Actor>
+        <Actor>Makio Inoue</Actor>
+        <Actor>Gorô Naya</Actor>
+        <Actor>Sumi Shimamoto</Actor>
+        <Actor>Tarô Ishida</Actor>
+        <Actor>Kôhei Miyauchi</Actor>
+        <Actor>Ichirô Nagai</Actor>
+        <Actor>David Hayter</Actor>
+        <Actor>Dorothy Elias-Fahn</Actor>
+        <Actor>Ivan Buckley</Actor>
+        <Actor>Bridget Hoffman</Actor>
+        <Actor>Kirk Thornton</Actor>
+        <Actor>Richard Barnes</Actor>
+        <Actor>David Waterhouse</Actor>
+        <Actor>Wayne Anthony</Actor>
+        <Actor>Elliot Reynolds</Actor>
+        <Actor>Beau Billingslea</Actor>
+        <Director>Hayao Miyazaki</Director>
+        <Format>Color</Format>
+        <Format>Special Edition</Format>
+        <Format>Subtitled</Format>
+        <Format>Widescreen</Format>
+        <Format>NTSC</Format>
+        <Languages>
+          <Language Name="English" Type="Original Language"/>
+          <Language Name="French" Type="Original Language"/>
+          <Language Name="Japanese" Type="Original Language"/>
+          <Language Name="Spanish" Type="Original Language"/>
+          <Language Name="English" Type="Subtitled"/>
+        </Languages>
+        <ListPrice Amount="2498" CurrencyCode="USD" FormattedPrice="$24.98"/>
+        <PackageDimensions Units="hundredths-inches" name="Height">70</PackageDimensions>
+        <PackageDimensions Units="hundredths-inches" name="Length">740</PackageDimensions>
+        <PackageDimensions Units="hundredths-pounds" name="Weight">20</PackageDimensions>
+        <PackageDimensions Units="hundredths-inches" name="Width">540</PackageDimensions>
+        <RunningTime Units="minutes">109</RunningTime>
+      </ItemAttributes>
+      <LargeImage URL="http://ec2.images-amazon.com/images/P/B000FGG5NK.01._SCLZZZZZZZ_.jpg">
+        <Height Units="pixels">500</Height>
+        <Width Units="pixels">355</Width>
+      </LargeImage>
+      <MediumImage URL="http://ec2.images-amazon.com/images/P/B000FGG5NK.01._SCMZZZZZZZ_.jpg">
+        <Height Units="pixels">160</Height>
+        <Width Units="pixels">114</Width>
+      </MediumImage>
+      <OfferSummary TotalCollectible="0" TotalNew="44" TotalRefurbished="0" TotalUsed="18">
+        <LowestNewPrice Amount="1279" CurrencyCode="USD" FormattedPrice="$12.79"/>
+        <LowestUsedPrice Amount="1499" CurrencyCode="USD" FormattedPrice="$14.99"/>
+      </OfferSummary>
+      <Offers TotalOfferPages="1" TotalOffers="1">
+        <Offer AverageFeedbackRating="0.0" GlancePage="http://www.amazon.com/gp/help/seller/home.html?seller=ATVPDKIKX0DER" MerchantId="ATVPDKIKX0DER" TotalFeedback="0" name="Merchant"/>
+        <Offer Condition="New" SubCondition="new" name="OfferAttributes"/>
+        <Offer Availability="Usually ships in 24 hours" IsEligibleForSuperSaverShipping="1" OfferListingId="VJhSL%2FajeDM9m40JYUZJGbYW1XD7JbWpa4nTpUNXNrjvd3dEBc224%2FbfF4lZFGDJkL8OBwIrX%2FhYzLmhZaiOGw%3D%3D" PercentageSaved="32" Quantity="37" name="OfferListing">
+          <AmountSaved Amount="801" CurrencyCode="USD" FormattedPrice="$8.01"/>
+          <AvailabilityAttributes AvailabilityType="now" MaximumHours="0" MinimumHours="0"/>
+          <Price Amount="1697" CurrencyCode="USD" FormattedPrice="$16.97"/>
+        </Offer>
+      </Offers>
+      <SmallImage URL="http://ec2.images-amazon.com/images/P/B000FGG5NK.01._SCTHUMBZZZ_.jpg">
+        <Height Units="pixels">75</Height>
+        <Width Units="pixels">53</Width>
+      </SmallImage>
+    </Item>
+    <Item ASIN="B00000JL3V" DetailPageURL="http://www.amazon.com/gp/redirect.html%3FASIN=B00000JL3V%26tag=ws%26lcode=xm2%26cID=2025%26ccmID=165953%26location=/o/ASIN/B00000JL3V%253FSubscriptionId=1SJ0YT9GNTNMQ6GYC382" SalesRank="13813">
+      <ItemAttributes AspectRatio="1.85:1" AudienceRating="PG-13 (Parental Guidance Suggested)" Binding="DVD" EAN="0660200405120" Label="Manga Video" Manufacturer="Manga Video" NumberOfItems="1" OriginalReleaseDate="1991-04-03" PictureFormat="Letterbox" ProductGroup="DVD" ProductTypeName="ABIS_DVD" Publisher="Manga Video" RegionCode="1" ReleaseDate="2000-04-25" Studio="Manga Video" TheatricalReleaseDate="1991-04-03" Title="The Castle of Cagliostro (Lupin the III)" UPC="660200405120">
+        <Actor>Yasuo Yamada</Actor>
+        <Actor>Bob Bergen</Actor>
+        <Actor>Eiko Masuyama</Actor>
+        <Actor>Kiyoshi Kobayashi</Actor>
+        <Actor>Makio Inoue</Actor>
+        <Actor>Gorô Naya</Actor>
+        <Actor>Sumi Shimamoto</Actor>
+        <Actor>Tarô Ishida</Actor>
+        <Actor>Kôhei Miyauchi</Actor>
+        <Actor>Ichirô Nagai</Actor>
+        <Actor>David Hayter</Actor>
+        <Actor>Dorothy Elias-Fahn</Actor>
+        <Actor>Ivan Buckley</Actor>
+        <Actor>Bridget Hoffman</Actor>
+        <Actor>Kirk Thornton</Actor>
+        <Actor>Richard Barnes</Actor>
+        <Actor>David Waterhouse</Actor>
+        <Actor>Wayne Anthony</Actor>
+        <Actor>Elliot Reynolds</Actor>
+        <Actor>Beau Billingslea</Actor>
+        <Director>Hayao Miyazaki</Director>
+        <Format>Animated</Format>
+        <Format>Color</Format>
+        <Format>Dolby</Format>
+        <Format>Letterboxed</Format>
+        <Format>Subtitled</Format>
+        <Format>Widescreen</Format>
+        <Format>NTSC</Format>
+        <Languages>
+          <Language AudioFormat="Dolby Digital 2.0 Stereo" Name="English" Type="Original Language"/>
+          <Language AudioFormat="Dolby Digital 2.0 Stereo" Name="Japanese" Type="Original Language"/>
+          <Language Name="English" Type="Subtitled"/>
+        </Languages>
+        <ListPrice Amount="1998" CurrencyCode="USD" FormattedPrice="$19.98"/>
+        <PackageDimensions Units="hundredths-inches" name="Height">60</PackageDimensions>
+        <PackageDimensions Units="hundredths-inches" name="Length">750</PackageDimensions>
+        <PackageDimensions Units="hundredths-pounds" name="Weight">20</PackageDimensions>
+        <PackageDimensions Units="hundredths-inches" name="Width">510</PackageDimensions>
+        <RunningTime Units="minutes">100</RunningTime>
+      </ItemAttributes>
+      <LargeImage URL="http://ec2.images-amazon.com/images/P/B00000JL3V.01._SCLZZZZZZZ_.jpg">
+        <Height Units="pixels">475</Height>
+        <Width Units="pixels">342</Width>
+      </LargeImage>
+      <MediumImage URL="http://ec2.images-amazon.com/images/P/B00000JL3V.01._SCMZZZZZZZ_.jpg">
+        <Height Units="pixels">140</Height>
+        <Width Units="pixels">101</Width>
+      </MediumImage>
+      <OfferSummary TotalCollectible="1" TotalNew="15" TotalRefurbished="0" TotalUsed="6">
+        <LowestCollectiblePrice Amount="2699" CurrencyCode="USD" FormattedPrice="$26.99"/>
+        <LowestNewPrice Amount="1192" CurrencyCode="USD" FormattedPrice="$11.92"/>
+        <LowestUsedPrice Amount="999" CurrencyCode="USD" FormattedPrice="$9.99"/>
+      </OfferSummary>
+      <Offers TotalOfferPages="1" TotalOffers="1">
+        <Offer AverageFeedbackRating="0.0" GlancePage="http://www.amazon.com/gp/help/seller/home.html?seller=ATVPDKIKX0DER" MerchantId="ATVPDKIKX0DER" TotalFeedback="0" name="Merchant"/>
+        <Offer Condition="New" SubCondition="new" name="OfferAttributes"/>
+        <Offer Availability="Usually ships in 24 hours" IsEligibleForSuperSaverShipping="1" OfferListingId="oiD%2F24D8ZNa2bPo2aNI8HNknmf2gQ6P3u7yaMX115aH5aAwetH7T8wxhwOnqf252hF704EzGpsJSMgFYSNkwZA%3D%3D" PercentageSaved="25" Quantity="54" name="OfferListing">
+          <AmountSaved Amount="501" CurrencyCode="USD" FormattedPrice="$5.01"/>
+          <AvailabilityAttributes AvailabilityType="now" MaximumHours="0" MinimumHours="0"/>
+          <Price Amount="1497" CurrencyCode="USD" FormattedPrice="$14.97"/>
+        </Offer>
+      </Offers>
+      <SmallImage URL="http://ec2.images-amazon.com/images/P/B00000JL3V.01._SCTHUMBZZZ_.jpg">
+        <Height Units="pixels">60</Height>
+        <Width Units="pixels">43</Width>
+      </SmallImage>
+    </Item>
+  </Items>
+</opt>

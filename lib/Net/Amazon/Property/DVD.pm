@@ -84,9 +84,11 @@ sub init_via_xmlref {
     $self->NumMedia($ref->{NumberOfItems});
     $self->nummedia($ref->{NumberOfItems});
 
-    my $year =  (split(/\-/, $ref->{TheatricalReleaseDate}))[0];
-    $self->year($year);
-
+    if ( defined $ref->{TheatricalReleaseDate} ) {
+        my $year =  (split(/\-/, $ref->{TheatricalReleaseDate}))[0];
+        $self->year($year);
+    }
+    
     $self->ReleaseDate($ref->{TheatricalReleaseDate});
 }
 
