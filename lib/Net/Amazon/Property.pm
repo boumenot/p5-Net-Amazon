@@ -44,9 +44,10 @@ our @DEFAULT_ATTRIBUTES = qw(
 );
 
 our %COMPATIBLE_ATTRIBUTES = (
-	'Asin'     => 'ASIN',
-	'url'      => 'DetailPageURL',
-    'Media'    => 'Binding',
+	'Asin'        => 'ASIN',
+	'url'         => 'DetailPageURL',
+    'Media'       => 'Binding',
+    'ProductName' => 'title',
 );
 
 __PACKAGE__->make_accessor($_) for @DEFAULT_ATTRIBUTES;
@@ -247,7 +248,8 @@ The item's ASIN number.
 
 =item ProductName()
 
-Book title, CD album name or item name
+Book title, CD album name or item name.  This option is actually an alias for
+the method title, and is actually dependent upon the type of item returned.
 
 =item Availability()
 

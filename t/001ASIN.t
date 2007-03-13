@@ -8,7 +8,7 @@
 use warnings;
 use strict;
 
-use Test::More tests => 35;
+use Test::More tests => 36;
 BEGIN { use_ok('Net::Amazon') };
 
 #use Log::Log4perl qw(:easy);
@@ -96,6 +96,7 @@ like(join('&', $book->authors()),
 # Net::Amazon::Property::Book accessors
 ######################################################################
 like($book->title, qr/^Design Patterns/, "Title");
+like($book->ProductName, qr/^Design Patterns/, "ProductName");
 is($book->year, "1995", "Year");
 like($book->OurPrice, qr/\$/, "Amazon Price");
 like($book->ListPrice, qr/\$/, "List Price");
