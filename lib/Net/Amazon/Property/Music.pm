@@ -68,8 +68,10 @@ sub init_via_xmlref {
     $self->NumMedia($ref->{NumberOfDiscs});
 
     my @tracks;
-    for my $media (keys %{$ref->{Tracks}}) {
-        push @tracks, $_ for (@{$media->{Track}});
+    for my $disc (@{$xmlref->{Tracks}->{Disc}}) {
+        for my $track (@{$disc->{Track}}) {
+            push @tracks, $track->{content};
+        }
     }
     $self->tracks(\@tracks);
 
@@ -136,7 +138,11 @@ which just returns the first artist.
 
 =item tracks()
 
-Returns a list of the CD's track titles.
+Returns a list of the CD's track titles.  Tracks are ordered as they appear on
+the media.  Track one is at offset zero in the tracks() list.  If there are
+multiple media then tracks are appended to the same list.  There is currently
+no way to determine which track belongs to which media.  (Amazon returns these
+data, but it is not used by Net::Amazon.)
 
 =item label()
 

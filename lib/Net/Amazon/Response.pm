@@ -10,8 +10,8 @@ use Text::Wrap qw($columns wrap);
 use XML::Simple;
 use Log::Log4perl qw(:easy get_logger);
 
-our @FORCE_ARRAY_FIELDS = qw(Author Artist Creator Director Review 
-EditorialReview SimilarProduct);
+our @FORCE_ARRAY_FIELDS = qw(Author Artist Creator Director Disc
+Review EditorialReview SimilarProduct Track);
 
 __PACKAGE__->make_accessor($_) for qw(
   status messages items xmlref total_results);

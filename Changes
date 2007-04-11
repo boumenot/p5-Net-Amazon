@@ -1,5 +1,12 @@
 Revision history for Perl extension Net::Amazon:
 
+0.41 (04/10/2007)
+   (cb) Tümer Garip <tgarip@neu.edu.tr> found a long standing bug for the
+        Music properties whereby track data were not correctly captured, and
+        returned.
+   (cb) Fix the Artist test to account for this lapse in the future, and add 
+        more tests as well.
+
 0.40 (03/12/2007)
    (cb) UPC accepts a search index, so process it.
    (cb) Fix the documentation for ProductName.  

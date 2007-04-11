@@ -17,6 +17,8 @@ use Data::Dumper;
 use Log::Log4perl qw(:easy);
 
 # read: a poor man's XPath
+# NOTE: Igor Sutton Lopes has a module called Hash::Path that does exactly
+# what I am doing here.  He beat me to the punch. :)
 our %DEFAULT_ATTRIBUTES_XPATH = (
     Availability => [qw(Offers Offer OfferListing Availability)],
     Catalog => [qw(ItemAttributes ProductGroup)],
