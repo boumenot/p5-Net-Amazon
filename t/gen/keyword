@@ -1,0 +1,26 @@
+#!/usr/bin/perl
+###########################################
+# keyword - search by keyword
+#     keyword what_to_search_for mode
+# Mike Schilli <mschilli1@aol.com>, 2003
+###########################################
+
+use strict;
+use warnings;
+
+use Net::Amazon;
+use Net::Amazon::Property;
+use Net::Amazon::Request::Keyword;
+
+my $ua = Net::Amazon->new(
+    token         => $ENV{AMAZON_TOKEN},
+    max_pages     => 1,
+    response_dump => 1,
+);
+
+my $req = Net::Amazon::Request::Keyword->new(
+    keyword   => "perl power",
+    mode      => "books",
+);
+
+my $resp = $ua->request($req);

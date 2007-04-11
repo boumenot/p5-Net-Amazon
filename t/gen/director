@@ -1,0 +1,24 @@
+#!/usr/bin/perl
+############################################################
+# director director_name
+# Christopher Boumenot <boumenot@gmail.com>, 2006
+############################################################
+
+use strict;
+use warnings;
+
+use Net::Amazon;
+use Net::Amazon::Request::Director;
+
+my $ua = Net::Amazon->new(
+    token       => $ENV{AMAZON_TOKEN},
+    max_pages   => 1,
+    response_dump => 1,
+);
+
+my $req = Net::Amazon::Request::Director->new(
+    director         => 'Miyazaki',
+);
+
+# Response is of type Net::Amazon::Director::Response
+my $resp = $ua->request($req);

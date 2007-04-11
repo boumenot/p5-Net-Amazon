@@ -1,0 +1,24 @@
+#!/usr/bin/perl
+############################################################
+# title title_name
+# Christopher Boumenot <boumenot@gmail.com>, 2006
+############################################################
+
+use strict;
+use warnings;
+
+use Net::Amazon;
+use Net::Amazon::Request::Title;
+
+my $ua = Net::Amazon->new(
+    token       => $ENV{AMAZON_TOKEN},
+    max_pages   => 1,
+    response_dump => 1,
+);
+
+my $req = Net::Amazon::Request::Title->new(
+    title         => 'cagliostro',
+);
+
+# Response is of type Net::Amazon::Title::Response
+my $resp = $ua->request($req);

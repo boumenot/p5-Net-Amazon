@@ -1,0 +1,21 @@
+#!/usr/bin/perl
+############################################################
+# musiclabel musiclabel name
+# Christopher Boumenot <boumenot@gmail.com>, 2006
+############################################################
+
+use strict;
+use warnings;
+
+use Net::Amazon;
+use Net::Amazon::Request::MusicLabel;
+
+my $ua = Net::Amazon->new(
+    token         => $ENV{AMAZON_TOKEN},
+    response_dump => 1,
+    max_pages     => 1,
+);
+
+my $resp = $ua->search(
+    musiclabel => 'Arista',
+);

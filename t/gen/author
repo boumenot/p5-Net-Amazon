@@ -1,0 +1,22 @@
+#!/usr/bin/perl
+############################################################
+# author author_name 
+# Christopher Boumenot <boumenot@gmail.com>, 2006
+############################################################
+
+use strict;
+use warnings;
+
+use Net::Amazon;
+use Net::Amazon::Request::Author;
+
+my $ua = Net::Amazon->new(
+    token         => $ENV{AMAZON_TOKEN},
+    response_dump => 1,
+);
+
+my $req = Net::Amazon::Request::Author->new(
+    author        => 'Michael Schilli',
+);
+
+my $resp = $ua->request($req);

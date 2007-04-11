@@ -1,5 +1,8 @@
 Revision history for Perl extension Net::Amazon:
 
+0.42 (xx/yy/zzzz)
+   (cb) Add scripts to automatically generate the canned test data.
+
 0.41 (04/10/2007)
    (cb) Tümer Garip <tgarip@neu.edu.tr> found a long standing bug for the
         Music properties whereby track data were not correctly captured, and

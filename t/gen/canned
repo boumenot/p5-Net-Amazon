@@ -1,0 +1,89 @@
+#!/usr/bin/perl 
+use strict;
+use warnings;
+
+use IO::File;
+use XML::Twig;
+
+my $response_file = "response-1.txt";
+
+my %tests = (
+    'actor'         => [qw()],
+    'artist'        => [qw()],
+    'asin_cd'       => [qw()],
+    'asin_cdm'      => [qw()],
+    'asin_err'      => [qw(Request)],
+    'asin_mua'      => [qw()],
+    'asin_pp'       => [qw()],
+    'author'        => [qw()],
+    'blended1'      => [qw()],
+    'blendedm'      => [qw()],
+    'browse'        => [qw(BrowseNodes)],
+    'director'      => [qw()],
+    'dvd'           => [qw()],
+    'exchange'      => [qw()],
+    'keyword'       => [qw()],
+    'locale'        => [qw()],
+    'manufacturer'  => [qw()],
+    'musiclabel'    => [qw()],
+#    'power'         => [qw(SimilarProducts)],
+    'power_sorted'  => [qw()],
+    'power_empty'   => [qw(Request)],
+    'publisher'     => [qw()],
+    'reviews'       => [qw(CustomerReviews EditorialReviews)],
+    'seller'        => [qw()],
+    'title'         => [qw()],
+    'textstream'    => [qw()],
+    'upc_zwan'      => [qw()],
+#    'wishlist1'     => [qw()],
+    'wishlist10_1'  => [qw()],
+    'wishlist10_2'  => [qw()],
+);
+
+my @tests = (scalar(@ARGV) > 0) ? @ARGV : sort keys %tests;
+
+for my $test (@tests) {
+    next unless -x $test;
+
+    print "Processing $test ...\n";
+
+    system("./$test");
+
+    my $default_handlers = {
+        BrowseNodes       => sub { $_->delete; }, 
+        CustomerReviews   => sub { $_->delete; }, 
+        EditorialReviews  => sub { $_->delete; }, 
+        ImageSets         => sub { $_->delete; }, 
+        LargeImage        => sub { $_->delete; }, 
+        ListmaniaLists    => sub { $_->delete; }, 
+        MediumImage       => sub { $_->delete; }, 
+        Offers            => sub { $_->delete; },
+        #OfferSummary      => sub { $_->delete; },
+        OperationRequest  => sub { $_->delete; },
+        PackageDimensions => sub { $_->delete; },
+        Request           => sub { $_->delete; },
+        SimilarProducts   => sub { $_->delete; }, 
+        SearchResultsMap  => sub { $_->delete; }, 
+        SmallImage        => sub { $_->delete; }, 
+    };
+
+    delete $default_handlers->{$_} for (@{$tests{$test}});
+
+    my $twig = XML::Twig->new(
+        twig_handlers => $default_handlers,
+        pretty_print  => 'indented',
+        keep_encoding => 1,
+    );
+    
+    $twig->parsefile($response_file);
+
+    my $fouth = IO::File->new(">../canned/$test.xml") or
+        die "%Error: $! '../canned/$test.xml'!\n";
+
+    select $fouth;
+    $twig->print;
+    select \*STDOUT;
+    $fouth->close();
+
+    unlink $response_file if -f $response_file;
+}

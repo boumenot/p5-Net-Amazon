@@ -1,0 +1,24 @@
+#!/usr/bin/perl
+############################################################
+# artist artist_name
+# Mike Schilli <mschilli1@aol.com>, 2003
+############################################################
+
+use strict;
+use warnings;
+
+use Net::Amazon;
+use Net::Amazon::Request::ASIN;
+use Net::Amazon::Response::ASIN;
+
+my $ua = Net::Amazon->new(
+    token         => $ENV{AMAZON_TOKEN},
+    response_dump => 1,
+);
+
+my $req = Net::Amazon::Request::ASIN->new(
+    asin  => '0201633612'
+);
+
+# Response is of type Net::Amazon::Artist::Response
+my $resp = $ua->request($req);
