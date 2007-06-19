@@ -1,7 +1,11 @@
 Revision history for Perl extension Net::Amazon:
 
-0.42 (xx/yy/zzzz)
+0.42 (06/18/2007)
    (cb) Add scripts to automatically generate the canned test data.
+   (cb) Serge Dubrouski noted an inconsistency in the documentation for
+        ImageUrl{Small,Medium,Large}.  When I converted to AWS4 I renamed
+        these functions accidently.  Add back the old function names, and
+        keep the new functions around.
 
 0.41 (04/10/2007)
    (cb) Tümer Garip <tgarip@neu.edu.tr> found a long standing bug for the

@@ -4,7 +4,7 @@
 use warnings;
 use strict;
 
-use Test::More tests => 16;
+use Test::More tests => 22;
 BEGIN { use_ok('Net::Amazon') };
 
 #use Log::Log4perl qw(:easy);
@@ -53,3 +53,9 @@ is($properties[0]->edition, "Bk&CD Rom", "Check edition");
 is($properties[0]->ean, "9780201360684", "Check ean");
 is($properties[0]->year, "1998", "Check year");
 is($properties[0]->Catalog, "Book", "Check Catalog");
+is($properties[0]->SmallImageUrl, "http://images.amazon.com/images/P/0201360683.01._SCTHUMBZZZ_.jpg", "Checking small image URL");
+is($properties[0]->ImageUrlSmall, "http://images.amazon.com/images/P/0201360683.01._SCTHUMBZZZ_.jpg", "Checking small image URL");
+is($properties[0]->MediumImageUrl, "http://images.amazon.com/images/P/0201360683.01._SCMZZZZZZZ_.jpg", "Checking Medium image URL");
+is($properties[0]->ImageUrlMedium, "http://images.amazon.com/images/P/0201360683.01._SCMZZZZZZZ_.jpg", "Checking Medium image URL");
+is($properties[0]->LargeImageUrl, "http://images.amazon.com/images/P/0201360683.01._SCLZZZZZZZ_.jpg", "Checking Large image URL");
+is($properties[0]->ImageUrlLarge, "http://images.amazon.com/images/P/0201360683.01._SCLZZZZZZZ_.jpg", "Checking Large image URL");
