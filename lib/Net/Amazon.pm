@@ -8,10 +8,11 @@ use 5.006;
 use strict;
 use warnings;
 
-our $VERSION          = '0.42';
+our $VERSION          = '0.43';
 our $WSDL_DATE        = '2007-01-17';
 our $Locale           = 'us';
 our @CANNED_RESPONSES = ();
+our $IS_CANNED        = 0;
 
 use LWP::UserAgent;
 use HTTP::Request::Common;
@@ -226,6 +227,7 @@ sub fetch_url {
     INFO("Fetching $url");
 
     if(@CANNED_RESPONSES) {
+        $IS_CANNED = 1;
         INFO("Serving canned response (testing)");
         return shift @CANNED_RESPONSES;
     }

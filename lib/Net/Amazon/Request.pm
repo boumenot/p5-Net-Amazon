@@ -320,9 +320,27 @@ that all request types have in common, here they are:
 
 =item type
 
-Defaults to C<Large>, but can be set to C<Small> if no reviews etc.
-on a product are wanted. Some fields (e.g. C<isbn>) are not going to be 
-available in C<small> mode, though.
+Defaults to C<Large>, but can also be set to C<Medium>, or C<Small>.
+
+=over 8
+
+=item Large
+
+The C<Large> type provides everything in C<Medium> as well as music track
+information, customer reviews, similar products, offers, and accessory data,
+i.e. the kitchen sink.
+
+=item Medium
+
+The C<Medium> type provides everything in C<Small> as well as sales rank,
+editorial reviews, and image URLs.
+
+=item Small
+
+The C<Small> type provies ASIN, product title, creator (author, artist, etc.),
+product group, URL, and manufacturer.
+
+=back
 
 =item mode
 

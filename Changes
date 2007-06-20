@@ -1,11 +1,19 @@
 Revision history for Perl extension Net::Amazon:
 
+0.43 (06/20/2007)
+   (cb) Simon Wistow <simon@thegestalt.org> found an bug with wishlist
+        processing, which would cause Net::Amazon to give up prematurely.
+   (cb) Be more graceful when dealing with Small ResponseGroups by trying
+        to avoid Perl warnings.
+   (cb) Added a gross hack to deal with Amazon's wishlist handling to ensure
+        the wishlist test can actually pass.
+
 0.42 (06/18/2007)
    (cb) Add scripts to automatically generate the canned test data.
-   (cb) Serge Dubrouski noted an inconsistency in the documentation for
-        ImageUrl{Small,Medium,Large}.  When I converted to AWS4 I renamed
-        these functions accidently.  Add back the old function names, and
-        keep the new functions around.
+   (cb) Serge Dubrouski <sergeyfd@gmail.com> noted an inconsistency in the 
+        documentation for ImageUrl{Small,Medium,Large}.  When I converted to 
+        AWS4 I renamed these functions accidently.  Add back the old function 
+        names, and keep the new functions around.
 
 0.41 (04/10/2007)
    (cb) Tümer Garip <tgarip@neu.edu.tr> found a long standing bug for the

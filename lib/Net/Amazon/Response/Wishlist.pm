@@ -62,7 +62,7 @@ sub is_page_available {
 ##################################################
     my($self, $ref, $new_items, $page) = @_;
     DEBUG("Trying to fetch additional wishlist page (AMZN bug)");
-    return $new_items == 10;
+    return ($Net::Amazon::IS_CANNED) ? $new_items == 10 : $new_items > 0;
 }
 
 ##################################################

@@ -41,7 +41,7 @@ sub init_via_xmlref {
     $self->manufacturer($ref->{Manufacturer});
     $self->model($ref->{Model});
     $self->mpn($ref->{MPN});
-    $self->platforms($ref->{Platform});
+    $self->platforms($ref->{Platform} || 'UNKNOWN');
     $self->publisher($ref->{Publisher});
     $self->studio($ref->{Studio});
     $self->title($ref->{Title});

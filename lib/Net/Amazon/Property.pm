@@ -86,8 +86,12 @@ sub new {
         $self->$attr($value);
     }
 
-    $self->NumberOfOfferings($self->UsedCount() + $self->ThirdPartyNewCount() + $self->CollectibleCount());
-    $self->ProductDescription($options{xmlref}->{EditorialReviews}->{EditorialReview}->[0]->{Content});
+    if (defined $options{xmlref}->{OfferSummary}) {
+        $self->NumberOfOfferings($self->UsedCount() + $self->ThirdPartyNewCount() + $self->CollectibleCount());
+    }
+    if (defined $options{xmlref}->{EditorialReviews}) {
+        $self->ProductDescription($options{xmlref}->{EditorialReviews}->{EditorialReview}->[0]->{Content});
+    }
 
     my @browse_nodes;
     if (ref $options{xmlref}->{BrowseNodes}->{BrowseNode} eq 'ARRAY') {
