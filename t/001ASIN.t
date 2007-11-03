@@ -8,7 +8,7 @@
 use warnings;
 use strict;
 
-use Test::More tests => 36;
+use Test::More tests => 39;
 BEGIN { use_ok('Net::Amazon') };
 
 #use Log::Log4perl qw(:easy);
@@ -98,9 +98,19 @@ like(join('&', $book->authors()),
 like($book->title, qr/^Design Patterns/, "Title");
 like($book->ProductName, qr/^Design Patterns/, "ProductName");
 is($book->year, "1995", "Year");
+is($book->publication_date, "1995-01-15");
 like($book->OurPrice, qr/\$/, "Amazon Price");
 like($book->ListPrice, qr/\$/, "List Price");
+is($book->CurrencyCode, "USD");
 is($book->binding, "Hardcover", "Binding");
+
+# check RawListPrice eq ListPrice without the 
+# dollar sign and decimal point
+my $ListPrice = $book->ListPrice;
+$ListPrice =~ s/\$//;
+$ListPrice =~ s/\.//;
+
+is($book->RawListPrice, $ListPrice);
 
 ######################################################################
 # Successful ASIN fetch of a music CD

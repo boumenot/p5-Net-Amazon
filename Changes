@@ -1,5 +1,14 @@
 Revision history for Perl extension Net::Amazon:
 
+0.44 (11/03/2007)
+   (cb) Patch by Carl Franks <fireartist@gmail.com> to add support for 
+        returning the currency code, and unformatted price.
+   (cb) Patch by Carl Franks <fireartist@gmail.com> to address the confusion
+        between release date, and publication date.  Prior to version 0.44
+        release date was the publication date.  Now release date is the
+        release date, and a function to return the publication date has been
+        added.
+
 0.43 (06/20/2007)
    (cb) Simon Wistow <simon@thegestalt.org> found an bug with wishlist
         processing, which would cause Net::Amazon to give up prematurely.

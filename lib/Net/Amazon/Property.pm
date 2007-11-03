@@ -41,6 +41,8 @@ our %DEFAULT_ATTRIBUTES_XPATH = (
     TotalOffers => [qw(Offers TotalOffers)],
     UsedCount => [qw(OfferSummary TotalUsed)],
     UsedPrice => [qw(OfferSummary LowestUsedPrice FormattedPrice)],
+    RawListPrice => [qw(ItemAttributes ListPrice Amount)],
+    CurrencyCode => [qw(ItemAttributes ListPrice CurrencyCode)],
 );
 
 our @DEFAULT_ATTRIBUTES = qw(
@@ -307,6 +309,14 @@ Amazon price of the item
 =item UsedPrice()
 
 Used price of the item
+
+=item RawListPrice()
+
+Unformatted list price as an integer, without currency symbol.
+
+=item CurrencyCode()
+
+The currency code for the L</ListPrice()>, e.g. C<USD>.
 
 =item SalesRank()
 

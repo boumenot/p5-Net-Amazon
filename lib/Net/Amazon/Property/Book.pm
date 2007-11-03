@@ -6,7 +6,7 @@ use strict;
 use base qw(Net::Amazon::Property);
 
 __PACKAGE__->make_accessor($_) for qw(title publisher binding isbn 
-    dewey_decimal numpages edition ean);
+    dewey_decimal numpages edition ean publication_date);
 __PACKAGE__->make_array_accessor($_) for qw(authors);
 
 ##################################################
@@ -50,7 +50,9 @@ sub init_via_xmlref {
     }
     $self->year($year);
 
-    $self->ReleaseDate($ref->{PublicationDate});
+    $self->publication_date($ref->{PublicationDate});
+
+    $self->ReleaseDate($ref->{ReleaseDate});
 }
 
 ##################################################
@@ -141,6 +143,18 @@ Returns the number of pages.
 =item dewey_decimal()
 
 Returns the Dewey decimal number, this is for non-fiction only.
+
+=item publication_date()
+
+Returns the publication date.
+
+=item ReleaseDate()
+
+Returns the release date.
+
+For historical reasons, this method used to return the publication date. 
+However, as of version Net::Amazon 0.44 the release date is returned, and 
+a separate L</publication_date()> method is available. 
 
 =item new(xmlref => $xmlref)
 
