@@ -1,25 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ItemLookupResponse xmlns="http://webservices.amazon.com/AWSECommerceService/2006-06-28">
+<ItemLookupResponse xmlns="http://webservices.amazon.com/AWSECommerceService/2007-10-29">
   <Items>
     <Item>
       <ASIN>B00007M84Q</ASIN>
-      <DetailPageURL>http://www.amazon.com/exec/obidos/redirect?tag=ws%26link_code=xm2%26camp=2025%26creative=165953%26path=http://www.amazon.com/gp/redirect.html%253fASIN=B00007M84Q%2526tag=ws%2526lcode=xm2%2526cID=2025%2526ccmID=165953%2526location=/o/ASIN/B00007M84Q%25253FSubscriptionId=YOUR_AMAZON_TOKEN</DetailPageURL>
-      <SalesRank>19162</SalesRank>
-      <SmallImage>
-        <URL>http://images.amazon.com/images/P/B00007M84Q.01._SCTHUMBZZZ_.jpg</URL>
-        <Height Units="pixels">75</Height>
-        <Width Units="pixels">75</Width>
-      </SmallImage>
-      <MediumImage>
-        <URL>http://images.amazon.com/images/P/B00007M84Q.01._SCMZZZZZZZ_.jpg</URL>
-        <Height Units="pixels">160</Height>
-        <Width Units="pixels">160</Width>
-      </MediumImage>
-      <LargeImage>
-        <URL>http://images.amazon.com/images/P/B00007M84Q.01._SCLZZZZZZZ_.jpg</URL>
-        <Height Units="pixels">300</Height>
-        <Width Units="pixels">300</Width>
-      </LargeImage>
+      <DetailPageURL>http://www.amazon.com/gp/redirect.html%3FASIN=B00007M84Q%26tag=ws%26lcode=xm2%26cID=2025%26ccmID=165953%26location=/o/ASIN/B00007M84Q%253FSubscriptionId=1VAESZQN1G7SXNRG4882</DetailPageURL>
+      <SalesRank>31759</SalesRank>
       <ItemAttributes>
         <Artist>Zwan</Artist>
         <Binding>Audio CD</Binding>
@@ -33,13 +18,9 @@
         <Manufacturer>Reprise / Wea</Manufacturer>
         <NumberOfDiscs>1</NumberOfDiscs>
         <OriginalReleaseDate>2003-01-28</OriginalReleaseDate>
-        <PackageDimensions>
-          <Height Units="hundredths-inches">54</Height>
-          <Length Units="hundredths-inches">555</Length>
-          <Weight Units="hundredths-pounds">18</Weight>
-          <Width Units="hundredths-inches">497</Width>
-        </PackageDimensions>
         <ProductGroup>Music</ProductGroup>
+        <ProductTypeName>ABIS_MUSIC</ProductTypeName>
+        <PublicationDate>2003</PublicationDate>
         <Publisher>Reprise / Wea</Publisher>
         <ReleaseDate>2003-01-28</ReleaseDate>
         <Studio>Reprise / Wea</Studio>
@@ -48,50 +29,25 @@
       </ItemAttributes>
       <OfferSummary>
         <LowestNewPrice>
-          <Amount>500</Amount>
+          <Amount>415</Amount>
           <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$5.00</FormattedPrice>
+          <FormattedPrice>$4.15</FormattedPrice>
         </LowestNewPrice>
         <LowestUsedPrice>
-          <Amount>106</Amount>
+          <Amount>153</Amount>
           <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$1.06</FormattedPrice>
+          <FormattedPrice>$1.53</FormattedPrice>
         </LowestUsedPrice>
         <LowestCollectiblePrice>
-          <Amount>594</Amount>
+          <Amount>1499</Amount>
           <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$5.94</FormattedPrice>
+          <FormattedPrice>$14.99</FormattedPrice>
         </LowestCollectiblePrice>
-        <TotalNew>51</TotalNew>
-        <TotalUsed>80</TotalUsed>
-        <TotalCollectible>5</TotalCollectible>
+        <TotalNew>60</TotalNew>
+        <TotalUsed>70</TotalUsed>
+        <TotalCollectible>9</TotalCollectible>
         <TotalRefurbished>0</TotalRefurbished>
       </OfferSummary>
-      <Offers>
-        <TotalOffers>1</TotalOffers>
-        <TotalOfferPages>1</TotalOfferPages>
-        <Offer>
-          <Merchant>
-            <MerchantId>ATVPDKIKX0DER</MerchantId>
-            <GlancePage>http://www.amazon.com/gp/help/seller/home.html?seller=ATVPDKIKX0DER</GlancePage>
-            <AverageFeedbackRating>0.0</AverageFeedbackRating>
-            <TotalFeedback>0</TotalFeedback>
-          </Merchant>
-          <OfferAttributes>
-            <Condition>New</Condition>
-          </OfferAttributes>
-          <OfferListing>
-            <OfferListingId>XXWZ7qm5A37gdJwOYf1QdVuUxkWy1LKiq7VfwquOlZGQhAJBlEDZ9bkD9E0BiX%2BqwYDTQTH2LJI%3D</OfferListingId>
-            <Price>
-              <Amount>1898</Amount>
-              <CurrencyCode>USD</CurrencyCode>
-              <FormattedPrice>$18.98</FormattedPrice>
-            </Price>
-            <Availability>Usually ships in 24 hours</Availability>
-            <IsEligibleForSuperSaverShipping>1</IsEligibleForSuperSaverShipping>
-          </OfferListing>
-        </Offer>
-      </Offers>
       <Tracks>
         <Disc Number="1">
           <Track Number="1">Lyric</Track>

@@ -15,8 +15,10 @@ sub new {
     };
 
     push @{$self->{_options}}, 'Books';
+    push @{$self->{_options}}, 'Classical';
     push @{$self->{_options}}, 'Merchants';
     push @{$self->{_options}}, 'PetSupplies';
+    push @{$self->{_options}}, 'SilverMerchants';
 
     bless $self, $class;
 }
@@ -57,7 +59,9 @@ The default value is Books, unless mode is specified.
 The list of available values are:
 
     Books
+    Classical
     Merchants
     PetSupplies
+    SilverMerchants
 
 =cut

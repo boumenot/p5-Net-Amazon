@@ -19,8 +19,6 @@ sub new {
     push @{$self->{_options}}, 'Baby';
     push @{$self->{_options}}, 'Beauty';
     push @{$self->{_options}}, 'Books';
-    push @{$self->{_options}}, 'Classical';
-    push @{$self->{_options}}, 'DVD';
     push @{$self->{_options}}, 'DigitalMusic';
     push @{$self->{_options}}, 'Electronics';
     push @{$self->{_options}}, 'GourmetFood';
@@ -30,7 +28,6 @@ sub new {
     push @{$self->{_options}}, 'Kitchen';
     push @{$self->{_options}}, 'Magazines';
     push @{$self->{_options}}, 'Miscellaneous';
-    push @{$self->{_options}}, 'Music';
     push @{$self->{_options}}, 'MusicTracks';
     push @{$self->{_options}}, 'MusicalInstruments';
     push @{$self->{_options}}, 'OfficeProducts';
@@ -38,13 +35,11 @@ sub new {
     push @{$self->{_options}}, 'PCHardware';
     push @{$self->{_options}}, 'PetSupplies';
     push @{$self->{_options}}, 'Photo';
-    push @{$self->{_options}}, 'Restaurants';
     push @{$self->{_options}}, 'Software';
     push @{$self->{_options}}, 'SportingGoods';
     push @{$self->{_options}}, 'Tools';
     push @{$self->{_options}}, 'Toys';
-    push @{$self->{_options}}, 'VHS';
-    push @{$self->{_options}}, 'Video';
+    push @{$self->{_options}}, 'UnboxVideo';
     push @{$self->{_options}}, 'VideoGames';
     push @{$self->{_options}}, 'Wireless';
     push @{$self->{_options}}, 'WirelessAccessories';
@@ -92,8 +87,6 @@ The list of available values are:
     Baby
     Beauty
     Books
-    Classical
-    DVD
     DigitalMusic
     Electronics
     GourmetFood
@@ -103,7 +96,6 @@ The list of available values are:
     Kitchen
     Magazines
     Miscellaneous
-    Music
     MusicTracks
     MusicalInstruments
     OfficeProducts
@@ -111,13 +103,11 @@ The list of available values are:
     PCHardware
     PetSupplies
     Photo
-    Restaurants
     Software
     SportingGoods
     Tools
     Toys
-    VHS
-    Video
+    UnboxVideo
     VideoGames
     Wireless
     WirelessAccessories

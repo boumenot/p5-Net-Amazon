@@ -15,7 +15,6 @@ sub new {
     };
 
     push @{$self->{_options}}, 'Books';
-    push @{$self->{_options}}, 'DVD';
     push @{$self->{_options}}, 'ForeignBooks';
     push @{$self->{_options}}, 'Magazines';
     push @{$self->{_options}}, 'VHS';
@@ -60,7 +59,6 @@ The default value is Books, unless mode is specified.
 The list of available values are:
 
     Books
-    DVD
     ForeignBooks
     Magazines
     VHS

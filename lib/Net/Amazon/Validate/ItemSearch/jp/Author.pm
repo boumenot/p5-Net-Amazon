@@ -14,6 +14,7 @@ sub new {
         %options,
     };
 
+    push @{$self->{_options}}, 'Apparel';
     push @{$self->{_options}}, 'Books';
     push @{$self->{_options}}, 'ForeignBooks';
 
@@ -55,6 +56,7 @@ The default value is Books, unless mode is specified.
 
 The list of available values are:
 
+    Apparel
     Books
     ForeignBooks
 

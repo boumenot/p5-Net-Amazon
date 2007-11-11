@@ -15,8 +15,8 @@ sub new {
     };
 
     push @{$self->{_options}}, 'Books';
-    push @{$self->{_options}}, 'Classical';
     push @{$self->{_options}}, 'ForeignBooks';
+    push @{$self->{_options}}, 'Kitchen';
     push @{$self->{_options}}, 'SoftwareVideoGames';
     push @{$self->{_options}}, 'VideoGames';
 
@@ -59,8 +59,8 @@ The default value is Books, unless mode is specified.
 The list of available values are:
 
     Books
-    Classical
     ForeignBooks
+    Kitchen
     SoftwareVideoGames
     VideoGames
 

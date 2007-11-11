@@ -10,14 +10,11 @@ use warnings;
 sub new {
     my ($class , %options) = @_;
     my $self = {
-        '_default' => 'DVD',
+        '_default' => 'UnboxVideo',
         %options,
     };
 
-    push @{$self->{_options}}, 'DVD';
-    push @{$self->{_options}}, 'DigitalMusic';
-    push @{$self->{_options}}, 'VHS';
-    push @{$self->{_options}}, 'Video';
+    push @{$self->{_options}}, 'UnboxVideo';
 
     bless $self, $class;
 }
@@ -53,13 +50,10 @@ Net::Amazon::Validate::ItemSearch::us::MPAARating;
 
 =head1 DESCRIPTION
 
-The default value is DVD, unless mode is specified.
+The default value is UnboxVideo, unless mode is specified.
 
 The list of available values are:
 
-    DVD
-    DigitalMusic
-    VHS
-    Video
+    UnboxVideo
 
 =cut

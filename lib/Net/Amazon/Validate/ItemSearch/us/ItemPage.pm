@@ -38,11 +38,11 @@ sub new {
     push @{$self->{_options}}, 'PCHardware';
     push @{$self->{_options}}, 'PetSupplies';
     push @{$self->{_options}}, 'Photo';
-    push @{$self->{_options}}, 'Restaurants';
     push @{$self->{_options}}, 'Software';
     push @{$self->{_options}}, 'SportingGoods';
     push @{$self->{_options}}, 'Tools';
     push @{$self->{_options}}, 'Toys';
+    push @{$self->{_options}}, 'UnboxVideo';
     push @{$self->{_options}}, 'VHS';
     push @{$self->{_options}}, 'Video';
     push @{$self->{_options}}, 'VideoGames';
@@ -111,11 +111,11 @@ The list of available values are:
     PCHardware
     PetSupplies
     Photo
-    Restaurants
     Software
     SportingGoods
     Tools
     Toys
+    UnboxVideo
     VHS
     Video
     VideoGames

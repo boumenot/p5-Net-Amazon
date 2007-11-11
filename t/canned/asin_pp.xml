@@ -1,30 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ItemLookupResponse xmlns="http://webservices.amazon.com/AWSECommerceService/2006-06-28">
+<ItemLookupResponse xmlns="http://webservices.amazon.com/AWSECommerceService/2007-10-29">
   <Items>
     <Item>
       <ASIN>0201360683</ASIN>
-      <DetailPageURL>http://www.amazon.com/exec/obidos/redirect?tag=ws%26link_code=xm2%26camp=2025%26creative=165953%26path=http://www.amazon.com/gp/redirect.html%253fASIN=0201360683%2526tag=ws%2526lcode=xm2%2526cID=2025%2526ccmID=165953%2526location=/o/ASIN/0201360683%25253FSubscriptionId=YOUR_AMAZON_TOKEN</DetailPageURL>
-      <SalesRank>1228318</SalesRank>
-      <SmallImage>
-        <URL>http://images.amazon.com/images/P/0201360683.01._SCTHUMBZZZ_.jpg</URL>
-        <Height Units="pixels">60</Height>
-        <Width Units="pixels">44</Width>
-      </SmallImage>
-      <MediumImage>
-        <URL>http://images.amazon.com/images/P/0201360683.01._SCMZZZZZZZ_.jpg</URL>
-        <Height Units="pixels">140</Height>
-        <Width Units="pixels">102</Width>
-      </MediumImage>
-      <LargeImage>
-        <URL>http://images.amazon.com/images/P/0201360683.01._SCLZZZZZZZ_.jpg</URL>
-        <Height Units="pixels">475</Height>
-        <Width Units="pixels">345</Width>
-      </LargeImage>
+      <DetailPageURL>http://www.amazon.com/gp/redirect.html%3FASIN=0201360683%26tag=ws%26lcode=xm2%26cID=2025%26ccmID=165953%26location=/o/ASIN/0201360683%253FSubscriptionId=1VAESZQN1G7SXNRG4882</DetailPageURL>
+      <SalesRank>1649405</SalesRank>
       <ItemAttributes>
         <Author>Michael Schilli</Author>
         <Binding>Paperback</Binding>
+        <DeweyDecimalNumber>005.133</DeweyDecimalNumber>
         <EAN>9780201360684</EAN>
-        <Edition>Bk&amp;CD Rom</Edition>
+        <Edition>Pap/Cdr</Edition>
         <ISBN>0201360683</ISBN>
         <Label>Addison-Wesley Professional</Label>
         <ListPrice>
@@ -35,13 +21,8 @@
         <Manufacturer>Addison-Wesley Professional</Manufacturer>
         <NumberOfItems>1</NumberOfItems>
         <NumberOfPages>464</NumberOfPages>
-        <PackageDimensions>
-          <Height Units="hundredths-inches">83</Height>
-          <Length Units="hundredths-inches">922</Length>
-          <Weight Units="hundredths-pounds">143</Weight>
-          <Width Units="hundredths-inches">674</Width>
-        </PackageDimensions>
         <ProductGroup>Book</ProductGroup>
+        <ProductTypeName>ABIS_BOOK</ProductTypeName>
         <PublicationDate>1998-12-16</PublicationDate>
         <Publisher>Addison-Wesley Professional</Publisher>
         <Studio>Addison-Wesley Professional</Studio>
@@ -49,45 +30,20 @@
       </ItemAttributes>
       <OfferSummary>
         <LowestNewPrice>
-          <Amount>990</Amount>
+          <Amount>1480</Amount>
           <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$9.90</FormattedPrice>
+          <FormattedPrice>$14.80</FormattedPrice>
         </LowestNewPrice>
         <LowestUsedPrice>
-          <Amount>25</Amount>
+          <Amount>430</Amount>
           <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$0.25</FormattedPrice>
+          <FormattedPrice>$4.30</FormattedPrice>
         </LowestUsedPrice>
-        <TotalNew>9</TotalNew>
-        <TotalUsed>7</TotalUsed>
+        <TotalNew>5</TotalNew>
+        <TotalUsed>9</TotalUsed>
         <TotalCollectible>0</TotalCollectible>
         <TotalRefurbished>0</TotalRefurbished>
       </OfferSummary>
-      <Offers>
-        <TotalOffers>1</TotalOffers>
-        <TotalOfferPages>1</TotalOfferPages>
-        <Offer>
-          <Merchant>
-            <MerchantId>ATVPDKIKX0DER</MerchantId>
-            <GlancePage>http://www.amazon.com/gp/help/seller/home.html?seller=ATVPDKIKX0DER</GlancePage>
-            <AverageFeedbackRating>0.0</AverageFeedbackRating>
-            <TotalFeedback>0</TotalFeedback>
-          </Merchant>
-          <OfferAttributes>
-            <Condition>New</Condition>
-          </OfferAttributes>
-          <OfferListing>
-            <OfferListingId>3ZfW9QdPyAt6LWaM5v3lIOGI%2F7PXOuDcNHcVrV34AfKgfiABRtvvcYt9sgzIU7R5qeNvf%2BIkUBA%3D</OfferListingId>
-            <Price>
-              <Amount>3999</Amount>
-              <CurrencyCode>USD</CurrencyCode>
-              <FormattedPrice>$39.99</FormattedPrice>
-            </Price>
-            <Availability>Usually ships in 1 to 3 weeks</Availability>
-            <IsEligibleForSuperSaverShipping>1</IsEligibleForSuperSaverShipping>
-          </OfferListing>
-        </Offer>
-      </Offers>
     </Item>
   </Items>
 </ItemLookupResponse>

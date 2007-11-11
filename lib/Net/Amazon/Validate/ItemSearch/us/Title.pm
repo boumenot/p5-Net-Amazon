@@ -24,12 +24,12 @@ sub new {
     push @{$self->{_options}}, 'DigitalMusic';
     push @{$self->{_options}}, 'Electronics';
     push @{$self->{_options}}, 'GourmetFood';
-    push @{$self->{_options}}, 'Grocery';
     push @{$self->{_options}}, 'HealthPersonalCare';
     push @{$self->{_options}}, 'HomeGarden';
     push @{$self->{_options}}, 'Industrial';
     push @{$self->{_options}}, 'Jewelry';
     push @{$self->{_options}}, 'Kitchen';
+    push @{$self->{_options}}, 'MP3Downloads';
     push @{$self->{_options}}, 'Magazines';
     push @{$self->{_options}}, 'Merchants';
     push @{$self->{_options}}, 'Miscellaneous';
@@ -40,11 +40,12 @@ sub new {
     push @{$self->{_options}}, 'PCHardware';
     push @{$self->{_options}}, 'PetSupplies';
     push @{$self->{_options}}, 'Photo';
-    push @{$self->{_options}}, 'Restaurants';
+    push @{$self->{_options}}, 'SilverMerchants';
     push @{$self->{_options}}, 'Software';
     push @{$self->{_options}}, 'SportingGoods';
     push @{$self->{_options}}, 'Tools';
     push @{$self->{_options}}, 'Toys';
+    push @{$self->{_options}}, 'UnboxVideo';
     push @{$self->{_options}}, 'VHS';
     push @{$self->{_options}}, 'Video';
     push @{$self->{_options}}, 'VideoGames';
@@ -99,12 +100,12 @@ The list of available values are:
     DigitalMusic
     Electronics
     GourmetFood
-    Grocery
     HealthPersonalCare
     HomeGarden
     Industrial
     Jewelry
     Kitchen
+    MP3Downloads
     Magazines
     Merchants
     Miscellaneous
@@ -115,11 +116,12 @@ The list of available values are:
     PCHardware
     PetSupplies
     Photo
-    Restaurants
+    SilverMerchants
     Software
     SportingGoods
     Tools
     Toys
+    UnboxVideo
     VHS
     Video
     VideoGames

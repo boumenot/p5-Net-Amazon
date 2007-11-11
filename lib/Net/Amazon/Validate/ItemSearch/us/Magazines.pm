@@ -1,7 +1,7 @@
 # -*- perl -*-
 # !!! DO NOT EDIT !!!
 # This file was automatically generated.
-package Net::Amazon::Validate::ItemSearch::ca::DeliveryMethod;
+package Net::Amazon::Validate::ItemSearch::us::Magazines;
 
 use 5.006;
 use strict;
@@ -10,20 +10,15 @@ use warnings;
 sub new {
     my ($class , %options) = @_;
     my $self = {
-        '_default' => 'Books',
+        '_default' => 'Music',
         %options,
     };
 
-    push @{$self->{_options}}, 'Books';
     push @{$self->{_options}}, 'Classical';
     push @{$self->{_options}}, 'DVD';
-    push @{$self->{_options}}, 'ForeignBooks';
     push @{$self->{_options}}, 'Music';
-    push @{$self->{_options}}, 'Software';
-    push @{$self->{_options}}, 'SoftwareVideoGames';
     push @{$self->{_options}}, 'VHS';
     push @{$self->{_options}}, 'Video';
-    push @{$self->{_options}}, 'VideoGames';
 
     bless $self, $class;
 }
@@ -46,7 +41,7 @@ sub find_match {
     for (@{$self->{_options}}) {
         return $_ if lc($_) eq lc($value);
     }
-    die "$value is not a valid value for ca::DeliveryMethod!\n";
+    die "$value is not a valid value for us::Magazines!\n";
 }
 
 1;
@@ -55,23 +50,18 @@ __END__
 
 =head1 NAME
 
-Net::Amazon::Validate::ItemSearch::ca::DeliveryMethod;
+Net::Amazon::Validate::ItemSearch::us::Magazines;
 
 =head1 DESCRIPTION
 
-The default value is Books, unless mode is specified.
+The default value is Music, unless mode is specified.
 
 The list of available values are:
 
-    Books
     Classical
     DVD
-    ForeignBooks
     Music
-    Software
-    SoftwareVideoGames
     VHS
     Video
-    VideoGames
 
 =cut

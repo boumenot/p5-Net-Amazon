@@ -102,18 +102,18 @@ sub new {
     # AWS4 type.
     if ($self->{type}) {
         if ( ref $self->{type} eq 'ARRAY' ) {
+            my @types;
             for (@{$self->{type}}) {
-                $self->{type} = AWS3_VALID_TYPES_MAP->{$self->{type}} 
-                if defined AWS3_VALID_TYPES_MAP->{$self->{type}};
+                push @types, _get_valid_response_group($_, $valid);
             }
+            $self->{type} = join(',', @types);
         } else {
-            $self->{type} = AWS3_VALID_TYPES_MAP->{$self->{type}} 
-            if defined AWS3_VALID_TYPES_MAP->{$self->{type}};
+            $self->{type} = _get_valid_response_group($self->{type}, $valid);
         }
-        $valid->ResponseGroup($self->{type});
     } 
-    # If no type was defined then attempt to find a default type.  If
-    # no type is found we rely on Amazon to use its default type.
+    # If no type was defined then try to default to Large, which is a good
+    # all around response group.  If Large is not a valid response group
+    # let Amazon pick.
     else {
         eval { $valid->ResponseGroup(DEFAULT_TYPE) };
         $self->{type} = DEFAULT_TYPE unless $@;
@@ -179,6 +179,23 @@ sub response_class {
 ##
 ## 'PRIVATE' METHODS
 ##
+
+# A subroutine (not a class method), to map a response group
+# to from AWS3 to AWS4, or validate that a response group
+# is valid for AWS4.
+sub _get_valid_response_group {
+    my ($response_group, $valid) = @_;
+
+    if (defined AWS3_VALID_TYPES_MAP->{$response_group}) {
+        return AWS3_VALID_TYPES_MAP->{$response_group};
+    } elsif ($valid->ResponseGroup($response_group)) {
+        return $response_group;
+    }
+
+    # never reached, valid-> will die if the response group
+    # is not valid for AWS4.
+    return undef;
+}
 
 # CLASS->_convert_option( OPTIONS, ORIGINAL, TARGET [, CALLBACK] )
 #

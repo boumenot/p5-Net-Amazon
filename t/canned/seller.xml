@@ -1,83 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<SellerListingSearchResponse xmlns="http://webservices.amazon.com/AWSECommerceService/2006-06-28">
+<SellerListingSearchResponse xmlns="http://webservices.amazon.com/AWSECommerceService/2007-10-29">
   <SellerListings>
-    <TotalResults>1932</TotalResults>
-    <TotalPages>194</TotalPages>
-    <SellerListing>
-      <ExchangeId>Y01Y4725136Y4353165</ExchangeId>
-      <ListingId>1220R554328</ListingId>
-      <ASIN>0393023826</ASIN>
-      <SKU>492</SKU>
-      <EAN>9780393023824</EAN>
-      <WillShipExpedited>1</WillShipExpedited>
-      <WillShipInternational>0</WillShipInternational>
-      <Title>Setting the Mould: The United States and Britain 1945-50  by Edmonds, Robin</Title>
-      <Price>
-        <Amount>1058</Amount>
-        <CurrencyCode>USD</CurrencyCode>
-        <FormattedPrice>$10.58</FormattedPrice>
-      </Price>
-      <StartDate>2003-12-20</StartDate>
-      <EndDate>2006-12-04</EndDate>
-      <Status>Open</Status>
-      <Quantity>1</Quantity>
-      <Condition>collectible</Condition>
-      <SubCondition>verygood</SubCondition>
-      <Seller>
-        <SellerId>A23JJ2BNHZMFCO</SellerId>
-        <Nickname>brick_road_books</Nickname>
-      </Seller>
-    </SellerListing>
-    <SellerListing>
-      <ExchangeId>Y01Y4755264Y5374984</ExchangeId>
-      <ListingId>1220T200083</ListingId>
-      <ASIN>067178546X</ASIN>
-      <SKU>734</SKU>
-      <EAN>9780671785468</EAN>
-      <WillShipExpedited>1</WillShipExpedited>
-      <WillShipInternational>0</WillShipInternational>
-      <Title>Blue Gold : A Novel from the NUMA Files [Paperback]  by Cussler, Clive</Title>
-      <Price>
-        <Amount>293</Amount>
-        <CurrencyCode>USD</CurrencyCode>
-        <FormattedPrice>$2.93</FormattedPrice>
-      </Price>
-      <StartDate>2003-12-20</StartDate>
-      <EndDate>2006-12-04</EndDate>
-      <Status>Open</Status>
-      <Quantity>1</Quantity>
-      <Condition>collectible</Condition>
-      <SubCondition>good</SubCondition>
-      <Seller>
-        <SellerId>A23JJ2BNHZMFCO</SellerId>
-        <Nickname>brick_road_books</Nickname>
-      </Seller>
-    </SellerListing>
-    <SellerListing>
-      <ExchangeId>Y02Y3473343Y2045689</ExchangeId>
-      <ListingId>1220T812630</ListingId>
-      <ASIN>0060642599</ASIN>
-      <SKU>670</SKU>
-      <EAN>9780060642594</EAN>
-      <WillShipExpedited>1</WillShipExpedited>
-      <WillShipInternational>0</WillShipInternational>
-      <Title>Beginnings without end  by Keen, Sam</Title>
-      <Price>
-        <Amount>495</Amount>
-        <CurrencyCode>USD</CurrencyCode>
-        <FormattedPrice>$4.95</FormattedPrice>
-      </Price>
-      <StartDate>2003-12-20</StartDate>
-      <EndDate>2006-12-04</EndDate>
-      <Status>Open</Status>
-      <Quantity>1</Quantity>
-      <Condition>collectible</Condition>
-      <SubCondition>good</SubCondition>
-      <Seller>
-        <SellerId>A23JJ2BNHZMFCO</SellerId>
-        <Nickname>brick_road_books</Nickname>
-      </Seller>
-    </SellerListing>
+    <TotalResults>2165</TotalResults>
+    <TotalPages>217</TotalPages>
     <SellerListing>
       <ExchangeId>Y03Y3368867Y8279042</ExchangeId>
       <ListingId>1220F944235</ListingId>
@@ -154,56 +79,6 @@
       </Seller>
     </SellerListing>
     <SellerListing>
-      <ExchangeId>Y03Y3640792Y3889167</ExchangeId>
-      <ListingId>1221W636777</ListingId>
-      <ASIN>0425167313</ASIN>
-      <SKU>4</SKU>
-      <EAN>9780425167311</EAN>
-      <WillShipExpedited>1</WillShipExpedited>
-      <WillShipInternational>0</WillShipInternational>
-      <Title>Here on Earth [Paperback]  by Alice Hoffman</Title>
-      <Price>
-        <Amount>315</Amount>
-        <CurrencyCode>USD</CurrencyCode>
-        <FormattedPrice>$3.15</FormattedPrice>
-      </Price>
-      <StartDate>2003-12-22</StartDate>
-      <EndDate>2006-12-06</EndDate>
-      <Status>Open</Status>
-      <Quantity>1</Quantity>
-      <Condition>collectible</Condition>
-      <SubCondition>verygood</SubCondition>
-      <Seller>
-        <SellerId>A23JJ2BNHZMFCO</SellerId>
-        <Nickname>brick_road_books</Nickname>
-      </Seller>
-    </SellerListing>
-    <SellerListing>
-      <ExchangeId>Y03Y4593224Y5038288</ExchangeId>
-      <ListingId>1221J572815</ListingId>
-      <ASIN>0671036181</ASIN>
-      <SKU>9</SKU>
-      <EAN>9780671036188</EAN>
-      <WillShipExpedited>1</WillShipExpedited>
-      <WillShipInternational>0</WillShipInternational>
-      <Title>The Last Lovely City [Paperback]  by Adams, Alice</Title>
-      <Price>
-        <Amount>135</Amount>
-        <CurrencyCode>USD</CurrencyCode>
-        <FormattedPrice>$1.35</FormattedPrice>
-      </Price>
-      <StartDate>2003-12-22</StartDate>
-      <EndDate>2006-12-06</EndDate>
-      <Status>Open</Status>
-      <Quantity>1</Quantity>
-      <Condition>collectible</Condition>
-      <SubCondition>good</SubCondition>
-      <Seller>
-        <SellerId>A23JJ2BNHZMFCO</SellerId>
-        <Nickname>brick_road_books</Nickname>
-      </Seller>
-    </SellerListing>
-    <SellerListing>
       <ExchangeId>Y01Y6246275Y9444966</ExchangeId>
       <ListingId>1221R411683</ListingId>
       <ASIN>0140150188</ASIN>
@@ -241,6 +116,131 @@
         <Amount>135</Amount>
         <CurrencyCode>USD</CurrencyCode>
         <FormattedPrice>$1.35</FormattedPrice>
+      </Price>
+      <StartDate>2003-12-22</StartDate>
+      <EndDate>2006-12-06</EndDate>
+      <Status>Open</Status>
+      <Quantity>1</Quantity>
+      <Condition>used</Condition>
+      <SubCondition>good</SubCondition>
+      <Seller>
+        <SellerId>A23JJ2BNHZMFCO</SellerId>
+        <Nickname>brick_road_books</Nickname>
+      </Seller>
+    </SellerListing>
+    <SellerListing>
+      <ExchangeId>Y01Y3810229Y1402488</ExchangeId>
+      <ListingId>1221T896306</ListingId>
+      <ASIN>0376055723</ASIN>
+      <SKU>19</SKU>
+      <EAN>9780376055729</EAN>
+      <WillShipExpedited>1</WillShipExpedited>
+      <WillShipInternational>0</WillShipInternational>
+      <Title>National Parks of the West [Hardcover]  by Sunset Books; Sunset Magazine &amp; Book</Title>
+      <Price>
+        <Amount>405</Amount>
+        <CurrencyCode>USD</CurrencyCode>
+        <FormattedPrice>$4.05</FormattedPrice>
+      </Price>
+      <StartDate>2003-12-22</StartDate>
+      <EndDate>2006-12-06</EndDate>
+      <Status>Open</Status>
+      <Quantity>1</Quantity>
+      <Condition>used</Condition>
+      <SubCondition>good</SubCondition>
+      <Seller>
+        <SellerId>A23JJ2BNHZMFCO</SellerId>
+        <Nickname>brick_road_books</Nickname>
+      </Seller>
+    </SellerListing>
+    <SellerListing>
+      <ExchangeId>Y04Y6797041Y5325341</ExchangeId>
+      <ListingId>1221B315740</ListingId>
+      <ASIN>0060152362</ASIN>
+      <SKU>20</SKU>
+      <EAN>9780060152369</EAN>
+      <WillShipExpedited>1</WillShipExpedited>
+      <WillShipInternational>0</WillShipInternational>
+      <Title>Almost Paradise  by Isaacs, Susan</Title>
+      <Price>
+        <Amount>135</Amount>
+        <CurrencyCode>USD</CurrencyCode>
+        <FormattedPrice>$1.35</FormattedPrice>
+      </Price>
+      <StartDate>2003-12-22</StartDate>
+      <EndDate>2006-12-06</EndDate>
+      <Status>Open</Status>
+      <Quantity>1</Quantity>
+      <Condition>used</Condition>
+      <SubCondition>good</SubCondition>
+      <Seller>
+        <SellerId>A23JJ2BNHZMFCO</SellerId>
+        <Nickname>brick_road_books</Nickname>
+      </Seller>
+    </SellerListing>
+    <SellerListing>
+      <ExchangeId>Y02Y2254402Y8833144</ExchangeId>
+      <ListingId>1221L671212</ListingId>
+      <ASIN>0061014591</ASIN>
+      <SKU>41</SKU>
+      <EAN>9780061014598</EAN>
+      <WillShipExpedited>1</WillShipExpedited>
+      <WillShipInternational>0</WillShipInternational>
+      <Title>The Terrible Hours [Paperback]  by Maas, Peter</Title>
+      <Price>
+        <Amount>293</Amount>
+        <CurrencyCode>USD</CurrencyCode>
+        <FormattedPrice>$2.93</FormattedPrice>
+      </Price>
+      <StartDate>2003-12-22</StartDate>
+      <EndDate>2006-12-06</EndDate>
+      <Status>Open</Status>
+      <Quantity>1</Quantity>
+      <Condition>used</Condition>
+      <SubCondition>verygood</SubCondition>
+      <Seller>
+        <SellerId>A23JJ2BNHZMFCO</SellerId>
+        <Nickname>brick_road_books</Nickname>
+      </Seller>
+    </SellerListing>
+    <SellerListing>
+      <ExchangeId>Y04Y0616384Y6549986</ExchangeId>
+      <ListingId>1221R251778</ListingId>
+      <ASIN>0762188731</ASIN>
+      <SKU>40</SKU>
+      <EAN>9780762188734</EAN>
+      <WillShipExpedited>1</WillShipExpedited>
+      <WillShipInternational>0</WillShipInternational>
+      <Title>The Moonstone (The Best Mysteries of All Time)  by Collins, Wilkie</Title>
+      <Price>
+        <Amount>630</Amount>
+        <CurrencyCode>USD</CurrencyCode>
+        <FormattedPrice>$6.30</FormattedPrice>
+      </Price>
+      <StartDate>2003-12-22</StartDate>
+      <EndDate>2006-12-06</EndDate>
+      <Status>Open</Status>
+      <Quantity>1</Quantity>
+      <Condition>used</Condition>
+      <SubCondition>mint</SubCondition>
+      <Seller>
+        <SellerId>A23JJ2BNHZMFCO</SellerId>
+        <Nickname>brick_road_books</Nickname>
+      </Seller>
+    </SellerListing>
+    <SellerListing>
+      <ExchangeId>Y02Y3220578Y9051703</ExchangeId>
+      <ListingId>1221L897533</ListingId>
+      <ASIN>0140150552</ASIN>
+      <SKU>53</SKU>
+      <EAN>9780140150551</EAN>
+      <WillShipExpedited>1</WillShipExpedited>
+      <WillShipInternational>0</WillShipInternational>
+      <Title>The Portable Henry James (Viking Portable Library)  by James, Henry</Title>
+      <Price>
+        <Amount>585</Amount>
+        <CurrencyCode>USD</CurrencyCode>
+        <FormattedPrice>$5.85</FormattedPrice>
       </Price>
       <StartDate>2003-12-22</StartDate>
       <EndDate>2006-12-06</EndDate>

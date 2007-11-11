@@ -10,10 +10,12 @@ use warnings;
 sub new {
     my ($class , %options) = @_;
     my $self = {
-        '_default' => 'HealthPersonalCare',
+        '_default' => 'Apparel',
         %options,
     };
 
+    push @{$self->{_options}}, 'Apparel';
+    push @{$self->{_options}}, 'Baby';
     push @{$self->{_options}}, 'HealthPersonalCare';
     push @{$self->{_options}}, 'Hobbies';
     push @{$self->{_options}}, 'Kitchen';
@@ -55,10 +57,12 @@ Net::Amazon::Validate::ItemSearch::jp::Manufacturer;
 
 =head1 DESCRIPTION
 
-The default value is HealthPersonalCare, unless mode is specified.
+The default value is Apparel, unless mode is specified.
 
 The list of available values are:
 
+    Apparel
+    Baby
     HealthPersonalCare
     Hobbies
     Kitchen

@@ -1,32 +1,120 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ItemSearchResponse xmlns="http://webservices.amazon.com/AWSECommerceService/2006-06-28">
+<ItemSearchResponse xmlns="http://webservices.amazon.com/AWSECommerceService/2007-10-29">
   <Items>
-    <TotalResults>16</TotalResults>
+    <TotalResults>19</TotalResults>
     <TotalPages>2</TotalPages>
     <Item>
-      <ASIN>1590595696</ASIN>
-      <DetailPageURL>http://www.amazon.com/exec/obidos/redirect?tag=ws%26link_code=xm2%26camp=2025%26creative=165953%26path=http://www.amazon.com/gp/redirect.html%253fASIN=1590595696%2526tag=ws%2526lcode=xm2%2526cID=2025%2526ccmID=165953%2526location=/o/ASIN/1590595696%25253FSubscriptionId=YOUR_AMAZON_TOKEN</DetailPageURL>
-      <SalesRank>14774</SalesRank>
-      <SmallImage>
-        <URL>http://images.amazon.com/images/P/1590595696.01._SCTHUMBZZZ_.jpg</URL>
-        <Height Units="pixels">75</Height>
-        <Width Units="pixels">62</Width>
-      </SmallImage>
-      <MediumImage>
-        <URL>http://images.amazon.com/images/P/1590595696.01._SCMZZZZZZZ_.jpg</URL>
-        <Height Units="pixels">160</Height>
-        <Width Units="pixels">133</Width>
-      </MediumImage>
-      <LargeImage>
-        <URL>http://images.amazon.com/images/P/1590595696.01._SCLZZZZZZZ_.jpg</URL>
-        <Height Units="pixels">500</Height>
-        <Width Units="pixels">417</Width>
-      </LargeImage>
+      <ASIN>1590597311</ASIN>
+      <DetailPageURL>http://www.amazon.com/gp/redirect.html%3FASIN=1590597311%26tag=ws%26lcode=xm2%26cID=2025%26ccmID=165953%26location=/o/ASIN/1590597311%253FSubscriptionId=1VAESZQN1G7SXNRG4882</DetailPageURL>
+      <SalesRank>36720</SalesRank>
       <ItemAttributes>
         <Author>David Powers</Author>
         <Binding>Paperback</Binding>
+        <DeweyDecimalNumber>005.133</DeweyDecimalNumber>
+        <EAN>9781590597316</EAN>
+        <ISBN>1590597311</ISBN>
+        <Label>friends of ED</Label>
+        <ListPrice>
+          <Amount>3499</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$34.99</FormattedPrice>
+        </ListPrice>
+        <Manufacturer>friends of ED</Manufacturer>
+        <NumberOfItems>1</NumberOfItems>
+        <NumberOfPages>488</NumberOfPages>
+        <ProductGroup>Book</ProductGroup>
+        <ProductTypeName>ABIS_BOOK</ProductTypeName>
+        <PublicationDate>2006-11-20</PublicationDate>
+        <Publisher>friends of ED</Publisher>
+        <Studio>friends of ED</Studio>
+        <Title>PHP Solutions: Dynamic Web Design Made Easy (Solutions)</Title>
+      </ItemAttributes>
+      <OfferSummary>
+        <LowestNewPrice>
+          <Amount>1909</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$19.09</FormattedPrice>
+        </LowestNewPrice>
+        <LowestUsedPrice>
+          <Amount>2182</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$21.82</FormattedPrice>
+        </LowestUsedPrice>
+        <TotalNew>37</TotalNew>
+        <TotalUsed>13</TotalUsed>
+        <TotalCollectible>0</TotalCollectible>
+        <TotalRefurbished>0</TotalRefurbished>
+      </OfferSummary>
+      <Accessories>
+        <Accessory>
+          <ASIN>1590597001</ASIN>
+          <Title>Workflow in the 2007 Microsoft Office System</Title>
+        </Accessory>
+        <Accessory>
+          <ASIN>1590598237</ASIN>
+          <Title>Pro C# with .NET 3.0, Special Edition (Pro)</Title>
+        </Accessory>
+        <Accessory>
+          <ASIN>1590598091</ASIN>
+          <Title>Microsoft SharePoint: Building Office 2007 Solutions in C# 2005 (Expert's Voice in Sharepoint)</Title>
+        </Accessory>
+      </Accessories>
+    </Item>
+    <Item>
+      <ASIN>0596527462</ASIN>
+      <DetailPageURL>http://www.amazon.com/gp/redirect.html%3FASIN=0596527462%26tag=ws%26lcode=xm2%26cID=2025%26ccmID=165953%26location=/o/ASIN/0596527462%253FSubscriptionId=1VAESZQN1G7SXNRG4882</DetailPageURL>
+      <SalesRank>30930</SalesRank>
+      <ItemAttributes>
+        <Author>Shelley Powers</Author>
+        <Binding>Paperback</Binding>
+        <DeweyDecimalNumber>005.2762</DeweyDecimalNumber>
+        <EAN>9780596527464</EAN>
+        <Format>Illustrated</Format>
+        <ISBN>0596527462</ISBN>
+        <Label>O'Reilly Media, Inc.</Label>
+        <ListPrice>
+          <Amount>2999</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$29.99</FormattedPrice>
+        </ListPrice>
+        <Manufacturer>O'Reilly Media, Inc.</Manufacturer>
+        <NumberOfItems>1</NumberOfItems>
+        <NumberOfPages>351</NumberOfPages>
+        <ProductGroup>Book</ProductGroup>
+        <ProductTypeName>ABIS_BOOK</ProductTypeName>
+        <PublicationDate>2006-10-17</PublicationDate>
+        <Publisher>O'Reilly Media, Inc.</Publisher>
+        <Studio>O'Reilly Media, Inc.</Studio>
+        <Title>Learning JavaScript (Learning)</Title>
+      </ItemAttributes>
+      <OfferSummary>
+        <LowestNewPrice>
+          <Amount>1681</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$16.81</FormattedPrice>
+        </LowestNewPrice>
+        <LowestUsedPrice>
+          <Amount>1400</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$14.00</FormattedPrice>
+        </LowestUsedPrice>
+        <TotalNew>50</TotalNew>
+        <TotalUsed>14</TotalUsed>
+        <TotalCollectible>0</TotalCollectible>
+        <TotalRefurbished>0</TotalRefurbished>
+      </OfferSummary>
+    </Item>
+    <Item>
+      <ASIN>1590595696</ASIN>
+      <DetailPageURL>http://www.amazon.com/gp/redirect.html%3FASIN=1590595696%26tag=ws%26lcode=xm2%26cID=2025%26ccmID=165953%26location=/o/ASIN/1590595696%253FSubscriptionId=1VAESZQN1G7SXNRG4882</DetailPageURL>
+      <SalesRank>50611</SalesRank>
+      <ItemAttributes>
+        <Author>David Powers</Author>
+        <Binding>Paperback</Binding>
+        <Brand>friends of Ed</Brand>
         <DeweyDecimalNumber>005.72</DeweyDecimalNumber>
         <EAN>9781590595695</EAN>
+        <Edition>1</Edition>
         <ISBN>1590595696</ISBN>
         <Label>friends of ED</Label>
         <ListPrice>
@@ -37,13 +125,8 @@
         <Manufacturer>friends of ED</Manufacturer>
         <NumberOfItems>1</NumberOfItems>
         <NumberOfPages>530</NumberOfPages>
-        <PackageDimensions>
-          <Height Units="hundredths-inches">107</Height>
-          <Length Units="hundredths-inches">906</Length>
-          <Weight Units="hundredths-pounds">188</Weight>
-          <Width Units="hundredths-inches">752</Width>
-        </PackageDimensions>
         <ProductGroup>Book</ProductGroup>
+        <ProductTypeName>ABIS_BOOK</ProductTypeName>
         <PublicationDate>2005-12-19</PublicationDate>
         <Publisher>friends of ED</Publisher>
         <Studio>friends of ED</Studio>
@@ -51,146 +134,138 @@
       </ItemAttributes>
       <OfferSummary>
         <LowestNewPrice>
-          <Amount>1763</Amount>
+          <Amount>2298</Amount>
           <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$17.63</FormattedPrice>
+          <FormattedPrice>$22.98</FormattedPrice>
         </LowestNewPrice>
         <LowestUsedPrice>
-          <Amount>2661</Amount>
+          <Amount>2298</Amount>
           <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$26.61</FormattedPrice>
+          <FormattedPrice>$22.98</FormattedPrice>
         </LowestUsedPrice>
-        <LowestCollectiblePrice>
-          <Amount>3999</Amount>
-          <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$39.99</FormattedPrice>
-        </LowestCollectiblePrice>
-        <TotalNew>37</TotalNew>
-        <TotalUsed>14</TotalUsed>
-        <TotalCollectible>2</TotalCollectible>
-        <TotalRefurbished>0</TotalRefurbished>
-      </OfferSummary>
-      <Offers>
-        <TotalOffers>1</TotalOffers>
-        <TotalOfferPages>1</TotalOfferPages>
-        <Offer>
-          <Merchant>
-            <MerchantId>ATVPDKIKX0DER</MerchantId>
-            <GlancePage>http://www.amazon.com/gp/help/seller/home.html?seller=ATVPDKIKX0DER</GlancePage>
-            <AverageFeedbackRating>0.0</AverageFeedbackRating>
-            <TotalFeedback>0</TotalFeedback>
-          </Merchant>
-          <OfferAttributes>
-            <Condition>New</Condition>
-          </OfferAttributes>
-          <OfferListing>
-            <OfferListingId>DFqN6rHuLTdxxpnvSsBHrjpc34It2P4i7Sz8LJMUCQioBHnPYsZuZl%2Fb5Vc3mFTuPYBIU575Lhc%3D</OfferListingId>
-            <Price>
-              <Amount>2519</Amount>
-              <CurrencyCode>USD</CurrencyCode>
-              <FormattedPrice>$25.19</FormattedPrice>
-            </Price>
-            <Availability>Usually ships in 24 hours</Availability>
-            <IsEligibleForSuperSaverShipping>1</IsEligibleForSuperSaverShipping>
-          </OfferListing>
-        </Offer>
-      </Offers>
-    </Item>
-    <Item>
-      <ASIN>1861004494</ASIN>
-      <DetailPageURL>http://www.amazon.com/exec/obidos/redirect?tag=ws%26link_code=xm2%26camp=2025%26creative=165953%26path=http://www.amazon.com/gp/redirect.html%253fASIN=1861004494%2526tag=ws%2526lcode=xm2%2526cID=2025%2526ccmID=165953%2526location=/o/ASIN/1861004494%25253FSubscriptionId=YOUR_AMAZON_TOKEN</DetailPageURL>
-      <SalesRank>160283</SalesRank>
-      <SmallImage>
-        <URL>http://images.amazon.com/images/P/1861004494.01._SCTHUMBZZZ_.jpg</URL>
-        <Height Units="pixels">60</Height>
-        <Width Units="pixels">48</Width>
-      </SmallImage>
-      <MediumImage>
-        <URL>http://images.amazon.com/images/P/1861004494.01._SCMZZZZZZZ_.jpg</URL>
-        <Height Units="pixels">140</Height>
-        <Width Units="pixels">111</Width>
-      </MediumImage>
-      <LargeImage>
-        <URL>http://images.amazon.com/images/P/1861004494.01._SCLZZZZZZZ_.jpg</URL>
-        <Height Units="pixels">475</Height>
-        <Width Units="pixels">378</Width>
-      </LargeImage>
-      <ItemAttributes>
-        <Author>Peter Wainwright</Author>
-        <Author>Aldo Calpini</Author>
-        <Author>Arthur Corliss</Author>
-        <Author>Juan Julian Merelo Guervos</Author>
-        <Author>Chris Nandor</Author>
-        <Author>Aalhad Saraf</Author>
-        <Author>Shelley Powers</Author>
-        <Author>Arthur Corliss</Author>
-        <Author>Simon Cozens</Author>
-        <Author>JJ Merelo-Guervos</Author>
-        <Author>Aalhad Saraf</Author>
-        <Author>Chris Nandor</Author>
-        <Binding>Paperback</Binding>
-        <EAN>9781861004499</EAN>
-        <Edition>1st</Edition>
-        <ISBN>1861004494</ISBN>
-        <Label>Peer Information</Label>
-        <ListPrice>
-          <Amount>5999</Amount>
-          <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$59.99</FormattedPrice>
-        </ListPrice>
-        <Manufacturer>Peer Information</Manufacturer>
-        <NumberOfItems>1</NumberOfItems>
-        <NumberOfPages>1215</NumberOfPages>
-        <PackageDimensions>
-          <Height Units="hundredths-inches">168</Height>
-          <Length Units="hundredths-inches">909</Length>
-          <Weight Units="hundredths-pounds">348</Weight>
-          <Width Units="hundredths-inches">722</Width>
-        </PackageDimensions>
-        <ProductGroup>Book</ProductGroup>
-        <PublicationDate>2001-02</PublicationDate>
-        <Publisher>Peer Information</Publisher>
-        <Studio>Peer Information</Studio>
-        <Title>Professional Perl Programming</Title>
-      </ItemAttributes>
-      <OfferSummary>
-        <LowestUsedPrice>
-          <Amount>1175</Amount>
-          <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$11.75</FormattedPrice>
-        </LowestUsedPrice>
-        <TotalNew>0</TotalNew>
-        <TotalUsed>3</TotalUsed>
+        <TotalNew>34</TotalNew>
+        <TotalUsed>15</TotalUsed>
         <TotalCollectible>0</TotalCollectible>
         <TotalRefurbished>0</TotalRefurbished>
       </OfferSummary>
-      <Offers>
-        <TotalOffers>0</TotalOffers>
-        <TotalOfferPages>0</TotalOfferPages>
-      </Offers>
+      <Accessories>
+        <Accessory>
+          <ASIN>1590597001</ASIN>
+          <Title>Workflow in the 2007 Microsoft Office System</Title>
+        </Accessory>
+        <Accessory>
+          <ASIN>1590598237</ASIN>
+          <Title>Pro C# with .NET 3.0, Special Edition (Pro)</Title>
+        </Accessory>
+        <Accessory>
+          <ASIN>1590598091</ASIN>
+          <Title>Microsoft SharePoint: Building Office 2007 Solutions in C# 2005 (Expert's Voice in Sharepoint)</Title>
+        </Accessory>
+      </Accessories>
+    </Item>
+    <Item>
+      <ASIN>0596529368</ASIN>
+      <DetailPageURL>http://www.amazon.com/gp/redirect.html%3FASIN=0596529368%26tag=ws%26lcode=xm2%26cID=2025%26ccmID=165953%26location=/o/ASIN/0596529368%253FSubscriptionId=1VAESZQN1G7SXNRG4882</DetailPageURL>
+      <SalesRank>187088</SalesRank>
+      <ItemAttributes>
+        <Author>Shelley Powers</Author>
+        <Binding>Paperback</Binding>
+        <DeweyDecimalNumber>006.786</DeweyDecimalNumber>
+        <EAN>9780596529369</EAN>
+        <Format>Illustrated</Format>
+        <ISBN>0596529368</ISBN>
+        <Label>O'Reilly Media, Inc.</Label>
+        <ListPrice>
+          <Amount>3499</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$34.99</FormattedPrice>
+        </ListPrice>
+        <Manufacturer>O'Reilly Media, Inc.</Manufacturer>
+        <NumberOfItems>1</NumberOfItems>
+        <NumberOfPages>399</NumberOfPages>
+        <ProductGroup>Book</ProductGroup>
+        <ProductTypeName>ABIS_BOOK</ProductTypeName>
+        <PublicationDate>2007-06-20</PublicationDate>
+        <Publisher>O'Reilly Media, Inc.</Publisher>
+        <Studio>O'Reilly Media, Inc.</Studio>
+        <Title>Adding Ajax</Title>
+      </ItemAttributes>
+      <OfferSummary>
+        <LowestNewPrice>
+          <Amount>1944</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$19.44</FormattedPrice>
+        </LowestNewPrice>
+        <LowestUsedPrice>
+          <Amount>1145</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$11.45</FormattedPrice>
+        </LowestUsedPrice>
+        <TotalNew>44</TotalNew>
+        <TotalUsed>16</TotalUsed>
+        <TotalCollectible>0</TotalCollectible>
+        <TotalRefurbished>0</TotalRefurbished>
+      </OfferSummary>
+    </Item>
+    <Item>
+      <ASIN>0470048182</ASIN>
+      <DetailPageURL>http://www.amazon.com/gp/redirect.html%3FASIN=0470048182%26tag=ws%26lcode=xm2%26cID=2025%26ccmID=165953%26location=/o/ASIN/0470048182%253FSubscriptionId=1VAESZQN1G7SXNRG4882</DetailPageURL>
+      <SalesRank>118715</SalesRank>
+      <ItemAttributes>
+        <Author>Thomas Schmitt</Author>
+        <Author>Arnold Perl</Author>
+        <Author>Frederick W. Smith</Author>
+        <Binding>Hardcover</Binding>
+        <DeweyDecimalNumber>658.4092</DeweyDecimalNumber>
+        <EAN>9780470048184</EAN>
+        <Edition>1</Edition>
+        <ISBN>0470048182</ISBN>
+        <Label>Wiley</Label>
+        <ListPrice>
+          <Amount>2295</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$22.95</FormattedPrice>
+        </ListPrice>
+        <Manufacturer>Wiley</Manufacturer>
+        <NumberOfItems>1</NumberOfItems>
+        <NumberOfPages>220</NumberOfPages>
+        <ProductGroup>Book</ProductGroup>
+        <ProductTypeName>ABIS_BOOK</ProductTypeName>
+        <PublicationDate>2006-12-05</PublicationDate>
+        <Publisher>Wiley</Publisher>
+        <Studio>Wiley</Studio>
+        <Title>Simple Solutions: Harness the Power of Passion and Simplicity to Get Results</Title>
+      </ItemAttributes>
+      <OfferSummary>
+        <LowestNewPrice>
+          <Amount>750</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$7.50</FormattedPrice>
+        </LowestNewPrice>
+        <LowestUsedPrice>
+          <Amount>750</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$7.50</FormattedPrice>
+        </LowestUsedPrice>
+        <LowestCollectiblePrice>
+          <Amount>2295</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$22.95</FormattedPrice>
+        </LowestCollectiblePrice>
+        <TotalNew>47</TotalNew>
+        <TotalUsed>22</TotalUsed>
+        <TotalCollectible>1</TotalCollectible>
+        <TotalRefurbished>0</TotalRefurbished>
+      </OfferSummary>
     </Item>
     <Item>
       <ASIN>1598631616</ASIN>
-      <DetailPageURL>http://www.amazon.com/exec/obidos/redirect?tag=ws%26link_code=xm2%26camp=2025%26creative=165953%26path=http://www.amazon.com/gp/redirect.html%253fASIN=1598631616%2526tag=ws%2526lcode=xm2%2526cID=2025%2526ccmID=165953%2526location=/o/ASIN/1598631616%25253FSubscriptionId=YOUR_AMAZON_TOKEN</DetailPageURL>
-      <SalesRank>199362</SalesRank>
-      <SmallImage>
-        <URL>http://images.amazon.com/images/P/1598631616.01._SCTHUMBZZZ_.jpg</URL>
-        <Height Units="pixels">75</Height>
-        <Width Units="pixels">61</Width>
-      </SmallImage>
-      <MediumImage>
-        <URL>http://images.amazon.com/images/P/1598631616.01._SCMZZZZZZZ_.jpg</URL>
-        <Height Units="pixels">160</Height>
-        <Width Units="pixels">129</Width>
-      </MediumImage>
-      <LargeImage>
-        <URL>http://images.amazon.com/images/P/1598631616.01._SCLZZZZZZZ_.jpg</URL>
-        <Height Units="pixels">500</Height>
-        <Width Units="pixels">404</Width>
-      </LargeImage>
+      <DetailPageURL>http://www.amazon.com/gp/redirect.html%3FASIN=1598631616%26tag=ws%26lcode=xm2%26cID=2025%26ccmID=165953%26location=/o/ASIN/1598631616%253FSubscriptionId=1VAESZQN1G7SXNRG4882</DetailPageURL>
+      <SalesRank>684599</SalesRank>
       <ItemAttributes>
         <Author>Ph.D., John P Flynt</Author>
         <Binding>Paperback</Binding>
+        <Brand>Course Technology</Brand>
         <DeweyDecimalNumber>005.133</DeweyDecimalNumber>
         <EAN>9781598631616</EAN>
         <Edition>1</Edition>
@@ -204,89 +279,109 @@
         <Manufacturer>Course Technology PTR</Manufacturer>
         <NumberOfItems>1</NumberOfItems>
         <NumberOfPages>448</NumberOfPages>
-        <PackageDimensions>
-          <Height Units="hundredths-inches">107</Height>
-          <Length Units="hundredths-inches">910</Length>
-          <Weight Units="hundredths-pounds">192</Weight>
-          <Width Units="hundredths-inches">738</Width>
-        </PackageDimensions>
         <ProductGroup>Book</ProductGroup>
+        <ProductTypeName>ABIS_BOOK</ProductTypeName>
         <PublicationDate>2006-03-15</PublicationDate>
         <Publisher>Course Technology PTR</Publisher>
         <Studio>Course Technology PTR</Studio>
-        <Title>Perl Power!: The Comprehensive Guide (Comprehensive Guides)</Title>
+        <Title>Perl Power!: The Comprehensive Guide (Power!)</Title>
       </ItemAttributes>
       <OfferSummary>
         <LowestNewPrice>
-          <Amount>1100</Amount>
+          <Amount>1449</Amount>
           <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$11.00</FormattedPrice>
+          <FormattedPrice>$14.49</FormattedPrice>
         </LowestNewPrice>
         <LowestUsedPrice>
-          <Amount>2165</Amount>
+          <Amount>1390</Amount>
           <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$21.65</FormattedPrice>
+          <FormattedPrice>$13.90</FormattedPrice>
         </LowestUsedPrice>
-        <LowestCollectiblePrice>
-          <Amount>3499</Amount>
-          <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$34.99</FormattedPrice>
-        </LowestCollectiblePrice>
-        <TotalNew>38</TotalNew>
-        <TotalUsed>14</TotalUsed>
-        <TotalCollectible>2</TotalCollectible>
+        <TotalNew>17</TotalNew>
+        <TotalUsed>6</TotalUsed>
+        <TotalCollectible>0</TotalCollectible>
         <TotalRefurbished>0</TotalRefurbished>
       </OfferSummary>
-      <Offers>
-        <TotalOffers>1</TotalOffers>
-        <TotalOfferPages>1</TotalOfferPages>
-        <Offer>
-          <Merchant>
-            <MerchantId>ATVPDKIKX0DER</MerchantId>
-            <GlancePage>http://www.amazon.com/gp/help/seller/home.html?seller=ATVPDKIKX0DER</GlancePage>
-            <AverageFeedbackRating>0.0</AverageFeedbackRating>
-            <TotalFeedback>0</TotalFeedback>
-          </Merchant>
-          <OfferAttributes>
-            <Condition>New</Condition>
-          </OfferAttributes>
-          <OfferListing>
-            <OfferListingId>WXTfFf3OhhqLi%2BwpDMKtFxf1ZJ7R5XYIIgEXqsb%2Fs2QmnZ7wA33JzNh%2FY1fPtBBZ5Bmhv8XvyEc%3D</OfferListingId>
-            <Price>
-              <Amount>2204</Amount>
-              <CurrencyCode>USD</CurrencyCode>
-              <FormattedPrice>$22.04</FormattedPrice>
-            </Price>
-            <Availability>Usually ships in 24 hours</Availability>
-            <IsEligibleForSuperSaverShipping>1</IsEligibleForSuperSaverShipping>
-          </OfferListing>
-        </Offer>
-      </Offers>
+      <Accessories>
+        <Accessory>
+          <ASIN>1598632221</ASIN>
+          <Title>Perl Programming for the Absolute Beginner</Title>
+        </Accessory>
+        <Accessory>
+          <ASIN>1931841772</ASIN>
+          <Title>Learn Perl In a Weekend (In a Weekend (Indianapolis, Ind.).)</Title>
+        </Accessory>
+        <Accessory>
+          <ASIN>1931841179</ASIN>
+          <Title>Perl Fast &amp; Easy Web Development</Title>
+        </Accessory>
+      </Accessories>
+    </Item>
+    <Item>
+      <ASIN>1861004494</ASIN>
+      <DetailPageURL>http://www.amazon.com/gp/redirect.html%3FASIN=1861004494%26tag=ws%26lcode=xm2%26cID=2025%26ccmID=165953%26location=/o/ASIN/1861004494%253FSubscriptionId=1VAESZQN1G7SXNRG4882</DetailPageURL>
+      <SalesRank>1029346</SalesRank>
+      <ItemAttributes>
+        <Author>Peter Wainwright</Author>
+        <Author>Aldo Calpini</Author>
+        <Author>Arthur Corliss</Author>
+        <Author>Juan Julian Merelo Guervos</Author>
+        <Author>Chris Nandor</Author>
+        <Author>Aalhad Saraf</Author>
+        <Author>Shelley Powers</Author>
+        <Author>Simon Cozens</Author>
+        <Author>JJ Merelo-Guervos</Author>
+        <Author>Aalhad Saraf</Author>
+        <Author>Chris Nandor</Author>
+        <Binding>Paperback</Binding>
+        <Brand>Wrox Press Inc</Brand>
+        <DeweyDecimalNumber>005.133</DeweyDecimalNumber>
+        <EAN>9781861004499</EAN>
+        <Edition>1st</Edition>
+        <ISBN>1861004494</ISBN>
+        <Label>Peer Information</Label>
+        <ListPrice>
+          <Amount>5999</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$59.99</FormattedPrice>
+        </ListPrice>
+        <Manufacturer>Peer Information</Manufacturer>
+        <NumberOfItems>1</NumberOfItems>
+        <NumberOfPages>1215</NumberOfPages>
+        <ProductGroup>Book</ProductGroup>
+        <ProductTypeName>ABIS_BOOK</ProductTypeName>
+        <PublicationDate>2001-02</PublicationDate>
+        <Publisher>Peer Information</Publisher>
+        <Studio>Peer Information</Studio>
+        <Title>Professional Perl Programming</Title>
+      </ItemAttributes>
+      <OfferSummary>
+        <LowestNewPrice>
+          <Amount>1299</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$12.99</FormattedPrice>
+        </LowestNewPrice>
+        <LowestUsedPrice>
+          <Amount>1299</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$12.99</FormattedPrice>
+        </LowestUsedPrice>
+        <TotalNew>8</TotalNew>
+        <TotalUsed>8</TotalUsed>
+        <TotalCollectible>0</TotalCollectible>
+        <TotalRefurbished>0</TotalRefurbished>
+      </OfferSummary>
     </Item>
     <Item>
       <ASIN>0201360683</ASIN>
-      <DetailPageURL>http://www.amazon.com/exec/obidos/redirect?tag=ws%26link_code=xm2%26camp=2025%26creative=165953%26path=http://www.amazon.com/gp/redirect.html%253fASIN=0201360683%2526tag=ws%2526lcode=xm2%2526cID=2025%2526ccmID=165953%2526location=/o/ASIN/0201360683%25253FSubscriptionId=YOUR_AMAZON_TOKEN</DetailPageURL>
-      <SalesRank>1228318</SalesRank>
-      <SmallImage>
-        <URL>http://images.amazon.com/images/P/0201360683.01._SCTHUMBZZZ_.jpg</URL>
-        <Height Units="pixels">60</Height>
-        <Width Units="pixels">44</Width>
-      </SmallImage>
-      <MediumImage>
-        <URL>http://images.amazon.com/images/P/0201360683.01._SCMZZZZZZZ_.jpg</URL>
-        <Height Units="pixels">140</Height>
-        <Width Units="pixels">102</Width>
-      </MediumImage>
-      <LargeImage>
-        <URL>http://images.amazon.com/images/P/0201360683.01._SCLZZZZZZZ_.jpg</URL>
-        <Height Units="pixels">475</Height>
-        <Width Units="pixels">345</Width>
-      </LargeImage>
+      <DetailPageURL>http://www.amazon.com/gp/redirect.html%3FASIN=0201360683%26tag=ws%26lcode=xm2%26cID=2025%26ccmID=165953%26location=/o/ASIN/0201360683%253FSubscriptionId=1VAESZQN1G7SXNRG4882</DetailPageURL>
+      <SalesRank>1649405</SalesRank>
       <ItemAttributes>
         <Author>Michael Schilli</Author>
         <Binding>Paperback</Binding>
+        <DeweyDecimalNumber>005.133</DeweyDecimalNumber>
         <EAN>9780201360684</EAN>
-        <Edition>Bk&amp;CD Rom</Edition>
+        <Edition>Pap/Cdr</Edition>
         <ISBN>0201360683</ISBN>
         <Label>Addison-Wesley Professional</Label>
         <ListPrice>
@@ -297,13 +392,8 @@
         <Manufacturer>Addison-Wesley Professional</Manufacturer>
         <NumberOfItems>1</NumberOfItems>
         <NumberOfPages>464</NumberOfPages>
-        <PackageDimensions>
-          <Height Units="hundredths-inches">83</Height>
-          <Length Units="hundredths-inches">922</Length>
-          <Weight Units="hundredths-pounds">143</Weight>
-          <Width Units="hundredths-inches">674</Width>
-        </PackageDimensions>
         <ProductGroup>Book</ProductGroup>
+        <ProductTypeName>ABIS_BOOK</ProductTypeName>
         <PublicationDate>1998-12-16</PublicationDate>
         <Publisher>Addison-Wesley Professional</Publisher>
         <Studio>Addison-Wesley Professional</Studio>
@@ -311,286 +401,34 @@
       </ItemAttributes>
       <OfferSummary>
         <LowestNewPrice>
-          <Amount>990</Amount>
+          <Amount>1480</Amount>
           <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$9.90</FormattedPrice>
+          <FormattedPrice>$14.80</FormattedPrice>
         </LowestNewPrice>
         <LowestUsedPrice>
-          <Amount>25</Amount>
+          <Amount>430</Amount>
           <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$0.25</FormattedPrice>
+          <FormattedPrice>$4.30</FormattedPrice>
         </LowestUsedPrice>
-        <TotalNew>9</TotalNew>
-        <TotalUsed>7</TotalUsed>
+        <TotalNew>5</TotalNew>
+        <TotalUsed>9</TotalUsed>
         <TotalCollectible>0</TotalCollectible>
         <TotalRefurbished>0</TotalRefurbished>
       </OfferSummary>
-      <Offers>
-        <TotalOffers>1</TotalOffers>
-        <TotalOfferPages>1</TotalOfferPages>
-        <Offer>
-          <Merchant>
-            <MerchantId>ATVPDKIKX0DER</MerchantId>
-            <GlancePage>http://www.amazon.com/gp/help/seller/home.html?seller=ATVPDKIKX0DER</GlancePage>
-            <AverageFeedbackRating>0.0</AverageFeedbackRating>
-            <TotalFeedback>0</TotalFeedback>
-          </Merchant>
-          <OfferAttributes>
-            <Condition>New</Condition>
-          </OfferAttributes>
-          <OfferListing>
-            <OfferListingId>yCD7QzI5mdF8QpVEQZ1hCpSGLrDDoKdKQ6Gt4F6YkasKcejInDEGuGJr3EDJKT32GSGjvuQ8fPo%3D</OfferListingId>
-            <Price>
-              <Amount>3999</Amount>
-              <CurrencyCode>USD</CurrencyCode>
-              <FormattedPrice>$39.99</FormattedPrice>
-            </Price>
-            <Availability>Usually ships in 1 to 3 weeks</Availability>
-            <IsEligibleForSuperSaverShipping>1</IsEligibleForSuperSaverShipping>
-          </OfferListing>
-        </Offer>
-      </Offers>
-    </Item>
-    <Item>
-      <ASIN>0596527462</ASIN>
-      <DetailPageURL>http://www.amazon.com/exec/obidos/redirect?tag=ws%26link_code=xm2%26camp=2025%26creative=165953%26path=http://www.amazon.com/gp/redirect.html%253fASIN=0596527462%2526tag=ws%2526lcode=xm2%2526cID=2025%2526ccmID=165953%2526location=/o/ASIN/0596527462%25253FSubscriptionId=YOUR_AMAZON_TOKEN</DetailPageURL>
-      <SalesRank>451812</SalesRank>
-      <ItemAttributes>
-        <Author>Shelley Powers</Author>
-        <Binding>Paperback</Binding>
-        <DeweyDecimalNumber>005</DeweyDecimalNumber>
-        <EAN>9780596527464</EAN>
-        <ISBN>0596527462</ISBN>
-        <Label>O'Reilly Media</Label>
-        <ListPrice>
-          <Amount>2999</Amount>
-          <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$29.99</FormattedPrice>
-        </ListPrice>
-        <Manufacturer>O'Reilly Media</Manufacturer>
-        <NumberOfItems>1</NumberOfItems>
-        <NumberOfPages>304</NumberOfPages>
-        <ProductGroup>Book</ProductGroup>
-        <PublicationDate>2006-10-01</PublicationDate>
-        <Publisher>O'Reilly Media</Publisher>
-        <Studio>O'Reilly Media</Studio>
-        <Title>Learning JavaScript</Title>
-      </ItemAttributes>
-      <OfferSummary>
-        <LowestNewPrice>
-          <Amount>1889</Amount>
-          <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$18.89</FormattedPrice>
-        </LowestNewPrice>
-        <TotalNew>1</TotalNew>
-        <TotalUsed>0</TotalUsed>
-        <TotalCollectible>0</TotalCollectible>
-        <TotalRefurbished>0</TotalRefurbished>
-      </OfferSummary>
-      <Offers>
-        <TotalOffers>1</TotalOffers>
-        <TotalOfferPages>1</TotalOfferPages>
-        <Offer>
-          <Merchant>
-            <MerchantId>ATVPDKIKX0DER</MerchantId>
-            <GlancePage>http://www.amazon.com/gp/help/seller/home.html?seller=ATVPDKIKX0DER</GlancePage>
-            <AverageFeedbackRating>0.0</AverageFeedbackRating>
-            <TotalFeedback>0</TotalFeedback>
-          </Merchant>
-          <OfferAttributes>
-            <Condition>New</Condition>
-          </OfferAttributes>
-          <OfferListing>
-            <OfferListingId>EjfV4XWj9IJezGaXCm0S0x2ncckVCnvBU3HKrc5hCRvO7idryR4aMYFO1IHnMQGwIKuXrK8kREI%3D</OfferListingId>
-            <Price>
-              <Amount>1889</Amount>
-              <CurrencyCode>USD</CurrencyCode>
-              <FormattedPrice>$18.89</FormattedPrice>
-            </Price>
-            <Availability>Not yet published</Availability>
-            <IsEligibleForSuperSaverShipping>1</IsEligibleForSuperSaverShipping>
-          </OfferListing>
-        </Offer>
-      </Offers>
-    </Item>
-    <Item>
-      <ASIN>1850322538</ASIN>
-      <DetailPageURL>http://www.amazon.com/exec/obidos/redirect?tag=ws%26link_code=xm2%26camp=2025%26creative=165953%26path=http://www.amazon.com/gp/redirect.html%253fASIN=1850322538%2526tag=ws%2526lcode=xm2%2526cID=2025%2526ccmID=165953%2526location=/o/ASIN/1850322538%25253FSubscriptionId=YOUR_AMAZON_TOKEN</DetailPageURL>
-      <SalesRank>1690590</SalesRank>
-      <SmallImage>
-        <URL>http://images.amazon.com/images/P/1850322538.01._SCTHUMBZZZ_.jpg</URL>
-        <Height Units="pixels">60</Height>
-        <Width Units="pixels">39</Width>
-      </SmallImage>
-      <MediumImage>
-        <URL>http://images.amazon.com/images/P/1850322538.01._SCMZZZZZZZ_.jpg</URL>
-        <Height Units="pixels">140</Height>
-        <Width Units="pixels">91</Width>
-      </MediumImage>
-      <LargeImage>
-        <URL>http://images.amazon.com/images/P/1850322538.01._SCLZZZZZZZ_.jpg</URL>
-        <Height Units="pixels">475</Height>
-        <Width Units="pixels">308</Width>
-      </LargeImage>
-      <ItemAttributes>
-        <Author>Christian Neuss</Author>
-        <Author>Johan Vromans</Author>
-        <Binding>Paperback</Binding>
-        <EAN>9781850322535</EAN>
-        <Edition>Bk&amp;CD Rom</Edition>
-        <ISBN>1850322538</ISBN>
-        <Label>Itp New Media</Label>
-        <ListPrice>
-          <Amount>2995</Amount>
-          <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$29.95</FormattedPrice>
-        </ListPrice>
-        <Manufacturer>Itp New Media</Manufacturer>
-        <NumberOfItems>1</NumberOfItems>
-        <NumberOfPages>196</NumberOfPages>
-        <PackageDimensions>
-          <Height Units="hundredths-inches">54</Height>
-          <Length Units="hundredths-inches">914</Length>
-          <Weight Units="hundredths-pounds">77</Weight>
-          <Width Units="hundredths-inches">612</Width>
-        </PackageDimensions>
-        <ProductGroup>Book</ProductGroup>
-        <PublicationDate>1996-02</PublicationDate>
-        <Publisher>Itp New Media</Publisher>
-        <Studio>Itp New Media</Studio>
-        <Title>The Webmaster's Handbook: Perl Power for Your Web Server</Title>
-      </ItemAttributes>
-      <OfferSummary>
-        <LowestNewPrice>
-          <Amount>2995</Amount>
-          <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$29.95</FormattedPrice>
-        </LowestNewPrice>
-        <LowestUsedPrice>
-          <Amount>319</Amount>
-          <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$3.19</FormattedPrice>
-        </LowestUsedPrice>
-        <TotalNew>1</TotalNew>
-        <TotalUsed>20</TotalUsed>
-        <TotalCollectible>0</TotalCollectible>
-        <TotalRefurbished>0</TotalRefurbished>
-      </OfferSummary>
-      <Offers>
-        <TotalOffers>1</TotalOffers>
-        <TotalOfferPages>1</TotalOfferPages>
-        <Offer>
-          <Merchant>
-            <MerchantId>ATVPDKIKX0DER</MerchantId>
-            <GlancePage>http://www.amazon.com/gp/help/seller/home.html?seller=ATVPDKIKX0DER</GlancePage>
-            <AverageFeedbackRating>0.0</AverageFeedbackRating>
-            <TotalFeedback>0</TotalFeedback>
-          </Merchant>
-          <OfferAttributes>
-            <Condition>New</Condition>
-          </OfferAttributes>
-          <OfferListing>
-            <OfferListingId>If9pxjoay99pv2Bd2uLEmEAP%2Fr7gD0Na%2BtFHmRfA6FqWI%2FjdT87dT4K1IVtngjSr0epNzp7h67M%3D</OfferListingId>
-            <Price>
-              <Amount>2995</Amount>
-              <CurrencyCode>USD</CurrencyCode>
-              <FormattedPrice>$29.95</FormattedPrice>
-            </Price>
-            <Availability>Usually ships in 1 to 3 weeks</Availability>
-            <IsEligibleForSuperSaverShipping>1</IsEligibleForSuperSaverShipping>
-          </OfferListing>
-        </Offer>
-      </Offers>
-    </Item>
-    <Item>
-      <ASIN>0134393996</ASIN>
-      <DetailPageURL>http://www.amazon.com/exec/obidos/redirect?tag=ws%26link_code=xm2%26camp=2025%26creative=165953%26path=http://www.amazon.com/gp/redirect.html%253fASIN=0134393996%2526tag=ws%2526lcode=xm2%2526cID=2025%2526ccmID=165953%2526location=/o/ASIN/0134393996%25253FSubscriptionId=YOUR_AMAZON_TOKEN</DetailPageURL>
-      <SalesRank>1949114</SalesRank>
-      <SmallImage>
-        <URL>http://images.amazon.com/images/P/0134393996.01._SCTHUMBZZZ_.jpg</URL>
-        <Height Units="pixels">60</Height>
-        <Width Units="pixels">45</Width>
-      </SmallImage>
-      <MediumImage>
-        <URL>http://images.amazon.com/images/P/0134393996.01._SCMZZZZZZZ_.gif</URL>
-        <Height Units="pixels">140</Height>
-        <Width Units="pixels">106</Width>
-      </MediumImage>
-      <LargeImage>
-        <URL>http://images.amazon.com/images/P/0134393996.01._SCLZZZZZZZ_.gif</URL>
-        <Height Units="pixels">475</Height>
-        <Width Units="pixels">359</Width>
-      </LargeImage>
-      <ItemAttributes>
-        <Author>Vivian Neou</Author>
-        <Author>Mimi Recker</Author>
-        <Binding>Paperback</Binding>
-        <EAN>9780134393995</EAN>
-        <Edition>Bk&amp;CD Rom</Edition>
-        <ISBN>0134393996</ISBN>
-        <Label>Prentice Hall</Label>
-        <ListPrice>
-          <Amount>4495</Amount>
-          <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$44.95</FormattedPrice>
-        </ListPrice>
-        <Manufacturer>Prentice Hall</Manufacturer>
-        <NumberOfItems>1</NumberOfItems>
-        <NumberOfPages>441</NumberOfPages>
-        <PackageDimensions>
-          <Height Units="hundredths-inches">950</Height>
-          <Length Units="hundredths-inches">150</Length>
-          <Weight Units="hundredths-pounds">215</Weight>
-          <Width Units="hundredths-inches">725</Width>
-        </PackageDimensions>
-        <ProductGroup>Book</ProductGroup>
-        <PublicationDate>1996-06</PublicationDate>
-        <Publisher>Prentice Hall</Publisher>
-        <Studio>Prentice Hall</Studio>
-        <Title>Html 3.0 Cd With Javascript for the Mac and Power Mac</Title>
-      </ItemAttributes>
-      <OfferSummary>
-        <LowestNewPrice>
-          <Amount>223</Amount>
-          <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$2.23</FormattedPrice>
-        </LowestNewPrice>
-        <LowestUsedPrice>
-          <Amount>99</Amount>
-          <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$0.99</FormattedPrice>
-        </LowestUsedPrice>
-        <TotalNew>3</TotalNew>
-        <TotalUsed>7</TotalUsed>
-        <TotalCollectible>0</TotalCollectible>
-        <TotalRefurbished>0</TotalRefurbished>
-      </OfferSummary>
-      <Offers>
-        <TotalOffers>0</TotalOffers>
-        <TotalOfferPages>0</TotalOfferPages>
-      </Offers>
     </Item>
     <Item>
       <ASIN>1571690476</ASIN>
-      <DetailPageURL>http://www.amazon.com/exec/obidos/redirect?tag=ws%26link_code=xm2%26camp=2025%26creative=165953%26path=http://www.amazon.com/gp/redirect.html%253fASIN=1571690476%2526tag=ws%2526lcode=xm2%2526cID=2025%2526ccmID=165953%2526location=/o/ASIN/1571690476%25253FSubscriptionId=YOUR_AMAZON_TOKEN</DetailPageURL>
-      <SalesRank>2483675</SalesRank>
-      <SmallImage>
-        <URL>http://images.amazon.com/images/P/1571690476.01._SCTHUMBZZZ_.gif</URL>
-        <Height Units="pixels">60</Height>
-        <Width Units="pixels">48</Width>
-      </SmallImage>
-      <MediumImage>
-        <URL>http://images.amazon.com/images/P/1571690476.01._SCMZZZZZZZ_.gif</URL>
-        <Height Units="pixels">140</Height>
-        <Width Units="pixels">112</Width>
-      </MediumImage>
+      <DetailPageURL>http://www.amazon.com/gp/redirect.html%3FASIN=1571690476%26tag=ws%26lcode=xm2%26cID=2025%26ccmID=165953%26location=/o/ASIN/1571690476%253FSubscriptionId=1VAESZQN1G7SXNRG4882</DetailPageURL>
+      <SalesRank>2482839</SalesRank>
       <ItemAttributes>
         <Author>George Pickering</Author>
         <Author>Shelley Powers</Author>
         <Author>Ron Johnson</Author>
         <Binding>Paperback</Binding>
+        <Brand>Waite Group Press</Brand>
+        <DeweyDecimalNumber>005.2</DeweyDecimalNumber>
         <EAN>9781571690470</EAN>
-        <Edition>Bk&amp;CD-Rom</Edition>
+        <Edition>Pap/Cdr</Edition>
         <ISBN>1571690476</ISBN>
         <Label>Waite Group Press</Label>
         <ListPrice>
@@ -601,17 +439,57 @@
         <Manufacturer>Waite Group Press</Manufacturer>
         <NumberOfItems>1</NumberOfItems>
         <NumberOfPages>650</NumberOfPages>
-        <PackageDimensions>
-          <Height Units="hundredths-inches">950</Height>
-          <Length Units="hundredths-inches">150</Length>
-          <Weight Units="hundredths-pounds">230</Weight>
-          <Width Units="hundredths-inches">775</Width>
-        </PackageDimensions>
         <ProductGroup>Book</ProductGroup>
+        <ProductTypeName>ABIS_BOOK</ProductTypeName>
         <PublicationDate>1996-12</PublicationDate>
         <Publisher>Waite Group Press</Publisher>
         <Studio>Waite Group Press</Studio>
-        <Title>Javascript How-To: The Definitive Javascript Problem-Solver</Title>
+        <Title>Javascript How-To: The Definitive Javascript Problem-Solver (How-to)</Title>
+      </ItemAttributes>
+      <OfferSummary>
+        <LowestNewPrice>
+          <Amount>1699</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$16.99</FormattedPrice>
+        </LowestNewPrice>
+        <LowestUsedPrice>
+          <Amount>292</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$2.92</FormattedPrice>
+        </LowestUsedPrice>
+        <TotalNew>4</TotalNew>
+        <TotalUsed>13</TotalUsed>
+        <TotalCollectible>0</TotalCollectible>
+        <TotalRefurbished>0</TotalRefurbished>
+      </OfferSummary>
+    </Item>
+    <Item>
+      <ASIN>0134393996</ASIN>
+      <DetailPageURL>http://www.amazon.com/gp/redirect.html%3FASIN=0134393996%26tag=ws%26lcode=xm2%26cID=2025%26ccmID=165953%26location=/o/ASIN/0134393996%253FSubscriptionId=1VAESZQN1G7SXNRG4882</DetailPageURL>
+      <SalesRank>3063299</SalesRank>
+      <ItemAttributes>
+        <Author>Vivian Neou</Author>
+        <Author>Mimi Recker</Author>
+        <Binding>Paperback</Binding>
+        <DeweyDecimalNumber>005.75</DeweyDecimalNumber>
+        <EAN>9780134393995</EAN>
+        <Edition>Pap/Cdr</Edition>
+        <ISBN>0134393996</ISBN>
+        <Label>Prentice Hall</Label>
+        <ListPrice>
+          <Amount>4495</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$44.95</FormattedPrice>
+        </ListPrice>
+        <Manufacturer>Prentice Hall</Manufacturer>
+        <NumberOfItems>1</NumberOfItems>
+        <NumberOfPages>441</NumberOfPages>
+        <ProductGroup>Book</ProductGroup>
+        <ProductTypeName>ABIS_BOOK</ProductTypeName>
+        <PublicationDate>1996-06</PublicationDate>
+        <Publisher>Prentice Hall</Publisher>
+        <Studio>Prentice Hall</Studio>
+        <Title>Html 3.0 Cd With Javascript for the Mac and Power Mac</Title>
       </ItemAttributes>
       <OfferSummary>
         <LowestNewPrice>
@@ -620,157 +498,15 @@
           <FormattedPrice>$10.00</FormattedPrice>
         </LowestNewPrice>
         <LowestUsedPrice>
-          <Amount>280</Amount>
+          <Amount>39</Amount>
           <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$2.80</FormattedPrice>
+          <FormattedPrice>$0.39</FormattedPrice>
         </LowestUsedPrice>
-        <TotalNew>4</TotalNew>
-        <TotalUsed>10</TotalUsed>
-        <TotalCollectible>0</TotalCollectible>
-        <TotalRefurbished>0</TotalRefurbished>
-      </OfferSummary>
-      <Offers>
-        <TotalOffers>0</TotalOffers>
-        <TotalOfferPages>0</TotalOfferPages>
-      </Offers>
-    </Item>
-    <Item>
-      <ASIN>1881957322</ASIN>
-      <DetailPageURL>http://www.amazon.com/exec/obidos/redirect?tag=ws%26link_code=xm2%26camp=2025%26creative=165953%26path=http://www.amazon.com/gp/redirect.html%253fASIN=1881957322%2526tag=ws%2526lcode=xm2%2526cID=2025%2526ccmID=165953%2526location=/o/ASIN/1881957322%25253FSubscriptionId=YOUR_AMAZON_TOKEN</DetailPageURL>
-      <SalesRank>556183</SalesRank>
-      <SmallImage>
-        <URL>http://images.amazon.com/images/P/1881957322.01._SCTHUMBZZZ_.jpg</URL>
-        <Height Units="pixels">60</Height>
-        <Width Units="pixels">45</Width>
-      </SmallImage>
-      <MediumImage>
-        <URL>http://images.amazon.com/images/P/1881957322.01._SCMZZZZZZZ_.jpg</URL>
-        <Height Units="pixels">140</Height>
-        <Width Units="pixels">105</Width>
-      </MediumImage>
-      <LargeImage>
-        <URL>http://images.amazon.com/images/P/1881957322.01._SCLZZZZZZZ_.jpg</URL>
-        <Height Units="pixels">475</Height>
-        <Width Units="pixels">357</Width>
-      </LargeImage>
-      <ItemAttributes>
-        <Author>Vicki Brown</Author>
-        <Binding>Paperback</Binding>
-        <EAN>9781881957324</EAN>
-        <Edition>Bk&amp;CD Rom</Edition>
-        <ISBN>1881957322</ISBN>
-        <Label>Prime Time Freeware</Label>
-        <ListPrice>
-          <Amount>4000</Amount>
-          <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$40.00</FormattedPrice>
-        </ListPrice>
-        <Manufacturer>Prime Time Freeware</Manufacturer>
-        <NumberOfItems>1</NumberOfItems>
-        <NumberOfPages>350</NumberOfPages>
-        <PackageDimensions>
-          <Height Units="hundredths-inches">950</Height>
-          <Length Units="hundredths-inches">125</Length>
-          <Weight Units="hundredths-pounds">150</Weight>
-          <Width Units="hundredths-inches">725</Width>
-        </PackageDimensions>
-        <ProductGroup>Book</ProductGroup>
-        <PublicationDate>1998-04</PublicationDate>
-        <Publisher>Prime Time Freeware</Publisher>
-        <Studio>Prime Time Freeware</Studio>
-        <Title>Macperl: Power and Ease</Title>
-      </ItemAttributes>
-      <OfferSummary>
-        <LowestUsedPrice>
-          <Amount>145</Amount>
-          <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$1.45</FormattedPrice>
-        </LowestUsedPrice>
-        <TotalNew>0</TotalNew>
-        <TotalUsed>4</TotalUsed>
-        <TotalCollectible>0</TotalCollectible>
-        <TotalRefurbished>0</TotalRefurbished>
-      </OfferSummary>
-      <Offers>
-        <TotalOffers>0</TotalOffers>
-        <TotalOfferPages>0</TotalOfferPages>
-      </Offers>
-    </Item>
-    <Item>
-      <ASIN>1590597311</ASIN>
-      <DetailPageURL>http://www.amazon.com/exec/obidos/redirect?tag=ws%26link_code=xm2%26camp=2025%26creative=165953%26path=http://www.amazon.com/gp/redirect.html%253fASIN=1590597311%2526tag=ws%2526lcode=xm2%2526cID=2025%2526ccmID=165953%2526location=/o/ASIN/1590597311%25253FSubscriptionId=YOUR_AMAZON_TOKEN</DetailPageURL>
-      <SmallImage>
-        <URL>http://images.amazon.com/images/P/1590597311.01._SCTHUMBZZZ_.jpg</URL>
-        <Height Units="pixels">75</Height>
-        <Width Units="pixels">62</Width>
-      </SmallImage>
-      <MediumImage>
-        <URL>http://images.amazon.com/images/P/1590597311.01._SCMZZZZZZZ_.jpg</URL>
-        <Height Units="pixels">160</Height>
-        <Width Units="pixels">133</Width>
-      </MediumImage>
-      <LargeImage>
-        <URL>http://images.amazon.com/images/P/1590597311.01._SCLZZZZZZZ_.jpg</URL>
-        <Height Units="pixels">500</Height>
-        <Width Units="pixels">417</Width>
-      </LargeImage>
-      <ItemAttributes>
-        <Author>David Powers</Author>
-        <Binding>Paperback</Binding>
-        <DeweyDecimalNumber>005</DeweyDecimalNumber>
-        <EAN>9781590597316</EAN>
-        <ISBN>1590597311</ISBN>
-        <Label>friends of ED</Label>
-        <ListPrice>
-          <Amount>3499</Amount>
-          <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$34.99</FormattedPrice>
-        </ListPrice>
-        <Manufacturer>friends of ED</Manufacturer>
-        <NumberOfItems>1</NumberOfItems>
-        <NumberOfPages>300</NumberOfPages>
-        <ProductGroup>Book</ProductGroup>
-        <PublicationDate>2006-11-20</PublicationDate>
-        <Publisher>friends of ED</Publisher>
-        <Studio>friends of ED</Studio>
-        <Title>PHP Solutions: Dynamic Web Design Made Easy (Solutions)</Title>
-      </ItemAttributes>
-      <OfferSummary>
-        <LowestNewPrice>
-          <Amount>2204</Amount>
-          <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$22.04</FormattedPrice>
-        </LowestNewPrice>
         <TotalNew>1</TotalNew>
-        <TotalUsed>0</TotalUsed>
+        <TotalUsed>9</TotalUsed>
         <TotalCollectible>0</TotalCollectible>
         <TotalRefurbished>0</TotalRefurbished>
       </OfferSummary>
-      <Offers>
-        <TotalOffers>1</TotalOffers>
-        <TotalOfferPages>1</TotalOfferPages>
-        <Offer>
-          <Merchant>
-            <MerchantId>ATVPDKIKX0DER</MerchantId>
-            <GlancePage>http://www.amazon.com/gp/help/seller/home.html?seller=ATVPDKIKX0DER</GlancePage>
-            <AverageFeedbackRating>0.0</AverageFeedbackRating>
-            <TotalFeedback>0</TotalFeedback>
-          </Merchant>
-          <OfferAttributes>
-            <Condition>New</Condition>
-          </OfferAttributes>
-          <OfferListing>
-            <OfferListingId>gM9tKz4KojFq85CERbWAoWI0m4yiwyepag7dxy2pKhOTB%2Bk8n3avdUyPdqklUNLnqjWPF%2BI0QZk%3D</OfferListingId>
-            <Price>
-              <Amount>2204</Amount>
-              <CurrencyCode>USD</CurrencyCode>
-              <FormattedPrice>$22.04</FormattedPrice>
-            </Price>
-            <Availability>Not yet published</Availability>
-            <IsEligibleForSuperSaverShipping>1</IsEligibleForSuperSaverShipping>
-          </OfferListing>
-        </Offer>
-      </Offers>
     </Item>
   </Items>
 </ItemSearchResponse>

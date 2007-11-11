@@ -15,7 +15,7 @@ sub new {
     };
 
     push @{$self->{_options}}, 'Merchants';
-    push @{$self->{_options}}, 'Restaurants';
+    push @{$self->{_options}}, 'SilverMerchants';
 
     bless $self, $class;
 }
@@ -56,6 +56,6 @@ The default value is Merchants, unless mode is specified.
 The list of available values are:
 
     Merchants
-    Restaurants
+    SilverMerchants
 
 =cut

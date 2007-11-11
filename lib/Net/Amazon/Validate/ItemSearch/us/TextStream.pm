@@ -17,18 +17,14 @@ sub new {
     push @{$self->{_options}}, 'Apparel';
     push @{$self->{_options}}, 'Automotive';
     push @{$self->{_options}}, 'Books';
-    push @{$self->{_options}}, 'Classical';
-    push @{$self->{_options}}, 'DVD';
-    push @{$self->{_options}}, 'DigitalMusic';
     push @{$self->{_options}}, 'Electronics';
     push @{$self->{_options}}, 'GourmetFood';
-    push @{$self->{_options}}, 'Grocery';
     push @{$self->{_options}}, 'Jewelry';
     push @{$self->{_options}}, 'Merchants';
-    push @{$self->{_options}}, 'Music';
     push @{$self->{_options}}, 'Photo';
+    push @{$self->{_options}}, 'SilverMerchants';
     push @{$self->{_options}}, 'Toys';
-    push @{$self->{_options}}, 'Video';
+    push @{$self->{_options}}, 'UnboxVideo';
     push @{$self->{_options}}, 'VideoGames';
 
     bless $self, $class;
@@ -72,18 +68,14 @@ The list of available values are:
     Apparel
     Automotive
     Books
-    Classical
-    DVD
-    DigitalMusic
     Electronics
     GourmetFood
-    Grocery
     Jewelry
     Merchants
-    Music
     Photo
+    SilverMerchants
     Toys
-    Video
+    UnboxVideo
     VideoGames
 
 =cut

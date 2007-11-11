@@ -8,8 +8,8 @@ use 5.006;
 use strict;
 use warnings;
 
-our $VERSION          = '0.44';
-our $WSDL_DATE        = '2007-01-17';
+our $VERSION          = '0.45';
+our $WSDL_DATE        = '2007-10-29';
 our $Locale           = 'us';
 our @CANNED_RESPONSES = ();
 our $IS_CANNED        = 0;
@@ -482,7 +482,8 @@ sub is_page_available {
 ##################################################
     my($self, $ref, $new_items, $page) = @_;
     if(exists $ref->{Items}->{TotalPages} and
-            $ref->{Items}->{TotalPages} > $page) {
+              $ref->{Items}->{TotalPages} > $page and 
+              $IS_CANNED ne 1) {
         DEBUG("Page $page of $ref->{Items}->{TotalPages} fetched - continuing");
         return 1;
     }

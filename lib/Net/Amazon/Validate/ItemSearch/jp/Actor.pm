@@ -14,6 +14,7 @@ sub new {
         %options,
     };
 
+    push @{$self->{_options}}, 'Classical';
     push @{$self->{_options}}, 'DVD';
     push @{$self->{_options}}, 'VHS';
     push @{$self->{_options}}, 'Video';
@@ -56,6 +57,7 @@ The default value is DVD, unless mode is specified.
 
 The list of available values are:
 
+    Classical
     DVD
     VHS
     Video

@@ -40,7 +40,7 @@ ok($resp->is_success(), "Request successful");
 my @properties = $resp->properties();
 is(scalar @properties, 10, "10 records");
 
-like($resp->as_string(), qr/Alan Jackson.*?Pink/s, "Examine records");
+like($resp->as_string(), qr/Carrie Underwood.*?Lennox/s, "Examine records");
 
 for ($resp->properties()) {
     like($_->label(), qr/Arista/, "Check label");

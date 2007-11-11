@@ -4,7 +4,7 @@
 use warnings;
 use strict;
 
-use Test::More tests => 23;
+use Test::More tests => 4;
 BEGIN { use_ok('Net::Amazon') };
 
 #use Log::Log4perl qw(:easy);
@@ -37,29 +37,28 @@ my $resp = $ua->request($req);
 
 ok($resp->is_success(), "Request successful");
 my @properties = $resp->properties();
-is(scalar @properties, 2, "2 movies");
+is(scalar @properties, 10, "Number of Titles");
 
-like($resp->as_string(), qr/Lupin the III.*?Castle of Cagliostro/s, "Examine Movies");
+like($resp->as_string(), qr/Iain Mccalman.*?Mystic rebels/s, "Examine Movies");
 
-my @starring = $properties[0]->starring();
-
-is($properties[0]->actor, "Yasuo Yamada", "Check actor");
-is($starring[0], "Yasuo Yamada", "Check starring");
-is($properties[0]->director, "Hayao Miyazaki", "Check director");
-like($properties[0]->title, qr/Castle of Cagliostro/, "Check title");
-is($properties[0]->studio, "Manga Video", "Check studio");
-is($properties[0]->theatrical_release_date, "1991-04-03", "Check theatrical release date");
-is($properties[0]->media, "DVD", "Check media");
-is($properties[0]->Media, "DVD", "Check Media");
-is($properties[0]->nummedia, 1, "Check nummedia");
-is($properties[0]->NumMedia, 1, "Check NumMedia");
-is($properties[0]->upc, "013138206695", "Check UPC");
-like($properties[0]->mpaa_rating, qr/PG/, "Check MPAA rating");
-is($properties[0]->region_code, '', "Check region code");
-is($properties[0]->label, "Manga Video", "Check label");
-is($properties[0]->running_time, "109", "Check running time");
-is($properties[0]->publisher, "Manga Video", "Check publisher");
-is($properties[0]->ean, "0013138206695", "Check ean");
-is($properties[0]->feature, "Color", "Check feature");
-is(scalar($properties[0]->features), 5, "Check number of features");
-
+#my @starring = $properties[$i]->starring();
+# is($properties[0]->actor, "Yasuo Yamada", "Check actor");
+# is($starring[0], "Yasuo Yamada", "Check starring");
+# is($properties[0]->director, "Hayao Miyazaki", "Check director");
+# like($properties[0]->title, qr/Castle of Cagliostro/, "Check title");
+# is($properties[0]->studio, "Manga Video", "Check studio");
+# is($properties[0]->theatrical_release_date, "1991-04-03", "Check theatrical release date");
+# is($properties[0]->media, "DVD", "Check media");
+# is($properties[0]->Media, "DVD", "Check Media");
+# is($properties[0]->nummedia, 1, "Check nummedia");
+# is($properties[0]->NumMedia, 1, "Check NumMedia");
+# is($properties[0]->upc, "013138206695", "Check UPC");
+# like($properties[0]->mpaa_rating, qr/PG/, "Check MPAA rating");
+# is($properties[0]->region_code, '', "Check region code");
+# is($properties[0]->label, "Manga Video", "Check label");
+# is($properties[0]->running_time, "109", "Check running time");
+# is($properties[0]->publisher, "Manga Video", "Check publisher");
+# is($properties[0]->ean, "0013138206695", "Check ean");
+# is($properties[0]->feature, "Color", "Check feature");
+# is(scalar($properties[0]->features), 5, "Check number of features");
+# 

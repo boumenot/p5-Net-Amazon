@@ -10,11 +10,12 @@ use warnings;
 sub new {
     my ($class , %options) = @_;
     my $self = {
-        '_default' => 'Classical',
+        '_default' => 'DVD',
         %options,
     };
 
     push @{$self->{_options}}, 'Classical';
+    push @{$self->{_options}}, 'DVD';
 
     bless $self, $class;
 }
@@ -50,10 +51,11 @@ Net::Amazon::Validate::ItemSearch::de::Conductor;
 
 =head1 DESCRIPTION
 
-The default value is Classical, unless mode is specified.
+The default value is DVD, unless mode is specified.
 
 The list of available values are:
 
     Classical
+    DVD
 
 =cut

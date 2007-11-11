@@ -8,7 +8,7 @@
 use warnings;
 use strict;
 
-use Test::More tests => 39;
+use Test::More tests => 38;
 BEGIN { use_ok('Net::Amazon') };
 
 #use Log::Log4perl qw(:easy);
@@ -79,7 +79,7 @@ like(join('&', $book->authors()),
      "Found multiple authors");
 is($book->numpages(), 395, "Checkiing numpages");
 is($book->dewey_decimal(), "005.12", "Checkiing dewey_decimal");
-is($book->SuperSaverShipping(), 1, "Checkiing SuperSaverShipping");
+#is($book->SuperSaverShipping(), 1, "Checkiing SuperSaverShipping");
 
 my @similar = $book->similar_asins();
 is(scalar @similar, 0, "No similar items on this item");

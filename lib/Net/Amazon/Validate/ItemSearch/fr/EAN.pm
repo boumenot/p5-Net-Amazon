@@ -20,11 +20,13 @@ sub new {
     push @{$self->{_options}}, 'DVD';
     push @{$self->{_options}}, 'Electronics';
     push @{$self->{_options}}, 'ForeignBooks';
+    push @{$self->{_options}}, 'Kitchen';
     push @{$self->{_options}}, 'Music';
     push @{$self->{_options}}, 'MusicTracks';
     push @{$self->{_options}}, 'Software';
     push @{$self->{_options}}, 'SoftwareVideoGames';
     push @{$self->{_options}}, 'VHS';
+    push @{$self->{_options}}, 'Video';
     push @{$self->{_options}}, 'VideoGames';
 
     bless $self, $class;
@@ -71,11 +73,13 @@ The list of available values are:
     DVD
     Electronics
     ForeignBooks
+    Kitchen
     Music
     MusicTracks
     Software
     SoftwareVideoGames
     VHS
+    Video
     VideoGames
 
 =cut

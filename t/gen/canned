@@ -15,15 +15,15 @@ my %tests = (
     'asin_err'      => [qw(Request)],
     'asin_mua'      => [qw()],
     'asin_pp'       => [qw()],
-    'author'        => [qw()],
+    'author'        => [qw(SmallImage MediumImage LargeImage)],
     'blended1'      => [qw()],
     'blendedm'      => [qw()],
-    'browse'        => [qw(BrowseNodes)],
+    'browse'        => [qw(Offers BrowseNodes)],
     'director'      => [qw()],
     'dvd'           => [qw()],
-    'exchange'      => [qw()],
+#    'exchange'      => [qw()],
     'keyword'       => [qw()],
-    'locale'        => [qw()],
+    'locale'        => [qw(Offers)],
     'manufacturer'  => [qw()],
     'musiclabel'    => [qw()],
 #    'power'         => [qw(SimilarProducts)],
@@ -85,5 +85,5 @@ for my $test (@tests) {
     select \*STDOUT;
     $fouth->close();
 
-    unlink $response_file if -f $response_file;
+    #unlink $response_file if -f $response_file;
 }

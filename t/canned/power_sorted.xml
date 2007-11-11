@@ -1,27 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ItemSearchResponse xmlns="http://webservices.amazon.com/AWSECommerceService/2006-06-28">
+<ItemSearchResponse xmlns="http://webservices.amazon.com/AWSECommerceService/2007-10-29">
   <Items>
     <TotalResults>4</TotalResults>
     <TotalPages>1</TotalPages>
     <Item>
       <ASIN>0596001320</ASIN>
-      <DetailPageURL>http://www.amazon.com/exec/obidos/redirect?tag=ws%26link_code=xm2%26camp=2025%26creative=165953%26path=http://www.amazon.com/gp/redirect.html%253fASIN=0596001320%2526tag=ws%2526lcode=xm2%2526cID=2025%2526ccmID=165953%2526location=/o/ASIN/0596001320%25253FSubscriptionId=YOUR_AMAZON_TOKEN</DetailPageURL>
-      <SalesRank>38611</SalesRank>
-      <SmallImage>
-        <URL>http://images.amazon.com/images/P/0596001320.01._SCTHUMBZZZ_.jpg</URL>
-        <Height Units="pixels">75</Height>
-        <Width Units="pixels">57</Width>
-      </SmallImage>
-      <MediumImage>
-        <URL>http://images.amazon.com/images/P/0596001320.01._SCMZZZZZZZ_.jpg</URL>
-        <Height Units="pixels">160</Height>
-        <Width Units="pixels">121</Width>
-      </MediumImage>
-      <LargeImage>
-        <URL>http://images.amazon.com/images/P/0596001320.01._SCLZZZZZZZ_.jpg</URL>
-        <Height Units="pixels">500</Height>
-        <Width Units="pixels">379</Width>
-      </LargeImage>
+      <DetailPageURL>http://www.amazon.com/gp/redirect.html%3FASIN=0596001320%26tag=ws%26lcode=xm2%26cID=2025%26ccmID=165953%26location=/o/ASIN/0596001320%253FSubscriptionId=1VAESZQN1G7SXNRG4882</DetailPageURL>
+      <SalesRank>108403</SalesRank>
       <ItemAttributes>
         <Author>Randal L. Schwartz</Author>
         <Author>Tom Phoenix</Author>
@@ -39,13 +24,8 @@
         <Manufacturer>O'Reilly</Manufacturer>
         <NumberOfItems>1</NumberOfItems>
         <NumberOfPages>334</NumberOfPages>
-        <PackageDimensions>
-          <Height Units="hundredths-inches">83</Height>
-          <Length Units="hundredths-inches">924</Length>
-          <Weight Units="hundredths-pounds">117</Weight>
-          <Width Units="hundredths-inches">704</Width>
-        </PackageDimensions>
         <ProductGroup>Book</ProductGroup>
+        <ProductTypeName>ABIS_BOOK</ProductTypeName>
         <PublicationDate>2001-07-15</PublicationDate>
         <Publisher>O'Reilly</Publisher>
         <Studio>O'Reilly</Studio>
@@ -53,265 +33,128 @@
       </ItemAttributes>
       <OfferSummary>
         <LowestNewPrice>
-          <Amount>562</Amount>
+          <Amount>545</Amount>
           <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$5.62</FormattedPrice>
+          <FormattedPrice>$5.45</FormattedPrice>
         </LowestNewPrice>
         <LowestUsedPrice>
-          <Amount>385</Amount>
+          <Amount>298</Amount>
           <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$3.85</FormattedPrice>
+          <FormattedPrice>$2.98</FormattedPrice>
         </LowestUsedPrice>
-        <LowestCollectiblePrice>
-          <Amount>500</Amount>
-          <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$5.00</FormattedPrice>
-        </LowestCollectiblePrice>
-        <TotalNew>14</TotalNew>
-        <TotalUsed>26</TotalUsed>
-        <TotalCollectible>2</TotalCollectible>
+        <TotalNew>24</TotalNew>
+        <TotalUsed>32</TotalUsed>
+        <TotalCollectible>0</TotalCollectible>
         <TotalRefurbished>0</TotalRefurbished>
       </OfferSummary>
-      <Offers>
-        <TotalOffers>1</TotalOffers>
-        <TotalOfferPages>1</TotalOfferPages>
-        <Offer>
-          <Merchant>
-            <MerchantId>ATVPDKIKX0DER</MerchantId>
-            <GlancePage>http://www.amazon.com/gp/help/seller/home.html?seller=ATVPDKIKX0DER</GlancePage>
-            <AverageFeedbackRating>0.0</AverageFeedbackRating>
-            <TotalFeedback>0</TotalFeedback>
-          </Merchant>
-          <OfferAttributes>
-            <Condition>New</Condition>
-          </OfferAttributes>
-          <OfferListing>
-            <OfferListingId>aTsxqtaMFp6G8sjDTmlA0oE%2BonQkre9Uog6nnB0yx7cPOUZYz7af2hgT41QchlEOU647FN18%2B9A%3D</OfferListingId>
-            <Price>
-              <Amount>3495</Amount>
-              <CurrencyCode>USD</CurrencyCode>
-              <FormattedPrice>$34.95</FormattedPrice>
-            </Price>
-            <Availability>Usually ships in 2 to 3 weeks</Availability>
-            <IsEligibleForSuperSaverShipping>1</IsEligibleForSuperSaverShipping>
-          </OfferListing>
-        </Offer>
-      </Offers>
     </Item>
     <Item>
       <ASIN>0596004788</ASIN>
-      <DetailPageURL>http://www.amazon.com/exec/obidos/redirect?tag=ws%26link_code=xm2%26camp=2025%26creative=165953%26path=http://www.amazon.com/gp/redirect.html%253fASIN=0596004788%2526tag=ws%2526lcode=xm2%2526cID=2025%2526ccmID=165953%2526location=/o/ASIN/0596004788%25253FSubscriptionId=YOUR_AMAZON_TOKEN</DetailPageURL>
-      <SalesRank>56478</SalesRank>
-      <SmallImage>
-        <URL>http://images.amazon.com/images/P/0596004788.01._SCTHUMBZZZ_.jpg</URL>
-        <Height Units="pixels">75</Height>
-        <Width Units="pixels">57</Width>
-      </SmallImage>
-      <MediumImage>
-        <URL>http://images.amazon.com/images/P/0596004788.01._SCMZZZZZZZ_.jpg</URL>
-        <Height Units="pixels">160</Height>
-        <Width Units="pixels">121</Width>
-      </MediumImage>
-      <LargeImage>
-        <URL>http://images.amazon.com/images/P/0596004788.01._SCLZZZZZZZ_.jpg</URL>
-        <Height Units="pixels">500</Height>
-        <Width Units="pixels">377</Width>
-      </LargeImage>
+      <DetailPageURL>http://www.amazon.com/gp/redirect.html%3FASIN=0596004788%26tag=ws%26lcode=xm2%26cID=2025%26ccmID=165953%26location=/o/ASIN/0596004788%253FSubscriptionId=1VAESZQN1G7SXNRG4882</DetailPageURL>
+      <SalesRank>84448</SalesRank>
       <ItemAttributes>
         <Author>Randal L. Schwartz</Author>
+        <Author>Tom Phoenix</Author>
         <Binding>Paperback</Binding>
-        <Creator Role="Foreword">Tom Phoenix</Creator>
         <DeweyDecimalNumber>005</DeweyDecimalNumber>
         <EAN>9780596004781</EAN>
-        <Edition>1</Edition>
+        <Format>Illustrated</Format>
         <ISBN>0596004788</ISBN>
-        <Label>O'Reilly Media</Label>
+        <Label>O'Reilly Media, Inc.</Label>
         <ListPrice>
           <Amount>3495</Amount>
           <CurrencyCode>USD</CurrencyCode>
           <FormattedPrice>$34.95</FormattedPrice>
         </ListPrice>
-        <Manufacturer>O'Reilly Media</Manufacturer>
+        <Manufacturer>O'Reilly Media, Inc.</Manufacturer>
         <NumberOfItems>1</NumberOfItems>
-        <NumberOfPages>205</NumberOfPages>
-        <PackageDimensions>
-          <Height Units="hundredths-inches">53</Height>
-          <Length Units="hundredths-inches">912</Length>
-          <Weight Units="hundredths-pounds">80</Weight>
-          <Width Units="hundredths-inches">710</Width>
-        </PackageDimensions>
+        <NumberOfPages>224</NumberOfPages>
         <ProductGroup>Book</ProductGroup>
-        <PublicationDate>2003-06-30</PublicationDate>
-        <Publisher>O'Reilly Media</Publisher>
-        <Studio>O'Reilly Media</Studio>
+        <ProductTypeName>ABIS_BOOK</ProductTypeName>
+        <PublicationDate>2003-06-09</PublicationDate>
+        <Publisher>O'Reilly Media, Inc.</Publisher>
+        <Studio>O'Reilly Media, Inc.</Studio>
         <Title>Learning Perl Objects, References, and Modules</Title>
         <UPC>636920004783</UPC>
       </ItemAttributes>
       <OfferSummary>
         <LowestNewPrice>
-          <Amount>2201</Amount>
+          <Amount>1048</Amount>
           <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$22.01</FormattedPrice>
+          <FormattedPrice>$10.48</FormattedPrice>
         </LowestNewPrice>
         <LowestUsedPrice>
-          <Amount>2252</Amount>
+          <Amount>425</Amount>
           <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$22.52</FormattedPrice>
+          <FormattedPrice>$4.25</FormattedPrice>
         </LowestUsedPrice>
-        <TotalNew>39</TotalNew>
-        <TotalUsed>11</TotalUsed>
+        <TotalNew>12</TotalNew>
+        <TotalUsed>9</TotalUsed>
         <TotalCollectible>0</TotalCollectible>
         <TotalRefurbished>0</TotalRefurbished>
       </OfferSummary>
-      <Offers>
-        <TotalOffers>1</TotalOffers>
-        <TotalOfferPages>1</TotalOfferPages>
-        <Offer>
-          <Merchant>
-            <MerchantId>ATVPDKIKX0DER</MerchantId>
-            <GlancePage>http://www.amazon.com/gp/help/seller/home.html?seller=ATVPDKIKX0DER</GlancePage>
-            <AverageFeedbackRating>0.0</AverageFeedbackRating>
-            <TotalFeedback>0</TotalFeedback>
-          </Merchant>
-          <OfferAttributes>
-            <Condition>New</Condition>
-          </OfferAttributes>
-          <OfferListing>
-            <OfferListingId>lWdk94sJUSloTF7fyV2RoI5ExdjxYPuzg0%2FR%2BuxWzN6E6roIg4w2e8kI%2FkP9bq5gNbKUWUbhrhw%3D</OfferListingId>
-            <Price>
-              <Amount>2202</Amount>
-              <CurrencyCode>USD</CurrencyCode>
-              <FormattedPrice>$22.02</FormattedPrice>
-            </Price>
-            <Availability>Usually ships in 24 hours</Availability>
-            <IsEligibleForSuperSaverShipping>1</IsEligibleForSuperSaverShipping>
-          </OfferListing>
-        </Offer>
-      </Offers>
     </Item>
     <Item>
       <ASIN>0596102062</ASIN>
-      <DetailPageURL>http://www.amazon.com/exec/obidos/redirect?tag=ws%26link_code=xm2%26camp=2025%26creative=165953%26path=http://www.amazon.com/gp/redirect.html%253fASIN=0596102062%2526tag=ws%2526lcode=xm2%2526cID=2025%2526ccmID=165953%2526location=/o/ASIN/0596102062%25253FSubscriptionId=YOUR_AMAZON_TOKEN</DetailPageURL>
-      <SalesRank>19934</SalesRank>
-      <SmallImage>
-        <URL>http://images.amazon.com/images/P/0596102062.01._SCTHUMBZZZ_.jpg</URL>
-        <Height Units="pixels">75</Height>
-        <Width Units="pixels">57</Width>
-      </SmallImage>
-      <MediumImage>
-        <URL>http://images.amazon.com/images/P/0596102062.01._SCMZZZZZZZ_.jpg</URL>
-        <Height Units="pixels">160</Height>
-        <Width Units="pixels">121</Width>
-      </MediumImage>
-      <LargeImage>
-        <URL>http://images.amazon.com/images/P/0596102062.01._SCLZZZZZZZ_.jpg</URL>
-        <Height Units="pixels">500</Height>
-        <Width Units="pixels">378</Width>
-      </LargeImage>
+      <DetailPageURL>http://www.amazon.com/gp/redirect.html%3FASIN=0596102062%26tag=ws%26lcode=xm2%26cID=2025%26ccmID=165953%26location=/o/ASIN/0596102062%253FSubscriptionId=1VAESZQN1G7SXNRG4882</DetailPageURL>
+      <SalesRank>15463</SalesRank>
       <ItemAttributes>
         <Author>Randal L. Schwartz</Author>
-        <Author>brian d foy</Author>
         <Author>Tom Phoenix</Author>
+        <Author>brian d foy</Author>
         <Binding>Paperback</Binding>
         <DeweyDecimalNumber>005.133</DeweyDecimalNumber>
         <EAN>9780596102067</EAN>
-        <Edition>2</Edition>
+        <Edition>2nd ed.</Edition>
         <ISBN>0596102062</ISBN>
-        <Label>O'Reilly Media</Label>
+        <Label>O'Reilly Media, Inc.</Label>
         <ListPrice>
           <Amount>3999</Amount>
           <CurrencyCode>USD</CurrencyCode>
           <FormattedPrice>$39.99</FormattedPrice>
         </ListPrice>
-        <Manufacturer>O'Reilly Media</Manufacturer>
+        <Manufacturer>O'Reilly Media, Inc.</Manufacturer>
         <NumberOfItems>1</NumberOfItems>
-        <NumberOfPages>256</NumberOfPages>
-        <PackageDimensions>
-          <Height Units="hundredths-inches">72</Height>
-          <Length Units="hundredths-inches">918</Length>
-          <Weight Units="hundredths-pounds">100</Weight>
-          <Width Units="hundredths-inches">700</Width>
-        </PackageDimensions>
+        <NumberOfPages>278</NumberOfPages>
         <ProductGroup>Book</ProductGroup>
+        <ProductTypeName>ABIS_BOOK</ProductTypeName>
         <PublicationDate>2006-03-08</PublicationDate>
-        <Publisher>O'Reilly Media</Publisher>
-        <Studio>O'Reilly Media</Studio>
+        <Publisher>O'Reilly Media, Inc.</Publisher>
+        <Studio>O'Reilly Media, Inc.</Studio>
         <Title>Intermediate Perl</Title>
       </ItemAttributes>
       <OfferSummary>
         <LowestNewPrice>
-          <Amount>2519</Amount>
+          <Amount>2199</Amount>
           <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$25.19</FormattedPrice>
+          <FormattedPrice>$21.99</FormattedPrice>
         </LowestNewPrice>
         <LowestUsedPrice>
-          <Amount>2287</Amount>
+          <Amount>1998</Amount>
           <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$22.87</FormattedPrice>
+          <FormattedPrice>$19.98</FormattedPrice>
         </LowestUsedPrice>
-        <LowestCollectiblePrice>
-          <Amount>3999</Amount>
-          <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$39.99</FormattedPrice>
-        </LowestCollectiblePrice>
-        <TotalNew>49</TotalNew>
-        <TotalUsed>16</TotalUsed>
-        <TotalCollectible>2</TotalCollectible>
+        <TotalNew>43</TotalNew>
+        <TotalUsed>12</TotalUsed>
+        <TotalCollectible>0</TotalCollectible>
         <TotalRefurbished>0</TotalRefurbished>
       </OfferSummary>
-      <Offers>
-        <TotalOffers>1</TotalOffers>
-        <TotalOfferPages>1</TotalOfferPages>
-        <Offer>
-          <Merchant>
-            <MerchantId>ATVPDKIKX0DER</MerchantId>
-            <GlancePage>http://www.amazon.com/gp/help/seller/home.html?seller=ATVPDKIKX0DER</GlancePage>
-            <AverageFeedbackRating>0.0</AverageFeedbackRating>
-            <TotalFeedback>0</TotalFeedback>
-          </Merchant>
-          <OfferAttributes>
-            <Condition>New</Condition>
-          </OfferAttributes>
-          <OfferListing>
-            <OfferListingId>zXQN%2BVDN0AqQwWJL3wuTtXWWiljG6ZxdaFE64npj3OASxfUznT0qydbLP0ILiu8y%2B6jleMDO0hs%3D</OfferListingId>
-            <Price>
-              <Amount>2519</Amount>
-              <CurrencyCode>USD</CurrencyCode>
-              <FormattedPrice>$25.19</FormattedPrice>
-            </Price>
-            <Availability>Usually ships in 24 hours</Availability>
-            <IsEligibleForSuperSaverShipping>1</IsEligibleForSuperSaverShipping>
-          </OfferListing>
-        </Offer>
-      </Offers>
     </Item>
     <Item>
       <ASIN>2841772012</ASIN>
-      <DetailPageURL>http://www.amazon.com/exec/obidos/redirect?tag=ws%26link_code=xm2%26camp=2025%26creative=165953%26path=http://www.amazon.com/gp/redirect.html%253fASIN=2841772012%2526tag=ws%2526lcode=xm2%2526cID=2025%2526ccmID=165953%2526location=/o/ASIN/2841772012%25253FSubscriptionId=YOUR_AMAZON_TOKEN</DetailPageURL>
-      <SmallImage>
-        <URL>http://images.amazon.com/images/P/2841772012.01._SCTHUMBZZZ_.jpg</URL>
-        <Height Units="pixels">60</Height>
-        <Width Units="pixels">44</Width>
-      </SmallImage>
-      <MediumImage>
-        <URL>http://images.amazon.com/images/P/2841772012.01._SCMZZZZZZZ_.jpg</URL>
-        <Height Units="pixels">140</Height>
-        <Width Units="pixels">102</Width>
-      </MediumImage>
-      <LargeImage>
-        <URL>http://images.amazon.com/images/P/2841772012.01._SCLZZZZZZZ_.jpg</URL>
-        <Height Units="pixels">475</Height>
-        <Width Units="pixels">346</Width>
-      </LargeImage>
+      <DetailPageURL>http://www.amazon.com/gp/redirect.html%3FASIN=2841772012%26tag=ws%26lcode=xm2%26cID=2025%26ccmID=165953%26location=/o/ASIN/2841772012%253FSubscriptionId=1VAESZQN1G7SXNRG4882</DetailPageURL>
       <ItemAttributes>
         <Author>Randal L. Schwartz</Author>
         <Author>Tom Phoenix</Author>
         <Binding>Paperback</Binding>
+        <DeweyDecimalNumber>005.13'3</DeweyDecimalNumber>
         <EAN>9782841772018</EAN>
         <ISBN>2841772012</ISBN>
         <Label>O'Reilly</Label>
         <Manufacturer>O'Reilly</Manufacturer>
+        <NumberOfPages>291</NumberOfPages>
         <ProductGroup>Book</ProductGroup>
+        <ProductTypeName>ABIS_BOOK</ProductTypeName>
         <PublicationDate>2002-01-23</PublicationDate>
         <Publisher>O'Reilly</Publisher>
         <Studio>O'Reilly</Studio>
@@ -323,10 +166,6 @@
         <TotalCollectible>0</TotalCollectible>
         <TotalRefurbished>0</TotalRefurbished>
       </OfferSummary>
-      <Offers>
-        <TotalOffers>0</TotalOffers>
-        <TotalOfferPages>0</TotalOfferPages>
-      </Offers>
     </Item>
   </Items>
 </ItemSearchResponse>

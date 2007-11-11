@@ -10,11 +10,15 @@ use warnings;
 sub new {
     my ($class , %options) = @_;
     my $self = {
-        '_default' => 'Merchants',
+        '_default' => 'DVD',
         %options,
     };
 
+    push @{$self->{_options}}, 'DVD';
     push @{$self->{_options}}, 'Merchants';
+    push @{$self->{_options}}, 'SilverMerchants';
+    push @{$self->{_options}}, 'VHS';
+    push @{$self->{_options}}, 'Video';
 
     bless $self, $class;
 }
@@ -50,10 +54,14 @@ Net::Amazon::Validate::ItemSearch::us::AudienceRating;
 
 =head1 DESCRIPTION
 
-The default value is Merchants, unless mode is specified.
+The default value is DVD, unless mode is specified.
 
 The list of available values are:
 
+    DVD
     Merchants
+    SilverMerchants
+    VHS
+    Video
 
 =cut

@@ -15,6 +15,8 @@ sub new {
     };
 
     push @{$self->{_options}}, 'DVD';
+    push @{$self->{_options}}, 'VHS';
+    push @{$self->{_options}}, 'Video';
 
     bless $self, $class;
 }
@@ -55,5 +57,7 @@ The default value is DVD, unless mode is specified.
 The list of available values are:
 
     DVD
+    VHS
+    Video
 
 =cut

@@ -39,27 +39,29 @@ ok($resp->is_success(), "Request successful");
 my @properties = $resp->properties();
 is(scalar @properties, 10, "10 movies");
 
-like($resp->as_string(), qr/First Dates.*?Anger Management/s, "Examine Movies");
+my $i = -1;
 
-my @starring = $properties[0]->starring();
+like($resp->as_string(), qr/I Now.*?First Dates/s, "Examine Movies");
 
-is($properties[0]->actor, "Adam Sandler", "Check actor");
-is($starring[0], "Adam Sandler", "Check starring");
-is($properties[0]->director, "Peter Segal", "Check director");
-like($properties[0]->title, qr/50 First Dates/, "Check title");
-is($properties[0]->studio, "Sony Pictures", "Check studio");
-is($properties[0]->theatrical_release_date, "2004-02-13", "Check theatrical release date");
-is($properties[0]->media, "DVD", "Check media");
-is($properties[0]->Media, "DVD", "Check Media");
-is($properties[0]->nummedia, 1, "Check nummedia");
-is($properties[0]->NumMedia, 1, "Check NumMedia");
-is($properties[0]->upc, "043396014268", "Check UPC");
-like($properties[0]->mpaa_rating, qr/PG\-13/, "Check MPAA rating");
-is($properties[0]->region_code, 99, "Check region code");
-is($properties[0]->label, "Sony Pictures", "Check label");
-is($properties[0]->running_time, "99", "Check running time");
-is($properties[0]->publisher, "Sony Pictures", "Check publisher");
-is($properties[0]->ean, "0043396014268", "Check ean");
-is($properties[0]->feature, "AC-3", "Check feature");
-is(scalar($properties[0]->features), 10, "Check number of features");
+my @starring = $properties[$i]->starring();
+
+is($properties[$i]->actor, "Adam Sandler", "Check actor");
+is($starring[$i], "Lusia Strus", "Check starring");
+is($properties[$i]->director, "Peter Segal", "Check director");
+like($properties[$i]->title, qr/50 First Dates/, "Check title");
+is($properties[$i]->studio, "Sony Pictures", "Check studio");
+is($properties[$i]->theatrical_release_date, "2004-02-13", "Check theatrical release date");
+is($properties[$i]->media, "DVD", "Check media");
+is($properties[$i]->Media, "DVD", "Check Media");
+is($properties[$i]->nummedia, 1, "Check nummedia");
+is($properties[$i]->NumMedia, 1, "Check NumMedia");
+is($properties[$i]->upc, "043396014268", "Check UPC");
+like($properties[$i]->mpaa_rating, qr/PG\-13/, "Check MPAA rating");
+is($properties[$i]->region_code, 99, "Check region code");
+is($properties[$i]->label, "Sony Pictures", "Check label");
+is($properties[$i]->running_time, "99", "Check running time");
+is($properties[$i]->publisher, "Sony Pictures", "Check publisher");
+is($properties[$i]->ean, "9781404937024", "Check ean");
+is($properties[$i]->feature, "AC-3", "Check feature");
+is(scalar($properties[$i]->features), 11, "Check number of features");
 

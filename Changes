@@ -1,5 +1,12 @@
 Revision history for Perl extension Net::Amazon:
 
+0.45 (11/11/2007)
+   (cb) Gregor Hermann <gregor+debian@comodo.priv.at> submitted a patch to
+        prevent canned tests from contacting the Amazon.com.
+   (cb) Jochen Cichon <joschi@vfnet.de> reported a bug when specifying 
+        multiple ResponseGroups.
+   (cb) Update to the latest WSDL, version 2007-10-29.
+
 0.44 (11/03/2007)
    (cb) Patch by Carl Franks <fireartist@gmail.com> to add support for 
         returning the currency code, and unformatted price.

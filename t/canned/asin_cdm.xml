@@ -1,29 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ItemLookupResponse xmlns="http://webservices.amazon.com/AWSECommerceService/2006-06-28">
+<ItemLookupResponse xmlns="http://webservices.amazon.com/AWSECommerceService/2007-10-29">
   <Items>
     <Item>
       <ASIN>B00005A46I</ASIN>
-      <DetailPageURL>http://www.amazon.com/exec/obidos/redirect?tag=ws%26link_code=xm2%26camp=2025%26creative=165953%26path=http://www.amazon.com/gp/redirect.html%253fASIN=B00005A46I%2526tag=ws%2526lcode=xm2%2526cID=2025%2526ccmID=165953%2526location=/o/ASIN/B00005A46I%25253FSubscriptionId=YOUR_AMAZON_TOKEN</DetailPageURL>
-      <SalesRank>34271</SalesRank>
-      <SmallImage>
-        <URL>http://images.amazon.com/images/P/B00005A46I.01._SCTHUMBZZZ_.jpg</URL>
-        <Height Units="pixels">75</Height>
-        <Width Units="pixels">75</Width>
-      </SmallImage>
-      <MediumImage>
-        <URL>http://images.amazon.com/images/P/B00005A46I.01._SCMZZZZZZZ_.jpg</URL>
-        <Height Units="pixels">160</Height>
-        <Width Units="pixels">160</Width>
-      </MediumImage>
-      <LargeImage>
-        <URL>http://images.amazon.com/images/P/B00005A46I.01._SCLZZZZZZZ_.jpg</URL>
-        <Height Units="pixels">300</Height>
-        <Width Units="pixels">300</Width>
-      </LargeImage>
+      <DetailPageURL>http://www.amazon.com/gp/redirect.html%3FASIN=B00005A46I%26tag=ws%26lcode=xm2%26cID=2025%26ccmID=165953%26location=/o/ASIN/B00005A46I%253FSubscriptionId=1VAESZQN1G7SXNRG4882</DetailPageURL>
+      <SalesRank>89841</SalesRank>
       <ItemAttributes>
+        <Artist>Anne Sofie von Otter</Artist>
+        <Artist>Elvis Costello</Artist>
         <Binding>Audio CD</Binding>
-        <Creator Role="Performer">Anne Sofie von Otter</Creator>
-        <Creator Role="Performer">Elvis Costello</Creator>
         <EAN>0028946953020</EAN>
         <Label>Deutsche Grammophon</Label>
         <ListPrice>
@@ -32,15 +17,11 @@
           <FormattedPrice>$17.98</FormattedPrice>
         </ListPrice>
         <Manufacturer>Deutsche Grammophon</Manufacturer>
+        <MPN>469530</MPN>
         <NumberOfDiscs>1</NumberOfDiscs>
         <OriginalReleaseDate>2001-04-10</OriginalReleaseDate>
-        <PackageDimensions>
-          <Height Units="hundredths-inches">47</Height>
-          <Length Units="hundredths-inches">492</Length>
-          <Weight Units="hundredths-pounds">26</Weight>
-          <Width Units="hundredths-inches">559</Width>
-        </PackageDimensions>
         <ProductGroup>Music</ProductGroup>
+        <ProductTypeName>ABIS_MUSIC</ProductTypeName>
         <Publisher>Deutsche Grammophon</Publisher>
         <ReleaseDate>2001-04-10</ReleaseDate>
         <Studio>Deutsche Grammophon</Studio>
@@ -49,45 +30,20 @@
       </ItemAttributes>
       <OfferSummary>
         <LowestNewPrice>
-          <Amount>484</Amount>
+          <Amount>550</Amount>
           <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$4.84</FormattedPrice>
+          <FormattedPrice>$5.50</FormattedPrice>
         </LowestNewPrice>
         <LowestUsedPrice>
-          <Amount>219</Amount>
+          <Amount>18</Amount>
           <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$2.19</FormattedPrice>
+          <FormattedPrice>$0.18</FormattedPrice>
         </LowestUsedPrice>
-        <TotalNew>48</TotalNew>
-        <TotalUsed>55</TotalUsed>
+        <TotalNew>51</TotalNew>
+        <TotalUsed>51</TotalUsed>
         <TotalCollectible>0</TotalCollectible>
         <TotalRefurbished>0</TotalRefurbished>
       </OfferSummary>
-      <Offers>
-        <TotalOffers>1</TotalOffers>
-        <TotalOfferPages>1</TotalOfferPages>
-        <Offer>
-          <Merchant>
-            <MerchantId>ATVPDKIKX0DER</MerchantId>
-            <GlancePage>http://www.amazon.com/gp/help/seller/home.html?seller=ATVPDKIKX0DER</GlancePage>
-            <AverageFeedbackRating>0.0</AverageFeedbackRating>
-            <TotalFeedback>0</TotalFeedback>
-          </Merchant>
-          <OfferAttributes>
-            <Condition>New</Condition>
-          </OfferAttributes>
-          <OfferListing>
-            <OfferListingId>c70pp6vrJ%2BvSRnGBc%2BiHRdCtDzv4ThsVEcLnnCpjGogQVbimMsvFvz8uSvnpWUTxB%2BASeXIfGUc%3D</OfferListingId>
-            <Price>
-              <Amount>1564</Amount>
-              <CurrencyCode>USD</CurrencyCode>
-              <FormattedPrice>$15.64</FormattedPrice>
-            </Price>
-            <Availability>Usually ships in 24 hours</Availability>
-            <IsEligibleForSuperSaverShipping>1</IsEligibleForSuperSaverShipping>
-          </OfferListing>
-        </Offer>
-      </Offers>
       <Tracks>
         <Disc Number="1">
           <Track Number="1">No Wonder</Track>

@@ -8,14 +8,11 @@ use strict;
 use warnings;
 
 use constant RESPONSEGROUP_VALID_VALUES => {
-    'Cart' => 'default',
-    'CartNewReleases' => 'valid',
-    'CartSimilarities' => 'valid',
-    'CartTopSellers' => 'valid',
-    'Request' => 'default',
+    'Cart' => 1,
+    'CartNewReleases' => 1,
+    'CartSimilarities' => 1,
+    'CartTopSellers' => 1,
 };
-
-
 
 sub new {
     my ($class , %options) = @_;
@@ -43,7 +40,5 @@ sub ResponseGroup {
     my ($self, $value) = @_;
     $self->validate($value, "ResponseGroup", (RESPONSEGROUP_VALID_VALUES));
 }
-
-
 
 1;

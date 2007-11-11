@@ -10,11 +10,10 @@ use warnings;
 sub new {
     my ($class , %options) = @_;
     my $self = {
-        '_default' => 'DVD',
+        '_default' => 'VHS',
         %options,
     };
 
-    push @{$self->{_options}}, 'DVD';
     push @{$self->{_options}}, 'VHS';
     push @{$self->{_options}}, 'Video';
 
@@ -52,11 +51,10 @@ Net::Amazon::Validate::ItemSearch::de::Director;
 
 =head1 DESCRIPTION
 
-The default value is DVD, unless mode is specified.
+The default value is VHS, unless mode is specified.
 
 The list of available values are:
 
-    DVD
     VHS
     Video
 

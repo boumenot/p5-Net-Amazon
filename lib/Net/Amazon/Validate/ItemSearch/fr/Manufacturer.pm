@@ -15,6 +15,7 @@ sub new {
     };
 
     push @{$self->{_options}}, 'Electronics';
+    push @{$self->{_options}}, 'Kitchen';
     push @{$self->{_options}}, 'Software';
     push @{$self->{_options}}, 'SoftwareVideoGames';
     push @{$self->{_options}}, 'VideoGames';
@@ -58,6 +59,7 @@ The default value is Software, unless mode is specified.
 The list of available values are:
 
     Electronics
+    Kitchen
     Software
     SoftwareVideoGames
     VideoGames

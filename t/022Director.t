@@ -61,5 +61,5 @@ is($properties[0]->running_time, "119", "Check running time");
 is($properties[0]->publisher, "Walt Disney Home Entertainment", "Check publisher");
 is($properties[0]->ean, "0786936296662", "Check ean");
 is($properties[0]->feature, "Animated", "Check feature");
-is(scalar($properties[0]->features), 6, "Check number of features");
+is(scalar($properties[0]->features), 7, "Check number of features");
 

@@ -16,7 +16,6 @@ sub new {
 
     push @{$self->{_options}}, 'Books';
     push @{$self->{_options}}, 'ForeignBooks';
-    push @{$self->{_options}}, 'Music';
 
     bless $self, $class;
 }
@@ -58,6 +57,5 @@ The list of available values are:
 
     Books
     ForeignBooks
-    Music
 
 =cut

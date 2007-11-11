@@ -14,7 +14,6 @@ sub new {
         %options,
     };
 
-    push @{$self->{_options}}, 'Classical';
     push @{$self->{_options}}, 'Music';
 
     bless $self, $class;
@@ -55,7 +54,6 @@ The default value is Music, unless mode is specified.
 
 The list of available values are:
 
-    Classical
     Music
 
 =cut

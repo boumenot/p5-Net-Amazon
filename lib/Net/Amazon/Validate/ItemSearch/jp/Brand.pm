@@ -14,6 +14,8 @@ sub new {
         %options,
     };
 
+    push @{$self->{_options}}, 'Apparel';
+    push @{$self->{_options}}, 'Baby';
     push @{$self->{_options}}, 'Electronics';
     push @{$self->{_options}}, 'Kitchen';
     push @{$self->{_options}}, 'Software';
@@ -57,6 +59,8 @@ The default value is Software, unless mode is specified.
 
 The list of available values are:
 
+    Apparel
+    Baby
     Electronics
     Kitchen
     Software

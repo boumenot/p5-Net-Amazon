@@ -1,27 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ItemSearchResponse xmlns="http://webservices.amazon.com/AWSECommerceService/2006-06-28">
+<ItemSearchResponse xmlns="http://webservices.amazon.com/AWSECommerceService/2007-10-29">
   <Items>
-    <TotalResults>6</TotalResults>
+    <TotalResults>8</TotalResults>
     <TotalPages>1</TotalPages>
     <Item>
       <ASIN>B00007M84Q</ASIN>
-      <DetailPageURL>http://www.amazon.com/exec/obidos/redirect?tag=ws%26link_code=xm2%26camp=2025%26creative=165953%26path=http://www.amazon.com/gp/redirect.html%253fASIN=B00007M84Q%2526tag=ws%2526lcode=xm2%2526cID=2025%2526ccmID=165953%2526location=/o/ASIN/B00007M84Q%25253FSubscriptionId=YOUR_AMAZON_TOKEN</DetailPageURL>
-      <SalesRank>19162</SalesRank>
-      <SmallImage>
-        <URL>http://ec1.images-amazon.com/images/P/B00007M84Q.01._SCTHUMBZZZ_.jpg</URL>
-        <Height Units="pixels">75</Height>
-        <Width Units="pixels">75</Width>
-      </SmallImage>
-      <MediumImage>
-        <URL>http://ec1.images-amazon.com/images/P/B00007M84Q.01._SCMZZZZZZZ_.jpg</URL>
-        <Height Units="pixels">160</Height>
-        <Width Units="pixels">160</Width>
-      </MediumImage>
-      <LargeImage>
-        <URL>http://ec1.images-amazon.com/images/P/B00007M84Q.01._SCLZZZZZZZ_.jpg</URL>
-        <Height Units="pixels">300</Height>
-        <Width Units="pixels">300</Width>
-      </LargeImage>
+      <DetailPageURL>http://www.amazon.com/gp/redirect.html%3FASIN=B00007M84Q%26tag=ws%26lcode=xm2%26cID=2025%26ccmID=165953%26location=/o/ASIN/B00007M84Q%253FSubscriptionId=1VAESZQN1G7SXNRG4882</DetailPageURL>
+      <SalesRank>31759</SalesRank>
       <ItemAttributes>
         <Artist>Zwan</Artist>
         <Binding>Audio CD</Binding>
@@ -35,13 +20,9 @@
         <Manufacturer>Reprise / Wea</Manufacturer>
         <NumberOfDiscs>1</NumberOfDiscs>
         <OriginalReleaseDate>2003-01-28</OriginalReleaseDate>
-        <PackageDimensions>
-          <Height Units="hundredths-inches">54</Height>
-          <Length Units="hundredths-inches">555</Length>
-          <Weight Units="hundredths-pounds">18</Weight>
-          <Width Units="hundredths-inches">497</Width>
-        </PackageDimensions>
         <ProductGroup>Music</ProductGroup>
+        <ProductTypeName>ABIS_MUSIC</ProductTypeName>
+        <PublicationDate>2003</PublicationDate>
         <Publisher>Reprise / Wea</Publisher>
         <ReleaseDate>2003-01-28</ReleaseDate>
         <Studio>Reprise / Wea</Studio>
@@ -50,50 +31,25 @@
       </ItemAttributes>
       <OfferSummary>
         <LowestNewPrice>
-          <Amount>500</Amount>
+          <Amount>415</Amount>
           <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$5.00</FormattedPrice>
+          <FormattedPrice>$4.15</FormattedPrice>
         </LowestNewPrice>
         <LowestUsedPrice>
-          <Amount>106</Amount>
+          <Amount>153</Amount>
           <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$1.06</FormattedPrice>
+          <FormattedPrice>$1.53</FormattedPrice>
         </LowestUsedPrice>
         <LowestCollectiblePrice>
-          <Amount>594</Amount>
+          <Amount>1499</Amount>
           <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$5.94</FormattedPrice>
+          <FormattedPrice>$14.99</FormattedPrice>
         </LowestCollectiblePrice>
-        <TotalNew>51</TotalNew>
-        <TotalUsed>80</TotalUsed>
-        <TotalCollectible>5</TotalCollectible>
+        <TotalNew>60</TotalNew>
+        <TotalUsed>70</TotalUsed>
+        <TotalCollectible>9</TotalCollectible>
         <TotalRefurbished>0</TotalRefurbished>
       </OfferSummary>
-      <Offers>
-        <TotalOffers>1</TotalOffers>
-        <TotalOfferPages>1</TotalOfferPages>
-        <Offer>
-          <Merchant>
-            <MerchantId>ATVPDKIKX0DER</MerchantId>
-            <GlancePage>http://www.amazon.com/gp/help/seller/home.html?seller=ATVPDKIKX0DER</GlancePage>
-            <AverageFeedbackRating>0.0</AverageFeedbackRating>
-            <TotalFeedback>0</TotalFeedback>
-          </Merchant>
-          <OfferAttributes>
-            <Condition>New</Condition>
-          </OfferAttributes>
-          <OfferListing>
-            <OfferListingId>DEbxxGl2LngEH02VixTb8NsVWcyY%2Bb3asoyMnROvmgcaexuYiW42Z3m2i007QxbaeGP8HXV953M%3D</OfferListingId>
-            <Price>
-              <Amount>1898</Amount>
-              <CurrencyCode>USD</CurrencyCode>
-              <FormattedPrice>$18.98</FormattedPrice>
-            </Price>
-            <Availability>Usually ships in 24 hours</Availability>
-            <IsEligibleForSuperSaverShipping>1</IsEligibleForSuperSaverShipping>
-          </OfferListing>
-        </Offer>
-      </Offers>
       <Tracks>
         <Disc Number="1">
           <Track Number="1">Lyric</Track>
@@ -115,28 +71,13 @@
     </Item>
     <Item>
       <ASIN>B000084HC0</ASIN>
-      <DetailPageURL>http://www.amazon.com/exec/obidos/redirect?tag=ws%26link_code=xm2%26camp=2025%26creative=165953%26path=http://www.amazon.com/gp/redirect.html%253fASIN=B000084HC0%2526tag=ws%2526lcode=xm2%2526cID=2025%2526ccmID=165953%2526location=/o/ASIN/B000084HC0%25253FSubscriptionId=YOUR_AMAZON_TOKEN</DetailPageURL>
-      <SalesRank>25566</SalesRank>
-      <SmallImage>
-        <URL>http://ec1.images-amazon.com/images/P/B000084HC0.01._SCTHUMBZZZ_.jpg</URL>
-        <Height Units="pixels">75</Height>
-        <Width Units="pixels">75</Width>
-      </SmallImage>
-      <MediumImage>
-        <URL>http://ec1.images-amazon.com/images/P/B000084HC0.01._SCMZZZZZZZ_.jpg</URL>
-        <Height Units="pixels">160</Height>
-        <Width Units="pixels">160</Width>
-      </MediumImage>
-      <LargeImage>
-        <URL>http://ec1.images-amazon.com/images/P/B000084HC0.01._SCLZZZZZZZ_.jpg</URL>
-        <Height Units="pixels">300</Height>
-        <Width Units="pixels">300</Width>
-      </LargeImage>
+      <DetailPageURL>http://www.amazon.com/gp/redirect.html%3FASIN=B000084HC0%26tag=ws%26lcode=xm2%26cID=2025%26ccmID=165953%26location=/o/ASIN/B000084HC0%253FSubscriptionId=1VAESZQN1G7SXNRG4882</DetailPageURL>
+      <SalesRank>117123</SalesRank>
       <ItemAttributes>
         <Artist>Zwan</Artist>
         <Binding>Audio CD</Binding>
         <EAN>0093624260929</EAN>
-        <Format>CD-single</Format>
+        <Format>Single</Format>
         <Format>Import</Format>
         <Label>Import [Generic]</Label>
         <ListPrice>
@@ -146,13 +87,8 @@
         </ListPrice>
         <Manufacturer>Import [Generic]</Manufacturer>
         <NumberOfDiscs>1</NumberOfDiscs>
-        <PackageDimensions>
-          <Height Units="hundredths-inches">54</Height>
-          <Length Units="hundredths-inches">555</Length>
-          <Weight Units="hundredths-pounds">18</Weight>
-          <Width Units="hundredths-inches">497</Width>
-        </PackageDimensions>
         <ProductGroup>Music</ProductGroup>
+        <ProductTypeName>ABIS_MUSIC</ProductTypeName>
         <Publisher>Import [Generic]</Publisher>
         <ReleaseDate>2004-04-08</ReleaseDate>
         <Studio>Import [Generic]</Studio>
@@ -161,24 +97,20 @@
       </ItemAttributes>
       <OfferSummary>
         <LowestNewPrice>
-          <Amount>928</Amount>
+          <Amount>1229</Amount>
           <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$9.28</FormattedPrice>
+          <FormattedPrice>$12.29</FormattedPrice>
         </LowestNewPrice>
         <LowestUsedPrice>
-          <Amount>955</Amount>
+          <Amount>1100</Amount>
           <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$9.55</FormattedPrice>
+          <FormattedPrice>$11.00</FormattedPrice>
         </LowestUsedPrice>
-        <TotalNew>6</TotalNew>
-        <TotalUsed>2</TotalUsed>
+        <TotalNew>3</TotalNew>
+        <TotalUsed>1</TotalUsed>
         <TotalCollectible>0</TotalCollectible>
         <TotalRefurbished>0</TotalRefurbished>
       </OfferSummary>
-      <Offers>
-        <TotalOffers>0</TotalOffers>
-        <TotalOfferPages>0</TotalOfferPages>
-      </Offers>
       <Tracks>
         <Disc Number="1">
           <Track Number="1">Honestly</Track>
@@ -188,78 +120,14 @@
       </Tracks>
     </Item>
     <Item>
-      <ASIN>B000084T5E</ASIN>
-      <DetailPageURL>http://www.amazon.com/exec/obidos/redirect?tag=ws%26link_code=xm2%26camp=2025%26creative=165953%26path=http://www.amazon.com/gp/redirect.html%253fASIN=B000084T5E%2526tag=ws%2526lcode=xm2%2526cID=2025%2526ccmID=165953%2526location=/o/ASIN/B000084T5E%25253FSubscriptionId=YOUR_AMAZON_TOKEN</DetailPageURL>
-      <SalesRank>445588</SalesRank>
-      <ItemAttributes>
-        <Artist>Zwan</Artist>
-        <Binding>Audio CD</Binding>
-        <EAN>0093624843610</EAN>
-        <ItemDimensions>
-          <Height Units="hundredths-inches">12</Height>
-          <Length Units="hundredths-inches">12</Length>
-          <Width Units="hundredths-inches">12</Width>
-        </ItemDimensions>
-        <ListPrice>
-          <Amount>23649</Amount>
-          <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$236.49</FormattedPrice>
-        </ListPrice>
-        <NumberOfDiscs>2</NumberOfDiscs>
-        <ProductGroup>Music</ProductGroup>
-        <Title>Mary Star of the Sea</Title>
-        <UPC>093624843610</UPC>
-      </ItemAttributes>
-      <OfferSummary>
-        <LowestNewPrice>
-          <Amount>1995</Amount>
-          <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$19.95</FormattedPrice>
-        </LowestNewPrice>
-        <LowestUsedPrice>
-          <Amount>355</Amount>
-          <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$3.55</FormattedPrice>
-        </LowestUsedPrice>
-        <LowestCollectiblePrice>
-          <Amount>1000</Amount>
-          <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$10.00</FormattedPrice>
-        </LowestCollectiblePrice>
-        <TotalNew>4</TotalNew>
-        <TotalUsed>3</TotalUsed>
-        <TotalCollectible>2</TotalCollectible>
-        <TotalRefurbished>0</TotalRefurbished>
-      </OfferSummary>
-      <Offers>
-        <TotalOffers>0</TotalOffers>
-        <TotalOfferPages>0</TotalOfferPages>
-      </Offers>
-    </Item>
-    <Item>
       <ASIN>B00009N1U9</ASIN>
-      <DetailPageURL>http://www.amazon.com/exec/obidos/redirect?tag=ws%26link_code=xm2%26camp=2025%26creative=165953%26path=http://www.amazon.com/gp/redirect.html%253fASIN=B00009N1U9%2526tag=ws%2526lcode=xm2%2526cID=2025%2526ccmID=165953%2526location=/o/ASIN/B00009N1U9%25253FSubscriptionId=YOUR_AMAZON_TOKEN</DetailPageURL>
-      <SalesRank>205778</SalesRank>
-      <SmallImage>
-        <URL>http://ec1.images-amazon.com/images/P/B00009N1U9.01._SCTHUMBZZZ_.jpg</URL>
-        <Height Units="pixels">67</Height>
-        <Width Units="pixels">75</Width>
-      </SmallImage>
-      <MediumImage>
-        <URL>http://ec1.images-amazon.com/images/P/B00009N1U9.01._SCMZZZZZZZ_.jpg</URL>
-        <Height Units="pixels">142</Height>
-        <Width Units="pixels">160</Width>
-      </MediumImage>
-      <LargeImage>
-        <URL>http://ec1.images-amazon.com/images/P/B00009N1U9.01._SCLZZZZZZZ_.jpg</URL>
-        <Height Units="pixels">423</Height>
-        <Width Units="pixels">475</Width>
-      </LargeImage>
+      <DetailPageURL>http://www.amazon.com/gp/redirect.html%3FASIN=B00009N1U9%26tag=ws%26lcode=xm2%26cID=2025%26ccmID=165953%26location=/o/ASIN/B00009N1U9%253FSubscriptionId=1VAESZQN1G7SXNRG4882</DetailPageURL>
+      <SalesRank>127518</SalesRank>
       <ItemAttributes>
         <Artist>Zwan</Artist>
         <Binding>Audio CD</Binding>
         <EAN>0093624262428</EAN>
-        <Format>CD-single</Format>
+        <Format>Single</Format>
         <Format>Import</Format>
         <Label>Wea International</Label>
         <ListPrice>
@@ -268,7 +136,10 @@
           <FormattedPrice>$12.99</FormattedPrice>
         </ListPrice>
         <Manufacturer>Wea International</Manufacturer>
+        <NumberOfDiscs>1</NumberOfDiscs>
+        <OriginalReleaseDate>2003-06-03</OriginalReleaseDate>
         <ProductGroup>Music</ProductGroup>
+        <ProductTypeName>ABIS_MUSIC</ProductTypeName>
         <Publisher>Wea International</Publisher>
         <ReleaseDate>2003-06-03</ReleaseDate>
         <Studio>Wea International</Studio>
@@ -276,25 +147,16 @@
         <UPC>093624262428</UPC>
       </ItemAttributes>
       <OfferSummary>
-        <LowestNewPrice>
-          <Amount>1299</Amount>
-          <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$12.99</FormattedPrice>
-        </LowestNewPrice>
         <LowestUsedPrice>
-          <Amount>1298</Amount>
+          <Amount>1648</Amount>
           <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$12.98</FormattedPrice>
+          <FormattedPrice>$16.48</FormattedPrice>
         </LowestUsedPrice>
-        <TotalNew>1</TotalNew>
-        <TotalUsed>1</TotalUsed>
+        <TotalNew>0</TotalNew>
+        <TotalUsed>2</TotalUsed>
         <TotalCollectible>0</TotalCollectible>
         <TotalRefurbished>0</TotalRefurbished>
       </OfferSummary>
-      <Offers>
-        <TotalOffers>0</TotalOffers>
-        <TotalOfferPages>0</TotalOfferPages>
-      </Offers>
       <Tracks>
         <Disc Number="1">
           <Track Number="1">Lyric</Track>
@@ -304,29 +166,169 @@
       </Tracks>
     </Item>
     <Item>
-      <ASIN>B00008UVDM</ASIN>
-      <DetailPageURL>http://www.amazon.com/exec/obidos/redirect?tag=ws%26link_code=xm2%26camp=2025%26creative=165953%26path=http://www.amazon.com/gp/redirect.html%253fASIN=B00008UVDM%2526tag=ws%2526lcode=xm2%2526cID=2025%2526ccmID=165953%2526location=/o/ASIN/B00008UVDM%25253FSubscriptionId=YOUR_AMAZON_TOKEN</DetailPageURL>
-      <SalesRank>474411</SalesRank>
-      <SmallImage>
-        <URL>http://ec1.images-amazon.com/images/P/B00008UVDM.01._SCTHUMBZZZ_.jpg</URL>
-        <Height Units="pixels">75</Height>
-        <Width Units="pixels">75</Width>
-      </SmallImage>
-      <MediumImage>
-        <URL>http://ec1.images-amazon.com/images/P/B00008UVDM.01._SCMZZZZZZZ_.jpg</URL>
-        <Height Units="pixels">160</Height>
-        <Width Units="pixels">160</Width>
-      </MediumImage>
-      <LargeImage>
-        <URL>http://ec1.images-amazon.com/images/P/B00008UVDM.01._SCLZZZZZZZ_.jpg</URL>
-        <Height Units="pixels">300</Height>
-        <Width Units="pixels">300</Width>
-      </LargeImage>
+      <ASIN>B000084T5E</ASIN>
+      <DetailPageURL>http://www.amazon.com/gp/redirect.html%3FASIN=B000084T5E%26tag=ws%26lcode=xm2%26cID=2025%26ccmID=165953%26location=/o/ASIN/B000084T5E%253FSubscriptionId=1VAESZQN1G7SXNRG4882</DetailPageURL>
+      <SalesRank>179802</SalesRank>
       <ItemAttributes>
         <Artist>Zwan</Artist>
         <Binding>Audio CD</Binding>
+        <EAN>0093624843610</EAN>
+        <Label>Reprise</Label>
+        <ListPrice>
+          <Amount>23649</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$236.49</FormattedPrice>
+        </ListPrice>
+        <Manufacturer>Reprise</Manufacturer>
+        <NumberOfDiscs>2</NumberOfDiscs>
+        <ProductGroup>Music</ProductGroup>
+        <ProductTypeName>ABIS_MUSIC</ProductTypeName>
+        <PublicationDate>2003</PublicationDate>
+        <Publisher>Reprise</Publisher>
+        <Studio>Reprise</Studio>
+        <Title>Mary Star of the Sea [CD &amp; DVD]</Title>
+        <UPC>093624843610</UPC>
+      </ItemAttributes>
+      <OfferSummary>
+        <LowestNewPrice>
+          <Amount>1299</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$12.99</FormattedPrice>
+        </LowestNewPrice>
+        <LowestUsedPrice>
+          <Amount>1234</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$12.34</FormattedPrice>
+        </LowestUsedPrice>
+        <TotalNew>4</TotalNew>
+        <TotalUsed>3</TotalUsed>
+        <TotalCollectible>0</TotalCollectible>
+        <TotalRefurbished>0</TotalRefurbished>
+      </OfferSummary>
+    </Item>
+    <Item>
+      <ASIN>B00009KTFC</ASIN>
+      <DetailPageURL>http://www.amazon.com/gp/redirect.html%3FASIN=B00009KTFC%26tag=ws%26lcode=xm2%26cID=2025%26ccmID=165953%26location=/o/ASIN/B00009KTFC%253FSubscriptionId=1VAESZQN1G7SXNRG4882</DetailPageURL>
+      <SalesRank>779906</SalesRank>
+      <ItemAttributes>
+        <Artist>Zwan</Artist>
+        <Binding>LP Record</Binding>
+        <EAN>0054391667175</EAN>
+        <Label>Reprise</Label>
+        <Manufacturer>Reprise</Manufacturer>
+        <NumberOfDiscs>1</NumberOfDiscs>
+        <ProductGroup>Music</ProductGroup>
+        <ProductTypeName>ABIS_MUSIC</ProductTypeName>
+        <PublicationDate>2003</PublicationDate>
+        <Publisher>Reprise</Publisher>
+        <Studio>Reprise</Studio>
+        <Title>Honestly</Title>
+        <UPC>054391667175</UPC>
+      </ItemAttributes>
+      <OfferSummary>
+        <LowestNewPrice>
+          <Amount>1870</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$18.70</FormattedPrice>
+        </LowestNewPrice>
+        <TotalNew>2</TotalNew>
+        <TotalUsed>0</TotalUsed>
+        <TotalCollectible>0</TotalCollectible>
+        <TotalRefurbished>0</TotalRefurbished>
+      </OfferSummary>
+    </Item>
+    <Item>
+      <ASIN>B00008K50F</ASIN>
+      <DetailPageURL>http://www.amazon.com/gp/redirect.html%3FASIN=B00008K50F%26tag=ws%26lcode=xm2%26cID=2025%26ccmID=165953%26location=/o/ASIN/B00008K50F%253FSubscriptionId=1VAESZQN1G7SXNRG4882</DetailPageURL>
+      <SalesRank>318925</SalesRank>
+      <ItemAttributes>
+        <Artist>Zwan</Artist>
+        <Binding>Audio CD</Binding>
+        <EAN>0054391667120</EAN>
+        <Format>Single</Format>
+        <Format>Import</Format>
+        <Label>Import [Generic]</Label>
+        <ListPrice>
+          <Amount>1299</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$12.99</FormattedPrice>
+        </ListPrice>
+        <Manufacturer>Import [Generic]</Manufacturer>
+        <NumberOfDiscs>1</NumberOfDiscs>
+        <OriginalReleaseDate>2003-02-25</OriginalReleaseDate>
+        <ProductGroup>Music</ProductGroup>
+        <ProductTypeName>ABIS_MUSIC</ProductTypeName>
+        <Publisher>Import [Generic]</Publisher>
+        <ReleaseDate>2003-04-25</ReleaseDate>
+        <Studio>Import [Generic]</Studio>
+        <Title>Honestly</Title>
+        <UPC>054391667120</UPC>
+      </ItemAttributes>
+      <OfferSummary>
+        <LowestNewPrice>
+          <Amount>1015</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$10.15</FormattedPrice>
+        </LowestNewPrice>
+        <LowestUsedPrice>
+          <Amount>500</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$5.00</FormattedPrice>
+        </LowestUsedPrice>
+        <TotalNew>1</TotalNew>
+        <TotalUsed>1</TotalUsed>
+        <TotalCollectible>0</TotalCollectible>
+        <TotalRefurbished>0</TotalRefurbished>
+      </OfferSummary>
+      <Tracks>
+        <Disc Number="1">
+          <Track Number="1">Honestly</Track>
+          <Track Number="2">Number of the Beast</Track>
+        </Disc>
+      </Tracks>
+    </Item>
+    <Item>
+      <ASIN>B00009NQZF</ASIN>
+      <DetailPageURL>http://www.amazon.com/gp/redirect.html%3FASIN=B00009NQZF%26tag=ws%26lcode=xm2%26cID=2025%26ccmID=165953%26location=/o/ASIN/B00009NQZF%253FSubscriptionId=1VAESZQN1G7SXNRG4882</DetailPageURL>
+      <SalesRank>777489</SalesRank>
+      <ItemAttributes>
+        <Artist>Zwan</Artist>
+        <Binding>LP Record</Binding>
+        <EAN>0054391666178</EAN>
+        <Format>Import</Format>
+        <ListPrice>
+          <Amount>999</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$9.99</FormattedPrice>
+        </ListPrice>
+        <NumberOfDiscs>1</NumberOfDiscs>
+        <ProductGroup>Music</ProductGroup>
+        <ProductTypeName>ABIS_MUSIC</ProductTypeName>
+        <Title>Lyric</Title>
+        <UPC>054391666178</UPC>
+      </ItemAttributes>
+      <OfferSummary>
+        <LowestNewPrice>
+          <Amount>2078</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$20.78</FormattedPrice>
+        </LowestNewPrice>
+        <TotalNew>2</TotalNew>
+        <TotalUsed>0</TotalUsed>
+        <TotalCollectible>0</TotalCollectible>
+        <TotalRefurbished>0</TotalRefurbished>
+      </OfferSummary>
+    </Item>
+    <Item>
+      <ASIN>B00008UVDM</ASIN>
+      <DetailPageURL>http://www.amazon.com/gp/redirect.html%3FASIN=B00008UVDM%26tag=ws%26lcode=xm2%26cID=2025%26ccmID=165953%26location=/o/ASIN/B00008UVDM%253FSubscriptionId=1VAESZQN1G7SXNRG4882</DetailPageURL>
+      <SalesRank>717828</SalesRank>
+      <ItemAttributes>
+        <Binding>Audio CD</Binding>
+        <Creator Role="Performer">Zwan</Creator>
         <EAN>0667342760629</EAN>
-        <Format>CD-single</Format>
+        <Format>Single</Format>
+        <Format>Import</Format>
         <Label>Wea</Label>
         <ListPrice>
           <Amount>1249</Amount>
@@ -335,6 +337,7 @@
         </ListPrice>
         <Manufacturer>Wea</Manufacturer>
         <ProductGroup>Music</ProductGroup>
+        <ProductTypeName>ABIS_MUSIC</ProductTypeName>
         <Publisher>Wea</Publisher>
         <ReleaseDate>2002-11-04</ReleaseDate>
         <Studio>Wea</Studio>
@@ -347,74 +350,6 @@
         <TotalCollectible>0</TotalCollectible>
         <TotalRefurbished>0</TotalRefurbished>
       </OfferSummary>
-      <Offers>
-        <TotalOffers>0</TotalOffers>
-        <TotalOfferPages>0</TotalOfferPages>
-      </Offers>
-    </Item>
-    <Item>
-      <ASIN>B00008K50F</ASIN>
-      <DetailPageURL>http://www.amazon.com/exec/obidos/redirect?tag=ws%26link_code=xm2%26camp=2025%26creative=165953%26path=http://www.amazon.com/gp/redirect.html%253fASIN=B00008K50F%2526tag=ws%2526lcode=xm2%2526cID=2025%2526ccmID=165953%2526location=/o/ASIN/B00008K50F%25253FSubscriptionId=YOUR_AMAZON_TOKEN</DetailPageURL>
-      <SalesRank>207882</SalesRank>
-      <SmallImage>
-        <URL>http://ec1.images-amazon.com/images/P/B00008K50F.01._SCTHUMBZZZ_.jpg</URL>
-        <Height Units="pixels">72</Height>
-        <Width Units="pixels">75</Width>
-      </SmallImage>
-      <MediumImage>
-        <URL>http://ec1.images-amazon.com/images/P/B00008K50F.01._SCMZZZZZZZ_.jpg</URL>
-        <Height Units="pixels">154</Height>
-        <Width Units="pixels">160</Width>
-      </MediumImage>
-      <LargeImage>
-        <URL>http://ec1.images-amazon.com/images/P/B00008K50F.01._SCLZZZZZZZ_.jpg</URL>
-        <Height Units="pixels">457</Height>
-        <Width Units="pixels">475</Width>
-      </LargeImage>
-      <ItemAttributes>
-        <Artist>Zwan</Artist>
-        <Binding>Audio CD</Binding>
-        <EAN>0054391667120</EAN>
-        <Format>CD-single</Format>
-        <Format>Import</Format>
-        <Label>Import [Generic]</Label>
-        <ListPrice>
-          <Amount>1299</Amount>
-          <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$12.99</FormattedPrice>
-        </ListPrice>
-        <Manufacturer>Import [Generic]</Manufacturer>
-        <NumberOfDiscs>1</NumberOfDiscs>
-        <OriginalReleaseDate>2003-02-25</OriginalReleaseDate>
-        <PackageDimensions>
-          <Height Units="hundredths-inches">24</Height>
-          <Length Units="hundredths-inches">559</Length>
-          <Weight Units="hundredths-pounds">18</Weight>
-          <Width Units="hundredths-inches">472</Width>
-        </PackageDimensions>
-        <ProductGroup>Music</ProductGroup>
-        <Publisher>Import [Generic]</Publisher>
-        <ReleaseDate>2003-04-25</ReleaseDate>
-        <Studio>Import [Generic]</Studio>
-        <Title>Honestly</Title>
-        <UPC>054391667120</UPC>
-      </ItemAttributes>
-      <OfferSummary>
-        <TotalNew>0</TotalNew>
-        <TotalUsed>0</TotalUsed>
-        <TotalCollectible>0</TotalCollectible>
-        <TotalRefurbished>0</TotalRefurbished>
-      </OfferSummary>
-      <Offers>
-        <TotalOffers>0</TotalOffers>
-        <TotalOfferPages>0</TotalOfferPages>
-      </Offers>
-      <Tracks>
-        <Disc Number="1">
-          <Track Number="1">Honestly</Track>
-          <Track Number="2">Number of the Beast</Track>
-        </Disc>
-      </Tracks>
     </Item>
   </Items>
 </ItemSearchResponse>

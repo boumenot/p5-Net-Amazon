@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ItemLookupResponse xmlns="http://webservices.amazon.com/AWSECommerceService/2006-06-28">
+<ItemLookupResponse xmlns="http://webservices.amazon.com/AWSECommerceService/2007-10-29">
   <Items>
     <Request>
       <IsValid>True</IsValid>

@@ -18,6 +18,7 @@ sub new {
     push @{$self->{_options}}, 'Classical';
     push @{$self->{_options}}, 'DVD';
     push @{$self->{_options}}, 'ForeignBooks';
+    push @{$self->{_options}}, 'Kitchen';
     push @{$self->{_options}}, 'Music';
     push @{$self->{_options}}, 'MusicTracks';
     push @{$self->{_options}}, 'Software';
@@ -67,6 +68,7 @@ The list of available values are:
     Classical
     DVD
     ForeignBooks
+    Kitchen
     Music
     MusicTracks
     Software

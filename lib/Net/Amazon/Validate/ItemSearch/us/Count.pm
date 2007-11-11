@@ -10,11 +10,16 @@ use warnings;
 sub new {
     my ($class , %options) = @_;
     my $self = {
-        '_default' => 'PetSupplies',
+        '_default' => 'Music',
         %options,
     };
 
+    push @{$self->{_options}}, 'Classical';
+    push @{$self->{_options}}, 'DVD';
+    push @{$self->{_options}}, 'Music';
     push @{$self->{_options}}, 'PetSupplies';
+    push @{$self->{_options}}, 'VHS';
+    push @{$self->{_options}}, 'Video';
 
     bless $self, $class;
 }
@@ -50,10 +55,15 @@ Net::Amazon::Validate::ItemSearch::us::Count;
 
 =head1 DESCRIPTION
 
-The default value is PetSupplies, unless mode is specified.
+The default value is Music, unless mode is specified.
 
 The list of available values are:
 
+    Classical
+    DVD
+    Music
     PetSupplies
+    VHS
+    Video
 
 =cut

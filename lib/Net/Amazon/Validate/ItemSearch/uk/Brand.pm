@@ -14,7 +14,10 @@ sub new {
         %options,
     };
 
+    push @{$self->{_options}}, 'Apparel';
+    push @{$self->{_options}}, 'Baby';
     push @{$self->{_options}}, 'Electronics';
+    push @{$self->{_options}}, 'HealthPersonalCare';
     push @{$self->{_options}}, 'HealthPersonalCare';
     push @{$self->{_options}}, 'HomeGarden';
     push @{$self->{_options}}, 'Kitchen';
@@ -62,7 +65,10 @@ The default value is Software, unless mode is specified.
 
 The list of available values are:
 
+    Apparel
+    Baby
     Electronics
+    HealthPersonalCare
     HealthPersonalCare
     HomeGarden
     Kitchen

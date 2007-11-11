@@ -1,113 +1,5 @@
 #!/usr/bin/perl 
-#$Revision: 1.3 $$Date: 2007-02-19 02:04:33 $$Author: boumenot $
-#######################################################################
-#######################################################################
-package ItemSearch::HTML::Parser;
-use base(HTML::Parser);
-use Data::Dumper;
-
-sub new {
-    my $that = shift;
-    my $class = ref($that) || $that;
-
-    my $self = $class->SUPER::new(@_);
-    bless $self, $class;
-
-    $self->unbroken_text(1);
-
-    return $self;
-}
-
-# Keep a queue of depth two to track the last two start tags
-# encountered.  This allows me track the correct number of tags that lead
-# up to a valid entry.  I'm attempting to parse lists of the form.
-# <h2>SearchIndex: Books</h2>
-# <ul>
-# <li><p>Author</p></li>
-# <li><p>BrowseNode</p></li>
-# <li><p>Condition</p></li>
-# <li><p>Itempage</p></li>
-# ...
-# <li><p>Title</p></li>
-# </ul>
-# <h2>SearchIndex: Software</h2>
-# <ul>
-# <li><p>Brand</p></li>
-# ...
-# <li><p>Title</p></li>
-#
-# The items will have the start tag queue of the form qw(li p).
-# (Entries are added to the end of the queue, and removed from the
-# front.
-
-sub start {
-    my $self = shift;
-
-    $self->SUPER::start(@_);
-    my $tag = $_[0];
-    
-    push @{$self->{_c_tags}}, $tag;
-    shift @{$self->{_c_tags}} if @{$self->{_c_tags}} > 2;
-}
-
-# Parse the actual data contained between the start and end element.
-# The text has lots of extraneous white space so strip it out.  Amazon's
-# web pages are very regular, which makes my life easier, so don't
-# bother processing any text unless I know I'm in a known valid tag.
-# These tags are h2, and p.
-sub text {
-    my $self = shift;
-    my $text = $_[0];
-
-    $self->SUPER::text(@_);
-    
-    # these are no only valid tags before an acceptable ItemSearch list.
-    return unless grep {@{$self->{_c_tags}}[-1] eq $_} qw(h2 p);
-
-    $text =~ s/^[ \t\n\r]+//sig;
-    $text =~ s/[ \t\n\r]+$//sig;
-
-    # is there any text to process?
-    return unless length($text);
-
-    if ($self->{_c_tags}->[-1] eq "h2") {
-        if ($text =~ m/SearchIndex: ([A-Za-z]+)$/) {
-            $self->{_c_itemsearch} = $1;
-        }
-    } 
-# When Amazon's web pages are parsed for SearchIndex parameters, results are
-# grouped based on department - for lack of a better word.  For example, in the
-# department Director an SearchIndex can be based on Video, VHS, or DVD.   When
-# user input is validated for an ItemSearch operation, it cues off of the
-# SearchIndex, and the department.  Because it cues off of SearchIndex, I need to
-# "flip" the hash I generated based on Amazon's web site.
-#
-# This is what I parse:
-#   'Director' => [
-#       'Video',
-#       'VHS',
-#       'DVD'
-#    ],
-# 
-# This is what I need:
-#   'Video' => [ 'Director' ],
-#   'DVD'   => [ 'Director' ],
-#   'VHS'   => [ 'Director' ],
-    elsif ($self->is_itemsearch_list() && length($self->{_c_itemsearch})) {
-        push @{$self->{_itemsearch}->{$text}}, $self->{_c_itemsearch};
-    }
-}
-
-sub is_itemsearch_list {
-    my $self = shift;
-    return $self->{_c_tags}->[0] eq 'li' && $self->{_c_tags}->[1] eq 'p';
-}
-
-sub itemsearch_href {
-    my $self = shift;
-    return $self->{_itemsearch};
-}
-
+#$Revision: 1.4 $$Date: 2007-11-11 20:26:22 $$Author: boumenot $
 #######################################################################
 #######################################################################
 
@@ -121,36 +13,22 @@ use LWP::Simple;
 use Text::Template;
 use Data::Dumper;
 use File::Path;
+use XML::Simple;
 
 use strict;
 use warnings;
 
 use constant AWS4_ONLINE_HTML => {
-#     '4-0'        => 'http://docs.amazonwebservices.com/AWSEcommerceService/2005-10-05/',
-#     '2005-01-19' => 'http://docs.amazonwebservices.com/AWSEcommerceService/2005-01-19/',
-#     '2005-02-23' => 'http://docs.amazonwebservices.com/AWSEcommerceService/2005-02-23/',
-#     '2005-03-23' => 'http://docs.amazonwebservices.com/AWSEcommerceService/2005-03-23/',
-#     '2005-07-26' => 'http://docs.amazonwebservices.com/AWSEcommerceService/2005-07-26/',
-#     '2005-09-15' => 'http://docs.amazonwebservices.com/AWSEcommerceService/2005-09-15/',
-#     '2005-10-05' => 'http://docs.amazonwebservices.com/AWSEcommerceService/2005-10-05/',
-#     '2005-10-13' => 'http://docs.amazonwebservices.com/AWSEcommerceService/2005-10-13/',
-#     '2006-02-15' => 'http://docs.amazonwebservices.com/AWSEcommerceService/2006-02-15/',
-#     '2006-03-08' => 'http://docs.amazonwebservices.com/AWSEcommerceService/2006-03-08/',
-#     '2006-05-17' => 'http://docs.amazonwebservices.com/AWSEcommerceService/2006-05-17/',
-#     '2006-06-07' => 'http://docs.amazonwebservices.com/AWSEcommerceService/2006-06-07/',
-#     '2006-09-13' => 'http://docs.amazonwebservices.com/AWSEcommerceService/2006-09-13/',
-#     '2006-10-25' => 'http://docs.amazonwebservices.com/AWSEcommerceService/2006-10-25/',
-#     '2006-11-14' => 'http://docs.amazonwebservices.com/AWSEcommerceService/2006-11-14/',
-    '2007-01-17' => 'http://docs.amazonwebservices.com/AWSEcommerceService/2007-01-17/',
+    '2007-10-29' => 'http://docs.amazonwebservices.com/AWSECommerceService/2007-10-29/DG/',
 };
 
 use constant AWS4_LOCALE_HTML => {
-    'us' => 'ApiReference/USSearchIndexMatrixArticle.html',
-    'de' => 'ApiReference/DESearchIndexMatrixArticle.html',
-    'jp' => 'ApiReference/JPSearchIndexMatrixArticle.html',
-    'uk' => 'ApiReference/UKSearchIndexMatrixArticle.html',
-    'fr' => 'ApiReference/FRSearchIndexMatrixArticle.html',
-    'ca' => 'ApiReference/CASearchIndexMatrixArticle.html',
+    'us' => 'USSearchIndexParamForItemsearch.html',
+    'de' => 'DESearchIndexParamForItemsearch.html',
+    'jp' => 'JPSearchIndexParamForItemsearch.html',
+    'uk' => 'UKSearchIndexParamForItemsearch.html',
+    'fr' => 'FRSearchIndexParamForItemsearch.html',
+    'ca' => 'CASearchIndexParamForItemsearch.html',
 };
 
 my $Opt_Debug = 0;
@@ -178,21 +56,50 @@ unless (-d $Opt_Dest) {
 for my $locale (keys %{(AWS4_LOCALE_HTML)}) {
     my %upc;
     for my $ver (keys %{(AWS4_ONLINE_HTML)}) {
+        my %depts;
         my $link =  AWS4_ONLINE_HTML->{$ver}.AWS4_LOCALE_HTML->{$locale};
         print "fetching $link ...\n" if $Opt_Debug;
 
-        my $html = get($link);
+        my $xhtml = get($link);
         die "%Error: failed to fetch '$link'!\n" 
-            unless $html;
+            unless $xhtml;
 
-        my $parser = ItemSearch::HTML::Parser->new->parse($html);
-        my $href = $parser->itemsearch_href();
+        my $xs = XML::Simple->new(ForceArray => [qw(li)]);
+        my $href = $xs->XMLin($xhtml);
 
-        print Dumper($href) if $Opt_Debug;
+        for my $divI (@{$href->{body}->{div}}) {
+            for my $divJ (@{$divI->{div}}) {
+                next unless defined $divJ->{class} and $divJ->{class} eq 'section';
 
-        for my $dept (keys %$href) {
-            dump_library($href->{$dept}, $locale, $dept);
-            upc_add(\%upc, $href->{$dept});
+                my @a = @{$divJ->{div}};
+                my $hdr = shift @a;
+
+                next if scalar(@a) < 1;
+                next unless defined $hdr->{div}->{div}->{h2}->{content};
+                next unless $hdr->{div}->{div}->{h2}->{content} =~ m/^SearchIndex: (\w+)/;
+
+                my $dept = $1;
+                next if $dept eq 'All';
+
+                for my $col (@a) {
+                    for my $td (@{$col->{table}->{tbody}->{tr}->{td}}) {
+                        for my $li (@{$td->{div}->{ul}->{li}}) {
+                            #push @{$depts{$dept}}, $li->{p};
+                            push @{$depts{$li->{p}}}, $dept;
+                        }
+                    }
+                    # GRRR: amazon.com should be more consistent.
+                    for my $li (@{$col->{ul}->{li}}) {
+                        #push @{$depts{$dept}}, $li->{p};
+                        push @{$depts{$li->{p}}}, $dept;
+                    }
+                }
+            }
+        }
+
+        for my $dept (keys %depts) {
+            dump_library($depts{$dept}, $locale, $dept);
+            upc_add(\%upc, $depts{$dept});
         }
     }
     my @a = keys %upc;
@@ -203,13 +110,13 @@ for my $locale (keys %{(AWS4_LOCALE_HTML)}) {
 ## subs #########################################
 
 sub usage {
-    print '$Revision: 1.3 $$Date: 2007-02-19 02:04:33 $$Author: boumenot $ ', "\n";
+    print '$Revision: 1.4 $$Date: 2007-11-11 20:26:22 $$Author: boumenot $ ', "\n";
     pod2usage(-verbose=>2, -exitval => 2);
     exit (1);
 }
 
 sub version {
-    print '$Revision: 1.3 $$Date: 2007-02-19 02:04:33 $$Author: boumenot $ ', "\n";
+    print '$Revision: 1.4 $$Date: 2007-11-11 20:26:22 $$Author: boumenot $ ', "\n";
     exit (1);
 }
 
@@ -281,7 +188,6 @@ sub dump_library {
 
     $fouth->close();
 }
-
 
 
 ##################################################

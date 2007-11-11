@@ -14,7 +14,6 @@ sub new {
         %options,
     };
 
-    push @{$self->{_options}}, 'All';
     push @{$self->{_options}}, 'Apparel';
     push @{$self->{_options}}, 'Automotive';
     push @{$self->{_options}}, 'Baby';
@@ -26,7 +25,6 @@ sub new {
     push @{$self->{_options}}, 'DigitalMusic';
     push @{$self->{_options}}, 'Electronics';
     push @{$self->{_options}}, 'GourmetFood';
-    push @{$self->{_options}}, 'Grocery';
     push @{$self->{_options}}, 'HealthPersonalCare';
     push @{$self->{_options}}, 'HomeGarden';
     push @{$self->{_options}}, 'Industrial';
@@ -43,11 +41,12 @@ sub new {
     push @{$self->{_options}}, 'PCHardware';
     push @{$self->{_options}}, 'PetSupplies';
     push @{$self->{_options}}, 'Photo';
-    push @{$self->{_options}}, 'Restaurants';
+    push @{$self->{_options}}, 'SilverMerchants';
     push @{$self->{_options}}, 'Software';
     push @{$self->{_options}}, 'SportingGoods';
     push @{$self->{_options}}, 'Tools';
     push @{$self->{_options}}, 'Toys';
+    push @{$self->{_options}}, 'UnboxVideo';
     push @{$self->{_options}}, 'VHS';
     push @{$self->{_options}}, 'Video';
     push @{$self->{_options}}, 'VideoGames';
@@ -92,7 +91,6 @@ The default value is Books, unless mode is specified.
 
 The list of available values are:
 
-    All
     Apparel
     Automotive
     Baby
@@ -104,7 +102,6 @@ The list of available values are:
     DigitalMusic
     Electronics
     GourmetFood
-    Grocery
     HealthPersonalCare
     HomeGarden
     Industrial
@@ -121,11 +118,12 @@ The list of available values are:
     PCHardware
     PetSupplies
     Photo
-    Restaurants
+    SilverMerchants
     Software
     SportingGoods
     Tools
     Toys
+    UnboxVideo
     VHS
     Video
     VideoGames

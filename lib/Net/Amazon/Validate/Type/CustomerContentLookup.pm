@@ -8,14 +8,16 @@ use strict;
 use warnings;
 
 use constant RESPONSEGROUP_VALID_VALUES => {
-    'CustomerFull' => 'valid',
-    'CustomerInfo' => 'default',
-    'CustomerLists' => 'valid',
-    'CustomerReviews' => 'valid',
-    'Request' => 'default',
+    'CustomerFull' => 1,
+    'CustomerInfo' => 1,
+    'CustomerLists' => 1,
+    'CustomerReviews' => 1,
+    'TaggedGuides' => 1,
+    'TaggedItems' => 1,
+    'TaggedListmaniaLists' => 1,
+    'Tags' => 1,
+    'TagsSummary' => 1,
 };
-
-
 
 sub new {
     my ($class , %options) = @_;
@@ -43,7 +45,5 @@ sub ResponseGroup {
     my ($self, $value) = @_;
     $self->validate($value, "ResponseGroup", (RESPONSEGROUP_VALID_VALUES));
 }
-
-
 
 1;

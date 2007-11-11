@@ -48,8 +48,9 @@ ok($resp->is_success(), "Successful browse node fetch");
 like($resp->as_string(), qr/1571691014/, "Found Cgi Programming Interactive");
 like($resp->as_string(), qr/1562439588/, "Found Mastering Cgi/Perl");
 like($resp->as_string(), qr/1585770671/, "Found: Developing CGI scripts");
-is(($resp->properties())[0]->TotalOffers(), 0, "Checking total offers");
+is(($resp->properties())[0]->TotalOffers(), 1, "Checking total offers");
 my $nodes = join('&', ($resp->properties())[0]->browse_nodes());
-is($nodes, "CGI Programming&Languages & Tools&Programming&Computers & Internet&Subjects&Books&Perl&Web Programming&Programming&Computers & Internet&Subjects&Books&General&Computers & Internet&Subjects&Books");
+is($nodes, "CGI Programming&Languages & Tools&Programming&Computers & Internet&Subjects&Books&General&Languages & Tools&Programming&Computers & Internet&Subjects&Books");
+
 
 __END__

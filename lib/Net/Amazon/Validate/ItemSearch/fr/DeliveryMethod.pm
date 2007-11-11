@@ -10,20 +10,11 @@ use warnings;
 sub new {
     my ($class , %options) = @_;
     my $self = {
-        '_default' => 'Books',
+        '_default' => 'Kitchen',
         %options,
     };
 
-    push @{$self->{_options}}, 'Books';
-    push @{$self->{_options}}, 'Classical';
-    push @{$self->{_options}}, 'DVD';
-    push @{$self->{_options}}, 'ForeignBooks';
-    push @{$self->{_options}}, 'Music';
-    push @{$self->{_options}}, 'MusicTracks';
-    push @{$self->{_options}}, 'Software';
-    push @{$self->{_options}}, 'SoftwareVideoGames';
-    push @{$self->{_options}}, 'VHS';
-    push @{$self->{_options}}, 'VideoGames';
+    push @{$self->{_options}}, 'Kitchen';
 
     bless $self, $class;
 }
@@ -59,19 +50,10 @@ Net::Amazon::Validate::ItemSearch::fr::DeliveryMethod;
 
 =head1 DESCRIPTION
 
-The default value is Books, unless mode is specified.
+The default value is Kitchen, unless mode is specified.
 
 The list of available values are:
 
-    Books
-    Classical
-    DVD
-    ForeignBooks
-    Music
-    MusicTracks
-    Software
-    SoftwareVideoGames
-    VHS
-    VideoGames
+    Kitchen
 
 =cut

@@ -17,6 +17,7 @@ sub new {
     push @{$self->{_options}}, 'Classical';
     push @{$self->{_options}}, 'Merchants';
     push @{$self->{_options}}, 'Music';
+    push @{$self->{_options}}, 'SilverMerchants';
 
     bless $self, $class;
 }
@@ -59,5 +60,6 @@ The list of available values are:
     Classical
     Merchants
     Music
+    SilverMerchants
 
 =cut

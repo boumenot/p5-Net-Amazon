@@ -19,6 +19,8 @@ sub new {
     push @{$self->{_options}}, 'DigitalMusic';
     push @{$self->{_options}}, 'Magazines';
     push @{$self->{_options}}, 'Merchants';
+    push @{$self->{_options}}, 'SilverMerchants';
+    push @{$self->{_options}}, 'UnboxVideo';
     push @{$self->{_options}}, 'VHS';
     push @{$self->{_options}}, 'Video';
 
@@ -65,6 +67,8 @@ The list of available values are:
     DigitalMusic
     Magazines
     Merchants
+    SilverMerchants
+    UnboxVideo
     VHS
     Video
 

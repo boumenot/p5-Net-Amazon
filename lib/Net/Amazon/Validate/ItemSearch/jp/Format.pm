@@ -1,7 +1,7 @@
 # -*- perl -*-
 # !!! DO NOT EDIT !!!
 # This file was automatically generated.
-package Net::Amazon::Validate::ItemSearch::us::Cuisine;
+package Net::Amazon::Validate::ItemSearch::jp::Format;
 
 use 5.006;
 use strict;
@@ -10,12 +10,16 @@ use warnings;
 sub new {
     my ($class , %options) = @_;
     my $self = {
-        '_default' => 'Merchants',
+        '_default' => 'Music',
         %options,
     };
 
-    push @{$self->{_options}}, 'Merchants';
-    push @{$self->{_options}}, 'Restaurants';
+    push @{$self->{_options}}, 'Apparel';
+    push @{$self->{_options}}, 'Classical';
+    push @{$self->{_options}}, 'DVD';
+    push @{$self->{_options}}, 'Music';
+    push @{$self->{_options}}, 'VHS';
+    push @{$self->{_options}}, 'Video';
 
     bless $self, $class;
 }
@@ -38,7 +42,7 @@ sub find_match {
     for (@{$self->{_options}}) {
         return $_ if lc($_) eq lc($value);
     }
-    die "$value is not a valid value for us::Cuisine!\n";
+    die "$value is not a valid value for jp::Format!\n";
 }
 
 1;
@@ -47,15 +51,19 @@ __END__
 
 =head1 NAME
 
-Net::Amazon::Validate::ItemSearch::us::Cuisine;
+Net::Amazon::Validate::ItemSearch::jp::Format;
 
 =head1 DESCRIPTION
 
-The default value is Merchants, unless mode is specified.
+The default value is Music, unless mode is specified.
 
 The list of available values are:
 
-    Merchants
-    Restaurants
+    Apparel
+    Classical
+    DVD
+    Music
+    VHS
+    Video
 
 =cut

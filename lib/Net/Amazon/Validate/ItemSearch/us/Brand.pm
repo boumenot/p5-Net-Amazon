@@ -30,6 +30,7 @@ sub new {
     push @{$self->{_options}}, 'PCHardware';
     push @{$self->{_options}}, 'PetSupplies';
     push @{$self->{_options}}, 'Photo';
+    push @{$self->{_options}}, 'SilverMerchants';
     push @{$self->{_options}}, 'Software';
     push @{$self->{_options}}, 'SportingGoods';
     push @{$self->{_options}}, 'Tools';
@@ -89,6 +90,7 @@ The list of available values are:
     PCHardware
     PetSupplies
     Photo
+    SilverMerchants
     Software
     SportingGoods
     Tools

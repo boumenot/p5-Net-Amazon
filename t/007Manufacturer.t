@@ -44,7 +44,7 @@ ok($resp->is_success(), "Successful fetch");
 ######################################################################
 # Parameters
 ######################################################################
-my $p = ($resp->properties)[0];
+my $p = ($resp->properties)[-1];
 like($p->manufacturer(), qr/Disney/, "Manufacturer is Disney");
 
 ######################################################################

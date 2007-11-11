@@ -37,7 +37,7 @@ my $resp = $ua->request($req);
 
 ok($resp->is_success(), "Request successful");
 my @properties = $resp->properties();
-is(scalar @properties, 2, "2 books");
+is(scalar @properties, 4, "4 books");
 
 like($resp->as_string(), qr/JumpStart Guide.*?Management/s, "Examine Books");
  
@@ -49,13 +49,13 @@ is($properties[0]->publisher, "Addison-Wesley Professional", "Check publisher");
 is($properties[0]->isbn, "0201360683", "Check isbn");
 is($properties[0]->ASIN, "0201360683", "Check ASIN");
 is($properties[0]->Asin, "0201360683", "Check Asin");
-is($properties[0]->edition, "Bk&CD Rom", "Check edition");
+is($properties[0]->edition, "Pap/Cdr", "Check edition");
 is($properties[0]->ean, "9780201360684", "Check ean");
 is($properties[0]->year, "1998", "Check year");
 is($properties[0]->Catalog, "Book", "Check Catalog");
-is($properties[0]->SmallImageUrl, "http://images.amazon.com/images/P/0201360683.01._SCTHUMBZZZ_.jpg", "Checking small image URL");
-is($properties[0]->ImageUrlSmall, "http://images.amazon.com/images/P/0201360683.01._SCTHUMBZZZ_.jpg", "Checking small image URL");
-is($properties[0]->MediumImageUrl, "http://images.amazon.com/images/P/0201360683.01._SCMZZZZZZZ_.jpg", "Checking Medium image URL");
-is($properties[0]->ImageUrlMedium, "http://images.amazon.com/images/P/0201360683.01._SCMZZZZZZZ_.jpg", "Checking Medium image URL");
-is($properties[0]->LargeImageUrl, "http://images.amazon.com/images/P/0201360683.01._SCLZZZZZZZ_.jpg", "Checking Large image URL");
-is($properties[0]->ImageUrlLarge, "http://images.amazon.com/images/P/0201360683.01._SCLZZZZZZZ_.jpg", "Checking Large image URL");
+is($properties[0]->SmallImageUrl,  "http://ecx.images-amazon.com/images/I/01XB0VVS3VL.jpg", "Checking small image URL");
+is($properties[0]->ImageUrlSmall,  "http://ecx.images-amazon.com/images/I/01XB0VVS3VL.jpg", "Checking small image URL");
+is($properties[0]->MediumImageUrl, "http://ecx.images-amazon.com/images/I/215WCKSNX7L.jpg", "Checking Medium image URL");
+is($properties[0]->ImageUrlMedium, "http://ecx.images-amazon.com/images/I/215WCKSNX7L.jpg", "Checking Medium image URL");
+is($properties[0]->LargeImageUrl,  "http://ecx.images-amazon.com/images/I/516Y2ENTVFL.jpg", "Checking Large image URL");
+is($properties[0]->ImageUrlLarge,  "http://ecx.images-amazon.com/images/I/516Y2ENTVFL.jpg", "Checking Large image URL");

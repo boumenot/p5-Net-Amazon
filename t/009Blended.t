@@ -66,7 +66,7 @@ foreach (@properties) {
     $result .= $_->as_string();
 }
 
-like($result, qr/Wall.*?Beethoven/, "multiple product lines");
+like($result, qr/JavaScript.*?Curriculum/, "multiple product lines");
 #print $result;
 
 ######################################################################

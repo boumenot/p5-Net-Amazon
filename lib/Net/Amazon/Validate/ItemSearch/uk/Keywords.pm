@@ -14,6 +14,8 @@ sub new {
         %options,
     };
 
+    push @{$self->{_options}}, 'Apparel';
+    push @{$self->{_options}}, 'Baby';
     push @{$self->{_options}}, 'Blended';
     push @{$self->{_options}}, 'Books';
     push @{$self->{_options}}, 'Classical';
@@ -31,6 +33,7 @@ sub new {
     push @{$self->{_options}}, 'VHS';
     push @{$self->{_options}}, 'Video';
     push @{$self->{_options}}, 'VideoGames';
+    push @{$self->{_options}}, 'Watches';
 
     bless $self, $class;
 }
@@ -70,6 +73,8 @@ The default value is Books, unless mode is specified.
 
 The list of available values are:
 
+    Apparel
+    Baby
     Blended
     Books
     Classical
@@ -87,5 +92,6 @@ The list of available values are:
     VHS
     Video
     VideoGames
+    Watches
 
 =cut

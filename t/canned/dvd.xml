@@ -1,56 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ItemLookupResponse xmlns="http://webservices.amazon.com/AWSECommerceService/2006-06-28">
+<ItemLookupResponse xmlns="http://webservices.amazon.com/AWSECommerceService/2007-10-29">
   <Items>
     <Item>
       <ASIN>6305181772</ASIN>
-      <DetailPageURL>http://www.amazon.com/exec/obidos/redirect?tag=ws%26link_code=xm2%26camp=2025%26creative=165953%26path=http://www.amazon.com/gp/redirect.html%253fASIN=6305181772%2526tag=ws%2526lcode=xm2%2526cID=2025%2526ccmID=165953%2526location=/o/ASIN/6305181772%25253FSubscriptionId=YOUR_AMAZON_TOKEN</DetailPageURL>
-      <SalesRank>25629</SalesRank>
-      <SmallImage>
-        <URL>http://images.amazon.com/images/P/6305181772.01._SCTHUMBZZZ_.jpg</URL>
-        <Height Units="pixels">60</Height>
-        <Width Units="pixels">43</Width>
-      </SmallImage>
-      <MediumImage>
-        <URL>http://images.amazon.com/images/P/6305181772.01._SCMZZZZZZZ_.jpg</URL>
-        <Height Units="pixels">140</Height>
-        <Width Units="pixels">100</Width>
-      </MediumImage>
-      <LargeImage>
-        <URL>http://images.amazon.com/images/P/6305181772.01._SCLZZZZZZZ_.jpg</URL>
-        <Height Units="pixels">475</Height>
-        <Width Units="pixels">339</Width>
-      </LargeImage>
+      <DetailPageURL>http://www.amazon.com/gp/redirect.html%3FASIN=6305181772%26tag=ws%26lcode=xm2%26cID=2025%26ccmID=165953%26location=/o/ASIN/6305181772%253FSubscriptionId=1VAESZQN1G7SXNRG4882</DetailPageURL>
+      <SalesRank>12338</SalesRank>
       <ItemAttributes>
         <Actor>Tom Cruise</Actor>
         <Actor>Jon Voight</Actor>
         <Actor>Emmanuelle Béart</Actor>
         <Actor>Henry Czerny</Actor>
         <Actor>Jean Reno</Actor>
-        <Actor>Ving Rhames</Actor>
-        <Actor>Kristin Scott Thomas</Actor>
-        <Actor>Vanessa Redgrave</Actor>
-        <Actor>Dale Dye</Actor>
-        <Actor>Marcel Iures</Actor>
-        <Actor>Ion Caramitru</Actor>
-        <Actor>Ingeborga Dapkunaite</Actor>
-        <Actor>Valentina Yakunina</Actor>
-        <Actor>Marek Vasut</Actor>
-        <Actor>Nathan Osgood</Actor>
-        <Actor>John McLaughlin</Actor>
-        <Actor>Rolf Saxon</Actor>
-        <Actor>Karel Dobry</Actor>
-        <Actor>Andreas Wisniewski</Actor>
-        <Actor>David Shaeffer</Actor>
         <AspectRatio>2.35:1</AspectRatio>
         <AudienceRating>PG-13 (Parental Guidance Suggested)</AudienceRating>
         <Binding>DVD</Binding>
         <Director>Brian De Palma</Director>
         <DVDLayers>2</DVDLayers>
         <DVDSides>1</DVDSides>
-        <EAN>0097361549729</EAN>
+        <EAN>9786305181774</EAN>
         <Format>AC-3</Format>
         <Format>Closed-captioned</Format>
         <Format>Color</Format>
+        <Format>DVD-Video</Format>
         <Format>Full Screen</Format>
         <Format>Letterboxed</Format>
         <Format>Widescreen</Format>
@@ -80,49 +51,41 @@
         </ListPrice>
         <Manufacturer>Paramount</Manufacturer>
         <NumberOfItems>1</NumberOfItems>
-        <PackageDimensions>
-          <Height Units="hundredths-inches">60</Height>
-          <Length Units="hundredths-inches">750</Length>
-          <Weight Units="hundredths-pounds">25</Weight>
-          <Width Units="hundredths-inches">510</Width>
-        </PackageDimensions>
+        <OriginalReleaseDate>1996-05-22</OriginalReleaseDate>
         <PictureFormat>Letterbox</PictureFormat>
         <PictureFormat>Pan &amp; Scan</PictureFormat>
         <ProductGroup>DVD</ProductGroup>
+        <ProductTypeName>ABIS_DVD</ProductTypeName>
         <Publisher>Paramount</Publisher>
         <RegionCode>1</RegionCode>
         <ReleaseDate>1998-11-17</ReleaseDate>
         <RunningTime Units="minutes">110</RunningTime>
         <Studio>Paramount</Studio>
         <TheatricalReleaseDate>1996-05-22</TheatricalReleaseDate>
-        <Title>Mission Impossible</Title>
-        <UPC>097361549729</UPC>
+        <Title>Mission Impossible (Widescreen Edition)</Title>
+        <UPC>097361549774</UPC>
       </ItemAttributes>
       <OfferSummary>
         <LowestNewPrice>
-          <Amount>797</Amount>
+          <Amount>495</Amount>
           <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$7.97</FormattedPrice>
+          <FormattedPrice>$4.95</FormattedPrice>
         </LowestNewPrice>
         <LowestUsedPrice>
-          <Amount>628</Amount>
+          <Amount>333</Amount>
           <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$6.28</FormattedPrice>
+          <FormattedPrice>$3.33</FormattedPrice>
         </LowestUsedPrice>
         <LowestCollectiblePrice>
-          <Amount>1482</Amount>
+          <Amount>1498</Amount>
           <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$14.82</FormattedPrice>
+          <FormattedPrice>$14.98</FormattedPrice>
         </LowestCollectiblePrice>
-        <TotalNew>10</TotalNew>
-        <TotalUsed>23</TotalUsed>
+        <TotalNew>8</TotalNew>
+        <TotalUsed>44</TotalUsed>
         <TotalCollectible>4</TotalCollectible>
         <TotalRefurbished>0</TotalRefurbished>
       </OfferSummary>
-      <Offers>
-        <TotalOffers>0</TotalOffers>
-        <TotalOfferPages>0</TotalOfferPages>
-      </Offers>
     </Item>
   </Items>
 </ItemLookupResponse>

@@ -8,12 +8,9 @@ use strict;
 use warnings;
 
 use constant RESPONSEGROUP_VALID_VALUES => {
-    'ListInfo' => 'default',
-    'ListMinimum' => 'valid',
-    'Request' => 'default',
+    'ListInfo' => 1,
+    'ListMinimum' => 1,
 };
-
-
 
 sub new {
     my ($class , %options) = @_;
@@ -41,7 +38,5 @@ sub ResponseGroup {
     my ($self, $value) = @_;
     $self->validate($value, "ResponseGroup", (RESPONSEGROUP_VALID_VALUES));
 }
-
-
 
 1;

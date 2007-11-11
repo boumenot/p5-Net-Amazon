@@ -18,6 +18,7 @@ sub new {
     push @{$self->{_options}}, 'DVD';
     push @{$self->{_options}}, 'ForeignBooks';
     push @{$self->{_options}}, 'VHS';
+    push @{$self->{_options}}, 'Video';
 
     bless $self, $class;
 }
@@ -61,5 +62,6 @@ The list of available values are:
     DVD
     ForeignBooks
     VHS
+    Video
 
 =cut

@@ -10,10 +10,11 @@ use warnings;
 sub new {
     my ($class , %options) = @_;
     my $self = {
-        '_default' => 'VideoGames',
+        '_default' => 'Kitchen',
         %options,
     };
 
+    push @{$self->{_options}}, 'Kitchen';
     push @{$self->{_options}}, 'VideoGames';
 
     bless $self, $class;
@@ -50,10 +51,11 @@ Net::Amazon::Validate::ItemSearch::fr::Brand;
 
 =head1 DESCRIPTION
 
-The default value is VideoGames, unless mode is specified.
+The default value is Kitchen, unless mode is specified.
 
 The list of available values are:
 
+    Kitchen
     VideoGames
 
 =cut

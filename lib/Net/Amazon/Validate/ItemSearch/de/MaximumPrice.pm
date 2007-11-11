@@ -14,16 +14,13 @@ sub new {
         %options,
     };
 
+    push @{$self->{_options}}, 'Baby';
     push @{$self->{_options}}, 'Books';
-    push @{$self->{_options}}, 'Classical';
-    push @{$self->{_options}}, 'DVD';
     push @{$self->{_options}}, 'Electronics';
     push @{$self->{_options}}, 'ForeignBooks';
     push @{$self->{_options}}, 'HealthPersonalCare';
     push @{$self->{_options}}, 'HomeGarden';
-    push @{$self->{_options}}, 'Kitchen';
     push @{$self->{_options}}, 'Magazines';
-    push @{$self->{_options}}, 'Music';
     push @{$self->{_options}}, 'MusicTracks';
     push @{$self->{_options}}, 'OutdoorLiving';
     push @{$self->{_options}}, 'PCHardware';
@@ -32,8 +29,6 @@ sub new {
     push @{$self->{_options}}, 'SoftwareVideoGames';
     push @{$self->{_options}}, 'SportingGoods';
     push @{$self->{_options}}, 'Tools';
-    push @{$self->{_options}}, 'VHS';
-    push @{$self->{_options}}, 'Video';
     push @{$self->{_options}}, 'VideoGames';
 
     bless $self, $class;
@@ -74,16 +69,13 @@ The default value is Books, unless mode is specified.
 
 The list of available values are:
 
+    Baby
     Books
-    Classical
-    DVD
     Electronics
     ForeignBooks
     HealthPersonalCare
     HomeGarden
-    Kitchen
     Magazines
-    Music
     MusicTracks
     OutdoorLiving
     PCHardware
@@ -92,8 +84,6 @@ The list of available values are:
     SoftwareVideoGames
     SportingGoods
     Tools
-    VHS
-    Video
     VideoGames
 
 =cut
