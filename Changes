@@ -1,5 +1,9 @@
 Revision history for Perl extension Net::Amazon:
 
+0.46 (11/16/2007)
+   (cb) Serge Dubrouski <sergeyfd@gmail.com> submitted a patch for returning
+        the width and height of the small, medium, and large images.
+
 0.45 (11/11/2007)
    (cb) Gregor Hermann <gregor+debian@comodo.priv.at> submitted a patch to
         prevent canned tests from contacting the Amazon.com.

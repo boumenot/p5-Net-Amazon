@@ -4,7 +4,7 @@
 use warnings;
 use strict;
 
-use Test::More tests => 22;
+use Test::More tests => 28;
 BEGIN { use_ok('Net::Amazon') };
 
 #use Log::Log4perl qw(:easy);
@@ -59,3 +59,9 @@ is($properties[0]->MediumImageUrl, "http://ecx.images-amazon.com/images/I/215WCK
 is($properties[0]->ImageUrlMedium, "http://ecx.images-amazon.com/images/I/215WCKSNX7L.jpg", "Checking Medium image URL");
 is($properties[0]->LargeImageUrl,  "http://ecx.images-amazon.com/images/I/516Y2ENTVFL.jpg", "Checking Large image URL");
 is($properties[0]->ImageUrlLarge,  "http://ecx.images-amazon.com/images/I/516Y2ENTVFL.jpg", "Checking Large image URL");
+is($properties[0]->SmallImageWidth, '44', "Check small image width");
+is($properties[0]->SmallImageHeight, '60', "Check small image height");
+is($properties[0]->MediumImageWidth, '102', "Check medium image width");
+is($properties[0]->MediumImageHeight, '140', "Check medium image height");
+is($properties[0]->LargeImageWidth, '345', "Check large image width");
+is($properties[0]->LargeImageHeight, '475', "Check large image height");

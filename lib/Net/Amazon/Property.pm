@@ -27,13 +27,19 @@ our %DEFAULT_ATTRIBUTES_XPATH = (
     CollectiblePrice => [qw(OfferSummary LowestCollectiblePrice FormattedPrice)],
     ImageUrlLarge => [qw(LargeImage URL)],
     LargeImageUrl => [qw(LargeImage URL)],
+    LargeImageWidth => [qw(LargeImage Width content)],
+    LargeImageHeight => [qw(LargeImage Height content)],
     ListPrice => [qw(ItemAttributes ListPrice FormattedPrice)],
     Manufacturer => [qw(ItemAttributes Manufacturer)],
     MediumImageUrl => [qw(MediumImage URL)],
     ImageUrlMedium => [qw(MediumImage URL)],
+    MediumImageWidth => [qw(MediumImage Width content)],
+    MediumImageHeight => [qw(MediumImage Height content)],
     OurPrice => [qw(ItemAttributes ListPrice FormattedPrice)],
     ImageUrlSmall => [qw(SmallImage URL)],
     SmallImageUrl => [qw(SmallImage URL)],
+    SmallImageWidth => [qw(SmallImage Width content)],
+    SmallImageHeight => [qw(SmallImage Height content)],
     SuperSaverShipping => [qw(Offers Offer OfferListing IsEligibleForSuperSaverShipping)],
     Title => [qw(Title)],
     ThirdPartyNewCount => [qw(OfferSummary TotalNew)],
@@ -361,6 +367,30 @@ Lowest price in "Third Party New" category.
 =item ThirdPartyNewCount()
 
 Number of offerings in "Third Party New" category.
+
+=item SmallImageWidth()
+
+Return the width of the small image in pixels.
+
+=item SmallImageHeight()
+
+Return the height of the small image in pixels.
+
+=item MediumImageWidth()
+
+Return the width of the medium image in pixels.
+
+=item MediumImageHeight()
+
+Return the height of the medium image in pixels.
+
+=item LargeImageWidth()
+
+Return the width of the large image in pixels.
+
+=item LargeImageHeight()
+
+Return the height of the large image in pixels.
 
 =item SuperSaverShipping()
 
