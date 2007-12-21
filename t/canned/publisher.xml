@@ -4,9 +4,143 @@
     <TotalResults>22</TotalResults>
     <TotalPages>3</TotalPages>
     <Item>
+      <ASIN>0897500423</ASIN>
+      <DetailPageURL>http://www.amazon.com/gp/redirect.html%3FASIN=0897500423%26tag=ws%26lcode=xm2%26cID=2025%26ccmID=165953%26location=/o/ASIN/0897500423%253FSubscriptionId=1VAESZQN1G7SXNRG4882</DetailPageURL>
+      <SalesRank>936472</SalesRank>
+      <ItemAttributes>
+        <Author>Kam Yuen</Author>
+        <Binding>Paperback</Binding>
+        <Brand>Black Belt Communications, Inc.</Brand>
+        <EAN>9780897500425</EAN>
+        <ISBN>0897500423</ISBN>
+        <Label>Black Belt Communications Inc</Label>
+        <ListPrice>
+          <Amount>1095</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$10.95</FormattedPrice>
+        </ListPrice>
+        <Manufacturer>Black Belt Communications Inc</Manufacturer>
+        <ProductGroup>Book</ProductGroup>
+        <ProductTypeName>ABIS_BOOK</ProductTypeName>
+        <PublicationDate>1975-06</PublicationDate>
+        <Publisher>Black Belt Communications Inc</Publisher>
+        <Studio>Black Belt Communications Inc</Studio>
+        <Title>Beginning Kung-Fu</Title>
+      </ItemAttributes>
+      <OfferSummary>
+        <LowestUsedPrice>
+          <Amount>475</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$4.75</FormattedPrice>
+        </LowestUsedPrice>
+        <TotalNew>0</TotalNew>
+        <TotalUsed>15</TotalUsed>
+        <TotalCollectible>0</TotalCollectible>
+        <TotalRefurbished>0</TotalRefurbished>
+      </OfferSummary>
+      <Offers>
+        <TotalOffers>0</TotalOffers>
+        <TotalOfferPages>0</TotalOfferPages>
+      </Offers>
+    </Item>
+    <Item>
+      <ASIN>0897500326</ASIN>
+      <DetailPageURL>http://www.amazon.com/gp/redirect.html%3FASIN=0897500326%26tag=ws%26lcode=xm2%26cID=2025%26ccmID=165953%26location=/o/ASIN/0897500326%253FSubscriptionId=1VAESZQN1G7SXNRG4882</DetailPageURL>
+      <SalesRank>656609</SalesRank>
+      <ItemAttributes>
+        <Author>Leo T. Fong</Author>
+        <Binding>Paperback</Binding>
+        <Brand>Black Belt Communications, Inc.</Brand>
+        <DeweyDecimalNumber>796.8159</DeweyDecimalNumber>
+        <EAN>9780897500326</EAN>
+        <ISBN>0897500326</ISBN>
+        <Label>Black Belt Communications Inc</Label>
+        <ListPrice>
+          <Amount>895</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$8.95</FormattedPrice>
+        </ListPrice>
+        <Manufacturer>Black Belt Communications Inc</Manufacturer>
+        <ProductGroup>Book</ProductGroup>
+        <ProductTypeName>ABIS_BOOK</ProductTypeName>
+        <PublicationDate>1971-06</PublicationDate>
+        <Publisher>Black Belt Communications Inc</Publisher>
+        <Studio>Black Belt Communications Inc</Studio>
+        <Title>Sil Lum Kung Fu: The Chinese Art of Self Defense</Title>
+      </ItemAttributes>
+      <OfferSummary>
+        <LowestUsedPrice>
+          <Amount>251</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$2.51</FormattedPrice>
+        </LowestUsedPrice>
+        <LowestCollectiblePrice>
+          <Amount>1800</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$18.00</FormattedPrice>
+        </LowestCollectiblePrice>
+        <TotalNew>0</TotalNew>
+        <TotalUsed>6</TotalUsed>
+        <TotalCollectible>2</TotalCollectible>
+        <TotalRefurbished>0</TotalRefurbished>
+      </OfferSummary>
+      <Offers>
+        <TotalOffers>0</TotalOffers>
+        <TotalOfferPages>0</TotalOfferPages>
+      </Offers>
+    </Item>
+    <Item>
+      <ASIN>0897501144</ASIN>
+      <DetailPageURL>http://www.amazon.com/gp/redirect.html%3FASIN=0897501144%26tag=ws%26lcode=xm2%26cID=2025%26ccmID=165953%26location=/o/ASIN/0897501144%253FSubscriptionId=1VAESZQN1G7SXNRG4882</DetailPageURL>
+      <SalesRank>1331313</SalesRank>
+      <ItemAttributes>
+        <Author>Tadashi Yamashita</Author>
+        <Binding>Paperback</Binding>
+        <Brand>Black Belt Communications, Inc.</Brand>
+        <DeweyDecimalNumber>796.8</DeweyDecimalNumber>
+        <EAN>9780897501149</EAN>
+        <ISBN>0897501144</ISBN>
+        <Label>Black Belt Communications Inc</Label>
+        <ListPrice>
+          <Amount>895</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$8.95</FormattedPrice>
+        </ListPrice>
+        <Manufacturer>Black Belt Communications Inc</Manufacturer>
+        <NumberOfItems>1</NumberOfItems>
+        <NumberOfPages>190</NumberOfPages>
+        <ProductGroup>Book</ProductGroup>
+        <ProductTypeName>ABIS_BOOK</ProductTypeName>
+        <PublicationDate>1987-06</PublicationDate>
+        <Publisher>Black Belt Communications Inc</Publisher>
+        <Studio>Black Belt Communications Inc</Studio>
+        <Title>Martial Arts: Weapons Demonstrations (Literary links to the Orient)</Title>
+      </ItemAttributes>
+      <OfferSummary>
+        <LowestNewPrice>
+          <Amount>2995</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$29.95</FormattedPrice>
+        </LowestNewPrice>
+        <LowestUsedPrice>
+          <Amount>2400</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$24.00</FormattedPrice>
+        </LowestUsedPrice>
+        <TotalNew>1</TotalNew>
+        <TotalUsed>1</TotalUsed>
+        <TotalCollectible>0</TotalCollectible>
+        <TotalRefurbished>0</TotalRefurbished>
+      </OfferSummary>
+      <Offers>
+        <TotalOffers>0</TotalOffers>
+        <TotalOfferPages>0</TotalOfferPages>
+      </Offers>
+    </Item>
+    <Item>
       <ASIN>0897500644</ASIN>
       <DetailPageURL>http://www.amazon.com/gp/redirect.html%3FASIN=0897500644%26tag=ws%26lcode=xm2%26cID=2025%26ccmID=165953%26location=/o/ASIN/0897500644%253FSubscriptionId=1VAESZQN1G7SXNRG4882</DetailPageURL>
-      <SalesRank>403835</SalesRank>
+      <SalesRank>1258723</SalesRank>
       <ItemAttributes>
         <Author>Kam Yuen</Author>
         <Binding>Paperback</Binding>
@@ -45,60 +179,61 @@
           <CurrencyCode>USD</CurrencyCode>
           <FormattedPrice>$29.99</FormattedPrice>
         </LowestCollectiblePrice>
-        <TotalNew>1</TotalNew>
-        <TotalUsed>11</TotalUsed>
+        <TotalNew>2</TotalNew>
+        <TotalUsed>12</TotalUsed>
         <TotalCollectible>1</TotalCollectible>
         <TotalRefurbished>0</TotalRefurbished>
       </OfferSummary>
+      <Offers>
+        <TotalOffers>0</TotalOffers>
+        <TotalOfferPages>0</TotalOfferPages>
+      </Offers>
     </Item>
     <Item>
-      <ASIN>0897501144</ASIN>
-      <DetailPageURL>http://www.amazon.com/gp/redirect.html%3FASIN=0897501144%26tag=ws%26lcode=xm2%26cID=2025%26ccmID=165953%26location=/o/ASIN/0897501144%253FSubscriptionId=1VAESZQN1G7SXNRG4882</DetailPageURL>
-      <SalesRank>1402523</SalesRank>
+      <ASIN>0897500911</ASIN>
+      <DetailPageURL>http://www.amazon.com/gp/redirect.html%3FASIN=0897500911%26tag=ws%26lcode=xm2%26cID=2025%26ccmID=165953%26location=/o/ASIN/0897500911%253FSubscriptionId=1VAESZQN1G7SXNRG4882</DetailPageURL>
+      <SalesRank>1673828</SalesRank>
       <ItemAttributes>
-        <Author>Tadashi Yamashita</Author>
+        <Author>Carl Brown</Author>
         <Binding>Paperback</Binding>
-        <Brand>Black Belt Communications, Inc.</Brand>
-        <DeweyDecimalNumber>796.8</DeweyDecimalNumber>
-        <EAN>9780897501149</EAN>
-        <ISBN>0897501144</ISBN>
+        <EAN>9780897500913</EAN>
+        <ISBN>0897500911</ISBN>
         <Label>Black Belt Communications Inc</Label>
         <ListPrice>
-          <Amount>895</Amount>
+          <Amount>795</Amount>
           <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$8.95</FormattedPrice>
+          <FormattedPrice>$7.95</FormattedPrice>
         </ListPrice>
         <Manufacturer>Black Belt Communications Inc</Manufacturer>
         <NumberOfItems>1</NumberOfItems>
-        <NumberOfPages>190</NumberOfPages>
+        <NumberOfPages>96</NumberOfPages>
         <ProductGroup>Book</ProductGroup>
         <ProductTypeName>ABIS_BOOK</ProductTypeName>
-        <PublicationDate>1987-06</PublicationDate>
+        <PublicationDate>1983-08</PublicationDate>
         <Publisher>Black Belt Communications Inc</Publisher>
         <Studio>Black Belt Communications Inc</Studio>
-        <Title>Martial Arts: Weapons Demonstrations (Literary links to the Orient)</Title>
+        <Title>American Law and the Trained Fighter (Literary links to the Orient)</Title>
       </ItemAttributes>
       <OfferSummary>
-        <LowestNewPrice>
-          <Amount>2995</Amount>
-          <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$29.95</FormattedPrice>
-        </LowestNewPrice>
         <LowestUsedPrice>
-          <Amount>1799</Amount>
+          <Amount>200</Amount>
           <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$17.99</FormattedPrice>
+          <FormattedPrice>$2.00</FormattedPrice>
         </LowestUsedPrice>
-        <TotalNew>1</TotalNew>
-        <TotalUsed>1</TotalUsed>
+        <TotalNew>0</TotalNew>
+        <TotalUsed>13</TotalUsed>
         <TotalCollectible>0</TotalCollectible>
         <TotalRefurbished>0</TotalRefurbished>
       </OfferSummary>
+      <Offers>
+        <TotalOffers>0</TotalOffers>
+        <TotalOfferPages>0</TotalOfferPages>
+      </Offers>
     </Item>
     <Item>
       <ASIN>0897500555</ASIN>
       <DetailPageURL>http://www.amazon.com/gp/redirect.html%3FASIN=0897500555%26tag=ws%26lcode=xm2%26cID=2025%26ccmID=165953%26location=/o/ASIN/0897500555%253FSubscriptionId=1VAESZQN1G7SXNRG4882</DetailPageURL>
-      <SalesRank>1807328</SalesRank>
+      <SalesRank>2387853</SalesRank>
       <ItemAttributes>
         <Author>Jon Shirota</Author>
         <Binding>Hardcover</Binding>
@@ -138,49 +273,15 @@
         <TotalCollectible>1</TotalCollectible>
         <TotalRefurbished>0</TotalRefurbished>
       </OfferSummary>
-    </Item>
-    <Item>
-      <ASIN>0897501012</ASIN>
-      <DetailPageURL>http://www.amazon.com/gp/redirect.html%3FASIN=0897501012%26tag=ws%26lcode=xm2%26cID=2025%26ccmID=165953%26location=/o/ASIN/0897501012%253FSubscriptionId=1VAESZQN1G7SXNRG4882</DetailPageURL>
-      <SalesRank>1645328</SalesRank>
-      <ItemAttributes>
-        <Author>Fumio Demura</Author>
-        <Binding>Paperback</Binding>
-        <DeweyDecimalNumber>796.8153</DeweyDecimalNumber>
-        <EAN>9780897501019</EAN>
-        <ISBN>0897501012</ISBN>
-        <Label>Black Belt Communications Inc</Label>
-        <ListPrice>
-          <Amount>895</Amount>
-          <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$8.95</FormattedPrice>
-        </ListPrice>
-        <Manufacturer>Black Belt Communications Inc</Manufacturer>
-        <NumberOfItems>1</NumberOfItems>
-        <NumberOfPages>159</NumberOfPages>
-        <ProductGroup>Book</ProductGroup>
-        <ProductTypeName>ABIS_BOOK</ProductTypeName>
-        <PublicationDate>1984-06</PublicationDate>
-        <Publisher>Black Belt Communications Inc</Publisher>
-        <Studio>Black Belt Communications Inc</Studio>
-        <Title>Kama: Karate Weapon of Self-Defense (Weapons Series)</Title>
-      </ItemAttributes>
-      <OfferSummary>
-        <LowestUsedPrice>
-          <Amount>4690</Amount>
-          <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$46.90</FormattedPrice>
-        </LowestUsedPrice>
-        <TotalNew>0</TotalNew>
-        <TotalUsed>10</TotalUsed>
-        <TotalCollectible>0</TotalCollectible>
-        <TotalRefurbished>0</TotalRefurbished>
-      </OfferSummary>
+      <Offers>
+        <TotalOffers>0</TotalOffers>
+        <TotalOfferPages>0</TotalOfferPages>
+      </Offers>
     </Item>
     <Item>
       <ASIN>0897500830</ASIN>
       <DetailPageURL>http://www.amazon.com/gp/redirect.html%3FASIN=0897500830%26tag=ws%26lcode=xm2%26cID=2025%26ccmID=165953%26location=/o/ASIN/0897500830%253FSubscriptionId=1VAESZQN1G7SXNRG4882</DetailPageURL>
-      <SalesRank>2084449</SalesRank>
+      <SalesRank>2421487</SalesRank>
       <ItemAttributes>
         <Author>Chong Lee</Author>
         <Binding>Paperback</Binding>
@@ -210,145 +311,25 @@
           <FormattedPrice>$2.97</FormattedPrice>
         </LowestUsedPrice>
         <TotalNew>0</TotalNew>
-        <TotalUsed>10</TotalUsed>
+        <TotalUsed>9</TotalUsed>
         <TotalCollectible>0</TotalCollectible>
         <TotalRefurbished>0</TotalRefurbished>
       </OfferSummary>
+      <Offers>
+        <TotalOffers>0</TotalOffers>
+        <TotalOfferPages>0</TotalOfferPages>
+      </Offers>
     </Item>
     <Item>
-      <ASIN>0897500911</ASIN>
-      <DetailPageURL>http://www.amazon.com/gp/redirect.html%3FASIN=0897500911%26tag=ws%26lcode=xm2%26cID=2025%26ccmID=165953%26location=/o/ASIN/0897500911%253FSubscriptionId=1VAESZQN1G7SXNRG4882</DetailPageURL>
-      <SalesRank>1686602</SalesRank>
+      <ASIN>0897501012</ASIN>
+      <DetailPageURL>http://www.amazon.com/gp/redirect.html%3FASIN=0897501012%26tag=ws%26lcode=xm2%26cID=2025%26ccmID=165953%26location=/o/ASIN/0897501012%253FSubscriptionId=1VAESZQN1G7SXNRG4882</DetailPageURL>
+      <SalesRank>1870359</SalesRank>
       <ItemAttributes>
-        <Author>Carl Brown</Author>
-        <Binding>Paperback</Binding>
-        <EAN>9780897500913</EAN>
-        <ISBN>0897500911</ISBN>
-        <Label>Black Belt Communications Inc</Label>
-        <ListPrice>
-          <Amount>795</Amount>
-          <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$7.95</FormattedPrice>
-        </ListPrice>
-        <Manufacturer>Black Belt Communications Inc</Manufacturer>
-        <NumberOfItems>1</NumberOfItems>
-        <NumberOfPages>96</NumberOfPages>
-        <ProductGroup>Book</ProductGroup>
-        <ProductTypeName>ABIS_BOOK</ProductTypeName>
-        <PublicationDate>1983-08</PublicationDate>
-        <Publisher>Black Belt Communications Inc</Publisher>
-        <Studio>Black Belt Communications Inc</Studio>
-        <Title>American Law and the Trained Fighter (Literary links to the Orient)</Title>
-      </ItemAttributes>
-      <OfferSummary>
-        <LowestUsedPrice>
-          <Amount>200</Amount>
-          <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$2.00</FormattedPrice>
-        </LowestUsedPrice>
-        <TotalNew>0</TotalNew>
-        <TotalUsed>13</TotalUsed>
-        <TotalCollectible>0</TotalCollectible>
-        <TotalRefurbished>0</TotalRefurbished>
-      </OfferSummary>
-    </Item>
-    <Item>
-      <ASIN>0897500466</ASIN>
-      <DetailPageURL>http://www.amazon.com/gp/redirect.html%3FASIN=0897500466%26tag=ws%26lcode=xm2%26cID=2025%26ccmID=165953%26location=/o/ASIN/0897500466%253FSubscriptionId=1VAESZQN1G7SXNRG4882</DetailPageURL>
-      <SalesRank>1954243</SalesRank>
-      <ItemAttributes>
-        <Author>George, Jr. Parulski</Author>
-        <Binding>Paperback</Binding>
-        <DeweyDecimalNumber>181</DeweyDecimalNumber>
-        <EAN>9780897500463</EAN>
-        <ISBN>0897500466</ISBN>
-        <Label>Black Belt Communications Inc</Label>
-        <ListPrice>
-          <Amount>1695</Amount>
-          <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$16.95</FormattedPrice>
-        </ListPrice>
-        <Manufacturer>Black Belt Communications Inc</Manufacturer>
-        <NumberOfItems>1</NumberOfItems>
-        <NumberOfPages>192</NumberOfPages>
-        <ProductGroup>Book</ProductGroup>
-        <ProductTypeName>ABIS_BOOK</ProductTypeName>
-        <PublicationDate>1976-06</PublicationDate>
-        <Publisher>Black Belt Communications Inc</Publisher>
-        <Studio>Black Belt Communications Inc</Studio>
-        <Title>Path to Oriental Wisdom: Introductory Studies in Eastern Philosophy (History &amp; Philosophy Series)</Title>
-      </ItemAttributes>
-      <OfferSummary>
-        <LowestNewPrice>
-          <Amount>1699</Amount>
-          <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$16.99</FormattedPrice>
-        </LowestNewPrice>
-        <LowestUsedPrice>
-          <Amount>119</Amount>
-          <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$1.19</FormattedPrice>
-        </LowestUsedPrice>
-        <LowestCollectiblePrice>
-          <Amount>1695</Amount>
-          <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$16.95</FormattedPrice>
-        </LowestCollectiblePrice>
-        <TotalNew>4</TotalNew>
-        <TotalUsed>18</TotalUsed>
-        <TotalCollectible>1</TotalCollectible>
-        <TotalRefurbished>0</TotalRefurbished>
-      </OfferSummary>
-    </Item>
-    <Item>
-      <ASIN>0897500938</ASIN>
-      <DetailPageURL>http://www.amazon.com/gp/redirect.html%3FASIN=0897500938%26tag=ws%26lcode=xm2%26cID=2025%26ccmID=165953%26location=/o/ASIN/0897500938%253FSubscriptionId=1VAESZQN1G7SXNRG4882</DetailPageURL>
-      <SalesRank>2058369</SalesRank>
-      <ItemAttributes>
-        <Author>Leo Fong</Author>
-        <Author>Ron Marchin</Author>
+        <Author>Fumio Demura</Author>
         <Binding>Paperback</Binding>
         <DeweyDecimalNumber>796.8153</DeweyDecimalNumber>
-        <EAN>9780897500937</EAN>
-        <ISBN>0897500938</ISBN>
-        <Label>Black Belt Communications Inc</Label>
-        <ListPrice>
-          <Amount>995</Amount>
-          <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$9.95</FormattedPrice>
-        </ListPrice>
-        <Manufacturer>Black Belt Communications Inc</Manufacturer>
-        <NumberOfPages>191</NumberOfPages>
-        <ProductGroup>Book</ProductGroup>
-        <ProductTypeName>ABIS_BOOK</ProductTypeName>
-        <PublicationDate>1983-08</PublicationDate>
-        <Publisher>Black Belt Communications Inc</Publisher>
-        <Studio>Black Belt Communications Inc</Studio>
-        <Title>Advanced Power Training in Kung Fu and Karate (Literary links to the Orient)</Title>
-      </ItemAttributes>
-      <OfferSummary>
-        <LowestUsedPrice>
-          <Amount>1293</Amount>
-          <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$12.93</FormattedPrice>
-        </LowestUsedPrice>
-        <TotalNew>0</TotalNew>
-        <TotalUsed>6</TotalUsed>
-        <TotalCollectible>0</TotalCollectible>
-        <TotalRefurbished>0</TotalRefurbished>
-      </OfferSummary>
-    </Item>
-    <Item>
-      <ASIN>0897500326</ASIN>
-      <DetailPageURL>http://www.amazon.com/gp/redirect.html%3FASIN=0897500326%26tag=ws%26lcode=xm2%26cID=2025%26ccmID=165953%26location=/o/ASIN/0897500326%253FSubscriptionId=1VAESZQN1G7SXNRG4882</DetailPageURL>
-      <SalesRank>1532762</SalesRank>
-      <ItemAttributes>
-        <Author>Leo T. Fong</Author>
-        <Binding>Paperback</Binding>
-        <Brand>Black Belt Communications, Inc.</Brand>
-        <DeweyDecimalNumber>796.8159</DeweyDecimalNumber>
-        <EAN>9780897500326</EAN>
-        <ISBN>0897500326</ISBN>
+        <EAN>9780897501019</EAN>
+        <ISBN>0897501012</ISBN>
         <Label>Black Belt Communications Inc</Label>
         <ListPrice>
           <Amount>895</Amount>
@@ -356,41 +337,66 @@
           <FormattedPrice>$8.95</FormattedPrice>
         </ListPrice>
         <Manufacturer>Black Belt Communications Inc</Manufacturer>
+        <NumberOfItems>1</NumberOfItems>
+        <NumberOfPages>159</NumberOfPages>
         <ProductGroup>Book</ProductGroup>
         <ProductTypeName>ABIS_BOOK</ProductTypeName>
-        <PublicationDate>1971-06</PublicationDate>
+        <PublicationDate>1984-06</PublicationDate>
         <Publisher>Black Belt Communications Inc</Publisher>
         <Studio>Black Belt Communications Inc</Studio>
-        <Title>Sil Lum Kung Fu: The Chinese Art of Self Defense</Title>
+        <Title>Kama: Karate Weapon of Self-Defense (Weapons Series)</Title>
       </ItemAttributes>
       <OfferSummary>
         <LowestUsedPrice>
-          <Amount>251</Amount>
+          <Amount>4688</Amount>
           <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$2.51</FormattedPrice>
+          <FormattedPrice>$46.88</FormattedPrice>
         </LowestUsedPrice>
-        <LowestCollectiblePrice>
-          <Amount>1800</Amount>
-          <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$18.00</FormattedPrice>
-        </LowestCollectiblePrice>
         <TotalNew>0</TotalNew>
-        <TotalUsed>5</TotalUsed>
-        <TotalCollectible>2</TotalCollectible>
+        <TotalUsed>9</TotalUsed>
+        <TotalCollectible>0</TotalCollectible>
         <TotalRefurbished>0</TotalRefurbished>
       </OfferSummary>
+      <Offers>
+        <TotalOffers>0</TotalOffers>
+        <TotalOfferPages>0</TotalOfferPages>
+      </Offers>
     </Item>
     <Item>
-      <ASIN>0897500350</ASIN>
-      <DetailPageURL>http://www.amazon.com/gp/redirect.html%3FASIN=0897500350%26tag=ws%26lcode=xm2%26cID=2025%26ccmID=165953%26location=/o/ASIN/0897500350%253FSubscriptionId=1VAESZQN1G7SXNRG4882</DetailPageURL>
-      <SalesRank>1541140</SalesRank>
+      <ASIN>B000PSBQGO</ASIN>
+      <DetailPageURL>http://www.amazon.com/gp/redirect.html%3FASIN=B000PSBQGO%26tag=ws%26lcode=xm2%26cID=2025%26ccmID=165953%26location=/o/ASIN/B000PSBQGO%253FSubscriptionId=1VAESZQN1G7SXNRG4882</DetailPageURL>
       <ItemAttributes>
-        <Author>Leo T. Fong</Author>
+        <Author>Fumio Demura</Author>
         <Binding>Paperback</Binding>
-        <Brand>Black Belt Communications, Inc.</Brand>
-        <DeweyDecimalNumber>796.8153</DeweyDecimalNumber>
-        <EAN>9780897500357</EAN>
-        <ISBN>0897500350</ISBN>
+        <Label>Black Belt Communications Inc</Label>
+        <Manufacturer>Black Belt Communications Inc</Manufacturer>
+        <ProductGroup>Book</ProductGroup>
+        <ProductTypeName>BOOKS_1973_AND_LATER</ProductTypeName>
+        <PublicationDate>1979</PublicationDate>
+        <Publisher>Black Belt Communications Inc</Publisher>
+        <Studio>Black Belt Communications Inc</Studio>
+        <Title>Bo Karate: Weapon of Self Defense</Title>
+      </ItemAttributes>
+      <OfferSummary>
+        <TotalNew>0</TotalNew>
+        <TotalUsed>0</TotalUsed>
+        <TotalCollectible>0</TotalCollectible>
+        <TotalRefurbished>0</TotalRefurbished>
+      </OfferSummary>
+      <Offers>
+        <TotalOffers>0</TotalOffers>
+        <TotalOfferPages>0</TotalOfferPages>
+      </Offers>
+    </Item>
+    <Item>
+      <ASIN>0897501306</ASIN>
+      <DetailPageURL>http://www.amazon.com/gp/redirect.html%3FASIN=0897501306%26tag=ws%26lcode=xm2%26cID=2025%26ccmID=165953%26location=/o/ASIN/0897501306%253FSubscriptionId=1VAESZQN1G7SXNRG4882</DetailPageURL>
+      <SalesRank>5649182</SalesRank>
+      <ItemAttributes>
+        <Author>William Cheung</Author>
+        <Binding>Paperback</Binding>
+        <EAN>9780897501309</EAN>
+        <ISBN>0897501306</ISBN>
         <Label>Black Belt Communications Inc</Label>
         <ListPrice>
           <Amount>995</Amount>
@@ -398,29 +404,24 @@
           <FormattedPrice>$9.95</FormattedPrice>
         </ListPrice>
         <Manufacturer>Black Belt Communications Inc</Manufacturer>
+        <NumberOfItems>1</NumberOfItems>
         <ProductGroup>Book</ProductGroup>
         <ProductTypeName>ABIS_BOOK</ProductTypeName>
-        <PublicationDate>1972-06</PublicationDate>
+        <PublicationDate>1990-10</PublicationDate>
         <Publisher>Black Belt Communications Inc</Publisher>
         <Studio>Black Belt Communications Inc</Studio>
-        <Title>Choy Lay Fut Kung-Fu: Chinese Art of Self-Defense</Title>
+        <Title>Wing Chun-Jeet Kune Do: A Comparison</Title>
       </ItemAttributes>
       <OfferSummary>
-        <LowestNewPrice>
-          <Amount>8923</Amount>
-          <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$89.23</FormattedPrice>
-        </LowestNewPrice>
-        <LowestUsedPrice>
-          <Amount>879</Amount>
-          <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$8.79</FormattedPrice>
-        </LowestUsedPrice>
-        <TotalNew>1</TotalNew>
-        <TotalUsed>5</TotalUsed>
+        <TotalNew>0</TotalNew>
+        <TotalUsed>0</TotalUsed>
         <TotalCollectible>0</TotalCollectible>
         <TotalRefurbished>0</TotalRefurbished>
       </OfferSummary>
+      <Offers>
+        <TotalOffers>0</TotalOffers>
+        <TotalOfferPages>0</TotalOfferPages>
+      </Offers>
     </Item>
   </Items>
 </ItemSearchResponse>

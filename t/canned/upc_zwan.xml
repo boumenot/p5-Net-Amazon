@@ -4,7 +4,7 @@
     <Item>
       <ASIN>B00007M84Q</ASIN>
       <DetailPageURL>http://www.amazon.com/gp/redirect.html%3FASIN=B00007M84Q%26tag=ws%26lcode=xm2%26cID=2025%26ccmID=165953%26location=/o/ASIN/B00007M84Q%253FSubscriptionId=1VAESZQN1G7SXNRG4882</DetailPageURL>
-      <SalesRank>31759</SalesRank>
+      <SalesRank>60159</SalesRank>
       <ItemAttributes>
         <Artist>Zwan</Artist>
         <Binding>Audio CD</Binding>
@@ -29,25 +29,63 @@
       </ItemAttributes>
       <OfferSummary>
         <LowestNewPrice>
-          <Amount>415</Amount>
+          <Amount>462</Amount>
           <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$4.15</FormattedPrice>
+          <FormattedPrice>$4.62</FormattedPrice>
         </LowestNewPrice>
         <LowestUsedPrice>
-          <Amount>153</Amount>
+          <Amount>146</Amount>
           <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$1.53</FormattedPrice>
+          <FormattedPrice>$1.46</FormattedPrice>
         </LowestUsedPrice>
         <LowestCollectiblePrice>
-          <Amount>1499</Amount>
+          <Amount>1898</Amount>
           <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$14.99</FormattedPrice>
+          <FormattedPrice>$18.98</FormattedPrice>
         </LowestCollectiblePrice>
-        <TotalNew>60</TotalNew>
-        <TotalUsed>70</TotalUsed>
-        <TotalCollectible>9</TotalCollectible>
+        <TotalNew>51</TotalNew>
+        <TotalUsed>72</TotalUsed>
+        <TotalCollectible>8</TotalCollectible>
         <TotalRefurbished>0</TotalRefurbished>
       </OfferSummary>
+      <Offers>
+        <TotalOffers>1</TotalOffers>
+        <TotalOfferPages>1</TotalOfferPages>
+        <Offer>
+          <Merchant>
+            <MerchantId>ATVPDKIKX0DER</MerchantId>
+            <GlancePage>http://www.amazon.com/gp/help/seller/home.html?seller=ATVPDKIKX0DER</GlancePage>
+            <AverageFeedbackRating>0.0</AverageFeedbackRating>
+            <TotalFeedback>0</TotalFeedback>
+          </Merchant>
+          <OfferAttributes>
+            <Condition>New</Condition>
+            <SubCondition>new</SubCondition>
+          </OfferAttributes>
+          <OfferListing>
+            <OfferListingId>%2FA1nfrAfUG0qMbSs9KT5sRQ1iT2Kzz7nCGtvONrq6D12%2BBYO1zRFBxmFPCcKH41PrjK5CmoBQLelnDZ5phpjaw%3D%3D</OfferListingId>
+            <Price>
+              <Amount>1297</Amount>
+              <CurrencyCode>USD</CurrencyCode>
+              <FormattedPrice>$12.97</FormattedPrice>
+            </Price>
+            <AmountSaved>
+              <Amount>601</Amount>
+              <CurrencyCode>USD</CurrencyCode>
+              <FormattedPrice>$6.01</FormattedPrice>
+            </AmountSaved>
+            <PercentageSaved>32</PercentageSaved>
+            <Availability>Usually ships in 24 hours</Availability>
+            <AvailabilityAttributes>
+              <AvailabilityType>now</AvailabilityType>
+              <MinimumHours>0</MinimumHours>
+              <MaximumHours>0</MaximumHours>
+            </AvailabilityAttributes>
+            <Quantity>-1</Quantity>
+            <IsEligibleForSuperSaverShipping>1</IsEligibleForSuperSaverShipping>
+          </OfferListing>
+        </Offer>
+      </Offers>
       <Tracks>
         <Disc Number="1">
           <Track Number="1">Lyric</Track>

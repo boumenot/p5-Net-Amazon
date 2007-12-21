@@ -4,7 +4,7 @@
 use warnings;
 use strict;
 
-use Test::More tests => 28;
+use Test::More tests => 30;
 BEGIN { use_ok('Net::Amazon') };
 
 #use Log::Log4perl qw(:easy);
@@ -43,6 +43,8 @@ like($resp->as_string(), qr/JumpStart Guide.*?Management/s, "Examine Books");
  
 is($properties[0]->author, "Michael Schilli", "Check author");
 is($properties[0]->binding, "Paperback", "Check binding");
+is($properties[0]->ListPrice, '$39.99', "Check list price");
+is($properties[0]->OurPrice, '', "Check our price");
 is($properties[0]->Binding, "Paperback", "Check Binding");
 is($properties[0]->title, "Perl Power!: A JumpStart Guide to Programming with Perl 5", "Check title");
 is($properties[0]->publisher, "Addison-Wesley Professional", "Check publisher");

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <SellerListingSearchResponse xmlns="http://webservices.amazon.com/AWSECommerceService/2007-10-29">
   <SellerListings>
-    <TotalResults>2165</TotalResults>
-    <TotalPages>217</TotalPages>
+    <TotalResults>2113</TotalResults>
+    <TotalPages>212</TotalPages>
     <SellerListing>
       <ExchangeId>Y03Y3368867Y8279042</ExchangeId>
       <ListingId>1220F944235</ListingId>

@@ -7,7 +7,7 @@
         <Item>
           <ASIN>076454229X</ASIN>
           <DetailPageURL>http://www.amazon.com/gp/redirect.html%3FASIN=076454229X%26tag=ws%26lcode=xm2%26cID=2025%26ccmID=165953%26location=/o/ASIN/076454229X%253FSubscriptionId=1VAESZQN1G7SXNRG4882%2526coliid=I3JQXBP83I2LQU%2526colid=1XL5DWOUFMFVJ</DetailPageURL>
-          <SalesRank>212148</SalesRank>
+          <SalesRank>330091</SalesRank>
           <ItemAttributes>
             <Author>Barry Press</Author>
             <Author>Marcia Press</Author>
@@ -35,27 +35,59 @@
           </ItemAttributes>
           <OfferSummary>
             <LowestNewPrice>
-              <Amount>214</Amount>
+              <Amount>212</Amount>
               <CurrencyCode>USD</CurrencyCode>
-              <FormattedPrice>$2.14</FormattedPrice>
+              <FormattedPrice>$2.12</FormattedPrice>
             </LowestNewPrice>
             <LowestUsedPrice>
-              <Amount>215</Amount>
+              <Amount>199</Amount>
               <CurrencyCode>USD</CurrencyCode>
-              <FormattedPrice>$2.15</FormattedPrice>
+              <FormattedPrice>$1.99</FormattedPrice>
             </LowestUsedPrice>
-            <TotalNew>33</TotalNew>
+            <TotalNew>31</TotalNew>
             <TotalUsed>15</TotalUsed>
             <TotalCollectible>0</TotalCollectible>
             <TotalRefurbished>0</TotalRefurbished>
           </OfferSummary>
+          <Offers>
+            <TotalOffers>1</TotalOffers>
+            <TotalOfferPages>1</TotalOfferPages>
+            <Offer>
+              <Merchant>
+                <MerchantId>ATVPDKIKX0DER</MerchantId>
+                <GlancePage>http://www.amazon.com/gp/help/seller/home.html?seller=ATVPDKIKX0DER</GlancePage>
+                <AverageFeedbackRating>0.0</AverageFeedbackRating>
+                <TotalFeedback>0</TotalFeedback>
+              </Merchant>
+              <OfferAttributes>
+                <Condition>New</Condition>
+                <SubCondition>new</SubCondition>
+              </OfferAttributes>
+              <OfferListing>
+                <OfferListingId>O0uZvF%2FHhcgR88YvHlQIMDbW4sCPYv%2BZ8lEBEoOHzEXHQB%2F4sjxpkmE4zff%2B1t81f4BpVsnOHqMi%2B8WW7TeOIg%3D%3D</OfferListingId>
+                <Price>
+                  <Amount>2999</Amount>
+                  <CurrencyCode>USD</CurrencyCode>
+                  <FormattedPrice>$29.99</FormattedPrice>
+                </Price>
+                <Availability>Usually ships in 24 hours</Availability>
+                <AvailabilityAttributes>
+                  <AvailabilityType>now</AvailabilityType>
+                  <MinimumHours>0</MinimumHours>
+                  <MaximumHours>0</MaximumHours>
+                </AvailabilityAttributes>
+                <Quantity>-1</Quantity>
+                <IsEligibleForSuperSaverShipping>1</IsEligibleForSuperSaverShipping>
+              </OfferListing>
+            </Offer>
+          </Offers>
         </Item>
       </ListItem>
       <ListItem>
         <Item>
           <ASIN>0201485419</ASIN>
           <DetailPageURL>http://www.amazon.com/gp/redirect.html%3FASIN=0201485419%26tag=ws%26lcode=xm2%26cID=2025%26ccmID=165953%26location=/o/ASIN/0201485419%253FSubscriptionId=1VAESZQN1G7SXNRG4882%2526coliid=I3NL4G803HXVSG%2526colid=1XL5DWOUFMFVJ</DetailPageURL>
-          <SalesRank>17883</SalesRank>
+          <SalesRank>14503</SalesRank>
           <ItemAttributes>
             <Author>Donald E. Knuth</Author>
             <Binding>Hardcover</Binding>
@@ -74,7 +106,7 @@
             <NumberOfPages>896</NumberOfPages>
             <ProductGroup>Book</ProductGroup>
             <ProductTypeName>ABIS_BOOK</ProductTypeName>
-            <PublicationDate>1998-10-05</PublicationDate>
+            <PublicationDate>1998-10-15</PublicationDate>
             <Publisher>Addison-Wesley Professional</Publisher>
             <Studio>Addison-Wesley Professional</Studio>
             <Title>Art of Computer Programming, The, Volumes 1-3 Boxed Set (2nd Edition) (The Art of Computer Programming Series)</Title>
@@ -82,27 +114,65 @@
           </ItemAttributes>
           <OfferSummary>
             <LowestNewPrice>
-              <Amount>12999</Amount>
+              <Amount>12500</Amount>
               <CurrencyCode>USD</CurrencyCode>
-              <FormattedPrice>$129.99</FormattedPrice>
+              <FormattedPrice>$125.00</FormattedPrice>
             </LowestNewPrice>
             <LowestUsedPrice>
-              <Amount>14633</Amount>
+              <Amount>10999</Amount>
               <CurrencyCode>USD</CurrencyCode>
-              <FormattedPrice>$146.33</FormattedPrice>
+              <FormattedPrice>$109.99</FormattedPrice>
             </LowestUsedPrice>
-            <TotalNew>29</TotalNew>
-            <TotalUsed>8</TotalUsed>
+            <TotalNew>28</TotalNew>
+            <TotalUsed>10</TotalUsed>
             <TotalCollectible>0</TotalCollectible>
             <TotalRefurbished>0</TotalRefurbished>
           </OfferSummary>
+          <Offers>
+            <TotalOffers>1</TotalOffers>
+            <TotalOfferPages>1</TotalOfferPages>
+            <Offer>
+              <Merchant>
+                <MerchantId>ATVPDKIKX0DER</MerchantId>
+                <GlancePage>http://www.amazon.com/gp/help/seller/home.html?seller=ATVPDKIKX0DER</GlancePage>
+                <AverageFeedbackRating>0.0</AverageFeedbackRating>
+                <TotalFeedback>0</TotalFeedback>
+              </Merchant>
+              <OfferAttributes>
+                <Condition>New</Condition>
+                <SubCondition>new</SubCondition>
+              </OfferAttributes>
+              <OfferListing>
+                <OfferListingId>gy5lWj2lSBpmNdjRFAa%2BbwzrJnX%2FfFEAvh3MKECisg7WIOodyRadhj6%2FBk2mDF8lJZv6tFtrORh1dP2%2F7hV9SQ%3D%3D</OfferListingId>
+                <Price>
+                  <Amount>14600</Amount>
+                  <CurrencyCode>USD</CurrencyCode>
+                  <FormattedPrice>$146.00</FormattedPrice>
+                </Price>
+                <AmountSaved>
+                  <Amount>4399</Amount>
+                  <CurrencyCode>USD</CurrencyCode>
+                  <FormattedPrice>$43.99</FormattedPrice>
+                </AmountSaved>
+                <PercentageSaved>23</PercentageSaved>
+                <Availability>Usually ships in 24 hours</Availability>
+                <AvailabilityAttributes>
+                  <AvailabilityType>now</AvailabilityType>
+                  <MinimumHours>0</MinimumHours>
+                  <MaximumHours>0</MaximumHours>
+                </AvailabilityAttributes>
+                <Quantity>-1</Quantity>
+                <IsEligibleForSuperSaverShipping>1</IsEligibleForSuperSaverShipping>
+              </OfferListing>
+            </Offer>
+          </Offers>
         </Item>
       </ListItem>
       <ListItem>
         <Item>
           <ASIN>0201541998</ASIN>
           <DetailPageURL>http://www.amazon.com/gp/redirect.html%3FASIN=0201541998%26tag=ws%26lcode=xm2%26cID=2025%26ccmID=165953%26location=/o/ASIN/0201541998%253FSubscriptionId=1VAESZQN1G7SXNRG4882%2526coliid=I3N1GXOYLHPWTX%2526colid=1XL5DWOUFMFVJ</DetailPageURL>
-          <SalesRank>510831</SalesRank>
+          <SalesRank>519634</SalesRank>
           <ItemAttributes>
             <Author>Michel Goossens</Author>
             <Author>Frank Mittelbach</Author>
@@ -120,7 +190,7 @@
             </ListPrice>
             <Manufacturer>Addison-Wesley Professional</Manufacturer>
             <NumberOfItems>1</NumberOfItems>
-            <NumberOfPages>560</NumberOfPages>
+            <NumberOfPages>528</NumberOfPages>
             <ProductGroup>Book</ProductGroup>
             <ProductTypeName>ABIS_BOOK</ProductTypeName>
             <PublicationDate>1993-12-31</PublicationDate>
@@ -131,15 +201,19 @@
           </ItemAttributes>
           <OfferSummary>
             <LowestUsedPrice>
-              <Amount>1599</Amount>
+              <Amount>1100</Amount>
               <CurrencyCode>USD</CurrencyCode>
-              <FormattedPrice>$15.99</FormattedPrice>
+              <FormattedPrice>$11.00</FormattedPrice>
             </LowestUsedPrice>
             <TotalNew>0</TotalNew>
-            <TotalUsed>11</TotalUsed>
+            <TotalUsed>13</TotalUsed>
             <TotalCollectible>0</TotalCollectible>
             <TotalRefurbished>0</TotalRefurbished>
           </OfferSummary>
+          <Offers>
+            <TotalOffers>0</TotalOffers>
+            <TotalOfferPages>0</TotalOfferPages>
+          </Offers>
           <Accessories>
             <Accessory>
               <ASIN>B0007Y6BS4</ASIN>
@@ -152,7 +226,7 @@
         <Item>
           <ASIN>B000002MP2</ASIN>
           <DetailPageURL>http://www.amazon.com/gp/redirect.html%3FASIN=B000002MP2%26tag=ws%26lcode=xm2%26cID=2025%26ccmID=165953%26location=/o/ASIN/B000002MP2%253FSubscriptionId=1VAESZQN1G7SXNRG4882%2526coliid=I1NE452W1ETG5D%2526colid=1XL5DWOUFMFVJ</DetailPageURL>
-          <SalesRank>1384</SalesRank>
+          <SalesRank>1179</SalesRank>
           <ItemAttributes>
             <Artist>Green Day</Artist>
             <Binding>Audio CD</Binding>
@@ -177,25 +251,63 @@
           </ItemAttributes>
           <OfferSummary>
             <LowestNewPrice>
-              <Amount>396</Amount>
+              <Amount>550</Amount>
               <CurrencyCode>USD</CurrencyCode>
-              <FormattedPrice>$3.96</FormattedPrice>
+              <FormattedPrice>$5.50</FormattedPrice>
             </LowestNewPrice>
             <LowestUsedPrice>
-              <Amount>1</Amount>
+              <Amount>6</Amount>
               <CurrencyCode>USD</CurrencyCode>
-              <FormattedPrice>$0.01</FormattedPrice>
+              <FormattedPrice>$0.06</FormattedPrice>
             </LowestUsedPrice>
             <LowestCollectiblePrice>
               <Amount>1198</Amount>
               <CurrencyCode>USD</CurrencyCode>
               <FormattedPrice>$11.98</FormattedPrice>
             </LowestCollectiblePrice>
-            <TotalNew>94</TotalNew>
-            <TotalUsed>211</TotalUsed>
+            <TotalNew>69</TotalNew>
+            <TotalUsed>194</TotalUsed>
             <TotalCollectible>2</TotalCollectible>
             <TotalRefurbished>0</TotalRefurbished>
           </OfferSummary>
+          <Offers>
+            <TotalOffers>1</TotalOffers>
+            <TotalOfferPages>1</TotalOfferPages>
+            <Offer>
+              <Merchant>
+                <MerchantId>ATVPDKIKX0DER</MerchantId>
+                <GlancePage>http://www.amazon.com/gp/help/seller/home.html?seller=ATVPDKIKX0DER</GlancePage>
+                <AverageFeedbackRating>0.0</AverageFeedbackRating>
+                <TotalFeedback>0</TotalFeedback>
+              </Merchant>
+              <OfferAttributes>
+                <Condition>New</Condition>
+                <SubCondition>new</SubCondition>
+              </OfferAttributes>
+              <OfferListing>
+                <OfferListingId>RgHd40a31V4iwQr0POFkREXrRsX6aIkrLOepE2Dv1A7FZVpJxjqNokgN7JI11iniEkxdkzKYIP8bFE0QfKtc2g%3D%3D</OfferListingId>
+                <Price>
+                  <Amount>897</Amount>
+                  <CurrencyCode>USD</CurrencyCode>
+                  <FormattedPrice>$8.97</FormattedPrice>
+                </Price>
+                <AmountSaved>
+                  <Amount>301</Amount>
+                  <CurrencyCode>USD</CurrencyCode>
+                  <FormattedPrice>$3.01</FormattedPrice>
+                </AmountSaved>
+                <PercentageSaved>25</PercentageSaved>
+                <Availability>Usually ships in 24 hours</Availability>
+                <AvailabilityAttributes>
+                  <AvailabilityType>now</AvailabilityType>
+                  <MinimumHours>0</MinimumHours>
+                  <MaximumHours>0</MaximumHours>
+                </AvailabilityAttributes>
+                <Quantity>-1</Quantity>
+                <IsEligibleForSuperSaverShipping>1</IsEligibleForSuperSaverShipping>
+              </OfferListing>
+            </Offer>
+          </Offers>
           <Tracks>
             <Disc Number="1">
               <Track Number="1">Burnout</Track>
@@ -220,7 +332,7 @@
         <Item>
           <ASIN>0596001320</ASIN>
           <DetailPageURL>http://www.amazon.com/gp/redirect.html%3FASIN=0596001320%26tag=ws%26lcode=xm2%26cID=2025%26ccmID=165953%26location=/o/ASIN/0596001320%253FSubscriptionId=1VAESZQN1G7SXNRG4882%2526coliid=I2D4QFHURIC36I%2526colid=1XL5DWOUFMFVJ</DetailPageURL>
-          <SalesRank>108403</SalesRank>
+          <SalesRank>318023</SalesRank>
           <ItemAttributes>
             <Author>Randal L. Schwartz</Author>
             <Author>Tom Phoenix</Author>
@@ -247,27 +359,65 @@
           </ItemAttributes>
           <OfferSummary>
             <LowestNewPrice>
-              <Amount>545</Amount>
+              <Amount>900</Amount>
               <CurrencyCode>USD</CurrencyCode>
-              <FormattedPrice>$5.45</FormattedPrice>
+              <FormattedPrice>$9.00</FormattedPrice>
             </LowestNewPrice>
             <LowestUsedPrice>
-              <Amount>298</Amount>
+              <Amount>248</Amount>
               <CurrencyCode>USD</CurrencyCode>
-              <FormattedPrice>$2.98</FormattedPrice>
+              <FormattedPrice>$2.48</FormattedPrice>
             </LowestUsedPrice>
-            <TotalNew>24</TotalNew>
-            <TotalUsed>32</TotalUsed>
+            <TotalNew>9</TotalNew>
+            <TotalUsed>29</TotalUsed>
             <TotalCollectible>0</TotalCollectible>
             <TotalRefurbished>0</TotalRefurbished>
           </OfferSummary>
+          <Offers>
+            <TotalOffers>1</TotalOffers>
+            <TotalOfferPages>1</TotalOfferPages>
+            <Offer>
+              <Merchant>
+                <MerchantId>ATVPDKIKX0DER</MerchantId>
+                <GlancePage>http://www.amazon.com/gp/help/seller/home.html?seller=ATVPDKIKX0DER</GlancePage>
+                <AverageFeedbackRating>0.0</AverageFeedbackRating>
+                <TotalFeedback>0</TotalFeedback>
+              </Merchant>
+              <OfferAttributes>
+                <Condition>New</Condition>
+                <SubCondition>new</SubCondition>
+              </OfferAttributes>
+              <OfferListing>
+                <OfferListingId>YrOcvzvLWTRMilJKVKwmaE13P7om3ML%2Be9VQ%2F2dU0ga1vexb1xwknbcg7em3hTB%2BFsSqR%2BJ6GIS4UKJF%2FeUOjg%3D%3D</OfferListingId>
+                <Price>
+                  <Amount>2796</Amount>
+                  <CurrencyCode>USD</CurrencyCode>
+                  <FormattedPrice>$27.96</FormattedPrice>
+                </Price>
+                <AmountSaved>
+                  <Amount>699</Amount>
+                  <CurrencyCode>USD</CurrencyCode>
+                  <FormattedPrice>$6.99</FormattedPrice>
+                </AmountSaved>
+                <PercentageSaved>20</PercentageSaved>
+                <Availability>Usually ships in 24 hours</Availability>
+                <AvailabilityAttributes>
+                  <AvailabilityType>now</AvailabilityType>
+                  <MinimumHours>0</MinimumHours>
+                  <MaximumHours>0</MaximumHours>
+                </AvailabilityAttributes>
+                <Quantity>-1</Quantity>
+                <IsEligibleForSuperSaverShipping>1</IsEligibleForSuperSaverShipping>
+              </OfferListing>
+            </Offer>
+          </Offers>
         </Item>
       </ListItem>
       <ListItem>
         <Item>
           <ASIN>B00006RU5B</ASIN>
           <DetailPageURL>http://www.amazon.com/gp/redirect.html%3FASIN=B00006RU5B%26tag=ws%26lcode=xm2%26cID=2025%26ccmID=165953%26location=/o/ASIN/B00006RU5B%253FSubscriptionId=1VAESZQN1G7SXNRG4882%2526coliid=I8C96PYNUGOV9%2526colid=1XL5DWOUFMFVJ</DetailPageURL>
-          <SalesRank>1420</SalesRank>
+          <SalesRank>1508</SalesRank>
           <ItemAttributes>
             <Binding>Audio CD</Binding>
             <Creator Role="Performer">Audioslave</Creator>
@@ -291,25 +441,63 @@
           </ItemAttributes>
           <OfferSummary>
             <LowestNewPrice>
-              <Amount>587</Amount>
+              <Amount>570</Amount>
               <CurrencyCode>USD</CurrencyCode>
-              <FormattedPrice>$5.87</FormattedPrice>
+              <FormattedPrice>$5.70</FormattedPrice>
             </LowestNewPrice>
             <LowestUsedPrice>
-              <Amount>249</Amount>
+              <Amount>333</Amount>
               <CurrencyCode>USD</CurrencyCode>
-              <FormattedPrice>$2.49</FormattedPrice>
+              <FormattedPrice>$3.33</FormattedPrice>
             </LowestUsedPrice>
             <LowestCollectiblePrice>
               <Amount>1398</Amount>
               <CurrencyCode>USD</CurrencyCode>
               <FormattedPrice>$13.98</FormattedPrice>
             </LowestCollectiblePrice>
-            <TotalNew>68</TotalNew>
-            <TotalUsed>52</TotalUsed>
-            <TotalCollectible>2</TotalCollectible>
+            <TotalNew>54</TotalNew>
+            <TotalUsed>48</TotalUsed>
+            <TotalCollectible>1</TotalCollectible>
             <TotalRefurbished>0</TotalRefurbished>
           </OfferSummary>
+          <Offers>
+            <TotalOffers>1</TotalOffers>
+            <TotalOfferPages>1</TotalOfferPages>
+            <Offer>
+              <Merchant>
+                <MerchantId>ATVPDKIKX0DER</MerchantId>
+                <GlancePage>http://www.amazon.com/gp/help/seller/home.html?seller=ATVPDKIKX0DER</GlancePage>
+                <AverageFeedbackRating>0.0</AverageFeedbackRating>
+                <TotalFeedback>0</TotalFeedback>
+              </Merchant>
+              <OfferAttributes>
+                <Condition>New</Condition>
+                <SubCondition>new</SubCondition>
+              </OfferAttributes>
+              <OfferListing>
+                <OfferListingId>BOiFv%2BB7qj8Q3Q0aZbMwAo0eZdi5S9ZuS%2B%2BGBxHmPW%2BIMwHtDY8xn0Dj6J7c3YjGWXQ5EQUciouz9sgdy1cZRw%3D%3D</OfferListingId>
+                <Price>
+                  <Amount>897</Amount>
+                  <CurrencyCode>USD</CurrencyCode>
+                  <FormattedPrice>$8.97</FormattedPrice>
+                </Price>
+                <AmountSaved>
+                  <Amount>501</Amount>
+                  <CurrencyCode>USD</CurrencyCode>
+                  <FormattedPrice>$5.01</FormattedPrice>
+                </AmountSaved>
+                <PercentageSaved>36</PercentageSaved>
+                <Availability>Usually ships in 24 hours</Availability>
+                <AvailabilityAttributes>
+                  <AvailabilityType>now</AvailabilityType>
+                  <MinimumHours>0</MinimumHours>
+                  <MaximumHours>0</MaximumHours>
+                </AvailabilityAttributes>
+                <Quantity>-1</Quantity>
+                <IsEligibleForSuperSaverShipping>1</IsEligibleForSuperSaverShipping>
+              </OfferListing>
+            </Offer>
+          </Offers>
           <Tracks>
             <Disc Number="1">
               <Track Number="1">Cochise</Track>
@@ -334,7 +522,7 @@
         <Item>
           <ASIN>B0000CC6QC</ASIN>
           <DetailPageURL>http://www.amazon.com/gp/redirect.html%3FASIN=B0000CC6QC%26tag=ws%26lcode=xm2%26cID=2025%26ccmID=165953%26location=/o/ASIN/B0000CC6QC%253FSubscriptionId=1VAESZQN1G7SXNRG4882%2526coliid=I24ZV4T609AWHS%2526colid=1XL5DWOUFMFVJ</DetailPageURL>
-          <SalesRank>18624</SalesRank>
+          <SalesRank>32785</SalesRank>
           <ItemAttributes>
             <Artist>Barenaked Ladies</Artist>
             <Binding>Audio CD</Binding>
@@ -359,25 +547,63 @@
           </ItemAttributes>
           <OfferSummary>
             <LowestNewPrice>
-              <Amount>395</Amount>
+              <Amount>349</Amount>
               <CurrencyCode>USD</CurrencyCode>
-              <FormattedPrice>$3.95</FormattedPrice>
+              <FormattedPrice>$3.49</FormattedPrice>
             </LowestNewPrice>
             <LowestUsedPrice>
-              <Amount>182</Amount>
+              <Amount>148</Amount>
               <CurrencyCode>USD</CurrencyCode>
-              <FormattedPrice>$1.82</FormattedPrice>
+              <FormattedPrice>$1.48</FormattedPrice>
             </LowestUsedPrice>
             <LowestCollectiblePrice>
               <Amount>1898</Amount>
               <CurrencyCode>USD</CurrencyCode>
               <FormattedPrice>$18.98</FormattedPrice>
             </LowestCollectiblePrice>
-            <TotalNew>66</TotalNew>
-            <TotalUsed>60</TotalUsed>
+            <TotalNew>55</TotalNew>
+            <TotalUsed>59</TotalUsed>
             <TotalCollectible>3</TotalCollectible>
             <TotalRefurbished>0</TotalRefurbished>
           </OfferSummary>
+          <Offers>
+            <TotalOffers>1</TotalOffers>
+            <TotalOfferPages>1</TotalOfferPages>
+            <Offer>
+              <Merchant>
+                <MerchantId>ATVPDKIKX0DER</MerchantId>
+                <GlancePage>http://www.amazon.com/gp/help/seller/home.html?seller=ATVPDKIKX0DER</GlancePage>
+                <AverageFeedbackRating>0.0</AverageFeedbackRating>
+                <TotalFeedback>0</TotalFeedback>
+              </Merchant>
+              <OfferAttributes>
+                <Condition>New</Condition>
+                <SubCondition>new</SubCondition>
+              </OfferAttributes>
+              <OfferListing>
+                <OfferListingId>GdfFjXh9UeDijFlz2vu7ECjpqU7y3SBhksDoFUPwif%2BrMDxfmuQayRxyDrigCgmW35Ny%2FU8wduoYonRoEB%2FE4Q%3D%3D</OfferListingId>
+                <Price>
+                  <Amount>1297</Amount>
+                  <CurrencyCode>USD</CurrencyCode>
+                  <FormattedPrice>$12.97</FormattedPrice>
+                </Price>
+                <AmountSaved>
+                  <Amount>601</Amount>
+                  <CurrencyCode>USD</CurrencyCode>
+                  <FormattedPrice>$6.01</FormattedPrice>
+                </AmountSaved>
+                <PercentageSaved>32</PercentageSaved>
+                <Availability>Usually ships in 24 hours</Availability>
+                <AvailabilityAttributes>
+                  <AvailabilityType>now</AvailabilityType>
+                  <MinimumHours>0</MinimumHours>
+                  <MaximumHours>0</MaximumHours>
+                </AvailabilityAttributes>
+                <Quantity>-1</Quantity>
+                <IsEligibleForSuperSaverShipping>1</IsEligibleForSuperSaverShipping>
+              </OfferListing>
+            </Offer>
+          </Offers>
           <Tracks>
             <Disc Number="1">
               <Track Number="1">Celebrity</Track>
@@ -402,7 +628,7 @@
         <Item>
           <ASIN>B00005RWG2</ASIN>
           <DetailPageURL>http://www.amazon.com/gp/redirect.html%3FASIN=B00005RWG2%26tag=ws%26lcode=xm2%26cID=2025%26ccmID=165953%26location=/o/ASIN/B00005RWG2%253FSubscriptionId=1VAESZQN1G7SXNRG4882%2526coliid=I3I78WENSF8GZ9%2526colid=1XL5DWOUFMFVJ</DetailPageURL>
-          <SalesRank>13363</SalesRank>
+          <SalesRank>48538</SalesRank>
           <ItemAttributes>
             <Binding>Electronics</Binding>
             <Brand>Hewlett-Packard</Brand>
@@ -454,14 +680,18 @@
             <TotalCollectible>0</TotalCollectible>
             <TotalRefurbished>0</TotalRefurbished>
           </OfferSummary>
+          <Offers>
+            <TotalOffers>0</TotalOffers>
+            <TotalOfferPages>0</TotalOfferPages>
+          </Offers>
           <Accessories>
             <Accessory>
               <ASIN>B0000DIWW2</ASIN>
-              <Title>Netgear FWG114P 802.11g Wireless Firewall with USB Print Server</Title>
+              <Title>NETGEAR FWG114P ProSafe 802.11g Wireless VPN Firewall 4-Port 10/100 Switch with USB Server</Title>
             </Accessory>
             <Accessory>
               <ASIN>B0001BXVA4</ASIN>
-              <Title>Netgear USB Mini Print Server (PS121)</Title>
+              <Title>NETGEAR PS121 USB 2.0 Mini Print Server</Title>
             </Accessory>
             <Accessory>
               <ASIN>B00000J1TX</ASIN>
@@ -482,7 +712,7 @@
         <Item>
           <ASIN>0130661023</ASIN>
           <DetailPageURL>http://www.amazon.com/gp/redirect.html%3FASIN=0130661023%26tag=ws%26lcode=xm2%26cID=2025%26ccmID=165953%26location=/o/ASIN/0130661023%253FSubscriptionId=1VAESZQN1G7SXNRG4882%2526coliid=IZZI1VT30Q7K4%2526colid=1XL5DWOUFMFVJ</DetailPageURL>
-          <SalesRank>58476</SalesRank>
+          <SalesRank>39421</SalesRank>
           <ItemAttributes>
             <Author>Andrew S. Tanenbaum</Author>
             <Binding>Hardcover</Binding>
@@ -501,35 +731,73 @@
             <NumberOfPages>912</NumberOfPages>
             <ProductGroup>Book</ProductGroup>
             <ProductTypeName>ABIS_BOOK</ProductTypeName>
-            <PublicationDate>2002-08-09</PublicationDate>
+            <PublicationDate>2002-08-19</PublicationDate>
             <Publisher>Prentice Hall PTR</Publisher>
             <Studio>Prentice Hall PTR</Studio>
-            <Title>Computer Networks, Fourth Edition</Title>
+            <Title>Computer Networks (4th Edition)</Title>
             <UPC>076092022473</UPC>
           </ItemAttributes>
           <OfferSummary>
             <LowestNewPrice>
-              <Amount>4600</Amount>
+              <Amount>5300</Amount>
               <CurrencyCode>USD</CurrencyCode>
-              <FormattedPrice>$46.00</FormattedPrice>
+              <FormattedPrice>$53.00</FormattedPrice>
             </LowestNewPrice>
             <LowestUsedPrice>
-              <Amount>3998</Amount>
+              <Amount>4800</Amount>
               <CurrencyCode>USD</CurrencyCode>
-              <FormattedPrice>$39.98</FormattedPrice>
+              <FormattedPrice>$48.00</FormattedPrice>
             </LowestUsedPrice>
-            <TotalNew>28</TotalNew>
-            <TotalUsed>28</TotalUsed>
+            <TotalNew>25</TotalNew>
+            <TotalUsed>24</TotalUsed>
             <TotalCollectible>0</TotalCollectible>
             <TotalRefurbished>0</TotalRefurbished>
           </OfferSummary>
+          <Offers>
+            <TotalOffers>1</TotalOffers>
+            <TotalOfferPages>1</TotalOfferPages>
+            <Offer>
+              <Merchant>
+                <MerchantId>ATVPDKIKX0DER</MerchantId>
+                <GlancePage>http://www.amazon.com/gp/help/seller/home.html?seller=ATVPDKIKX0DER</GlancePage>
+                <AverageFeedbackRating>0.0</AverageFeedbackRating>
+                <TotalFeedback>0</TotalFeedback>
+              </Merchant>
+              <OfferAttributes>
+                <Condition>New</Condition>
+                <SubCondition>new</SubCondition>
+              </OfferAttributes>
+              <OfferListing>
+                <OfferListingId>EEG6eFvqnXwVCCcy0YYRZ2YT8PDlP2V3h56jbivQijlYuxYOcqafmtqvDEyqtfxHUBVvMqzfuF6xcT%2BjWghH%2Fw%3D%3D</OfferListingId>
+                <Price>
+                  <Amount>9580</Amount>
+                  <CurrencyCode>USD</CurrencyCode>
+                  <FormattedPrice>$95.80</FormattedPrice>
+                </Price>
+                <AmountSaved>
+                  <Amount>653</Amount>
+                  <CurrencyCode>USD</CurrencyCode>
+                  <FormattedPrice>$6.53</FormattedPrice>
+                </AmountSaved>
+                <PercentageSaved>6</PercentageSaved>
+                <Availability>Usually ships in 24 hours</Availability>
+                <AvailabilityAttributes>
+                  <AvailabilityType>now</AvailabilityType>
+                  <MinimumHours>0</MinimumHours>
+                  <MaximumHours>0</MaximumHours>
+                </AvailabilityAttributes>
+                <Quantity>-1</Quantity>
+                <IsEligibleForSuperSaverShipping>1</IsEligibleForSuperSaverShipping>
+              </OfferListing>
+            </Offer>
+          </Offers>
         </Item>
       </ListItem>
       <ListItem>
         <Item>
           <ASIN>0201100886</ASIN>
           <DetailPageURL>http://www.amazon.com/gp/redirect.html%3FASIN=0201100886%26tag=ws%26lcode=xm2%26cID=2025%26ccmID=165953%26location=/o/ASIN/0201100886%253FSubscriptionId=1VAESZQN1G7SXNRG4882%2526coliid=IL3R3Z0FJPDES%2526colid=1XL5DWOUFMFVJ</DetailPageURL>
-          <SalesRank>51460</SalesRank>
+          <SalesRank>64548</SalesRank>
           <ItemAttributes>
             <Author>Alfred V. Aho</Author>
             <Author>Ravi Sethi</Author>
@@ -557,20 +825,63 @@
           </ItemAttributes>
           <OfferSummary>
             <LowestNewPrice>
-              <Amount>299</Amount>
+              <Amount>4994</Amount>
               <CurrencyCode>USD</CurrencyCode>
-              <FormattedPrice>$2.99</FormattedPrice>
+              <FormattedPrice>$49.94</FormattedPrice>
             </LowestNewPrice>
             <LowestUsedPrice>
-              <Amount>195</Amount>
+              <Amount>180</Amount>
               <CurrencyCode>USD</CurrencyCode>
-              <FormattedPrice>$1.95</FormattedPrice>
+              <FormattedPrice>$1.80</FormattedPrice>
             </LowestUsedPrice>
-            <TotalNew>14</TotalNew>
-            <TotalUsed>58</TotalUsed>
-            <TotalCollectible>0</TotalCollectible>
+            <LowestCollectiblePrice>
+              <Amount>11980</Amount>
+              <CurrencyCode>USD</CurrencyCode>
+              <FormattedPrice>$119.80</FormattedPrice>
+            </LowestCollectiblePrice>
+            <TotalNew>9</TotalNew>
+            <TotalUsed>49</TotalUsed>
+            <TotalCollectible>1</TotalCollectible>
             <TotalRefurbished>0</TotalRefurbished>
           </OfferSummary>
+          <Offers>
+            <TotalOffers>1</TotalOffers>
+            <TotalOfferPages>1</TotalOfferPages>
+            <Offer>
+              <Merchant>
+                <MerchantId>ATVPDKIKX0DER</MerchantId>
+                <GlancePage>http://www.amazon.com/gp/help/seller/home.html?seller=ATVPDKIKX0DER</GlancePage>
+                <AverageFeedbackRating>0.0</AverageFeedbackRating>
+                <TotalFeedback>0</TotalFeedback>
+              </Merchant>
+              <OfferAttributes>
+                <Condition>New</Condition>
+                <SubCondition>new</SubCondition>
+              </OfferAttributes>
+              <OfferListing>
+                <OfferListingId>WHbEp6fAi8iYLqjE8RjW44h6Ihz6QsuVeROjQTluCy7QVx%2BLxG6OuHIQFrMjte%2BR3%2FUHWFGJT5Y53HEWX5%2BLIw%3D%3D</OfferListingId>
+                <Price>
+                  <Amount>11000</Amount>
+                  <CurrencyCode>USD</CurrencyCode>
+                  <FormattedPrice>$110.00</FormattedPrice>
+                </Price>
+                <AmountSaved>
+                  <Amount>980</Amount>
+                  <CurrencyCode>USD</CurrencyCode>
+                  <FormattedPrice>$9.80</FormattedPrice>
+                </AmountSaved>
+                <PercentageSaved>8</PercentageSaved>
+                <Availability>Usually ships in 24 hours</Availability>
+                <AvailabilityAttributes>
+                  <AvailabilityType>now</AvailabilityType>
+                  <MinimumHours>0</MinimumHours>
+                  <MaximumHours>0</MaximumHours>
+                </AvailabilityAttributes>
+                <Quantity>-1</Quantity>
+                <IsEligibleForSuperSaverShipping>1</IsEligibleForSuperSaverShipping>
+              </OfferListing>
+            </Offer>
+          </Offers>
         </Item>
       </ListItem>
     </List>

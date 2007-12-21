@@ -39,29 +39,29 @@ ok($resp->is_success(), "Request successful");
 my @properties = $resp->properties();
 is(scalar @properties, 10, "10 movies");
 
-my $i = -1;
+my $i = 2;
 
 like($resp->as_string(), qr/I Now.*?First Dates/s, "Examine Movies");
 
 my @starring = $properties[$i]->starring();
 
 is($properties[$i]->actor, "Adam Sandler", "Check actor");
-is($starring[$i], "Lusia Strus", "Check starring");
-is($properties[$i]->director, "Peter Segal", "Check director");
-like($properties[$i]->title, qr/50 First Dates/, "Check title");
-is($properties[$i]->studio, "Sony Pictures", "Check studio");
-is($properties[$i]->theatrical_release_date, "2004-02-13", "Check theatrical release date");
-is($properties[$i]->media, "DVD", "Check media");
-is($properties[$i]->Media, "DVD", "Check Media");
+is($starring[$i], "Jessica Biel", "Check starring");
+is($properties[$i]->director, "Dennis Dugan", "Check director");
+like($properties[$i]->title, qr/I Now Pronounce You Chuck/, "Check title");
+is($properties[$i]->studio, "Universal Studios Home Entertainment", "Check studio");
+is($properties[$i]->theatrical_release_date, "2007-07-20", "Check theatrical release date");
+is($properties[$i]->media, "HD DVD", "Check media");
+is($properties[$i]->Media, "HD DVD", "Check Media");
 is($properties[$i]->nummedia, 1, "Check nummedia");
 is($properties[$i]->NumMedia, 1, "Check NumMedia");
-is($properties[$i]->upc, "043396014268", "Check UPC");
-like($properties[$i]->mpaa_rating, qr/PG\-13/, "Check MPAA rating");
-is($properties[$i]->region_code, 99, "Check region code");
-is($properties[$i]->label, "Sony Pictures", "Check label");
-is($properties[$i]->running_time, "99", "Check running time");
-is($properties[$i]->publisher, "Sony Pictures", "Check publisher");
-is($properties[$i]->ean, "9781404937024", "Check ean");
-is($properties[$i]->feature, "AC-3", "Check feature");
-is(scalar($properties[$i]->features), 11, "Check number of features");
+is($properties[$i]->upc, "025193240422", "Check UPC");
+like($properties[$i]->mpaa_rating, qr/R \(Restricted\)/, "Check MPAA rating");
+is($properties[$i]->region_code, 0, "Check region code");
+is($properties[$i]->label, "Universal Studios Home Entertainment", "Check label");
+is($properties[$i]->running_time, "116", "Check running time");
+is($properties[$i]->publisher, "Universal Studios Home Entertainment", "Check publisher");
+is($properties[$i]->ean, "0025193240422", "Check ean");
+is($properties[$i]->feature, "Anamorphic", "Check feature");
+is(scalar($properties[$i]->features), 5, "Check number of features");
 

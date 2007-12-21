@@ -6,7 +6,7 @@
     <Item>
       <ASIN>1590597311</ASIN>
       <DetailPageURL>http://www.amazon.com/gp/redirect.html%3FASIN=1590597311%26tag=ws%26lcode=xm2%26cID=2025%26ccmID=165953%26location=/o/ASIN/1590597311%253FSubscriptionId=1VAESZQN1G7SXNRG4882</DetailPageURL>
-      <SalesRank>36720</SalesRank>
+      <SalesRank>20541</SalesRank>
       <ItemAttributes>
         <Author>David Powers</Author>
         <Binding>Paperback</Binding>
@@ -31,20 +31,58 @@
       </ItemAttributes>
       <OfferSummary>
         <LowestNewPrice>
-          <Amount>1909</Amount>
+          <Amount>2194</Amount>
           <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$19.09</FormattedPrice>
+          <FormattedPrice>$21.94</FormattedPrice>
         </LowestNewPrice>
         <LowestUsedPrice>
-          <Amount>2182</Amount>
+          <Amount>2194</Amount>
           <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$21.82</FormattedPrice>
+          <FormattedPrice>$21.94</FormattedPrice>
         </LowestUsedPrice>
-        <TotalNew>37</TotalNew>
-        <TotalUsed>13</TotalUsed>
+        <TotalNew>21</TotalNew>
+        <TotalUsed>4</TotalUsed>
         <TotalCollectible>0</TotalCollectible>
         <TotalRefurbished>0</TotalRefurbished>
       </OfferSummary>
+      <Offers>
+        <TotalOffers>1</TotalOffers>
+        <TotalOfferPages>1</TotalOfferPages>
+        <Offer>
+          <Merchant>
+            <MerchantId>ATVPDKIKX0DER</MerchantId>
+            <GlancePage>http://www.amazon.com/gp/help/seller/home.html?seller=ATVPDKIKX0DER</GlancePage>
+            <AverageFeedbackRating>0.0</AverageFeedbackRating>
+            <TotalFeedback>0</TotalFeedback>
+          </Merchant>
+          <OfferAttributes>
+            <Condition>New</Condition>
+            <SubCondition>new</SubCondition>
+          </OfferAttributes>
+          <OfferListing>
+            <OfferListingId>4QLD0tneNdj1xKMqWWfwTSD%2F8v5%2BnFxHfpxHolJI7y9We%2Fzh%2F0CMXCaPpdxg6aUNPjQ38DrG8qqkmkUD6c6O1A%3D%3D</OfferListingId>
+            <Price>
+              <Amount>2309</Amount>
+              <CurrencyCode>USD</CurrencyCode>
+              <FormattedPrice>$23.09</FormattedPrice>
+            </Price>
+            <AmountSaved>
+              <Amount>1190</Amount>
+              <CurrencyCode>USD</CurrencyCode>
+              <FormattedPrice>$11.90</FormattedPrice>
+            </AmountSaved>
+            <PercentageSaved>34</PercentageSaved>
+            <Availability>Usually ships in 24 hours</Availability>
+            <AvailabilityAttributes>
+              <AvailabilityType>now</AvailabilityType>
+              <MinimumHours>0</MinimumHours>
+              <MaximumHours>0</MaximumHours>
+            </AvailabilityAttributes>
+            <Quantity>-1</Quantity>
+            <IsEligibleForSuperSaverShipping>1</IsEligibleForSuperSaverShipping>
+          </OfferListing>
+        </Offer>
+      </Offers>
       <Accessories>
         <Accessory>
           <ASIN>1590597001</ASIN>
@@ -63,7 +101,7 @@
     <Item>
       <ASIN>0596527462</ASIN>
       <DetailPageURL>http://www.amazon.com/gp/redirect.html%3FASIN=0596527462%26tag=ws%26lcode=xm2%26cID=2025%26ccmID=165953%26location=/o/ASIN/0596527462%253FSubscriptionId=1VAESZQN1G7SXNRG4882</DetailPageURL>
-      <SalesRank>30930</SalesRank>
+      <SalesRank>44675</SalesRank>
       <ItemAttributes>
         <Author>Shelley Powers</Author>
         <Binding>Paperback</Binding>
@@ -89,29 +127,66 @@
       </ItemAttributes>
       <OfferSummary>
         <LowestNewPrice>
-          <Amount>1681</Amount>
+          <Amount>1195</Amount>
           <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$16.81</FormattedPrice>
+          <FormattedPrice>$11.95</FormattedPrice>
         </LowestNewPrice>
         <LowestUsedPrice>
-          <Amount>1400</Amount>
+          <Amount>1194</Amount>
           <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$14.00</FormattedPrice>
+          <FormattedPrice>$11.94</FormattedPrice>
         </LowestUsedPrice>
-        <TotalNew>50</TotalNew>
-        <TotalUsed>14</TotalUsed>
+        <TotalNew>42</TotalNew>
+        <TotalUsed>15</TotalUsed>
         <TotalCollectible>0</TotalCollectible>
         <TotalRefurbished>0</TotalRefurbished>
       </OfferSummary>
+      <Offers>
+        <TotalOffers>1</TotalOffers>
+        <TotalOfferPages>1</TotalOfferPages>
+        <Offer>
+          <Merchant>
+            <MerchantId>ATVPDKIKX0DER</MerchantId>
+            <GlancePage>http://www.amazon.com/gp/help/seller/home.html?seller=ATVPDKIKX0DER</GlancePage>
+            <AverageFeedbackRating>0.0</AverageFeedbackRating>
+            <TotalFeedback>0</TotalFeedback>
+          </Merchant>
+          <OfferAttributes>
+            <Condition>New</Condition>
+            <SubCondition>new</SubCondition>
+          </OfferAttributes>
+          <OfferListing>
+            <OfferListingId>kCKVyClhQ9z6MJHJCviXlNxqpYjR7B%2BjuaHajW55Te%2BYt8OVshf%2FZjVCzun1RUyRfwNLUFPtYCt32mF%2FyR3BBw%3D%3D</OfferListingId>
+            <Price>
+              <Amount>1979</Amount>
+              <CurrencyCode>USD</CurrencyCode>
+              <FormattedPrice>$19.79</FormattedPrice>
+            </Price>
+            <AmountSaved>
+              <Amount>1020</Amount>
+              <CurrencyCode>USD</CurrencyCode>
+              <FormattedPrice>$10.20</FormattedPrice>
+            </AmountSaved>
+            <PercentageSaved>34</PercentageSaved>
+            <Availability>Usually ships in 24 hours</Availability>
+            <AvailabilityAttributes>
+              <AvailabilityType>now</AvailabilityType>
+              <MinimumHours>0</MinimumHours>
+              <MaximumHours>0</MaximumHours>
+            </AvailabilityAttributes>
+            <Quantity>-1</Quantity>
+            <IsEligibleForSuperSaverShipping>1</IsEligibleForSuperSaverShipping>
+          </OfferListing>
+        </Offer>
+      </Offers>
     </Item>
     <Item>
       <ASIN>1590595696</ASIN>
       <DetailPageURL>http://www.amazon.com/gp/redirect.html%3FASIN=1590595696%26tag=ws%26lcode=xm2%26cID=2025%26ccmID=165953%26location=/o/ASIN/1590595696%253FSubscriptionId=1VAESZQN1G7SXNRG4882</DetailPageURL>
-      <SalesRank>50611</SalesRank>
+      <SalesRank>26448</SalesRank>
       <ItemAttributes>
         <Author>David Powers</Author>
         <Binding>Paperback</Binding>
-        <Brand>friends of Ed</Brand>
         <DeweyDecimalNumber>005.72</DeweyDecimalNumber>
         <EAN>9781590595695</EAN>
         <Edition>1</Edition>
@@ -134,20 +209,58 @@
       </ItemAttributes>
       <OfferSummary>
         <LowestNewPrice>
-          <Amount>2298</Amount>
+          <Amount>1377</Amount>
           <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$22.98</FormattedPrice>
+          <FormattedPrice>$13.77</FormattedPrice>
         </LowestNewPrice>
         <LowestUsedPrice>
-          <Amount>2298</Amount>
+          <Amount>1387</Amount>
           <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$22.98</FormattedPrice>
+          <FormattedPrice>$13.87</FormattedPrice>
         </LowestUsedPrice>
-        <TotalNew>34</TotalNew>
-        <TotalUsed>15</TotalUsed>
+        <TotalNew>30</TotalNew>
+        <TotalUsed>16</TotalUsed>
         <TotalCollectible>0</TotalCollectible>
         <TotalRefurbished>0</TotalRefurbished>
       </OfferSummary>
+      <Offers>
+        <TotalOffers>1</TotalOffers>
+        <TotalOfferPages>1</TotalOfferPages>
+        <Offer>
+          <Merchant>
+            <MerchantId>ATVPDKIKX0DER</MerchantId>
+            <GlancePage>http://www.amazon.com/gp/help/seller/home.html?seller=ATVPDKIKX0DER</GlancePage>
+            <AverageFeedbackRating>0.0</AverageFeedbackRating>
+            <TotalFeedback>0</TotalFeedback>
+          </Merchant>
+          <OfferAttributes>
+            <Condition>New</Condition>
+            <SubCondition>new</SubCondition>
+          </OfferAttributes>
+          <OfferListing>
+            <OfferListingId>21xPS3SOuELwQQ%2BTH0cWcig%2FXi%2BldOVRwHPznBBvv1YXsUQCBT9vi%2FJN2z5EX2PMhmDT8zD9HFJYqesFD3r32oA%2Fzi3SZa9w</OfferListingId>
+            <Price>
+              <Amount>2639</Amount>
+              <CurrencyCode>USD</CurrencyCode>
+              <FormattedPrice>$26.39</FormattedPrice>
+            </Price>
+            <AmountSaved>
+              <Amount>1360</Amount>
+              <CurrencyCode>USD</CurrencyCode>
+              <FormattedPrice>$13.60</FormattedPrice>
+            </AmountSaved>
+            <PercentageSaved>34</PercentageSaved>
+            <Availability>Usually ships in 24 hours</Availability>
+            <AvailabilityAttributes>
+              <AvailabilityType>now</AvailabilityType>
+              <MinimumHours>0</MinimumHours>
+              <MaximumHours>0</MaximumHours>
+            </AvailabilityAttributes>
+            <Quantity>-1</Quantity>
+            <IsEligibleForSuperSaverShipping>1</IsEligibleForSuperSaverShipping>
+          </OfferListing>
+        </Offer>
+      </Offers>
       <Accessories>
         <Accessory>
           <ASIN>1590597001</ASIN>
@@ -164,53 +277,9 @@
       </Accessories>
     </Item>
     <Item>
-      <ASIN>0596529368</ASIN>
-      <DetailPageURL>http://www.amazon.com/gp/redirect.html%3FASIN=0596529368%26tag=ws%26lcode=xm2%26cID=2025%26ccmID=165953%26location=/o/ASIN/0596529368%253FSubscriptionId=1VAESZQN1G7SXNRG4882</DetailPageURL>
-      <SalesRank>187088</SalesRank>
-      <ItemAttributes>
-        <Author>Shelley Powers</Author>
-        <Binding>Paperback</Binding>
-        <DeweyDecimalNumber>006.786</DeweyDecimalNumber>
-        <EAN>9780596529369</EAN>
-        <Format>Illustrated</Format>
-        <ISBN>0596529368</ISBN>
-        <Label>O'Reilly Media, Inc.</Label>
-        <ListPrice>
-          <Amount>3499</Amount>
-          <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$34.99</FormattedPrice>
-        </ListPrice>
-        <Manufacturer>O'Reilly Media, Inc.</Manufacturer>
-        <NumberOfItems>1</NumberOfItems>
-        <NumberOfPages>399</NumberOfPages>
-        <ProductGroup>Book</ProductGroup>
-        <ProductTypeName>ABIS_BOOK</ProductTypeName>
-        <PublicationDate>2007-06-20</PublicationDate>
-        <Publisher>O'Reilly Media, Inc.</Publisher>
-        <Studio>O'Reilly Media, Inc.</Studio>
-        <Title>Adding Ajax</Title>
-      </ItemAttributes>
-      <OfferSummary>
-        <LowestNewPrice>
-          <Amount>1944</Amount>
-          <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$19.44</FormattedPrice>
-        </LowestNewPrice>
-        <LowestUsedPrice>
-          <Amount>1145</Amount>
-          <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$11.45</FormattedPrice>
-        </LowestUsedPrice>
-        <TotalNew>44</TotalNew>
-        <TotalUsed>16</TotalUsed>
-        <TotalCollectible>0</TotalCollectible>
-        <TotalRefurbished>0</TotalRefurbished>
-      </OfferSummary>
-    </Item>
-    <Item>
       <ASIN>0470048182</ASIN>
       <DetailPageURL>http://www.amazon.com/gp/redirect.html%3FASIN=0470048182%26tag=ws%26lcode=xm2%26cID=2025%26ccmID=165953%26location=/o/ASIN/0470048182%253FSubscriptionId=1VAESZQN1G7SXNRG4882</DetailPageURL>
-      <SalesRank>118715</SalesRank>
+      <SalesRank>445316</SalesRank>
       <ItemAttributes>
         <Author>Thomas Schmitt</Author>
         <Author>Arnold Perl</Author>
@@ -238,34 +307,153 @@
       </ItemAttributes>
       <OfferSummary>
         <LowestNewPrice>
-          <Amount>750</Amount>
+          <Amount>944</Amount>
           <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$7.50</FormattedPrice>
+          <FormattedPrice>$9.44</FormattedPrice>
         </LowestNewPrice>
         <LowestUsedPrice>
-          <Amount>750</Amount>
+          <Amount>698</Amount>
           <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$7.50</FormattedPrice>
+          <FormattedPrice>$6.98</FormattedPrice>
         </LowestUsedPrice>
         <LowestCollectiblePrice>
           <Amount>2295</Amount>
           <CurrencyCode>USD</CurrencyCode>
           <FormattedPrice>$22.95</FormattedPrice>
         </LowestCollectiblePrice>
-        <TotalNew>47</TotalNew>
-        <TotalUsed>22</TotalUsed>
+        <TotalNew>40</TotalNew>
+        <TotalUsed>19</TotalUsed>
         <TotalCollectible>1</TotalCollectible>
         <TotalRefurbished>0</TotalRefurbished>
       </OfferSummary>
+      <Offers>
+        <TotalOffers>1</TotalOffers>
+        <TotalOfferPages>1</TotalOfferPages>
+        <Offer>
+          <Merchant>
+            <MerchantId>ATVPDKIKX0DER</MerchantId>
+            <GlancePage>http://www.amazon.com/gp/help/seller/home.html?seller=ATVPDKIKX0DER</GlancePage>
+            <AverageFeedbackRating>0.0</AverageFeedbackRating>
+            <TotalFeedback>0</TotalFeedback>
+          </Merchant>
+          <OfferAttributes>
+            <Condition>New</Condition>
+            <SubCondition>new</SubCondition>
+          </OfferAttributes>
+          <OfferListing>
+            <OfferListingId>LiTn4LHKJ9om%2BICSypU61nDBOH8H%2Bx37YfRQjGUrtGUGf2el6D0vCmcUdE0cZbht%2Fh%2BpRL7%2B%2F0aoEzDKy1%2B8nA%3D%3D</OfferListingId>
+            <Price>
+              <Amount>1721</Amount>
+              <CurrencyCode>USD</CurrencyCode>
+              <FormattedPrice>$17.21</FormattedPrice>
+            </Price>
+            <AmountSaved>
+              <Amount>574</Amount>
+              <CurrencyCode>USD</CurrencyCode>
+              <FormattedPrice>$5.74</FormattedPrice>
+            </AmountSaved>
+            <PercentageSaved>25</PercentageSaved>
+            <Availability>Usually ships in 24 hours</Availability>
+            <AvailabilityAttributes>
+              <AvailabilityType>now</AvailabilityType>
+              <MinimumHours>0</MinimumHours>
+              <MaximumHours>0</MaximumHours>
+            </AvailabilityAttributes>
+            <Quantity>-1</Quantity>
+            <IsEligibleForSuperSaverShipping>1</IsEligibleForSuperSaverShipping>
+          </OfferListing>
+        </Offer>
+      </Offers>
+    </Item>
+    <Item>
+      <ASIN>0596529368</ASIN>
+      <DetailPageURL>http://www.amazon.com/gp/redirect.html%3FASIN=0596529368%26tag=ws%26lcode=xm2%26cID=2025%26ccmID=165953%26location=/o/ASIN/0596529368%253FSubscriptionId=1VAESZQN1G7SXNRG4882</DetailPageURL>
+      <SalesRank>201238</SalesRank>
+      <ItemAttributes>
+        <Author>Shelley Powers</Author>
+        <Binding>Paperback</Binding>
+        <DeweyDecimalNumber>006.786</DeweyDecimalNumber>
+        <EAN>9780596529369</EAN>
+        <Format>Illustrated</Format>
+        <ISBN>0596529368</ISBN>
+        <Label>O'Reilly Media, Inc.</Label>
+        <ListPrice>
+          <Amount>3499</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$34.99</FormattedPrice>
+        </ListPrice>
+        <Manufacturer>O'Reilly Media, Inc.</Manufacturer>
+        <NumberOfItems>1</NumberOfItems>
+        <NumberOfPages>399</NumberOfPages>
+        <ProductGroup>Book</ProductGroup>
+        <ProductTypeName>ABIS_BOOK</ProductTypeName>
+        <PublicationDate>2007-06-20</PublicationDate>
+        <Publisher>O'Reilly Media, Inc.</Publisher>
+        <Studio>O'Reilly Media, Inc.</Studio>
+        <Title>Adding Ajax</Title>
+      </ItemAttributes>
+      <OfferSummary>
+        <LowestNewPrice>
+          <Amount>1931</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$19.31</FormattedPrice>
+        </LowestNewPrice>
+        <LowestUsedPrice>
+          <Amount>900</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$9.00</FormattedPrice>
+        </LowestUsedPrice>
+        <TotalNew>39</TotalNew>
+        <TotalUsed>12</TotalUsed>
+        <TotalCollectible>0</TotalCollectible>
+        <TotalRefurbished>0</TotalRefurbished>
+      </OfferSummary>
+      <Offers>
+        <TotalOffers>1</TotalOffers>
+        <TotalOfferPages>1</TotalOfferPages>
+        <Offer>
+          <Merchant>
+            <MerchantId>ATVPDKIKX0DER</MerchantId>
+            <GlancePage>http://www.amazon.com/gp/help/seller/home.html?seller=ATVPDKIKX0DER</GlancePage>
+            <AverageFeedbackRating>0.0</AverageFeedbackRating>
+            <TotalFeedback>0</TotalFeedback>
+          </Merchant>
+          <OfferAttributes>
+            <Condition>New</Condition>
+            <SubCondition>new</SubCondition>
+          </OfferAttributes>
+          <OfferListing>
+            <OfferListingId>TmMX61ndI1KxwF9Mf7A%2BHMUuKnPILFZ7vpGcrFtljo%2BGq%2FwDTSMukSfy9XLRY7RI8eVBPVOijWtBkOmrYevrMw%3D%3D</OfferListingId>
+            <Price>
+              <Amount>2309</Amount>
+              <CurrencyCode>USD</CurrencyCode>
+              <FormattedPrice>$23.09</FormattedPrice>
+            </Price>
+            <AmountSaved>
+              <Amount>1190</Amount>
+              <CurrencyCode>USD</CurrencyCode>
+              <FormattedPrice>$11.90</FormattedPrice>
+            </AmountSaved>
+            <PercentageSaved>34</PercentageSaved>
+            <Availability>Usually ships in 24 hours</Availability>
+            <AvailabilityAttributes>
+              <AvailabilityType>now</AvailabilityType>
+              <MinimumHours>0</MinimumHours>
+              <MaximumHours>0</MaximumHours>
+            </AvailabilityAttributes>
+            <Quantity>-1</Quantity>
+            <IsEligibleForSuperSaverShipping>1</IsEligibleForSuperSaverShipping>
+          </OfferListing>
+        </Offer>
+      </Offers>
     </Item>
     <Item>
       <ASIN>1598631616</ASIN>
       <DetailPageURL>http://www.amazon.com/gp/redirect.html%3FASIN=1598631616%26tag=ws%26lcode=xm2%26cID=2025%26ccmID=165953%26location=/o/ASIN/1598631616%253FSubscriptionId=1VAESZQN1G7SXNRG4882</DetailPageURL>
-      <SalesRank>684599</SalesRank>
+      <SalesRank>580693</SalesRank>
       <ItemAttributes>
         <Author>Ph.D., John P Flynt</Author>
         <Binding>Paperback</Binding>
-        <Brand>Course Technology</Brand>
         <DeweyDecimalNumber>005.133</DeweyDecimalNumber>
         <EAN>9781598631616</EAN>
         <Edition>1</Edition>
@@ -288,20 +476,58 @@
       </ItemAttributes>
       <OfferSummary>
         <LowestNewPrice>
-          <Amount>1449</Amount>
+          <Amount>1389</Amount>
           <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$14.49</FormattedPrice>
+          <FormattedPrice>$13.89</FormattedPrice>
         </LowestNewPrice>
         <LowestUsedPrice>
-          <Amount>1390</Amount>
+          <Amount>1200</Amount>
           <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$13.90</FormattedPrice>
+          <FormattedPrice>$12.00</FormattedPrice>
         </LowestUsedPrice>
-        <TotalNew>17</TotalNew>
-        <TotalUsed>6</TotalUsed>
+        <TotalNew>15</TotalNew>
+        <TotalUsed>7</TotalUsed>
         <TotalCollectible>0</TotalCollectible>
         <TotalRefurbished>0</TotalRefurbished>
       </OfferSummary>
+      <Offers>
+        <TotalOffers>1</TotalOffers>
+        <TotalOfferPages>1</TotalOfferPages>
+        <Offer>
+          <Merchant>
+            <MerchantId>ATVPDKIKX0DER</MerchantId>
+            <GlancePage>http://www.amazon.com/gp/help/seller/home.html?seller=ATVPDKIKX0DER</GlancePage>
+            <AverageFeedbackRating>0.0</AverageFeedbackRating>
+            <TotalFeedback>0</TotalFeedback>
+          </Merchant>
+          <OfferAttributes>
+            <Condition>New</Condition>
+            <SubCondition>new</SubCondition>
+          </OfferAttributes>
+          <OfferListing>
+            <OfferListingId>eMftjaZPSRQf17hYK8IoN8LWdGp7xbTyaHC5k8ADPpx8pvcb%2Fz0s8%2F7y239kpHYcASKDsDj00g2P1kruu1nqu%2B90%2B%2BMA9UCP</OfferListingId>
+            <Price>
+              <Amount>2799</Amount>
+              <CurrencyCode>USD</CurrencyCode>
+              <FormattedPrice>$27.99</FormattedPrice>
+            </Price>
+            <AmountSaved>
+              <Amount>700</Amount>
+              <CurrencyCode>USD</CurrencyCode>
+              <FormattedPrice>$7.00</FormattedPrice>
+            </AmountSaved>
+            <PercentageSaved>20</PercentageSaved>
+            <Availability>Usually ships in 24 hours</Availability>
+            <AvailabilityAttributes>
+              <AvailabilityType>now</AvailabilityType>
+              <MinimumHours>0</MinimumHours>
+              <MaximumHours>0</MaximumHours>
+            </AvailabilityAttributes>
+            <Quantity>-1</Quantity>
+            <IsEligibleForSuperSaverShipping>1</IsEligibleForSuperSaverShipping>
+          </OfferListing>
+        </Offer>
+      </Offers>
       <Accessories>
         <Accessory>
           <ASIN>1598632221</ASIN>
@@ -320,7 +546,7 @@
     <Item>
       <ASIN>1861004494</ASIN>
       <DetailPageURL>http://www.amazon.com/gp/redirect.html%3FASIN=1861004494%26tag=ws%26lcode=xm2%26cID=2025%26ccmID=165953%26location=/o/ASIN/1861004494%253FSubscriptionId=1VAESZQN1G7SXNRG4882</DetailPageURL>
-      <SalesRank>1029346</SalesRank>
+      <SalesRank>664483</SalesRank>
       <ItemAttributes>
         <Author>Peter Wainwright</Author>
         <Author>Aldo Calpini</Author>
@@ -357,25 +583,29 @@
       </ItemAttributes>
       <OfferSummary>
         <LowestNewPrice>
-          <Amount>1299</Amount>
+          <Amount>2499</Amount>
           <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$12.99</FormattedPrice>
+          <FormattedPrice>$24.99</FormattedPrice>
         </LowestNewPrice>
         <LowestUsedPrice>
-          <Amount>1299</Amount>
+          <Amount>1297</Amount>
           <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$12.99</FormattedPrice>
+          <FormattedPrice>$12.97</FormattedPrice>
         </LowestUsedPrice>
-        <TotalNew>8</TotalNew>
-        <TotalUsed>8</TotalUsed>
+        <TotalNew>5</TotalNew>
+        <TotalUsed>5</TotalUsed>
         <TotalCollectible>0</TotalCollectible>
         <TotalRefurbished>0</TotalRefurbished>
       </OfferSummary>
+      <Offers>
+        <TotalOffers>0</TotalOffers>
+        <TotalOfferPages>0</TotalOfferPages>
+      </Offers>
     </Item>
     <Item>
       <ASIN>0201360683</ASIN>
       <DetailPageURL>http://www.amazon.com/gp/redirect.html%3FASIN=0201360683%26tag=ws%26lcode=xm2%26cID=2025%26ccmID=165953%26location=/o/ASIN/0201360683%253FSubscriptionId=1VAESZQN1G7SXNRG4882</DetailPageURL>
-      <SalesRank>1649405</SalesRank>
+      <SalesRank>816560</SalesRank>
       <ItemAttributes>
         <Author>Michael Schilli</Author>
         <Binding>Paperback</Binding>
@@ -401,112 +631,102 @@
       </ItemAttributes>
       <OfferSummary>
         <LowestNewPrice>
-          <Amount>1480</Amount>
+          <Amount>1481</Amount>
           <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$14.80</FormattedPrice>
+          <FormattedPrice>$14.81</FormattedPrice>
         </LowestNewPrice>
         <LowestUsedPrice>
-          <Amount>430</Amount>
+          <Amount>309</Amount>
           <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$4.30</FormattedPrice>
+          <FormattedPrice>$3.09</FormattedPrice>
         </LowestUsedPrice>
-        <TotalNew>5</TotalNew>
-        <TotalUsed>9</TotalUsed>
-        <TotalCollectible>0</TotalCollectible>
-        <TotalRefurbished>0</TotalRefurbished>
-      </OfferSummary>
-    </Item>
-    <Item>
-      <ASIN>1571690476</ASIN>
-      <DetailPageURL>http://www.amazon.com/gp/redirect.html%3FASIN=1571690476%26tag=ws%26lcode=xm2%26cID=2025%26ccmID=165953%26location=/o/ASIN/1571690476%253FSubscriptionId=1VAESZQN1G7SXNRG4882</DetailPageURL>
-      <SalesRank>2482839</SalesRank>
-      <ItemAttributes>
-        <Author>George Pickering</Author>
-        <Author>Shelley Powers</Author>
-        <Author>Ron Johnson</Author>
-        <Binding>Paperback</Binding>
-        <Brand>Waite Group Press</Brand>
-        <DeweyDecimalNumber>005.2</DeweyDecimalNumber>
-        <EAN>9781571690470</EAN>
-        <Edition>Pap/Cdr</Edition>
-        <ISBN>1571690476</ISBN>
-        <Label>Waite Group Press</Label>
-        <ListPrice>
-          <Amount>4499</Amount>
-          <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$44.99</FormattedPrice>
-        </ListPrice>
-        <Manufacturer>Waite Group Press</Manufacturer>
-        <NumberOfItems>1</NumberOfItems>
-        <NumberOfPages>650</NumberOfPages>
-        <ProductGroup>Book</ProductGroup>
-        <ProductTypeName>ABIS_BOOK</ProductTypeName>
-        <PublicationDate>1996-12</PublicationDate>
-        <Publisher>Waite Group Press</Publisher>
-        <Studio>Waite Group Press</Studio>
-        <Title>Javascript How-To: The Definitive Javascript Problem-Solver (How-to)</Title>
-      </ItemAttributes>
-      <OfferSummary>
-        <LowestNewPrice>
-          <Amount>1699</Amount>
-          <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$16.99</FormattedPrice>
-        </LowestNewPrice>
-        <LowestUsedPrice>
-          <Amount>292</Amount>
-          <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$2.92</FormattedPrice>
-        </LowestUsedPrice>
-        <TotalNew>4</TotalNew>
+        <TotalNew>3</TotalNew>
         <TotalUsed>13</TotalUsed>
         <TotalCollectible>0</TotalCollectible>
         <TotalRefurbished>0</TotalRefurbished>
       </OfferSummary>
+      <Offers>
+        <TotalOffers>0</TotalOffers>
+        <TotalOfferPages>0</TotalOfferPages>
+      </Offers>
     </Item>
     <Item>
-      <ASIN>0134393996</ASIN>
-      <DetailPageURL>http://www.amazon.com/gp/redirect.html%3FASIN=0134393996%26tag=ws%26lcode=xm2%26cID=2025%26ccmID=165953%26location=/o/ASIN/0134393996%253FSubscriptionId=1VAESZQN1G7SXNRG4882</DetailPageURL>
-      <SalesRank>3063299</SalesRank>
+      <ASIN>0789706598</ASIN>
+      <DetailPageURL>http://www.amazon.com/gp/redirect.html%3FASIN=0789706598%26tag=ws%26lcode=xm2%26cID=2025%26ccmID=165953%26location=/o/ASIN/0789706598%253FSubscriptionId=1VAESZQN1G7SXNRG4882</DetailPageURL>
+      <SalesRank>855019</SalesRank>
       <ItemAttributes>
-        <Author>Vivian Neou</Author>
-        <Author>Mimi Recker</Author>
+        <Author>David Harlan</Author>
+        <Author>Paul Doyle</Author>
+        <Author>Matthew D. Healy</Author>
+        <Author>Micheal O Foghlu</Author>
+        <Author>Shelley Powers</Author>
         <Binding>Paperback</Binding>
-        <DeweyDecimalNumber>005.75</DeweyDecimalNumber>
-        <EAN>9780134393995</EAN>
-        <Edition>Pap/Cdr</Edition>
-        <ISBN>0134393996</ISBN>
-        <Label>Prentice Hall</Label>
+        <EAN>9780789706591</EAN>
+        <Edition>Pap/Com</Edition>
+        <ISBN>0789706598</ISBN>
+        <Label>Que Pub</Label>
         <ListPrice>
-          <Amount>4495</Amount>
+          <Amount>4999</Amount>
           <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$44.95</FormattedPrice>
+          <FormattedPrice>$49.99</FormattedPrice>
         </ListPrice>
-        <Manufacturer>Prentice Hall</Manufacturer>
+        <Manufacturer>Que Pub</Manufacturer>
         <NumberOfItems>1</NumberOfItems>
-        <NumberOfPages>441</NumberOfPages>
+        <NumberOfPages>600</NumberOfPages>
         <ProductGroup>Book</ProductGroup>
         <ProductTypeName>ABIS_BOOK</ProductTypeName>
-        <PublicationDate>1996-06</PublicationDate>
-        <Publisher>Prentice Hall</Publisher>
-        <Studio>Prentice Hall</Studio>
-        <Title>Html 3.0 Cd With Javascript for the Mac and Power Mac</Title>
+        <PublicationDate>1996-09-01</PublicationDate>
+        <Publisher>Que Pub</Publisher>
+        <Studio>Que Pub</Studio>
+        <Title>Special Edition Using Perl 5 for Web Programming</Title>
       </ItemAttributes>
       <OfferSummary>
         <LowestNewPrice>
-          <Amount>1000</Amount>
+          <Amount>489</Amount>
           <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$10.00</FormattedPrice>
+          <FormattedPrice>$4.89</FormattedPrice>
         </LowestNewPrice>
         <LowestUsedPrice>
-          <Amount>39</Amount>
+          <Amount>33</Amount>
           <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$0.39</FormattedPrice>
+          <FormattedPrice>$0.33</FormattedPrice>
         </LowestUsedPrice>
-        <TotalNew>1</TotalNew>
-        <TotalUsed>9</TotalUsed>
+        <TotalNew>7</TotalNew>
+        <TotalUsed>20</TotalUsed>
         <TotalCollectible>0</TotalCollectible>
         <TotalRefurbished>0</TotalRefurbished>
       </OfferSummary>
+      <Offers>
+        <TotalOffers>0</TotalOffers>
+        <TotalOfferPages>0</TotalOfferPages>
+      </Offers>
+    </Item>
+    <Item>
+      <ASIN>B000IXLNZK</ASIN>
+      <DetailPageURL>http://www.amazon.com/gp/redirect.html%3FASIN=B000IXLNZK%26tag=ws%26lcode=xm2%26cID=2025%26ccmID=165953%26location=/o/ASIN/B000IXLNZK%253FSubscriptionId=1VAESZQN1G7SXNRG4882</DetailPageURL>
+      <SalesRank>2774618</SalesRank>
+      <ItemAttributes>
+        <Author>David; Foghlu, Micheal O.; Doyle, Paul; Powers, Shelley; Healy, Matthew D. Harlan</Author>
+        <Binding>Paperback</Binding>
+        <Label>Que Corp.</Label>
+        <Manufacturer>Que Corp.</Manufacturer>
+        <ProductGroup>Book</ProductGroup>
+        <ProductTypeName>BOOKS_1973_AND_LATER</ProductTypeName>
+        <PublicationDate>1996</PublicationDate>
+        <Publisher>Que Corp.</Publisher>
+        <Studio>Que Corp.</Studio>
+        <Title>Using Perl For Web Programming, Special Edition</Title>
+      </ItemAttributes>
+      <OfferSummary>
+        <TotalNew>0</TotalNew>
+        <TotalUsed>0</TotalUsed>
+        <TotalCollectible>0</TotalCollectible>
+        <TotalRefurbished>0</TotalRefurbished>
+      </OfferSummary>
+      <Offers>
+        <TotalOffers>0</TotalOffers>
+        <TotalOfferPages>0</TotalOfferPages>
+      </Offers>
     </Item>
   </Items>
 </ItemSearchResponse>

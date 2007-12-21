@@ -260,7 +260,6 @@ lib/Net/Amazon/Validate/ItemSearch/us/AudienceRating.pm
 lib/Net/Amazon/Validate/ItemSearch/us/Author.pm
 lib/Net/Amazon/Validate/ItemSearch/us/Availability.pm
 lib/Net/Amazon/Validate/ItemSearch/us/Brand.pm
-lib/Net/Amazon/Validate/ItemSearch/us/Browsenode.pm
 lib/Net/Amazon/Validate/ItemSearch/us/BrowseNode.pm
 lib/Net/Amazon/Validate/ItemSearch/us/City.pm
 lib/Net/Amazon/Validate/ItemSearch/us/Composer.pm

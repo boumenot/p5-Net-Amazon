@@ -7,16 +7,15 @@
         <Item>
           <ASIN>0201633612</ASIN>
           <DetailPageURL>http://www.amazon.com/gp/redirect.html%3FASIN=0201633612%26tag=ws%26lcode=xm2%26cID=2025%26ccmID=165953%26location=/o/ASIN/0201633612%253FSubscriptionId=1VAESZQN1G7SXNRG4882%2526coliid=I1FOJDQUPGIVUL%2526colid=1XL5DWOUFMFVJ</DetailPageURL>
-          <SalesRank>1318</SalesRank>
+          <SalesRank>5062</SalesRank>
           <ItemAttributes>
             <Author>Erich Gamma</Author>
             <Author>Richard Helm</Author>
             <Author>Ralph Johnson</Author>
-            <Author>John Vlissides</Author>
+            <Author>John M. Vlissides</Author>
             <Binding>Hardcover</Binding>
             <DeweyDecimalNumber>005.12</DeweyDecimalNumber>
             <EAN>9780201633610</EAN>
-            <Edition>1st</Edition>
             <ISBN>0201633612</ISBN>
             <Label>Addison-Wesley Professional</Label>
             <ListPrice>
@@ -26,10 +25,10 @@
             </ListPrice>
             <Manufacturer>Addison-Wesley Professional</Manufacturer>
             <NumberOfItems>1</NumberOfItems>
-            <NumberOfPages>395</NumberOfPages>
+            <NumberOfPages>416</NumberOfPages>
             <ProductGroup>Book</ProductGroup>
             <ProductTypeName>ABIS_BOOK</ProductTypeName>
-            <PublicationDate>1995-01-15</PublicationDate>
+            <PublicationDate>1994-11-10</PublicationDate>
             <Publisher>Addison-Wesley Professional</Publisher>
             <Studio>Addison-Wesley Professional</Studio>
             <Title>Design Patterns: Elements of Reusable Object-Oriented Software (Addison-Wesley Professional Computing Series)</Title>
@@ -37,32 +36,69 @@
           </ItemAttributes>
           <OfferSummary>
             <LowestNewPrice>
-              <Amount>3095</Amount>
+              <Amount>4000</Amount>
               <CurrencyCode>USD</CurrencyCode>
-              <FormattedPrice>$30.95</FormattedPrice>
+              <FormattedPrice>$40.00</FormattedPrice>
             </LowestNewPrice>
             <LowestUsedPrice>
-              <Amount>2755</Amount>
+              <Amount>3998</Amount>
               <CurrencyCode>USD</CurrencyCode>
-              <FormattedPrice>$27.55</FormattedPrice>
+              <FormattedPrice>$39.98</FormattedPrice>
             </LowestUsedPrice>
-            <TotalNew>63</TotalNew>
-            <TotalUsed>41</TotalUsed>
+            <TotalNew>46</TotalNew>
+            <TotalUsed>29</TotalUsed>
             <TotalCollectible>0</TotalCollectible>
             <TotalRefurbished>0</TotalRefurbished>
           </OfferSummary>
+          <Offers>
+            <TotalOffers>1</TotalOffers>
+            <TotalOfferPages>1</TotalOfferPages>
+            <Offer>
+              <Merchant>
+                <MerchantId>ATVPDKIKX0DER</MerchantId>
+                <GlancePage>http://www.amazon.com/gp/help/seller/home.html?seller=ATVPDKIKX0DER</GlancePage>
+                <AverageFeedbackRating>0.0</AverageFeedbackRating>
+                <TotalFeedback>0</TotalFeedback>
+              </Merchant>
+              <OfferAttributes>
+                <Condition>New</Condition>
+                <SubCondition>new</SubCondition>
+              </OfferAttributes>
+              <OfferListing>
+                <OfferListingId>N2Pto6agpI0zuBs6DbSQF%2BQfvXB1oUYOCWx7KZ5zQbNYbCpkC9YrDqDyTHyOde%2BiA84ggkYDOs4kcskcGEvlpg%3D%3D</OfferListingId>
+                <Price>
+                  <Amount>4800</Amount>
+                  <CurrencyCode>USD</CurrencyCode>
+                  <FormattedPrice>$48.00</FormattedPrice>
+                </Price>
+                <AmountSaved>
+                  <Amount>1199</Amount>
+                  <CurrencyCode>USD</CurrencyCode>
+                  <FormattedPrice>$11.99</FormattedPrice>
+                </AmountSaved>
+                <PercentageSaved>20</PercentageSaved>
+                <Availability>Usually ships in 24 hours</Availability>
+                <AvailabilityAttributes>
+                  <AvailabilityType>now</AvailabilityType>
+                  <MinimumHours>0</MinimumHours>
+                  <MaximumHours>0</MaximumHours>
+                </AvailabilityAttributes>
+                <Quantity>-1</Quantity>
+                <IsEligibleForSuperSaverShipping>1</IsEligibleForSuperSaverShipping>
+              </OfferListing>
+            </Offer>
+          </Offers>
         </Item>
       </ListItem>
       <ListItem>
         <Item>
           <ASIN>1882114981</ASIN>
           <DetailPageURL>http://www.amazon.com/gp/redirect.html%3FASIN=1882114981%26tag=ws%26lcode=xm2%26cID=2025%26ccmID=165953%26location=/o/ASIN/1882114981%253FSubscriptionId=1VAESZQN1G7SXNRG4882%2526coliid=I2SZ3BJZ1PFKAJ%2526colid=1XL5DWOUFMFVJ</DetailPageURL>
-          <SalesRank>244805</SalesRank>
+          <SalesRank>205501</SalesRank>
           <ItemAttributes>
             <Author>Richard M. Stallman</Author>
             <Author>Lawrence Lessig</Author>
             <Binding>Hardcover</Binding>
-            <Brand>Free Software Foundation</Brand>
             <Creator Role="Editor">Joshua Gay</Creator>
             <DeweyDecimalNumber>346</DeweyDecimalNumber>
             <EAN>9781882114986</EAN>
@@ -95,15 +131,19 @@
               <FormattedPrice>$13.64</FormattedPrice>
             </LowestUsedPrice>
             <LowestCollectiblePrice>
-              <Amount>5400</Amount>
+              <Amount>5495</Amount>
               <CurrencyCode>USD</CurrencyCode>
-              <FormattedPrice>$54.00</FormattedPrice>
+              <FormattedPrice>$54.95</FormattedPrice>
             </LowestCollectiblePrice>
-            <TotalNew>7</TotalNew>
-            <TotalUsed>8</TotalUsed>
-            <TotalCollectible>2</TotalCollectible>
+            <TotalNew>1</TotalNew>
+            <TotalUsed>6</TotalUsed>
+            <TotalCollectible>1</TotalCollectible>
             <TotalRefurbished>0</TotalRefurbished>
           </OfferSummary>
+          <Offers>
+            <TotalOffers>0</TotalOffers>
+            <TotalOfferPages>0</TotalOfferPages>
+          </Offers>
         </Item>
       </ListItem>
     </List>

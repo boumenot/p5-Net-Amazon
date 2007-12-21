@@ -4,7 +4,7 @@
     <Item>
       <ASIN>3827313783</ASIN>
       <DetailPageURL>http://www.amazon.de/gp/redirect.html%3FASIN=3827313783%26tag=ws%26lcode=xm2%26cID=2025%26ccmID=165953%26location=/o/ASIN/3827313783%253FSubscriptionId=1VAESZQN1G7SXNRG4882</DetailPageURL>
-      <SalesRank>431866</SalesRank>
+      <SalesRank>517710</SalesRank>
       <ItemAttributes>
         <Author>Michael Schilli</Author>
         <Binding>Gebundene Ausgabe</Binding>
@@ -24,12 +24,12 @@
       </ItemAttributes>
       <OfferSummary>
         <LowestUsedPrice>
-          <Amount>850</Amount>
+          <Amount>900</Amount>
           <CurrencyCode>EUR</CurrencyCode>
-          <FormattedPrice>EUR 8,50</FormattedPrice>
+          <FormattedPrice>EUR 9,00</FormattedPrice>
         </LowestUsedPrice>
         <TotalNew>0</TotalNew>
-        <TotalUsed>4</TotalUsed>
+        <TotalUsed>3</TotalUsed>
         <TotalCollectible>0</TotalCollectible>
         <TotalRefurbished>0</TotalRefurbished>
       </OfferSummary>

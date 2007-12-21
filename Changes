@@ -1,4 +1,10 @@
 Revision history for Perl extension Net::Amazon:
+0.47 (12/16/2007)
+   (cb) Fix an issue on Darwin with Perl 5.10.  Yet another issue found
+        by CPAN testers - thanks!
+   (cb) Aethon ?? (aethon@gmail.com) pointed out that OurPrice() was not
+        returning the correct price information.  This has been an issue
+        since the cutover to AWS4, and is a great catch.
 
 0.46 (11/16/2007)
    (cb) Serge Dubrouski <sergeyfd@gmail.com> submitted a patch for returning

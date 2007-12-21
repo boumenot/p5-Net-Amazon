@@ -1,73 +1,54 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ItemSearchResponse xmlns="http://webservices.amazon.com/AWSECommerceService/2007-10-29">
   <Items>
-    <TotalResults>4</TotalResults>
+    <TotalResults>5</TotalResults>
     <TotalPages>1</TotalPages>
     <Item>
-      <ASIN>0619073675</ASIN>
-      <DetailPageURL>http://www.amazon.com/gp/redirect.html%3FASIN=0619073675%26tag=ws%26lcode=xm2%26cID=2025%26ccmID=165953%26location=/o/ASIN/0619073675%253FSubscriptionId=1VAESZQN1G7SXNRG4882</DetailPageURL>
+      <ASIN>0619034408</ASIN>
+      <DetailPageURL>http://www.amazon.com/gp/redirect.html%3FASIN=0619034408%26tag=ws%26lcode=xm2%26cID=2025%26ccmID=165953%26location=/o/ASIN/0619034408%253FSubscriptionId=1VAESZQN1G7SXNRG4882</DetailPageURL>
+      <SalesRank>463667</SalesRank>
       <ItemAttributes>
-        <Binding>Spiral-bound</Binding>
-        <EAN>9780619073671</EAN>
-        <ISBN>0619073675</ISBN>
+        <Author>Diane Zak</Author>
+        <Binding>Paperback</Binding>
+        <DeweyDecimalNumber>005.2762</DeweyDecimalNumber>
+        <EAN>9780619034405</EAN>
+        <Edition>1</Edition>
+        <ISBN>0619034408</ISBN>
         <Label>Course Technology</Label>
         <ListPrice>
-          <Amount>10000</Amount>
+          <Amount>6795</Amount>
           <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$100.00</FormattedPrice>
+          <FormattedPrice>$67.95</FormattedPrice>
         </ListPrice>
         <Manufacturer>Course Technology</Manufacturer>
         <NumberOfItems>1</NumberOfItems>
-        <NumberOfPages>160</NumberOfPages>
+        <NumberOfPages>384</NumberOfPages>
         <ProductGroup>Book</ProductGroup>
         <ProductTypeName>ABIS_BOOK</ProductTypeName>
-        <PublicationDate>2001-11</PublicationDate>
+        <PublicationDate>2001-08-09</PublicationDate>
         <Publisher>Course Technology</Publisher>
         <Studio>Course Technology</Studio>
-        <Title>Course Ilt: Cgi/Perl (Course ILT)</Title>
+        <Title>CGI/Perl (Web Warrior Series)</Title>
       </ItemAttributes>
       <OfferSummary>
         <LowestNewPrice>
-          <Amount>10000</Amount>
+          <Amount>2347</Amount>
           <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$100.00</FormattedPrice>
+          <FormattedPrice>$23.47</FormattedPrice>
         </LowestNewPrice>
-        <TotalNew>1</TotalNew>
-        <TotalUsed>0</TotalUsed>
+        <LowestUsedPrice>
+          <Amount>801</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$8.01</FormattedPrice>
+        </LowestUsedPrice>
+        <TotalNew>9</TotalNew>
+        <TotalUsed>12</TotalUsed>
         <TotalCollectible>0</TotalCollectible>
         <TotalRefurbished>0</TotalRefurbished>
       </OfferSummary>
       <Offers>
-        <TotalOffers>1</TotalOffers>
-        <TotalOfferPages>1</TotalOfferPages>
-        <Offer>
-          <Merchant>
-            <MerchantId>ATVPDKIKX0DER</MerchantId>
-            <GlancePage>http://www.amazon.com/gp/help/seller/home.html?seller=ATVPDKIKX0DER</GlancePage>
-            <AverageFeedbackRating>0.0</AverageFeedbackRating>
-            <TotalFeedback>0</TotalFeedback>
-          </Merchant>
-          <OfferAttributes>
-            <Condition>New</Condition>
-            <SubCondition>new</SubCondition>
-          </OfferAttributes>
-          <OfferListing>
-            <OfferListingId>fh9eYtAqtW1xzSvN7gjD1zrbKcf1nuo3qoX8XewbrMfNnMCwtlnl7%2FexhZxyOx5n3JbynziPIudXoNgMX0I1Sg%3D%3D</OfferListingId>
-            <Price>
-              <Amount>10000</Amount>
-              <CurrencyCode>USD</CurrencyCode>
-              <FormattedPrice>$100.00</FormattedPrice>
-            </Price>
-            <Availability>Usually ships in 1 to 2 months</Availability>
-            <AvailabilityAttributes>
-              <AvailabilityType>now</AvailabilityType>
-              <MinimumHours>648</MinimumHours>
-              <MaximumHours>1416</MaximumHours>
-            </AvailabilityAttributes>
-            <Quantity>-1</Quantity>
-            <IsEligibleForSuperSaverShipping>1</IsEligibleForSuperSaverShipping>
-          </OfferListing>
-        </Offer>
+        <TotalOffers>0</TotalOffers>
+        <TotalOfferPages>0</TotalOfferPages>
       </Offers>
       <BrowseNodes>
         <BrowseNode>
@@ -140,16 +121,153 @@
             </BrowseNode>
           </Ancestors>
         </BrowseNode>
+        <BrowseNode>
+          <BrowseNodeId>171114</BrowseNodeId>
+          <Name>General</Name>
+          <Ancestors>
+            <BrowseNode>
+              <BrowseNodeId>3839</BrowseNodeId>
+              <Name>Programming</Name>
+              <Ancestors>
+                <BrowseNode>
+                  <BrowseNodeId>5</BrowseNodeId>
+                  <Name>Computers &amp; Internet</Name>
+                  <Ancestors>
+                    <BrowseNode>
+                      <BrowseNodeId>1000</BrowseNodeId>
+                      <Name>Subjects</Name>
+                      <IsCategoryRoot>1</IsCategoryRoot>
+                      <Ancestors>
+                        <BrowseNode>
+                          <BrowseNodeId>283155</BrowseNodeId>
+                          <Name>Books</Name>
+                        </BrowseNode>
+                      </Ancestors>
+                    </BrowseNode>
+                  </Ancestors>
+                </BrowseNode>
+              </Ancestors>
+            </BrowseNode>
+          </Ancestors>
+        </BrowseNode>
+        <BrowseNode>
+          <BrowseNodeId>411314</BrowseNodeId>
+          <Name>General</Name>
+          <Ancestors>
+            <BrowseNode>
+              <BrowseNodeId>3600</BrowseNodeId>
+              <Name>Programming</Name>
+              <Ancestors>
+                <BrowseNode>
+                  <BrowseNodeId>3510</BrowseNodeId>
+                  <Name>Web Development</Name>
+                  <Ancestors>
+                    <BrowseNode>
+                      <BrowseNodeId>5</BrowseNodeId>
+                      <Name>Computers &amp; Internet</Name>
+                      <Ancestors>
+                        <BrowseNode>
+                          <BrowseNodeId>1000</BrowseNodeId>
+                          <Name>Subjects</Name>
+                          <IsCategoryRoot>1</IsCategoryRoot>
+                          <Ancestors>
+                            <BrowseNode>
+                              <BrowseNodeId>283155</BrowseNodeId>
+                              <Name>Books</Name>
+                            </BrowseNode>
+                          </Ancestors>
+                        </BrowseNode>
+                      </Ancestors>
+                    </BrowseNode>
+                  </Ancestors>
+                </BrowseNode>
+              </Ancestors>
+            </BrowseNode>
+          </Ancestors>
+        </BrowseNode>
+        <BrowseNode>
+          <BrowseNodeId>657762</BrowseNodeId>
+          <Name>General</Name>
+          <Ancestors>
+            <BrowseNode>
+              <BrowseNodeId>5</BrowseNodeId>
+              <Name>Computers &amp; Internet</Name>
+              <Ancestors>
+                <BrowseNode>
+                  <BrowseNodeId>1000</BrowseNodeId>
+                  <Name>Subjects</Name>
+                  <IsCategoryRoot>1</IsCategoryRoot>
+                  <Ancestors>
+                    <BrowseNode>
+                      <BrowseNodeId>283155</BrowseNodeId>
+                      <Name>Books</Name>
+                    </BrowseNode>
+                  </Ancestors>
+                </BrowseNode>
+              </Ancestors>
+            </BrowseNode>
+          </Ancestors>
+        </BrowseNode>
+        <BrowseNode>
+          <BrowseNodeId>132575011</BrowseNodeId>
+          <Name>General</Name>
+          <Ancestors>
+            <BrowseNode>
+              <BrowseNodeId>4053</BrowseNodeId>
+              <Name>Software</Name>
+              <Ancestors>
+                <BrowseNode>
+                  <BrowseNodeId>5</BrowseNodeId>
+                  <Name>Computers &amp; Internet</Name>
+                  <Ancestors>
+                    <BrowseNode>
+                      <BrowseNodeId>1000</BrowseNodeId>
+                      <Name>Subjects</Name>
+                      <IsCategoryRoot>1</IsCategoryRoot>
+                      <Ancestors>
+                        <BrowseNode>
+                          <BrowseNodeId>283155</BrowseNodeId>
+                          <Name>Books</Name>
+                        </BrowseNode>
+                      </Ancestors>
+                    </BrowseNode>
+                  </Ancestors>
+                </BrowseNode>
+              </Ancestors>
+            </BrowseNode>
+          </Ancestors>
+        </BrowseNode>
+        <BrowseNode>
+          <BrowseNodeId>368369011</BrowseNodeId>
+          <Name>All Titles</Name>
+          <Ancestors>
+            <BrowseNode>
+              <BrowseNodeId>319654011</BrowseNodeId>
+              <Name>Qualifying Textbooks - Fall 2007</Name>
+              <Ancestors>
+                <BrowseNode>
+                  <BrowseNodeId>44258011</BrowseNodeId>
+                  <Name>Stores</Name>
+                  <Ancestors>
+                    <BrowseNode>
+                      <BrowseNodeId>283155</BrowseNodeId>
+                      <Name>Books</Name>
+                    </BrowseNode>
+                  </Ancestors>
+                </BrowseNode>
+              </Ancestors>
+            </BrowseNode>
+          </Ancestors>
+        </BrowseNode>
       </BrowseNodes>
     </Item>
     <Item>
       <ASIN>1571691014</ASIN>
       <DetailPageURL>http://www.amazon.com/gp/redirect.html%3FASIN=1571691014%26tag=ws%26lcode=xm2%26cID=2025%26ccmID=165953%26location=/o/ASIN/1571691014%253FSubscriptionId=1VAESZQN1G7SXNRG4882</DetailPageURL>
-      <SalesRank>5931182</SalesRank>
+      <SalesRank>6083722</SalesRank>
       <ItemAttributes>
         <Author>Reuven Lerner</Author>
         <Binding>Hardcover</Binding>
-        <Brand>Waite Group Press</Brand>
         <DeweyDecimalNumber>005.276</DeweyDecimalNumber>
         <EAN>9781571691019</EAN>
         <ISBN>1571691014</ISBN>
@@ -558,27 +676,166 @@
       </BrowseNodes>
     </Item>
     <Item>
-      <ASIN>1585770671</ASIN>
-      <DetailPageURL>http://www.amazon.com/gp/redirect.html%3FASIN=1585770671%26tag=ws%26lcode=xm2%26cID=2025%26ccmID=165953%26location=/o/ASIN/1585770671%253FSubscriptionId=1VAESZQN1G7SXNRG4882</DetailPageURL>
+      <ASIN>0619073675</ASIN>
+      <DetailPageURL>http://www.amazon.com/gp/redirect.html%3FASIN=0619073675%26tag=ws%26lcode=xm2%26cID=2025%26ccmID=165953%26location=/o/ASIN/0619073675%253FSubscriptionId=1VAESZQN1G7SXNRG4882</DetailPageURL>
+      <ItemAttributes>
+        <Binding>Spiral-bound</Binding>
+        <EAN>9780619073671</EAN>
+        <ISBN>0619073675</ISBN>
+        <Label>Course Technology</Label>
+        <ListPrice>
+          <Amount>10000</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$100.00</FormattedPrice>
+        </ListPrice>
+        <Manufacturer>Course Technology</Manufacturer>
+        <NumberOfItems>1</NumberOfItems>
+        <NumberOfPages>160</NumberOfPages>
+        <ProductGroup>Book</ProductGroup>
+        <ProductTypeName>ABIS_BOOK</ProductTypeName>
+        <PublicationDate>2001-11</PublicationDate>
+        <Publisher>Course Technology</Publisher>
+        <Studio>Course Technology</Studio>
+        <Title>Course Ilt: Cgi/Perl (Course ILT)</Title>
+      </ItemAttributes>
+      <OfferSummary>
+        <LowestNewPrice>
+          <Amount>10000</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$100.00</FormattedPrice>
+        </LowestNewPrice>
+        <TotalNew>1</TotalNew>
+        <TotalUsed>0</TotalUsed>
+        <TotalCollectible>0</TotalCollectible>
+        <TotalRefurbished>0</TotalRefurbished>
+      </OfferSummary>
+      <Offers>
+        <TotalOffers>1</TotalOffers>
+        <TotalOfferPages>1</TotalOfferPages>
+        <Offer>
+          <Merchant>
+            <MerchantId>ATVPDKIKX0DER</MerchantId>
+            <GlancePage>http://www.amazon.com/gp/help/seller/home.html?seller=ATVPDKIKX0DER</GlancePage>
+            <AverageFeedbackRating>0.0</AverageFeedbackRating>
+            <TotalFeedback>0</TotalFeedback>
+          </Merchant>
+          <OfferAttributes>
+            <Condition>New</Condition>
+            <SubCondition>new</SubCondition>
+          </OfferAttributes>
+          <OfferListing>
+            <OfferListingId>SgvOucSmzpd%2Fp95KcMEAE0TIJ1I31Zn4JogI0vjiR1D7HjALzogBFZT%2FgJM7mz3KwQ8x6UFjakbHL%2BYXlVpa7A%3D%3D</OfferListingId>
+            <Price>
+              <Amount>10000</Amount>
+              <CurrencyCode>USD</CurrencyCode>
+              <FormattedPrice>$100.00</FormattedPrice>
+            </Price>
+            <Availability>Usually ships in 1 to 2 months</Availability>
+            <AvailabilityAttributes>
+              <AvailabilityType>now</AvailabilityType>
+              <MinimumHours>696</MinimumHours>
+              <MaximumHours>1416</MaximumHours>
+            </AvailabilityAttributes>
+            <Quantity>-1</Quantity>
+            <IsEligibleForSuperSaverShipping>1</IsEligibleForSuperSaverShipping>
+          </OfferListing>
+        </Offer>
+      </Offers>
+      <BrowseNodes>
+        <BrowseNode>
+          <BrowseNodeId>4025</BrowseNodeId>
+          <Name>CGI Programming</Name>
+          <Ancestors>
+            <BrowseNode>
+              <BrowseNodeId>3952</BrowseNodeId>
+              <Name>Languages &amp; Tools</Name>
+              <Ancestors>
+                <BrowseNode>
+                  <BrowseNodeId>3839</BrowseNodeId>
+                  <Name>Programming</Name>
+                  <Ancestors>
+                    <BrowseNode>
+                      <BrowseNodeId>5</BrowseNodeId>
+                      <Name>Computers &amp; Internet</Name>
+                      <Ancestors>
+                        <BrowseNode>
+                          <BrowseNodeId>1000</BrowseNodeId>
+                          <Name>Subjects</Name>
+                          <IsCategoryRoot>1</IsCategoryRoot>
+                          <Ancestors>
+                            <BrowseNode>
+                              <BrowseNodeId>283155</BrowseNodeId>
+                              <Name>Books</Name>
+                            </BrowseNode>
+                          </Ancestors>
+                        </BrowseNode>
+                      </Ancestors>
+                    </BrowseNode>
+                  </Ancestors>
+                </BrowseNode>
+              </Ancestors>
+            </BrowseNode>
+          </Ancestors>
+        </BrowseNode>
+        <BrowseNode>
+          <BrowseNodeId>16233481</BrowseNodeId>
+          <Name>General</Name>
+          <Ancestors>
+            <BrowseNode>
+              <BrowseNodeId>3952</BrowseNodeId>
+              <Name>Languages &amp; Tools</Name>
+              <Ancestors>
+                <BrowseNode>
+                  <BrowseNodeId>3839</BrowseNodeId>
+                  <Name>Programming</Name>
+                  <Ancestors>
+                    <BrowseNode>
+                      <BrowseNodeId>5</BrowseNodeId>
+                      <Name>Computers &amp; Internet</Name>
+                      <Ancestors>
+                        <BrowseNode>
+                          <BrowseNodeId>1000</BrowseNodeId>
+                          <Name>Subjects</Name>
+                          <IsCategoryRoot>1</IsCategoryRoot>
+                          <Ancestors>
+                            <BrowseNode>
+                              <BrowseNodeId>283155</BrowseNodeId>
+                              <Name>Books</Name>
+                            </BrowseNode>
+                          </Ancestors>
+                        </BrowseNode>
+                      </Ancestors>
+                    </BrowseNode>
+                  </Ancestors>
+                </BrowseNode>
+              </Ancestors>
+            </BrowseNode>
+          </Ancestors>
+        </BrowseNode>
+      </BrowseNodes>
+    </Item>
+    <Item>
+      <ASIN>1562439588</ASIN>
+      <DetailPageURL>http://www.amazon.com/gp/redirect.html%3FASIN=1562439588%26tag=ws%26lcode=xm2%26cID=2025%26ccmID=165953%26location=/o/ASIN/1562439588%253FSubscriptionId=1VAESZQN1G7SXNRG4882</DetailPageURL>
       <ItemAttributes>
         <Binding>Paperback</Binding>
         <Brand>DDC Publishing, Inc.</Brand>
-        <EAN>9781585770670</EAN>
+        <EAN>9781562439583</EAN>
         <Edition>Spiral</Edition>
-        <ISBN>1585770671</ISBN>
+        <ISBN>1562439588</ISBN>
         <Label>D D C Pub</Label>
         <ListPrice>
-          <Amount>3000</Amount>
+          <Amount>2200</Amount>
           <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$30.00</FormattedPrice>
+          <FormattedPrice>$22.00</FormattedPrice>
         </ListPrice>
         <Manufacturer>D D C Pub</Manufacturer>
         <ProductGroup>Book</ProductGroup>
         <ProductTypeName>ABIS_BOOK</ProductTypeName>
-        <PublicationDate>2001-12-01</PublicationDate>
+        <PublicationDate>2000-11</PublicationDate>
         <Publisher>D D C Pub</Publisher>
         <Studio>D D C Pub</Studio>
-        <Title>Developing Cgi Scripts Using Perl One-Day Course</Title>
+        <Title>Mastering Cgi/Perl One-Day Course</Title>
       </ItemAttributes>
       <OfferSummary>
         <TotalNew>0</TotalNew>
@@ -652,27 +909,27 @@
       </BrowseNodes>
     </Item>
     <Item>
-      <ASIN>1562439588</ASIN>
-      <DetailPageURL>http://www.amazon.com/gp/redirect.html%3FASIN=1562439588%26tag=ws%26lcode=xm2%26cID=2025%26ccmID=165953%26location=/o/ASIN/1562439588%253FSubscriptionId=1VAESZQN1G7SXNRG4882</DetailPageURL>
+      <ASIN>1585770671</ASIN>
+      <DetailPageURL>http://www.amazon.com/gp/redirect.html%3FASIN=1585770671%26tag=ws%26lcode=xm2%26cID=2025%26ccmID=165953%26location=/o/ASIN/1585770671%253FSubscriptionId=1VAESZQN1G7SXNRG4882</DetailPageURL>
       <ItemAttributes>
         <Binding>Paperback</Binding>
         <Brand>DDC Publishing, Inc.</Brand>
-        <EAN>9781562439583</EAN>
+        <EAN>9781585770670</EAN>
         <Edition>Spiral</Edition>
-        <ISBN>1562439588</ISBN>
+        <ISBN>1585770671</ISBN>
         <Label>D D C Pub</Label>
         <ListPrice>
-          <Amount>2200</Amount>
+          <Amount>3000</Amount>
           <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$22.00</FormattedPrice>
+          <FormattedPrice>$30.00</FormattedPrice>
         </ListPrice>
         <Manufacturer>D D C Pub</Manufacturer>
         <ProductGroup>Book</ProductGroup>
         <ProductTypeName>ABIS_BOOK</ProductTypeName>
-        <PublicationDate>2000-11</PublicationDate>
+        <PublicationDate>2001-12-01</PublicationDate>
         <Publisher>D D C Pub</Publisher>
         <Studio>D D C Pub</Studio>
-        <Title>Mastering Cgi/Perl One-Day Course</Title>
+        <Title>Developing Cgi Scripts Using Perl One-Day Course</Title>
       </ItemAttributes>
       <OfferSummary>
         <TotalNew>0</TotalNew>

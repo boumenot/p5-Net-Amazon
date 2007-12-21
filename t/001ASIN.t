@@ -75,11 +75,10 @@ $resp = $ua->request($req);
 ok($resp->is_success(), "Found Gamma");
 my($book) = $resp->properties();
 like(join('&', $book->authors()), 
-     qr#Erich Gamma&Richard Helm&Ralph Johnson&John Vlissides#,
+     qr#Erich Gamma&Richard Helm&Ralph Johnson&John M. Vlissides#,
      "Found multiple authors");
-is($book->numpages(), 395, "Checkiing numpages");
+is($book->numpages(), 416, "Checkiing numpages");
 is($book->dewey_decimal(), "005.12", "Checkiing dewey_decimal");
-#is($book->SuperSaverShipping(), 1, "Checkiing SuperSaverShipping");
 
 my @similar = $book->similar_asins();
 is(scalar @similar, 0, "No similar items on this item");
@@ -89,7 +88,7 @@ is(scalar @similar, 0, "No similar items on this item");
 ######################################################################
 $book = $resp->properties();
 like(join('&', $book->authors()), 
-     qr#Erich Gamma&Richard Helm&Ralph Johnson&John Vlissides#,
+     qr#Erich Gamma&Richard Helm&Ralph Johnson&John M. Vlissides#,
      "Found multiple authors");
 
 ######################################################################
@@ -97,10 +96,10 @@ like(join('&', $book->authors()),
 ######################################################################
 like($book->title, qr/^Design Patterns/, "Title");
 like($book->ProductName, qr/^Design Patterns/, "ProductName");
-is($book->year, "1995", "Year");
-is($book->publication_date, "1995-01-15");
+is($book->year, "1994", "Year");
+is($book->publication_date, "1994-11-10");
 like($book->OurPrice, qr/\$/, "Amazon Price");
-like($book->ListPrice, qr/\$/, "List Price");
+is($book->ListPrice, '$59.99', "List Price");
 is($book->CurrencyCode, "USD");
 is($book->binding, "Hardcover", "Binding");
 

@@ -4,7 +4,7 @@
     <Item>
       <ASIN>6305181772</ASIN>
       <DetailPageURL>http://www.amazon.com/gp/redirect.html%3FASIN=6305181772%26tag=ws%26lcode=xm2%26cID=2025%26ccmID=165953%26location=/o/ASIN/6305181772%253FSubscriptionId=1VAESZQN1G7SXNRG4882</DetailPageURL>
-      <SalesRank>12338</SalesRank>
+      <SalesRank>26637</SalesRank>
       <ItemAttributes>
         <Actor>Tom Cruise</Actor>
         <Actor>Jon Voight</Actor>
@@ -67,25 +67,29 @@
       </ItemAttributes>
       <OfferSummary>
         <LowestNewPrice>
-          <Amount>495</Amount>
+          <Amount>1295</Amount>
           <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$4.95</FormattedPrice>
+          <FormattedPrice>$12.95</FormattedPrice>
         </LowestNewPrice>
         <LowestUsedPrice>
-          <Amount>333</Amount>
+          <Amount>240</Amount>
           <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$3.33</FormattedPrice>
+          <FormattedPrice>$2.40</FormattedPrice>
         </LowestUsedPrice>
         <LowestCollectiblePrice>
           <Amount>1498</Amount>
           <CurrencyCode>USD</CurrencyCode>
           <FormattedPrice>$14.98</FormattedPrice>
         </LowestCollectiblePrice>
-        <TotalNew>8</TotalNew>
-        <TotalUsed>44</TotalUsed>
+        <TotalNew>1</TotalNew>
+        <TotalUsed>48</TotalUsed>
         <TotalCollectible>4</TotalCollectible>
         <TotalRefurbished>0</TotalRefurbished>
       </OfferSummary>
+      <Offers>
+        <TotalOffers>0</TotalOffers>
+        <TotalOfferPages>0</TotalOfferPages>
+      </Offers>
     </Item>
   </Items>
 </ItemLookupResponse>

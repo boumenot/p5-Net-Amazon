@@ -6,7 +6,7 @@
     <Item>
       <ASIN>0201360683</ASIN>
       <DetailPageURL>http://www.amazon.com/gp/redirect.html%3FASIN=0201360683%26tag=ws%26lcode=xm2%26cID=2025%26ccmID=165953%26location=/o/ASIN/0201360683%253FSubscriptionId=1VAESZQN1G7SXNRG4882</DetailPageURL>
-      <SalesRank>1649352</SalesRank>
+      <SalesRank>816560</SalesRank>
       <SmallImage>
         <URL>http://ecx.images-amazon.com/images/I/01XB0VVS3VL.jpg</URL>
         <Height Units="pixels">60</Height>
@@ -47,20 +47,50 @@
       </ItemAttributes>
       <OfferSummary>
         <LowestNewPrice>
-          <Amount>1480</Amount>
+          <Amount>1481</Amount>
           <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$14.80</FormattedPrice>
+          <FormattedPrice>$14.81</FormattedPrice>
         </LowestNewPrice>
         <LowestUsedPrice>
-          <Amount>430</Amount>
+          <Amount>309</Amount>
           <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$4.30</FormattedPrice>
+          <FormattedPrice>$3.09</FormattedPrice>
         </LowestUsedPrice>
-        <TotalNew>5</TotalNew>
-        <TotalUsed>9</TotalUsed>
+        <TotalNew>3</TotalNew>
+        <TotalUsed>13</TotalUsed>
         <TotalCollectible>0</TotalCollectible>
         <TotalRefurbished>0</TotalRefurbished>
       </OfferSummary>
+      <Offers>
+        <TotalOffers>0</TotalOffers>
+        <TotalOfferPages>0</TotalOfferPages>
+      </Offers>
+    </Item>
+    <Item>
+      <ASIN>B000OLKCCG</ASIN>
+      <DetailPageURL>http://www.amazon.com/gp/redirect.html%3FASIN=B000OLKCCG%26tag=ws%26lcode=xm2%26cID=2025%26ccmID=165953%26location=/o/ASIN/B000OLKCCG%253FSubscriptionId=1VAESZQN1G7SXNRG4882</DetailPageURL>
+      <ItemAttributes>
+        <Author>Michael Schilli</Author>
+        <Binding>Paperback</Binding>
+        <Label>Addison-Wesley Professional</Label>
+        <Manufacturer>Addison-Wesley Professional</Manufacturer>
+        <ProductGroup>Book</ProductGroup>
+        <ProductTypeName>BOOKS_1973_AND_LATER</ProductTypeName>
+        <PublicationDate>1998</PublicationDate>
+        <Publisher>Addison-Wesley Professional</Publisher>
+        <Studio>Addison-Wesley Professional</Studio>
+        <Title>Perl Power!: A JumpStart Guide to Programming with Perl 5</Title>
+      </ItemAttributes>
+      <OfferSummary>
+        <TotalNew>0</TotalNew>
+        <TotalUsed>0</TotalUsed>
+        <TotalCollectible>0</TotalCollectible>
+        <TotalRefurbished>0</TotalRefurbished>
+      </OfferSummary>
+      <Offers>
+        <TotalOffers>0</TotalOffers>
+        <TotalOfferPages>0</TotalOfferPages>
+      </Offers>
     </Item>
     <Item>
       <ASIN>B000S99K90</ASIN>
@@ -88,11 +118,15 @@
         <TotalCollectible>0</TotalCollectible>
         <TotalRefurbished>0</TotalRefurbished>
       </OfferSummary>
+      <Offers>
+        <TotalOffers>0</TotalOffers>
+        <TotalOfferPages>0</TotalOfferPages>
+      </Offers>
     </Item>
     <Item>
       <ASIN>3540284028</ASIN>
       <DetailPageURL>http://www.amazon.com/gp/redirect.html%3FASIN=3540284028%26tag=ws%26lcode=xm2%26cID=2025%26ccmID=165953%26location=/o/ASIN/3540284028%253FSubscriptionId=1VAESZQN1G7SXNRG4882</DetailPageURL>
-      <SalesRank>3898010</SalesRank>
+      <SalesRank>6127682</SalesRank>
       <SmallImage>
         <URL>http://ecx.images-amazon.com/images/I/017DF20FEEL.jpg</URL>
         <Height Units="pixels">75</Height>
@@ -143,42 +177,52 @@
       </ItemAttributes>
       <OfferSummary>
         <LowestNewPrice>
-          <Amount>6717</Amount>
+          <Amount>6925</Amount>
           <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$67.17</FormattedPrice>
+          <FormattedPrice>$69.25</FormattedPrice>
         </LowestNewPrice>
         <LowestUsedPrice>
-          <Amount>15291</Amount>
+          <Amount>14352</Amount>
           <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$152.91</FormattedPrice>
+          <FormattedPrice>$143.52</FormattedPrice>
         </LowestUsedPrice>
-        <TotalNew>8</TotalNew>
+        <TotalNew>7</TotalNew>
         <TotalUsed>1</TotalUsed>
         <TotalCollectible>0</TotalCollectible>
         <TotalRefurbished>0</TotalRefurbished>
       </OfferSummary>
-    </Item>
-    <Item>
-      <ASIN>B000OLKCCG</ASIN>
-      <DetailPageURL>http://www.amazon.com/gp/redirect.html%3FASIN=B000OLKCCG%26tag=ws%26lcode=xm2%26cID=2025%26ccmID=165953%26location=/o/ASIN/B000OLKCCG%253FSubscriptionId=1VAESZQN1G7SXNRG4882</DetailPageURL>
-      <ItemAttributes>
-        <Author>Michael Schilli</Author>
-        <Binding>Paperback</Binding>
-        <Label>Addison-Wesley Professional</Label>
-        <Manufacturer>Addison-Wesley Professional</Manufacturer>
-        <ProductGroup>Book</ProductGroup>
-        <ProductTypeName>BOOKS_1973_AND_LATER</ProductTypeName>
-        <PublicationDate>1998</PublicationDate>
-        <Publisher>Addison-Wesley Professional</Publisher>
-        <Studio>Addison-Wesley Professional</Studio>
-        <Title>Perl Power!: A JumpStart Guide to Programming with Perl 5</Title>
-      </ItemAttributes>
-      <OfferSummary>
-        <TotalNew>0</TotalNew>
-        <TotalUsed>0</TotalUsed>
-        <TotalCollectible>0</TotalCollectible>
-        <TotalRefurbished>0</TotalRefurbished>
-      </OfferSummary>
+      <Offers>
+        <TotalOffers>1</TotalOffers>
+        <TotalOfferPages>1</TotalOfferPages>
+        <Offer>
+          <Merchant>
+            <MerchantId>ATVPDKIKX0DER</MerchantId>
+            <GlancePage>http://www.amazon.com/gp/help/seller/home.html?seller=ATVPDKIKX0DER</GlancePage>
+            <AverageFeedbackRating>0.0</AverageFeedbackRating>
+            <TotalFeedback>0</TotalFeedback>
+          </Merchant>
+          <OfferAttributes>
+            <Condition>New</Condition>
+            <SubCondition>new</SubCondition>
+          </OfferAttributes>
+          <OfferListing>
+            <OfferListingId>Rv60F9fEHKH3IwylaYSiaJ3VMU8pTU%2FYzO6vuhE%2F%2F7pk%2BN%2BrglZDrjCwaw1qumLosp%2BoNjIyU6CZAL3lIh5g7pa6CPjxgR%2BL</OfferListingId>
+            <Price>
+              <Amount>6995</Amount>
+              <CurrencyCode>USD</CurrencyCode>
+              <FormattedPrice>$69.95</FormattedPrice>
+            </Price>
+            <Availability>Usually ships in 3 to 6 weeks</Availability>
+            <AvailabilityAttributes>
+              <AvailabilityType>now</AvailabilityType>
+              <MinimumHours>648</MinimumHours>
+              <MaximumHours>984</MaximumHours>
+            </AvailabilityAttributes>
+            <Quantity>-1</Quantity>
+            <IsEligibleForSuperSaverShipping>1</IsEligibleForSuperSaverShipping>
+          </OfferListing>
+        </Offer>
+      </Offers>
     </Item>
   </Items>
 </ItemSearchResponse>

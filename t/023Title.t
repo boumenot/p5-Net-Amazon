@@ -39,7 +39,7 @@ ok($resp->is_success(), "Request successful");
 my @properties = $resp->properties();
 is(scalar @properties, 10, "Number of Titles");
 
-like($resp->as_string(), qr/Iain Mccalman.*?Mystic rebels/s, "Examine Movies");
+like($resp->as_string(), qr/Iain Mccalman.*?Cagliostro/s, "Examine Movies");
 
 #my @starring = $properties[$i]->starring();
 # is($properties[0]->actor, "Yasuo Yamada", "Check actor");

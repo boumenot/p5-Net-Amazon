@@ -6,7 +6,7 @@
     <Item>
       <ASIN>B000CDGVOE</ASIN>
       <DetailPageURL>http://www.amazon.com/gp/redirect.html%3FASIN=B000CDGVOE%26tag=ws%26lcode=xm2%26cID=2025%26ccmID=165953%26location=/o/ASIN/B000CDGVOE%253FSubscriptionId=1VAESZQN1G7SXNRG4882</DetailPageURL>
-      <SalesRank>505</SalesRank>
+      <SalesRank>374</SalesRank>
       <ItemAttributes>
         <Actor>Chieko Baisho</Actor>
         <Actor>Takuya Kimura</Actor>
@@ -60,25 +60,63 @@
       </ItemAttributes>
       <OfferSummary>
         <LowestNewPrice>
-          <Amount>2066</Amount>
+          <Amount>2146</Amount>
           <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$20.66</FormattedPrice>
+          <FormattedPrice>$21.46</FormattedPrice>
         </LowestNewPrice>
         <LowestUsedPrice>
-          <Amount>1748</Amount>
+          <Amount>1909</Amount>
           <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$17.48</FormattedPrice>
+          <FormattedPrice>$19.09</FormattedPrice>
         </LowestUsedPrice>
-        <TotalNew>62</TotalNew>
-        <TotalUsed>20</TotalUsed>
+        <TotalNew>44</TotalNew>
+        <TotalUsed>23</TotalUsed>
         <TotalCollectible>0</TotalCollectible>
         <TotalRefurbished>0</TotalRefurbished>
       </OfferSummary>
+      <Offers>
+        <TotalOffers>1</TotalOffers>
+        <TotalOfferPages>1</TotalOfferPages>
+        <Offer>
+          <Merchant>
+            <MerchantId>ATVPDKIKX0DER</MerchantId>
+            <GlancePage>http://www.amazon.com/gp/help/seller/home.html?seller=ATVPDKIKX0DER</GlancePage>
+            <AverageFeedbackRating>0.0</AverageFeedbackRating>
+            <TotalFeedback>0</TotalFeedback>
+          </Merchant>
+          <OfferAttributes>
+            <Condition>New</Condition>
+            <SubCondition>new</SubCondition>
+          </OfferAttributes>
+          <OfferListing>
+            <OfferListingId>LIhGtVwP5wVhxtSLCIzsB5oGAdTK3j35vBhFht228jnBh%2BBoaLWSzlCJGrT37X4DXMICo5rwN2NZ8wK0yfWKtzCAKkU%2F6sEm</OfferListingId>
+            <Price>
+              <Amount>2149</Amount>
+              <CurrencyCode>USD</CurrencyCode>
+              <FormattedPrice>$21.49</FormattedPrice>
+            </Price>
+            <AmountSaved>
+              <Amount>850</Amount>
+              <CurrencyCode>USD</CurrencyCode>
+              <FormattedPrice>$8.50</FormattedPrice>
+            </AmountSaved>
+            <PercentageSaved>28</PercentageSaved>
+            <Availability>Usually ships in 24 hours</Availability>
+            <AvailabilityAttributes>
+              <AvailabilityType>now</AvailabilityType>
+              <MinimumHours>0</MinimumHours>
+              <MaximumHours>0</MaximumHours>
+            </AvailabilityAttributes>
+            <Quantity>-1</Quantity>
+            <IsEligibleForSuperSaverShipping>1</IsEligibleForSuperSaverShipping>
+          </OfferListing>
+        </Offer>
+      </Offers>
     </Item>
     <Item>
       <ASIN>B00005JLEU</ASIN>
       <DetailPageURL>http://www.amazon.com/gp/redirect.html%3FASIN=B00005JLEU%26tag=ws%26lcode=xm2%26cID=2025%26ccmID=165953%26location=/o/ASIN/B00005JLEU%253FSubscriptionId=1VAESZQN1G7SXNRG4882</DetailPageURL>
-      <SalesRank>558</SalesRank>
+      <SalesRank>358</SalesRank>
       <ItemAttributes>
         <AudienceRating>PG (Parental Guidance Suggested)</AudienceRating>
         <Binding>DVD</Binding>
@@ -136,25 +174,68 @@
       </ItemAttributes>
       <OfferSummary>
         <LowestNewPrice>
-          <Amount>1944</Amount>
+          <Amount>2048</Amount>
           <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$19.44</FormattedPrice>
+          <FormattedPrice>$20.48</FormattedPrice>
         </LowestNewPrice>
         <LowestUsedPrice>
-          <Amount>1078</Amount>
+          <Amount>1445</Amount>
           <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$10.78</FormattedPrice>
+          <FormattedPrice>$14.45</FormattedPrice>
         </LowestUsedPrice>
-        <TotalNew>62</TotalNew>
-        <TotalUsed>36</TotalUsed>
-        <TotalCollectible>0</TotalCollectible>
+        <LowestCollectiblePrice>
+          <Amount>5995</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$59.95</FormattedPrice>
+        </LowestCollectiblePrice>
+        <TotalNew>48</TotalNew>
+        <TotalUsed>25</TotalUsed>
+        <TotalCollectible>1</TotalCollectible>
         <TotalRefurbished>0</TotalRefurbished>
       </OfferSummary>
+      <Offers>
+        <TotalOffers>1</TotalOffers>
+        <TotalOfferPages>1</TotalOfferPages>
+        <Offer>
+          <Merchant>
+            <MerchantId>ATVPDKIKX0DER</MerchantId>
+            <GlancePage>http://www.amazon.com/gp/help/seller/home.html?seller=ATVPDKIKX0DER</GlancePage>
+            <AverageFeedbackRating>0.0</AverageFeedbackRating>
+            <TotalFeedback>0</TotalFeedback>
+          </Merchant>
+          <OfferAttributes>
+            <Condition>New</Condition>
+            <SubCondition>new</SubCondition>
+          </OfferAttributes>
+          <OfferListing>
+            <OfferListingId>3t%2Bif59d2WI%2F2CKOb4d7Ms%2BD%2FJEK7euW60IYH23Bn7TYmHGlT4uZxiDIgQDpb1z2bQQadu9dJ28WJ7qczerjTw%3D%3D</OfferListingId>
+            <Price>
+              <Amount>2049</Amount>
+              <CurrencyCode>USD</CurrencyCode>
+              <FormattedPrice>$20.49</FormattedPrice>
+            </Price>
+            <AmountSaved>
+              <Amount>950</Amount>
+              <CurrencyCode>USD</CurrencyCode>
+              <FormattedPrice>$9.50</FormattedPrice>
+            </AmountSaved>
+            <PercentageSaved>32</PercentageSaved>
+            <Availability>Usually ships in 24 hours</Availability>
+            <AvailabilityAttributes>
+              <AvailabilityType>now</AvailabilityType>
+              <MinimumHours>0</MinimumHours>
+              <MaximumHours>0</MaximumHours>
+            </AvailabilityAttributes>
+            <Quantity>-1</Quantity>
+            <IsEligibleForSuperSaverShipping>1</IsEligibleForSuperSaverShipping>
+          </OfferListing>
+        </Offer>
+      </Offers>
     </Item>
     <Item>
       <ASIN>B0001XAQ0A</ASIN>
       <DetailPageURL>http://www.amazon.com/gp/redirect.html%3FASIN=B0001XAQ0A%26tag=ws%26lcode=xm2%26cID=2025%26ccmID=165953%26location=/o/ASIN/B0001XAQ0A%253FSubscriptionId=1VAESZQN1G7SXNRG4882</DetailPageURL>
-      <SalesRank>693</SalesRank>
+      <SalesRank>468</SalesRank>
       <ItemAttributes>
         <Actor>Noriko Hidaka</Actor>
         <Actor>Chika Sakamoto</Actor>
@@ -189,10 +270,6 @@
             <Type>Original Language</Type>
           </Language>
           <Language>
-            <Name>Portuguese</Name>
-            <Type>Original Language</Type>
-          </Language>
-          <Language>
             <Name>English</Name>
             <Type>Dubbed</Type>
           </Language>
@@ -223,25 +300,63 @@
       </ItemAttributes>
       <OfferSummary>
         <LowestNewPrice>
-          <Amount>2087</Amount>
+          <Amount>2158</Amount>
           <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$20.87</FormattedPrice>
+          <FormattedPrice>$21.58</FormattedPrice>
         </LowestNewPrice>
         <LowestUsedPrice>
-          <Amount>2198</Amount>
+          <Amount>2000</Amount>
           <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$21.98</FormattedPrice>
+          <FormattedPrice>$20.00</FormattedPrice>
         </LowestUsedPrice>
-        <TotalNew>69</TotalNew>
-        <TotalUsed>17</TotalUsed>
+        <TotalNew>43</TotalNew>
+        <TotalUsed>14</TotalUsed>
         <TotalCollectible>0</TotalCollectible>
         <TotalRefurbished>0</TotalRefurbished>
       </OfferSummary>
+      <Offers>
+        <TotalOffers>1</TotalOffers>
+        <TotalOfferPages>1</TotalOfferPages>
+        <Offer>
+          <Merchant>
+            <MerchantId>ATVPDKIKX0DER</MerchantId>
+            <GlancePage>http://www.amazon.com/gp/help/seller/home.html?seller=ATVPDKIKX0DER</GlancePage>
+            <AverageFeedbackRating>0.0</AverageFeedbackRating>
+            <TotalFeedback>0</TotalFeedback>
+          </Merchant>
+          <OfferAttributes>
+            <Condition>New</Condition>
+            <SubCondition>new</SubCondition>
+          </OfferAttributes>
+          <OfferListing>
+            <OfferListingId>Lzmi%2FHHUBixbDA%2FWj3O1ryj5TRaOSsMrXc%2BfO4AzshC%2B%2B9yix6uurOucQNDLL5B8WG4Z4b9PjNec6QVAI3qPcA%3D%3D</OfferListingId>
+            <Price>
+              <Amount>2399</Amount>
+              <CurrencyCode>USD</CurrencyCode>
+              <FormattedPrice>$23.99</FormattedPrice>
+            </Price>
+            <AmountSaved>
+              <Amount>600</Amount>
+              <CurrencyCode>USD</CurrencyCode>
+              <FormattedPrice>$6.00</FormattedPrice>
+            </AmountSaved>
+            <PercentageSaved>20</PercentageSaved>
+            <Availability>Usually ships in 24 hours</Availability>
+            <AvailabilityAttributes>
+              <AvailabilityType>now</AvailabilityType>
+              <MinimumHours>0</MinimumHours>
+              <MaximumHours>0</MaximumHours>
+            </AvailabilityAttributes>
+            <Quantity>-1</Quantity>
+            <IsEligibleForSuperSaverShipping>1</IsEligibleForSuperSaverShipping>
+          </OfferListing>
+        </Offer>
+      </Offers>
     </Item>
     <Item>
       <ASIN>B0001XAPZ6</ASIN>
       <DetailPageURL>http://www.amazon.com/gp/redirect.html%3FASIN=B0001XAPZ6%26tag=ws%26lcode=xm2%26cID=2025%26ccmID=165953%26location=/o/ASIN/B0001XAPZ6%253FSubscriptionId=1VAESZQN1G7SXNRG4882</DetailPageURL>
-      <SalesRank>1518</SalesRank>
+      <SalesRank>904</SalesRank>
       <ItemAttributes>
         <Actor>Sumi Shimamoto</Actor>
         <Actor>Mahito Tsujimura</Actor>
@@ -302,25 +417,63 @@
       </ItemAttributes>
       <OfferSummary>
         <LowestNewPrice>
-          <Amount>2102</Amount>
+          <Amount>2099</Amount>
           <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$21.02</FormattedPrice>
+          <FormattedPrice>$20.99</FormattedPrice>
         </LowestNewPrice>
         <LowestUsedPrice>
-          <Amount>1099</Amount>
+          <Amount>1900</Amount>
           <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$10.99</FormattedPrice>
+          <FormattedPrice>$19.00</FormattedPrice>
         </LowestUsedPrice>
-        <TotalNew>69</TotalNew>
-        <TotalUsed>23</TotalUsed>
+        <TotalNew>49</TotalNew>
+        <TotalUsed>20</TotalUsed>
         <TotalCollectible>0</TotalCollectible>
         <TotalRefurbished>0</TotalRefurbished>
       </OfferSummary>
+      <Offers>
+        <TotalOffers>1</TotalOffers>
+        <TotalOfferPages>1</TotalOfferPages>
+        <Offer>
+          <Merchant>
+            <MerchantId>ATVPDKIKX0DER</MerchantId>
+            <GlancePage>http://www.amazon.com/gp/help/seller/home.html?seller=ATVPDKIKX0DER</GlancePage>
+            <AverageFeedbackRating>0.0</AverageFeedbackRating>
+            <TotalFeedback>0</TotalFeedback>
+          </Merchant>
+          <OfferAttributes>
+            <Condition>New</Condition>
+            <SubCondition>new</SubCondition>
+          </OfferAttributes>
+          <OfferListing>
+            <OfferListingId>ulrwognmK03obp6WGlPEhHElDE3Ui0OI6yH4njpb4sHRHF8aLwhDmNZYv7TraOinaofaqO5PdO11ix30%2FqlKsQ%3D%3D</OfferListingId>
+            <Price>
+              <Amount>2149</Amount>
+              <CurrencyCode>USD</CurrencyCode>
+              <FormattedPrice>$21.49</FormattedPrice>
+            </Price>
+            <AmountSaved>
+              <Amount>850</Amount>
+              <CurrencyCode>USD</CurrencyCode>
+              <FormattedPrice>$8.50</FormattedPrice>
+            </AmountSaved>
+            <PercentageSaved>28</PercentageSaved>
+            <Availability>Usually ships in 24 hours</Availability>
+            <AvailabilityAttributes>
+              <AvailabilityType>now</AvailabilityType>
+              <MinimumHours>0</MinimumHours>
+              <MaximumHours>0</MaximumHours>
+            </AvailabilityAttributes>
+            <Quantity>-1</Quantity>
+            <IsEligibleForSuperSaverShipping>1</IsEligibleForSuperSaverShipping>
+          </OfferListing>
+        </Offer>
+      </Offers>
     </Item>
     <Item>
       <ASIN>B00005JKYG</ASIN>
       <DetailPageURL>http://www.amazon.com/gp/redirect.html%3FASIN=B00005JKYG%26tag=ws%26lcode=xm2%26cID=2025%26ccmID=165953%26location=/o/ASIN/B00005JKYG%253FSubscriptionId=1VAESZQN1G7SXNRG4882</DetailPageURL>
-      <SalesRank>2972</SalesRank>
+      <SalesRank>998</SalesRank>
       <ItemAttributes>
         <Actor>Richard Dysart</Actor>
         <Actor>Mark Hamill</Actor>
@@ -390,25 +543,63 @@
       </ItemAttributes>
       <OfferSummary>
         <LowestNewPrice>
-          <Amount>1950</Amount>
+          <Amount>2099</Amount>
           <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$19.50</FormattedPrice>
+          <FormattedPrice>$20.99</FormattedPrice>
         </LowestNewPrice>
         <LowestUsedPrice>
-          <Amount>1625</Amount>
+          <Amount>1900</Amount>
           <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$16.25</FormattedPrice>
+          <FormattedPrice>$19.00</FormattedPrice>
         </LowestUsedPrice>
-        <TotalNew>59</TotalNew>
-        <TotalUsed>24</TotalUsed>
+        <TotalNew>45</TotalNew>
+        <TotalUsed>15</TotalUsed>
         <TotalCollectible>0</TotalCollectible>
         <TotalRefurbished>0</TotalRefurbished>
       </OfferSummary>
+      <Offers>
+        <TotalOffers>1</TotalOffers>
+        <TotalOfferPages>1</TotalOfferPages>
+        <Offer>
+          <Merchant>
+            <MerchantId>ATVPDKIKX0DER</MerchantId>
+            <GlancePage>http://www.amazon.com/gp/help/seller/home.html?seller=ATVPDKIKX0DER</GlancePage>
+            <AverageFeedbackRating>0.0</AverageFeedbackRating>
+            <TotalFeedback>0</TotalFeedback>
+          </Merchant>
+          <OfferAttributes>
+            <Condition>New</Condition>
+            <SubCondition>new</SubCondition>
+          </OfferAttributes>
+          <OfferListing>
+            <OfferListingId>4ib%2BNsQyEaNbCOxqNA%2Bd1C7b18NTwiCtiUU3zPSTV7pRzv0ga3MWT0Y7GHcxgBKr%2FrhV63XdWn37WTubLEPfwQ%3D%3D</OfferListingId>
+            <Price>
+              <Amount>2149</Amount>
+              <CurrencyCode>USD</CurrencyCode>
+              <FormattedPrice>$21.49</FormattedPrice>
+            </Price>
+            <AmountSaved>
+              <Amount>850</Amount>
+              <CurrencyCode>USD</CurrencyCode>
+              <FormattedPrice>$8.50</FormattedPrice>
+            </AmountSaved>
+            <PercentageSaved>28</PercentageSaved>
+            <Availability>Usually ships in 24 hours</Availability>
+            <AvailabilityAttributes>
+              <AvailabilityType>now</AvailabilityType>
+              <MinimumHours>0</MinimumHours>
+              <MaximumHours>0</MaximumHours>
+            </AvailabilityAttributes>
+            <Quantity>-1</Quantity>
+            <IsEligibleForSuperSaverShipping>1</IsEligibleForSuperSaverShipping>
+          </OfferListing>
+        </Offer>
+      </Offers>
     </Item>
     <Item>
       <ASIN>B0001XAPY2</ASIN>
       <DetailPageURL>http://www.amazon.com/gp/redirect.html%3FASIN=B0001XAPY2%26tag=ws%26lcode=xm2%26cID=2025%26ccmID=165953%26location=/o/ASIN/B0001XAPY2%253FSubscriptionId=1VAESZQN1G7SXNRG4882</DetailPageURL>
-      <SalesRank>3057</SalesRank>
+      <SalesRank>3196</SalesRank>
       <ItemAttributes>
         <Actor>Shûichirô Moriyama</Actor>
         <Actor>Tokiko Kato</Actor>
@@ -438,15 +629,7 @@
             <Type>Original Language</Type>
           </Language>
           <Language>
-            <Name>German</Name>
-            <Type>Original Language</Type>
-          </Language>
-          <Language>
             <Name>Japanese</Name>
-            <Type>Original Language</Type>
-          </Language>
-          <Language>
-            <Name>Portuguese</Name>
             <Type>Original Language</Type>
           </Language>
           <Language>
@@ -476,25 +659,181 @@
       </ItemAttributes>
       <OfferSummary>
         <LowestNewPrice>
-          <Amount>2075</Amount>
+          <Amount>2148</Amount>
           <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$20.75</FormattedPrice>
+          <FormattedPrice>$21.48</FormattedPrice>
         </LowestNewPrice>
         <LowestUsedPrice>
-          <Amount>1998</Amount>
+          <Amount>2040</Amount>
           <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$19.98</FormattedPrice>
+          <FormattedPrice>$20.40</FormattedPrice>
         </LowestUsedPrice>
-        <TotalNew>60</TotalNew>
-        <TotalUsed>20</TotalUsed>
+        <TotalNew>41</TotalNew>
+        <TotalUsed>21</TotalUsed>
         <TotalCollectible>0</TotalCollectible>
         <TotalRefurbished>0</TotalRefurbished>
       </OfferSummary>
+      <Offers>
+        <TotalOffers>1</TotalOffers>
+        <TotalOfferPages>1</TotalOfferPages>
+        <Offer>
+          <Merchant>
+            <MerchantId>ATVPDKIKX0DER</MerchantId>
+            <GlancePage>http://www.amazon.com/gp/help/seller/home.html?seller=ATVPDKIKX0DER</GlancePage>
+            <AverageFeedbackRating>0.0</AverageFeedbackRating>
+            <TotalFeedback>0</TotalFeedback>
+          </Merchant>
+          <OfferAttributes>
+            <Condition>New</Condition>
+            <SubCondition>new</SubCondition>
+          </OfferAttributes>
+          <OfferListing>
+            <OfferListingId>F4ZNCV8F0SeroGgq92M%2BnmxvuaudtOjJYItKrnxvudwl1PnSbDrwiHLpLmT8HCdytHVVqKTgwWYiuFyp0Al0fw%3D%3D</OfferListingId>
+            <Price>
+              <Amount>2149</Amount>
+              <CurrencyCode>USD</CurrencyCode>
+              <FormattedPrice>$21.49</FormattedPrice>
+            </Price>
+            <AmountSaved>
+              <Amount>850</Amount>
+              <CurrencyCode>USD</CurrencyCode>
+              <FormattedPrice>$8.50</FormattedPrice>
+            </AmountSaved>
+            <PercentageSaved>28</PercentageSaved>
+            <Availability>Usually ships in 24 hours</Availability>
+            <AvailabilityAttributes>
+              <AvailabilityType>now</AvailabilityType>
+              <MinimumHours>0</MinimumHours>
+              <MaximumHours>0</MaximumHours>
+            </AvailabilityAttributes>
+            <Quantity>-1</Quantity>
+            <IsEligibleForSuperSaverShipping>1</IsEligibleForSuperSaverShipping>
+          </OfferListing>
+        </Offer>
+      </Offers>
+    </Item>
+    <Item>
+      <ASIN>B000FGG5NK</ASIN>
+      <DetailPageURL>http://www.amazon.com/gp/redirect.html%3FASIN=B000FGG5NK%26tag=ws%26lcode=xm2%26cID=2025%26ccmID=165953%26location=/o/ASIN/B000FGG5NK%253FSubscriptionId=1VAESZQN1G7SXNRG4882</DetailPageURL>
+      <SalesRank>6568</SalesRank>
+      <ItemAttributes>
+        <Actor>Yasuo Yamada</Actor>
+        <Actor>Bob Bergen</Actor>
+        <Actor>Eiko Masuyama</Actor>
+        <Actor>Kiyoshi Kobayashi</Actor>
+        <Actor>Makio Inoue</Actor>
+        <AspectRatio>1.77:1</AspectRatio>
+        <AudienceRating>PG-13 (Parental Guidance Suggested)</AudienceRating>
+        <Binding>DVD</Binding>
+        <Director>Hayao Miyazaki</Director>
+        <EAN>0013138206695</EAN>
+        <Format>Color</Format>
+        <Format>DVD-Video</Format>
+        <Format>Special Edition</Format>
+        <Format>Subtitled</Format>
+        <Format>Widescreen</Format>
+        <Format>NTSC</Format>
+        <Label>Manga Video</Label>
+        <Languages>
+          <Language>
+            <Name>English</Name>
+            <Type>Subtitled</Type>
+          </Language>
+          <Language>
+            <Name>English</Name>
+            <Type>Original Language</Type>
+          </Language>
+          <Language>
+            <Name>French</Name>
+            <Type>Original Language</Type>
+          </Language>
+          <Language>
+            <Name>Japanese</Name>
+            <Type>Original Language</Type>
+          </Language>
+          <Language>
+            <Name>Spanish</Name>
+            <Type>Original Language</Type>
+          </Language>
+        </Languages>
+        <ListPrice>
+          <Amount>2498</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$24.98</FormattedPrice>
+        </ListPrice>
+        <Manufacturer>Manga Video</Manufacturer>
+        <MPN>DM2066D</MPN>
+        <NumberOfItems>1</NumberOfItems>
+        <OriginalReleaseDate>1991-04-03</OriginalReleaseDate>
+        <ProductGroup>DVD</ProductGroup>
+        <ProductTypeName>ABIS_DVD</ProductTypeName>
+        <Publisher>Manga Video</Publisher>
+        <ReleaseDate>2006-08-29</ReleaseDate>
+        <RunningTime Units="minutes">102</RunningTime>
+        <Studio>Manga Video</Studio>
+        <TheatricalReleaseDate>1991-04-03</TheatricalReleaseDate>
+        <Title>Lupin the III: The Castle of Cagliostro (Special Edition)</Title>
+        <UPC>013138206695</UPC>
+      </ItemAttributes>
+      <OfferSummary>
+        <LowestNewPrice>
+          <Amount>1393</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$13.93</FormattedPrice>
+        </LowestNewPrice>
+        <LowestUsedPrice>
+          <Amount>1095</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$10.95</FormattedPrice>
+        </LowestUsedPrice>
+        <TotalNew>33</TotalNew>
+        <TotalUsed>9</TotalUsed>
+        <TotalCollectible>0</TotalCollectible>
+        <TotalRefurbished>0</TotalRefurbished>
+      </OfferSummary>
+      <Offers>
+        <TotalOffers>1</TotalOffers>
+        <TotalOfferPages>1</TotalOfferPages>
+        <Offer>
+          <Merchant>
+            <MerchantId>ATVPDKIKX0DER</MerchantId>
+            <GlancePage>http://www.amazon.com/gp/help/seller/home.html?seller=ATVPDKIKX0DER</GlancePage>
+            <AverageFeedbackRating>0.0</AverageFeedbackRating>
+            <TotalFeedback>0</TotalFeedback>
+          </Merchant>
+          <OfferAttributes>
+            <Condition>New</Condition>
+            <SubCondition>new</SubCondition>
+          </OfferAttributes>
+          <OfferListing>
+            <OfferListingId>RaitvlNvZO%2BsdHcn5D%2F%2FVz%2F9TSq3YIYcMhXhK05Q7daWIlL%2BHrPWw3euOQ5o173fltowTTkuAoAQnF%2BhAl%2Bclw%3D%3D</OfferListingId>
+            <Price>
+              <Amount>1749</Amount>
+              <CurrencyCode>USD</CurrencyCode>
+              <FormattedPrice>$17.49</FormattedPrice>
+            </Price>
+            <AmountSaved>
+              <Amount>749</Amount>
+              <CurrencyCode>USD</CurrencyCode>
+              <FormattedPrice>$7.49</FormattedPrice>
+            </AmountSaved>
+            <PercentageSaved>30</PercentageSaved>
+            <Availability>Usually ships in 24 hours</Availability>
+            <AvailabilityAttributes>
+              <AvailabilityType>now</AvailabilityType>
+              <MinimumHours>0</MinimumHours>
+              <MaximumHours>0</MaximumHours>
+            </AvailabilityAttributes>
+            <Quantity>-1</Quantity>
+            <IsEligibleForSuperSaverShipping>1</IsEligibleForSuperSaverShipping>
+          </OfferListing>
+        </Offer>
+      </Offers>
     </Item>
     <Item>
       <ASIN>B00049QMBI</ASIN>
       <DetailPageURL>http://www.amazon.com/gp/redirect.html%3FASIN=B00049QMBI%26tag=ws%26lcode=xm2%26cID=2025%26ccmID=165953%26location=/o/ASIN/B00049QMBI%253FSubscriptionId=1VAESZQN1G7SXNRG4882</DetailPageURL>
-      <SalesRank>6199</SalesRank>
+      <SalesRank>6892</SalesRank>
       <ItemAttributes>
         <Actor>Yui Horie</Actor>
         <Actor>Aya Hisakawa</Actor>
@@ -549,109 +888,57 @@
       </ItemAttributes>
       <OfferSummary>
         <LowestNewPrice>
-          <Amount>3095</Amount>
+          <Amount>2499</Amount>
           <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$30.95</FormattedPrice>
+          <FormattedPrice>$24.99</FormattedPrice>
         </LowestNewPrice>
         <LowestUsedPrice>
-          <Amount>4699</Amount>
+          <Amount>8687</Amount>
           <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$46.99</FormattedPrice>
+          <FormattedPrice>$86.87</FormattedPrice>
         </LowestUsedPrice>
-        <TotalNew>6</TotalNew>
-        <TotalUsed>3</TotalUsed>
+        <TotalNew>8</TotalNew>
+        <TotalUsed>1</TotalUsed>
         <TotalCollectible>0</TotalCollectible>
         <TotalRefurbished>0</TotalRefurbished>
       </OfferSummary>
-    </Item>
-    <Item>
-      <ASIN>B000FGG5NK</ASIN>
-      <DetailPageURL>http://www.amazon.com/gp/redirect.html%3FASIN=B000FGG5NK%26tag=ws%26lcode=xm2%26cID=2025%26ccmID=165953%26location=/o/ASIN/B000FGG5NK%253FSubscriptionId=1VAESZQN1G7SXNRG4882</DetailPageURL>
-      <SalesRank>9536</SalesRank>
-      <ItemAttributes>
-        <Actor>Yasuo Yamada</Actor>
-        <Actor>Bob Bergen</Actor>
-        <Actor>Eiko Masuyama</Actor>
-        <Actor>Kiyoshi Kobayashi</Actor>
-        <Actor>Makio Inoue</Actor>
-        <AspectRatio>1.77:1</AspectRatio>
-        <AudienceRating>PG-13 (Parental Guidance Suggested)</AudienceRating>
-        <Binding>DVD</Binding>
-        <Director>Hayao Miyazaki</Director>
-        <EAN>0013138206695</EAN>
-        <Format>Color</Format>
-        <Format>DVD-Video</Format>
-        <Format>Special Edition</Format>
-        <Format>Subtitled</Format>
-        <Format>Widescreen</Format>
-        <Format>NTSC</Format>
-        <Label>Manga Video</Label>
-        <Languages>
-          <Language>
-            <Name>English</Name>
-            <Type>Subtitled</Type>
-          </Language>
-          <Language>
-            <Name>English</Name>
-            <Type>Original Language</Type>
-          </Language>
-          <Language>
-            <Name>French</Name>
-            <Type>Original Language</Type>
-          </Language>
-          <Language>
-            <Name>German</Name>
-            <Type>Original Language</Type>
-          </Language>
-          <Language>
-            <Name>Italian</Name>
-            <Type>Original Language</Type>
-          </Language>
-          <Language>
-            <Name>Japanese</Name>
-            <Type>Original Language</Type>
-          </Language>
-        </Languages>
-        <ListPrice>
-          <Amount>2498</Amount>
-          <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$24.98</FormattedPrice>
-        </ListPrice>
-        <Manufacturer>Manga Video</Manufacturer>
-        <MPN>DM2066D</MPN>
-        <NumberOfItems>1</NumberOfItems>
-        <OriginalReleaseDate>1991-04-03</OriginalReleaseDate>
-        <ProductGroup>DVD</ProductGroup>
-        <ProductTypeName>ABIS_DVD</ProductTypeName>
-        <Publisher>Manga Video</Publisher>
-        <ReleaseDate>2006-08-29</ReleaseDate>
-        <RunningTime Units="minutes">102</RunningTime>
-        <Studio>Manga Video</Studio>
-        <TheatricalReleaseDate>1991-04-03</TheatricalReleaseDate>
-        <Title>Lupin the III: The Castle of Cagliostro (Special Edition)</Title>
-        <UPC>013138206695</UPC>
-      </ItemAttributes>
-      <OfferSummary>
-        <LowestNewPrice>
-          <Amount>1257</Amount>
-          <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$12.57</FormattedPrice>
-        </LowestNewPrice>
-        <LowestUsedPrice>
-          <Amount>1100</Amount>
-          <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$11.00</FormattedPrice>
-        </LowestUsedPrice>
-        <TotalNew>36</TotalNew>
-        <TotalUsed>14</TotalUsed>
-        <TotalCollectible>0</TotalCollectible>
-        <TotalRefurbished>0</TotalRefurbished>
-      </OfferSummary>
+      <Offers>
+        <TotalOffers>1</TotalOffers>
+        <TotalOfferPages>1</TotalOfferPages>
+        <Offer>
+          <Merchant>
+            <MerchantId>ATVPDKIKX0DER</MerchantId>
+            <GlancePage>http://www.amazon.com/gp/help/seller/home.html?seller=ATVPDKIKX0DER</GlancePage>
+            <AverageFeedbackRating>0.0</AverageFeedbackRating>
+            <TotalFeedback>0</TotalFeedback>
+          </Merchant>
+          <OfferAttributes>
+            <Condition>New</Condition>
+            <SubCondition>new</SubCondition>
+          </OfferAttributes>
+          <OfferListing>
+            <OfferListingId>yweQ9ZuCnGPzemS5soS2yYyrnPc15TCBwOqKaJKrKarJ%2FyqlJpAf94e3Rgc4HnfIKoA%2Bf2BRnR%2FaKpYT39vmSQ%3D%3D</OfferListingId>
+            <Price>
+              <Amount>9998</Amount>
+              <CurrencyCode>USD</CurrencyCode>
+              <FormattedPrice>$99.98</FormattedPrice>
+            </Price>
+            <Availability>Usually ships in 24 hours</Availability>
+            <AvailabilityAttributes>
+              <AvailabilityType>now</AvailabilityType>
+              <MinimumHours>0</MinimumHours>
+              <MaximumHours>0</MaximumHours>
+            </AvailabilityAttributes>
+            <Quantity>-1</Quantity>
+            <IsEligibleForSuperSaverShipping>1</IsEligibleForSuperSaverShipping>
+          </OfferListing>
+        </Offer>
+      </Offers>
     </Item>
     <Item>
       <ASIN>B00003CXCZ</ASIN>
       <DetailPageURL>http://www.amazon.com/gp/redirect.html%3FASIN=B00003CXCZ%26tag=ws%26lcode=xm2%26cID=2025%26ccmID=165953%26location=/o/ASIN/B00003CXCZ%253FSubscriptionId=1VAESZQN1G7SXNRG4882</DetailPageURL>
-      <SalesRank>9859</SalesRank>
+      <SalesRank>12696</SalesRank>
       <ItemAttributes>
         <Actor>Noriko Hidaka</Actor>
         <Actor>Chika Sakamoto</Actor>
@@ -697,30 +984,29 @@
       </ItemAttributes>
       <OfferSummary>
         <LowestNewPrice>
-          <Amount>2499</Amount>
+          <Amount>3444</Amount>
           <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$24.99</FormattedPrice>
+          <FormattedPrice>$34.44</FormattedPrice>
         </LowestNewPrice>
         <LowestUsedPrice>
-          <Amount>1999</Amount>
+          <Amount>2542</Amount>
           <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$19.99</FormattedPrice>
+          <FormattedPrice>$25.42</FormattedPrice>
         </LowestUsedPrice>
-        <LowestCollectiblePrice>
-          <Amount>3999</Amount>
-          <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$39.99</FormattedPrice>
-        </LowestCollectiblePrice>
-        <TotalNew>8</TotalNew>
-        <TotalUsed>5</TotalUsed>
-        <TotalCollectible>1</TotalCollectible>
+        <TotalNew>6</TotalNew>
+        <TotalUsed>6</TotalUsed>
+        <TotalCollectible>0</TotalCollectible>
         <TotalRefurbished>0</TotalRefurbished>
       </OfferSummary>
+      <Offers>
+        <TotalOffers>0</TotalOffers>
+        <TotalOfferPages>0</TotalOfferPages>
+      </Offers>
     </Item>
     <Item>
       <ASIN>B00000JL3V</ASIN>
       <DetailPageURL>http://www.amazon.com/gp/redirect.html%3FASIN=B00000JL3V%26tag=ws%26lcode=xm2%26cID=2025%26ccmID=165953%26location=/o/ASIN/B00000JL3V%253FSubscriptionId=1VAESZQN1G7SXNRG4882</DetailPageURL>
-      <SalesRank>18669</SalesRank>
+      <SalesRank>31455</SalesRank>
       <ItemAttributes>
         <Actor>Yasuo Yamada</Actor>
         <Actor>Bob Bergen</Actor>
@@ -743,11 +1029,6 @@
         <Label>Manga Video</Label>
         <Languages>
           <Language>
-            <Name>English</Name>
-            <Type>Original Language</Type>
-            <AudioFormat>Dolby Digital 2.0 Stereo</AudioFormat>
-          </Language>
-          <Language>
             <Name>Japanese</Name>
             <Type>Original Language</Type>
             <AudioFormat>Dolby Digital 2.0 Stereo</AudioFormat>
@@ -755,6 +1036,11 @@
           <Language>
             <Name>English</Name>
             <Type>Subtitled</Type>
+          </Language>
+          <Language>
+            <Name>English</Name>
+            <Type>Dubbed</Type>
+            <AudioFormat>Dolby Digital 2.0 Stereo</AudioFormat>
           </Language>
         </Languages>
         <ListPrice>
@@ -780,25 +1066,63 @@
       </ItemAttributes>
       <OfferSummary>
         <LowestNewPrice>
-          <Amount>799</Amount>
+          <Amount>995</Amount>
           <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$7.99</FormattedPrice>
+          <FormattedPrice>$9.95</FormattedPrice>
         </LowestNewPrice>
         <LowestUsedPrice>
-          <Amount>644</Amount>
+          <Amount>780</Amount>
           <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$6.44</FormattedPrice>
+          <FormattedPrice>$7.80</FormattedPrice>
         </LowestUsedPrice>
         <LowestCollectiblePrice>
           <Amount>2699</Amount>
           <CurrencyCode>USD</CurrencyCode>
           <FormattedPrice>$26.99</FormattedPrice>
         </LowestCollectiblePrice>
-        <TotalNew>20</TotalNew>
-        <TotalUsed>17</TotalUsed>
+        <TotalNew>14</TotalNew>
+        <TotalUsed>11</TotalUsed>
         <TotalCollectible>1</TotalCollectible>
         <TotalRefurbished>0</TotalRefurbished>
       </OfferSummary>
+      <Offers>
+        <TotalOffers>1</TotalOffers>
+        <TotalOfferPages>1</TotalOfferPages>
+        <Offer>
+          <Merchant>
+            <MerchantId>ATVPDKIKX0DER</MerchantId>
+            <GlancePage>http://www.amazon.com/gp/help/seller/home.html?seller=ATVPDKIKX0DER</GlancePage>
+            <AverageFeedbackRating>0.0</AverageFeedbackRating>
+            <TotalFeedback>0</TotalFeedback>
+          </Merchant>
+          <OfferAttributes>
+            <Condition>New</Condition>
+            <SubCondition>new</SubCondition>
+          </OfferAttributes>
+          <OfferListing>
+            <OfferListingId>s9Gl5c6E8S2SVrEktacgiMHJEkpHVhAYl%2FUcEUiU5OZ4N3djzxRoS5Jg%2F9F6ZSb5xkX4zIdsga%2BvjevmHhnnUA%3D%3D</OfferListingId>
+            <Price>
+              <Amount>1799</Amount>
+              <CurrencyCode>USD</CurrencyCode>
+              <FormattedPrice>$17.99</FormattedPrice>
+            </Price>
+            <AmountSaved>
+              <Amount>199</Amount>
+              <CurrencyCode>USD</CurrencyCode>
+              <FormattedPrice>$1.99</FormattedPrice>
+            </AmountSaved>
+            <PercentageSaved>10</PercentageSaved>
+            <Availability>Usually ships in 24 hours</Availability>
+            <AvailabilityAttributes>
+              <AvailabilityType>now</AvailabilityType>
+              <MinimumHours>0</MinimumHours>
+              <MaximumHours>0</MaximumHours>
+            </AvailabilityAttributes>
+            <Quantity>-1</Quantity>
+            <IsEligibleForSuperSaverShipping>1</IsEligibleForSuperSaverShipping>
+          </OfferListing>
+        </Offer>
+      </Offers>
     </Item>
   </Items>
 </ItemSearchResponse>

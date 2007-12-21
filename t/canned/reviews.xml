@@ -4,7 +4,7 @@
     <Item>
       <ASIN>0201360683</ASIN>
       <DetailPageURL>http://www.amazon.com/gp/redirect.html%3FASIN=0201360683%26tag=ws%26lcode=xm2%26cID=2025%26ccmID=165953%26location=/o/ASIN/0201360683%253FSubscriptionId=1VAESZQN1G7SXNRG4882</DetailPageURL>
-      <SalesRank>1649405</SalesRank>
+      <SalesRank>816560</SalesRank>
       <ItemAttributes>
         <Author>Michael Schilli</Author>
         <Binding>Paperback</Binding>
@@ -30,20 +30,24 @@
       </ItemAttributes>
       <OfferSummary>
         <LowestNewPrice>
-          <Amount>1480</Amount>
+          <Amount>1481</Amount>
           <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$14.80</FormattedPrice>
+          <FormattedPrice>$14.81</FormattedPrice>
         </LowestNewPrice>
         <LowestUsedPrice>
-          <Amount>430</Amount>
+          <Amount>309</Amount>
           <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$4.30</FormattedPrice>
+          <FormattedPrice>$3.09</FormattedPrice>
         </LowestUsedPrice>
-        <TotalNew>5</TotalNew>
-        <TotalUsed>9</TotalUsed>
+        <TotalNew>3</TotalNew>
+        <TotalUsed>13</TotalUsed>
         <TotalCollectible>0</TotalCollectible>
         <TotalRefurbished>0</TotalRefurbished>
       </OfferSummary>
+      <Offers>
+        <TotalOffers>0</TotalOffers>
+        <TotalOfferPages>0</TotalOfferPages>
+      </Offers>
       <CustomerReviews>
         <AverageRating>4.5</AverageRating>
         <TotalReviews>6</TotalReviews>

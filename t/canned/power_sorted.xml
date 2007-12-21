@@ -6,7 +6,7 @@
     <Item>
       <ASIN>0596001320</ASIN>
       <DetailPageURL>http://www.amazon.com/gp/redirect.html%3FASIN=0596001320%26tag=ws%26lcode=xm2%26cID=2025%26ccmID=165953%26location=/o/ASIN/0596001320%253FSubscriptionId=1VAESZQN1G7SXNRG4882</DetailPageURL>
-      <SalesRank>108403</SalesRank>
+      <SalesRank>318023</SalesRank>
       <ItemAttributes>
         <Author>Randal L. Schwartz</Author>
         <Author>Tom Phoenix</Author>
@@ -33,25 +33,63 @@
       </ItemAttributes>
       <OfferSummary>
         <LowestNewPrice>
-          <Amount>545</Amount>
+          <Amount>900</Amount>
           <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$5.45</FormattedPrice>
+          <FormattedPrice>$9.00</FormattedPrice>
         </LowestNewPrice>
         <LowestUsedPrice>
-          <Amount>298</Amount>
+          <Amount>248</Amount>
           <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$2.98</FormattedPrice>
+          <FormattedPrice>$2.48</FormattedPrice>
         </LowestUsedPrice>
-        <TotalNew>24</TotalNew>
-        <TotalUsed>32</TotalUsed>
+        <TotalNew>9</TotalNew>
+        <TotalUsed>29</TotalUsed>
         <TotalCollectible>0</TotalCollectible>
         <TotalRefurbished>0</TotalRefurbished>
       </OfferSummary>
+      <Offers>
+        <TotalOffers>1</TotalOffers>
+        <TotalOfferPages>1</TotalOfferPages>
+        <Offer>
+          <Merchant>
+            <MerchantId>ATVPDKIKX0DER</MerchantId>
+            <GlancePage>http://www.amazon.com/gp/help/seller/home.html?seller=ATVPDKIKX0DER</GlancePage>
+            <AverageFeedbackRating>0.0</AverageFeedbackRating>
+            <TotalFeedback>0</TotalFeedback>
+          </Merchant>
+          <OfferAttributes>
+            <Condition>New</Condition>
+            <SubCondition>new</SubCondition>
+          </OfferAttributes>
+          <OfferListing>
+            <OfferListingId>W8KsrwSWc8H%2FUXqO9aF%2Fxnpql%2BzY06fPcle54P4BWC11qsGaEM7%2BNrs3oRV2FH5Y3YQyK6e6QNn52lHBY69Yvw%3D%3D</OfferListingId>
+            <Price>
+              <Amount>2796</Amount>
+              <CurrencyCode>USD</CurrencyCode>
+              <FormattedPrice>$27.96</FormattedPrice>
+            </Price>
+            <AmountSaved>
+              <Amount>699</Amount>
+              <CurrencyCode>USD</CurrencyCode>
+              <FormattedPrice>$6.99</FormattedPrice>
+            </AmountSaved>
+            <PercentageSaved>20</PercentageSaved>
+            <Availability>Usually ships in 24 hours</Availability>
+            <AvailabilityAttributes>
+              <AvailabilityType>now</AvailabilityType>
+              <MinimumHours>0</MinimumHours>
+              <MaximumHours>0</MaximumHours>
+            </AvailabilityAttributes>
+            <Quantity>-1</Quantity>
+            <IsEligibleForSuperSaverShipping>1</IsEligibleForSuperSaverShipping>
+          </OfferListing>
+        </Offer>
+      </Offers>
     </Item>
     <Item>
       <ASIN>0596004788</ASIN>
       <DetailPageURL>http://www.amazon.com/gp/redirect.html%3FASIN=0596004788%26tag=ws%26lcode=xm2%26cID=2025%26ccmID=165953%26location=/o/ASIN/0596004788%253FSubscriptionId=1VAESZQN1G7SXNRG4882</DetailPageURL>
-      <SalesRank>84448</SalesRank>
+      <SalesRank>347385</SalesRank>
       <ItemAttributes>
         <Author>Randal L. Schwartz</Author>
         <Author>Tom Phoenix</Author>
@@ -79,25 +117,62 @@
       </ItemAttributes>
       <OfferSummary>
         <LowestNewPrice>
-          <Amount>1048</Amount>
+          <Amount>975</Amount>
           <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$10.48</FormattedPrice>
+          <FormattedPrice>$9.75</FormattedPrice>
         </LowestNewPrice>
         <LowestUsedPrice>
-          <Amount>425</Amount>
+          <Amount>974</Amount>
           <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$4.25</FormattedPrice>
+          <FormattedPrice>$9.74</FormattedPrice>
         </LowestUsedPrice>
-        <TotalNew>12</TotalNew>
-        <TotalUsed>9</TotalUsed>
+        <TotalNew>8</TotalNew>
+        <TotalUsed>10</TotalUsed>
         <TotalCollectible>0</TotalCollectible>
         <TotalRefurbished>0</TotalRefurbished>
       </OfferSummary>
+      <Offers>
+        <TotalOffers>1</TotalOffers>
+        <TotalOfferPages>1</TotalOfferPages>
+        <Offer>
+          <Merchant>
+            <MerchantId>ATVPDKIKX0DER</MerchantId>
+            <GlancePage>http://www.amazon.com/gp/help/seller/home.html?seller=ATVPDKIKX0DER</GlancePage>
+            <AverageFeedbackRating>0.0</AverageFeedbackRating>
+            <TotalFeedback>0</TotalFeedback>
+          </Merchant>
+          <OfferAttributes>
+            <Condition>New</Condition>
+            <SubCondition>new</SubCondition>
+          </OfferAttributes>
+          <OfferListing>
+            <OfferListingId>o3%2FS2xv9Yu6VHG%2BL7%2FBLdOWIHTpe2eRVQ7BrQouaV%2B3nxLswaTkYY%2FX%2FAyfDqNFqJS2avnKKYVW8T76Cer3hGw%3D%3D</OfferListingId>
+            <Price>
+              <Amount>2796</Amount>
+              <CurrencyCode>USD</CurrencyCode>
+              <FormattedPrice>$27.96</FormattedPrice>
+            </Price>
+            <AmountSaved>
+              <Amount>699</Amount>
+              <CurrencyCode>USD</CurrencyCode>
+              <FormattedPrice>$6.99</FormattedPrice>
+            </AmountSaved>
+            <PercentageSaved>20</PercentageSaved>
+            <Availability>In stock soon. Order now to get in line. First come, first served.</Availability>
+            <AvailabilityAttributes>
+              <AvailabilityType>unknown</AvailabilityType>
+              <MinimumHours>672</MinimumHours>
+              <MaximumHours>1008</MaximumHours>
+            </AvailabilityAttributes>
+            <IsEligibleForSuperSaverShipping>1</IsEligibleForSuperSaverShipping>
+          </OfferListing>
+        </Offer>
+      </Offers>
     </Item>
     <Item>
       <ASIN>0596102062</ASIN>
       <DetailPageURL>http://www.amazon.com/gp/redirect.html%3FASIN=0596102062%26tag=ws%26lcode=xm2%26cID=2025%26ccmID=165953%26location=/o/ASIN/0596102062%253FSubscriptionId=1VAESZQN1G7SXNRG4882</DetailPageURL>
-      <SalesRank>15463</SalesRank>
+      <SalesRank>22496</SalesRank>
       <ItemAttributes>
         <Author>Randal L. Schwartz</Author>
         <Author>Tom Phoenix</Author>
@@ -125,20 +200,58 @@
       </ItemAttributes>
       <OfferSummary>
         <LowestNewPrice>
-          <Amount>2199</Amount>
+          <Amount>1399</Amount>
           <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$21.99</FormattedPrice>
+          <FormattedPrice>$13.99</FormattedPrice>
         </LowestNewPrice>
         <LowestUsedPrice>
-          <Amount>1998</Amount>
+          <Amount>1391</Amount>
           <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$19.98</FormattedPrice>
+          <FormattedPrice>$13.91</FormattedPrice>
         </LowestUsedPrice>
-        <TotalNew>43</TotalNew>
+        <TotalNew>38</TotalNew>
         <TotalUsed>12</TotalUsed>
         <TotalCollectible>0</TotalCollectible>
         <TotalRefurbished>0</TotalRefurbished>
       </OfferSummary>
+      <Offers>
+        <TotalOffers>1</TotalOffers>
+        <TotalOfferPages>1</TotalOfferPages>
+        <Offer>
+          <Merchant>
+            <MerchantId>ATVPDKIKX0DER</MerchantId>
+            <GlancePage>http://www.amazon.com/gp/help/seller/home.html?seller=ATVPDKIKX0DER</GlancePage>
+            <AverageFeedbackRating>0.0</AverageFeedbackRating>
+            <TotalFeedback>0</TotalFeedback>
+          </Merchant>
+          <OfferAttributes>
+            <Condition>New</Condition>
+            <SubCondition>new</SubCondition>
+          </OfferAttributes>
+          <OfferListing>
+            <OfferListingId>RR%2BGumyuOV5dYuUpmMERQ0Ma84sJwGuUyLz79dcrBrDOVqrD8sxS7V%2BK7K9qyD2BkEnRJDkkEUxN%2BXXLG6POKwpETUGoocH%2F</OfferListingId>
+            <Price>
+              <Amount>2639</Amount>
+              <CurrencyCode>USD</CurrencyCode>
+              <FormattedPrice>$26.39</FormattedPrice>
+            </Price>
+            <AmountSaved>
+              <Amount>1360</Amount>
+              <CurrencyCode>USD</CurrencyCode>
+              <FormattedPrice>$13.60</FormattedPrice>
+            </AmountSaved>
+            <PercentageSaved>34</PercentageSaved>
+            <Availability>Usually ships in 24 hours</Availability>
+            <AvailabilityAttributes>
+              <AvailabilityType>now</AvailabilityType>
+              <MinimumHours>0</MinimumHours>
+              <MaximumHours>0</MaximumHours>
+            </AvailabilityAttributes>
+            <Quantity>-1</Quantity>
+            <IsEligibleForSuperSaverShipping>1</IsEligibleForSuperSaverShipping>
+          </OfferListing>
+        </Offer>
+      </Offers>
     </Item>
     <Item>
       <ASIN>2841772012</ASIN>
@@ -166,6 +279,10 @@
         <TotalCollectible>0</TotalCollectible>
         <TotalRefurbished>0</TotalRefurbished>
       </OfferSummary>
+      <Offers>
+        <TotalOffers>0</TotalOffers>
+        <TotalOfferPages>0</TotalOfferPages>
+      </Offers>
     </Item>
   </Items>
 </ItemSearchResponse>

@@ -4,7 +4,7 @@
     <Item>
       <ASIN>B00005A46I</ASIN>
       <DetailPageURL>http://www.amazon.com/gp/redirect.html%3FASIN=B00005A46I%26tag=ws%26lcode=xm2%26cID=2025%26ccmID=165953%26location=/o/ASIN/B00005A46I%253FSubscriptionId=1VAESZQN1G7SXNRG4882</DetailPageURL>
-      <SalesRank>89841</SalesRank>
+      <SalesRank>138792</SalesRank>
       <ItemAttributes>
         <Artist>Anne Sofie von Otter</Artist>
         <Artist>Elvis Costello</Artist>
@@ -30,20 +30,52 @@
       </ItemAttributes>
       <OfferSummary>
         <LowestNewPrice>
-          <Amount>550</Amount>
+          <Amount>497</Amount>
           <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$5.50</FormattedPrice>
+          <FormattedPrice>$4.97</FormattedPrice>
         </LowestNewPrice>
         <LowestUsedPrice>
-          <Amount>18</Amount>
+          <Amount>98</Amount>
           <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$0.18</FormattedPrice>
+          <FormattedPrice>$0.98</FormattedPrice>
         </LowestUsedPrice>
-        <TotalNew>51</TotalNew>
-        <TotalUsed>51</TotalUsed>
+        <TotalNew>43</TotalNew>
+        <TotalUsed>52</TotalUsed>
         <TotalCollectible>0</TotalCollectible>
         <TotalRefurbished>0</TotalRefurbished>
       </OfferSummary>
+      <Offers>
+        <TotalOffers>1</TotalOffers>
+        <TotalOfferPages>1</TotalOfferPages>
+        <Offer>
+          <Merchant>
+            <MerchantId>ATVPDKIKX0DER</MerchantId>
+            <GlancePage>http://www.amazon.com/gp/help/seller/home.html?seller=ATVPDKIKX0DER</GlancePage>
+            <AverageFeedbackRating>0.0</AverageFeedbackRating>
+            <TotalFeedback>0</TotalFeedback>
+          </Merchant>
+          <OfferAttributes>
+            <Condition>New</Condition>
+            <SubCondition>new</SubCondition>
+          </OfferAttributes>
+          <OfferListing>
+            <OfferListingId>iHN1sWHSqiZHOwhkrWhnuVVPSi%2Fq5rIXZniJ4fwHrox1oW%2FvOc78BHD%2BpUOFvawK3lpA%2Ftvwv87GFCLOdvuDAQ%3D%3D</OfferListingId>
+            <Price>
+              <Amount>1798</Amount>
+              <CurrencyCode>USD</CurrencyCode>
+              <FormattedPrice>$17.98</FormattedPrice>
+            </Price>
+            <Availability>Usually ships in 24 hours</Availability>
+            <AvailabilityAttributes>
+              <AvailabilityType>now</AvailabilityType>
+              <MinimumHours>0</MinimumHours>
+              <MaximumHours>0</MaximumHours>
+            </AvailabilityAttributes>
+            <Quantity>-1</Quantity>
+            <IsEligibleForSuperSaverShipping>1</IsEligibleForSuperSaverShipping>
+          </OfferListing>
+        </Offer>
+      </Offers>
       <Tracks>
         <Disc Number="1">
           <Track Number="1">No Wonder</Track>

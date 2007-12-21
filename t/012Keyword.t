@@ -39,5 +39,5 @@ ok($resp->is_success(), "Successful fetch");
 my @properties = $resp->properties();
 is(scalar @properties, 10, "10 hits");
 for ($resp->properties) {
-   like $_->Asin(), qr/^\d+[\dX]$/, "Check Asin";
+   like $_->Asin(), qr/^\w{10}$/, "Check Asin";
 }
