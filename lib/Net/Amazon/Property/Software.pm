@@ -7,8 +7,7 @@ use base qw(Net::Amazon::Property);
 use Log::Log4perl qw(:easy get_logger);
 
 __PACKAGE__->make_accessor($_) for qw(brand ean esrb_rating label media
-                                      manufacturer nummedia publisher studio 
-                                      title);
+                                      manufacturer nummedia publisher studio);
 __PACKAGE__->make_array_accessor($_) for qw(platforms);
 
 
@@ -44,8 +43,6 @@ sub init_via_xmlref {
     $self->platforms($ref->{Platform});
     $self->publisher($ref->{Publisher});
     $self->studio($ref->{Studio});
-    $self->title($ref->{Title});
-    $self->Title($ref->{Title});
 
     $self->media($ref->{Binding});
 

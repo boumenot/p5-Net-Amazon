@@ -1,4 +1,9 @@
 Revision history for Perl extension Net::Amazon:
+0.48 (01/13/2008)
+   (cb) Fix from MATSUU Takuto for ReleaseDate, and Title.  These methods 
+        have been moved to the base class.  The theatrical release date
+        is now separate from the release date function.
+
 0.47 (12/16/2007)
    (cb) Fix an issue on Darwin with Perl 5.10.  Yet another issue found
         by CPAN testers - thanks!

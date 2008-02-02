@@ -47,7 +47,7 @@ like($resp->as_string(), qr/Iain Mccalman.*?Cagliostro/s, "Examine Movies");
 # is($properties[0]->director, "Hayao Miyazaki", "Check director");
 # like($properties[0]->title, qr/Castle of Cagliostro/, "Check title");
 # is($properties[0]->studio, "Manga Video", "Check studio");
-# is($properties[0]->theatrical_release_date, "1991-04-03", "Check theatrical release date");
+# is($properties[0]->ReleaseDate, "1991-04-03", "Check release date");
 # is($properties[0]->media, "DVD", "Check media");
 # is($properties[0]->Media, "DVD", "Check Media");
 # is($properties[0]->nummedia, 1, "Check nummedia");

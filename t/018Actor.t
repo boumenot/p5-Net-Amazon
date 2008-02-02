@@ -4,7 +4,7 @@
 use warnings;
 use strict;
 
-use Test::More tests => 23;
+use Test::More tests => 24;
 BEGIN { use_ok('Net::Amazon') };
 
 #use Log::Log4perl qw(:easy);
@@ -50,6 +50,7 @@ is($starring[$i], "Jessica Biel", "Check starring");
 is($properties[$i]->director, "Dennis Dugan", "Check director");
 like($properties[$i]->title, qr/I Now Pronounce You Chuck/, "Check title");
 is($properties[$i]->studio, "Universal Studios Home Entertainment", "Check studio");
+is($properties[$i]->ReleaseDate, "2007-11-06", "Check release date");
 is($properties[$i]->theatrical_release_date, "2007-07-20", "Check theatrical release date");
 is($properties[$i]->media, "HD DVD", "Check media");
 is($properties[$i]->Media, "HD DVD", "Check Media");

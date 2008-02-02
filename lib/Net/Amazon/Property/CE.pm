@@ -6,7 +6,7 @@ use strict;
 use base qw(Net::Amazon::Property);
 
 __PACKAGE__->make_accessor($_) for qw(brand ean label manufacturer model mpn 
-                                      publisher studio title upc warranty);
+                                      publisher studio upc warranty);
 __PACKAGE__->make_array_accessor($_) for qw(platforms features);
 
 
@@ -44,8 +44,6 @@ sub init_via_xmlref {
     $self->platforms($ref->{Platform} || 'UNKNOWN');
     $self->publisher($ref->{Publisher});
     $self->studio($ref->{Studio});
-    $self->title($ref->{Title});
-    $self->Title($ref->{Title});
     $self->upc($ref->{UPC});
     $self->warranty($ref->{Warranty});
 

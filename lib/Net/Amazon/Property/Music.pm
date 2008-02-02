@@ -54,7 +54,6 @@ sub init_via_xmlref {
     $self->artists(\@artists);
 
     $self->album($ref->{Title});
-    $self->Title($ref->{Title});
     $self->ean($ref->{EAN});
     $self->label($ref->{Label});
     $self->media($ref->{Binding});
@@ -80,7 +79,6 @@ sub init_via_xmlref {
         $year =  (split(/\-/, $ref->{ReleaseDate}))[0];
     }
     $self->year($year);
-    $self->ReleaseDate($ref->{ReleaseDate});
 }
 
 ##################################################

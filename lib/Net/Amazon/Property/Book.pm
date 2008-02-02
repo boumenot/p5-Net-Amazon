@@ -5,7 +5,7 @@ use warnings;
 use strict;
 use base qw(Net::Amazon::Property);
 
-__PACKAGE__->make_accessor($_) for qw(title publisher binding isbn 
+__PACKAGE__->make_accessor($_) for qw(publisher binding isbn 
     dewey_decimal numpages edition ean publication_date);
 __PACKAGE__->make_array_accessor($_) for qw(authors);
 
@@ -37,8 +37,6 @@ sub init_via_xmlref {
     $self->binding($ref->{Binding});
     $self->dewey_decimal($ref->{DeweyDecimalNumber});
     $self->numpages($ref->{NumberOfPages});
-    $self->title($ref->{Title});
-    $self->Title($ref->{Title});
     $self->publisher($ref->{Publisher});
     $self->isbn($ref->{ISBN});
     $self->edition($ref->{Edition});
@@ -51,8 +49,6 @@ sub init_via_xmlref {
     $self->year($year);
 
     $self->publication_date($ref->{PublicationDate});
-
-    $self->ReleaseDate($ref->{ReleaseDate});
 }
 
 ##################################################

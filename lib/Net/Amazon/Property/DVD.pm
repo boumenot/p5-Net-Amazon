@@ -5,8 +5,8 @@ use warnings;
 use strict;
 use base qw(Net::Amazon::Property);
 
-__PACKAGE__->make_accessor($_) for qw(title studio theatrical_release_date
-  media nummedia upc mpaa_rating region_code label running_time publisher ean);
+__PACKAGE__->make_accessor($_) for qw(studio media nummedia upc mpaa_rating
+region_code label running_time publisher ean theatrical_release_date);
 __PACKAGE__->make_array_accessor($_) for qw(actors directors features starring);
 
 ##################################################
@@ -73,10 +73,8 @@ sub init_via_xmlref {
     $self->region_code($ref->{RegionCode});
     $self->running_time($ref->{RunningTime}->{content});
     $self->studio($ref->{Studio});
-    $self->theatrical_release_date($ref->{TheatricalReleaseDate});
-    $self->title($ref->{Title});
-    $self->Title($ref->{Title});
     $self->upc($ref->{UPC});
+    $self->theatrical_release_date($ref->{TheatricalReleaseDate});
 
 
     $self->media($ref->{Binding});
@@ -88,8 +86,6 @@ sub init_via_xmlref {
         my $year =  (split(/\-/, $ref->{TheatricalReleaseDate}))[0];
         $self->year($year);
     }
-    
-    $self->ReleaseDate($ref->{TheatricalReleaseDate});
 }
 
 1;
@@ -165,6 +161,14 @@ Returns the DVD's MPAA rating.
 
 Returns the DVD's features as a list of strings. Examples: 
 "Color", "Closed-captioned", "Widescreen".
+
+=item ReleaseDate()
+
+Returns the release date.
+
+For historical reasons, this method used to return the theatrical release date. 
+However, as of version Net::Amazon 0.48 the release date is returned, and 
+a separate L</theatrical_release_date()> method is available. 
 
 =item new(xmlref => $xmlref)
 

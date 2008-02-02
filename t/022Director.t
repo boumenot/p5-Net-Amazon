@@ -49,7 +49,7 @@ is($starring[$i], "Chieko Baisho", "Check starring");
 is($properties[$i]->director, "Hayao Miyazaki", "Check director");
 like($properties[$i]->title, qr/Howl's Moving Castle/, "Check title");
 is($properties[$i]->studio, "Walt Disney Home Entertainment", "Check studio");
-is($properties[$i]->theatrical_release_date, "2004", "Check theatrical release date");
+is($properties[$i]->ReleaseDate, "2006-03-07", "Check release date");
 is($properties[$i]->media, "DVD", "Check media");
 is($properties[$i]->Media, "DVD", "Check Media");
 is($properties[$i]->nummedia, 2, "Check nummedia");

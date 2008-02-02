@@ -41,7 +41,8 @@ our %DEFAULT_ATTRIBUTES_XPATH = (
     SmallImageWidth => [qw(SmallImage Width content)],
     SmallImageHeight => [qw(SmallImage Height content)],
     SuperSaverShipping => [qw(Offers Offer OfferListing IsEligibleForSuperSaverShipping)],
-    Title => [qw(Title)],
+    Title => [qw(ItemAttributes Title)],
+    title => [qw(ItemAttributes Title)],
     ThirdPartyNewCount => [qw(OfferSummary TotalNew)],
     ThirdPartyNewPrice => [qw(OfferSummary LowestNewPrice FormattedPrice)],
     TotalOffers => [qw(Offers TotalOffers)],
@@ -49,11 +50,12 @@ our %DEFAULT_ATTRIBUTES_XPATH = (
     UsedPrice => [qw(OfferSummary LowestUsedPrice FormattedPrice)],
     RawListPrice => [qw(ItemAttributes ListPrice Amount)],
     CurrencyCode => [qw(ItemAttributes ListPrice CurrencyCode)],
+    ReleaseDate => [qw(ItemAttributes ReleaseDate)],
 );
 
 our @DEFAULT_ATTRIBUTES = qw(
   SalesRank ASIN DetailPageURL ProductDescription
-  NumMedia ReleaseDate NumberOfOfferings
+  NumMedia NumberOfOfferings
 );
 
 our %COMPATIBLE_ATTRIBUTES = (
