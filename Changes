@@ -1,4 +1,10 @@
 Revision history for Perl extension Net::Amazon:
+0.49 (04/24/2008)
+   (cb) Make an effort to return the price of an item.  Check for the
+        price of an item in the following order: Amazon's price, third
+        party new, and then third party used.  This issue was reported
+        by a least two different people via Mike Schilli.
+
 0.48 (01/13/2008)
    (cb) Fix from MATSUU Takuto for ReleaseDate, and Title.  These methods 
         have been moved to the base class.  The theatrical release date

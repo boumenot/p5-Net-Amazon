@@ -84,7 +84,7 @@ sub as_string {
 
     return join('/', $self->platforms) . ", " .
       '"' . $self->title . '"' . ", " .
-      $self->OurPrice . ", " .
+      $self->_best_effort_price() . ", " .
       $self->ASIN;
 }
 

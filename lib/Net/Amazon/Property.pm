@@ -139,11 +139,32 @@ sub as_string {
     }
 
     $result .= $self->year() . ", " if $self->year();
-    $result .= $self->OurPrice() . ", ";
+
+    $result .= $self->_best_effort_price() . ", ";
     $result .= $self->ASIN();
 
     return $result;
 }
+
+##################################################
+sub _best_effort_price {
+##################################################
+    my($self) = @_;
+
+    my $price;
+    if ($self->OurPrice()) {
+        $price = $self->OurPrice();
+    } elsif ($self->ThirdPartyNewPrice()) {
+        $price = $self->ThirdPartyNewPrice();
+    } elsif ($self->UsedPrice()) {
+        $price = $self->UsedPrice();
+    } else {
+        $price = '[$unknown]';
+    }
+
+    return $price;
+}
+
 
 ##################################################
 sub factory {

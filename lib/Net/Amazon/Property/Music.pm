@@ -89,7 +89,7 @@ sub as_string {
     return join('/', $self->artists) . ", " .
            '"' . $self->album . '"' . ", " .
            $self->year . ", " .
-           $self->OurPrice . ", " .
+           $self->_best_effort_price() . ", " .
            $self->Asin;
 }
 
