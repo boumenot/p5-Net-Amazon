@@ -80,7 +80,7 @@ sub is_page_error {
                 push @errors, $e->{Message};
             }
             # multiple errors, set arrary ref
-            $res->messages( @errors );
+            $res->messages( \@errors );
         } else {
             # single error, create array
             return -1 if $errref->{Error}->{Message} =~ /Valid values must be/;

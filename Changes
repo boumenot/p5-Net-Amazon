@@ -1,4 +1,8 @@
 Revision history for Perl extension Net::Amazon:
+0.50 (07/29/2008)
+   (cb) Michael Hendricks submitted a patch to guarantee that error 
+        messages are stored as an arrayref.
+
 0.49 (04/24/2008)
    (cb) Make an effort to return the price of an item.  Check for the
         price of an item in the following order: Amazon's price, third
@@ -106,7 +110,7 @@ Revision history for Perl extension Net::Amazon:
    (cb) Restrucure the fetch code to reduce the need to directly poke
         the XML where applicable.  There is still cleanup that needs to
         be done.
-   (cb) Remove to need explicitly specify mode parameters.
+   (cb) Remove the need to explicitly specify mode parameters.
    (cb) Autogenerate libraries based on data from Amazon's ECS specs to
         determine a default mode for the user.
    (cb) Autogenerate libraries based on data form Amazon's ECS specs to

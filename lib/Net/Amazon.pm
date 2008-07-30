@@ -8,7 +8,7 @@ use 5.006;
 use strict;
 use warnings;
 
-our $VERSION          = '0.49';
+our $VERSION          = '0.50';
 our $WSDL_DATE        = '2007-10-29';
 our $Locale           = 'us';
 our @CANNED_RESPONSES = ();
@@ -464,7 +464,7 @@ sub is_page_error {
                 push @errors, $e->{Message};
             }
             # multiple errors, set arrary ref
-            $self->messages( @errors );
+            $self->messages( \@errors );
         } else {
             # single error, create array
             $self->messages( [ $errref->{Error}->{Message} ] );
