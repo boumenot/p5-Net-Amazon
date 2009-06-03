@@ -1080,7 +1080,7 @@ And here's one displaying someone's wishlist:
 
 DETAILS
         Net::Amazon is based on Amazon Web Services version 4, and uses
-        WSDL version 2007-01-17.
+        WSDL version 2007-10-29.
 
 =head1 CACHING
 
@@ -1380,6 +1380,13 @@ stable releases for download. If you have questions about how to
 use C<Net::Amazon>, want to report a bug or just participate in its
 development, please send a message to the mailing 
 list net-amazon-devel@lists.sourceforge.net
+
+The source code has moved from sourceforge.net to github.com.  The git URL is
+
+    git://github.com/boumenot/p5-Net-Amazon.git
+
+The hope is that github.com makes collaboration much easier, and git is 
+a much more modern SCM tool.
 
 =head1 AUTHOR
 

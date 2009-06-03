@@ -1,3 +1,7 @@
+* Implement sign requests - needed by 15 August 2009.
+
+* Moose?
+
 * Examples to show the user how take better advantage of the AWS4.
 
 * The sort values are not auto-generated, or validated, and some of the sort

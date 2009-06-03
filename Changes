@@ -1,4 +1,8 @@
 Revision history for Perl extension Net::Amazon:
+(unreleased)
+   (cb) Indicate the code has moved to github.com.
+   (cb) Update the README to reflect the date of the WSDL.
+
 0.50 (07/29/2008)
    (cb) Michael Hendricks submitted a patch to guarantee that error 
         messages are stored as an arrayref.
