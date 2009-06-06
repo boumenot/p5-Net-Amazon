@@ -731,7 +731,6 @@ for details.
 Initiate a search for all items made by a given music label. Can return many
 results. See Net::Amazon::Request::MusicLabel for details.
 
-
 =item C<< $ua->search(publisher => "o'reilly") >>
 
 Initiate a search for all items made by a given publisher. Can return many
@@ -988,7 +987,9 @@ Sends a request to the Amazon web service. C<$request> is of a
 C<Net::Amazon::Request::*> type and C<$response> will be of the 
 corresponding C<Net::Amazon::Response::*> type.
 
-=back
+=back 
+
+=back 
 
 =head2 Modes
 
