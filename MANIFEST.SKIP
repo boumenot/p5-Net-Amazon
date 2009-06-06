@@ -3,6 +3,8 @@ blib
 ^Makefile.old$
 CVS
 .cvsignore
+.gitignore
+.git
 docs
 MANIFEST.bak
 adm/release
