@@ -1,12 +1,167 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<ItemSearchResponse xmlns="http://webservices.amazon.com/AWSECommerceService/2007-10-29">
+<?xml version="1.0"?>
+<ItemSearchResponse xmlns="http://webservices.amazon.com/AWSECommerceService/2009-03-31">
   <Items>
-    <TotalResults>125</TotalResults>
-    <TotalPages>13</TotalPages>
+    <TotalResults>200</TotalResults>
+    <TotalPages>20</TotalPages>
+    <Item>
+      <ASIN>1905857829</ASIN>
+      <SalesRank>54360</SalesRank>
+      <ItemAttributes>
+        <Author>Philippa Faulks</Author>
+        <Author>Robert L D Cooper</Author>
+        <Binding>Hardcover</Binding>
+        <Brand>SLIP AND SNIP</Brand>
+        <DeweyDecimalNumber>366.1092</DeweyDecimalNumber>
+        <EAN>9781905857821</EAN>
+        <ISBN>1905857829</ISBN>
+        <Label>Watkins</Label>
+        <Languages>
+          <Language>
+            <Name>English</Name>
+            <Type>Original Language</Type>
+          </Language>
+          <Language>
+            <Name>English</Name>
+            <Type>Unknown</Type>
+          </Language>
+          <Language>
+            <Name>English</Name>
+            <Type>Published</Type>
+          </Language>
+        </Languages>
+        <ListPrice>
+          <Amount>2495</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$24.95</FormattedPrice>
+        </ListPrice>
+        <Manufacturer>Watkins</Manufacturer>
+        <NumberOfItems>1</NumberOfItems>
+        <NumberOfPages>368</NumberOfPages>
+        <ProductGroup>Book</ProductGroup>
+        <ProductTypeName>ABIS_BOOK</ProductTypeName>
+        <PublicationDate>2008-10-07</PublicationDate>
+        <Publisher>Watkins</Publisher>
+        <Studio>Watkins</Studio>
+        <Title>The Masonic Magician: The Life and Death of Count Cagliostro and His Egyptian Rite</Title>
+      </ItemAttributes>
+      <OfferSummary>
+        <LowestNewPrice>
+          <Amount>1247</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$12.47</FormattedPrice>
+        </LowestNewPrice>
+        <LowestUsedPrice>
+          <Amount>1441</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$14.41</FormattedPrice>
+        </LowestUsedPrice>
+        <TotalNew>27</TotalNew>
+        <TotalUsed>9</TotalUsed>
+        <TotalCollectible>0</TotalCollectible>
+        <TotalRefurbished>0</TotalRefurbished>
+      </OfferSummary>
+      <Offers>
+        <TotalOffers>1</TotalOffers>
+        <TotalOfferPages>1</TotalOfferPages>
+        <Offer>
+          <Merchant>
+            <MerchantId>ATVPDKIKX0DER</MerchantId>
+            <GlancePage>http://www.amazon.com/gp/help/seller/home.html?seller=ATVPDKIKX0DER</GlancePage>
+            <AverageFeedbackRating>0.0</AverageFeedbackRating>
+            <TotalFeedback>0</TotalFeedback>
+          </Merchant>
+          <OfferAttributes>
+            <Condition>New</Condition>
+            <SubCondition>new</SubCondition>
+          </OfferAttributes>
+          <OfferListing>
+            <OfferListingId>5%2B6NzYGV%2FxlHhLdnIbG78c2HaSjZvqbnV0Ut6vCFRWy9Z0fdKW7tmEZLQlgNPCS1ekMsNbW6BiX4UXe9cTUQqg%3D%3D</OfferListingId>
+            <Price>
+              <Amount>1647</Amount>
+              <CurrencyCode>USD</CurrencyCode>
+              <FormattedPrice>$16.47</FormattedPrice>
+            </Price>
+            <AmountSaved>
+              <Amount>848</Amount>
+              <CurrencyCode>USD</CurrencyCode>
+              <FormattedPrice>$8.48</FormattedPrice>
+            </AmountSaved>
+            <PercentageSaved>34</PercentageSaved>
+            <Availability>Usually ships in 24 hours</Availability>
+            <AvailabilityAttributes>
+              <AvailabilityType>now</AvailabilityType>
+              <MinimumHours>0</MinimumHours>
+              <MaximumHours>0</MaximumHours>
+            </AvailabilityAttributes>
+            <Quantity>-1</Quantity>
+            <IsEligibleForSuperSaverShipping>1</IsEligibleForSuperSaverShipping>
+          </OfferListing>
+        </Offer>
+      </Offers>
+    </Item>
+    <Item>
+      <ASIN>0913866709</ASIN>
+      <SalesRank>790741</SalesRank>
+      <ItemAttributes>
+        <Author>Bruno Sigon</Author>
+        <Binding>Paperback</Binding>
+        <DeweyDecimalNumber>133</DeweyDecimalNumber>
+        <EAN>9780913866702</EAN>
+        <ISBN>0913866709</ISBN>
+        <Label>U.S. Games Systems</Label>
+        <Languages>
+          <Language>
+            <Name>English</Name>
+            <Type>Original Language</Type>
+          </Language>
+          <Language>
+            <Name>English</Name>
+            <Type>Unknown</Type>
+          </Language>
+          <Language>
+            <Name>English</Name>
+            <Type>Published</Type>
+          </Language>
+        </Languages>
+        <ListPrice>
+          <Amount>1800</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$18.00</FormattedPrice>
+        </ListPrice>
+        <Manufacturer>U.S. Games Systems</Manufacturer>
+        <NumberOfItems>1</NumberOfItems>
+        <NumberOfPages>78</NumberOfPages>
+        <ProductGroup>Book</ProductGroup>
+        <ProductTypeName>ABIS_BOOK</ProductTypeName>
+        <PublicationDate>1988-11</PublicationDate>
+        <Publisher>U.S. Games Systems</Publisher>
+        <Studio>U.S. Games Systems</Studio>
+        <Title>Cagliostro Tarot Deck</Title>
+      </ItemAttributes>
+      <OfferSummary>
+        <LowestNewPrice>
+          <Amount>6000</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$60.00</FormattedPrice>
+        </LowestNewPrice>
+        <LowestUsedPrice>
+          <Amount>3000</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$30.00</FormattedPrice>
+        </LowestUsedPrice>
+        <TotalNew>5</TotalNew>
+        <TotalUsed>8</TotalUsed>
+        <TotalCollectible>0</TotalCollectible>
+        <TotalRefurbished>0</TotalRefurbished>
+      </OfferSummary>
+      <Offers>
+        <TotalOffers>0</TotalOffers>
+        <TotalOfferPages>0</TotalOfferPages>
+      </Offers>
+    </Item>
     <Item>
       <ASIN>0060006919</ASIN>
-      <DetailPageURL>http://www.amazon.com/gp/redirect.html%3FASIN=0060006919%26tag=ws%26lcode=xm2%26cID=2025%26ccmID=165953%26location=/o/ASIN/0060006919%253FSubscriptionId=1VAESZQN1G7SXNRG4882</DetailPageURL>
-      <SalesRank>678566</SalesRank>
+      <SalesRank>934638</SalesRank>
       <ItemAttributes>
         <Author>Iain Mccalman</Author>
         <Binding>Paperback</Binding>
@@ -14,6 +169,20 @@
         <EAN>9780060006914</EAN>
         <ISBN>0060006919</ISBN>
         <Label>Harper Perennial</Label>
+        <Languages>
+          <Language>
+            <Name>English</Name>
+            <Type>Original Language</Type>
+          </Language>
+          <Language>
+            <Name>English</Name>
+            <Type>Unknown</Type>
+          </Language>
+          <Language>
+            <Name>English</Name>
+            <Type>Published</Type>
+          </Language>
+        </Languages>
         <ListPrice>
           <Amount>1395</Amount>
           <CurrencyCode>USD</CurrencyCode>
@@ -32,103 +201,23 @@
       </ItemAttributes>
       <OfferSummary>
         <LowestNewPrice>
-          <Amount>337</Amount>
+          <Amount>555</Amount>
           <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$3.37</FormattedPrice>
+          <FormattedPrice>$5.55</FormattedPrice>
         </LowestNewPrice>
         <LowestUsedPrice>
-          <Amount>290</Amount>
+          <Amount>204</Amount>
           <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$2.90</FormattedPrice>
+          <FormattedPrice>$2.04</FormattedPrice>
         </LowestUsedPrice>
         <LowestCollectiblePrice>
           <Amount>2450</Amount>
           <CurrencyCode>USD</CurrencyCode>
           <FormattedPrice>$24.50</FormattedPrice>
         </LowestCollectiblePrice>
-        <TotalNew>17</TotalNew>
-        <TotalUsed>13</TotalUsed>
+        <TotalNew>12</TotalNew>
+        <TotalUsed>23</TotalUsed>
         <TotalCollectible>1</TotalCollectible>
-        <TotalRefurbished>0</TotalRefurbished>
-      </OfferSummary>
-      <Offers>
-        <TotalOffers>1</TotalOffers>
-        <TotalOfferPages>1</TotalOfferPages>
-        <Offer>
-          <Merchant>
-            <MerchantId>ATVPDKIKX0DER</MerchantId>
-            <GlancePage>http://www.amazon.com/gp/help/seller/home.html?seller=ATVPDKIKX0DER</GlancePage>
-            <AverageFeedbackRating>0.0</AverageFeedbackRating>
-            <TotalFeedback>0</TotalFeedback>
-          </Merchant>
-          <OfferAttributes>
-            <Condition>New</Condition>
-            <SubCondition>new</SubCondition>
-          </OfferAttributes>
-          <OfferListing>
-            <OfferListingId>gC4oqJ5KBck%2BqfN1pFU%2BzUE4qGTokFXCo5E9krv0E779hB5%2Fz8PAAnKe83JZvDK9mVMesO1yENXad3718HwIAA%3D%3D</OfferListingId>
-            <Price>
-              <Amount>1186</Amount>
-              <CurrencyCode>USD</CurrencyCode>
-              <FormattedPrice>$11.86</FormattedPrice>
-            </Price>
-            <AmountSaved>
-              <Amount>209</Amount>
-              <CurrencyCode>USD</CurrencyCode>
-              <FormattedPrice>$2.09</FormattedPrice>
-            </AmountSaved>
-            <PercentageSaved>15</PercentageSaved>
-            <Availability>In stock soon. Order now to get in line. First come, first served.</Availability>
-            <AvailabilityAttributes>
-              <AvailabilityType>unknown</AvailabilityType>
-              <MinimumHours>672</MinimumHours>
-              <MaximumHours>1008</MaximumHours>
-            </AvailabilityAttributes>
-            <IsEligibleForSuperSaverShipping>1</IsEligibleForSuperSaverShipping>
-          </OfferListing>
-        </Offer>
-      </Offers>
-    </Item>
-    <Item>
-      <ASIN>0913866709</ASIN>
-      <DetailPageURL>http://www.amazon.com/gp/redirect.html%3FASIN=0913866709%26tag=ws%26lcode=xm2%26cID=2025%26ccmID=165953%26location=/o/ASIN/0913866709%253FSubscriptionId=1VAESZQN1G7SXNRG4882</DetailPageURL>
-      <SalesRank>778316</SalesRank>
-      <ItemAttributes>
-        <Author>Bruno Sigon</Author>
-        <Binding>Paperback</Binding>
-        <EAN>9780913866702</EAN>
-        <Edition>Crds</Edition>
-        <ISBN>0913866709</ISBN>
-        <Label>U.S. Games Systems</Label>
-        <ListPrice>
-          <Amount>1800</Amount>
-          <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$18.00</FormattedPrice>
-        </ListPrice>
-        <Manufacturer>U.S. Games Systems</Manufacturer>
-        <NumberOfItems>1</NumberOfItems>
-        <NumberOfPages>78</NumberOfPages>
-        <ProductGroup>Book</ProductGroup>
-        <ProductTypeName>ABIS_BOOK</ProductTypeName>
-        <PublicationDate>1988-11</PublicationDate>
-        <Publisher>U.S. Games Systems</Publisher>
-        <Studio>U.S. Games Systems</Studio>
-        <Title>Cagliostro Tarot Deck</Title>
-      </ItemAttributes>
-      <OfferSummary>
-        <LowestNewPrice>
-          <Amount>1241</Amount>
-          <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$12.41</FormattedPrice>
-        </LowestNewPrice>
-        <LowestUsedPrice>
-          <Amount>2847</Amount>
-          <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$28.47</FormattedPrice>
-        </LowestUsedPrice>
-        <TotalNew>5</TotalNew>
-        <TotalUsed>4</TotalUsed>
-        <TotalCollectible>0</TotalCollectible>
         <TotalRefurbished>0</TotalRefurbished>
       </OfferSummary>
       <Offers>
@@ -137,16 +226,28 @@
       </Offers>
     </Item>
     <Item>
-      <ASIN>1417956399</ASIN>
-      <DetailPageURL>http://www.amazon.com/gp/redirect.html%3FASIN=1417956399%26tag=ws%26lcode=xm2%26cID=2025%26ccmID=165953%26location=/o/ASIN/1417956399%253FSubscriptionId=1VAESZQN1G7SXNRG4882</DetailPageURL>
-      <SalesRank>1286913</SalesRank>
+      <ASIN>1425330851</ASIN>
+      <SalesRank>1403383</SalesRank>
       <ItemAttributes>
-        <Author>W. R. H. Trowbridge</Author>
+        <Author>Cagliostro</Author>
         <Binding>Paperback</Binding>
-        <Brand>Kessinger Publishing Company</Brand>
-        <EAN>9781417956395</EAN>
-        <ISBN>1417956399</ISBN>
+        <EAN>9781425330859</EAN>
+        <ISBN>1425330851</ISBN>
         <Label>Kessinger Publishing</Label>
+        <Languages>
+          <Language>
+            <Name>English</Name>
+            <Type>Unknown</Type>
+          </Language>
+          <Language>
+            <Name>English</Name>
+            <Type>Original Language</Type>
+          </Language>
+          <Language>
+            <Name>English</Name>
+            <Type>Published</Type>
+          </Language>
+        </Languages>
         <ListPrice>
           <Amount>1595</Amount>
           <CurrencyCode>USD</CurrencyCode>
@@ -160,21 +261,21 @@
         <PublicationDate>2005-12-30</PublicationDate>
         <Publisher>Kessinger Publishing</Publisher>
         <Studio>Kessinger Publishing</Studio>
-        <Title>Cagliostro and the Diamond Necklace Affair</Title>
+        <Title>The Infallible Divination by Means of Figures or Arithmomancy of Count Cagliostro</Title>
       </ItemAttributes>
       <OfferSummary>
         <LowestNewPrice>
-          <Amount>944</Amount>
+          <Amount>925</Amount>
           <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$9.44</FormattedPrice>
+          <FormattedPrice>$9.25</FormattedPrice>
         </LowestNewPrice>
         <LowestUsedPrice>
-          <Amount>1030</Amount>
+          <Amount>1014</Amount>
           <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$10.30</FormattedPrice>
+          <FormattedPrice>$10.14</FormattedPrice>
         </LowestUsedPrice>
-        <TotalNew>19</TotalNew>
-        <TotalUsed>8</TotalUsed>
+        <TotalNew>14</TotalNew>
+        <TotalUsed>4</TotalUsed>
         <TotalCollectible>0</TotalCollectible>
         <TotalRefurbished>0</TotalRefurbished>
       </OfferSummary>
@@ -193,7 +294,7 @@
             <SubCondition>new</SubCondition>
           </OfferAttributes>
           <OfferListing>
-            <OfferListingId>sfFP9UPR2%2F63p6hKztTOPgRmAs30%2Bzq5l%2BuDtRilejjoXBp2uVzbGYxtoRoA%2FpN0c3PXyBT0DwjNgo0jywehi6YyzPjRtWPk</OfferListingId>
+            <OfferListingId>yIfuq3unP%2FkPoS%2FZnU%2Bhp9ikHedPEsZ%2B%2Bg4m%2FxgAn3ee9CgrEPMNhCt0RYCgdRNg4hT3kqQoZzyJwuJ7HqDSld9URRr1YBwv</OfferListingId>
             <Price>
               <Amount>1244</Amount>
               <CurrencyCode>USD</CurrencyCode>
@@ -218,44 +319,87 @@
       </Offers>
     </Item>
     <Item>
-      <ASIN>0548135703</ASIN>
-      <DetailPageURL>http://www.amazon.com/gp/redirect.html%3FASIN=0548135703%26tag=ws%26lcode=xm2%26cID=2025%26ccmID=165953%26location=/o/ASIN/0548135703%253FSubscriptionId=1VAESZQN1G7SXNRG4882</DetailPageURL>
-      <SalesRank>1510418</SalesRank>
+      <ASIN>B000OM76UQ</ASIN>
+      <SalesRank>1917206</SalesRank>
       <ItemAttributes>
-        <Author>Henry Ridgely Evans</Author>
+        <Author>Francois Ribadeau Dumas</Author>
         <Binding>Hardcover</Binding>
-        <DeweyDecimalNumber>366</DeweyDecimalNumber>
-        <EAN>9780548135709</EAN>
-        <ISBN>0548135703</ISBN>
-        <Label>Kessinger Publishing, LLC</Label>
-        <ListPrice>
-          <Amount>3495</Amount>
+        <Label>George Allen &amp; UNWIN Ltd</Label>
+        <Manufacturer>George Allen &amp; UNWIN Ltd</Manufacturer>
+        <ProductGroup>Book</ProductGroup>
+        <ProductTypeName>BOOKS_1973_AND_LATER</ProductTypeName>
+        <PublicationDate>1967</PublicationDate>
+        <Publisher>George Allen &amp; UNWIN Ltd</Publisher>
+        <Studio>George Allen &amp; UNWIN Ltd</Studio>
+        <Title>Cagliostro</Title>
+      </ItemAttributes>
+      <OfferSummary>
+        <LowestUsedPrice>
+          <Amount>1000</Amount>
           <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$34.95</FormattedPrice>
+          <FormattedPrice>$10.00</FormattedPrice>
+        </LowestUsedPrice>
+        <TotalNew>0</TotalNew>
+        <TotalUsed>2</TotalUsed>
+        <TotalCollectible>0</TotalCollectible>
+        <TotalRefurbished>0</TotalRefurbished>
+      </OfferSummary>
+      <Offers>
+        <TotalOffers>0</TotalOffers>
+        <TotalOfferPages>0</TotalOfferPages>
+      </Offers>
+    </Item>
+    <Item>
+      <ASIN>1417955880</ASIN>
+      <SalesRank>1946302</SalesRank>
+      <ItemAttributes>
+        <Author>W. R. H. Trowbridge</Author>
+        <Binding>Paperback</Binding>
+        <EAN>9781417955886</EAN>
+        <ISBN>1417955880</ISBN>
+        <Label>Kessinger Publishing</Label>
+        <Languages>
+          <Language>
+            <Name>English</Name>
+            <Type>Unknown</Type>
+          </Language>
+          <Language>
+            <Name>English</Name>
+            <Type>Original Language</Type>
+          </Language>
+          <Language>
+            <Name>English</Name>
+            <Type>Published</Type>
+          </Language>
+        </Languages>
+        <ListPrice>
+          <Amount>1595</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$15.95</FormattedPrice>
         </ListPrice>
-        <Manufacturer>Kessinger Publishing, LLC</Manufacturer>
+        <Manufacturer>Kessinger Publishing</Manufacturer>
         <NumberOfItems>1</NumberOfItems>
-        <NumberOfPages>108</NumberOfPages>
+        <NumberOfPages>48</NumberOfPages>
         <ProductGroup>Book</ProductGroup>
         <ProductTypeName>ABIS_BOOK</ProductTypeName>
-        <PublicationDate>2007-07-25</PublicationDate>
-        <Publisher>Kessinger Publishing, LLC</Publisher>
-        <Studio>Kessinger Publishing, LLC</Studio>
-        <Title>Cagliostro And His Egyptian Rite Of Freemasonry</Title>
+        <PublicationDate>2005-12-30</PublicationDate>
+        <Publisher>Kessinger Publishing</Publisher>
+        <Studio>Kessinger Publishing</Studio>
+        <Title>Giuseppe Balsamo, Cagliostro, and the Diamond Necklace Affair</Title>
       </ItemAttributes>
       <OfferSummary>
         <LowestNewPrice>
-          <Amount>2269</Amount>
+          <Amount>925</Amount>
           <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$22.69</FormattedPrice>
+          <FormattedPrice>$9.25</FormattedPrice>
         </LowestNewPrice>
         <LowestUsedPrice>
-          <Amount>2269</Amount>
+          <Amount>830</Amount>
           <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$22.69</FormattedPrice>
+          <FormattedPrice>$8.30</FormattedPrice>
         </LowestUsedPrice>
-        <TotalNew>8</TotalNew>
-        <TotalUsed>1</TotalUsed>
+        <TotalNew>15</TotalNew>
+        <TotalUsed>7</TotalUsed>
         <TotalCollectible>0</TotalCollectible>
         <TotalRefurbished>0</TotalRefurbished>
       </OfferSummary>
@@ -274,23 +418,23 @@
             <SubCondition>new</SubCondition>
           </OfferAttributes>
           <OfferListing>
-            <OfferListingId>UZb7Tao9Tq5VfwJ1xQk2%2BrnVHPGqP7PDMk9zUGxsMF0ICXPJPsMqM%2BBUal3w%2BlDA0Pj%2BFFDVTjz0tDRwsSpTMQ%3D%3D</OfferListingId>
+            <OfferListingId>MrlGMyVlA801D2EahGDUFMEZeq6%2BqCAEA8icQ2z7ROt5Y53XgoYLA%2Bf6FKoVeF8DkSSMjKPdXsast%2FvPBReMeTFZHolXr%2FmV</OfferListingId>
             <Price>
-              <Amount>2656</Amount>
+              <Amount>1244</Amount>
               <CurrencyCode>USD</CurrencyCode>
-              <FormattedPrice>$26.56</FormattedPrice>
+              <FormattedPrice>$12.44</FormattedPrice>
             </Price>
             <AmountSaved>
-              <Amount>839</Amount>
+              <Amount>351</Amount>
               <CurrencyCode>USD</CurrencyCode>
-              <FormattedPrice>$8.39</FormattedPrice>
+              <FormattedPrice>$3.51</FormattedPrice>
             </AmountSaved>
-            <PercentageSaved>24</PercentageSaved>
+            <PercentageSaved>22</PercentageSaved>
             <Availability>Usually ships in 24 hours</Availability>
             <AvailabilityAttributes>
               <AvailabilityType>now</AvailabilityType>
-              <MinimumHours>0</MinimumHours>
-              <MaximumHours>0</MaximumHours>
+              <MinimumHours>24</MinimumHours>
+              <MaximumHours>24</MaximumHours>
             </AvailabilityAttributes>
             <Quantity>-1</Quantity>
             <IsEligibleForSuperSaverShipping>1</IsEligibleForSuperSaverShipping>
@@ -299,17 +443,56 @@
       </Offers>
     </Item>
     <Item>
+      <ASIN>B001NI2WGI</ASIN>
+      <SalesRank>3484350</SalesRank>
+      <ItemAttributes>
+        <Author>W.R.H. Trowbridge</Author>
+        <Binding>Hardcover</Binding>
+        <Label>E.P. Dutton &amp; Co.</Label>
+        <Manufacturer>E.P. Dutton &amp; Co.</Manufacturer>
+        <ProductGroup>Book</ProductGroup>
+        <ProductTypeName>BOOKS_1973_AND_LATER</ProductTypeName>
+        <PublicationDate>1910-01-01</PublicationDate>
+        <Publisher>E.P. Dutton &amp; Co.</Publisher>
+        <Studio>E.P. Dutton &amp; Co.</Studio>
+        <Title>Cagliostro the Splendour and Misery of a Master of Magic</Title>
+      </ItemAttributes>
+      <OfferSummary>
+        <LowestUsedPrice>
+          <Amount>15118</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$151.18</FormattedPrice>
+        </LowestUsedPrice>
+        <TotalNew>0</TotalNew>
+        <TotalUsed>1</TotalUsed>
+        <TotalCollectible>0</TotalCollectible>
+        <TotalRefurbished>0</TotalRefurbished>
+      </OfferSummary>
+      <Offers>
+        <TotalOffers>0</TotalOffers>
+        <TotalOfferPages>0</TotalOfferPages>
+      </Offers>
+    </Item>
+    <Item>
       <ASIN>0099441462</ASIN>
-      <DetailPageURL>http://www.amazon.com/gp/redirect.html%3FASIN=0099441462%26tag=ws%26lcode=xm2%26cID=2025%26ccmID=165953%26location=/o/ASIN/0099441462%253FSubscriptionId=1VAESZQN1G7SXNRG4882</DetailPageURL>
-      <SalesRank>1508862</SalesRank>
+      <SalesRank>2458439</SalesRank>
       <ItemAttributes>
         <Author>Iain McCalman</Author>
         <Binding>Paperback</Binding>
         <DeweyDecimalNumber>940</DeweyDecimalNumber>
         <EAN>9780099441465</EAN>
-        <Edition>New Ed</Edition>
         <ISBN>0099441462</ISBN>
         <Label>Arrow Books Ltd</Label>
+        <Languages>
+          <Language>
+            <Name>English</Name>
+            <Type>Original Language</Type>
+          </Language>
+          <Language>
+            <Name>English</Name>
+            <Type>Unknown</Type>
+          </Language>
+        </Languages>
         <ListPrice>
           <Amount>1650</Amount>
           <CurrencyCode>USD</CurrencyCode>
@@ -326,17 +509,17 @@
       </ItemAttributes>
       <OfferSummary>
         <LowestNewPrice>
-          <Amount>1030</Amount>
+          <Amount>2568</Amount>
           <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$10.30</FormattedPrice>
+          <FormattedPrice>$25.68</FormattedPrice>
         </LowestNewPrice>
         <LowestUsedPrice>
-          <Amount>1196</Amount>
+          <Amount>1905</Amount>
           <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$11.96</FormattedPrice>
+          <FormattedPrice>$19.05</FormattedPrice>
         </LowestUsedPrice>
-        <TotalNew>5</TotalNew>
-        <TotalUsed>2</TotalUsed>
+        <TotalNew>4</TotalNew>
+        <TotalUsed>1</TotalUsed>
         <TotalCollectible>0</TotalCollectible>
         <TotalRefurbished>0</TotalRefurbished>
       </OfferSummary>
@@ -346,35 +529,135 @@
       </Offers>
     </Item>
     <Item>
-      <ASIN>054379864X</ASIN>
-      <DetailPageURL>http://www.amazon.com/gp/redirect.html%3FASIN=054379864X%26tag=ws%26lcode=xm2%26cID=2025%26ccmID=165953%26location=/o/ASIN/054379864X%253FSubscriptionId=1VAESZQN1G7SXNRG4882</DetailPageURL>
-      <SalesRank>2813988</SalesRank>
+      <ASIN>9706666079</ASIN>
+      <SalesRank>4097495</SalesRank>
       <ItemAttributes>
-        <Author>Giovanni Barberi</Author>
+        <Author>Luis Zepeda Castaneda</Author>
         <Binding>Paperback</Binding>
-        <EAN>9780543798640</EAN>
-        <ISBN>054379864X</ISBN>
-        <Label>Adamant Media Corporation</Label>
+        <DeweyDecimalNumber>920</DeweyDecimalNumber>
+        <EAN>9789706666079</EAN>
+        <ISBN>9706666079</ISBN>
+        <Label>Tomo</Label>
+        <Languages>
+          <Language>
+            <Name>Spanish</Name>
+            <Type>Original Language</Type>
+          </Language>
+          <Language>
+            <Name>Spanish</Name>
+            <Type>Unknown</Type>
+          </Language>
+          <Language>
+            <Name>Spanish</Name>
+            <Type>Published</Type>
+          </Language>
+        </Languages>
         <ListPrice>
-          <Amount>2399</Amount>
+          <Amount>495</Amount>
           <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$23.99</FormattedPrice>
+          <FormattedPrice>$4.95</FormattedPrice>
         </ListPrice>
-        <Manufacturer>Adamant Media Corporation</Manufacturer>
-        <NumberOfPages>304</NumberOfPages>
+        <Manufacturer>Tomo</Manufacturer>
+        <NumberOfItems>1</NumberOfItems>
+        <NumberOfPages>128</NumberOfPages>
         <ProductGroup>Book</ProductGroup>
         <ProductTypeName>ABIS_BOOK</ProductTypeName>
-        <PublicationDate>2001-05-07</PublicationDate>
-        <Publisher>Adamant Media Corporation</Publisher>
-        <ReleaseDate>2001-05-07</ReleaseDate>
-        <Studio>Adamant Media Corporation</Studio>
-        <Title>Procés de Joseph Balsamo, surnommé le comte Cagliostro: (Abrégé de la vie et des actions de Cagliostro)</Title>
+        <PublicationDate>2008-01-28</PublicationDate>
+        <Publisher>Tomo</Publisher>
+        <Studio>Tomo</Studio>
+        <Title>Conde Cagliostro/ Count Alessandro di Cagliostro (Los Grandes) (Spanish Edition)</Title>
       </ItemAttributes>
       <OfferSummary>
         <LowestNewPrice>
-          <Amount>2399</Amount>
+          <Amount>495</Amount>
           <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$23.99</FormattedPrice>
+          <FormattedPrice>$4.95</FormattedPrice>
+        </LowestNewPrice>
+        <LowestUsedPrice>
+          <Amount>425</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$4.25</FormattedPrice>
+        </LowestUsedPrice>
+        <TotalNew>1</TotalNew>
+        <TotalUsed>3</TotalUsed>
+        <TotalCollectible>0</TotalCollectible>
+        <TotalRefurbished>0</TotalRefurbished>
+      </OfferSummary>
+      <Offers>
+        <TotalOffers>1</TotalOffers>
+        <TotalOfferPages>1</TotalOfferPages>
+        <Offer>
+          <Merchant>
+            <MerchantId>ATVPDKIKX0DER</MerchantId>
+            <GlancePage>http://www.amazon.com/gp/help/seller/home.html?seller=ATVPDKIKX0DER</GlancePage>
+            <AverageFeedbackRating>0.0</AverageFeedbackRating>
+            <TotalFeedback>0</TotalFeedback>
+          </Merchant>
+          <OfferAttributes>
+            <Condition>New</Condition>
+            <SubCondition>new</SubCondition>
+          </OfferAttributes>
+          <OfferListing>
+            <OfferListingId>KMcIrL6wZvroeeg1ECQxYcd0Uw4K1cxJoUgPl9nK1ADOGO6bQBSvNzSRZPnNTVdbsC%2FbD6pv1LjuFlz5V%2BWn0Q%3D%3D</OfferListingId>
+            <Price>
+              <Amount>495</Amount>
+              <CurrencyCode>USD</CurrencyCode>
+              <FormattedPrice>$4.95</FormattedPrice>
+            </Price>
+            <Availability>Temporarily out of stock. Order now and we'll deliver when available. We'll e-mail you with an estimated delivery date as soon as we have more information. Your credit card will not be charged until we ship the item.</Availability>
+            <AvailabilityAttributes>
+              <AvailabilityType>unknown</AvailabilityType>
+              <MinimumHours>672</MinimumHours>
+              <MaximumHours>1008</MaximumHours>
+            </AvailabilityAttributes>
+            <IsEligibleForSuperSaverShipping>1</IsEligibleForSuperSaverShipping>
+          </OfferListing>
+        </Offer>
+      </Offers>
+    </Item>
+    <Item>
+      <ASIN>8479102446</ASIN>
+      <SalesRank>3912750</SalesRank>
+      <ItemAttributes>
+        <Author>Alessandro Cagliostro</Author>
+        <Binding>Paperback</Binding>
+        <EAN>9788479102449</EAN>
+        <ISBN>8479102446</ISBN>
+        <Label>Humanitas</Label>
+        <Languages>
+          <Language>
+            <Name>Spanish</Name>
+            <Type>Unknown</Type>
+          </Language>
+          <Language>
+            <Name>Spanish</Name>
+            <Type>Original Language</Type>
+          </Language>
+          <Language>
+            <Name>Spanish</Name>
+            <Type>Published</Type>
+          </Language>
+        </Languages>
+        <ListPrice>
+          <Amount>2140</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$21.40</FormattedPrice>
+        </ListPrice>
+        <Manufacturer>Humanitas</Manufacturer>
+        <NumberOfItems>1</NumberOfItems>
+        <NumberOfPages>75</NumberOfPages>
+        <ProductGroup>Book</ProductGroup>
+        <ProductTypeName>ABIS_BOOK</ProductTypeName>
+        <PublicationDate>2005-09</PublicationDate>
+        <Publisher>Humanitas</Publisher>
+        <Studio>Humanitas</Studio>
+        <Title>Evangelio de Cagliostro (Spanish Edition)</Title>
+      </ItemAttributes>
+      <OfferSummary>
+        <LowestNewPrice>
+          <Amount>1808</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$18.08</FormattedPrice>
         </LowestNewPrice>
         <TotalNew>2</TotalNew>
         <TotalUsed>0</TotalUsed>
@@ -396,291 +679,22 @@
             <SubCondition>new</SubCondition>
           </OfferAttributes>
           <OfferListing>
-            <OfferListingId>NMI2ymuUMwTHDFgMVWJ1T%2F2lqMOB7mgUGK1TxB%2BNB1Y22smfD0GwDZIZlM7HsKrxIz%2F09Bz2jdPGua%2FRjHq0Gw%3D%3D</OfferListingId>
+            <OfferListingId>d6ZR%2FYqyxjcpAcvLr981KLuodMyzHOguq0MCLI26btRNH7lLG%2BsU3Bfno5SZSEB3klwUpXA7Kq3UwISrrdcWrUJ%2BwMI33%2BlD</OfferListingId>
             <Price>
-              <Amount>2399</Amount>
+              <Amount>2140</Amount>
               <CurrencyCode>USD</CurrencyCode>
-              <FormattedPrice>$23.99</FormattedPrice>
+              <FormattedPrice>$21.40</FormattedPrice>
             </Price>
-            <Availability>Usually ships in 2 to 4 days</Availability>
+            <Availability>Usually ships in 1 to 3 weeks</Availability>
             <AvailabilityAttributes>
               <AvailabilityType>now</AvailabilityType>
-              <MinimumHours>48</MinimumHours>
-              <MaximumHours>96</MaximumHours>
+              <MinimumHours>216</MinimumHours>
+              <MaximumHours>456</MaximumHours>
             </AvailabilityAttributes>
             <Quantity>-1</Quantity>
             <IsEligibleForSuperSaverShipping>1</IsEligibleForSuperSaverShipping>
           </OfferListing>
         </Offer>
-      </Offers>
-    </Item>
-    <Item>
-      <ASIN>1425306128</ASIN>
-      <DetailPageURL>http://www.amazon.com/gp/redirect.html%3FASIN=1425306128%26tag=ws%26lcode=xm2%26cID=2025%26ccmID=165953%26location=/o/ASIN/1425306128%253FSubscriptionId=1VAESZQN1G7SXNRG4882</DetailPageURL>
-      <SalesRank>3036981</SalesRank>
-      <ItemAttributes>
-        <Author>Samuel Beswick</Author>
-        <Binding>Paperback</Binding>
-        <DeweyDecimalNumber>366</DeweyDecimalNumber>
-        <EAN>9781425306120</EAN>
-        <ISBN>1425306128</ISBN>
-        <Label>Kessinger Publishing</Label>
-        <ListPrice>
-          <Amount>1595</Amount>
-          <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$15.95</FormattedPrice>
-        </ListPrice>
-        <Manufacturer>Kessinger Publishing</Manufacturer>
-        <NumberOfItems>1</NumberOfItems>
-        <NumberOfPages>48</NumberOfPages>
-        <ProductGroup>Book</ProductGroup>
-        <ProductTypeName>ABIS_BOOK</ProductTypeName>
-        <PublicationDate>2005-12-30</PublicationDate>
-        <Publisher>Kessinger Publishing</Publisher>
-        <Studio>Kessinger Publishing</Studio>
-        <Title>Count Cagliostro and the Swedenborgian Rite of Freemasonry</Title>
-      </ItemAttributes>
-      <OfferSummary>
-        <LowestNewPrice>
-          <Amount>944</Amount>
-          <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$9.44</FormattedPrice>
-        </LowestNewPrice>
-        <LowestUsedPrice>
-          <Amount>995</Amount>
-          <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$9.95</FormattedPrice>
-        </LowestUsedPrice>
-        <TotalNew>19</TotalNew>
-        <TotalUsed>8</TotalUsed>
-        <TotalCollectible>0</TotalCollectible>
-        <TotalRefurbished>0</TotalRefurbished>
-      </OfferSummary>
-      <Offers>
-        <TotalOffers>1</TotalOffers>
-        <TotalOfferPages>1</TotalOfferPages>
-        <Offer>
-          <Merchant>
-            <MerchantId>ATVPDKIKX0DER</MerchantId>
-            <GlancePage>http://www.amazon.com/gp/help/seller/home.html?seller=ATVPDKIKX0DER</GlancePage>
-            <AverageFeedbackRating>0.0</AverageFeedbackRating>
-            <TotalFeedback>0</TotalFeedback>
-          </Merchant>
-          <OfferAttributes>
-            <Condition>New</Condition>
-            <SubCondition>new</SubCondition>
-          </OfferAttributes>
-          <OfferListing>
-            <OfferListingId>gj%2B7F93nkvjkGTMckW%2Fz3w8NoMwi9g1%2B%2FC6Ms5ETObh%2B1Tvwf5BOSl0b0xKY06LcI8YBlNVxsjJIeNmvM5BAamRsnIdhOm%2Bw</OfferListingId>
-            <Price>
-              <Amount>1244</Amount>
-              <CurrencyCode>USD</CurrencyCode>
-              <FormattedPrice>$12.44</FormattedPrice>
-            </Price>
-            <AmountSaved>
-              <Amount>351</Amount>
-              <CurrencyCode>USD</CurrencyCode>
-              <FormattedPrice>$3.51</FormattedPrice>
-            </AmountSaved>
-            <PercentageSaved>22</PercentageSaved>
-            <Availability>Usually ships in 24 hours</Availability>
-            <AvailabilityAttributes>
-              <AvailabilityType>now</AvailabilityType>
-              <MinimumHours>0</MinimumHours>
-              <MaximumHours>0</MaximumHours>
-            </AvailabilityAttributes>
-            <Quantity>-1</Quantity>
-            <IsEligibleForSuperSaverShipping>1</IsEligibleForSuperSaverShipping>
-          </OfferListing>
-        </Offer>
-      </Offers>
-    </Item>
-    <Item>
-      <ASIN>1425310001</ASIN>
-      <DetailPageURL>http://www.amazon.com/gp/redirect.html%3FASIN=1425310001%26tag=ws%26lcode=xm2%26cID=2025%26ccmID=165953%26location=/o/ASIN/1425310001%253FSubscriptionId=1VAESZQN1G7SXNRG4882</DetailPageURL>
-      <SalesRank>2926066</SalesRank>
-      <ItemAttributes>
-        <Author>Harry C. Schnur</Author>
-        <Binding>Paperback</Binding>
-        <Brand>Kessinger Publishing Company</Brand>
-        <EAN>9781425310004</EAN>
-        <ISBN>1425310001</ISBN>
-        <Label>Kessinger Publishing</Label>
-        <ListPrice>
-          <Amount>1895</Amount>
-          <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$18.95</FormattedPrice>
-        </ListPrice>
-        <Manufacturer>Kessinger Publishing</Manufacturer>
-        <NumberOfItems>1</NumberOfItems>
-        <NumberOfPages>88</NumberOfPages>
-        <ProductGroup>Book</ProductGroup>
-        <ProductTypeName>ABIS_BOOK</ProductTypeName>
-        <PublicationDate>2005-12-30</PublicationDate>
-        <Publisher>Kessinger Publishing</Publisher>
-        <Studio>Kessinger Publishing</Studio>
-        <Title>Cagliostro: The Messenger Who Failed</Title>
-      </ItemAttributes>
-      <OfferSummary>
-        <LowestNewPrice>
-          <Amount>1175</Amount>
-          <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$11.75</FormattedPrice>
-        </LowestNewPrice>
-        <LowestUsedPrice>
-          <Amount>1230</Amount>
-          <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$12.30</FormattedPrice>
-        </LowestUsedPrice>
-        <TotalNew>18</TotalNew>
-        <TotalUsed>8</TotalUsed>
-        <TotalCollectible>0</TotalCollectible>
-        <TotalRefurbished>0</TotalRefurbished>
-      </OfferSummary>
-      <Offers>
-        <TotalOffers>1</TotalOffers>
-        <TotalOfferPages>1</TotalOfferPages>
-        <Offer>
-          <Merchant>
-            <MerchantId>ATVPDKIKX0DER</MerchantId>
-            <GlancePage>http://www.amazon.com/gp/help/seller/home.html?seller=ATVPDKIKX0DER</GlancePage>
-            <AverageFeedbackRating>0.0</AverageFeedbackRating>
-            <TotalFeedback>0</TotalFeedback>
-          </Merchant>
-          <OfferAttributes>
-            <Condition>New</Condition>
-            <SubCondition>new</SubCondition>
-          </OfferAttributes>
-          <OfferListing>
-            <OfferListingId>Ib9IjdR1LsmqqAgWVflQwYMDGx%2FY6FX5ydySrU9ViwgUWcnJ2pd912ttjEqZ2tPVgPlrlamzJQKxbWUGUnMFlsVzAdVKizM8</OfferListingId>
-            <Price>
-              <Amount>1478</Amount>
-              <CurrencyCode>USD</CurrencyCode>
-              <FormattedPrice>$14.78</FormattedPrice>
-            </Price>
-            <AmountSaved>
-              <Amount>417</Amount>
-              <CurrencyCode>USD</CurrencyCode>
-              <FormattedPrice>$4.17</FormattedPrice>
-            </AmountSaved>
-            <PercentageSaved>22</PercentageSaved>
-            <Availability>Usually ships in 24 hours</Availability>
-            <AvailabilityAttributes>
-              <AvailabilityType>now</AvailabilityType>
-              <MinimumHours>24</MinimumHours>
-              <MaximumHours>24</MaximumHours>
-            </AvailabilityAttributes>
-            <Quantity>-1</Quantity>
-            <IsEligibleForSuperSaverShipping>1</IsEligibleForSuperSaverShipping>
-          </OfferListing>
-        </Offer>
-      </Offers>
-    </Item>
-    <Item>
-      <ASIN>843501729X</ASIN>
-      <DetailPageURL>http://www.amazon.com/gp/redirect.html%3FASIN=843501729X%26tag=ws%26lcode=xm2%26cID=2025%26ccmID=165953%26location=/o/ASIN/843501729X%253FSubscriptionId=1VAESZQN1G7SXNRG4882</DetailPageURL>
-      <SalesRank>1818651</SalesRank>
-      <ItemAttributes>
-        <Author>Maurice Leblanc</Author>
-        <Binding>Paperback</Binding>
-        <DeweyDecimalNumber>813</DeweyDecimalNumber>
-        <EAN>9788435017299</EAN>
-        <Edition>Tra</Edition>
-        <ISBN>843501729X</ISBN>
-        <Label>Edhasa</Label>
-        <ListPrice>
-          <Amount>895</Amount>
-          <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$8.95</FormattedPrice>
-        </ListPrice>
-        <Manufacturer>Edhasa</Manufacturer>
-        <NumberOfItems>1</NumberOfItems>
-        <NumberOfPages>379</NumberOfPages>
-        <ProductGroup>Book</ProductGroup>
-        <ProductTypeName>ABIS_BOOK</ProductTypeName>
-        <PublicationDate>2005-05-01</PublicationDate>
-        <Publisher>Edhasa</Publisher>
-        <Studio>Edhasa</Studio>
-        <Title>Arsene Lupin, La Condesa Del Cagliostro / Arsene Lupin: The Countess of Cagliostro (Arsene Lupin) (Arsene Lupin)</Title>
-      </ItemAttributes>
-      <OfferSummary>
-        <LowestNewPrice>
-          <Amount>676</Amount>
-          <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$6.76</FormattedPrice>
-        </LowestNewPrice>
-        <LowestUsedPrice>
-          <Amount>676</Amount>
-          <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$6.76</FormattedPrice>
-        </LowestUsedPrice>
-        <TotalNew>9</TotalNew>
-        <TotalUsed>1</TotalUsed>
-        <TotalCollectible>0</TotalCollectible>
-        <TotalRefurbished>0</TotalRefurbished>
-      </OfferSummary>
-      <Offers>
-        <TotalOffers>1</TotalOffers>
-        <TotalOfferPages>1</TotalOfferPages>
-        <Offer>
-          <Merchant>
-            <MerchantId>ATVPDKIKX0DER</MerchantId>
-            <GlancePage>http://www.amazon.com/gp/help/seller/home.html?seller=ATVPDKIKX0DER</GlancePage>
-            <AverageFeedbackRating>0.0</AverageFeedbackRating>
-            <TotalFeedback>0</TotalFeedback>
-          </Merchant>
-          <OfferAttributes>
-            <Condition>New</Condition>
-            <SubCondition>new</SubCondition>
-          </OfferAttributes>
-          <OfferListing>
-            <OfferListingId>IqLYMECb5R107AxKsdhul5QIMj64rKQbgVHIFsy1BoLjajgPkE%2BuWQ7%2FHcUHpIMbVftXpQyu3ohtUQvW75XRX1NWqW1ALyMd</OfferListingId>
-            <Price>
-              <Amount>895</Amount>
-              <CurrencyCode>USD</CurrencyCode>
-              <FormattedPrice>$8.95</FormattedPrice>
-            </Price>
-            <Availability>Usually ships in 24 hours</Availability>
-            <AvailabilityAttributes>
-              <AvailabilityType>now</AvailabilityType>
-              <MinimumHours>0</MinimumHours>
-              <MaximumHours>0</MaximumHours>
-            </AvailabilityAttributes>
-            <Quantity>-1</Quantity>
-            <IsEligibleForSuperSaverShipping>1</IsEligibleForSuperSaverShipping>
-          </OfferListing>
-        </Offer>
-      </Offers>
-    </Item>
-    <Item>
-      <ASIN>B000QDJQPQ</ASIN>
-      <DetailPageURL>http://www.amazon.com/gp/redirect.html%3FASIN=B000QDJQPQ%26tag=ws%26lcode=xm2%26cID=2025%26ccmID=165953%26location=/o/ASIN/B000QDJQPQ%253FSubscriptionId=1VAESZQN1G7SXNRG4882</DetailPageURL>
-      <ItemAttributes>
-        <Author>W.R.H. Trowbridge</Author>
-        <Binding>Hardcover</Binding>
-        <Label>University Books</Label>
-        <Manufacturer>University Books</Manufacturer>
-        <ProductGroup>Book</ProductGroup>
-        <ProductTypeName>BOOKS_1973_AND_LATER</ProductTypeName>
-        <PublicationDate>1960</PublicationDate>
-        <Publisher>University Books</Publisher>
-        <Studio>University Books</Studio>
-        <Title>Cagliostro</Title>
-      </ItemAttributes>
-      <OfferSummary>
-        <LowestUsedPrice>
-          <Amount>1300</Amount>
-          <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$13.00</FormattedPrice>
-        </LowestUsedPrice>
-        <TotalNew>0</TotalNew>
-        <TotalUsed>3</TotalUsed>
-        <TotalCollectible>0</TotalCollectible>
-        <TotalRefurbished>0</TotalRefurbished>
-      </OfferSummary>
-      <Offers>
-        <TotalOffers>0</TotalOffers>
-        <TotalOfferPages>0</TotalOfferPages>
       </Offers>
     </Item>
   </Items>

@@ -72,8 +72,6 @@ See the "Amazon Web Services 2.1 API and Integration Guide" for details.
 
 Check L<Net::Amazon::Request> for common request parameters not listed here.
 
-=head1 SEE ALSO
-
 =head1 AUTHORS
 
 Robert Graff, E<lt>rgraff@workingdemo.comE<gt>

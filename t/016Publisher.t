@@ -33,7 +33,7 @@ my $ua = Net::Amazon->new(
 );
 
 my $req = Net::Amazon::Request::Publisher->new(
-    publisher => 'Black Belt Communications, Inc.',
+    publisher => 'Disney Hyperion Books for Children',
 );
 
    # Response is of type Net::Amazon::Manufacturer::Response
@@ -45,7 +45,7 @@ ok($resp->is_success(), "Successful fetch");
 # Parameters
 ######################################################################
 my $p = ($resp->properties)[0];
-is($p->publisher(), "Black Belt Communications Inc", "Manufacturer is Black Belt Communications Inc");
+is($p->publisher(), "Disney Hyperion Books for Children", "Manufacturer is Disney Hyperion Books for Children");
 
 ######################################################################
 # handle canned responses

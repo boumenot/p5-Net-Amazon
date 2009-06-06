@@ -74,8 +74,6 @@ prepending 978.  Amazon lists the 13-digit ISBN alongside 10-digit ISBN.
 
 =back
 
-=head1 SEE ALSO
-
 =head1 AUTHOR
 
 Christopher Boumenot, E<lt>boumenot@gmail.comE<gt>

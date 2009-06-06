@@ -73,8 +73,6 @@ the Amazon web service for items of a given director.
 
 =back
 
-=head1 SEE ALSO
-
 =head1 AUTHORS
 
 Carl Franks, E<lt>fireartist@gmail.comE<gt>

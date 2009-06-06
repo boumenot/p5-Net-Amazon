@@ -437,8 +437,6 @@ Returns a list of ASINs of similar items for this item.
 Please check the subclasses of C<Net::Amazon::Property> for specialized 
 methods.
 
-=head1 SEE ALSO
-
 =head1 AUTHOR
 
 Mike Schilli, E<lt>m@perlmeister.comE<gt>

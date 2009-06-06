@@ -1,18 +1,30 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<ItemLookupResponse xmlns="http://webservices.amazon.com/AWSECommerceService/2007-10-29">
+<?xml version="1.0"?>
+<ItemLookupResponse xmlns="http://webservices.amazon.com/AWSECommerceService/2009-03-31">
   <Items>
     <Item>
       <ASIN>0201360683</ASIN>
-      <DetailPageURL>http://www.amazon.com/gp/redirect.html%3FASIN=0201360683%26tag=ws%26lcode=xm2%26cID=2025%26ccmID=165953%26location=/o/ASIN/0201360683%253FSubscriptionId=1VAESZQN1G7SXNRG4882</DetailPageURL>
-      <SalesRank>816560</SalesRank>
+      <SalesRank>1280843</SalesRank>
       <ItemAttributes>
         <Author>Michael Schilli</Author>
         <Binding>Paperback</Binding>
         <DeweyDecimalNumber>005.133</DeweyDecimalNumber>
         <EAN>9780201360684</EAN>
-        <Edition>Pap/Cdr</Edition>
         <ISBN>0201360683</ISBN>
         <Label>Addison-Wesley Professional</Label>
+        <Languages>
+          <Language>
+            <Name>English</Name>
+            <Type>Original Language</Type>
+          </Language>
+          <Language>
+            <Name>English</Name>
+            <Type>Unknown</Type>
+          </Language>
+          <Language>
+            <Name>English</Name>
+            <Type>Published</Type>
+          </Language>
+        </Languages>
         <ListPrice>
           <Amount>3999</Amount>
           <CurrencyCode>USD</CurrencyCode>
@@ -30,17 +42,17 @@
       </ItemAttributes>
       <OfferSummary>
         <LowestNewPrice>
-          <Amount>1481</Amount>
+          <Amount>1627</Amount>
           <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$14.81</FormattedPrice>
+          <FormattedPrice>$16.27</FormattedPrice>
         </LowestNewPrice>
         <LowestUsedPrice>
-          <Amount>309</Amount>
+          <Amount>863</Amount>
           <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$3.09</FormattedPrice>
+          <FormattedPrice>$8.63</FormattedPrice>
         </LowestUsedPrice>
-        <TotalNew>3</TotalNew>
-        <TotalUsed>13</TotalUsed>
+        <TotalNew>7</TotalNew>
+        <TotalUsed>12</TotalUsed>
         <TotalCollectible>0</TotalCollectible>
         <TotalRefurbished>0</TotalRefurbished>
       </OfferSummary>
@@ -81,14 +93,14 @@
           <TotalVotes>4</TotalVotes>
           <Date>1999-12-30</Date>
           <Summary>Perl power</Summary>
-          <Content>Excellent book that gets you started with lots of areas of perl. Most of the code I have tried works fine with Activestates's 523 build and with the perl development kit 1.2.4.  Having  code that work is rare with these  books especially with Windows. I use 98 and NT and unix.  This book is not  a diffinitive guide to perl but it gives you a good summay in most of the  important area's and enought code to get started quickly. It gave me lots  of ideas on things I could use perl for.  I also like &quot;Perl 5  complete&quot; for theory, but the code for that book is very buggy and  hard to get to work. I like its detailed explanation of how things are  suppose to work.  &quot;Perl Cookbook&quot; is also excellent for how to  solve problems various kinds of problems. These are the best of the perl  books I have.</Content>
+          <Content>Excellent book that gets you started with lots of areas of perl. Most of the code I have tried works fine with Activestates's 523 build and with the perl development kit 1.2.4.  Having  code that work is rare with these  books especially with Windows. I use 98 and NT and unix.  This book is not  a diffinitive guide to perl but it gives you a good summay in most of the  important area's and enought code to get started quickly. It gave me lots  of ideas on things I could use perl for.  I also like "Perl 5  complete" for theory, but the code for that book is very buggy and  hard to get to work. I like its detailed explanation of how things are  suppose to work.  "Perl Cookbook" is also excellent for how to  solve problems various kinds of problems. These are the best of the perl  books I have.</Content>
         </Review>
         <Review>
           <ASIN>0201360683</ASIN>
           <Rating>2</Rating>
           <HelpfulVotes>7</HelpfulVotes>
-          <TotalVotes>11</TotalVotes>
-          <Date>1999-11-11</Date>
+          <TotalVotes>10</TotalVotes>
+          <Date>1999-11-10</Date>
           <Summary>Don't buy this book for CGI programming</Summary>
           <Content>I bought this book based on the 5-star reviews - never do THAT again......long on abstract examples that don't mirror the real world, short on logical explanations for the common man(woman).. I have had  several other PERL books from the local library that were much better  (Castros book is good, don't believe the condescending reviews) - not for  the CGI web programmer</Content>
         </Review>
@@ -104,9 +116,9 @@
             <Location>Washington, DC USA</Location>
           </Reviewer>
           <TotalVotes>3</TotalVotes>
-          <Date>1999-10-05</Date>
+          <Date>1999-10-04</Date>
           <Summary>Excellent book, well-written with lots of valuable info.</Summary>
-          <Content>Although my bookshelves are already full of 700-page perl books of the &quot;Teach Yourself&quot; variety, I was unable to find any good explanations of the LWP module.  When I found a chapter devoted to LWP in  Perl Power, I was thrilled and immediately bought the book.&lt;p&gt;What I didn't  expect was the bonus of someone finally providing a good explanation of  Perl 5 and object-oriented perl.  That section ALSO would have been worth  the price of the book.&lt;p&gt;Even the first chapter had all sorts of insights  and explanations I found invaluable.  I've been using perl off and on for  about 3 years, mostly writing quick utilities, and I'll credit this book  with wanting to make me use perl more.</Content>
+          <Content>Although my bookshelves are already full of 700-page perl books of the "Teach Yourself" variety, I was unable to find any good explanations of the LWP module.  When I found a chapter devoted to LWP in  Perl Power, I was thrilled and immediately bought the book.&lt;p&gt;What I didn't  expect was the bonus of someone finally providing a good explanation of  Perl 5 and object-oriented perl.  That section ALSO would have been worth  the price of the book.&lt;p&gt;Even the first chapter had all sorts of insights  and explanations I found invaluable.  I've been using perl off and on for  about 3 years, mostly writing quick utilities, and I'll credit this book  with wanting to make me use perl more.</Content>
         </Review>
         <Review>
           <ASIN>0201360683</ASIN>
@@ -120,8 +132,8 @@
       </CustomerReviews>
       <EditorialReviews>
         <EditorialReview>
-          <Source>Book Description</Source>
-          <Content>The Web is booming, the majority of CGI applications are coded in Perl.  For this reason, there is a huge number of beginners and intermediate developers wanting to get to know Perl in general and Internet applications with Perl in particular.  &lt;P&gt;Learn Perl basics and get up to speed with Internet and Object Oriented programming with just one book.  Packed with hints and tips, solutions and exercises, Perl Power! is the perfect jumpstart guide to the hottest features of the latest Perl release.  Beginners and intermediate developers an use the intermediate developers can use the introductory chapter to get up and running with Perl 5 fast, and a tutorial on object-oriented programming will supplement knowledge and help to fully exploit the power of Perl.  &lt;P&gt;Since use of freely available modules (included on the CD that comes with the book) dramatically accelerates the development of Perl applications, the book shows how to find the right module for common programming tasks and illustrates the use of many of them in detail.</Content>
+          <Source>Product Description</Source>
+          <Content>The Web is booming, the majority of CGI applications are coded in Perl.  For this reason, there is a huge number of beginners and intermediate developers wanting to get to know Perl in general and Internet applications with Perl in particular.    &lt;P&gt;Learn Perl basics and get up to speed with Internet and Object Oriented programming with just one book.  Packed with hints and tips, solutions and exercises, Perl Power! is the perfect jumpstart guide to the hottest features of the latest Perl release.  Beginners and intermediate developers an use the intermediate developers can use the introductory chapter to get up and running with Perl 5 fast, and a tutorial on object-oriented programming will supplement knowledge and help to fully exploit the power of Perl.    &lt;P&gt;Since use of freely available modules (included on the CD that comes with the book) dramatically accelerates the development of Perl applications, the book shows how to find the right module for common programming tasks and illustrates the use of many of them in detail.</Content>
           <IsLinkSuppressed>0</IsLinkSuppressed>
         </EditorialReview>
       </EditorialReviews>

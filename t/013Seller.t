@@ -46,27 +46,27 @@ is($resp->result()->as_string(), "brick_road_books (brick_road_books): 10",
 # listings
 my @listings = $resp->result()->listings();
 
-is($listings[0]->ExchangeStartDate(), "2003-12-20",
+is($listings[0]->ExchangeStartDate(), "2008-09-19",
    "Listing 1 Start Date");
-is($listings[0]->ExchangeEndDate(), "2006-12-04",
+is($listings[0]->ExchangeEndDate(), "",
    "Listing 1 End Date");
-is($listings[1]->ExchangeStartDate(), "2003-12-22",
+is($listings[1]->ExchangeStartDate(), "2008-09-19",
    "Listing 2 Start Date");
-is($listings[1]->ExchangeEndDate(), "2006-12-06",
+is($listings[1]->ExchangeEndDate(), "",
    "Listing 2 End Date");
 
-is($listings[0]->ExchangeAsin(), "0831777923", "listings 1 Asin");
-like($listings[0]->ExchangeTitle(), qr/The Sign.*?Sir/, "listings 1 Title");
-is($listings[0]->ListingId(), "1220F944235", "listings 1 listingsId");
-is($listings[0]->ExchangeId(), "Y03Y3368867Y8279042", "listings 1 ExchangeId");
+is($listings[0]->ExchangeAsin(), "0376055723", "listings 1 Asin");
+like($listings[0]->ExchangeTitle(), qr/National Parks of the West/, "listings 1 Title");
+is($listings[0]->ListingId(), "1221T896306", "listings 1 listingsId");
+is($listings[0]->ExchangeId(), "Y11M5526205M1732079", "listings 1 ExchangeId");
 is($listings[0]->ExchangeQuantityAllocated(), "1", "listings 1 ExchangeQuantityAllocated");
 is($listings[0]->ExchangeQuantity(), "1", "listings 1 ExchangeQuantity");
 is($listings[0]->ExchangeCondition(), "used", "listings 1 ExchangeCondition");
-is($listings[0]->ExchangeConditionType(), "verygood", "listings 1 ExchangeConditionType");
-is($listings[0]->ExchangeSubCondition(), "verygood", "listings 1 ExchangeSubCondition");
+is($listings[0]->ExchangeConditionType(), "good", "listings 1 ExchangeConditionType");
+is($listings[0]->ExchangeSubCondition(), "good", "listings 1 ExchangeSubCondition");
 is($listings[0]->ExchangeStatus(), "Open", "listings 1 ExchangeStatus");
-is($listings[0]->ExchangePrice(), '$5.01', "listings 1 ExchangePrice");
+is($listings[0]->ExchangePrice(), '$4.05', "listings 1 ExchangePrice");
 is($listings[0]->ExchangeCurrencyCode(), "USD", "listings 1 ExchangeCurrencyCode");
-is($listings[0]->ExchangeAmount(), "501", "listings 1 ExchangeAmount");
+is($listings[0]->ExchangeAmount(), "405", "listings 1 ExchangeAmount");
 is($listings[0]->ExchangeSellerId(), "A23JJ2BNHZMFCO", "listings 1 ExchangeSellerId");
 is($listings[0]->ExchangeSellerNickname(), "brick_road_books", "listings 1 ExchangeSellerNickname");

@@ -37,29 +37,29 @@ my $resp = $ua->request($req);
 
 ok($resp->is_success(), "Request successful");
 my @properties = $resp->properties();
-is(scalar @properties, 8, "8 hits");
+is(scalar @properties, 10, "10 hits");
 
 like($resp->as_string(), qr/Honestly.*?Honestly.*?Honestly/s, "Examine Hits");
 
 @properties = $resp->properties();
-is($properties[0]->ListPrice, '$18.98', "Check list price");
-is($properties[0]->OurPrice, '$12.97', "Check our price");
-is($properties[0]->SuperSaverShipping, 1, "Check super saver shipping");
-is($properties[3]->artist, "Zwan", "Check artist");
-is($properties[3]->album, "Mary Star of the Sea [CD & DVD]", "Check album");
-is($properties[3]->Title, "Mary Star of the Sea [CD & DVD]", "Check Title");
-is($properties[4]->nummedia, "1", "Check nummedia");
-is($properties[4]->media, "Audio CD", "Check media");
-is($properties[0]->label, "Reprise / Wea", "Check label");
-is($properties[0]->publisher, "Reprise / Wea", "Check publisher");
-is($properties[0]->studio, "Reprise / Wea", "Check studio");
-is($properties[0]->upc, "093624843627", "Check upc");
-is($properties[0]->ean, "0093624843627", "Check ean");
-is($properties[0]->release_date, "2003-01-28", "Check release_date");
-is($properties[1]->label, "Import [Generic]", "Check label");
-my @tracks = $properties[0]->tracks;
+is($properties[1]->ListPrice, '$18.98', "Check list price");
+is($properties[1]->OurPrice, '$18.98', "Check our price");
+is($properties[1]->SuperSaverShipping, 1, "Check super saver shipping");
+is($properties[1]->artist, "Zwan", "Check artist");
+is($properties[1]->album, "Mary Star of the Sea", "Check album");
+is($properties[1]->Title, "Mary Star of the Sea", "Check Title");
+is($properties[1]->nummedia, "1", "Check nummedia");
+is($properties[1]->media, "Audio CD", "Check media");
+is($properties[1]->label, "Reprise / Wea", "Check label");
+is($properties[1]->publisher, "Reprise / Wea", "Check publisher");
+is($properties[1]->studio, "Reprise / Wea", "Check studio");
+is($properties[1]->upc, "093624843627", "Check upc");
+is($properties[1]->ean, "0093624843627", "Check ean");
+is($properties[1]->release_date, "2003-01-28", "Check release_date");
+is($properties[1]->label, "Reprise / Wea", "Check label");
+my @tracks = $properties[1]->tracks;
 is(scalar(@tracks), 14, "Check number of tracks");
-is($tracks[0], "Lyric", "Check tracks one");
+is($tracks[1], "Settle Down", "Check tracks one");
 is($tracks[8], "Endless Summer", "Check tracks nine");
 is($tracks[13], "Come With Me", "Check tracks fourteen");
 

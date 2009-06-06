@@ -71,8 +71,6 @@ the Amazon web service for items of a given MusicLabel.
 
 =back
 
-=head1 SEE ALSO
-
 =head1 AUTHORS
 
 Christopher Boumenot, E<lt>boumenot@gmail.comE<gt>

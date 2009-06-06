@@ -1,18 +1,30 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<ItemLookupResponse xmlns="http://webservices.amazon.com/AWSECommerceService/2007-10-29">
+<?xml version="1.0"?>
+<ItemLookupResponse xmlns="http://webservices.amazon.com/AWSECommerceService/2009-03-31">
   <Items>
     <Item>
       <ASIN>0201360683</ASIN>
-      <DetailPageURL>http://www.amazon.com/gp/redirect.html%3FASIN=0201360683%26tag=ws%26lcode=xm2%26cID=2025%26ccmID=165953%26location=/o/ASIN/0201360683%253FSubscriptionId=1VAESZQN1G7SXNRG4882</DetailPageURL>
-      <SalesRank>816560</SalesRank>
+      <SalesRank>1280843</SalesRank>
       <ItemAttributes>
         <Author>Michael Schilli</Author>
         <Binding>Paperback</Binding>
         <DeweyDecimalNumber>005.133</DeweyDecimalNumber>
         <EAN>9780201360684</EAN>
-        <Edition>Pap/Cdr</Edition>
         <ISBN>0201360683</ISBN>
         <Label>Addison-Wesley Professional</Label>
+        <Languages>
+          <Language>
+            <Name>English</Name>
+            <Type>Original Language</Type>
+          </Language>
+          <Language>
+            <Name>English</Name>
+            <Type>Unknown</Type>
+          </Language>
+          <Language>
+            <Name>English</Name>
+            <Type>Published</Type>
+          </Language>
+        </Languages>
         <ListPrice>
           <Amount>3999</Amount>
           <CurrencyCode>USD</CurrencyCode>
@@ -30,17 +42,17 @@
       </ItemAttributes>
       <OfferSummary>
         <LowestNewPrice>
-          <Amount>1481</Amount>
+          <Amount>1627</Amount>
           <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$14.81</FormattedPrice>
+          <FormattedPrice>$16.27</FormattedPrice>
         </LowestNewPrice>
         <LowestUsedPrice>
-          <Amount>309</Amount>
+          <Amount>863</Amount>
           <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$3.09</FormattedPrice>
+          <FormattedPrice>$8.63</FormattedPrice>
         </LowestUsedPrice>
-        <TotalNew>3</TotalNew>
-        <TotalUsed>13</TotalUsed>
+        <TotalNew>7</TotalNew>
+        <TotalUsed>12</TotalUsed>
         <TotalCollectible>0</TotalCollectible>
         <TotalRefurbished>0</TotalRefurbished>
       </OfferSummary>

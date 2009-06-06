@@ -127,8 +127,6 @@ Accessor for the numeric value of the total votes.
 
 =back
 
-=head1 SEE ALSO
-
 =head1 AUTHOR
 
 Mike Schilli, E<lt>m@perlmeister.comE<gt>

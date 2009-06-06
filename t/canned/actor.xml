@@ -1,32 +1,35 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<ItemSearchResponse xmlns="http://webservices.amazon.com/AWSECommerceService/2007-10-29">
+<?xml version="1.0"?>
+<ItemSearchResponse xmlns="http://webservices.amazon.com/AWSECommerceService/2009-03-31">
   <Items>
-    <TotalResults>95</TotalResults>
-    <TotalPages>10</TotalPages>
+    <TotalResults>145</TotalResults>
+    <TotalPages>15</TotalPages>
     <Item>
-      <ASIN>B000VXWX7E</ASIN>
-      <DetailPageURL>http://www.amazon.com/gp/redirect.html%3FASIN=B000VXWX7E%26tag=ws%26lcode=xm2%26cID=2025%26ccmID=165953%26location=/o/ASIN/B000VXWX7E%253FSubscriptionId=1VAESZQN1G7SXNRG4882</DetailPageURL>
-      <SalesRank>226</SalesRank>
+      <ASIN>B001FB55MG</ASIN>
+      <SalesRank>117</SalesRank>
       <ItemAttributes>
         <Actor>Adam Sandler</Actor>
-        <Actor>Kevin James</Actor>
-        <AspectRatio>1.85:1</AspectRatio>
-        <AudienceRating>R (Restricted)</AudienceRating>
+        <Actor>Keri Russell</Actor>
+        <AspectRatio>2.35:1</AspectRatio>
+        <AudienceRating>PG (Parental Guidance Suggested)</AudienceRating>
         <Binding>DVD</Binding>
-        <EAN>0025193226822</EAN>
+        <EAN>0786936774313</EAN>
         <Format>AC-3</Format>
         <Format>Color</Format>
         <Format>Dolby</Format>
         <Format>Dubbed</Format>
         <Format>DVD-Video</Format>
+        <Format>NTSC</Format>
         <Format>Subtitled</Format>
         <Format>Widescreen</Format>
-        <Format>NTSC</Format>
-        <Label>Universal Studios</Label>
+        <Label>Walt Disney Pictures</Label>
         <Languages>
           <Language>
             <Name>English</Name>
-            <Type>Subtitled</Type>
+            <Type>Original Language</Type>
+          </Language>
+          <Language>
+            <Name>English</Name>
+            <Type>Unknown</Type>
           </Language>
           <Language>
             <Name>French</Name>
@@ -35,10 +38,6 @@
           <Language>
             <Name>Spanish</Name>
             <Type>Subtitled</Type>
-          </Language>
-          <Language>
-            <Name>English</Name>
-            <Type>Original Language</Type>
           </Language>
           <Language>
             <Name>French</Name>
@@ -50,42 +49,178 @@
           </Language>
         </Languages>
         <ListPrice>
-          <Amount>2998</Amount>
+          <Amount>2999</Amount>
           <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$29.98</FormattedPrice>
+          <FormattedPrice>$29.99</FormattedPrice>
         </ListPrice>
-        <Manufacturer>Universal Studios</Manufacturer>
-        <MPN>61032268</MPN>
+        <Manufacturer>Walt Disney Pictures</Manufacturer>
+        <MPN>05832600</MPN>
         <NumberOfItems>1</NumberOfItems>
-        <OriginalReleaseDate>2007-07-20</OriginalReleaseDate>
+        <OriginalReleaseDate>2008-01-01</OriginalReleaseDate>
         <ProductGroup>DVD</ProductGroup>
         <ProductTypeName>ABIS_DVD</ProductTypeName>
-        <Publisher>Universal Studios</Publisher>
-        <ReleaseDate>2007-11-06</ReleaseDate>
-        <RunningTime Units="minutes">116</RunningTime>
-        <Studio>Universal Studios</Studio>
-        <TheatricalReleaseDate>2007-07-20</TheatricalReleaseDate>
-        <Title>I Now Pronounce You Chuck &amp; Larry (Widescreen Edition)</Title>
-        <UPC>025193226822</UPC>
+        <Publisher>Walt Disney Pictures</Publisher>
+        <RegionCode>1</RegionCode>
+        <ReleaseDate>2009-04-07</ReleaseDate>
+        <RunningTime Units="minutes">99</RunningTime>
+        <Studio>Walt Disney Pictures</Studio>
+        <TheatricalReleaseDate>2008</TheatricalReleaseDate>
+        <Title>Bedtime Stories</Title>
+        <UPC>786936774313</UPC>
       </ItemAttributes>
       <OfferSummary>
         <LowestNewPrice>
-          <Amount>1249</Amount>
+          <Amount>995</Amount>
           <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$12.49</FormattedPrice>
+          <FormattedPrice>$9.95</FormattedPrice>
         </LowestNewPrice>
         <LowestUsedPrice>
-          <Amount>749</Amount>
+          <Amount>574</Amount>
           <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$7.49</FormattedPrice>
+          <FormattedPrice>$5.74</FormattedPrice>
         </LowestUsedPrice>
         <LowestCollectiblePrice>
-          <Amount>2998</Amount>
+          <Amount>2099</Amount>
           <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$29.98</FormattedPrice>
+          <FormattedPrice>$20.99</FormattedPrice>
         </LowestCollectiblePrice>
-        <TotalNew>47</TotalNew>
-        <TotalUsed>24</TotalUsed>
+        <TotalNew>51</TotalNew>
+        <TotalUsed>31</TotalUsed>
+        <TotalCollectible>3</TotalCollectible>
+        <TotalRefurbished>0</TotalRefurbished>
+      </OfferSummary>
+      <Offers>
+        <TotalOffers>1</TotalOffers>
+        <TotalOfferPages>1</TotalOfferPages>
+        <Offer>
+          <Merchant>
+            <MerchantId>ATVPDKIKX0DER</MerchantId>
+            <GlancePage>http://www.amazon.com/gp/help/seller/home.html?seller=ATVPDKIKX0DER</GlancePage>
+            <AverageFeedbackRating>0.0</AverageFeedbackRating>
+            <TotalFeedback>0</TotalFeedback>
+          </Merchant>
+          <OfferAttributes>
+            <Condition>New</Condition>
+            <SubCondition>new</SubCondition>
+          </OfferAttributes>
+          <OfferListing>
+            <OfferListingId>ngtVrtXBeX2PWh2phx%2Fkk%2B0CA78R35I7%2B6o8LJNwrOA2p9JjbXArRyW2YZWaTRV2BNIFMDUOVOoKmEyjDP59rFAQ3CAnoglU</OfferListingId>
+            <Price>
+              <Amount>1699</Amount>
+              <CurrencyCode>USD</CurrencyCode>
+              <FormattedPrice>$16.99</FormattedPrice>
+            </Price>
+            <AmountSaved>
+              <Amount>1300</Amount>
+              <CurrencyCode>USD</CurrencyCode>
+              <FormattedPrice>$13.00</FormattedPrice>
+            </AmountSaved>
+            <PercentageSaved>43</PercentageSaved>
+            <Availability>Usually ships in 24 hours</Availability>
+            <AvailabilityAttributes>
+              <AvailabilityType>now</AvailabilityType>
+              <MinimumHours>0</MinimumHours>
+              <MaximumHours>0</MaximumHours>
+            </AvailabilityAttributes>
+            <Quantity>-1</Quantity>
+            <QuantityRestriction>
+              <QuantityLimit>2</QuantityLimit>
+            </QuantityRestriction>
+            <IsEligibleForSuperSaverShipping>1</IsEligibleForSuperSaverShipping>
+          </OfferListing>
+        </Offer>
+      </Offers>
+    </Item>
+    <Item>
+      <ASIN>B001FB55N0</ASIN>
+      <SalesRank>5523</SalesRank>
+      <ItemAttributes>
+        <Actor>Adam Sandler</Actor>
+        <Actor>Keri Russell</Actor>
+        <Actor>Guy Pearce</Actor>
+        <Actor>Russell Brand</Actor>
+        <Actor>Richard Griffiths</Actor>
+        <AspectRatio>2.35:1</AspectRatio>
+        <AudienceRating>PG (Parental Guidance Suggested)</AudienceRating>
+        <Binding>Blu-ray</Binding>
+        <Director>Adam Shankman</Director>
+        <EAN>0786936773408</EAN>
+        <Format>AC-3</Format>
+        <Format>Color</Format>
+        <Format>Dolby</Format>
+        <Format>DTS Surround Sound</Format>
+        <Format>Dubbed</Format>
+        <Format>Subtitled</Format>
+        <Format>Widescreen</Format>
+        <Label>Walt Disney Pictures</Label>
+        <Languages>
+          <Language>
+            <Name>English</Name>
+            <Type>Original Language</Type>
+          </Language>
+          <Language>
+            <Name>French</Name>
+            <Type>Original Language</Type>
+          </Language>
+          <Language>
+            <Name>Spanish</Name>
+            <Type>Original Language</Type>
+          </Language>
+          <Language>
+            <Name>French</Name>
+            <Type>Subtitled</Type>
+          </Language>
+          <Language>
+            <Name>Spanish</Name>
+            <Type>Subtitled</Type>
+          </Language>
+          <Language>
+            <Name>French</Name>
+            <Type>Dubbed</Type>
+          </Language>
+          <Language>
+            <Name>Spanish</Name>
+            <Type>Dubbed</Type>
+          </Language>
+        </Languages>
+        <ListPrice>
+          <Amount>3999</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$39.99</FormattedPrice>
+        </ListPrice>
+        <Manufacturer>Walt Disney Pictures</Manufacturer>
+        <MPN>05824000</MPN>
+        <NumberOfItems>3</NumberOfItems>
+        <OriginalReleaseDate>2008-01-01</OriginalReleaseDate>
+        <ProductGroup>DVD</ProductGroup>
+        <ProductTypeName>ABIS_DVD</ProductTypeName>
+        <Publisher>Walt Disney Pictures</Publisher>
+        <RegionCode>1</RegionCode>
+        <ReleaseDate>2009-04-05</ReleaseDate>
+        <RunningTime Units="minutes">99</RunningTime>
+        <Studio>Walt Disney Pictures</Studio>
+        <TheatricalReleaseDate>2008</TheatricalReleaseDate>
+        <Title>Bedtime Stories (Plus Standard DVD + Digital Copy + BD Live) [Blu-ray]</Title>
+        <UPC>786936773408</UPC>
+      </ItemAttributes>
+      <OfferSummary>
+        <LowestNewPrice>
+          <Amount>1347</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$13.47</FormattedPrice>
+        </LowestNewPrice>
+        <LowestUsedPrice>
+          <Amount>1298</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$12.98</FormattedPrice>
+        </LowestUsedPrice>
+        <LowestCollectiblePrice>
+          <Amount>3999</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$39.99</FormattedPrice>
+        </LowestCollectiblePrice>
+        <TotalNew>44</TotalNew>
+        <TotalUsed>18</TotalUsed>
         <TotalCollectible>1</TotalCollectible>
         <TotalRefurbished>0</TotalRefurbished>
       </OfferSummary>
@@ -104,18 +239,18 @@
             <SubCondition>new</SubCondition>
           </OfferAttributes>
           <OfferListing>
-            <OfferListingId>ZYiZrNR9Mt0z0ONjBRYoRDgdVWazE30Iu6xyH4mBD8er%2FzoSGpFZw4SUqffvpfDWsF8iNf7EUCc6eRD0Xt4ueg%3D%3D</OfferListingId>
+            <OfferListingId>zp7EI%2F07%2Bo1K3y5bk7SWUzjMDnGcGAiLWlflf09GtJy8I1w7KwNYvzL4BRkEkRqmh6KlJYed6P%2F3gEothggMJ0sPcSuAYqSR</OfferListingId>
             <Price>
-              <Amount>1499</Amount>
+              <Amount>2699</Amount>
               <CurrencyCode>USD</CurrencyCode>
-              <FormattedPrice>$14.99</FormattedPrice>
+              <FormattedPrice>$26.99</FormattedPrice>
             </Price>
             <AmountSaved>
-              <Amount>1499</Amount>
+              <Amount>1300</Amount>
               <CurrencyCode>USD</CurrencyCode>
-              <FormattedPrice>$14.99</FormattedPrice>
+              <FormattedPrice>$13.00</FormattedPrice>
             </AmountSaved>
-            <PercentageSaved>50</PercentageSaved>
+            <PercentageSaved>33</PercentageSaved>
             <Availability>Usually ships in 24 hours</Availability>
             <AvailabilityAttributes>
               <AvailabilityType>now</AvailabilityType>
@@ -129,255 +264,8 @@
       </Offers>
     </Item>
     <Item>
-      <ASIN>B000VXWX7O</ASIN>
-      <DetailPageURL>http://www.amazon.com/gp/redirect.html%3FASIN=B000VXWX7O%26tag=ws%26lcode=xm2%26cID=2025%26ccmID=165953%26location=/o/ASIN/B000VXWX7O%253FSubscriptionId=1VAESZQN1G7SXNRG4882</DetailPageURL>
-      <SalesRank>393</SalesRank>
-      <ItemAttributes>
-        <Actor>Adam Sandler</Actor>
-        <Actor>Kevin James</Actor>
-        <AspectRatio>1.33:1</AspectRatio>
-        <AudienceRating>R (Restricted)</AudienceRating>
-        <Binding>DVD</Binding>
-        <EAN>0025193226921</EAN>
-        <Format>AC-3</Format>
-        <Format>Color</Format>
-        <Format>Dolby</Format>
-        <Format>Dubbed</Format>
-        <Format>DVD-Video</Format>
-        <Format>Full Screen</Format>
-        <Format>Subtitled</Format>
-        <Format>NTSC</Format>
-        <Label>Universal Studios</Label>
-        <Languages>
-          <Language>
-            <Name>English</Name>
-            <Type>Subtitled</Type>
-          </Language>
-          <Language>
-            <Name>French</Name>
-            <Type>Subtitled</Type>
-          </Language>
-          <Language>
-            <Name>Spanish</Name>
-            <Type>Subtitled</Type>
-          </Language>
-          <Language>
-            <Name>English</Name>
-            <Type>Original Language</Type>
-          </Language>
-          <Language>
-            <Name>French</Name>
-            <Type>Dubbed</Type>
-          </Language>
-          <Language>
-            <Name>Spanish</Name>
-            <Type>Dubbed</Type>
-          </Language>
-        </Languages>
-        <ListPrice>
-          <Amount>2998</Amount>
-          <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$29.98</FormattedPrice>
-        </ListPrice>
-        <Manufacturer>Universal Studios</Manufacturer>
-        <MPN>61032269</MPN>
-        <NumberOfItems>1</NumberOfItems>
-        <OriginalReleaseDate>2007-07-20</OriginalReleaseDate>
-        <ProductGroup>DVD</ProductGroup>
-        <ProductTypeName>ABIS_DVD</ProductTypeName>
-        <Publisher>Universal Studios</Publisher>
-        <ReleaseDate>2007-11-06</ReleaseDate>
-        <RunningTime Units="minutes">116</RunningTime>
-        <Studio>Universal Studios</Studio>
-        <TheatricalReleaseDate>2007-07-20</TheatricalReleaseDate>
-        <Title>I Now Pronounce You Chuck &amp; Larry (Full Screen Edition)</Title>
-        <UPC>025193226921</UPC>
-      </ItemAttributes>
-      <OfferSummary>
-        <LowestNewPrice>
-          <Amount>1425</Amount>
-          <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$14.25</FormattedPrice>
-        </LowestNewPrice>
-        <LowestUsedPrice>
-          <Amount>749</Amount>
-          <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$7.49</FormattedPrice>
-        </LowestUsedPrice>
-        <TotalNew>34</TotalNew>
-        <TotalUsed>19</TotalUsed>
-        <TotalCollectible>0</TotalCollectible>
-        <TotalRefurbished>0</TotalRefurbished>
-      </OfferSummary>
-      <Offers>
-        <TotalOffers>1</TotalOffers>
-        <TotalOfferPages>1</TotalOfferPages>
-        <Offer>
-          <Merchant>
-            <MerchantId>ATVPDKIKX0DER</MerchantId>
-            <GlancePage>http://www.amazon.com/gp/help/seller/home.html?seller=ATVPDKIKX0DER</GlancePage>
-            <AverageFeedbackRating>0.0</AverageFeedbackRating>
-            <TotalFeedback>0</TotalFeedback>
-          </Merchant>
-          <OfferAttributes>
-            <Condition>New</Condition>
-            <SubCondition>new</SubCondition>
-          </OfferAttributes>
-          <OfferListing>
-            <OfferListingId>YMvwwPC2IJeJOAo4D9GUy9eOIWqdYdzFYjTj0a8AgvnjnJtsCc%2B0otwbzhsXQGxzU0%2Bt4pThV87FcSWcvNf%2BkA%3D%3D</OfferListingId>
-            <Price>
-              <Amount>1499</Amount>
-              <CurrencyCode>USD</CurrencyCode>
-              <FormattedPrice>$14.99</FormattedPrice>
-            </Price>
-            <AmountSaved>
-              <Amount>1499</Amount>
-              <CurrencyCode>USD</CurrencyCode>
-              <FormattedPrice>$14.99</FormattedPrice>
-            </AmountSaved>
-            <PercentageSaved>50</PercentageSaved>
-            <Availability>Usually ships in 24 hours</Availability>
-            <AvailabilityAttributes>
-              <AvailabilityType>now</AvailabilityType>
-              <MinimumHours>0</MinimumHours>
-              <MaximumHours>0</MaximumHours>
-            </AvailabilityAttributes>
-            <Quantity>-1</Quantity>
-            <IsEligibleForSuperSaverShipping>1</IsEligibleForSuperSaverShipping>
-          </OfferListing>
-        </Offer>
-      </Offers>
-    </Item>
-    <Item>
-      <ASIN>B000VXWX7Y</ASIN>
-      <DetailPageURL>http://www.amazon.com/gp/redirect.html%3FASIN=B000VXWX7Y%26tag=ws%26lcode=xm2%26cID=2025%26ccmID=165953%26location=/o/ASIN/B000VXWX7Y%253FSubscriptionId=1VAESZQN1G7SXNRG4882</DetailPageURL>
-      <SalesRank>617</SalesRank>
-      <ItemAttributes>
-        <Actor>Adam Sandler</Actor>
-        <Actor>Kevin James</Actor>
-        <Actor>Jessica Biel</Actor>
-        <Actor>Ving Rhames</Actor>
-        <Actor>Steve Buscemi</Actor>
-        <AspectRatio>1.85:1</AspectRatio>
-        <AudienceRating>R (Restricted)</AudienceRating>
-        <Binding>HD DVD</Binding>
-        <Director>Dennis Dugan</Director>
-        <EAN>0025193240422</EAN>
-        <Format>Anamorphic</Format>
-        <Format>Color</Format>
-        <Format>Dolby</Format>
-        <Format>Subtitled</Format>
-        <Format>Widescreen</Format>
-        <Label>Universal Studios Home Entertainment</Label>
-        <Languages>
-          <Language>
-            <Name>English</Name>
-            <Type>Subtitled</Type>
-          </Language>
-          <Language>
-            <Name>French</Name>
-            <Type>Subtitled</Type>
-          </Language>
-          <Language>
-            <Name>Spanish</Name>
-            <Type>Subtitled</Type>
-          </Language>
-          <Language>
-            <Name>English</Name>
-            <Type>Original Language</Type>
-          </Language>
-          <Language>
-            <Name>French</Name>
-            <Type>Original Language</Type>
-          </Language>
-          <Language>
-            <Name>French</Name>
-            <Type>Dubbed</Type>
-          </Language>
-          <Language>
-            <Name>Spanish</Name>
-            <Type>Dubbed</Type>
-          </Language>
-        </Languages>
-        <ListPrice>
-          <Amount>3998</Amount>
-          <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$39.98</FormattedPrice>
-        </ListPrice>
-        <Manufacturer>Universal Studios Home Entertainment</Manufacturer>
-        <MPN>61032404</MPN>
-        <NumberOfItems>1</NumberOfItems>
-        <OriginalReleaseDate>2007-07-20</OriginalReleaseDate>
-        <ProductGroup>DVD</ProductGroup>
-        <ProductTypeName>ABIS_DVD</ProductTypeName>
-        <Publisher>Universal Studios Home Entertainment</Publisher>
-        <RegionCode>0</RegionCode>
-        <ReleaseDate>2007-11-06</ReleaseDate>
-        <RunningTime Units="minutes">116</RunningTime>
-        <Studio>Universal Studios Home Entertainment</Studio>
-        <TheatricalReleaseDate>2007-07-20</TheatricalReleaseDate>
-        <Title>I Now Pronounce You Chuck &amp; Larry (Combo HD DVD and Standard DVD) [HD DVD]</Title>
-        <UPC>025193240422</UPC>
-      </ItemAttributes>
-      <OfferSummary>
-        <LowestNewPrice>
-          <Amount>1729</Amount>
-          <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$17.29</FormattedPrice>
-        </LowestNewPrice>
-        <LowestUsedPrice>
-          <Amount>1650</Amount>
-          <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$16.50</FormattedPrice>
-        </LowestUsedPrice>
-        <TotalNew>31</TotalNew>
-        <TotalUsed>10</TotalUsed>
-        <TotalCollectible>0</TotalCollectible>
-        <TotalRefurbished>0</TotalRefurbished>
-      </OfferSummary>
-      <Offers>
-        <TotalOffers>1</TotalOffers>
-        <TotalOfferPages>1</TotalOfferPages>
-        <Offer>
-          <Merchant>
-            <MerchantId>ATVPDKIKX0DER</MerchantId>
-            <GlancePage>http://www.amazon.com/gp/help/seller/home.html?seller=ATVPDKIKX0DER</GlancePage>
-            <AverageFeedbackRating>0.0</AverageFeedbackRating>
-            <TotalFeedback>0</TotalFeedback>
-          </Merchant>
-          <OfferAttributes>
-            <Condition>New</Condition>
-            <SubCondition>new</SubCondition>
-          </OfferAttributes>
-          <OfferListing>
-            <OfferListingId>lcUNXEEr%2FL%2Fuv%2FXFUvRCQLHzxsuDJqJeO57A9K0l2W9D6tTx8wfK3Vby3De0yY3YA8PpnuV7WGmRLNBompXT4w%3D%3D</OfferListingId>
-            <Price>
-              <Amount>2795</Amount>
-              <CurrencyCode>USD</CurrencyCode>
-              <FormattedPrice>$27.95</FormattedPrice>
-            </Price>
-            <AmountSaved>
-              <Amount>1203</Amount>
-              <CurrencyCode>USD</CurrencyCode>
-              <FormattedPrice>$12.03</FormattedPrice>
-            </AmountSaved>
-            <PercentageSaved>30</PercentageSaved>
-            <Availability>Usually ships in 24 hours</Availability>
-            <AvailabilityAttributes>
-              <AvailabilityType>now</AvailabilityType>
-              <MinimumHours>0</MinimumHours>
-              <MaximumHours>0</MaximumHours>
-            </AvailabilityAttributes>
-            <Quantity>-1</Quantity>
-            <IsEligibleForSuperSaverShipping>1</IsEligibleForSuperSaverShipping>
-          </OfferListing>
-        </Offer>
-      </Offers>
-    </Item>
-    <Item>
-      <ASIN>0780622588</ASIN>
-      <DetailPageURL>http://www.amazon.com/gp/redirect.html%3FASIN=0780622588%26tag=ws%26lcode=xm2%26cID=2025%26ccmID=165953%26location=/o/ASIN/0780622588%253FSubscriptionId=1VAESZQN1G7SXNRG4882</DetailPageURL>
-      <SalesRank>937</SalesRank>
+      <ASIN>B001O7JHW0</ASIN>
+      <SalesRank>1786</SalesRank>
       <ItemAttributes>
         <Actor>Adam Sandler</Actor>
         <Actor>Drew Barrymore</Actor>
@@ -385,87 +273,77 @@
         <Actor>Allen Covert</Actor>
         <Actor>Matthew Glave</Actor>
         <AspectRatio>1.85:1</AspectRatio>
-        <AudienceRating>PG-13 (Parental Guidance Suggested)</AudienceRating>
-        <Binding>DVD</Binding>
+        <AudienceRating>Unrated</AudienceRating>
+        <Binding>Blu-ray</Binding>
+        <Creator Role="Producer">Brad Grey</Creator>
+        <Creator Role="Producer">Brian Witten</Creator>
+        <Creator Role="Producer">Ira Shuman</Creator>
+        <Creator Role="Producer">Jack Giarraputo</Creator>
+        <Creator Role="Producer">Michelle Holdsworth</Creator>
+        <Creator Role="Producer">Richard Brener</Creator>
+        <Creator Role="Writer">Tim Herlihy</Creator>
         <Director>Frank Coraci</Director>
-        <DVDLayers>1</DVDLayers>
-        <DVDSides>2</DVDSides>
-        <EAN>9780780622586</EAN>
-        <Format>Anamorphic</Format>
-        <Format>Closed-captioned</Format>
+        <EAN>0794043128202</EAN>
+        <Format>AC-3</Format>
         <Format>Color</Format>
         <Format>Dolby</Format>
-        <Format>DVD-Video</Format>
-        <Format>Full Screen</Format>
+        <Format>DTS Surround Sound</Format>
+        <Format>Special Edition</Format>
+        <Format>Subtitled</Format>
         <Format>Widescreen</Format>
-        <Format>NTSC</Format>
-        <ISBN>0780622588</ISBN>
         <Label>New Line Home Video</Label>
         <Languages>
           <Language>
             <Name>English</Name>
-            <Type>Original Language</Type>
-            <AudioFormat>Dolby Digital 5.1</AudioFormat>
-          </Language>
-          <Language>
-            <Name>French</Name>
-            <Type>Original Language</Type>
-            <AudioFormat>Dolby Digital 2.0 Surround</AudioFormat>
-          </Language>
-          <Language>
-            <Name>English</Name>
-            <Type>Subtitled</Type>
-          </Language>
-          <Language>
-            <Name>French</Name>
             <Type>Subtitled</Type>
           </Language>
           <Language>
             <Name>Spanish</Name>
             <Type>Subtitled</Type>
           </Language>
+          <Language>
+            <Name>English</Name>
+            <Type>Original Language</Type>
+          </Language>
         </Languages>
         <ListPrice>
-          <Amount>1496</Amount>
+          <Amount>2899</Amount>
           <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$14.96</FormattedPrice>
+          <FormattedPrice>$28.99</FormattedPrice>
         </ListPrice>
         <Manufacturer>New Line Home Video</Manufacturer>
-        <MPN>DN4660D</MPN>
+        <MPN>1000046016</MPN>
         <NumberOfItems>1</NumberOfItems>
-        <OriginalReleaseDate>1998-02-13</OriginalReleaseDate>
-        <PictureFormat>Anamorphic Widescreen</PictureFormat>
-        <PictureFormat>Pan &amp; Scan</PictureFormat>
+        <OriginalReleaseDate>1998-01-01</OriginalReleaseDate>
         <ProductGroup>DVD</ProductGroup>
         <ProductTypeName>ABIS_DVD</ProductTypeName>
         <Publisher>New Line Home Video</Publisher>
-        <RegionCode>1</RegionCode>
-        <ReleaseDate>1998-08-25</ReleaseDate>
-        <RunningTime Units="minutes">97</RunningTime>
+        <ReleaseDate>2009-04-07</ReleaseDate>
+        <RunningTime Units="minutes">100</RunningTime>
         <Studio>New Line Home Video</Studio>
-        <TheatricalReleaseDate>1998-02-13</TheatricalReleaseDate>
-        <Title>The Wedding Singer</Title>
-        <UPC>794043466021</UPC>
+        <TheatricalReleaseDate>1998</TheatricalReleaseDate>
+        <Title>The Wedding Singer (Totally Awesome Edition) [Blu-ray]</Title>
+        <UPC>794043128202</UPC>
       </ItemAttributes>
       <OfferSummary>
         <LowestNewPrice>
-          <Amount>359</Amount>
+          <Amount>1398</Amount>
           <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$3.59</FormattedPrice>
+          <FormattedPrice>$13.98</FormattedPrice>
         </LowestNewPrice>
         <LowestUsedPrice>
-          <Amount>200</Amount>
+          <Amount>1298</Amount>
           <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$2.00</FormattedPrice>
+          <FormattedPrice>$12.98</FormattedPrice>
         </LowestUsedPrice>
         <LowestCollectiblePrice>
-          <Amount>1496</Amount>
+          <Amount>2609</Amount>
           <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$14.96</FormattedPrice>
+          <FormattedPrice>$26.09</FormattedPrice>
         </LowestCollectiblePrice>
-        <TotalNew>79</TotalNew>
-        <TotalUsed>95</TotalUsed>
-        <TotalCollectible>2</TotalCollectible>
+        <TotalNew>20</TotalNew>
+        <TotalUsed>8</TotalUsed>
+        <TotalCollectible>1</TotalCollectible>
         <TotalRefurbished>0</TotalRefurbished>
       </OfferSummary>
       <Offers>
@@ -483,18 +361,18 @@
             <SubCondition>new</SubCondition>
           </OfferAttributes>
           <OfferListing>
-            <OfferListingId>rGE51WdQzHfxbTWSnlDgcFv1zoLZk54shaFKZ37DHGFHo%2F5TyHYxDPipS6id4cjT0zyR2ve0%2B2yOPRytbkIJ5w%3D%3D</OfferListingId>
+            <OfferListingId>U36TVYPSCF%2Foel5ZZQJG%2BqHsVUoEusKV29G4N06Arifmh4NQyUu1KDevqa%2BeNT4aycLpopu3KkMOGdZy1KVPng%3D%3D</OfferListingId>
             <Price>
-              <Amount>549</Amount>
+              <Amount>1399</Amount>
               <CurrencyCode>USD</CurrencyCode>
-              <FormattedPrice>$5.49</FormattedPrice>
+              <FormattedPrice>$13.99</FormattedPrice>
             </Price>
             <AmountSaved>
-              <Amount>947</Amount>
+              <Amount>1500</Amount>
               <CurrencyCode>USD</CurrencyCode>
-              <FormattedPrice>$9.47</FormattedPrice>
+              <FormattedPrice>$15.00</FormattedPrice>
             </AmountSaved>
-            <PercentageSaved>63</PercentageSaved>
+            <PercentageSaved>52</PercentageSaved>
             <Availability>Usually ships in 24 hours</Availability>
             <AvailabilityAttributes>
               <AvailabilityType>now</AvailabilityType>
@@ -502,131 +380,9 @@
               <MaximumHours>0</MaximumHours>
             </AvailabilityAttributes>
             <Quantity>-1</Quantity>
-            <IsEligibleForSuperSaverShipping>1</IsEligibleForSuperSaverShipping>
-          </OfferListing>
-        </Offer>
-      </Offers>
-    </Item>
-    <Item>
-      <ASIN>B000QFCCR8</ASIN>
-      <DetailPageURL>http://www.amazon.com/gp/redirect.html%3FASIN=B000QFCCR8%26tag=ws%26lcode=xm2%26cID=2025%26ccmID=165953%26location=/o/ASIN/B000QFCCR8%253FSubscriptionId=1VAESZQN1G7SXNRG4882</DetailPageURL>
-      <SalesRank>1966</SalesRank>
-      <ItemAttributes>
-        <Actor>Adam Sandler</Actor>
-        <Actor>Jonathan Banks</Actor>
-        <Actor>Don Cheadle</Actor>
-        <Actor>Melinda Dillon</Actor>
-        <Actor>Robert Klein</Actor>
-        <AspectRatio>2.40:1</AspectRatio>
-        <AudienceRating>R (Restricted)</AudienceRating>
-        <Binding>DVD</Binding>
-        <Creator Role="Cinematographer">Russ T. Alsobrook</Creator>
-        <Creator Role="Composer">Rolfe Kent</Creator>
-        <Creator Role="Editor">Steve Edwards</Creator>
-        <Creator Role="Editor">Jeremy Roush</Creator>
-        <EAN>0043396173873</EAN>
-        <Format>AC-3</Format>
-        <Format>Closed-captioned</Format>
-        <Format>Color</Format>
-        <Format>Dolby</Format>
-        <Format>Dubbed</Format>
-        <Format>DVD-Video</Format>
-        <Format>Subtitled</Format>
-        <Format>Widescreen</Format>
-        <Format>NTSC</Format>
-        <Label>Sony Pictures</Label>
-        <Languages>
-          <Language>
-            <Name>English</Name>
-            <Type>Subtitled</Type>
-          </Language>
-          <Language>
-            <Name>French</Name>
-            <Type>Subtitled</Type>
-          </Language>
-          <Language>
-            <Name>Spanish</Name>
-            <Type>Subtitled</Type>
-          </Language>
-          <Language>
-            <Name>English</Name>
-            <Type>Original Language</Type>
-          </Language>
-          <Language>
-            <Name>French</Name>
-            <Type>Dubbed</Type>
-          </Language>
-        </Languages>
-        <ListPrice>
-          <Amount>2895</Amount>
-          <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$28.95</FormattedPrice>
-        </ListPrice>
-        <Manufacturer>Sony Pictures</Manufacturer>
-        <MPN>17387</MPN>
-        <NumberOfItems>1</NumberOfItems>
-        <OriginalReleaseDate>2007-03-23</OriginalReleaseDate>
-        <ProductGroup>DVD</ProductGroup>
-        <ProductTypeName>ABIS_DVD</ProductTypeName>
-        <Publisher>Sony Pictures</Publisher>
-        <RegionCode>99</RegionCode>
-        <ReleaseDate>2007-10-09</ReleaseDate>
-        <RunningTime Units="minutes">124</RunningTime>
-        <Studio>Sony Pictures</Studio>
-        <TheatricalReleaseDate>2007-03-23</TheatricalReleaseDate>
-        <Title>Reign Over Me (Widescreen Edition)</Title>
-        <UPC>043396173873</UPC>
-      </ItemAttributes>
-      <OfferSummary>
-        <LowestNewPrice>
-          <Amount>1100</Amount>
-          <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$11.00</FormattedPrice>
-        </LowestNewPrice>
-        <LowestUsedPrice>
-          <Amount>644</Amount>
-          <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$6.44</FormattedPrice>
-        </LowestUsedPrice>
-        <TotalNew>47</TotalNew>
-        <TotalUsed>39</TotalUsed>
-        <TotalCollectible>0</TotalCollectible>
-        <TotalRefurbished>0</TotalRefurbished>
-      </OfferSummary>
-      <Offers>
-        <TotalOffers>1</TotalOffers>
-        <TotalOfferPages>1</TotalOfferPages>
-        <Offer>
-          <Merchant>
-            <MerchantId>ATVPDKIKX0DER</MerchantId>
-            <GlancePage>http://www.amazon.com/gp/help/seller/home.html?seller=ATVPDKIKX0DER</GlancePage>
-            <AverageFeedbackRating>0.0</AverageFeedbackRating>
-            <TotalFeedback>0</TotalFeedback>
-          </Merchant>
-          <OfferAttributes>
-            <Condition>New</Condition>
-            <SubCondition>new</SubCondition>
-          </OfferAttributes>
-          <OfferListing>
-            <OfferListingId>kjnfeTn%2BGVPrj8AUbO9Ddak%2BuqMef6NAvgXOa3vWH8bAMG1s2Vy6Y1MVVZ8eYweJOZCR%2Bk8BjkEVFJtwS6CpsA%3D%3D</OfferListingId>
-            <Price>
-              <Amount>1999</Amount>
-              <CurrencyCode>USD</CurrencyCode>
-              <FormattedPrice>$19.99</FormattedPrice>
-            </Price>
-            <AmountSaved>
-              <Amount>896</Amount>
-              <CurrencyCode>USD</CurrencyCode>
-              <FormattedPrice>$8.96</FormattedPrice>
-            </AmountSaved>
-            <PercentageSaved>31</PercentageSaved>
-            <Availability>Usually ships in 24 hours</Availability>
-            <AvailabilityAttributes>
-              <AvailabilityType>now</AvailabilityType>
-              <MinimumHours>0</MinimumHours>
-              <MaximumHours>0</MaximumHours>
-            </AvailabilityAttributes>
-            <Quantity>-1</Quantity>
+            <QuantityRestriction>
+              <QuantityLimit>3</QuantityLimit>
+            </QuantityRestriction>
             <IsEligibleForSuperSaverShipping>1</IsEligibleForSuperSaverShipping>
           </OfferListing>
         </Offer>
@@ -634,20 +390,25 @@
     </Item>
     <Item>
       <ASIN>B000FGG5YY</ASIN>
-      <DetailPageURL>http://www.amazon.com/gp/redirect.html%3FASIN=B000FGG5YY%26tag=ws%26lcode=xm2%26cID=2025%26ccmID=165953%26location=/o/ASIN/B000FGG5YY%253FSubscriptionId=1VAESZQN1G7SXNRG4882</DetailPageURL>
-      <SalesRank>4599</SalesRank>
+      <SalesRank>4335</SalesRank>
       <ItemAttributes>
-        <Actor>Bob Barker</Actor>
+        <Actor>Adam Sandler</Actor>
+        <Actor>Christopher McDonald</Actor>
+        <Actor>Julie Bowen</Actor>
         <Actor>Frances Bay</Actor>
-        <Actor>Ken Camroux</Actor>
-        <Actor>Stephen Dimopoulos</Actor>
-        <Actor>Joe Flaherty</Actor>
+        <Actor>Carl Weathers</Actor>
         <AspectRatio>1.85:1</AspectRatio>
         <AudienceRating>PG-13 (Parental Guidance Suggested)</AudienceRating>
         <Binding>HD DVD</Binding>
         <Brand>Universal</Brand>
-        <Creator Role="Cinematographer">Arthur Albert</Creator>
-        <Creator Role="Composer">Mark Mothersbaugh</Creator>
+        <Creator Role="Writer">Adam Sandler</Creator>
+        <Creator Role="Producer">Bernie Brillstein</Creator>
+        <Creator Role="Producer">Brad Grey</Creator>
+        <Creator Role="Producer">Jack Giarraputo</Creator>
+        <Creator Role="Producer">Robert Simonds</Creator>
+        <Creator Role="Producer">Sandy Wernick</Creator>
+        <Creator Role="Writer">Tim Herlihy</Creator>
+        <Director>Dennis Dugan</Director>
         <EAN>0025193001726</EAN>
         <Format>Anamorphic</Format>
         <Format>Color</Format>
@@ -681,14 +442,14 @@
           </Language>
         </Languages>
         <ListPrice>
-          <Amount>2998</Amount>
+          <Amount>1998</Amount>
           <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$29.98</FormattedPrice>
+          <FormattedPrice>$19.98</FormattedPrice>
         </ListPrice>
         <Manufacturer>Universal Studios Home Entertainment</Manufacturer>
         <MPN>00172</MPN>
         <NumberOfItems>1</NumberOfItems>
-        <OriginalReleaseDate>1996-01-01</OriginalReleaseDate>
+        <OriginalReleaseDate>1996-02-16</OriginalReleaseDate>
         <ProductGroup>DVD</ProductGroup>
         <ProductTypeName>ABIS_DVD</ProductTypeName>
         <Publisher>Universal Studios Home Entertainment</Publisher>
@@ -696,23 +457,23 @@
         <ReleaseDate>2006-06-13</ReleaseDate>
         <RunningTime Units="minutes">92</RunningTime>
         <Studio>Universal Studios Home Entertainment</Studio>
-        <TheatricalReleaseDate>1996</TheatricalReleaseDate>
+        <TheatricalReleaseDate>1996-02-16</TheatricalReleaseDate>
         <Title>Happy Gilmore [HD DVD]</Title>
         <UPC>025193001726</UPC>
       </ItemAttributes>
       <OfferSummary>
         <LowestNewPrice>
-          <Amount>1639</Amount>
+          <Amount>388</Amount>
           <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$16.39</FormattedPrice>
+          <FormattedPrice>$3.88</FormattedPrice>
         </LowestNewPrice>
         <LowestUsedPrice>
-          <Amount>1290</Amount>
+          <Amount>399</Amount>
           <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$12.90</FormattedPrice>
+          <FormattedPrice>$3.99</FormattedPrice>
         </LowestUsedPrice>
-        <TotalNew>24</TotalNew>
-        <TotalUsed>7</TotalUsed>
+        <TotalNew>23</TotalNew>
+        <TotalUsed>9</TotalUsed>
         <TotalCollectible>0</TotalCollectible>
         <TotalRefurbished>0</TotalRefurbished>
       </OfferSummary>
@@ -731,257 +492,23 @@
             <SubCondition>new</SubCondition>
           </OfferAttributes>
           <OfferListing>
-            <OfferListingId>Ss5o5DxU3t6CT1zFIddRX%2BFSzlTmVeZTVSb2A%2B1SUhODQrPnZI56Scn%2BjE9f%2FKYA1lCkyWXbYz87Np%2FDo3jMug%3D%3D</OfferListingId>
+            <OfferListingId>s39srjVKpWGok5xuzxwwyaQDPxIfcAnB0KG1bVLKGvMcnsSayXUDzVhAnEBUuSMygKP5hPVk%2BY5ftX%2BvcNfClA%3D%3D</OfferListingId>
             <Price>
-              <Amount>1995</Amount>
+              <Amount>1799</Amount>
               <CurrencyCode>USD</CurrencyCode>
-              <FormattedPrice>$19.95</FormattedPrice>
+              <FormattedPrice>$17.99</FormattedPrice>
             </Price>
             <AmountSaved>
-              <Amount>1003</Amount>
+              <Amount>199</Amount>
               <CurrencyCode>USD</CurrencyCode>
-              <FormattedPrice>$10.03</FormattedPrice>
+              <FormattedPrice>$1.99</FormattedPrice>
             </AmountSaved>
-            <PercentageSaved>33</PercentageSaved>
-            <Availability>Usually ships in 24 hours</Availability>
+            <PercentageSaved>10</PercentageSaved>
+            <Availability>Usually ships in 3 to 5 days</Availability>
             <AvailabilityAttributes>
               <AvailabilityType>now</AvailabilityType>
-              <MinimumHours>0</MinimumHours>
-              <MaximumHours>0</MaximumHours>
-            </AvailabilityAttributes>
-            <Quantity>-1</Quantity>
-            <IsEligibleForSuperSaverShipping>1</IsEligibleForSuperSaverShipping>
-          </OfferListing>
-        </Offer>
-      </Offers>
-    </Item>
-    <Item>
-      <ASIN>B0007ZSHR6</ASIN>
-      <DetailPageURL>http://www.amazon.com/gp/redirect.html%3FASIN=B0007ZSHR6%26tag=ws%26lcode=xm2%26cID=2025%26ccmID=165953%26location=/o/ASIN/B0007ZSHR6%253FSubscriptionId=1VAESZQN1G7SXNRG4882</DetailPageURL>
-      <SalesRank>1351</SalesRank>
-      <ItemAttributes>
-        <Actor>Bill Cosby</Actor>
-        <Actor>Phylicia Rashad</Actor>
-        <Actor>Sabrina Le Beauf</Actor>
-        <Actor>Geoffrey Owens</Actor>
-        <Actor>Lisa Bonet</Actor>
-        <AspectRatio>1.33:1</AspectRatio>
-        <AudienceRating>NR (Not Rated)</AudienceRating>
-        <Binding>DVD</Binding>
-        <Director>Nancy Stern</Director>
-        <EAN>0634991253123</EAN>
-        <Format>Subtitled</Format>
-        <Format>Color</Format>
-        <Format>Full Screen</Format>
-        <Format>NTSC</Format>
-        <Label>Urban Works</Label>
-        <Languages>
-          <Language>
-            <Name>English</Name>
-            <Type>Original Language</Type>
-          </Language>
-        </Languages>
-        <ListPrice>
-          <Amount>3450</Amount>
-          <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$34.50</FormattedPrice>
-        </ListPrice>
-        <Manufacturer>Urban Works</Manufacturer>
-        <MPN>D25312-7D</MPN>
-        <NumberOfItems>4</NumberOfItems>
-        <OriginalReleaseDate>1984-09-20</OriginalReleaseDate>
-        <ProductGroup>DVD</ProductGroup>
-        <ProductTypeName>ABIS_DVD</ProductTypeName>
-        <Publisher>Urban Works</Publisher>
-        <RegionCode>1</RegionCode>
-        <ReleaseDate>2005-08-02</ReleaseDate>
-        <RunningTime Units="minutes">575</RunningTime>
-        <Studio>Urban Works</Studio>
-        <TheatricalReleaseDate>1984-09-20</TheatricalReleaseDate>
-        <Title>The Cosby Show - Season 1</Title>
-        <UPC>634991253123</UPC>
-      </ItemAttributes>
-      <OfferSummary>
-        <LowestNewPrice>
-          <Amount>999</Amount>
-          <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$9.99</FormattedPrice>
-        </LowestNewPrice>
-        <LowestUsedPrice>
-          <Amount>1150</Amount>
-          <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$11.50</FormattedPrice>
-        </LowestUsedPrice>
-        <TotalNew>34</TotalNew>
-        <TotalUsed>32</TotalUsed>
-        <TotalCollectible>0</TotalCollectible>
-        <TotalRefurbished>0</TotalRefurbished>
-      </OfferSummary>
-      <Offers>
-        <TotalOffers>1</TotalOffers>
-        <TotalOfferPages>1</TotalOfferPages>
-        <Offer>
-          <Merchant>
-            <MerchantId>ATVPDKIKX0DER</MerchantId>
-            <GlancePage>http://www.amazon.com/gp/help/seller/home.html?seller=ATVPDKIKX0DER</GlancePage>
-            <AverageFeedbackRating>0.0</AverageFeedbackRating>
-            <TotalFeedback>0</TotalFeedback>
-          </Merchant>
-          <OfferAttributes>
-            <Condition>New</Condition>
-            <SubCondition>new</SubCondition>
-          </OfferAttributes>
-          <OfferListing>
-            <OfferListingId>T2MB7YF0M64jYhtlATwk4E6dZDYjNRVJnQHSMoG4WFy34SZKFqz82B9lBuCXV%2BuRGv6rYIvRDB1h8xMZDJfGj0mKTx9QHAXd</OfferListingId>
-            <Price>
-              <Amount>1699</Amount>
-              <CurrencyCode>USD</CurrencyCode>
-              <FormattedPrice>$16.99</FormattedPrice>
-            </Price>
-            <AmountSaved>
-              <Amount>1751</Amount>
-              <CurrencyCode>USD</CurrencyCode>
-              <FormattedPrice>$17.51</FormattedPrice>
-            </AmountSaved>
-            <PercentageSaved>51</PercentageSaved>
-            <Availability>Usually ships in 24 hours</Availability>
-            <AvailabilityAttributes>
-              <AvailabilityType>now</AvailabilityType>
-              <MinimumHours>0</MinimumHours>
-              <MaximumHours>0</MaximumHours>
-            </AvailabilityAttributes>
-            <Quantity>-1</Quantity>
-            <IsEligibleForSuperSaverShipping>1</IsEligibleForSuperSaverShipping>
-          </OfferListing>
-        </Offer>
-      </Offers>
-    </Item>
-    <Item>
-      <ASIN>B0001Z3TXE</ASIN>
-      <DetailPageURL>http://www.amazon.com/gp/redirect.html%3FASIN=B0001Z3TXE%26tag=ws%26lcode=xm2%26cID=2025%26ccmID=165953%26location=/o/ASIN/B0001Z3TXE%253FSubscriptionId=1VAESZQN1G7SXNRG4882</DetailPageURL>
-      <SalesRank>2703</SalesRank>
-      <ItemAttributes>
-        <Actor>Adam Sandler</Actor>
-        <Actor>Drew Barrymore</Actor>
-        <Actor>Rob Schneider</Actor>
-        <Actor>Sean Astin</Actor>
-        <Actor>Lusia Strus</Actor>
-        <AspectRatio>2.40:1</AspectRatio>
-        <AudienceRating>PG-13 (Parental Guidance Suggested)</AudienceRating>
-        <Binding>DVD</Binding>
-        <Director>Peter Segal</Director>
-        <EAN>9781404937024</EAN>
-        <Format>AC-3</Format>
-        <Format>Anamorphic</Format>
-        <Format>Closed-captioned</Format>
-        <Format>Color</Format>
-        <Format>Dolby</Format>
-        <Format>Dubbed</Format>
-        <Format>DVD-Video</Format>
-        <Format>Special Edition</Format>
-        <Format>Subtitled</Format>
-        <Format>Widescreen</Format>
-        <Format>NTSC</Format>
-        <ISBN>1404937021</ISBN>
-        <Label>Sony Pictures</Label>
-        <Languages>
-          <Language>
-            <Name>English</Name>
-            <Type>Original Language</Type>
-            <AudioFormat>Dolby Digital 5.1</AudioFormat>
-          </Language>
-          <Language>
-            <Name>French</Name>
-            <Type>Original Language</Type>
-            <AudioFormat>Dolby Digital 5.1</AudioFormat>
-          </Language>
-          <Language>
-            <Name>English</Name>
-            <Type>Subtitled</Type>
-          </Language>
-          <Language>
-            <Name>French</Name>
-            <Type>Subtitled</Type>
-          </Language>
-          <Language>
-            <Name>French</Name>
-            <Type>Dubbed</Type>
-            <AudioFormat>Dolby Digital 5.1</AudioFormat>
-          </Language>
-        </Languages>
-        <ListPrice>
-          <Amount>1494</Amount>
-          <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$14.94</FormattedPrice>
-        </ListPrice>
-        <Manufacturer>Sony Pictures</Manufacturer>
-        <MPN>D01426D</MPN>
-        <NumberOfItems>1</NumberOfItems>
-        <OriginalReleaseDate>2004-02-13</OriginalReleaseDate>
-        <ProductGroup>DVD</ProductGroup>
-        <ProductTypeName>ABIS_DVD</ProductTypeName>
-        <Publisher>Sony Pictures</Publisher>
-        <RegionCode>99</RegionCode>
-        <ReleaseDate>2004-06-15</ReleaseDate>
-        <RunningTime Units="minutes">99</RunningTime>
-        <Studio>Sony Pictures</Studio>
-        <TheatricalReleaseDate>2004-02-13</TheatricalReleaseDate>
-        <Title>50 First Dates (Widescreen Special Edition)</Title>
-        <UPC>043396014268</UPC>
-      </ItemAttributes>
-      <OfferSummary>
-        <LowestNewPrice>
-          <Amount>691</Amount>
-          <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$6.91</FormattedPrice>
-        </LowestNewPrice>
-        <LowestUsedPrice>
-          <Amount>175</Amount>
-          <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$1.75</FormattedPrice>
-        </LowestUsedPrice>
-        <LowestCollectiblePrice>
-          <Amount>1494</Amount>
-          <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$14.94</FormattedPrice>
-        </LowestCollectiblePrice>
-        <TotalNew>55</TotalNew>
-        <TotalUsed>76</TotalUsed>
-        <TotalCollectible>3</TotalCollectible>
-        <TotalRefurbished>0</TotalRefurbished>
-      </OfferSummary>
-      <Offers>
-        <TotalOffers>1</TotalOffers>
-        <TotalOfferPages>1</TotalOfferPages>
-        <Offer>
-          <Merchant>
-            <MerchantId>ATVPDKIKX0DER</MerchantId>
-            <GlancePage>http://www.amazon.com/gp/help/seller/home.html?seller=ATVPDKIKX0DER</GlancePage>
-            <AverageFeedbackRating>0.0</AverageFeedbackRating>
-            <TotalFeedback>0</TotalFeedback>
-          </Merchant>
-          <OfferAttributes>
-            <Condition>New</Condition>
-            <SubCondition>new</SubCondition>
-          </OfferAttributes>
-          <OfferListing>
-            <OfferListingId>kuPr6Xoor270D4OnqRzGts1WM%2B%2Fe2ymII8dNhwiDHVWIWI8B3hMbZAy%2BhpcYWPMmiOxu9AdJcYQ4g1H9kF%2Bpyw%3D%3D</OfferListingId>
-            <Price>
-              <Amount>999</Amount>
-              <CurrencyCode>USD</CurrencyCode>
-              <FormattedPrice>$9.99</FormattedPrice>
-            </Price>
-            <AmountSaved>
-              <Amount>495</Amount>
-              <CurrencyCode>USD</CurrencyCode>
-              <FormattedPrice>$4.95</FormattedPrice>
-            </AmountSaved>
-            <PercentageSaved>33</PercentageSaved>
-            <Availability>Usually ships in 24 hours</Availability>
-            <AvailabilityAttributes>
-              <AvailabilityType>now</AvailabilityType>
-              <MinimumHours>0</MinimumHours>
-              <MaximumHours>0</MaximumHours>
+              <MinimumHours>72</MinimumHours>
+              <MaximumHours>120</MaximumHours>
             </AvailabilityAttributes>
             <Quantity>-1</Quantity>
             <IsEligibleForSuperSaverShipping>1</IsEligibleForSuperSaverShipping>
@@ -991,20 +518,26 @@
     </Item>
     <Item>
       <ASIN>B0009X760U</ASIN>
-      <DetailPageURL>http://www.amazon.com/gp/redirect.html%3FASIN=B0009X760U%26tag=ws%26lcode=xm2%26cID=2025%26ccmID=165953%26location=/o/ASIN/B0009X760U%253FSubscriptionId=1VAESZQN1G7SXNRG4882</DetailPageURL>
-      <SalesRank>2875</SalesRank>
+      <SalesRank>4256</SalesRank>
       <ItemAttributes>
-        <Actor>Bob Barker</Actor>
+        <Actor>Adam Sandler</Actor>
+        <Actor>Christopher McDonald</Actor>
+        <Actor>Julie Bowen</Actor>
         <Actor>Frances Bay</Actor>
-        <Actor>Ken Camroux</Actor>
-        <Actor>Stephen Dimopoulos</Actor>
-        <Actor>Joe Flaherty</Actor>
+        <Actor>Carl Weathers</Actor>
         <AspectRatio>1.85:1</AspectRatio>
         <AudienceRating>PG-13 (Parental Guidance Suggested)</AudienceRating>
         <Binding>DVD</Binding>
-        <Creator Role="Cinematographer">Arthur Albert</Creator>
-        <Creator Role="Composer">Mark Mothersbaugh</Creator>
-        <EAN>0025192544224</EAN>
+        <Brand>Universal</Brand>
+        <Creator Role="Writer">Adam Sandler</Creator>
+        <Creator Role="Producer">Bernie Brillstein</Creator>
+        <Creator Role="Producer">Brad Grey</Creator>
+        <Creator Role="Producer">Jack Giarraputo</Creator>
+        <Creator Role="Producer">Robert Simonds</Creator>
+        <Creator Role="Producer">Sandy Wernick</Creator>
+        <Creator Role="Writer">Tim Herlihy</Creator>
+        <Director>Dennis Dugan</Director>
+        <EAN>9781417010950</EAN>
         <Format>AC-3</Format>
         <Format>Closed-captioned</Format>
         <Format>Color</Format>
@@ -1021,6 +554,10 @@
         <Languages>
           <Language>
             <Name>English</Name>
+            <Type>Original Language</Type>
+          </Language>
+          <Language>
+            <Name>English</Name>
             <Type>Subtitled</Type>
           </Language>
           <Language>
@@ -1030,10 +567,6 @@
           <Language>
             <Name>Spanish</Name>
             <Type>Subtitled</Type>
-          </Language>
-          <Language>
-            <Name>English</Name>
-            <Type>Original Language</Type>
           </Language>
           <Language>
             <Name>French</Name>
@@ -1050,7 +583,7 @@
           <FormattedPrice>$14.98</FormattedPrice>
         </ListPrice>
         <Manufacturer>Universal Studios</Manufacturer>
-        <MPN>D25442D</MPN>
+        <MPN>MCAD25442D</MPN>
         <NumberOfItems>1</NumberOfItems>
         <OriginalReleaseDate>1996-02-16</OriginalReleaseDate>
         <ProductGroup>DVD</ProductGroup>
@@ -1061,21 +594,638 @@
         <RunningTime Units="minutes">92</RunningTime>
         <Studio>Universal Studios</Studio>
         <TheatricalReleaseDate>1996-02-16</TheatricalReleaseDate>
-        <Title>Happy Gilmore (Special Edition)</Title>
+        <Title>Happy Gilmore (Widescreen Special Edition)</Title>
         <UPC>025192544224</UPC>
       </ItemAttributes>
       <OfferSummary>
         <LowestNewPrice>
-          <Amount>698</Amount>
+          <Amount>651</Amount>
           <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$6.98</FormattedPrice>
+          <FormattedPrice>$6.51</FormattedPrice>
         </LowestNewPrice>
         <LowestUsedPrice>
-          <Amount>447</Amount>
+          <Amount>280</Amount>
           <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$4.47</FormattedPrice>
+          <FormattedPrice>$2.80</FormattedPrice>
         </LowestUsedPrice>
-        <TotalNew>35</TotalNew>
+        <TotalNew>46</TotalNew>
+        <TotalUsed>31</TotalUsed>
+        <TotalCollectible>0</TotalCollectible>
+        <TotalRefurbished>0</TotalRefurbished>
+      </OfferSummary>
+      <Offers>
+        <TotalOffers>1</TotalOffers>
+        <TotalOfferPages>1</TotalOfferPages>
+        <Offer>
+          <Merchant>
+            <MerchantId>ATVPDKIKX0DER</MerchantId>
+            <GlancePage>http://www.amazon.com/gp/help/seller/home.html?seller=ATVPDKIKX0DER</GlancePage>
+            <AverageFeedbackRating>0.0</AverageFeedbackRating>
+            <TotalFeedback>0</TotalFeedback>
+          </Merchant>
+          <OfferAttributes>
+            <Condition>New</Condition>
+            <SubCondition>new</SubCondition>
+          </OfferAttributes>
+          <OfferListing>
+            <OfferListingId>E3T4cZO%2BxcjFQkXXm5A0qDbv%2FTAQ67L1r5YDfAQbTJ7RTxqgU6aYxrnJY1NWo6gGC0kVQUzzr9H1NN%2BHxB0UPb9vTC6%2BFi3l</OfferListingId>
+            <Price>
+              <Amount>949</Amount>
+              <CurrencyCode>USD</CurrencyCode>
+              <FormattedPrice>$9.49</FormattedPrice>
+            </Price>
+            <AmountSaved>
+              <Amount>549</Amount>
+              <CurrencyCode>USD</CurrencyCode>
+              <FormattedPrice>$5.49</FormattedPrice>
+            </AmountSaved>
+            <PercentageSaved>37</PercentageSaved>
+            <Availability>Usually ships in 24 hours</Availability>
+            <AvailabilityAttributes>
+              <AvailabilityType>now</AvailabilityType>
+              <MinimumHours>0</MinimumHours>
+              <MaximumHours>0</MaximumHours>
+            </AvailabilityAttributes>
+            <Quantity>-1</Quantity>
+            <IsEligibleForSuperSaverShipping>1</IsEligibleForSuperSaverShipping>
+          </OfferListing>
+        </Offer>
+      </Offers>
+    </Item>
+    <Item>
+      <ASIN>B000Q66QBA</ASIN>
+      <SalesRank>11181</SalesRank>
+      <ItemAttributes>
+        <Actor>Adam Sandler</Actor>
+        <Actor>Darren McGavin</Actor>
+        <Actor>Bridgette Wilson</Actor>
+        <Actor>Bradley Whitford</Actor>
+        <Actor>Josh Mostel</Actor>
+        <AspectRatio>1.85:1</AspectRatio>
+        <AudienceRating>PG-13 (Parental Guidance Suggested)</AudienceRating>
+        <Binding>HD DVD</Binding>
+        <Brand>UNIVERSAL STUDIOS HOME ENTERTAIN.</Brand>
+        <Director>Tamra Davis</Director>
+        <EAN>0025193294128</EAN>
+        <Format>Anamorphic</Format>
+        <Format>Color</Format>
+        <Format>Dolby</Format>
+        <Format>Subtitled</Format>
+        <Format>Widescreen</Format>
+        <ItemDimensions>
+          <Weight Units="hundredths-pounds">100</Weight>
+        </ItemDimensions>
+        <Label>Universal Studios Home Entertainment</Label>
+        <Languages>
+          <Language>
+            <Name>English</Name>
+            <Type>Original Language</Type>
+          </Language>
+          <Language>
+            <Name>French</Name>
+            <Type>Original Language</Type>
+          </Language>
+          <Language>
+            <Name>English</Name>
+            <Type>Subtitled</Type>
+          </Language>
+          <Language>
+            <Name>French</Name>
+            <Type>Subtitled</Type>
+          </Language>
+          <Language>
+            <Name>French</Name>
+            <Type>Dubbed</Type>
+          </Language>
+        </Languages>
+        <ListPrice>
+          <Amount>1998</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$19.98</FormattedPrice>
+        </ListPrice>
+        <Manufacturer>Universal Studios Home Entertainment</Manufacturer>
+        <MPN>61032941</MPN>
+        <NumberOfItems>1</NumberOfItems>
+        <OriginalReleaseDate>1995-02-10</OriginalReleaseDate>
+        <ProductGroup>DVD</ProductGroup>
+        <ProductTypeName>ABIS_DVD</ProductTypeName>
+        <Publisher>Universal Studios Home Entertainment</Publisher>
+        <RegionCode>0</RegionCode>
+        <ReleaseDate>2007-07-10</ReleaseDate>
+        <RunningTime Units="minutes">90</RunningTime>
+        <Studio>Universal Studios Home Entertainment</Studio>
+        <TheatricalReleaseDate>1995-02-10</TheatricalReleaseDate>
+        <Title>Billy Madison [HD DVD]</Title>
+        <UPC>025193294128</UPC>
+      </ItemAttributes>
+      <OfferSummary>
+        <LowestNewPrice>
+          <Amount>299</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$2.99</FormattedPrice>
+        </LowestNewPrice>
+        <LowestUsedPrice>
+          <Amount>298</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$2.98</FormattedPrice>
+        </LowestUsedPrice>
+        <LowestCollectiblePrice>
+          <Amount>3400</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$34.00</FormattedPrice>
+        </LowestCollectiblePrice>
+        <TotalNew>20</TotalNew>
+        <TotalUsed>9</TotalUsed>
+        <TotalCollectible>1</TotalCollectible>
+        <TotalRefurbished>0</TotalRefurbished>
+      </OfferSummary>
+      <Offers>
+        <TotalOffers>0</TotalOffers>
+        <TotalOfferPages>0</TotalOfferPages>
+      </Offers>
+    </Item>
+    <Item>
+      <ASIN>630529142X</ASIN>
+      <SalesRank>5466</SalesRank>
+      <ItemAttributes>
+        <Actor>Fairuza Balk</Actor>
+        <Actor>James Bates Jr.</Actor>
+        <Actor>Kathy Bates</Actor>
+        <Actor>Dawn Birch</Actor>
+        <Actor>Blake Clark</Actor>
+        <AspectRatio>1.85:1</AspectRatio>
+        <AudienceRating>PG-13 (Parental Guidance Suggested)</AudienceRating>
+        <Binding>DVD</Binding>
+        <Brand>Team Marketing</Brand>
+        <Creator Role="Primary Contributor">Kathy Bates</Creator>
+        <Creator Role="Primary Contributor">Sandler, Adam</Creator>
+        <Creator Role="Primary Contributor">Winkler, Henry</Creator>
+        <DVDLayers>1</DVDLayers>
+        <DVDSides>1</DVDSides>
+        <EAN>9780788814945</EAN>
+        <Feature>Classic DVD</Feature>
+        <Feature>Exclusive interviews, highlights, and behind the scenes coverage</Feature>
+        <Feature>DVD's main menu allow you to jump directly to the action</Feature>
+        <Feature>Presented in full-screen digital video</Feature>
+        <Format>Closed-captioned</Format>
+        <Format>Color</Format>
+        <Format>DVD-Video</Format>
+        <Format>Letterboxed</Format>
+        <Format>Widescreen</Format>
+        <Format>NTSC</Format>
+        <IsAutographed>0</IsAutographed>
+        <ISBN>630529142X</ISBN>
+        <IsMemorabilia>0</IsMemorabilia>
+        <ItemDimensions>
+          <Height Units="hundredths-inches">0</Height>
+          <Length Units="hundredths-inches">0</Length>
+          <Weight Units="hundredths-pounds">100</Weight>
+          <Width Units="hundredths-inches">0</Width>
+        </ItemDimensions>
+        <Label>Walt Disney Video</Label>
+        <Languages>
+          <Language>
+            <Name>English</Name>
+            <Type>Original Language</Type>
+            <AudioFormat>Dolby Digital 5.1</AudioFormat>
+          </Language>
+          <Language>
+            <Name>French</Name>
+            <Type>Original Language</Type>
+            <AudioFormat>Dolby Digital 2.0 Surround</AudioFormat>
+          </Language>
+        </Languages>
+        <ListPrice>
+          <Amount>1499</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$14.99</FormattedPrice>
+        </ListPrice>
+        <Manufacturer>Walt Disney Video</Manufacturer>
+        <MPN>TM2571</MPN>
+        <NumberOfItems>1</NumberOfItems>
+        <OriginalReleaseDate>1998-11-06</OriginalReleaseDate>
+        <PictureFormat>Letterbox</PictureFormat>
+        <ProductGroup>DVD</ProductGroup>
+        <ProductTypeName>ABIS_DVD</ProductTypeName>
+        <Publisher>Walt Disney Video</Publisher>
+        <RegionCode>1</RegionCode>
+        <ReleaseDate>1999-03-16</ReleaseDate>
+        <RunningTime Units="minutes">90</RunningTime>
+        <Studio>Walt Disney Video</Studio>
+        <TheatricalReleaseDate>1998-11-06</TheatricalReleaseDate>
+        <Title>The Waterboy</Title>
+        <UPC>717951001665</UPC>
+      </ItemAttributes>
+      <OfferSummary>
+        <LowestNewPrice>
+          <Amount>488</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$4.88</FormattedPrice>
+        </LowestNewPrice>
+        <LowestUsedPrice>
+          <Amount>207</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$2.07</FormattedPrice>
+        </LowestUsedPrice>
+        <LowestCollectiblePrice>
+          <Amount>1499</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$14.99</FormattedPrice>
+        </LowestCollectiblePrice>
+        <TotalNew>51</TotalNew>
+        <TotalUsed>87</TotalUsed>
+        <TotalCollectible>1</TotalCollectible>
+        <TotalRefurbished>0</TotalRefurbished>
+      </OfferSummary>
+      <Offers>
+        <TotalOffers>1</TotalOffers>
+        <TotalOfferPages>1</TotalOfferPages>
+        <Offer>
+          <Merchant>
+            <MerchantId>ATVPDKIKX0DER</MerchantId>
+            <GlancePage>http://www.amazon.com/gp/help/seller/home.html?seller=ATVPDKIKX0DER</GlancePage>
+            <AverageFeedbackRating>0.0</AverageFeedbackRating>
+            <TotalFeedback>0</TotalFeedback>
+          </Merchant>
+          <OfferAttributes>
+            <Condition>New</Condition>
+            <SubCondition>new</SubCondition>
+          </OfferAttributes>
+          <OfferListing>
+            <OfferListingId>Nf3Q1z5QHBIReGqJmi90CPMt9BfnXgvsCkbGI2RgvBQsfYVu%2Fmy8RGRnxf2j%2FddQlFa%2F6I7mNv9alCTGSNBNqg%3D%3D</OfferListingId>
+            <Price>
+              <Amount>1049</Amount>
+              <CurrencyCode>USD</CurrencyCode>
+              <FormattedPrice>$10.49</FormattedPrice>
+            </Price>
+            <AmountSaved>
+              <Amount>450</Amount>
+              <CurrencyCode>USD</CurrencyCode>
+              <FormattedPrice>$4.50</FormattedPrice>
+            </AmountSaved>
+            <PercentageSaved>30</PercentageSaved>
+            <Availability>Usually ships in 24 hours</Availability>
+            <AvailabilityAttributes>
+              <AvailabilityType>now</AvailabilityType>
+              <MinimumHours>0</MinimumHours>
+              <MaximumHours>0</MaximumHours>
+            </AvailabilityAttributes>
+            <Quantity>-1</Quantity>
+            <IsEligibleForSuperSaverShipping>1</IsEligibleForSuperSaverShipping>
+          </OfferListing>
+        </Offer>
+      </Offers>
+    </Item>
+    <Item>
+      <ASIN>B001DPHDB0</ASIN>
+      <SalesRank>6194</SalesRank>
+      <ItemAttributes>
+        <Actor>Adam Sandler</Actor>
+        <Actor>John Turturro</Actor>
+        <Actor>Emmanuelle Chriqui</Actor>
+        <Actor>Nick Swardson</Actor>
+        <Actor>Lainie Kazan</Actor>
+        <AspectRatio>1.85:1</AspectRatio>
+        <AudienceRating>Unrated</AudienceRating>
+        <Binding>DVD</Binding>
+        <Brand>Sony</Brand>
+        <Creator Role="Producer">Adam Sandler</Creator>
+        <Creator Role="Writer">Adam Sandler</Creator>
+        <Creator Role="Producer">Aldric La'Auli Porter</Creator>
+        <Creator Role="Producer">Barry Bernardi</Creator>
+        <Creator Role="Producer">Daryl Kass</Creator>
+        <Creator Role="Writer">Judd Apatow</Creator>
+        <Creator Role="Writer">Robert Smigel</Creator>
+        <Director>Dennis Dugan</Director>
+        <EAN>0043396277465</EAN>
+        <Format>AC-3</Format>
+        <Format>Color</Format>
+        <Format>Dolby</Format>
+        <Format>Dubbed</Format>
+        <Format>DVD-Video</Format>
+        <Format>Subtitled</Format>
+        <Format>Widescreen</Format>
+        <Format>NTSC</Format>
+        <Label>Sony Pictures</Label>
+        <Languages>
+          <Language>
+            <Name>English</Name>
+            <Type>Original Language</Type>
+          </Language>
+          <Language>
+            <Name>English</Name>
+            <Type>Subtitled</Type>
+          </Language>
+          <Language>
+            <Name>French</Name>
+            <Type>Subtitled</Type>
+          </Language>
+          <Language>
+            <Name>French</Name>
+            <Type>Dubbed</Type>
+          </Language>
+        </Languages>
+        <ListPrice>
+          <Amount>1994</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$19.94</FormattedPrice>
+        </ListPrice>
+        <Manufacturer>Sony Pictures</Manufacturer>
+        <MPN>COLD27746D</MPN>
+        <NumberOfItems>1</NumberOfItems>
+        <OriginalReleaseDate>2008-01-01</OriginalReleaseDate>
+        <ProductGroup>DVD</ProductGroup>
+        <ProductTypeName>ABIS_DVD</ProductTypeName>
+        <Publisher>Sony Pictures</Publisher>
+        <RegionCode>99</RegionCode>
+        <ReleaseDate>2008-10-07</ReleaseDate>
+        <RunningTime Units="minutes">113</RunningTime>
+        <Studio>Sony Pictures</Studio>
+        <TheatricalReleaseDate>2008</TheatricalReleaseDate>
+        <Title>You Don't Mess With the Zohan (Unrated Extended Single-Disc Edition)</Title>
+        <UPC>043396277465</UPC>
+      </ItemAttributes>
+      <OfferSummary>
+        <LowestNewPrice>
+          <Amount>473</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$4.73</FormattedPrice>
+        </LowestNewPrice>
+        <LowestUsedPrice>
+          <Amount>199</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$1.99</FormattedPrice>
+        </LowestUsedPrice>
+        <LowestCollectiblePrice>
+          <Amount>2896</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$28.96</FormattedPrice>
+        </LowestCollectiblePrice>
+        <TotalNew>61</TotalNew>
+        <TotalUsed>73</TotalUsed>
+        <TotalCollectible>1</TotalCollectible>
+        <TotalRefurbished>0</TotalRefurbished>
+      </OfferSummary>
+      <Offers>
+        <TotalOffers>1</TotalOffers>
+        <TotalOfferPages>1</TotalOfferPages>
+        <Offer>
+          <Merchant>
+            <MerchantId>ATVPDKIKX0DER</MerchantId>
+            <GlancePage>http://www.amazon.com/gp/help/seller/home.html?seller=ATVPDKIKX0DER</GlancePage>
+            <AverageFeedbackRating>0.0</AverageFeedbackRating>
+            <TotalFeedback>0</TotalFeedback>
+          </Merchant>
+          <OfferAttributes>
+            <Condition>New</Condition>
+            <SubCondition>new</SubCondition>
+          </OfferAttributes>
+          <OfferListing>
+            <OfferListingId>US54bCj70OJjZBZwxeFLsvLm5p4CgK2lcvuduayk723G4jvvU02D9H0qsnGn6kXTt%2FmVmYewV3hmPLnF61N7Hw%3D%3D</OfferListingId>
+            <Price>
+              <Amount>1994</Amount>
+              <CurrencyCode>USD</CurrencyCode>
+              <FormattedPrice>$19.94</FormattedPrice>
+            </Price>
+            <Availability>Usually ships in 24 hours</Availability>
+            <AvailabilityAttributes>
+              <AvailabilityType>now</AvailabilityType>
+              <MinimumHours>0</MinimumHours>
+              <MaximumHours>0</MaximumHours>
+            </AvailabilityAttributes>
+            <Quantity>-1</Quantity>
+            <IsEligibleForSuperSaverShipping>1</IsEligibleForSuperSaverShipping>
+          </OfferListing>
+        </Offer>
+      </Offers>
+    </Item>
+    <Item>
+      <ASIN>B0009X761E</ASIN>
+      <SalesRank>8246</SalesRank>
+      <ItemAttributes>
+        <Actor>Adam Sandler</Actor>
+        <Actor>Darren McGavin</Actor>
+        <Actor>Bridgette Wilson</Actor>
+        <Actor>Bradley Whitford</Actor>
+        <Actor>Josh Mostel</Actor>
+        <AspectRatio>1.85:1</AspectRatio>
+        <AudienceRating>PG-13 (Parental Guidance Suggested)</AudienceRating>
+        <Binding>DVD</Binding>
+        <Brand>SANDLER,ADAM</Brand>
+        <Creator Role="Writer">Adam Sandler</Creator>
+        <Creator Role="Cinematographer">Victor Hammer</Creator>
+        <Creator Role="Editor">Jeffrey Wolf</Creator>
+        <Creator Role="Producer">Fitch Cady</Creator>
+        <Creator Role="Producer">Jack Giarraputo</Creator>
+        <Creator Role="Producer">Robert Simonds</Creator>
+        <Creator Role="Writer">Tim Herlihy</Creator>
+        <Director>Tamra Davis</Director>
+        <EAN>9781417011056</EAN>
+        <Format>AC-3</Format>
+        <Format>Closed-captioned</Format>
+        <Format>Color</Format>
+        <Format>Dolby</Format>
+        <Format>DTS Surround Sound</Format>
+        <Format>Dubbed</Format>
+        <Format>DVD-Video</Format>
+        <Format>Special Edition</Format>
+        <Format>Subtitled</Format>
+        <Format>Widescreen</Format>
+        <Format>NTSC</Format>
+        <ISBN>141701105X</ISBN>
+        <Label>Universal Studios</Label>
+        <Languages>
+          <Language>
+            <Name>English</Name>
+            <Type>Original Language</Type>
+          </Language>
+          <Language>
+            <Name>French</Name>
+            <Type>Original Language</Type>
+          </Language>
+          <Language>
+            <Name>Spanish</Name>
+            <Type>Original Language</Type>
+          </Language>
+          <Language>
+            <Name>English</Name>
+            <Type>Subtitled</Type>
+          </Language>
+          <Language>
+            <Name>French</Name>
+            <Type>Subtitled</Type>
+          </Language>
+          <Language>
+            <Name>Spanish</Name>
+            <Type>Subtitled</Type>
+          </Language>
+          <Language>
+            <Name>French</Name>
+            <Type>Dubbed</Type>
+          </Language>
+          <Language>
+            <Name>Spanish</Name>
+            <Type>Dubbed</Type>
+          </Language>
+        </Languages>
+        <ListPrice>
+          <Amount>1498</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$14.98</FormattedPrice>
+        </ListPrice>
+        <Manufacturer>Universal Studios</Manufacturer>
+        <MPN>025192545023</MPN>
+        <NumberOfItems>1</NumberOfItems>
+        <OriginalReleaseDate>1995-02-10</OriginalReleaseDate>
+        <ProductGroup>DVD</ProductGroup>
+        <ProductTypeName>ABIS_DVD</ProductTypeName>
+        <Publisher>Universal Studios</Publisher>
+        <RegionCode>1</RegionCode>
+        <ReleaseDate>2005-08-23</ReleaseDate>
+        <RunningTime Units="minutes">89</RunningTime>
+        <Studio>Universal Studios</Studio>
+        <TheatricalReleaseDate>1995-02-10</TheatricalReleaseDate>
+        <Title>Billy Madison (Widescreen Special Edition)</Title>
+        <UPC>025192545023</UPC>
+      </ItemAttributes>
+      <OfferSummary>
+        <LowestNewPrice>
+          <Amount>593</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$5.93</FormattedPrice>
+        </LowestNewPrice>
+        <LowestUsedPrice>
+          <Amount>468</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$4.68</FormattedPrice>
+        </LowestUsedPrice>
+        <TotalNew>45</TotalNew>
+        <TotalUsed>33</TotalUsed>
+        <TotalCollectible>0</TotalCollectible>
+        <TotalRefurbished>0</TotalRefurbished>
+      </OfferSummary>
+      <Offers>
+        <TotalOffers>1</TotalOffers>
+        <TotalOfferPages>1</TotalOfferPages>
+        <Offer>
+          <Merchant>
+            <MerchantId>ATVPDKIKX0DER</MerchantId>
+            <GlancePage>http://www.amazon.com/gp/help/seller/home.html?seller=ATVPDKIKX0DER</GlancePage>
+            <AverageFeedbackRating>0.0</AverageFeedbackRating>
+            <TotalFeedback>0</TotalFeedback>
+          </Merchant>
+          <OfferAttributes>
+            <Condition>New</Condition>
+            <SubCondition>new</SubCondition>
+          </OfferAttributes>
+          <OfferListing>
+            <OfferListingId>vpR4izOF2WEsWeWp57cgThD49i%2B4Kxj9Uo3AIamd4cXsuiM4Z6hB%2BWbz3ZJ3VotuqU%2BXmN%2Bf9c7PVwYUrkCAJAhqIG0vbJ4p</OfferListingId>
+            <Price>
+              <Amount>1049</Amount>
+              <CurrencyCode>USD</CurrencyCode>
+              <FormattedPrice>$10.49</FormattedPrice>
+            </Price>
+            <AmountSaved>
+              <Amount>449</Amount>
+              <CurrencyCode>USD</CurrencyCode>
+              <FormattedPrice>$4.49</FormattedPrice>
+            </AmountSaved>
+            <PercentageSaved>30</PercentageSaved>
+            <Availability>Usually ships in 24 hours</Availability>
+            <AvailabilityAttributes>
+              <AvailabilityType>now</AvailabilityType>
+              <MinimumHours>0</MinimumHours>
+              <MaximumHours>0</MaximumHours>
+            </AvailabilityAttributes>
+            <Quantity>-1</Quantity>
+            <IsEligibleForSuperSaverShipping>1</IsEligibleForSuperSaverShipping>
+          </OfferListing>
+        </Offer>
+      </Offers>
+    </Item>
+    <Item>
+      <ASIN>B000ELJAEM</ASIN>
+      <SalesRank>2755</SalesRank>
+      <ItemAttributes>
+        <Actor>Adam Sandler</Actor>
+        <Actor>Drew Barrymore</Actor>
+        <Actor>Christine Taylor</Actor>
+        <Actor>Allen Covert</Actor>
+        <Actor>Matthew Glave</Actor>
+        <AspectRatio>1.85:1</AspectRatio>
+        <AudienceRating>PG-13 (Parental Guidance Suggested)</AudienceRating>
+        <Binding>DVD</Binding>
+        <Brand>SANDLER,ADAM</Brand>
+        <Creator Role="Producer">Brad Grey</Creator>
+        <Creator Role="Producer">Brian Witten</Creator>
+        <Creator Role="Producer">Ira Shuman</Creator>
+        <Creator Role="Producer">Jack Giarraputo</Creator>
+        <Creator Role="Producer">Michelle Holdsworth</Creator>
+        <Creator Role="Producer">Richard Brener</Creator>
+        <Creator Role="Writer">Tim Herlihy</Creator>
+        <Director>Frank Coraci</Director>
+        <EAN>0794043102646</EAN>
+        <Format>AC-3</Format>
+        <Format>Closed-captioned</Format>
+        <Format>Color</Format>
+        <Format>Dolby</Format>
+        <Format>DTS Surround Sound</Format>
+        <Format>DVD-Video</Format>
+        <Format>Special Edition</Format>
+        <Format>Subtitled</Format>
+        <Format>Widescreen</Format>
+        <Format>NTSC</Format>
+        <ItemDimensions>
+          <Weight Units="hundredths-pounds">100</Weight>
+        </ItemDimensions>
+        <Label>New Line Home Video</Label>
+        <Languages>
+          <Language>
+            <Name>English</Name>
+            <Type>Original Language</Type>
+            <AudioFormat>Dolby Digital 2.0 Surround</AudioFormat>
+          </Language>
+          <Language>
+            <Name>English</Name>
+            <Type>Subtitled</Type>
+          </Language>
+          <Language>
+            <Name>Spanish</Name>
+            <Type>Subtitled</Type>
+          </Language>
+        </Languages>
+        <ListPrice>
+          <Amount>1298</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$12.98</FormattedPrice>
+        </ListPrice>
+        <Manufacturer>New Line Home Video</Manufacturer>
+        <MPN>TRNDN10264D</MPN>
+        <NumberOfItems>1</NumberOfItems>
+        <OriginalReleaseDate>1998-02-13</OriginalReleaseDate>
+        <ProductGroup>DVD</ProductGroup>
+        <ProductTypeName>ABIS_DVD</ProductTypeName>
+        <Publisher>New Line Home Video</Publisher>
+        <RegionCode>1</RegionCode>
+        <ReleaseDate>2006-04-25</ReleaseDate>
+        <RunningTime Units="minutes">95</RunningTime>
+        <Studio>New Line Home Video</Studio>
+        <TheatricalReleaseDate>1998-02-13</TheatricalReleaseDate>
+        <Title>The Wedding Singer - Totally Awesome Edition</Title>
+        <UPC>794043102646</UPC>
+      </ItemAttributes>
+      <OfferSummary>
+        <LowestNewPrice>
+          <Amount>540</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$5.40</FormattedPrice>
+        </LowestNewPrice>
+        <LowestUsedPrice>
+          <Amount>451</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$4.51</FormattedPrice>
+        </LowestUsedPrice>
+        <TotalNew>42</TotalNew>
         <TotalUsed>19</TotalUsed>
         <TotalCollectible>0</TotalCollectible>
         <TotalRefurbished>0</TotalRefurbished>
@@ -1095,18 +1245,18 @@
             <SubCondition>new</SubCondition>
           </OfferAttributes>
           <OfferListing>
-            <OfferListingId>4D463cR6SuvoQuruql3Gqse32HZ0KrB1asK7GR%2BjzBxlBiD4uNGh5jjORR9EEU3Qq3JZydQP5xeltrTMvXCSg1u9zn%2FaJiCk</OfferListingId>
+            <OfferListingId>MDdbhU8QSyZrcZw4T7uLt46Qs17hGxEeB2T%2F%2FoH6lZntgo%2BNRBXP40EGq62Ptw1dmzcCW1DkF8pC%2BplrKEfVhA3OxMuEFCkO</OfferListingId>
             <Price>
-              <Amount>1099</Amount>
+              <Amount>649</Amount>
               <CurrencyCode>USD</CurrencyCode>
-              <FormattedPrice>$10.99</FormattedPrice>
+              <FormattedPrice>$6.49</FormattedPrice>
             </Price>
             <AmountSaved>
-              <Amount>399</Amount>
+              <Amount>649</Amount>
               <CurrencyCode>USD</CurrencyCode>
-              <FormattedPrice>$3.99</FormattedPrice>
+              <FormattedPrice>$6.49</FormattedPrice>
             </AmountSaved>
-            <PercentageSaved>27</PercentageSaved>
+            <PercentageSaved>50</PercentageSaved>
             <Availability>Usually ships in 24 hours</Availability>
             <AvailabilityAttributes>
               <AvailabilityType>now</AvailabilityType>
@@ -1114,130 +1264,9 @@
               <MaximumHours>0</MaximumHours>
             </AvailabilityAttributes>
             <Quantity>-1</Quantity>
-            <IsEligibleForSuperSaverShipping>1</IsEligibleForSuperSaverShipping>
-          </OfferListing>
-        </Offer>
-      </Offers>
-    </Item>
-    <Item>
-      <ASIN>B000HT386M</ASIN>
-      <DetailPageURL>http://www.amazon.com/gp/redirect.html%3FASIN=B000HT386M%26tag=ws%26lcode=xm2%26cID=2025%26ccmID=165953%26location=/o/ASIN/B000HT386M%253FSubscriptionId=1VAESZQN1G7SXNRG4882</DetailPageURL>
-      <SalesRank>3148</SalesRank>
-      <ItemAttributes>
-        <Actor>Sean Astin</Actor>
-        <Actor>Kate Beckinsale</Actor>
-        <Actor>David Hasselhoff</Actor>
-        <Actor>Julie Kavner</Actor>
-        <Actor>Adam Sandler</Actor>
-        <AspectRatio>1.85:1</AspectRatio>
-        <AudienceRating>PG-13 (Parental Guidance Suggested)</AudienceRating>
-        <Binding>DVD</Binding>
-        <Creator Role="Cinematographer">Jack N. Green</Creator>
-        <Creator Role="Cinematographer">Dean Semler</Creator>
-        <EAN>0043396148383</EAN>
-        <Format>AC-3</Format>
-        <Format>Closed-captioned</Format>
-        <Format>Color</Format>
-        <Format>Dolby</Format>
-        <Format>Dubbed</Format>
-        <Format>DVD-Video</Format>
-        <Format>Special Edition</Format>
-        <Format>Subtitled</Format>
-        <Format>Widescreen</Format>
-        <Format>NTSC</Format>
-        <Label>Sony Pictures</Label>
-        <Languages>
-          <Language>
-            <Name>English</Name>
-            <Type>Subtitled</Type>
-          </Language>
-          <Language>
-            <Name>French</Name>
-            <Type>Subtitled</Type>
-          </Language>
-          <Language>
-            <Name>English</Name>
-            <Type>Original Language</Type>
-          </Language>
-          <Language>
-            <Name>French</Name>
-            <Type>Dubbed</Type>
-          </Language>
-        </Languages>
-        <ListPrice>
-          <Amount>1994</Amount>
-          <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$19.94</FormattedPrice>
-        </ListPrice>
-        <Manufacturer>Sony Pictures</Manufacturer>
-        <MPN>D14838D</MPN>
-        <NumberOfItems>1</NumberOfItems>
-        <ProductGroup>DVD</ProductGroup>
-        <ProductTypeName>ABIS_DVD</ProductTypeName>
-        <Publisher>Sony Pictures</Publisher>
-        <RegionCode>99</RegionCode>
-        <ReleaseDate>2006-10-10</ReleaseDate>
-        <RunningTime Units="minutes">107</RunningTime>
-        <Studio>Sony Pictures</Studio>
-        <TheatricalReleaseDate>2006-06-23</TheatricalReleaseDate>
-        <Title>Click (Special Edition)</Title>
-        <UPC>043396148383</UPC>
-      </ItemAttributes>
-      <OfferSummary>
-        <LowestNewPrice>
-          <Amount>444</Amount>
-          <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$4.44</FormattedPrice>
-        </LowestNewPrice>
-        <LowestUsedPrice>
-          <Amount>169</Amount>
-          <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$1.69</FormattedPrice>
-        </LowestUsedPrice>
-        <LowestCollectiblePrice>
-          <Amount>1999</Amount>
-          <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$19.99</FormattedPrice>
-        </LowestCollectiblePrice>
-        <TotalNew>86</TotalNew>
-        <TotalUsed>132</TotalUsed>
-        <TotalCollectible>1</TotalCollectible>
-        <TotalRefurbished>0</TotalRefurbished>
-      </OfferSummary>
-      <Offers>
-        <TotalOffers>1</TotalOffers>
-        <TotalOfferPages>1</TotalOfferPages>
-        <Offer>
-          <Merchant>
-            <MerchantId>ATVPDKIKX0DER</MerchantId>
-            <GlancePage>http://www.amazon.com/gp/help/seller/home.html?seller=ATVPDKIKX0DER</GlancePage>
-            <AverageFeedbackRating>0.0</AverageFeedbackRating>
-            <TotalFeedback>0</TotalFeedback>
-          </Merchant>
-          <OfferAttributes>
-            <Condition>New</Condition>
-            <SubCondition>new</SubCondition>
-          </OfferAttributes>
-          <OfferListing>
-            <OfferListingId>J%2Fzd0naBCjg6pehef7yO9gOm0Zglljf97j2yF5E3XoLEFwil%2BcT8l575S%2BMzZcQVXp8qbU%2Bbx6kqmXBG3RoMxg%3D%3D</OfferListingId>
-            <Price>
-              <Amount>1549</Amount>
-              <CurrencyCode>USD</CurrencyCode>
-              <FormattedPrice>$15.49</FormattedPrice>
-            </Price>
-            <AmountSaved>
-              <Amount>445</Amount>
-              <CurrencyCode>USD</CurrencyCode>
-              <FormattedPrice>$4.45</FormattedPrice>
-            </AmountSaved>
-            <PercentageSaved>22</PercentageSaved>
-            <Availability>Usually ships in 24 hours</Availability>
-            <AvailabilityAttributes>
-              <AvailabilityType>now</AvailabilityType>
-              <MinimumHours>0</MinimumHours>
-              <MaximumHours>0</MaximumHours>
-            </AvailabilityAttributes>
-            <Quantity>-1</Quantity>
+            <QuantityRestriction>
+              <QuantityLimit>10</QuantityLimit>
+            </QuantityRestriction>
             <IsEligibleForSuperSaverShipping>1</IsEligibleForSuperSaverShipping>
           </OfferListing>
         </Offer>

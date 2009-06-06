@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ListLookupResponse xmlns="http://webservices.amazon.com/AWSECommerceService/2007-10-29">
+<ListLookupResponse xmlns="http://webservices.amazon.com/AWSECommerceService/2009-03-31">
   <Lists>
     <List>
       <ListId>1XL5DWOUFMFVJ</ListId>
       <ListItem>
         <Item>
           <ASIN>0201633612</ASIN>
-          <DetailPageURL>http://www.amazon.com/gp/redirect.html%3FASIN=0201633612%26tag=ws%26lcode=xm2%26cID=2025%26ccmID=165953%26location=/o/ASIN/0201633612%253FSubscriptionId=1VAESZQN1G7SXNRG4882%2526coliid=I1FOJDQUPGIVUL%2526colid=1XL5DWOUFMFVJ</DetailPageURL>
-          <SalesRank>5062</SalesRank>
+          <SalesRank>4011</SalesRank>
           <ItemAttributes>
             <Author>Erich Gamma</Author>
             <Author>Richard Helm</Author>
@@ -16,6 +15,7 @@
             <Binding>Hardcover</Binding>
             <DeweyDecimalNumber>005.12</DeweyDecimalNumber>
             <EAN>9780201633610</EAN>
+            <Edition>illustrated edition</Edition>
             <ISBN>0201633612</ISBN>
             <Label>Addison-Wesley Professional</Label>
             <ListPrice>
@@ -36,17 +36,17 @@
           </ItemAttributes>
           <OfferSummary>
             <LowestNewPrice>
-              <Amount>4000</Amount>
+              <Amount>2900</Amount>
               <CurrencyCode>USD</CurrencyCode>
-              <FormattedPrice>$40.00</FormattedPrice>
+              <FormattedPrice>$29.00</FormattedPrice>
             </LowestNewPrice>
             <LowestUsedPrice>
-              <Amount>3998</Amount>
+              <Amount>2443</Amount>
               <CurrencyCode>USD</CurrencyCode>
-              <FormattedPrice>$39.98</FormattedPrice>
+              <FormattedPrice>$24.43</FormattedPrice>
             </LowestUsedPrice>
-            <TotalNew>46</TotalNew>
-            <TotalUsed>29</TotalUsed>
+            <TotalNew>58</TotalNew>
+            <TotalUsed>64</TotalUsed>
             <TotalCollectible>0</TotalCollectible>
             <TotalRefurbished>0</TotalRefurbished>
           </OfferSummary>
@@ -65,18 +65,18 @@
                 <SubCondition>new</SubCondition>
               </OfferAttributes>
               <OfferListing>
-                <OfferListingId>N2Pto6agpI0zuBs6DbSQF%2BQfvXB1oUYOCWx7KZ5zQbNYbCpkC9YrDqDyTHyOde%2BiA84ggkYDOs4kcskcGEvlpg%3D%3D</OfferListingId>
+                <OfferListingId>CCqbAh7N7NMnVayYC47qVhdYrqb%2BipOss1gaheFY1CNfwX%2FPvWBf%2B6IzVQ4GgMPW%2BF9qB%2FWrCVUq6v0aiDVafg%3D%3D</OfferListingId>
                 <Price>
-                  <Amount>4800</Amount>
+                  <Amount>3896</Amount>
                   <CurrencyCode>USD</CurrencyCode>
-                  <FormattedPrice>$48.00</FormattedPrice>
+                  <FormattedPrice>$38.96</FormattedPrice>
                 </Price>
                 <AmountSaved>
-                  <Amount>1199</Amount>
+                  <Amount>2103</Amount>
                   <CurrencyCode>USD</CurrencyCode>
-                  <FormattedPrice>$11.99</FormattedPrice>
+                  <FormattedPrice>$21.03</FormattedPrice>
                 </AmountSaved>
-                <PercentageSaved>20</PercentageSaved>
+                <PercentageSaved>35</PercentageSaved>
                 <Availability>Usually ships in 24 hours</Availability>
                 <AvailabilityAttributes>
                   <AvailabilityType>now</AvailabilityType>
@@ -88,18 +88,32 @@
               </OfferListing>
             </Offer>
           </Offers>
+          <Accessories>
+            <Accessory>
+              <ASIN>0321247140</ASIN>
+              <Title>Design Patterns Explained: A New Perspective on Object-Oriented Design (2nd Edition) (Software Patterns Series)</Title>
+            </Accessory>
+            <Accessory>
+              <ASIN>0321509366</ASIN>
+              <Title>Emergent Design: The Evolutionary Nature of Professional Software Development (Net Objectives Lean-Agile Series)</Title>
+            </Accessory>
+            <Accessory>
+              <ASIN>0321413091</ASIN>
+              <Title>Implementation Patterns (Addison-Wesley Signature Series)</Title>
+            </Accessory>
+          </Accessories>
         </Item>
       </ListItem>
       <ListItem>
         <Item>
           <ASIN>1882114981</ASIN>
-          <DetailPageURL>http://www.amazon.com/gp/redirect.html%3FASIN=1882114981%26tag=ws%26lcode=xm2%26cID=2025%26ccmID=165953%26location=/o/ASIN/1882114981%253FSubscriptionId=1VAESZQN1G7SXNRG4882%2526coliid=I2SZ3BJZ1PFKAJ%2526colid=1XL5DWOUFMFVJ</DetailPageURL>
-          <SalesRank>205501</SalesRank>
+          <SalesRank>251437</SalesRank>
           <ItemAttributes>
             <Author>Richard M. Stallman</Author>
             <Author>Lawrence Lessig</Author>
+            <Author>Joshua Gay</Author>
             <Binding>Hardcover</Binding>
-            <Creator Role="Editor">Joshua Gay</Creator>
+            <Creator Role="Introduction">Laurence Lessig</Creator>
             <DeweyDecimalNumber>346</DeweyDecimalNumber>
             <EAN>9781882114986</EAN>
             <ISBN>1882114981</ISBN>
@@ -121,28 +135,56 @@
           </ItemAttributes>
           <OfferSummary>
             <LowestNewPrice>
-              <Amount>1445</Amount>
+              <Amount>1795</Amount>
               <CurrencyCode>USD</CurrencyCode>
-              <FormattedPrice>$14.45</FormattedPrice>
+              <FormattedPrice>$17.95</FormattedPrice>
             </LowestNewPrice>
             <LowestUsedPrice>
-              <Amount>1364</Amount>
+              <Amount>1000</Amount>
               <CurrencyCode>USD</CurrencyCode>
-              <FormattedPrice>$13.64</FormattedPrice>
+              <FormattedPrice>$10.00</FormattedPrice>
             </LowestUsedPrice>
             <LowestCollectiblePrice>
-              <Amount>5495</Amount>
+              <Amount>12100</Amount>
               <CurrencyCode>USD</CurrencyCode>
-              <FormattedPrice>$54.95</FormattedPrice>
+              <FormattedPrice>$121.00</FormattedPrice>
             </LowestCollectiblePrice>
-            <TotalNew>1</TotalNew>
-            <TotalUsed>6</TotalUsed>
+            <TotalNew>9</TotalNew>
+            <TotalUsed>10</TotalUsed>
             <TotalCollectible>1</TotalCollectible>
             <TotalRefurbished>0</TotalRefurbished>
           </OfferSummary>
           <Offers>
-            <TotalOffers>0</TotalOffers>
-            <TotalOfferPages>0</TotalOfferPages>
+            <TotalOffers>1</TotalOffers>
+            <TotalOfferPages>1</TotalOfferPages>
+            <Offer>
+              <Merchant>
+                <MerchantId>ATVPDKIKX0DER</MerchantId>
+                <GlancePage>http://www.amazon.com/gp/help/seller/home.html?seller=ATVPDKIKX0DER</GlancePage>
+                <AverageFeedbackRating>0.0</AverageFeedbackRating>
+                <TotalFeedback>0</TotalFeedback>
+              </Merchant>
+              <OfferAttributes>
+                <Condition>New</Condition>
+                <SubCondition>new</SubCondition>
+              </OfferAttributes>
+              <OfferListing>
+                <OfferListingId>jYfxj%2F9xO8c%2FOkFqqPuBGPnyq5Ikrkw6KZnRd4M%2FJsKO9ir7HIq0jRtSc%2B9B0TFJMQ8HndHRPT%2B8iAYo239srQ%3D%3D</OfferListingId>
+                <Price>
+                  <Amount>2495</Amount>
+                  <CurrencyCode>USD</CurrencyCode>
+                  <FormattedPrice>$24.95</FormattedPrice>
+                </Price>
+                <Availability>Usually ships in 24 hours</Availability>
+                <AvailabilityAttributes>
+                  <AvailabilityType>now</AvailabilityType>
+                  <MinimumHours>24</MinimumHours>
+                  <MaximumHours>24</MaximumHours>
+                </AvailabilityAttributes>
+                <Quantity>-1</Quantity>
+                <IsEligibleForSuperSaverShipping>1</IsEligibleForSuperSaverShipping>
+              </OfferListing>
+            </Offer>
           </Offers>
         </Item>
       </ListItem>

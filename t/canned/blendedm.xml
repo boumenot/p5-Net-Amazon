@@ -1,334 +1,143 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ItemSearchResponse xmlns="http://webservices.amazon.com/AWSECommerceService/2007-10-29">
+<ItemSearchResponse xmlns="http://webservices.amazon.com/AWSECommerceService/2009-03-31">
   <Items>
-    <TotalResults>1801</TotalResults>
-    <TotalPages>604</TotalPages>
+    <TotalResults>2705</TotalResults>
+    <TotalPages>907</TotalPages>
     <Item>
-      <ASIN>B00062FLIS</ASIN>
-      <DetailPageURL>http://www.amazon.com/gp/redirect.html%3FASIN=B00062FLIS%26tag=ws%26lcode=xm2%26cID=2025%26ccmID=165953%26location=/o/ASIN/B00062FLIS%253FSubscriptionId=1VAESZQN1G7SXNRG4882</DetailPageURL>
-      <SalesRank>94310</SalesRank>
+      <ASIN>B000ASNBN0</ASIN>
+      <SalesRank>19646</SalesRank>
       <ItemAttributes>
-        <Binding>Audio CD</Binding>
-        <Creator Role="Performer">Gunther Leib</Creator>
-        <Creator Role="Performer">Hans Hotter</Creator>
-        <Creator Role="Performer">Karl Schmitt-Walter</Creator>
-        <Creator Role="Performer">Herbert Alsen</Creator>
-        <Creator Role="Performer">Ken Gould</Creator>
-        <Creator Role="Performer">Alain Meunier</Creator>
-        <Creator Role="Performer">Herre-Jan Stegenga</Creator>
-        <Creator Role="Performer">Janos Starker</Creator>
-        <Creator Role="Performer">Moray Welsh</Creator>
-        <Creator Role="Performer">Sharon Robinson</Creator>
-        <Creator Role="Performer">Wolfgang Boettcher</Creator>
-        <Creator Role="Performer">Karl Leister</Creator>
-        <Creator Role="Composer">Johannes Brahms</Creator>
-        <Creator Role="Conductor">Arpad Joo</Creator>
-        <Creator Role="Conductor">Eduardo Marturet</Creator>
-        <Creator Role="Conductor">Helmut Koch</Creator>
-        <Creator Role="Conductor">Jaap van Zweden</Creator>
-        <Creator Role="Conductor">Janos Sandor</Creator>
-        <Creator Role="Conductor">Nicol Matt</Creator>
-        <Creator Role="Performer">Nash Ensemble</Creator>
-        <EAN>0842977023923</EAN>
-        <Format>Box set</Format>
-        <Label>Brilliant Classics</Label>
-        <ListPrice>
-          <Amount>16998</Amount>
-          <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$169.98</FormattedPrice>
-        </ListPrice>
-        <Manufacturer>Brilliant Classics</Manufacturer>
-        <NumberOfDiscs>1</NumberOfDiscs>
-        <ProductGroup>Music</ProductGroup>
-        <ProductTypeName>ABIS_MUSIC</ProductTypeName>
-        <Publisher>Brilliant Classics</Publisher>
-        <ReleaseDate>2004-11-30</ReleaseDate>
-        <Studio>Brilliant Classics</Studio>
-        <Title>Brahms: The Masterworks (Box Set)</Title>
-        <UPC>842977023923</UPC>
+        <Binding>Kitchen</Binding>
+        <Brand>Persil</Brand>
+        <Feature>Persil Megaperls is specially formulated to protect lighter colors.  </Feature>
+        <Feature>It is a high-efficiency heavy-duty laundry detergent for use with all types of fabrics. Suitable for whites, light colors and colorfast fabrics.</Feature>
+        <Feature>Persil Megaperls is highly concentrated and guarantees best cleaning performance while being gentle on your clothes and the environment.</Feature>
+        <Feature>Persil Megaperls will keep your clothes looking new longer.</Feature>
+        <Feature>50 loads per box. Use about 1/4 cup per load.</Feature>
+        <Label>Henkel</Label>
+        <Manufacturer>Henkel</Manufacturer>
+        <ProductGroup>Kitchen</ProductGroup>
+        <ProductTypeName>HOME</ProductTypeName>
+        <Publisher>Henkel</Publisher>
+        <Size>3.645 KG</Size>
+        <Studio>Henkel</Studio>
+        <Title>Persil Megaperls</Title>
       </ItemAttributes>
       <OfferSummary>
         <LowestNewPrice>
-          <Amount>8995</Amount>
+          <Amount>4999</Amount>
           <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$89.95</FormattedPrice>
+          <FormattedPrice>$49.99</FormattedPrice>
         </LowestNewPrice>
-        <LowestUsedPrice>
-          <Amount>14554</Amount>
-          <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$145.54</FormattedPrice>
-        </LowestUsedPrice>
-        <TotalNew>21</TotalNew>
-        <TotalUsed>9</TotalUsed>
+        <TotalNew>4</TotalNew>
+        <TotalUsed>0</TotalUsed>
         <TotalCollectible>0</TotalCollectible>
         <TotalRefurbished>0</TotalRefurbished>
       </OfferSummary>
       <Offers>
-        <TotalOffers>1</TotalOffers>
-        <TotalOfferPages>1</TotalOfferPages>
-        <Offer>
-          <Merchant>
-            <MerchantId>ATVPDKIKX0DER</MerchantId>
-            <GlancePage>http://www.amazon.com/gp/help/seller/home.html?seller=ATVPDKIKX0DER</GlancePage>
-            <AverageFeedbackRating>0.0</AverageFeedbackRating>
-            <TotalFeedback>0</TotalFeedback>
-          </Merchant>
-          <OfferAttributes>
-            <Condition>New</Condition>
-            <SubCondition>new</SubCondition>
-          </OfferAttributes>
-          <OfferListing>
-            <OfferListingId>TqVx4SHTBDKMh%2BY9bVOhnvZ9zjXEd331rxF8XAX06wKkSyHlfFolGzRKX7s6c7SvIdTDC3sIc%2Bl6y2rJN5ADLA%3D%3D</OfferListingId>
-            <Price>
-              <Amount>12497</Amount>
-              <CurrencyCode>USD</CurrencyCode>
-              <FormattedPrice>$124.97</FormattedPrice>
-            </Price>
-            <AmountSaved>
-              <Amount>4501</Amount>
-              <CurrencyCode>USD</CurrencyCode>
-              <FormattedPrice>$45.01</FormattedPrice>
-            </AmountSaved>
-            <PercentageSaved>26</PercentageSaved>
-            <Availability>Usually ships in 24 hours</Availability>
-            <AvailabilityAttributes>
-              <AvailabilityType>now</AvailabilityType>
-              <MinimumHours>0</MinimumHours>
-              <MaximumHours>0</MaximumHours>
-            </AvailabilityAttributes>
-            <Quantity>-1</Quantity>
-            <IsEligibleForSuperSaverShipping>1</IsEligibleForSuperSaverShipping>
-          </OfferListing>
-        </Offer>
+        <TotalOffers>0</TotalOffers>
+        <TotalOfferPages>0</TotalOfferPages>
       </Offers>
     </Item>
     <Item>
-      <ASIN>B0006OR0IU</ASIN>
-      <DetailPageURL>http://www.amazon.com/gp/redirect.html%3FASIN=B0006OR0IU%26tag=ws%26lcode=xm2%26cID=2025%26ccmID=165953%26location=/o/ASIN/B0006OR0IU%253FSubscriptionId=1VAESZQN1G7SXNRG4882</DetailPageURL>
-      <SalesRank>53501</SalesRank>
+      <ASIN>B001BM8SJG</ASIN>
       <ItemAttributes>
-        <Actor>Chopin</Actor>
-        <Actor>Kempf</Actor>
-        <Actor>Perl</Actor>
-        <Actor>Hewitt</Actor>
-        <AspectRatio>1.78:1</AspectRatio>
-        <AudienceRating>NR (Not Rated)</AudienceRating>
-        <Binding>DVD</Binding>
-        <EAN>0809478000938</EAN>
-        <Format>Classical</Format>
-        <Format>Color</Format>
-        <Format>DTS Surround Sound</Format>
-        <Format>DVD-Video</Format>
-        <Format>Widescreen</Format>
-        <Format>NTSC</Format>
-        <Label>BBC / Opus Arte</Label>
-        <Languages>
-          <Language>
-            <Name>English</Name>
-            <Type>Original Language</Type>
-          </Language>
-        </Languages>
-        <ListPrice>
-          <Amount>1999</Amount>
-          <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$19.99</FormattedPrice>
-        </ListPrice>
-        <Manufacturer>BBC / Opus Arte</Manufacturer>
-        <NumberOfItems>1</NumberOfItems>
-        <ProductGroup>DVD</ProductGroup>
-        <ProductTypeName>ABIS_DVD</ProductTypeName>
-        <Publisher>BBC / Opus Arte</Publisher>
-        <RegionCode>1</RegionCode>
-        <ReleaseDate>2005-02-22</ReleaseDate>
-        <RunningTime Units="minutes">135</RunningTime>
-        <Studio>BBC / Opus Arte</Studio>
-        <TheatricalReleaseDate>2003</TheatricalReleaseDate>
-        <Title>Chopin: Piano Music</Title>
-        <UPC>809478000938</UPC>
+        <Binding>Misc.</Binding>
+        <Brand>BOODA PRODUCTS</Brand>
+        <Feature>Litter scoop with stylish way to hide dirty scoops.</Feature>
+        <Feature>Plastic</Feature>
+        <Feature>Dimensions (L x W x H):0.5 x 0.25 x 0.83</Feature>
+        <Feature>Your Pet will Love it.</Feature>
+        <Feature>Makes for a great Gift.</Feature>
+        <Label>BOODA PRODUCTS</Label>
+        <Manufacturer>BOODA PRODUCTS</Manufacturer>
+        <MPN>684116</MPN>
+        <PackageQuantity>1</PackageQuantity>
+        <ProductGroup>Kitchen</ProductGroup>
+        <ProductTypeName>PET_SUPPLIES</ProductTypeName>
+        <Publisher>BOODA PRODUCTS</Publisher>
+        <Studio>BOODA PRODUCTS</Studio>
+        <Title>Booda Products Scoop N Hide Litter Scoop Perl - 50260</Title>
       </ItemAttributes>
       <OfferSummary>
         <LowestNewPrice>
-          <Amount>1383</Amount>
+          <Amount>1821</Amount>
           <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$13.83</FormattedPrice>
+          <FormattedPrice>$18.21</FormattedPrice>
         </LowestNewPrice>
-        <LowestUsedPrice>
-          <Amount>1175</Amount>
-          <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$11.75</FormattedPrice>
-        </LowestUsedPrice>
-        <TotalNew>21</TotalNew>
-        <TotalUsed>8</TotalUsed>
+        <TotalNew>1</TotalNew>
+        <TotalUsed>0</TotalUsed>
         <TotalCollectible>0</TotalCollectible>
         <TotalRefurbished>0</TotalRefurbished>
       </OfferSummary>
       <Offers>
-        <TotalOffers>1</TotalOffers>
-        <TotalOfferPages>1</TotalOfferPages>
-        <Offer>
-          <Merchant>
-            <MerchantId>ATVPDKIKX0DER</MerchantId>
-            <GlancePage>http://www.amazon.com/gp/help/seller/home.html?seller=ATVPDKIKX0DER</GlancePage>
-            <AverageFeedbackRating>0.0</AverageFeedbackRating>
-            <TotalFeedback>0</TotalFeedback>
-          </Merchant>
-          <OfferAttributes>
-            <Condition>New</Condition>
-            <SubCondition>new</SubCondition>
-          </OfferAttributes>
-          <OfferListing>
-            <OfferListingId>m4L5PhcwBzwPPtWKdH0M2ciI70Sf5MPYq7FyHD1iWVgXULVwZ%2BMBro4Y7P2l%2BVcsXJROcqdth5feV9olweArzO%2BXcXdjZxr%2F</OfferListingId>
-            <Price>
-              <Amount>1799</Amount>
-              <CurrencyCode>USD</CurrencyCode>
-              <FormattedPrice>$17.99</FormattedPrice>
-            </Price>
-            <AmountSaved>
-              <Amount>200</Amount>
-              <CurrencyCode>USD</CurrencyCode>
-              <FormattedPrice>$2.00</FormattedPrice>
-            </AmountSaved>
-            <PercentageSaved>10</PercentageSaved>
-            <Availability>Usually ships in 24 hours</Availability>
-            <AvailabilityAttributes>
-              <AvailabilityType>now</AvailabilityType>
-              <MinimumHours>24</MinimumHours>
-              <MaximumHours>24</MaximumHours>
-            </AvailabilityAttributes>
-            <Quantity>-1</Quantity>
-            <IsEligibleForSuperSaverShipping>1</IsEligibleForSuperSaverShipping>
-          </OfferListing>
-        </Offer>
+        <TotalOffers>0</TotalOffers>
+        <TotalOfferPages>0</TotalOfferPages>
       </Offers>
     </Item>
     <Item>
-      <ASIN>B0001K9IKC</ASIN>
-      <DetailPageURL>http://www.amazon.com/gp/redirect.html%3FASIN=B0001K9IKC%26tag=ws%26lcode=xm2%26cID=2025%26ccmID=165953%26location=/o/ASIN/B0001K9IKC%253FSubscriptionId=1VAESZQN1G7SXNRG4882</DetailPageURL>
-      <SalesRank>125937</SalesRank>
+      <ASIN>B001FPHTUS</ASIN>
       <ItemAttributes>
-        <Binding>Audio CD</Binding>
-        <Creator Role="Composer">Marin Marais</Creator>
-        <Creator Role="Composer">Robert de Visee</Creator>
-        <Creator Role="Performer">Lee Santana</Creator>
-        <EAN>0828765879125</EAN>
-        <Label>Sony</Label>
-        <ListPrice>
-          <Amount>1798</Amount>
-          <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$17.98</FormattedPrice>
-        </ListPrice>
-        <Manufacturer>Sony</Manufacturer>
-        <NumberOfDiscs>1</NumberOfDiscs>
-        <ProductGroup>Music</ProductGroup>
-        <ProductTypeName>ABIS_MUSIC</ProductTypeName>
-        <Publisher>Sony</Publisher>
-        <ReleaseDate>2004-04-19</ReleaseDate>
-        <Studio>Sony</Studio>
-        <Title>Marin Marais: Pour la Violle et le Théorbe</Title>
-        <UPC>828765879125</UPC>
+        <Address>
+          <Country>USA</Country>
+        </Address>
+        <Brand>Library Images</Brand>
+        <Country>USA</Country>
+        <Feature>Typical Image Size: 16x20", Print Size: 20x24</Feature>
+        <Feature>Decorate with history or give a tasteful gift.</Feature>
+        <Feature>Only premiere quality framing materials used.</Feature>
+        <Label>Olde Yankee Map and Photo Shoppe</Label>
+        <Manufacturer>Olde Yankee Map and Photo Shoppe</Manufacturer>
+        <ProductGroup>Kitchen</ProductGroup>
+        <ProductTypeName>HOME_FURNITURE_AND_DECOR</ProductTypeName>
+        <Publisher>Olde Yankee Map and Photo Shoppe</Publisher>
+        <Studio>Olde Yankee Map and Photo Shoppe</Studio>
+        <Title>Historic Print (L): [Perl Decker, head-and-shoulders portrait, facing front]</Title>
       </ItemAttributes>
       <OfferSummary>
         <LowestNewPrice>
-          <Amount>842</Amount>
+          <Amount>5700</Amount>
           <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$8.42</FormattedPrice>
+          <FormattedPrice>$57.00</FormattedPrice>
         </LowestNewPrice>
-        <LowestUsedPrice>
-          <Amount>1000</Amount>
-          <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$10.00</FormattedPrice>
-        </LowestUsedPrice>
-        <TotalNew>13</TotalNew>
-        <TotalUsed>6</TotalUsed>
+        <TotalNew>1</TotalNew>
+        <TotalUsed>0</TotalUsed>
         <TotalCollectible>0</TotalCollectible>
         <TotalRefurbished>0</TotalRefurbished>
       </OfferSummary>
       <Offers>
-        <TotalOffers>1</TotalOffers>
-        <TotalOfferPages>1</TotalOfferPages>
-        <Offer>
-          <Merchant>
-            <MerchantId>ATVPDKIKX0DER</MerchantId>
-            <GlancePage>http://www.amazon.com/gp/help/seller/home.html?seller=ATVPDKIKX0DER</GlancePage>
-            <AverageFeedbackRating>0.0</AverageFeedbackRating>
-            <TotalFeedback>0</TotalFeedback>
-          </Merchant>
-          <OfferAttributes>
-            <Condition>New</Condition>
-            <SubCondition>new</SubCondition>
-          </OfferAttributes>
-          <OfferListing>
-            <OfferListingId>rpGVYpNfG5FK00kAkB4YsjV8ybGz8cpR5O3XWalw8APVs7y0OhcHvnXI0%2BKa3Y9skTVMHlrcPunVCw8T3soV8w%3D%3D</OfferListingId>
-            <Price>
-              <Amount>1798</Amount>
-              <CurrencyCode>USD</CurrencyCode>
-              <FormattedPrice>$17.98</FormattedPrice>
-            </Price>
-            <Availability>Usually ships in 1 to 2 weeks</Availability>
-            <AvailabilityAttributes>
-              <AvailabilityType>now</AvailabilityType>
-              <MinimumHours>168</MinimumHours>
-              <MaximumHours>336</MaximumHours>
-            </AvailabilityAttributes>
-            <Quantity>-1</Quantity>
-            <IsEligibleForSuperSaverShipping>1</IsEligibleForSuperSaverShipping>
-          </OfferListing>
-        </Offer>
+        <TotalOffers>0</TotalOffers>
+        <TotalOfferPages>0</TotalOfferPages>
       </Offers>
-      <Tracks>
-        <Disc Number="1">
-          <Track Number="1">Prelude Pour La Violle Et Le Theorbe</Track>
-          <Track Number="2">Folies</Track>
-          <Track Number="3">La Bagatelle</Track>
-          <Track Number="4">Prelude</Track>
-          <Track Number="5">Caprice</Track>
-          <Track Number="6">Allemande (&amp; Double)</Track>
-          <Track Number="7">Courante</Track>
-          <Track Number="8">Sarabande</Track>
-          <Track Number="9">Gigue La Chicane</Track>
-          <Track Number="10">Rondeau Loure</Track>
-          <Track Number="11">Plainte</Track>
-          <Track Number="12">Menuet Fantasque &amp; Double</Track>
-          <Track Number="13">Le Moulinet</Track>
-          <Track Number="14">Prelude</Track>
-          <Track Number="15">Allemande</Track>
-          <Track Number="16">Aire</Track>
-          <Track Number="17">Passacalle</Track>
-          <Track Number="18">Fantaisie</Track>
-          <Track Number="19">Allemande (&amp; Double)</Track>
-          <Track Number="20">Courante (&amp; Double)</Track>
-          <Track Number="21">Sarabande (&amp; Double)</Track>
-          <Track Number="22">Gigue</Track>
-          <Track Number="23">La Paysane</Track>
-          <Track Number="24">Chaconne</Track>
-          <Track Number="25">20 Couplets</Track>
-        </Disc>
-      </Tracks>
     </Item>
     <Item>
-      <ASIN>B000BYY0TW</ASIN>
-      <DetailPageURL>http://www.amazon.com/gp/redirect.html%3FASIN=B000BYY0TW%26tag=ws%26lcode=xm2%26cID=2025%26ccmID=165953%26location=/o/ASIN/B000BYY0TW%253FSubscriptionId=1VAESZQN1G7SXNRG4882</DetailPageURL>
-      <SalesRank>22803</SalesRank>
+      <ASIN>B0007YXPRE</ASIN>
+      <SalesRank>27320</SalesRank>
       <ItemAttributes>
-        <Actor>Tia Carrere</Actor>
-        <Actor>Lance Henriksen</Actor>
-        <Actor>Luke Perry</Actor>
-        <Actor>Emma Samms</Actor>
-        <Actor>Peter Fonda</Actor>
+        <Actor>Megan Mullally</Actor>
+        <Actor>Scott Beaudin</Actor>
+        <Actor>Raquel Cadilha</Actor>
+        <Actor>Marium Carvell</Actor>
+        <Actor>Corinne Conley</Actor>
         <AspectRatio>1.33:1</AspectRatio>
         <AudienceRating>NR (Not Rated)</AudienceRating>
         <Binding>DVD</Binding>
-        <Creator Role="Cinematographer">Frank Perl</Creator>
-        <Creator Role="Composer">Irwin Fisch</Creator>
-        <Creator Role="Editor">Thomas A. Krueger</Creator>
-        <Director>John Harrison</Director>
-        <EAN>0096009420697</EAN>
-        <Format>AC-3</Format>
+        <Creator Role="Writer">Daisy Scott</Creator>
+        <Creator Role="Writer">Diana DeCubellis</Creator>
+        <Creator Role="Writer">Diana Fischer</Creator>
+        <Creator Role="Writer">Erica S. Perl</Creator>
+        <Creator Role="Writer">Gentry Menzel</Creator>
+        <Creator Role="Writer">Joe Fallon</Creator>
+        <Creator Role="Writer">Jonathan Greenberg</Creator>
+        <Director>Rick Marshall</Director>
+        <EAN>9781593753511</EAN>
+        <Format>Box set</Format>
+        <Format>Closed-captioned</Format>
         <Format>Color</Format>
         <Format>DVD-Video</Format>
-        <Format>Full Screen</Format>
         <Format>NTSC</Format>
-        <Label>Platinum Disc</Label>
+        <ISBN>1593753519</ISBN>
+        <Label>Wgbh Boston</Label>
         <Languages>
           <Language>
             <Name>English</Name>
@@ -336,39 +145,156 @@
           </Language>
         </Languages>
         <ListPrice>
-          <Amount>699</Amount>
+          <Amount>2995</Amount>
           <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$6.99</FormattedPrice>
+          <FormattedPrice>$29.95</FormattedPrice>
         </ListPrice>
-        <Manufacturer>Platinum Disc</Manufacturer>
-        <MPN>D42069D</MPN>
-        <NumberOfItems>1</NumberOfItems>
+        <Manufacturer>Wgbh Boston</Manufacturer>
+        <MPN>WGBD39109D</MPN>
+        <NumberOfItems>3</NumberOfItems>
+        <ProductGroup>DVD</ProductGroup>
+        <ProductTypeName>ABIS_DVD</ProductTypeName>
+        <Publisher>Wgbh Boston</Publisher>
+        <RegionCode>1</RegionCode>
+        <ReleaseDate>2005-06-07</ReleaseDate>
+        <RunningTime Units="minutes">180</RunningTime>
+        <Studio>Wgbh Boston</Studio>
+        <Title>Peep and the Big Wide World</Title>
+        <UPC>783421391093</UPC>
+      </ItemAttributes>
+      <OfferSummary>
+        <LowestNewPrice>
+          <Amount>1619</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$16.19</FormattedPrice>
+        </LowestNewPrice>
+        <LowestUsedPrice>
+          <Amount>1763</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$17.63</FormattedPrice>
+        </LowestUsedPrice>
+        <LowestCollectiblePrice>
+          <Amount>3095</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$30.95</FormattedPrice>
+        </LowestCollectiblePrice>
+        <TotalNew>29</TotalNew>
+        <TotalUsed>7</TotalUsed>
+        <TotalCollectible>1</TotalCollectible>
+        <TotalRefurbished>0</TotalRefurbished>
+      </OfferSummary>
+      <Offers>
+        <TotalOffers>1</TotalOffers>
+        <TotalOfferPages>1</TotalOfferPages>
+        <Offer>
+          <Merchant>
+            <MerchantId>ATVPDKIKX0DER</MerchantId>
+            <GlancePage>http://www.amazon.com/gp/help/seller/home.html?seller=ATVPDKIKX0DER</GlancePage>
+            <AverageFeedbackRating>0.0</AverageFeedbackRating>
+            <TotalFeedback>0</TotalFeedback>
+          </Merchant>
+          <OfferAttributes>
+            <Condition>New</Condition>
+            <SubCondition>new</SubCondition>
+          </OfferAttributes>
+          <OfferListing>
+            <OfferListingId>7DQTQk2Dy49jMtvbRt5IJWlxkDuh5KwdBkzvUcNS%2BTCpztE4XS1xr4ZxwBhr4qylUWtJrMhId2y0U5uT2e6PBVga0kOxQl9j</OfferListingId>
+            <Price>
+              <Amount>1849</Amount>
+              <CurrencyCode>USD</CurrencyCode>
+              <FormattedPrice>$18.49</FormattedPrice>
+            </Price>
+            <AmountSaved>
+              <Amount>1146</Amount>
+              <CurrencyCode>USD</CurrencyCode>
+              <FormattedPrice>$11.46</FormattedPrice>
+            </AmountSaved>
+            <PercentageSaved>38</PercentageSaved>
+            <Availability>Usually ships in 24 hours</Availability>
+            <AvailabilityAttributes>
+              <AvailabilityType>now</AvailabilityType>
+              <MinimumHours>0</MinimumHours>
+              <MaximumHours>0</MaximumHours>
+            </AvailabilityAttributes>
+            <Quantity>-1</Quantity>
+            <IsEligibleForSuperSaverShipping>1</IsEligibleForSuperSaverShipping>
+          </OfferListing>
+        </Offer>
+      </Offers>
+    </Item>
+    <Item>
+      <ASIN>B0009UZGAU</ASIN>
+      <SalesRank>24740</SalesRank>
+      <ItemAttributes>
+        <Actor>Megan Mullally</Actor>
+        <Actor>Scott Beaudin</Actor>
+        <Actor>Raquel Cadilha</Actor>
+        <Actor>Marium Carvell</Actor>
+        <Actor>Corinne Conley</Actor>
+        <AspectRatio>1.33:1</AspectRatio>
+        <AudienceRating>NR (Not Rated)</AudienceRating>
+        <Binding>DVD</Binding>
+        <Creator Role="Writer">Daisy Scott</Creator>
+        <Creator Role="Writer">Diana DeCubellis</Creator>
+        <Creator Role="Writer">Diana Fischer</Creator>
+        <Creator Role="Writer">Erica S. Perl</Creator>
+        <Creator Role="Writer">Gentry Menzel</Creator>
+        <Creator Role="Writer">Joe Fallon</Creator>
+        <Creator Role="Writer">Jonathan Greenberg</Creator>
+        <Director>Rick Marshall</Director>
+        <EAN>9781593754891</EAN>
+        <Format>Box set</Format>
+        <Format>Closed-captioned</Format>
+        <Format>Color</Format>
+        <Format>DVD-Video</Format>
+        <Format>NTSC</Format>
+        <ISBN>1593754892</ISBN>
+        <Label>Wgbh Boston</Label>
+        <Languages>
+          <Language>
+            <Name>English</Name>
+            <Type>Original Language</Type>
+          </Language>
+        </Languages>
+        <ListPrice>
+          <Amount>2995</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$29.95</FormattedPrice>
+        </ListPrice>
+        <Manufacturer>Wgbh Boston</Manufacturer>
+        <MPN>40179</MPN>
+        <NumberOfItems>3</NumberOfItems>
         <OriginalReleaseDate>2005-01-01</OriginalReleaseDate>
         <ProductGroup>DVD</ProductGroup>
         <ProductTypeName>ABIS_DVD</ProductTypeName>
-        <Publisher>Platinum Disc</Publisher>
+        <Publisher>Wgbh Boston</Publisher>
         <RegionCode>1</RegionCode>
-        <ReleaseDate>2006-01-31</ReleaseDate>
-        <RunningTime Units="minutes">172</RunningTime>
-        <Studio>Platinum Disc</Studio>
+        <ReleaseDate>2005-10-11</ReleaseDate>
+        <RunningTime Units="minutes">180</RunningTime>
+        <Studio>Wgbh Boston</Studio>
         <TheatricalReleaseDate>2005</TheatricalReleaseDate>
-        <Title>Supernova</Title>
-        <UPC>096009420697</UPC>
+        <Title>Peep and His Pals - Peep Explores / Chirp Flies / Quack Knows it All</Title>
+        <UPC>783421401792</UPC>
       </ItemAttributes>
       <OfferSummary>
         <LowestNewPrice>
-          <Amount>199</Amount>
+          <Amount>1617</Amount>
           <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$1.99</FormattedPrice>
+          <FormattedPrice>$16.17</FormattedPrice>
         </LowestNewPrice>
         <LowestUsedPrice>
-          <Amount>109</Amount>
+          <Amount>1762</Amount>
           <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$1.09</FormattedPrice>
+          <FormattedPrice>$17.62</FormattedPrice>
         </LowestUsedPrice>
-        <TotalNew>27</TotalNew>
-        <TotalUsed>28</TotalUsed>
-        <TotalCollectible>0</TotalCollectible>
+        <LowestCollectiblePrice>
+          <Amount>3195</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$31.95</FormattedPrice>
+        </LowestCollectiblePrice>
+        <TotalNew>25</TotalNew>
+        <TotalUsed>6</TotalUsed>
+        <TotalCollectible>1</TotalCollectible>
         <TotalRefurbished>0</TotalRefurbished>
       </OfferSummary>
       <Offers>
@@ -386,12 +312,18 @@
             <SubCondition>new</SubCondition>
           </OfferAttributes>
           <OfferListing>
-            <OfferListingId>4amWyLiFyHEZ%2BabpIXGN5f2ll53LHIXmqWGpY5y215bJ6ocyNp8AFHDRJtmuGkWDMDifSqq98Q5ldQpoj5dYs2Rs85UXmm8w</OfferListingId>
+            <OfferListingId>CZ4wnZQmy43qYJjZ83Fbdvbh2MgbqXn2YV3pwfK%2Be5VvcP5jk1%2FyQZ2nmeEGebkeJ2GUd%2BEuegtXrzevoqlADP%2FJHmBRtjxL</OfferListingId>
             <Price>
-              <Amount>699</Amount>
+              <Amount>2499</Amount>
               <CurrencyCode>USD</CurrencyCode>
-              <FormattedPrice>$6.99</FormattedPrice>
+              <FormattedPrice>$24.99</FormattedPrice>
             </Price>
+            <AmountSaved>
+              <Amount>496</Amount>
+              <CurrencyCode>USD</CurrencyCode>
+              <FormattedPrice>$4.96</FormattedPrice>
+            </AmountSaved>
+            <PercentageSaved>17</PercentageSaved>
             <Availability>Usually ships in 24 hours</Availability>
             <AvailabilityAttributes>
               <AvailabilityType>now</AvailabilityType>
@@ -405,71 +337,82 @@
       </Offers>
     </Item>
     <Item>
-      <ASIN>B000FOPPYW</ASIN>
-      <DetailPageURL>http://www.amazon.com/gp/redirect.html%3FASIN=B000FOPPYW%26tag=ws%26lcode=xm2%26cID=2025%26ccmID=165953%26location=/o/ASIN/B000FOPPYW%253FSubscriptionId=1VAESZQN1G7SXNRG4882</DetailPageURL>
-      <SalesRank>91155</SalesRank>
+      <ASIN>B000PWQPB6</ASIN>
+      <SalesRank>25785</SalesRank>
       <ItemAttributes>
-        <Actor>Amos Lavi</Actor>
-        <Actor>Orly Perl</Actor>
-        <Actor>Juliano Merr</Actor>
-        <Actor>Meital Dohan</Actor>
-        <Actor>Sami Samir</Actor>
-        <AspectRatio>1.85:1</AspectRatio>
-        <AudienceRating>Unrated</AudienceRating>
+        <Actor>Megan Mullally</Actor>
+        <Actor>Scott Beaudin</Actor>
+        <Actor>Raquel Cadilha</Actor>
+        <Actor>Marium Carvell</Actor>
+        <Actor>Corinne Conley</Actor>
+        <AspectRatio>1.33:1</AspectRatio>
+        <AudienceRating>NR (Not Rated)</AudienceRating>
         <Binding>DVD</Binding>
-        <Creator Role="Cinematographer">Claudio Steinberg</Creator>
-        <Creator Role="Composer">Arik Rodich</Creator>
-        <Creator Role="Editor">Shimon Spector</Creator>
-        <Director>Doron Eran</Director>
-        <EAN>0825284200249</EAN>
+        <Brand>WGBH BOSTON VIDEO</Brand>
+        <Creator Role="Writer">Daisy Scott</Creator>
+        <Creator Role="Writer">Diana DeCubellis</Creator>
+        <Creator Role="Writer">Diana Fischer</Creator>
+        <Creator Role="Writer">Erica S. Perl</Creator>
+        <Creator Role="Writer">Gentry Menzel</Creator>
+        <Creator Role="Writer">Joe Fallon</Creator>
+        <Creator Role="Writer">Jonathan Greenberg</Creator>
+        <Director>Rick Marshall</Director>
+        <EAN>0783421418899</EAN>
+        <Format>Closed-captioned</Format>
         <Format>Color</Format>
         <Format>DVD-Video</Format>
         <Format>NTSC</Format>
-        <Format>Subtitled</Format>
-        <Label>Indican</Label>
+        <ItemDimensions>
+          <Weight Units="hundredths-pounds">15</Weight>
+        </ItemDimensions>
+        <Label>Wgbh Boston</Label>
         <Languages>
           <Language>
             <Name>English</Name>
-            <Type>Subtitled</Type>
+            <Type>Original Language</Type>
           </Language>
           <Language>
-            <Name>Hebrew</Name>
+            <Name>Spanish</Name>
             <Type>Original Language</Type>
           </Language>
         </Languages>
         <ListPrice>
-          <Amount>2199</Amount>
+          <Amount>1295</Amount>
           <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$21.99</FormattedPrice>
+          <FormattedPrice>$12.95</FormattedPrice>
         </ListPrice>
-        <Manufacturer>Indican</Manufacturer>
-        <MPN>D00262K4D</MPN>
+        <Manufacturer>Wgbh Boston</Manufacturer>
+        <MPN>WGBD41889D</MPN>
         <NumberOfItems>1</NumberOfItems>
-        <OriginalReleaseDate>2002-01-01</OriginalReleaseDate>
         <ProductGroup>DVD</ProductGroup>
         <ProductTypeName>ABIS_DVD</ProductTypeName>
-        <Publisher>Indican</Publisher>
-        <ReleaseDate>2007-11-06</ReleaseDate>
-        <RunningTime Units="minutes">92</RunningTime>
-        <Studio>Indican</Studio>
-        <TheatricalReleaseDate>2002</TheatricalReleaseDate>
-        <Title>God's Sandbox</Title>
-        <UPC>825284200249</UPC>
+        <Publisher>Wgbh Boston</Publisher>
+        <RegionCode>0</RegionCode>
+        <ReleaseDate>2007-06-05</ReleaseDate>
+        <RunningTime Units="minutes">60</RunningTime>
+        <Studio>Wgbh Boston</Studio>
+        <Title>Peep and the Big Wide World: Peep Figures It Out</Title>
+        <UPC>783421418899</UPC>
       </ItemAttributes>
       <OfferSummary>
         <LowestNewPrice>
-          <Amount>999</Amount>
+          <Amount>594</Amount>
           <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$9.99</FormattedPrice>
+          <FormattedPrice>$5.94</FormattedPrice>
         </LowestNewPrice>
         <LowestUsedPrice>
-          <Amount>549</Amount>
+          <Amount>624</Amount>
           <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$5.49</FormattedPrice>
+          <FormattedPrice>$6.24</FormattedPrice>
         </LowestUsedPrice>
-        <TotalNew>31</TotalNew>
-        <TotalUsed>18</TotalUsed>
-        <TotalCollectible>0</TotalCollectible>
+        <LowestCollectiblePrice>
+          <Amount>1685</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$16.85</FormattedPrice>
+        </LowestCollectiblePrice>
+        <TotalNew>33</TotalNew>
+        <TotalUsed>7</TotalUsed>
+        <TotalCollectible>1</TotalCollectible>
         <TotalRefurbished>0</TotalRefurbished>
       </OfferSummary>
       <Offers>
@@ -487,18 +430,18 @@
             <SubCondition>new</SubCondition>
           </OfferAttributes>
           <OfferListing>
-            <OfferListingId>MJcPBvYcMNRizKumiZkR4XNIPaix03qlB8gNlF37ydbVqs5qXDqK%2F8iT5Wdk0qoUYNoushnMBieu2eabTO%2BfyA%3D%3D</OfferListingId>
+            <OfferListingId>UKUMxIzemZ3rY1oofgnBfCne%2FFlr7F7pX4%2FF02O6%2FUYdyUsMqHznxQjtUAE7DrxknmYuCnjtpPvYF7lEceOtBQ%3D%3D</OfferListingId>
             <Price>
-              <Amount>1999</Amount>
+              <Amount>1149</Amount>
               <CurrencyCode>USD</CurrencyCode>
-              <FormattedPrice>$19.99</FormattedPrice>
+              <FormattedPrice>$11.49</FormattedPrice>
             </Price>
             <AmountSaved>
-              <Amount>200</Amount>
+              <Amount>146</Amount>
               <CurrencyCode>USD</CurrencyCode>
-              <FormattedPrice>$2.00</FormattedPrice>
+              <FormattedPrice>$1.46</FormattedPrice>
             </AmountSaved>
-            <PercentageSaved>9</PercentageSaved>
+            <PercentageSaved>11</PercentageSaved>
             <Availability>Usually ships in 24 hours</Availability>
             <AvailabilityAttributes>
               <AvailabilityType>now</AvailabilityType>
@@ -512,59 +455,130 @@
       </Offers>
     </Item>
     <Item>
-      <ASIN>6302513367</ASIN>
-      <DetailPageURL>http://www.amazon.com/gp/redirect.html%3FASIN=6302513367%26tag=ws%26lcode=xm2%26cID=2025%26ccmID=165953%26location=/o/ASIN/6302513367%253FSubscriptionId=1VAESZQN1G7SXNRG4882</DetailPageURL>
-      <SalesRank>37255</SalesRank>
+      <ASIN>6303347681</ASIN>
+      <SalesRank>21419</SalesRank>
       <ItemAttributes>
-        <Actor>James Earl Jones</Actor>
-        <Actor>Ossie Davis</Actor>
         <Actor>Malcolm X</Actor>
-        <Actor>Ella Collins</Actor>
-        <Actor>James Farmer</Actor>
+        <Actor>James Earl Jones</Actor>
+        <Actor>Martin Luther King</Actor>
+        <Actor>Betty Shabazz</Actor>
+        <Actor>Ossie Davis</Actor>
         <AudienceRating>PG (Parental Guidance Suggested)</AudienceRating>
         <Binding>VHS Tape</Binding>
         <Director>Arnold Perl</Director>
-        <EAN>9786302513363</EAN>
+        <EAN>9786303347684</EAN>
         <Format>Black &amp; White</Format>
+        <Format>Closed-captioned</Format>
         <Format>Color</Format>
+        <Format>HiFi Sound</Format>
         <Format>NTSC</Format>
-        <ISBN>6302513367</ISBN>
-        <Label>Anchor Bay</Label>
+        <ISBN>6303347681</ISBN>
+        <Label>Warner Home Video</Label>
+        <Languages>
+          <Language>
+            <Name>English</Name>
+            <Type>Original Language</Type>
+          </Language>
+        </Languages>
         <ListPrice>
-          <Amount>999</Amount>
+          <Amount>1998</Amount>
           <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$9.99</FormattedPrice>
+          <FormattedPrice>$19.98</FormattedPrice>
         </ListPrice>
-        <Manufacturer>Anchor Bay</Manufacturer>
+        <Manufacturer>Warner Home Video</Manufacturer>
         <NumberOfItems>1</NumberOfItems>
+        <OriginalReleaseDate>1972-01-01</OriginalReleaseDate>
         <ProductGroup>Video</ProductGroup>
         <ProductTypeName>ABIS_VIDEO</ProductTypeName>
-        <Publisher>Anchor Bay</Publisher>
-        <ReleaseDate>1999-02-16</ReleaseDate>
-        <RunningTime Units="minutes">60</RunningTime>
-        <Studio>Anchor Bay</Studio>
-        <Title>Malcolm X</Title>
-        <UPC>039244763037</UPC>
+        <Publisher>Warner Home Video</Publisher>
+        <ReleaseDate>1995-01-31</ReleaseDate>
+        <RunningTime Units="minutes">92</RunningTime>
+        <Studio>Warner Home Video</Studio>
+        <TheatricalReleaseDate>1972</TheatricalReleaseDate>
+        <Title>Malcolm X: His Own Story as it Really Happened [VHS]</Title>
+        <UPC>085391230731</UPC>
       </ItemAttributes>
       <OfferSummary>
-        <LowestNewPrice>
+        <LowestUsedPrice>
+          <Amount>3998</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$39.98</FormattedPrice>
+        </LowestUsedPrice>
+        <TotalNew>0</TotalNew>
+        <TotalUsed>5</TotalUsed>
+        <TotalCollectible>0</TotalCollectible>
+        <TotalRefurbished>0</TotalRefurbished>
+      </OfferSummary>
+      <Offers>
+        <TotalOffers>0</TotalOffers>
+        <TotalOfferPages>0</TotalOfferPages>
+      </Offers>
+    </Item>
+    <Item>
+      <ASIN>6301658795</ASIN>
+      <SalesRank>9103</SalesRank>
+      <ItemAttributes>
+        <Actor>Louis Armstrong</Actor>
+        <Actor>Mahalia Jackson</Actor>
+        <Actor>Chuck Berry</Actor>
+        <Actor>Chico Hamilton</Actor>
+        <Actor>Gerry Mulligan</Actor>
+        <AudienceRating>NR (Not Rated)</AudienceRating>
+        <Binding>VHS Tape</Binding>
+        <Creator Role="Cinematographer">Bert Stern</Creator>
+        <Creator Role="Cinematographer">Courtney Hesfela</Creator>
+        <Creator Role="Producer">George Wein</Creator>
+        <Creator Role="Producer">Harvey Kahn</Creator>
+        <Creator Role="Writer">Albert D'Annibale</Creator>
+        <Creator Role="Writer">Arnold Perl</Creator>
+        <Director>Bert Stern</Director>
+        <Director>Aram Avakian</Director>
+        <EAN>9786301658799</EAN>
+        <Format>Color</Format>
+        <Format>Original recording reissued</Format>
+        <Format>Original recording remastered</Format>
+        <Format>NTSC</Format>
+        <ISBN>6301658795</ISBN>
+        <Label>New Yorker Video</Label>
+        <Languages>
+          <Language>
+            <Name>English</Name>
+            <Type>Original Language</Type>
+            <AudioFormat>Analog</AudioFormat>
+          </Language>
+        </Languages>
+        <ListPrice>
+          <Amount>1995</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$19.95</FormattedPrice>
+        </ListPrice>
+        <Manufacturer>New Yorker Video</Manufacturer>
+        <NumberOfItems>1</NumberOfItems>
+        <OriginalReleaseDate>1959-01-01</OriginalReleaseDate>
+        <ProductGroup>Video</ProductGroup>
+        <ProductTypeName>ABIS_VIDEO</ProductTypeName>
+        <Publisher>New Yorker Video</Publisher>
+        <ReleaseDate>2000-11-14</ReleaseDate>
+        <RunningTime Units="minutes">85</RunningTime>
+        <Studio>New Yorker Video</Studio>
+        <TheatricalReleaseDate>1959</TheatricalReleaseDate>
+        <Title>Jazz on a Summer's Day [VHS]</Title>
+        <UPC>717119165031</UPC>
+      </ItemAttributes>
+      <OfferSummary>
+        <LowestUsedPrice>
           <Amount>999</Amount>
           <CurrencyCode>USD</CurrencyCode>
           <FormattedPrice>$9.99</FormattedPrice>
-        </LowestNewPrice>
-        <LowestUsedPrice>
-          <Amount>119</Amount>
-          <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$1.19</FormattedPrice>
         </LowestUsedPrice>
         <LowestCollectiblePrice>
-          <Amount>1495</Amount>
+          <Amount>2899</Amount>
           <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$14.95</FormattedPrice>
+          <FormattedPrice>$28.99</FormattedPrice>
         </LowestCollectiblePrice>
-        <TotalNew>3</TotalNew>
-        <TotalUsed>7</TotalUsed>
-        <TotalCollectible>2</TotalCollectible>
+        <TotalNew>0</TotalNew>
+        <TotalUsed>8</TotalUsed>
+        <TotalCollectible>1</TotalCollectible>
         <TotalRefurbished>0</TotalRefurbished>
       </OfferSummary>
       <Offers>
@@ -574,8 +588,7 @@
     </Item>
     <Item>
       <ASIN>6304326246</ASIN>
-      <DetailPageURL>http://www.amazon.com/gp/redirect.html%3FASIN=6304326246%26tag=ws%26lcode=xm2%26cID=2025%26ccmID=165953%26location=/o/ASIN/6304326246%253FSubscriptionId=1VAESZQN1G7SXNRG4882</DetailPageURL>
-      <SalesRank>43792</SalesRank>
+      <SalesRank>37571</SalesRank>
       <ItemAttributes>
         <Actor>Gila Almagor</Actor>
         <Actor>Juliano Mer</Actor>
@@ -614,27 +627,27 @@
         <RunningTime Units="minutes">102</RunningTime>
         <Studio>Fox Lorber</Studio>
         <TheatricalReleaseDate>1996-05-17</TheatricalReleaseDate>
-        <Title>Under the Domim Tree (Ws Sub)</Title>
+        <Title>Under the Domim Tree [VHS]</Title>
         <UPC>720917012612</UPC>
       </ItemAttributes>
       <OfferSummary>
         <LowestNewPrice>
-          <Amount>4000</Amount>
+          <Amount>3884</Amount>
           <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$40.00</FormattedPrice>
+          <FormattedPrice>$38.84</FormattedPrice>
         </LowestNewPrice>
         <LowestUsedPrice>
-          <Amount>399</Amount>
+          <Amount>184</Amount>
           <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$3.99</FormattedPrice>
+          <FormattedPrice>$1.84</FormattedPrice>
         </LowestUsedPrice>
         <LowestCollectiblePrice>
           <Amount>1998</Amount>
           <CurrencyCode>USD</CurrencyCode>
           <FormattedPrice>$19.98</FormattedPrice>
         </LowestCollectiblePrice>
-        <TotalNew>3</TotalNew>
-        <TotalUsed>10</TotalUsed>
+        <TotalNew>1</TotalNew>
+        <TotalUsed>19</TotalUsed>
         <TotalCollectible>1</TotalCollectible>
         <TotalRefurbished>0</TotalRefurbished>
       </OfferSummary>
@@ -644,267 +657,307 @@
       </Offers>
     </Item>
     <Item>
-      <ASIN>B000228SFA</ASIN>
-      <DetailPageURL>http://www.amazon.com/gp/redirect.html%3FASIN=B000228SFA%26tag=ws%26lcode=xm2%26cID=2025%26ccmID=165953%26location=/o/ASIN/B000228SFA%253FSubscriptionId=1VAESZQN1G7SXNRG4882</DetailPageURL>
-      <SalesRank>114970</SalesRank>
+      <ASIN>B001NY4X0U</ASIN>
+      <SalesRank>1562</SalesRank>
       <ItemAttributes>
-        <Actor>Riki Gal</Actor>
-        <Actor>Aki Avni</Actor>
-        <Actor>Assi Dayan</Actor>
-        <Actor>Orli Perl</Actor>
-        <Actor>Dana Parnas</Actor>
+        <Actor>Micah Alberti</Actor>
+        <Actor>Genevieve Cortese</Actor>
+        <Actor>James Read</Actor>
+        <Actor>Ryan Sypek</Actor>
+        <Actor>Nicole Tubiola</Actor>
+        <AspectRatio>1.78:1</AspectRatio>
         <AudienceRating>NR (Not Rated)</AudienceRating>
-        <Binding>VHS Tape</Binding>
-        <Director>Menahem Golan</Director>
-        <EAN>9781560862581</EAN>
+        <Binding>DVD</Binding>
+        <Brand>Lions Gate</Brand>
+        <Creator Role="Writer">Andy Reaser</Creator>
+        <Creator Role="Writer">Christina Lynch</Creator>
+        <Creator Role="Writer">Christopher Teague</Creator>
+        <Director>Bradford May</Director>
+        <Director>Ellie Kanner</Director>
+        <Director>Frank Perl</Director>
+        <Director>John Behring</Director>
+        <Director>Rachel Talalay</Director>
+        <EAN>0031398105473</EAN>
+        <Format>AC-3</Format>
+        <Format>Closed-captioned</Format>
         <Format>Color</Format>
-        <Format>Subtitled</Format>
+        <Format>Dolby</Format>
+        <Format>DVD-Video</Format>
+        <Format>Widescreen</Format>
         <Format>NTSC</Format>
-        <ISBN>1560862580</ISBN>
-        <Label>Sisu Home Ent.</Label>
+        <Label>Lions Gate</Label>
         <Languages>
           <Language>
             <Name>English</Name>
             <Type>Original Language</Type>
           </Language>
+        </Languages>
+        <ListPrice>
+          <Amount>2998</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$29.98</FormattedPrice>
+        </ListPrice>
+        <Manufacturer>Lions Gate</Manufacturer>
+        <MPN>24877</MPN>
+        <NumberOfItems>3</NumberOfItems>
+        <ProductGroup>DVD</ProductGroup>
+        <ProductTypeName>ABIS_DVD</ProductTypeName>
+        <Publisher>Lions Gate</Publisher>
+        <RegionCode>1</RegionCode>
+        <ReleaseDate>2009-03-03</ReleaseDate>
+        <RunningTime Units="minutes">539</RunningTime>
+        <Studio>Lions Gate</Studio>
+        <Title>Wildfire: Season 3</Title>
+        <UPC>031398105473</UPC>
+      </ItemAttributes>
+      <OfferSummary>
+        <LowestNewPrice>
+          <Amount>2099</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$20.99</FormattedPrice>
+        </LowestNewPrice>
+        <LowestUsedPrice>
+          <Amount>2188</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$21.88</FormattedPrice>
+        </LowestUsedPrice>
+        <TotalNew>30</TotalNew>
+        <TotalUsed>8</TotalUsed>
+        <TotalCollectible>0</TotalCollectible>
+        <TotalRefurbished>0</TotalRefurbished>
+      </OfferSummary>
+      <Offers>
+        <TotalOffers>1</TotalOffers>
+        <TotalOfferPages>1</TotalOfferPages>
+        <Offer>
+          <Merchant>
+            <MerchantId>ATVPDKIKX0DER</MerchantId>
+            <GlancePage>http://www.amazon.com/gp/help/seller/home.html?seller=ATVPDKIKX0DER</GlancePage>
+            <AverageFeedbackRating>0.0</AverageFeedbackRating>
+            <TotalFeedback>0</TotalFeedback>
+          </Merchant>
+          <OfferAttributes>
+            <Condition>New</Condition>
+            <SubCondition>new</SubCondition>
+          </OfferAttributes>
+          <OfferListing>
+            <OfferListingId>31E2orFhEjZW%2FDeGobeMfIIe0ZxgdivXkpkGTE2AwCFrU9gVsVDntOhqExotMINDjSaxiXZauDHvbDsrlICC7w%3D%3D</OfferListingId>
+            <Price>
+              <Amount>2099</Amount>
+              <CurrencyCode>USD</CurrencyCode>
+              <FormattedPrice>$20.99</FormattedPrice>
+            </Price>
+            <AmountSaved>
+              <Amount>899</Amount>
+              <CurrencyCode>USD</CurrencyCode>
+              <FormattedPrice>$8.99</FormattedPrice>
+            </AmountSaved>
+            <PercentageSaved>30</PercentageSaved>
+            <Availability>Usually ships in 24 hours</Availability>
+            <AvailabilityAttributes>
+              <AvailabilityType>now</AvailabilityType>
+              <MinimumHours>0</MinimumHours>
+              <MaximumHours>0</MaximumHours>
+            </AvailabilityAttributes>
+            <Quantity>-1</Quantity>
+            <IsEligibleForSuperSaverShipping>1</IsEligibleForSuperSaverShipping>
+          </OfferListing>
+        </Offer>
+      </Offers>
+    </Item>
+    <Item>
+      <ASIN>B000EAT23C</ASIN>
+      <SalesRank>6638</SalesRank>
+      <ItemAttributes>
+        <Actor>James Van Der Beek</Actor>
+        <Actor>Katie Holmes</Actor>
+        <Actor>Michelle Williams</Actor>
+        <Actor>Joshua Jackson</Actor>
+        <Actor>Kerr Smith</Actor>
+        <AspectRatio>1.33:1</AspectRatio>
+        <AudienceRating>Unrated</AudienceRating>
+        <Binding>DVD</Binding>
+        <Brand>Sony</Brand>
+        <Director>Arlene Sanford</Director>
+        <Director>Bethany Rooney</Director>
+        <Director>David Petrarca</Director>
+        <Director>David Straiton</Director>
+        <Director>Frank Perl</Director>
+        <EAN>0043396129184</EAN>
+        <Format>Box set</Format>
+        <Format>Subtitled</Format>
+        <Format>Color</Format>
+        <Format>Dolby</Format>
+        <ItemDimensions>
+          <Weight Units="hundredths-pounds">95</Weight>
+        </ItemDimensions>
+        <Label>Sony Pictures</Label>
+        <Languages>
           <Language>
-            <Name>Hebrew</Name>
+            <Name>English</Name>
+            <Type>Original Language</Type>
+            <AudioFormat>Dolby Digital 2.0 Surround</AudioFormat>
+          </Language>
+          <Language>
+            <Name>Spanish</Name>
+            <Type>Original Language</Type>
+            <AudioFormat>Dolby Digital 2.0 Surround</AudioFormat>
+          </Language>
+          <Language>
+            <Name>Spanish</Name>
+            <Type>Subtitled</Type>
+          </Language>
+          <Language>
+            <Name>Portuguese</Name>
+            <Type>Subtitled</Type>
+          </Language>
+        </Languages>
+        <ListPrice>
+          <Amount>4995</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$49.95</FormattedPrice>
+        </ListPrice>
+        <Manufacturer>Sony Pictures</Manufacturer>
+        <MPN>COLD12918D</MPN>
+        <NumberOfItems>4</NumberOfItems>
+        <OriginalReleaseDate>1998-01-20</OriginalReleaseDate>
+        <ProductGroup>DVD</ProductGroup>
+        <ProductTypeName>ABIS_DVD</ProductTypeName>
+        <Publisher>Sony Pictures</Publisher>
+        <RegionCode>99</RegionCode>
+        <ReleaseDate>2006-04-04</ReleaseDate>
+        <RunningTime Units="minutes">948</RunningTime>
+        <Studio>Sony Pictures</Studio>
+        <TheatricalReleaseDate>1998-01-20</TheatricalReleaseDate>
+        <Title>Dawson's Creek - The Complete Sixth Season</Title>
+        <UPC>043396129184</UPC>
+      </ItemAttributes>
+      <OfferSummary>
+        <LowestNewPrice>
+          <Amount>2101</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$21.01</FormattedPrice>
+        </LowestNewPrice>
+        <LowestUsedPrice>
+          <Amount>1360</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$13.60</FormattedPrice>
+        </LowestUsedPrice>
+        <LowestCollectiblePrice>
+          <Amount>4995</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$49.95</FormattedPrice>
+        </LowestCollectiblePrice>
+        <TotalNew>55</TotalNew>
+        <TotalUsed>38</TotalUsed>
+        <TotalCollectible>2</TotalCollectible>
+        <TotalRefurbished>0</TotalRefurbished>
+      </OfferSummary>
+      <Offers>
+        <TotalOffers>1</TotalOffers>
+        <TotalOfferPages>1</TotalOfferPages>
+        <Offer>
+          <Merchant>
+            <MerchantId>ATVPDKIKX0DER</MerchantId>
+            <GlancePage>http://www.amazon.com/gp/help/seller/home.html?seller=ATVPDKIKX0DER</GlancePage>
+            <AverageFeedbackRating>0.0</AverageFeedbackRating>
+            <TotalFeedback>0</TotalFeedback>
+          </Merchant>
+          <OfferAttributes>
+            <Condition>New</Condition>
+            <SubCondition>new</SubCondition>
+          </OfferAttributes>
+          <OfferListing>
+            <OfferListingId>mNjtwTLlazfkhv3ClmmgE8PcGQ5I7o0crul8ujNXYXk5JBrBq7JYCnZpwD7wFZnU0oDSbithd8uV3gRSkEd128DqhkKhtuL9</OfferListingId>
+            <Price>
+              <Amount>2999</Amount>
+              <CurrencyCode>USD</CurrencyCode>
+              <FormattedPrice>$29.99</FormattedPrice>
+            </Price>
+            <AmountSaved>
+              <Amount>1996</Amount>
+              <CurrencyCode>USD</CurrencyCode>
+              <FormattedPrice>$19.96</FormattedPrice>
+            </AmountSaved>
+            <PercentageSaved>40</PercentageSaved>
+            <Availability>Usually ships in 24 hours</Availability>
+            <AvailabilityAttributes>
+              <AvailabilityType>now</AvailabilityType>
+              <MinimumHours>0</MinimumHours>
+              <MaximumHours>0</MaximumHours>
+            </AvailabilityAttributes>
+            <Quantity>-1</Quantity>
+            <IsEligibleForSuperSaverShipping>1</IsEligibleForSuperSaverShipping>
+          </OfferListing>
+        </Offer>
+      </Offers>
+    </Item>
+    <Item>
+      <ASIN>B0001DMW9S</ASIN>
+      <SalesRank>4948</SalesRank>
+      <ItemAttributes>
+        <Actor>Christine Lahti</Actor>
+        <Actor>Beau Bridges</Actor>
+        <Actor>Richard Crenna</Actor>
+        <Actor>Bruce Davison</Actor>
+        <Actor>Jonathan Cake</Actor>
+        <AspectRatio>1.33:1</AspectRatio>
+        <AudienceRating>R (Restricted)</AudienceRating>
+        <Binding>DVD</Binding>
+        <Creator Role="Producer">Edward Wessex</Creator>
+        <Creator Role="Producer">Gerald W. Abrams</Creator>
+        <Creator Role="Producer">Lee Levinson</Creator>
+        <Creator Role="Producer">Marianne Moloney</Creator>
+        <Creator Role="Producer">Robert Halmi Jr.</Creator>
+        <Creator Role="Writer">Anne Meredith</Creator>
+        <Creator Role="Writer">Gisella Perl</Creator>
+        <Director>Joseph Sargent</Director>
+        <EAN>9781594470035</EAN>
+        <Format>Closed-captioned</Format>
+        <Format>Color</Format>
+        <Format>DVD-Video</Format>
+        <Format>NTSC</Format>
+        <ISBN>1594470030</ISBN>
+        <Label>Showtime Ent.</Label>
+        <Languages>
+          <Language>
+            <Name>English</Name>
             <Type>Original Language</Type>
           </Language>
         </Languages>
         <ListPrice>
-          <Amount>2995</Amount>
+          <Amount>1498</Amount>
           <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$29.95</FormattedPrice>
+          <FormattedPrice>$14.98</FormattedPrice>
         </ListPrice>
-        <Manufacturer>Sisu Home Ent.</Manufacturer>
+        <Manufacturer>Showtime Ent.</Manufacturer>
+        <MPN>D1108D</MPN>
         <NumberOfItems>1</NumberOfItems>
-        <ProductGroup>Video</ProductGroup>
-        <ProductTypeName>ABIS_VIDEO</ProductTypeName>
-        <Publisher>Sisu Home Ent.</Publisher>
-        <ReleaseDate>2004-06-08</ReleaseDate>
-        <RunningTime Units="minutes">96</RunningTime>
-        <Studio>Sisu Home Ent.</Studio>
-        <Title>Return From India (Sub)</Title>
-        <UPC>737138095034</UPC>
-      </ItemAttributes>
-      <OfferSummary>
-        <TotalNew>0</TotalNew>
-        <TotalUsed>0</TotalUsed>
-        <TotalCollectible>0</TotalCollectible>
-        <TotalRefurbished>0</TotalRefurbished>
-      </OfferSummary>
-      <Offers>
-        <TotalOffers>0</TotalOffers>
-        <TotalOfferPages>0</TotalOfferPages>
-      </Offers>
-    </Item>
-    <Item>
-      <ASIN>B000JLUPEG</ASIN>
-      <DetailPageURL>http://www.amazon.com/gp/redirect.html%3FASIN=B000JLUPEG%26tag=ws%26lcode=xm2%26cID=2025%26ccmID=165953%26location=/o/ASIN/B000JLUPEG%253FSubscriptionId=1VAESZQN1G7SXNRG4882</DetailPageURL>
-      <ItemAttributes>
-        <Binding>Misc.</Binding>
-        <Brand>Forbo</Brand>
-        <Feature>Price per Box</Feature>
-        <Feature>Wholesale Shipped Factory Direct</Feature>
-        <Label>Forbo</Label>
-        <Manufacturer>Forbo</Manufacturer>
-        <MPN>53861</MPN>
-        <ProductGroup>Home Improvement</ProductGroup>
-        <ProductTypeName>TOOLS</ProductTypeName>
-        <Publisher>Forbo</Publisher>
-        <Studio>Forbo</Studio>
-        <Title>Forbo Marmoleum Click Plank Arabian Perl Vinyl Flooring</Title>
+        <OriginalReleaseDate>2003-04-13</OriginalReleaseDate>
+        <ProductGroup>DVD</ProductGroup>
+        <ProductTypeName>ABIS_DVD</ProductTypeName>
+        <Publisher>Showtime Ent.</Publisher>
+        <RegionCode>1</RegionCode>
+        <ReleaseDate>2004-04-20</ReleaseDate>
+        <RunningTime Units="minutes">120</RunningTime>
+        <Studio>Showtime Ent.</Studio>
+        <TheatricalReleaseDate>2003-04-13</TheatricalReleaseDate>
+        <Title>Out of the Ashes</Title>
+        <UPC>758445110821</UPC>
       </ItemAttributes>
       <OfferSummary>
         <LowestNewPrice>
-          <Amount>13056</Amount>
+          <Amount>778</Amount>
           <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$130.56</FormattedPrice>
+          <FormattedPrice>$7.78</FormattedPrice>
         </LowestNewPrice>
-        <TotalNew>1</TotalNew>
-        <TotalUsed>0</TotalUsed>
-        <TotalCollectible>0</TotalCollectible>
-        <TotalRefurbished>0</TotalRefurbished>
-      </OfferSummary>
-      <Offers>
-        <TotalOffers>0</TotalOffers>
-        <TotalOfferPages>0</TotalOfferPages>
-      </Offers>
-    </Item>
-    <Item>
-      <ASIN>B000JM0MUW</ASIN>
-      <DetailPageURL>http://www.amazon.com/gp/redirect.html%3FASIN=B000JM0MUW%26tag=ws%26lcode=xm2%26cID=2025%26ccmID=165953%26location=/o/ASIN/B000JM0MUW%253FSubscriptionId=1VAESZQN1G7SXNRG4882</DetailPageURL>
-      <ItemAttributes>
-        <Binding>Misc.</Binding>
-        <Brand>Forbo</Brand>
-        <Feature>Price per Box</Feature>
-        <Feature>Wholesale Shipped Factory Direct</Feature>
-        <Label>Forbo</Label>
-        <Manufacturer>Forbo</Manufacturer>
-        <MPN>63861</MPN>
-        <ProductGroup>Home Improvement</ProductGroup>
-        <ProductTypeName>TOOLS</ProductTypeName>
-        <Publisher>Forbo</Publisher>
-        <Studio>Forbo</Studio>
-        <Title>Forbo Marmoleum Click Square Arabian Perl Vinyl Flooring</Title>
-      </ItemAttributes>
-      <OfferSummary>
-        <LowestNewPrice>
-          <Amount>5250</Amount>
+        <LowestUsedPrice>
+          <Amount>650</Amount>
           <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$52.50</FormattedPrice>
-        </LowestNewPrice>
-        <TotalNew>1</TotalNew>
-        <TotalUsed>0</TotalUsed>
-        <TotalCollectible>0</TotalCollectible>
-        <TotalRefurbished>0</TotalRefurbished>
-      </OfferSummary>
-      <Offers>
-        <TotalOffers>0</TotalOffers>
-        <TotalOfferPages>0</TotalOfferPages>
-      </Offers>
-    </Item>
-    <Item>
-      <ASIN>B000XVQVS6</ASIN>
-      <DetailPageURL>http://www.amazon.com/gp/redirect.html%3FASIN=B000XVQVS6%26tag=ws%26lcode=xm2%26cID=2025%26ccmID=165953%26location=/o/ASIN/B000XVQVS6%253FSubscriptionId=1VAESZQN1G7SXNRG4882</DetailPageURL>
-      <ItemAttributes>
-        <Binding>Kitchen</Binding>
-        <Brand>Meyda</Brand>
-        <Feature>Color: Murano Spirit/Clear Frost</Feature>
-        <Feature>Art Glass</Feature>
-        <Feature>Semi Flush</Feature>
-        <Label>Meyda Tiffany</Label>
-        <Manufacturer>Meyda Tiffany</Manufacturer>
-        <MPN>65684</MPN>
-        <PackageQuantity>1</PackageQuantity>
-        <ProductGroup>Kitchen</ProductGroup>
-        <ProductTypeName>HOME</ProductTypeName>
-        <Publisher>Meyda Tiffany</Publisher>
-        <Studio>Meyda Tiffany</Studio>
-        <Title>Meyda Tiffany 65684 36 Inch W Inch La Perla Nera Inch Fused Glass Semiflush/Pendant</Title>
-      </ItemAttributes>
-      <OfferSummary>
-        <LowestNewPrice>
-          <Amount>149400</Amount>
-          <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$1,494.00</FormattedPrice>
-        </LowestNewPrice>
-        <TotalNew>1</TotalNew>
-        <TotalUsed>0</TotalUsed>
-        <TotalCollectible>0</TotalCollectible>
-        <TotalRefurbished>0</TotalRefurbished>
-      </OfferSummary>
-      <Offers>
-        <TotalOffers>0</TotalOffers>
-        <TotalOfferPages>0</TotalOfferPages>
-      </Offers>
-    </Item>
-    <Item>
-      <ASIN>B000JDJQQM</ASIN>
-      <DetailPageURL>http://www.amazon.com/gp/redirect.html%3FASIN=B000JDJQQM%26tag=ws%26lcode=xm2%26cID=2025%26ccmID=165953%26location=/o/ASIN/B000JDJQQM%253FSubscriptionId=1VAESZQN1G7SXNRG4882</DetailPageURL>
-      <ItemAttributes>
-        <Address>
-          <Country>united-kingdom-of-great-britain-and-northern-ireland</Country>
-        </Address>
-        <Binding>Misc.</Binding>
-        <Brand>IGOURMET</Brand>
-        <Country>united-kingdom-of-great-britain-and-northern-ireland</Country>
-        <Label>igourmet</Label>
-        <Manufacturer>igourmet</Manufacturer>
-        <ProductGroup>Gourmet</ProductGroup>
-        <ProductTypeName>GOURMET_FOOD</ProductTypeName>
-        <Publisher>igourmet</Publisher>
-        <Size>8 ounce</Size>
-        <Studio>igourmet</Studio>
-        <Title>Perl Las (8 Ounce) by igourmet.com</Title>
-      </ItemAttributes>
-      <OfferSummary>
-        <LowestNewPrice>
-          <Amount>999</Amount>
-          <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$9.99</FormattedPrice>
-        </LowestNewPrice>
-        <TotalNew>1</TotalNew>
-        <TotalUsed>0</TotalUsed>
-        <TotalCollectible>0</TotalCollectible>
-        <TotalRefurbished>0</TotalRefurbished>
-      </OfferSummary>
-      <Offers>
-        <TotalOffers>0</TotalOffers>
-        <TotalOfferPages>0</TotalOfferPages>
-      </Offers>
-    </Item>
-    <Item>
-      <ASIN>B000NY8NXY</ASIN>
-      <DetailPageURL>http://www.amazon.com/gp/redirect.html%3FASIN=B000NY8NXY%26tag=ws%26lcode=xm2%26cID=2025%26ccmID=165953%26location=/o/ASIN/B000NY8NXY%253FSubscriptionId=1VAESZQN1G7SXNRG4882</DetailPageURL>
-      <ItemAttributes>
-        <Binding>Misc.</Binding>
-        <Brand>Haribo</Brand>
-        <ItemDimensions>
-          <Weight Units="hundredths-pounds">50</Weight>
-        </ItemDimensions>
-        <Label>Haribo</Label>
-        <Manufacturer>Haribo</Manufacturer>
-        <ProductGroup>Gourmet</ProductGroup>
-        <ProductTypeName>GOURMET_FOOD</ProductTypeName>
-        <Publisher>Haribo</Publisher>
-        <Studio>Haribo</Studio>
-        <Title>Haribo Perl-Eier Gummi Candy ( 200 g )</Title>
-      </ItemAttributes>
-      <OfferSummary>
-        <TotalNew>0</TotalNew>
-        <TotalUsed>0</TotalUsed>
-        <TotalCollectible>0</TotalCollectible>
-        <TotalRefurbished>0</TotalRefurbished>
-      </OfferSummary>
-      <Offers>
-        <TotalOffers>0</TotalOffers>
-        <TotalOfferPages>0</TotalOfferPages>
-      </Offers>
-    </Item>
-    <Item>
-      <ASIN>B000W79GQA</ASIN>
-      <DetailPageURL>http://www.amazon.com/gp/redirect.html%3FASIN=B000W79GQA%26tag=ws%26lcode=xm2%26cID=2025%26ccmID=165953%26location=/o/ASIN/B000W79GQA%253FSubscriptionId=1VAESZQN1G7SXNRG4882</DetailPageURL>
-      <SalesRank>14</SalesRank>
-      <ItemAttributes>
-        <Binding>Wireless Phone</Binding>
-        <Brand>BlackBerry</Brand>
-        <Color>Silver</Color>
-        <Feature>Smallest, lightest BlackBerry with full QWERTY keyboard--weighs just 3.9 ounces</Feature>
-        <Feature>Wi-Fi connectivity for Web browsing and access to T-Mobile's Hotspot @Home unlimited calling service</Feature>
-        <Feature>2.0 megapixel camera with flash and 5x digital zoom; Bluetooth wireless connectivity with with stereo headset support</Feature>
-        <Feature>Next-generation media player with audio and video playback in a variety of formats; expandable via MicroSD memory cards</Feature>
-        <Feature>Includes: Battery, Charger, Stereo Hands-free Headset, USB Cable, Carrying Case and BlackBerry Desktop Software</Feature>
-        <ItemDimensions>
-          <Height Units="inches">0.6</Height>
-          <Length Units="inches">4.2</Length>
-          <Weight Units="grams">111</Weight>
-          <Width Units="inches">2.4</Width>
-        </ItemDimensions>
-        <Label>T-Mobile</Label>
-        <ListPrice>
-          <Amount>34999</Amount>
-          <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$349.99</FormattedPrice>
-        </ListPrice>
-        <Manufacturer>T-Mobile</Manufacturer>
-        <Model>8320 Curve</Model>
-        <ProductGroup>Wireless</ProductGroup>
-        <ProductTypeName>ABIS_WIRELESS</ProductTypeName>
-        <Publisher>T-Mobile</Publisher>
-        <ReleaseDate>2007-09-24</ReleaseDate>
-        <Studio>T-Mobile</Studio>
-        <Title>BlackBerry 8320 Curve Titanium myFaves Phone (T-Mobile)</Title>
-        <UPC>610214614957</UPC>
-        <VariationDescription>Silver</VariationDescription>
-      </ItemAttributes>
-      <OfferSummary>
-        <LowestNewPrice>
-          <FormattedPrice>Too low to display</FormattedPrice>
-        </LowestNewPrice>
-        <TotalNew>1</TotalNew>
-        <TotalUsed>0</TotalUsed>
+          <FormattedPrice>$6.50</FormattedPrice>
+        </LowestUsedPrice>
+        <TotalNew>32</TotalNew>
+        <TotalUsed>19</TotalUsed>
         <TotalCollectible>0</TotalCollectible>
         <TotalRefurbished>0</TotalRefurbished>
       </OfferSummary>
@@ -923,117 +976,173 @@
             <SubCondition>new</SubCondition>
           </OfferAttributes>
           <OfferListing>
-            <OfferListingId>rghrOgH3HHw%2BE4YyzJrFTHLjyQ5clzbtXRXtDxdXFMdhoMDEnYwzd%2FTNScFHoZMEwL8%2BfE2pJ5EZJpgikF5%2BNg%3D%3D</OfferListingId>
+            <OfferListingId>cZo0hX4ZohW%2Blhw0kvmbfrOM%2BPyDoScKJPCBdgVSUeSSbKfzoYoXGVNg359TyxDHQxetTaQONRLKI2wVAWZXdQ%3D%3D</OfferListingId>
             <Price>
-              <FormattedPrice>Too low to display</FormattedPrice>
-            </Price>
-            <Availability>Usually ships in 24 hours</Availability>
-            <AvailabilityAttributes>
-              <AvailabilityType>now</AvailabilityType>
-              <MinimumHours>0</MinimumHours>
-              <MaximumHours>0</MaximumHours>
-            </AvailabilityAttributes>
-            <Quantity>-1</Quantity>
-            <IsEligibleForSuperSaverShipping>1</IsEligibleForSuperSaverShipping>
-          </OfferListing>
-        </Offer>
-      </Offers>
-      <Accessories>
-        <Accessory>
-          <ASIN>B000B6DKIC</ASIN>
-          <Title>Monster Mobile Ultra-Low Profile Vehicle Charger for BlackBerry Pearl, Curve and 8800 and Motorola RAZR, KRZR, RIZR, SLVR and Q</Title>
-        </Accessory>
-        <Accessory>
-          <ASIN>B000BK4WZ8</ASIN>
-          <Title>RIM Vehicle Power Charger for Blackberry 8830, 7130, 8703, and 7250</Title>
-        </Accessory>
-        <Accessory>
-          <ASIN>B000BMBPQK</ASIN>
-          <Title>Standard Travel Charger for Blackberry 6210, 6230, 6510, 7510, 7280, 7230</Title>
-        </Accessory>
-        <Accessory>
-          <ASIN>B000BYGGEY</ASIN>
-          <Title>PDA Blackberry, Bluetooth Keyboard</Title>
-        </Accessory>
-        <Accessory>
-          <ASIN>B000DLAMPO</ASIN>
-          <Title>Jabra JX-10 Bluetooth Headset, Silver</Title>
-        </Accessory>
-      </Accessories>
-    </Item>
-    <Item>
-      <ASIN>B000ID10JE</ASIN>
-      <DetailPageURL>http://www.amazon.com/gp/redirect.html%3FASIN=B000ID10JE%26tag=ws%26lcode=xm2%26cID=2025%26ccmID=165953%26location=/o/ASIN/B000ID10JE%253FSubscriptionId=1VAESZQN1G7SXNRG4882</DetailPageURL>
-      <SalesRank>82</SalesRank>
-      <ItemAttributes>
-        <Binding>Wireless Phone</Binding>
-        <Brand>BlackBerry</Brand>
-        <Color>Black</Color>
-        <Feature>1.3 mega pixel camera to capture those special moments</Feature>
-        <Feature>MP3 player lets you listen to your favorite music on the go</Feature>
-        <Feature>Menu and escape keys on the front of the device for easier access</Feature>
-        <Feature>Bluetooth technology lets you experience hands free and wire free features</Feature>
-        <Feature>Package Contents: phone,AC adapter,software CD,headset,USB cable,sim- card,get started poster,reference guide</Feature>
-        <ItemDimensions>
-          <Height Units="inches">0.6</Height>
-          <Length Units="inches">4.2</Length>
-          <Weight Units="grams">88.25</Weight>
-          <Width Units="inches">2</Width>
-        </ItemDimensions>
-        <Label>T-Mobile</Label>
-        <ListPrice>
-          <Amount>34999</Amount>
-          <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$349.99</FormattedPrice>
-        </ListPrice>
-        <Manufacturer>T-Mobile</Manufacturer>
-        <Model>8100</Model>
-        <ProductGroup>Wireless</ProductGroup>
-        <ProductTypeName>ABIS_WIRELESS</ProductTypeName>
-        <Publisher>T-Mobile</Publisher>
-        <Studio>T-Mobile</Studio>
-        <Title>BlackBerry 8100 Pearl myFaves Phone (T-Mobile)</Title>
-        <UPC>610214613370</UPC>
-        <VariationDescription>Black</VariationDescription>
-      </ItemAttributes>
-      <OfferSummary>
-        <LowestNewPrice>
-          <Amount>1</Amount>
-          <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$0.01</FormattedPrice>
-        </LowestNewPrice>
-        <TotalNew>1</TotalNew>
-        <TotalUsed>0</TotalUsed>
-        <TotalCollectible>0</TotalCollectible>
-        <TotalRefurbished>0</TotalRefurbished>
-      </OfferSummary>
-      <Offers>
-        <TotalOffers>1</TotalOffers>
-        <TotalOfferPages>1</TotalOfferPages>
-        <Offer>
-          <Merchant>
-            <MerchantId>ATVPDKIKX0DER</MerchantId>
-            <GlancePage>http://www.amazon.com/gp/help/seller/home.html?seller=ATVPDKIKX0DER</GlancePage>
-            <AverageFeedbackRating>0.0</AverageFeedbackRating>
-            <TotalFeedback>0</TotalFeedback>
-          </Merchant>
-          <OfferAttributes>
-            <Condition>New</Condition>
-            <SubCondition>new</SubCondition>
-          </OfferAttributes>
-          <OfferListing>
-            <OfferListingId>sh8e4HqbJm6kjBP313XtRptIEcySC0oKP%2FFCxJgKIIuwZojhzAv%2FxEXhOg5dO4QwHIg0DbnK0jp1IX4ffJlOUA%3D%3D</OfferListingId>
-            <Price>
-              <Amount>1</Amount>
+              <Amount>1299</Amount>
               <CurrencyCode>USD</CurrencyCode>
-              <FormattedPrice>$0.01</FormattedPrice>
+              <FormattedPrice>$12.99</FormattedPrice>
             </Price>
             <AmountSaved>
-              <Amount>34998</Amount>
+              <Amount>199</Amount>
               <CurrencyCode>USD</CurrencyCode>
-              <FormattedPrice>$349.98</FormattedPrice>
+              <FormattedPrice>$1.99</FormattedPrice>
             </AmountSaved>
-            <PercentageSaved>100</PercentageSaved>
+            <PercentageSaved>13</PercentageSaved>
+            <Availability>Usually ships in 24 hours</Availability>
+            <AvailabilityAttributes>
+              <AvailabilityType>now</AvailabilityType>
+              <MinimumHours>0</MinimumHours>
+              <MaximumHours>0</MaximumHours>
+            </AvailabilityAttributes>
+            <Quantity>-1</Quantity>
+            <IsEligibleForSuperSaverShipping>1</IsEligibleForSuperSaverShipping>
+          </OfferListing>
+        </Offer>
+      </Offers>
+    </Item>
+    <Item>
+      <ASIN>B001M1A5EC</ASIN>
+      <SalesRank>117412</SalesRank>
+      <ItemAttributes>
+        <Binding>Toy</Binding>
+        <Brand>Bakugan</Brand>
+        <EAN>0778988798096</EAN>
+        <Feature>Bakugan Starter Pearl Series</Feature>
+        <Feature>Bakugan B2 Assorted Starter Pack</Feature>
+        <Feature>Bigger Brawlers</Feature>
+        <Feature>More Powerful</Feature>
+        <ItemDimensions>
+          <Weight Units="hundredths-pounds">100</Weight>
+        </ItemDimensions>
+        <Label>Spinmaster</Label>
+        <Manufacturer>Spinmaster</Manufacturer>
+        <Model>B2</Model>
+        <MPN>20016600-10</MPN>
+        <PackageQuantity>12</PackageQuantity>
+        <ProductGroup>Toy</ProductGroup>
+        <ProductTypeName>TOYS_AND_GAMES</ProductTypeName>
+        <Publisher>Spinmaster</Publisher>
+        <Studio>Spinmaster</Studio>
+        <Title>Bakugan Starter B2 Assorted Pack of 3</Title>
+        <UPC>778988798096</UPC>
+      </ItemAttributes>
+      <OfferSummary>
+        <LowestNewPrice>
+          <Amount>3295</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$32.95</FormattedPrice>
+        </LowestNewPrice>
+        <TotalNew>2</TotalNew>
+        <TotalUsed>0</TotalUsed>
+        <TotalCollectible>0</TotalCollectible>
+        <TotalRefurbished>0</TotalRefurbished>
+      </OfferSummary>
+      <Offers>
+        <TotalOffers>0</TotalOffers>
+        <TotalOfferPages>0</TotalOfferPages>
+      </Offers>
+    </Item>
+    <Item>
+      <ASIN>B001EREU90</ASIN>
+      <SalesRank>176502</SalesRank>
+      <ItemAttributes>
+        <Binding>Toy</Binding>
+        <Brand>GREAT FORTUNE</Brand>
+        <EAN>0000012109722</EAN>
+        <Label>GREAT FORTUNE</Label>
+        <Manufacturer>GREAT FORTUNE</Manufacturer>
+        <MPN>PS-7360A</MPN>
+        <ProductGroup>Toy</ProductGroup>
+        <ProductTypeName>TOYS_AND_GAMES</ProductTypeName>
+        <Publisher>GREAT FORTUNE</Publisher>
+        <Studio>GREAT FORTUNE</Studio>
+        <Title>girls play jewerly with perls and diamonds</Title>
+        <UPC>000012109722</UPC>
+      </ItemAttributes>
+      <OfferSummary>
+        <LowestNewPrice>
+          <Amount>694</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$6.94</FormattedPrice>
+        </LowestNewPrice>
+        <TotalNew>1</TotalNew>
+        <TotalUsed>0</TotalUsed>
+        <TotalCollectible>0</TotalCollectible>
+        <TotalRefurbished>0</TotalRefurbished>
+      </OfferSummary>
+      <Offers>
+        <TotalOffers>0</TotalOffers>
+        <TotalOfferPages>0</TotalOfferPages>
+      </Offers>
+    </Item>
+    <Item>
+      <ASIN>B00007BHYR</ASIN>
+      <SalesRank>40883</SalesRank>
+      <ItemAttributes>
+        <Binding>Tools &amp; Hardware</Binding>
+        <Brand>Pearl Abrasive</Brand>
+        <EAN>0662333050185</EAN>
+        <Feature>Install in seconds</Feature>
+        <Feature>For use on metal, concrete, marble, and much more</Feature>
+        <Feature>Increases the versatility and cutting control of your grinder</Feature>
+        <Feature>Adlustable depth of cut</Feature>
+        <Feature>Fits Makita 4" &amp; 4-1/2" grinders</Feature>
+        <ItemDimensions>
+          <Weight Units="pounds">2.80</Weight>
+        </ItemDimensions>
+        <Label>Pearl Abrasive Company</Label>
+        <ListPrice>
+          <Amount>4698</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$46.98</FormattedPrice>
+        </ListPrice>
+        <Manufacturer>Pearl Abrasive Company</Manufacturer>
+        <Model>BR45001</Model>
+        <ProductGroup>Home Improvement</ProductGroup>
+        <ProductTypeName>ABIS_HOME_IMPROVEMENT</ProductTypeName>
+        <Publisher>Pearl Abrasive Company</Publisher>
+        <Studio>Pearl Abrasive Company</Studio>
+        <Title>Pearl Abrasive Co BR45001 Mini-Me Blade Roller for Angle Grinder</Title>
+        <UPC>662333050185</UPC>
+      </ItemAttributes>
+      <OfferSummary>
+        <LowestNewPrice>
+          <Amount>3979</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$39.79</FormattedPrice>
+        </LowestNewPrice>
+        <TotalNew>1</TotalNew>
+        <TotalUsed>0</TotalUsed>
+        <TotalCollectible>0</TotalCollectible>
+        <TotalRefurbished>0</TotalRefurbished>
+      </OfferSummary>
+      <Offers>
+        <TotalOffers>1</TotalOffers>
+        <TotalOfferPages>1</TotalOfferPages>
+        <Offer>
+          <Merchant>
+            <MerchantId>ATVPDKIKX0DER</MerchantId>
+            <GlancePage>http://www.amazon.com/gp/help/seller/home.html?seller=ATVPDKIKX0DER</GlancePage>
+            <AverageFeedbackRating>0.0</AverageFeedbackRating>
+            <TotalFeedback>0</TotalFeedback>
+          </Merchant>
+          <OfferAttributes>
+            <Condition>New</Condition>
+            <SubCondition>new</SubCondition>
+          </OfferAttributes>
+          <OfferListing>
+            <OfferListingId>DsoLkTkBpGpnvD29IBAmak9w3S%2BUXuKiOLl%2BHNP1334ZWTm5NpOsMWYFBQWIzwVCEXLwWL7TTyybuGEpJhk7bg%3D%3D</OfferListingId>
+            <Price>
+              <Amount>3979</Amount>
+              <CurrencyCode>USD</CurrencyCode>
+              <FormattedPrice>$39.79</FormattedPrice>
+            </Price>
+            <AmountSaved>
+              <Amount>719</Amount>
+              <CurrencyCode>USD</CurrencyCode>
+              <FormattedPrice>$7.19</FormattedPrice>
+            </AmountSaved>
+            <PercentageSaved>15</PercentageSaved>
             <Availability>Usually ships in 24 hours</Availability>
             <AvailabilityAttributes>
               <AvailabilityType>now</AvailabilityType>
@@ -1047,68 +1156,248 @@
       </Offers>
       <Accessories>
         <Accessory>
-          <ASIN>B0000AHZXK</ASIN>
-          <Title>Body Glove Earglove Sport - 2.5mm Ear bud</Title>
+          <ASIN>B000ILXPTO</ASIN>
+          <Title>This Old House</Title>
         </Accessory>
         <Accessory>
-          <ASIN>B0002G87WU</ASIN>
-          <Title>BlackBerry International Travel Charger, Black</Title>
-        </Accessory>
-        <Accessory>
-          <ASIN>B0002OBGBG</ASIN>
-          <Title>BlackBerry 6200/7100/7200 Series USB Cable</Title>
-        </Accessory>
-        <Accessory>
-          <ASIN>B0002OTJYC</ASIN>
-          <Title>BlackBerry 6200/7200 Series Headset</Title>
-        </Accessory>
-        <Accessory>
-          <ASIN>B00030AT4O</ASIN>
-          <Title>Plantronics MX300 White/Black Retractable Mobile Headset for most phones with standard 2.5mm headset jack - Audiovox, Blackberry, Kyocera, LG, Samsung, Sanyo, Tr?o</Title>
+          <ASIN>156158620X</ASIN>
+          <Title>Woodworking Basics: Mastering the Essentials of Craftsmanship</Title>
         </Accessory>
       </Accessories>
     </Item>
     <Item>
-      <ASIN>B000MUP62A</ASIN>
-      <DetailPageURL>http://www.amazon.com/gp/redirect.html%3FASIN=B000MUP62A%26tag=ws%26lcode=xm2%26cID=2025%26ccmID=165953%26location=/o/ASIN/B000MUP62A%253FSubscriptionId=1VAESZQN1G7SXNRG4882</DetailPageURL>
-      <SalesRank>78</SalesRank>
+      <ASIN>B00007BHYP</ASIN>
+      <SalesRank>65910</SalesRank>
       <ItemAttributes>
-        <Binding>Wireless Phone</Binding>
-        <Brand>BlackBerry</Brand>
-        <Color>White</Color>
-        <Feature>1.3 mega pixel camera to capture those special moments</Feature>
-        <Feature>MP3 player lets you listen to your favorite music on the go</Feature>
-        <Feature>Menu and escape keys on the front of the device for easier access</Feature>
-        <Feature>Bluetooth technology lets you experience hands free and wire free features</Feature>
-        <Feature>Includes: Battery, AC Adapter, USB Cable, Stereo Hands-free Headset and BlackBerry Desktop Software</Feature>
+        <Binding>Tools &amp; Hardware</Binding>
+        <Brand>Pearl Abrasive</Brand>
+        <EAN>0662333053872</EAN>
+        <Feature>No tools required</Feature>
+        <Feature>For use on wood, concrete, marble, and much more</Feature>
+        <Feature>Dramatically increases cutting speed and control</Feature>
+        <Feature>Greater versatility and efficiency</Feature>
+        <Feature>Fits most popular direct drive circular saws</Feature>
         <ItemDimensions>
-          <Height Units="inches">0.6</Height>
-          <Length Units="inches">4.2</Length>
-          <Weight Units="grams">88.25</Weight>
-          <Width Units="inches">2</Width>
+          <Weight Units="pounds">2.80</Weight>
         </ItemDimensions>
-        <Label>T-Mobile</Label>
+        <Label>Pearl Abrasive Company</Label>
         <ListPrice>
-          <Amount>34999</Amount>
+          <Amount>6600</Amount>
           <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$349.99</FormattedPrice>
+          <FormattedPrice>$66.00</FormattedPrice>
         </ListPrice>
-        <Manufacturer>T-Mobile</Manufacturer>
-        <Model>8100</Model>
-        <ProductGroup>Wireless</ProductGroup>
-        <ProductTypeName>ABIS_WIRELESS</ProductTypeName>
-        <Publisher>T-Mobile</Publisher>
-        <ReleaseDate>2007-01-21</ReleaseDate>
-        <Studio>T-Mobile</Studio>
-        <Title>BlackBerry 8100 White Pearl myFaves Phone (T-Mobile)</Title>
-        <UPC>610214614032</UPC>
-        <VariationDescription>White</VariationDescription>
+        <Manufacturer>Pearl Abrasive Company</Manufacturer>
+        <Model>BR7001C</Model>
+        <ProductGroup>Home Improvement</ProductGroup>
+        <ProductTypeName>ABIS_HOME_IMPROVEMENT</ProductTypeName>
+        <Publisher>Pearl Abrasive Company</Publisher>
+        <Studio>Pearl Abrasive Company</Studio>
+        <Title>Pearl Abrasive Company BR7001C Blade Roller Sidewinder for Most Circular Saws</Title>
+        <UPC>662333053872</UPC>
       </ItemAttributes>
       <OfferSummary>
         <LowestNewPrice>
-          <Amount>1</Amount>
+          <Amount>6600</Amount>
           <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$0.01</FormattedPrice>
+          <FormattedPrice>$66.00</FormattedPrice>
+        </LowestNewPrice>
+        <TotalNew>2</TotalNew>
+        <TotalUsed>0</TotalUsed>
+        <TotalCollectible>0</TotalCollectible>
+        <TotalRefurbished>0</TotalRefurbished>
+      </OfferSummary>
+      <Offers>
+        <TotalOffers>1</TotalOffers>
+        <TotalOfferPages>1</TotalOfferPages>
+        <Offer>
+          <Merchant>
+            <MerchantId>ATVPDKIKX0DER</MerchantId>
+            <GlancePage>http://www.amazon.com/gp/help/seller/home.html?seller=ATVPDKIKX0DER</GlancePage>
+            <AverageFeedbackRating>0.0</AverageFeedbackRating>
+            <TotalFeedback>0</TotalFeedback>
+          </Merchant>
+          <OfferAttributes>
+            <Condition>New</Condition>
+            <SubCondition>new</SubCondition>
+          </OfferAttributes>
+          <OfferListing>
+            <OfferListingId>73%2BkB0txsyAxu8WDTCQXBYnRwz5%2FaxQnb1%2FZtlB4ai4P%2BtoGdBlo%2BSFd1ZRaj5mhVC0HoGeef2T0KXdZ5UjAOA%3D%3D</OfferListingId>
+            <Price>
+              <Amount>6600</Amount>
+              <CurrencyCode>USD</CurrencyCode>
+              <FormattedPrice>$66.00</FormattedPrice>
+            </Price>
+            <Availability>Temporarily out of stock. Order now and we'll deliver when available. We'll e-mail you with an estimated delivery date as soon as we have more information. Your credit card will not be charged until we ship the item.</Availability>
+            <AvailabilityAttributes>
+              <AvailabilityType>unknown</AvailabilityType>
+              <MinimumHours>672</MinimumHours>
+              <MaximumHours>1008</MaximumHours>
+            </AvailabilityAttributes>
+            <IsEligibleForSuperSaverShipping>1</IsEligibleForSuperSaverShipping>
+          </OfferListing>
+        </Offer>
+      </Offers>
+      <Accessories>
+        <Accessory>
+          <ASIN>B000ILXPTO</ASIN>
+          <Title>This Old House</Title>
+        </Accessory>
+        <Accessory>
+          <ASIN>1561587923</ASIN>
+          <Title>Creating a New Old House: Yesterday's Character for Today's Home (American Institute Architects)</Title>
+        </Accessory>
+      </Accessories>
+    </Item>
+    <Item>
+      <ASIN>B00006ANSF</ASIN>
+      <SalesRank>56132</SalesRank>
+      <ItemAttributes>
+        <Binding>Tools &amp; Hardware</Binding>
+        <Brand>Granite City Tool</Brand>
+        <EAN>0662333041435</EAN>
+        <Feature>Easily attachable rolling platform for your worm-drive saw</Feature>
+        <Feature>Make smooth-edged cuts in concrete, granite, marble, wood, and stucco</Feature>
+        <Feature>Eliminate drag, makes guiding saw extremely easy</Feature>
+        <Feature>Attaches to saw in just seconds without the use of any tools</Feature>
+        <Feature>Smooth running wheels eliminate marring of smooth surfaces</Feature>
+        <ItemDimensions>
+          <Weight Units="pounds">2.60</Weight>
+        </ItemDimensions>
+        <Label>Granite City Tool</Label>
+        <ListPrice>
+          <Amount>12160</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$121.60</FormattedPrice>
+        </ListPrice>
+        <Manufacturer>Granite City Tool</Manufacturer>
+        <Model>BR70001</Model>
+        <ProductGroup>Home Improvement</ProductGroup>
+        <ProductTypeName>ABIS_HOME_IMPROVEMENT</ProductTypeName>
+        <Publisher>Granite City Tool</Publisher>
+        <Studio>Granite City Tool</Studio>
+        <Title>Pearl Abrasive Company BR70001 7-Inch Saw Blade Roller for Worm Drive Saws</Title>
+        <UPC>662333041435</UPC>
+      </ItemAttributes>
+      <OfferSummary>
+        <LowestNewPrice>
+          <Amount>6999</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$69.99</FormattedPrice>
+        </LowestNewPrice>
+        <TotalNew>2</TotalNew>
+        <TotalUsed>0</TotalUsed>
+        <TotalCollectible>0</TotalCollectible>
+        <TotalRefurbished>0</TotalRefurbished>
+      </OfferSummary>
+      <Offers>
+        <TotalOffers>1</TotalOffers>
+        <TotalOfferPages>1</TotalOfferPages>
+        <Offer>
+          <Merchant>
+            <MerchantId>ATVPDKIKX0DER</MerchantId>
+            <GlancePage>http://www.amazon.com/gp/help/seller/home.html?seller=ATVPDKIKX0DER</GlancePage>
+            <AverageFeedbackRating>0.0</AverageFeedbackRating>
+            <TotalFeedback>0</TotalFeedback>
+          </Merchant>
+          <OfferAttributes>
+            <Condition>New</Condition>
+            <SubCondition>new</SubCondition>
+          </OfferAttributes>
+          <OfferListing>
+            <OfferListingId>H6i3dIZBiwMZmgI%2FXp9PkxXqwUP6o60Y2DUo%2F7u608JuM%2BoIf7VgF5D0p4yz7JPpTQG34FCq6NH7tAFKkad4Pg%3D%3D</OfferListingId>
+            <Price>
+              <Amount>7386</Amount>
+              <CurrencyCode>USD</CurrencyCode>
+              <FormattedPrice>$73.86</FormattedPrice>
+            </Price>
+            <AmountSaved>
+              <Amount>4774</Amount>
+              <CurrencyCode>USD</CurrencyCode>
+              <FormattedPrice>$47.74</FormattedPrice>
+            </AmountSaved>
+            <PercentageSaved>39</PercentageSaved>
+            <Availability>Usually ships in 1 to 2 days</Availability>
+            <AvailabilityAttributes>
+              <AvailabilityType>now</AvailabilityType>
+              <MinimumHours>24</MinimumHours>
+              <MaximumHours>48</MaximumHours>
+            </AvailabilityAttributes>
+            <Quantity>-1</Quantity>
+            <IsEligibleForSuperSaverShipping>1</IsEligibleForSuperSaverShipping>
+          </OfferListing>
+        </Offer>
+      </Offers>
+      <Accessories>
+        <Accessory>
+          <ASIN>B00004Y2LX</ASIN>
+          <Title>MK Diamond 154250 7-Inch Dry Cutting Segmented Saw Blade with 5/8-Inch Arbor for Masonry</Title>
+        </Accessory>
+        <Accessory>
+          <ASIN>B0000224X3</ASIN>
+          <Title>DeWalt DW4702 Industrial 7-Inch Dry or Wet Cutting Continuous Rim Diamond Saw Blade with 5/8-Inch and Diamond Knockout Arbor</Title>
+        </Accessory>
+        <Accessory>
+          <ASIN>B0000224X4</ASIN>
+          <Title>DeWalt DW4703 Industrial 8-Inch Dry or Wet Cutting Continuous Rim Diamond Saw Blade with 5/8-Inch and Diamond Knockout Arbor</Title>
+        </Accessory>
+        <Accessory>
+          <ASIN>B0000224X8</ASIN>
+          <Title>DeWalt DW4714 Industrial 7-Inch Dry Cutting Segmented Diamond Saw Blade woth 5/8-Inch or 7/8-Inch Arbor</Title>
+        </Accessory>
+        <Accessory>
+          <ASIN>B000ILXPTO</ASIN>
+          <Title>This Old House</Title>
+        </Accessory>
+      </Accessories>
+    </Item>
+    <Item>
+      <ASIN>B000O1D1W4</ASIN>
+      <ItemAttributes>
+        <Binding>Health and Beauty</Binding>
+        <Label>Framesi</Label>
+        <Manufacturer>Framesi</Manufacturer>
+        <ProductGroup>Health and Beauty</ProductGroup>
+        <ProductTypeName>HEALTH_PERSONAL_CARE</ProductTypeName>
+        <Publisher>Framesi</Publisher>
+        <Studio>Framesi</Studio>
+        <Title>Framesi - FramColor Futura Hair Coloring Cream 2 oz.</Title>
+      </ItemAttributes>
+      <OfferSummary>
+        <TotalNew>0</TotalNew>
+        <TotalUsed>0</TotalUsed>
+        <TotalCollectible>0</TotalCollectible>
+        <TotalRefurbished>0</TotalRefurbished>
+      </OfferSummary>
+      <Offers>
+        <TotalOffers>0</TotalOffers>
+        <TotalOfferPages>0</TotalOfferPages>
+      </Offers>
+    </Item>
+    <Item>
+      <ASIN>B001STLRJK</ASIN>
+      <SalesRank>194789</SalesRank>
+      <ItemAttributes>
+        <Binding>Health and Beauty</Binding>
+        <EAN>0637293186557</EAN>
+        <Feature>The original, classic Warm Vanilla Sugar, an addictively comforting scent where indulgence meets pure seduction</Feature>
+        <Feature>Fragrance Notes: Sheer Florals, Vanilla Absolute, Basmati Rice, Coconut,  Heliotrope, Musk, Veltol, Sandalwood</Feature>
+        <Feature>Pealrs are contained in large, elegant glass bottle</Feature>
+        <Feature>Fragrances bathwater and adds a sexy shimmer and a touch of moisture for an indulgent experience</Feature>
+        <Feature>Limited edtion item no longer carried in stores</Feature>
+        <Label>Bath &amp; Body Works</Label>
+        <Manufacturer>Bath &amp; Body Works</Manufacturer>
+        <ProductGroup>Health and Beauty</ProductGroup>
+        <ProductTypeName>HEALTH_PERSONAL_CARE</ProductTypeName>
+        <Publisher>Bath &amp; Body Works</Publisher>
+        <Studio>Bath &amp; Body Works</Studio>
+        <Title>Bath &amp; Body Works® Signature Collection Limited Edition Luminous Bath Pearls ~ Warm Vanilla Sugar ~ 6.3 oz.</Title>
+        <UPC>637293186557</UPC>
+      </ItemAttributes>
+      <OfferSummary>
+        <LowestNewPrice>
+          <Amount>1499</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$14.99</FormattedPrice>
         </LowestNewPrice>
         <TotalNew>3</TotalNew>
         <TotalUsed>0</TotalUsed>
@@ -1116,71 +1405,15 @@
         <TotalRefurbished>0</TotalRefurbished>
       </OfferSummary>
       <Offers>
-        <TotalOffers>1</TotalOffers>
-        <TotalOfferPages>1</TotalOfferPages>
-        <Offer>
-          <Merchant>
-            <MerchantId>ATVPDKIKX0DER</MerchantId>
-            <GlancePage>http://www.amazon.com/gp/help/seller/home.html?seller=ATVPDKIKX0DER</GlancePage>
-            <AverageFeedbackRating>0.0</AverageFeedbackRating>
-            <TotalFeedback>0</TotalFeedback>
-          </Merchant>
-          <OfferAttributes>
-            <Condition>New</Condition>
-            <SubCondition>new</SubCondition>
-          </OfferAttributes>
-          <OfferListing>
-            <OfferListingId>wA2sdX2wtJrZKCn6WXn%2FUFY8q8FXsHdiz3nH3YghrupBMym5hDCcWCQ%2FvYSn3kdJKzx71t4bEwD3z%2Fz%2BKjo8eg%3D%3D</OfferListingId>
-            <Price>
-              <Amount>1</Amount>
-              <CurrencyCode>USD</CurrencyCode>
-              <FormattedPrice>$0.01</FormattedPrice>
-            </Price>
-            <AmountSaved>
-              <Amount>34998</Amount>
-              <CurrencyCode>USD</CurrencyCode>
-              <FormattedPrice>$349.98</FormattedPrice>
-            </AmountSaved>
-            <PercentageSaved>100</PercentageSaved>
-            <Availability>Usually ships in 24 hours</Availability>
-            <AvailabilityAttributes>
-              <AvailabilityType>now</AvailabilityType>
-              <MinimumHours>0</MinimumHours>
-              <MaximumHours>0</MaximumHours>
-            </AvailabilityAttributes>
-            <Quantity>-1</Quantity>
-            <IsEligibleForSuperSaverShipping>1</IsEligibleForSuperSaverShipping>
-          </OfferListing>
-        </Offer>
+        <TotalOffers>0</TotalOffers>
+        <TotalOfferPages>0</TotalOfferPages>
       </Offers>
-      <Accessories>
-        <Accessory>
-          <ASIN>B0000AHZXK</ASIN>
-          <Title>Body Glove Earglove Sport - 2.5mm Ear bud</Title>
-        </Accessory>
-        <Accessory>
-          <ASIN>B0002G87WU</ASIN>
-          <Title>BlackBerry International Travel Charger, Black</Title>
-        </Accessory>
-        <Accessory>
-          <ASIN>B0002OBGBG</ASIN>
-          <Title>BlackBerry 6200/7100/7200 Series USB Cable</Title>
-        </Accessory>
-        <Accessory>
-          <ASIN>B0002OTJYC</ASIN>
-          <Title>BlackBerry 6200/7200 Series Headset</Title>
-        </Accessory>
-        <Accessory>
-          <ASIN>B00030AT4O</ASIN>
-          <Title>Plantronics MX300 White/Black Retractable Mobile Headset for most phones with standard 2.5mm headset jack - Audiovox, Blackberry, Kyocera, LG, Samsung, Sanyo, Tr?o</Title>
-        </Accessory>
-      </Accessories>
     </Item>
     <Item>
       <ASIN>B00070FXD2</ASIN>
-      <DetailPageURL>http://www.amazon.com/gp/redirect.html%3FASIN=B00070FXD2%26tag=ws%26lcode=xm2%26cID=2025%26ccmID=165953%26location=/o/ASIN/B00070FXD2%253FSubscriptionId=1VAESZQN1G7SXNRG4882</DetailPageURL>
-      <SalesRank>435942</SalesRank>
+      <SalesRank>584558</SalesRank>
       <ItemAttributes>
+        <Binding>Health and Beauty</Binding>
         <Feature>Alchemical Elixir in Homeopathic Potency 1X</Feature>
         <Feature>Size 1/4 oz or 7.5mL, approx. 300 drops or 2-3 months supply</Feature>
         <Feature>Liquid homeopathic medicine, 25% alcohol per volume</Feature>
@@ -1211,53 +1444,36 @@
       </Offers>
     </Item>
     <Item>
-      <ASIN>B000O1D1W4</ASIN>
-      <DetailPageURL>http://www.amazon.com/gp/redirect.html%3FASIN=B000O1D1W4%26tag=ws%26lcode=xm2%26cID=2025%26ccmID=165953%26location=/o/ASIN/B000O1D1W4%253FSubscriptionId=1VAESZQN1G7SXNRG4882</DetailPageURL>
+      <ASIN>B000SABXJO</ASIN>
       <ItemAttributes>
-        <Binding>Health and Beauty</Binding>
-        <Label>Framesi</Label>
-        <Manufacturer>Framesi</Manufacturer>
-        <ProductGroup>Health and Beauty</ProductGroup>
-        <ProductTypeName>HEALTH_PERSONAL_CARE</ProductTypeName>
-        <Publisher>Framesi</Publisher>
-        <Studio>Framesi</Studio>
-        <Title>Framesi - FramColor Futura Hair Coloring Cream 2 oz.</Title>
-      </ItemAttributes>
-      <OfferSummary>
-        <TotalNew>0</TotalNew>
-        <TotalUsed>0</TotalUsed>
-        <TotalCollectible>0</TotalCollectible>
-        <TotalRefurbished>0</TotalRefurbished>
-      </OfferSummary>
-      <Offers>
-        <TotalOffers>0</TotalOffers>
-        <TotalOfferPages>0</TotalOfferPages>
-      </Offers>
-    </Item>
-    <Item>
-      <ASIN>B000N2N1HO</ASIN>
-      <DetailPageURL>http://www.amazon.com/gp/redirect.html%3FASIN=B000N2N1HO%26tag=ws%26lcode=xm2%26cID=2025%26ccmID=165953%26location=/o/ASIN/B000N2N1HO%253FSubscriptionId=1VAESZQN1G7SXNRG4882</DetailPageURL>
-      <ItemAttributes>
-        <Binding>Health and Beauty</Binding>
-        <Brand>Perle de Caviar</Brand>
-        <EAN>3471343010907</EAN>
-        <Feature>Highest Quality Moisturizers available</Feature>
-        <Label>Perle de Caviar</Label>
-        <Manufacturer>Perle de Caviar</Manufacturer>
-        <MPN>50 ml</MPN>
-        <ProductGroup>Health and Beauty</ProductGroup>
-        <ProductTypeName>HEALTH_PERSONAL_CARE</ProductTypeName>
-        <Publisher>Perle de Caviar</Publisher>
-        <Studio>Perle de Caviar</Studio>
-        <Title>Perle de Caviar Bio Elita Aquacreme 24H, Extreme Moisture (50 ml)</Title>
+        <Brand>eforcity</Brand>
+        <EAN>0877083053588</EAN>
+        <Feature>Compatibility: Blackberry Pearl 8100 8110 8120 8130</Feature>
+        <Feature>Synchronize and charge your Blackberry Pearl with any PC</Feature>
+        <Feature>Multi-function docking cradle fits perfectly with your Pearl and positions it at a comfortable reading angle and provides convenient access on your desk</Feature>
+        <Feature>Dual charging functions lets you charge additional battery and device at the same time</Feature>
+        <Feature>Contents: Charging Cradle, USB cable, AC charger</Feature>
+        <ItemDimensions>
+          <Weight Units="hundredths-pounds">300</Weight>
+        </ItemDimensions>
+        <Label>Eforcity</Label>
+        <Manufacturer>Eforcity</Manufacturer>
+        <MPN>CBLA8100CRA1</MPN>
+        <PackageQuantity>1</PackageQuantity>
+        <ProductGroup>CE</ProductGroup>
+        <ProductTypeName>CONSUMER_ELECTRONICS</ProductTypeName>
+        <Publisher>Eforcity</Publisher>
+        <Studio>Eforcity</Studio>
+        <Title>3-in-1 Blackberry Pearl Desktop Charger Cradle for 8100 8110 8120 8130 (with extra Battery Slot)</Title>
+        <UPC>877083053588</UPC>
       </ItemAttributes>
       <OfferSummary>
         <LowestNewPrice>
-          <Amount>9800</Amount>
+          <Amount>799</Amount>
           <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$98.00</FormattedPrice>
+          <FormattedPrice>$7.99</FormattedPrice>
         </LowestNewPrice>
-        <TotalNew>1</TotalNew>
+        <TotalNew>4</TotalNew>
         <TotalUsed>0</TotalUsed>
         <TotalCollectible>0</TotalCollectible>
         <TotalRefurbished>0</TotalRefurbished>
@@ -1268,61 +1484,33 @@
       </Offers>
     </Item>
     <Item>
-      <ASIN>B000UC8HF8</ASIN>
-      <DetailPageURL>http://www.amazon.com/gp/redirect.html%3FASIN=B000UC8HF8%26tag=ws%26lcode=xm2%26cID=2025%26ccmID=165953%26location=/o/ASIN/B000UC8HF8%253FSubscriptionId=1VAESZQN1G7SXNRG4882</DetailPageURL>
-      <SalesRank>60080</SalesRank>
+      <ASIN>B0017WLOUK</ASIN>
+      <SalesRank>56498</SalesRank>
       <ItemAttributes>
-        <Binding>Apparel</Binding>
-        <Brand>OrionGadgets</Brand>
-        <Feature>Opens and closes with magnetic studs,for ease of use</Feature>
-        <Feature>Removable 360 degrees belt clip included.</Feature>
-        <Feature>Handmade from finest soft leather.</Feature>
-        <ProductGroup>Apparel</ProductGroup>
-        <ProductTypeName>ACCESSORY</ProductTypeName>
-        <Title>Leather Case for Blackberry Pearl 8100 - Book Type</Title>
+        <Brand>Image Accessories</Brand>
+        <EAN>0640800127134</EAN>
+        <Feature>Sleek and stylish protection for your Motorola V3 series phone.</Feature>
+        <Feature>Hard, slick clear plastic designed to protect your phone from nicks and scratches</Feature>
+        <Feature>Perfectly designed for easy access to all your phone's functions</Feature>
+        <Feature>Works with GSM and CDMA models</Feature>
+        <Label>Image Accessories</Label>
+        <LegalDisclaimer>Warranty does not cover misuse of product or accidental damage.</LegalDisclaimer>
+        <Manufacturer>Image Accessories</Manufacturer>
+        <PackageQuantity>1</PackageQuantity>
+        <ProductGroup>CE</ProductGroup>
+        <ProductTypeName>CONSUMER_ELECTRONICS</ProductTypeName>
+        <Publisher>Image Accessories</Publisher>
+        <Studio>Image Accessories</Studio>
+        <Title>Crystal Protective Case for Blackberry 8100 Pearl Rubberized (Black)</Title>
+        <UPC>640800127134</UPC>
       </ItemAttributes>
       <OfferSummary>
-        <TotalNew>0</TotalNew>
-        <TotalUsed>0</TotalUsed>
-        <TotalCollectible>0</TotalCollectible>
-        <TotalRefurbished>0</TotalRefurbished>
-      </OfferSummary>
-      <Offers>
-        <TotalOffers>0</TotalOffers>
-        <TotalOfferPages>0</TotalOfferPages>
-      </Offers>
-    </Item>
-    <Item>
-      <ASIN>B000CRBETM</ASIN>
-      <DetailPageURL>http://www.amazon.com/gp/redirect.html%3FASIN=B000CRBETM%26tag=ws%26lcode=xm2%26cID=2025%26ccmID=165953%26location=/o/ASIN/B000CRBETM%253FSubscriptionId=1VAESZQN1G7SXNRG4882</DetailPageURL>
-      <SalesRank>426719</SalesRank>
-      <ItemAttributes>
-        <Binding>Apparel</Binding>
-        <Brand>Sumdex</Brand>
-        <Department>unisex-adult</Department>
-        <Feature>Lightweight construction, and made of water repellent Jacquard Nylon w Leather Trim</Feature>
-        <Feature>Padded computer radle fitting up to 15.2 notebook computers</Feature>
-        <Feature>Extended zipper opening in main compartment for easy access to laptop and accessories</Feature>
-        <Feature>Front and back outside accessory pockets</Feature>
-        <Feature>BONUS detachable cosmetic pouch</Feature>
-        <ItemDimensions>
-          <Height Units="hundredths-inches">1220</Height>
-          <Length Units="hundredths-inches">1550</Length>
-          <Weight Units="hundredths-pounds">160</Weight>
-          <Width Units="hundredths-inches">320</Width>
-        </ItemDimensions>
-        <ListPrice>
-          <Amount>9000</Amount>
+        <LowestNewPrice>
+          <Amount>499</Amount>
           <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$90.00</FormattedPrice>
-        </ListPrice>
-        <ProductGroup>Apparel</ProductGroup>
-        <ProductTypeName>BAG</ProductTypeName>
-        <SKU>SUNON913</SKU>
-        <Title>Sumdex She Rules&amp;#153; Meg Cosmo Laptop Brief</Title>
-      </ItemAttributes>
-      <OfferSummary>
-        <TotalNew>0</TotalNew>
+          <FormattedPrice>$4.99</FormattedPrice>
+        </LowestNewPrice>
+        <TotalNew>2</TotalNew>
         <TotalUsed>0</TotalUsed>
         <TotalCollectible>0</TotalCollectible>
         <TotalRefurbished>0</TotalRefurbished>
@@ -1333,25 +1521,32 @@
       </Offers>
     </Item>
     <Item>
-      <ASIN>B000PL0OLO</ASIN>
-      <DetailPageURL>http://www.amazon.com/gp/redirect.html%3FASIN=B000PL0OLO%26tag=ws%26lcode=xm2%26cID=2025%26ccmID=165953%26location=/o/ASIN/B000PL0OLO%253FSubscriptionId=1VAESZQN1G7SXNRG4882</DetailPageURL>
-      <SalesRank>538151</SalesRank>
+      <ASIN>B0017QN30K</ASIN>
+      <SalesRank>74582</SalesRank>
       <ItemAttributes>
-        <Binding>Apparel</Binding>
-        <Brand>Josef Seibel</Brand>
-        <Department>womens</Department>
-        <ListPrice>
-          <Amount>10999</Amount>
-          <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$109.99</FormattedPrice>
-        </ListPrice>
-        <ProductGroup>Apparel</ProductGroup>
-        <ProductTypeName>SHOES</ProductTypeName>
-        <SKU>5035343</SKU>
-        <Title>JOSEF SEIBEL Women's Tracy</Title>
+        <Brand>Image Accessories</Brand>
+        <EAN>0640800123730</EAN>
+        <Feature>Sleek and stylish protection for your Blackberry 8100 Pearl series phone.</Feature>
+        <Feature>Hard, slick plastic designed to protect your phone from nicks and scratches</Feature>
+        <Feature>Perfectly designed for easy access to all your phone's functions</Feature>
+        <Label>Image Accessories</Label>
+        <LegalDisclaimer>Warranty does not cover misuse of product or accidental damage.</LegalDisclaimer>
+        <Manufacturer>Image Accessories</Manufacturer>
+        <PackageQuantity>1</PackageQuantity>
+        <ProductGroup>CE</ProductGroup>
+        <ProductTypeName>CONSUMER_ELECTRONICS</ProductTypeName>
+        <Publisher>Image Accessories</Publisher>
+        <Studio>Image Accessories</Studio>
+        <Title>Blackberry 8100 Pearl Crystal Protective Case Rubberized (Red) - Image Brand</Title>
+        <UPC>640800123730</UPC>
       </ItemAttributes>
       <OfferSummary>
-        <TotalNew>0</TotalNew>
+        <LowestNewPrice>
+          <Amount>599</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$5.99</FormattedPrice>
+        </LowestNewPrice>
+        <TotalNew>2</TotalNew>
         <TotalUsed>0</TotalUsed>
         <TotalCollectible>0</TotalCollectible>
         <TotalRefurbished>0</TotalRefurbished>
@@ -1363,8 +1558,7 @@
     </Item>
     <Item>
       <ASIN>B000V0G3XM</ASIN>
-      <DetailPageURL>http://www.amazon.com/gp/redirect.html%3FASIN=B000V0G3XM%26tag=ws%26lcode=xm2%26cID=2025%26ccmID=165953%26location=/o/ASIN/B000V0G3XM%253FSubscriptionId=1VAESZQN1G7SXNRG4882</DetailPageURL>
-      <SalesRank>46819</SalesRank>
+      <SalesRank>47941</SalesRank>
       <ItemAttributes>
         <Feature>Clean and shine your vehicle with the latest German polymer technology!</Feature>
         <Feature>1Z Einszett Perls Shampoo is environmentally safe, phosphate-free and biodegradable.</Feature>
@@ -1386,9 +1580,42 @@
       </ItemAttributes>
       <OfferSummary>
         <LowestNewPrice>
-          <Amount>850</Amount>
+          <Amount>999</Amount>
           <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$8.50</FormattedPrice>
+          <FormattedPrice>$9.99</FormattedPrice>
+        </LowestNewPrice>
+        <TotalNew>1</TotalNew>
+        <TotalUsed>0</TotalUsed>
+        <TotalCollectible>0</TotalCollectible>
+        <TotalRefurbished>0</TotalRefurbished>
+      </OfferSummary>
+      <Offers>
+        <TotalOffers>0</TotalOffers>
+        <TotalOfferPages>0</TotalOfferPages>
+      </Offers>
+    </Item>
+    <Item>
+      <ASIN>B000I4HKCY</ASIN>
+      <SalesRank>88372</SalesRank>
+      <ItemAttributes>
+        <Brand>Joe Rocket</Brand>
+        <Color>Perl Red/Black/White</Color>
+        <Label>Joe Rocket</Label>
+        <Manufacturer>Joe Rocket</Manufacturer>
+        <MPN>506263-186554</MPN>
+        <PackageQuantity>1</PackageQuantity>
+        <ProductGroup>Automotive Parts and Accessories</ProductGroup>
+        <ProductTypeName>AUTO_ACCESSORY</ProductTypeName>
+        <Publisher>Joe Rocket</Publisher>
+        <Size>Large</Size>
+        <Studio>Joe Rocket</Studio>
+        <Title>Joe Rocket Phoenix 3.0 Gloves - Perl Red/Black/White - Large</Title>
+      </ItemAttributes>
+      <OfferSummary>
+        <LowestNewPrice>
+          <Amount>4499</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$44.99</FormattedPrice>
         </LowestNewPrice>
         <TotalNew>1</TotalNew>
         <TotalUsed>0</TotalUsed>
@@ -1402,7 +1629,6 @@
     </Item>
     <Item>
       <ASIN>B000I4FVRK</ASIN>
-      <DetailPageURL>http://www.amazon.com/gp/redirect.html%3FASIN=B000I4FVRK%26tag=ws%26lcode=xm2%26cID=2025%26ccmID=165953%26location=/o/ASIN/B000I4FVRK%253FSubscriptionId=1VAESZQN1G7SXNRG4882</DetailPageURL>
       <ItemAttributes>
         <Brand>Joe Rocket</Brand>
         <Color>Perl Black/Black/Black</Color>
@@ -1419,336 +1645,11 @@
       </ItemAttributes>
       <OfferSummary>
         <LowestNewPrice>
-          <Amount>4500</Amount>
+          <Amount>4499</Amount>
           <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$45.00</FormattedPrice>
+          <FormattedPrice>$44.99</FormattedPrice>
         </LowestNewPrice>
         <TotalNew>1</TotalNew>
-        <TotalUsed>0</TotalUsed>
-        <TotalCollectible>0</TotalCollectible>
-        <TotalRefurbished>0</TotalRefurbished>
-      </OfferSummary>
-      <Offers>
-        <TotalOffers>0</TotalOffers>
-        <TotalOfferPages>0</TotalOfferPages>
-      </Offers>
-    </Item>
-    <Item>
-      <ASIN>B000I4CSV2</ASIN>
-      <DetailPageURL>http://www.amazon.com/gp/redirect.html%3FASIN=B000I4CSV2%26tag=ws%26lcode=xm2%26cID=2025%26ccmID=165953%26location=/o/ASIN/B000I4CSV2%253FSubscriptionId=1VAESZQN1G7SXNRG4882</DetailPageURL>
-      <ItemAttributes>
-        <Brand>Joe Rocket</Brand>
-        <Color>Perl Red/Black/White</Color>
-        <Label>Joe Rocket</Label>
-        <Manufacturer>Joe Rocket</Manufacturer>
-        <MPN>506263-186552</MPN>
-        <PackageQuantity>1</PackageQuantity>
-        <ProductGroup>Automotive Parts and Accessories</ProductGroup>
-        <ProductTypeName>AUTO_ACCESSORY</ProductTypeName>
-        <Publisher>Joe Rocket</Publisher>
-        <Size>Small</Size>
-        <Studio>Joe Rocket</Studio>
-        <Title>Joe Rocket Phoenix 3.0 Gloves - Perl Red/Black/White - Small</Title>
-      </ItemAttributes>
-      <OfferSummary>
-        <LowestNewPrice>
-          <Amount>4500</Amount>
-          <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$45.00</FormattedPrice>
-        </LowestNewPrice>
-        <TotalNew>1</TotalNew>
-        <TotalUsed>0</TotalUsed>
-        <TotalCollectible>0</TotalCollectible>
-        <TotalRefurbished>0</TotalRefurbished>
-      </OfferSummary>
-      <Offers>
-        <TotalOffers>0</TotalOffers>
-        <TotalOfferPages>0</TotalOfferPages>
-      </Offers>
-    </Item>
-    <Item>
-      <ASIN>0596101996</ASIN>
-      <DetailPageURL>http://www.amazon.com/gp/redirect.html%3FASIN=0596101996%26tag=ws%26lcode=xm2%26cID=2025%26ccmID=165953%26location=/o/ASIN/0596101996%253FSubscriptionId=1VAESZQN1G7SXNRG4882</DetailPageURL>
-      <SalesRank>3172</SalesRank>
-      <ItemAttributes>
-        <Author>David Flanagan</Author>
-        <Binding>Paperback</Binding>
-        <DeweyDecimalNumber>005.2762</DeweyDecimalNumber>
-        <EAN>9780596101992</EAN>
-        <Edition>5</Edition>
-        <Format>Illustrated</Format>
-        <ISBN>0596101996</ISBN>
-        <Label>O'Reilly Media, Inc.</Label>
-        <ListPrice>
-          <Amount>4999</Amount>
-          <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$49.99</FormattedPrice>
-        </ListPrice>
-        <Manufacturer>O'Reilly Media, Inc.</Manufacturer>
-        <NumberOfItems>1</NumberOfItems>
-        <NumberOfPages>1018</NumberOfPages>
-        <ProductGroup>Book</ProductGroup>
-        <ProductTypeName>ABIS_BOOK</ProductTypeName>
-        <PublicationDate>2006-08-17</PublicationDate>
-        <Publisher>O'Reilly Media, Inc.</Publisher>
-        <Studio>O'Reilly Media, Inc.</Studio>
-        <Title>JavaScript: The Definitive Guide</Title>
-      </ItemAttributes>
-      <OfferSummary>
-        <LowestNewPrice>
-          <Amount>2893</Amount>
-          <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$28.93</FormattedPrice>
-        </LowestNewPrice>
-        <LowestUsedPrice>
-          <Amount>2663</Amount>
-          <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$26.63</FormattedPrice>
-        </LowestUsedPrice>
-        <TotalNew>36</TotalNew>
-        <TotalUsed>17</TotalUsed>
-        <TotalCollectible>0</TotalCollectible>
-        <TotalRefurbished>0</TotalRefurbished>
-      </OfferSummary>
-      <Offers>
-        <TotalOffers>1</TotalOffers>
-        <TotalOfferPages>1</TotalOfferPages>
-        <Offer>
-          <Merchant>
-            <MerchantId>ATVPDKIKX0DER</MerchantId>
-            <GlancePage>http://www.amazon.com/gp/help/seller/home.html?seller=ATVPDKIKX0DER</GlancePage>
-            <AverageFeedbackRating>0.0</AverageFeedbackRating>
-            <TotalFeedback>0</TotalFeedback>
-          </Merchant>
-          <OfferAttributes>
-            <Condition>New</Condition>
-            <SubCondition>new</SubCondition>
-          </OfferAttributes>
-          <OfferListing>
-            <OfferListingId>xyBEJWJMdGToNTAV%2F64%2F8dyHllJ01S0YwpcxL44oW8NfpR6wmO8IrlXY2ZeFdb8vHevvlSmppEW3%2Fh0x0JbIKkyTiEDmUdc6</OfferListingId>
-            <Price>
-              <Amount>3149</Amount>
-              <CurrencyCode>USD</CurrencyCode>
-              <FormattedPrice>$31.49</FormattedPrice>
-            </Price>
-            <AmountSaved>
-              <Amount>1850</Amount>
-              <CurrencyCode>USD</CurrencyCode>
-              <FormattedPrice>$18.50</FormattedPrice>
-            </AmountSaved>
-            <PercentageSaved>37</PercentageSaved>
-            <Availability>Usually ships in 24 hours</Availability>
-            <AvailabilityAttributes>
-              <AvailabilityType>now</AvailabilityType>
-              <MinimumHours>0</MinimumHours>
-              <MaximumHours>0</MaximumHours>
-            </AvailabilityAttributes>
-            <Quantity>-1</Quantity>
-            <IsEligibleForSuperSaverShipping>1</IsEligibleForSuperSaverShipping>
-          </OfferListing>
-        </Offer>
-      </Offers>
-    </Item>
-    <Item>
-      <ASIN>0596513984</ASIN>
-      <DetailPageURL>http://www.amazon.com/gp/redirect.html%3FASIN=0596513984%26tag=ws%26lcode=xm2%26cID=2025%26ccmID=165953%26location=/o/ASIN/0596513984%253FSubscriptionId=1VAESZQN1G7SXNRG4882</DetailPageURL>
-      <SalesRank>4894</SalesRank>
-      <ItemAttributes>
-        <Author>Mark Lutz</Author>
-        <Binding>Paperback</Binding>
-        <DeweyDecimalNumber>005.133</DeweyDecimalNumber>
-        <EAN>9780596513986</EAN>
-        <Edition>3</Edition>
-        <ISBN>0596513984</ISBN>
-        <Label>O'Reilly Media, Inc.</Label>
-        <ListPrice>
-          <Amount>3999</Amount>
-          <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$39.99</FormattedPrice>
-        </ListPrice>
-        <Manufacturer>O'Reilly Media, Inc.</Manufacturer>
-        <NumberOfItems>1</NumberOfItems>
-        <NumberOfPages>746</NumberOfPages>
-        <ProductGroup>Book</ProductGroup>
-        <ProductTypeName>ABIS_BOOK</ProductTypeName>
-        <PublicationDate>2007-10-22</PublicationDate>
-        <Publisher>O'Reilly Media, Inc.</Publisher>
-        <Studio>O'Reilly Media, Inc.</Studio>
-        <Title>Learning Python, 3rd Edition</Title>
-      </ItemAttributes>
-      <OfferSummary>
-        <LowestNewPrice>
-          <Amount>2266</Amount>
-          <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$22.66</FormattedPrice>
-        </LowestNewPrice>
-        <LowestUsedPrice>
-          <Amount>2265</Amount>
-          <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$22.65</FormattedPrice>
-        </LowestUsedPrice>
-        <TotalNew>33</TotalNew>
-        <TotalUsed>8</TotalUsed>
-        <TotalCollectible>0</TotalCollectible>
-        <TotalRefurbished>0</TotalRefurbished>
-      </OfferSummary>
-      <Offers>
-        <TotalOffers>1</TotalOffers>
-        <TotalOfferPages>1</TotalOfferPages>
-        <Offer>
-          <Merchant>
-            <MerchantId>ATVPDKIKX0DER</MerchantId>
-            <GlancePage>http://www.amazon.com/gp/help/seller/home.html?seller=ATVPDKIKX0DER</GlancePage>
-            <AverageFeedbackRating>0.0</AverageFeedbackRating>
-            <TotalFeedback>0</TotalFeedback>
-          </Merchant>
-          <OfferAttributes>
-            <Condition>New</Condition>
-            <SubCondition>new</SubCondition>
-          </OfferAttributes>
-          <OfferListing>
-            <OfferListingId>J%2BBbJgzXiirHsWvp%2F1iZwOlbvaGwx3uavjq1hKGYgoGcLhh5MmfM2b2hE8x056tXiJmKWzGdZohXavrB9qPENw%3D%3D</OfferListingId>
-            <Price>
-              <Amount>2639</Amount>
-              <CurrencyCode>USD</CurrencyCode>
-              <FormattedPrice>$26.39</FormattedPrice>
-            </Price>
-            <AmountSaved>
-              <Amount>1360</Amount>
-              <CurrencyCode>USD</CurrencyCode>
-              <FormattedPrice>$13.60</FormattedPrice>
-            </AmountSaved>
-            <PercentageSaved>34</PercentageSaved>
-            <Availability>Usually ships in 24 hours</Availability>
-            <AvailabilityAttributes>
-              <AvailabilityType>now</AvailabilityType>
-              <MinimumHours>0</MinimumHours>
-              <MaximumHours>0</MaximumHours>
-            </AvailabilityAttributes>
-            <Quantity>-1</Quantity>
-            <IsEligibleForSuperSaverShipping>1</IsEligibleForSuperSaverShipping>
-          </OfferListing>
-        </Offer>
-      </Offers>
-    </Item>
-    <Item>
-      <ASIN>0977616630</ASIN>
-      <DetailPageURL>http://www.amazon.com/gp/redirect.html%3FASIN=0977616630%26tag=ws%26lcode=xm2%26cID=2025%26ccmID=165953%26location=/o/ASIN/0977616630%253FSubscriptionId=1VAESZQN1G7SXNRG4882</DetailPageURL>
-      <SalesRank>6832</SalesRank>
-      <ItemAttributes>
-        <Author>Dave Thomas</Author>
-        <Author>David Hansson</Author>
-        <Author>Leon Breedt</Author>
-        <Author>Mike Clark</Author>
-        <Author>James Duncan Davidson</Author>
-        <Author>Justin Gehtland</Author>
-        <Author>Andreas Schwarz</Author>
-        <Binding>Paperback</Binding>
-        <DeweyDecimalNumber>005.117</DeweyDecimalNumber>
-        <EAN>9780977616633</EAN>
-        <Edition>2</Edition>
-        <Format>Illustrated</Format>
-        <ISBN>0977616630</ISBN>
-        <Label>Pragmatic Bookshelf</Label>
-        <ListPrice>
-          <Amount>3995</Amount>
-          <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$39.95</FormattedPrice>
-        </ListPrice>
-        <Manufacturer>Pragmatic Bookshelf</Manufacturer>
-        <NumberOfItems>1</NumberOfItems>
-        <NumberOfPages>720</NumberOfPages>
-        <ProductGroup>Book</ProductGroup>
-        <ProductTypeName>ABIS_BOOK</ProductTypeName>
-        <PublicationDate>2006-12-14</PublicationDate>
-        <Publisher>Pragmatic Bookshelf</Publisher>
-        <Studio>Pragmatic Bookshelf</Studio>
-        <Title>Agile Web Development with Rails, 2nd Edition</Title>
-      </ItemAttributes>
-      <OfferSummary>
-        <LowestNewPrice>
-          <Amount>2298</Amount>
-          <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$22.98</FormattedPrice>
-        </LowestNewPrice>
-        <LowestUsedPrice>
-          <Amount>2290</Amount>
-          <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$22.90</FormattedPrice>
-        </LowestUsedPrice>
-        <TotalNew>37</TotalNew>
-        <TotalUsed>16</TotalUsed>
-        <TotalCollectible>0</TotalCollectible>
-        <TotalRefurbished>0</TotalRefurbished>
-      </OfferSummary>
-      <Offers>
-        <TotalOffers>1</TotalOffers>
-        <TotalOfferPages>1</TotalOfferPages>
-        <Offer>
-          <Merchant>
-            <MerchantId>ATVPDKIKX0DER</MerchantId>
-            <GlancePage>http://www.amazon.com/gp/help/seller/home.html?seller=ATVPDKIKX0DER</GlancePage>
-            <AverageFeedbackRating>0.0</AverageFeedbackRating>
-            <TotalFeedback>0</TotalFeedback>
-          </Merchant>
-          <OfferAttributes>
-            <Condition>New</Condition>
-            <SubCondition>new</SubCondition>
-          </OfferAttributes>
-          <OfferListing>
-            <OfferListingId>wgBDfvvVWouW484PPA0LNEBnxwPh6IuliDmOCipwUx0OTj7ab9x47XZ0e2YpYtDAa60kvqnSKWFtJxABnvNHyQ%3D%3D</OfferListingId>
-            <Price>
-              <Amount>2637</Amount>
-              <CurrencyCode>USD</CurrencyCode>
-              <FormattedPrice>$26.37</FormattedPrice>
-            </Price>
-            <AmountSaved>
-              <Amount>1358</Amount>
-              <CurrencyCode>USD</CurrencyCode>
-              <FormattedPrice>$13.58</FormattedPrice>
-            </AmountSaved>
-            <PercentageSaved>34</PercentageSaved>
-            <Availability>Usually ships in 24 hours</Availability>
-            <AvailabilityAttributes>
-              <AvailabilityType>now</AvailabilityType>
-              <MinimumHours>0</MinimumHours>
-              <MaximumHours>0</MaximumHours>
-            </AvailabilityAttributes>
-            <Quantity>-1</Quantity>
-            <IsEligibleForSuperSaverShipping>1</IsEligibleForSuperSaverShipping>
-          </OfferListing>
-        </Offer>
-      </Offers>
-    </Item>
-    <Item>
-      <ASIN>B0000C0YMS</ASIN>
-      <DetailPageURL>http://www.amazon.com/gp/redirect.html%3FASIN=B0000C0YMS%26tag=ws%26lcode=xm2%26cID=2025%26ccmID=165953%26location=/o/ASIN/B0000C0YMS%253FSubscriptionId=1VAESZQN1G7SXNRG4882</DetailPageURL>
-      <SalesRank>25753</SalesRank>
-      <ItemAttributes>
-        <Binding>CD-ROM</Binding>
-        <Brand>Lynda.com, Inc.</Brand>
-        <EAN>0670557022130</EAN>
-        <Feature>Designed for Web professionals by Bill Weinman</Feature>
-        <Feature>2.5 hours of simple step-by-step instructions</Feature>
-        <Feature>Learn to edit &amp; install a Perl script on your server, &amp; make simple modifications</Feature>
-        <Feature>Complete with working examples</Feature>
-        <Feature>Counters, contact forms, a Web blog, &amp; more</Feature>
-        <Label>Lynda.com, Inc.</Label>
-        <Manufacturer>Lynda.com, Inc.</Manufacturer>
-        <PackageQuantity>1</PackageQuantity>
-        <Platform>Windows NT</Platform>
-        <Platform>Windows 98</Platform>
-        <Platform>Windows 2000</Platform>
-        <Platform>Windows Me</Platform>
-        <ProductGroup>Software</ProductGroup>
-        <ProductTypeName>ABIS_SOFTWARE</ProductTypeName>
-        <Publisher>Lynda.com, Inc.</Publisher>
-        <Studio>Lynda.com, Inc.</Studio>
-        <Title>Using Perl/GCI Scripts</Title>
-        <UPC>670557022130</UPC>
-      </ItemAttributes>
-      <OfferSummary>
-        <TotalNew>0</TotalNew>
         <TotalUsed>0</TotalUsed>
         <TotalCollectible>0</TotalCollectible>
         <TotalRefurbished>0</TotalRefurbished>
@@ -1760,8 +1661,8 @@
     </Item>
     <Item>
       <ASIN>B0002Y0WZC</ASIN>
-      <DetailPageURL>http://www.amazon.com/gp/redirect.html%3FASIN=B0002Y0WZC%26tag=ws%26lcode=xm2%26cID=2025%26ccmID=165953%26location=/o/ASIN/B0002Y0WZC%253FSubscriptionId=1VAESZQN1G7SXNRG4882</DetailPageURL>
       <ItemAttributes>
+        <Binding>CD-ROM</Binding>
         <EAN>0714765308508</EAN>
         <Feature>Sequence the steps in the application development process.</Feature>
         <Feature>Identify guidelines for the analysis stage of the application development process.</Feature>
@@ -1792,9 +1693,9 @@
     </Item>
     <Item>
       <ASIN>B0004JQU06</ASIN>
-      <DetailPageURL>http://www.amazon.com/gp/redirect.html%3FASIN=B0004JQU06%26tag=ws%26lcode=xm2%26cID=2025%26ccmID=165953%26location=/o/ASIN/B0004JQU06%253FSubscriptionId=1VAESZQN1G7SXNRG4882</DetailPageURL>
-      <SalesRank>25859</SalesRank>
+      <SalesRank>31987</SalesRank>
       <ItemAttributes>
+        <Binding>CD-ROM</Binding>
         <EAN>0714765291671</EAN>
         <Feature>Sequence the steps in the application development process.</Feature>
         <Feature>Identify guidelines for the analysis stage of the application development process</Feature>
@@ -1824,19 +1725,25 @@
       </Offers>
     </Item>
     <Item>
-      <ASIN>B000U0A6BI</ASIN>
-      <DetailPageURL>http://www.amazon.com/gp/redirect.html%3FASIN=B000U0A6BI%26tag=ws%26lcode=xm2%26cID=2025%26ccmID=165953%26location=/o/ASIN/B000U0A6BI%253FSubscriptionId=1VAESZQN1G7SXNRG4882</DetailPageURL>
-      <SalesRank>54409</SalesRank>
+      <ASIN>B0002Y13FU</ASIN>
       <ItemAttributes>
-        <Binding>Misc.</Binding>
-        <Brand>Black Diamond</Brand>
-        <Label>Black Diamond</Label>
-        <Manufacturer>Black Diamond</Manufacturer>
-        <ProductGroup>Sports</ProductGroup>
-        <ProductTypeName>SPORTING_GOODS</ProductTypeName>
-        <Publisher>Black Diamond</Publisher>
-        <Studio>Black Diamond</Studio>
-        <Title>Mercury Mitts Womens</Title>
+        <Binding>CD-ROM</Binding>
+        <EAN>0714765293491</EAN>
+        <Feature>Identify characteristics of the Perl programming language.</Feature>
+        <Feature>Identify characteristics of the Perl interpreter.</Feature>
+        <Feature>Identify how to output data by using the print function.</Feature>
+        <Feature>Identify characteristics of an array.</Feature>
+        <Feature>Identify how to delete a hash element.</Feature>
+        <Format>CD</Format>
+        <Label>NetG</Label>
+        <Manufacturer>NetG</Manufacturer>
+        <OperatingSystem>Windows</OperatingSystem>
+        <ProductGroup>Software</ProductGroup>
+        <ProductTypeName>SOFTWARE</ProductTypeName>
+        <Publisher>NetG</Publisher>
+        <Studio>NetG</Studio>
+        <Title>CIW Web Languages: Perl Fundamentals Curriculum CBT Training CDs</Title>
+        <UPC>714765293491</UPC>
       </ItemAttributes>
       <OfferSummary>
         <TotalNew>0</TotalNew>
@@ -1850,30 +1757,440 @@
       </Offers>
     </Item>
     <Item>
-      <ASIN>B000EWVP76</ASIN>
-      <DetailPageURL>http://www.amazon.com/gp/redirect.html%3FASIN=B000EWVP76%26tag=ws%26lcode=xm2%26cID=2025%26ccmID=165953%26location=/o/ASIN/B000EWVP76%253FSubscriptionId=1VAESZQN1G7SXNRG4882</DetailPageURL>
-      <SalesRank>317333</SalesRank>
+      <ASIN>B00188KZ9O</ASIN>
+      <SalesRank>588</SalesRank>
       <ItemAttributes>
-        <Binding>Misc.</Binding>
-        <ItemDimensions>
-          <Weight Units="hundredths-pounds">2500</Weight>
-        </ItemDimensions>
-        <Label>Aqua Perl</Label>
-        <Manufacturer>Aqua Perl</Manufacturer>
-        <PackageQuantity>1</PackageQuantity>
+        <Binding>Sports</Binding>
+        <Brand>Pearl Izumi</Brand>
+        <Department>mens</Department>
+        <FabricType>lycra</FabricType>
+        <Feature>Sensor fabric</Feature>
+        <Feature>Flatlocked seams for comfort</Feature>
+        <Feature>3D Race chamois</Feature>
+        <Feature>Modified 8 panel ergonomic design</Feature>
+        <Feature>9 1/4-inch inseam</Feature>
+        <Label>Pearl Izumi</Label>
+        <ListPrice>
+          <Amount>6995</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$69.95</FormattedPrice>
+        </ListPrice>
+        <Manufacturer>Pearl Izumi</Manufacturer>
+        <Model>220</Model>
         <ProductGroup>Sports</ProductGroup>
-        <ProductTypeName>SPORTING_GOODS</ProductTypeName>
-        <Publisher>Aqua Perl</Publisher>
-        <Studio>Aqua Perl</Studio>
-        <Title>DIATOMACEOUS EARTH ALTERNATIVE by Aqua Perl</Title>
+        <ProductTypeName>ABIS_SPORTS</ProductTypeName>
+        <Publisher>Pearl Izumi</Publisher>
+        <ReleaseDate>2008-04-22</ReleaseDate>
+        <SKU>100429</SKU>
+        <Studio>Pearl Izumi</Studio>
+        <Title>Pearl Izumi Attack Cycling Short</Title>
+      </ItemAttributes>
+      <OfferSummary>
+        <TotalNew>0</TotalNew>
+        <TotalUsed>0</TotalUsed>
+        <TotalCollectible>0</TotalCollectible>
+        <TotalRefurbished>0</TotalRefurbished>
+      </OfferSummary>
+      <Offers>
+        <TotalOffers>0</TotalOffers>
+        <TotalOfferPages>0</TotalOfferPages>
+      </Offers>
+      <Accessories>
+        <Accessory>
+          <ASIN>B000KF6HZW</ASIN>
+          <Title>Pearl Izumi 2007/08 Men's Quest Cycling Shorts - Black - 0165-021</Title>
+        </Accessory>
+        <Accessory>
+          <ASIN>B000KX8ZK4</ASIN>
+          <Title>Giordana 2008 Race Tech Cycling Shorts - Gray w/ Black and Yellow Accents - (GI-SHRT-RATE-GRAY)</Title>
+        </Accessory>
+        <Accessory>
+          <ASIN>B001QVLTTS</ASIN>
+          <Title>Fox Racing Men's Base Bike Shorts - Dark Khaki - 26020-108</Title>
+        </Accessory>
+        <Accessory>
+          <ASIN>B001OFRBRK</ASIN>
+          <Title>Louis Garneau 2009 Alveo Gel Cycling Shorts - Black - 1050285-020</Title>
+        </Accessory>
+        <Accessory>
+          <ASIN>B001IMRSOA</ASIN>
+          <Title>Primal Wear Men's Cargo Loose Fit Cycling Shorts - MTBSB</Title>
+        </Accessory>
+      </Accessories>
+    </Item>
+    <Item>
+      <ASIN>B00188SEB0</ASIN>
+      <SalesRank>878</SalesRank>
+      <ItemAttributes>
+        <Binding>Sports</Binding>
+        <Brand>Pearl Izumi</Brand>
+        <Department>mens</Department>
+        <Feature>Pearl Izumi Tri Cycling Short with shorter, 6.5-inch inseam, designed for swim, run, and ride triathlons</Feature>
+        <Feature>Ultrasensor moisture wicking fabric, composed of a nylon/Lycra blend offers superior fit and dries quickly</Feature>
+        <Feature>Triathlon-specific, reduced size Ultrasensor chamois pad with quick-dry fabric</Feature>
+        <Feature>Unique panel design for ergonomic performance, spandex leg grippers, and internal drawstring closure at waist</Feature>
+        <Feature>Lifetime warranty against defects in materials and workmanship, Tri Cycling Short is not recommended for use in chlorinated pools</Feature>
+        <Label>Pearl Izumi</Label>
+        <Manufacturer>Pearl Izumi</Manufacturer>
+        <Model>235</Model>
+        <ProductGroup>Sports</ProductGroup>
+        <ProductTypeName>ABIS_SPORTS</ProductTypeName>
+        <Publisher>Pearl Izumi</Publisher>
+        <ReleaseDate>2008-04-22</ReleaseDate>
+        <SKU>a_20551_0_0</SKU>
+        <Studio>Pearl Izumi</Studio>
+        <Title>Pearl Izumi Tri Cycling Short</Title>
+      </ItemAttributes>
+      <OfferSummary>
+        <TotalNew>0</TotalNew>
+        <TotalUsed>0</TotalUsed>
+        <TotalCollectible>0</TotalCollectible>
+        <TotalRefurbished>0</TotalRefurbished>
+      </OfferSummary>
+      <Offers>
+        <TotalOffers>0</TotalOffers>
+        <TotalOfferPages>0</TotalOfferPages>
+      </Offers>
+      <Accessories>
+        <Accessory>
+          <ASIN>B000EHVQJS</ASIN>
+          <Title>Louis Garneau 2008 Training Triathlon Tri Power Shorts - Black - 1050163-020</Title>
+        </Accessory>
+        <Accessory>
+          <ASIN>B000TEE8LE</ASIN>
+          <Title>Pearl Izumi 2007/08 Men's Triathlon Speed Suit - Moonlight/Diablo Red - 1062-029</Title>
+        </Accessory>
+        <Accessory>
+          <ASIN>B0017U1YC0</ASIN>
+          <Title>Descente 2008 Men's Aero-XT Triathlon Short Short - Black - 80101bk</Title>
+        </Accessory>
+        <Accessory>
+          <ASIN>B0017SVQJS</ASIN>
+          <Title>Descente 2008 Men's Aero-XT Triathlon Top - Bright Red - 80204br</Title>
+        </Accessory>
+        <Accessory>
+          <ASIN>B0017STIWU</ASIN>
+          <Title>Descente 2008 Men's Aero-XT Triathlon Top - White - 80204wh</Title>
+        </Accessory>
+      </Accessories>
+    </Item>
+    <Item>
+      <ASIN>B00188LHE6</ASIN>
+      <SalesRank>438</SalesRank>
+      <ItemAttributes>
+        <Binding>Sports</Binding>
+        <Brand>Pearl iZUMi</Brand>
+        <Department>mens</Department>
+        <Feature>Quest Cycling Short made of signature Pearl Izumi Sensor fabric that quickly wicks moisture away from the body for easy evaporation</Feature>
+        <Feature>Features supportive 08' 3D Pro Chamois and 6-panel ergonomic design</Feature>
+        <Feature>9.25-inch inseam short with custom Pearl Izumi spandex leg gripper for maximum comfort</Feature>
+        <Feature>Short is flatlock stitched for zero chafing to skin</Feature>
+        <Feature>Lifetime warranty against defects in materials and workmanship</Feature>
+        <Label>Pearl Izumi</Label>
+        <Manufacturer>Pearl Izumi</Manufacturer>
+        <Model>223</Model>
+        <ProductGroup>Apparel</ProductGroup>
+        <ProductTypeName>SHORTS</ProductTypeName>
+        <Publisher>Pearl Izumi</Publisher>
+        <ReleaseDate>2008-04-22</ReleaseDate>
+        <SKU>a_20658_0_0</SKU>
+        <Studio>Pearl Izumi</Studio>
+        <Title>Pearl Izumi Quest Cycling Short</Title>
+      </ItemAttributes>
+      <OfferSummary>
+        <TotalNew>0</TotalNew>
+        <TotalUsed>0</TotalUsed>
+        <TotalCollectible>0</TotalCollectible>
+        <TotalRefurbished>0</TotalRefurbished>
+      </OfferSummary>
+      <Offers>
+        <TotalOffers>0</TotalOffers>
+        <TotalOfferPages>0</TotalOfferPages>
+      </Offers>
+      <Accessories>
+        <Accessory>
+          <ASIN>B000I5NPL8</ASIN>
+          <Title>Louis Garneau 2009 Men's Oslo Bib Tights - Black - 1069041-020</Title>
+        </Accessory>
+        <Accessory>
+          <ASIN>B000TI59LI</ASIN>
+          <Title>Pearl Izumi 2007/08 Men's Vertex ThermaFleece Cycling Bib Shorts - Black - 0205-021</Title>
+        </Accessory>
+        <Accessory>
+          <ASIN>B000VKJWOO</ASIN>
+          <Title>Adidas 2008/09 Men's Response ClimaWarm Wind Race Tights w/ No Pad - Black - 485668</Title>
+        </Accessory>
+        <Accessory>
+          <ASIN>B001FYPM7Q</ASIN>
+          <Title>Rock Racing Men's O.G. Cycling Bib Shorts - Road Rash - MTBS024-RORA</Title>
+        </Accessory>
+        <Accessory>
+          <ASIN>B0012MA3B6</ASIN>
+          <Title>Pearl Izumi 2009 Men's Quest Cycling Bib Shorts - Black - 0222-021</Title>
+        </Accessory>
+      </Accessories>
+    </Item>
+    <Item>
+      <ASIN>0596520689</ASIN>
+      <SalesRank>3918</SalesRank>
+      <ItemAttributes>
+        <Author>Jan Goyvaerts</Author>
+        <Author>Steven Levithan</Author>
+        <Binding>Paperback</Binding>
+        <DeweyDecimalNumber>005</DeweyDecimalNumber>
+        <EAN>9780596520687</EAN>
+        <ISBN>0596520689</ISBN>
+        <Label>O'Reilly Media, Inc.</Label>
+        <ListPrice>
+          <Amount>4499</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$44.99</FormattedPrice>
+        </ListPrice>
+        <Manufacturer>O'Reilly Media, Inc.</Manufacturer>
+        <NumberOfItems>1</NumberOfItems>
+        <NumberOfPages>510</NumberOfPages>
+        <ProductGroup>Book</ProductGroup>
+        <ProductTypeName>ABIS_BOOK</ProductTypeName>
+        <PublicationDate>2009-06-04</PublicationDate>
+        <Publisher>O'Reilly Media, Inc.</Publisher>
+        <Studio>O'Reilly Media, Inc.</Studio>
+        <Title>Regular Expressions Cookbook</Title>
       </ItemAttributes>
       <OfferSummary>
         <LowestNewPrice>
-          <Amount>990</Amount>
+          <Amount>2969</Amount>
           <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$9.90</FormattedPrice>
+          <FormattedPrice>$29.69</FormattedPrice>
         </LowestNewPrice>
         <TotalNew>1</TotalNew>
+        <TotalUsed>0</TotalUsed>
+        <TotalCollectible>0</TotalCollectible>
+        <TotalRefurbished>0</TotalRefurbished>
+      </OfferSummary>
+      <Offers>
+        <TotalOffers>1</TotalOffers>
+        <TotalOfferPages>1</TotalOfferPages>
+        <Offer>
+          <Merchant>
+            <MerchantId>ATVPDKIKX0DER</MerchantId>
+            <GlancePage>http://www.amazon.com/gp/help/seller/home.html?seller=ATVPDKIKX0DER</GlancePage>
+            <AverageFeedbackRating>0.0</AverageFeedbackRating>
+            <TotalFeedback>0</TotalFeedback>
+          </Merchant>
+          <OfferAttributes>
+            <Condition>New</Condition>
+            <SubCondition>new</SubCondition>
+          </OfferAttributes>
+          <OfferListing>
+            <OfferListingId>RQBLsMdGMau940G2T1flJhbWtQ72xj%2BtY%2B2VGioJoQ%2BraWjKOn0N6B0u0H%2BJF%2B4Nz5bhyCNzF1eaUDWSXlGtfw%3D%3D</OfferListingId>
+            <Price>
+              <Amount>2969</Amount>
+              <CurrencyCode>USD</CurrencyCode>
+              <FormattedPrice>$29.69</FormattedPrice>
+            </Price>
+            <AmountSaved>
+              <Amount>1530</Amount>
+              <CurrencyCode>USD</CurrencyCode>
+              <FormattedPrice>$15.30</FormattedPrice>
+            </AmountSaved>
+            <PercentageSaved>34</PercentageSaved>
+            <Availability>Usually ships in 24 hours</Availability>
+            <AvailabilityAttributes>
+              <AvailabilityType>now</AvailabilityType>
+              <MinimumHours>0</MinimumHours>
+              <MaximumHours>0</MaximumHours>
+            </AvailabilityAttributes>
+            <Quantity>-1</Quantity>
+            <IsEligibleForSuperSaverShipping>1</IsEligibleForSuperSaverShipping>
+          </OfferListing>
+        </Offer>
+      </Offers>
+    </Item>
+    <Item>
+      <ASIN>0596101996</ASIN>
+      <SalesRank>3479</SalesRank>
+      <ItemAttributes>
+        <Author>David Flanagan</Author>
+        <Binding>Paperback</Binding>
+        <DeweyDecimalNumber>005.2762</DeweyDecimalNumber>
+        <EAN>9780596101992</EAN>
+        <Edition>5</Edition>
+        <ISBN>0596101996</ISBN>
+        <Label>O'Reilly Media, Inc.</Label>
+        <ListPrice>
+          <Amount>4999</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$49.99</FormattedPrice>
+        </ListPrice>
+        <Manufacturer>O'Reilly Media, Inc.</Manufacturer>
+        <NumberOfItems>1</NumberOfItems>
+        <NumberOfPages>1018</NumberOfPages>
+        <ProductGroup>Book</ProductGroup>
+        <ProductTypeName>ABIS_BOOK</ProductTypeName>
+        <PublicationDate>2006-08-17</PublicationDate>
+        <Publisher>O'Reilly Media, Inc.</Publisher>
+        <Studio>O'Reilly Media, Inc.</Studio>
+        <Title>JavaScript: The Definitive Guide</Title>
+      </ItemAttributes>
+      <OfferSummary>
+        <LowestNewPrice>
+          <Amount>2739</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$27.39</FormattedPrice>
+        </LowestNewPrice>
+        <LowestUsedPrice>
+          <Amount>2290</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$22.90</FormattedPrice>
+        </LowestUsedPrice>
+        <TotalNew>43</TotalNew>
+        <TotalUsed>31</TotalUsed>
+        <TotalCollectible>0</TotalCollectible>
+        <TotalRefurbished>0</TotalRefurbished>
+      </OfferSummary>
+      <Offers>
+        <TotalOffers>1</TotalOffers>
+        <TotalOfferPages>1</TotalOfferPages>
+        <Offer>
+          <Merchant>
+            <MerchantId>ATVPDKIKX0DER</MerchantId>
+            <GlancePage>http://www.amazon.com/gp/help/seller/home.html?seller=ATVPDKIKX0DER</GlancePage>
+            <AverageFeedbackRating>0.0</AverageFeedbackRating>
+            <TotalFeedback>0</TotalFeedback>
+          </Merchant>
+          <OfferAttributes>
+            <Condition>New</Condition>
+            <SubCondition>new</SubCondition>
+          </OfferAttributes>
+          <OfferListing>
+            <OfferListingId>MZzIcVIu1Ea5lYVj%2FtaVSXQh6omYkeM1YdW7u2gkWvyHolxurtkK2ivzR8fIBxrSS%2BSiPWESO1LmTkexR02qOOlZ%2BzXlZvgv</OfferListingId>
+            <Price>
+              <Amount>3149</Amount>
+              <CurrencyCode>USD</CurrencyCode>
+              <FormattedPrice>$31.49</FormattedPrice>
+            </Price>
+            <AmountSaved>
+              <Amount>1850</Amount>
+              <CurrencyCode>USD</CurrencyCode>
+              <FormattedPrice>$18.50</FormattedPrice>
+            </AmountSaved>
+            <PercentageSaved>37</PercentageSaved>
+            <Availability>Usually ships in 24 hours</Availability>
+            <AvailabilityAttributes>
+              <AvailabilityType>now</AvailabilityType>
+              <MinimumHours>0</MinimumHours>
+              <MaximumHours>0</MaximumHours>
+            </AvailabilityAttributes>
+            <Quantity>-1</Quantity>
+            <IsEligibleForSuperSaverShipping>1</IsEligibleForSuperSaverShipping>
+          </OfferListing>
+        </Offer>
+      </Offers>
+    </Item>
+    <Item>
+      <ASIN>0596513984</ASIN>
+      <SalesRank>2663</SalesRank>
+      <ItemAttributes>
+        <Author>Mark Lutz</Author>
+        <Binding>Paperback</Binding>
+        <DeweyDecimalNumber>005.13</DeweyDecimalNumber>
+        <EAN>9780596513986</EAN>
+        <Edition>3</Edition>
+        <ISBN>0596513984</ISBN>
+        <Label>O'Reilly Media, Inc.</Label>
+        <ListPrice>
+          <Amount>3999</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$39.99</FormattedPrice>
+        </ListPrice>
+        <Manufacturer>O'Reilly Media, Inc.</Manufacturer>
+        <NumberOfItems>1</NumberOfItems>
+        <NumberOfPages>746</NumberOfPages>
+        <ProductGroup>Book</ProductGroup>
+        <ProductTypeName>ABIS_BOOK</ProductTypeName>
+        <PublicationDate>2008-07-16</PublicationDate>
+        <Publisher>O'Reilly Media, Inc.</Publisher>
+        <Studio>O'Reilly Media, Inc.</Studio>
+        <Title>Learning Python, 3rd Edition</Title>
+      </ItemAttributes>
+      <OfferSummary>
+        <LowestNewPrice>
+          <Amount>2289</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$22.89</FormattedPrice>
+        </LowestNewPrice>
+        <LowestUsedPrice>
+          <Amount>1599</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$15.99</FormattedPrice>
+        </LowestUsedPrice>
+        <TotalNew>32</TotalNew>
+        <TotalUsed>22</TotalUsed>
+        <TotalCollectible>0</TotalCollectible>
+        <TotalRefurbished>0</TotalRefurbished>
+      </OfferSummary>
+      <Offers>
+        <TotalOffers>1</TotalOffers>
+        <TotalOfferPages>1</TotalOfferPages>
+        <Offer>
+          <Merchant>
+            <MerchantId>ATVPDKIKX0DER</MerchantId>
+            <GlancePage>http://www.amazon.com/gp/help/seller/home.html?seller=ATVPDKIKX0DER</GlancePage>
+            <AverageFeedbackRating>0.0</AverageFeedbackRating>
+            <TotalFeedback>0</TotalFeedback>
+          </Merchant>
+          <OfferAttributes>
+            <Condition>New</Condition>
+            <SubCondition>new</SubCondition>
+          </OfferAttributes>
+          <OfferListing>
+            <OfferListingId>YlB5V2qoc%2BZloipWZ97OYGIjq64kBrPWqrYB133yunpwSc702Nz6SWFS%2FRtJlQNSPHU7wWTLU%2FQkkMg4vkGdCA%3D%3D</OfferListingId>
+            <Price>
+              <Amount>2639</Amount>
+              <CurrencyCode>USD</CurrencyCode>
+              <FormattedPrice>$26.39</FormattedPrice>
+            </Price>
+            <AmountSaved>
+              <Amount>1360</Amount>
+              <CurrencyCode>USD</CurrencyCode>
+              <FormattedPrice>$13.60</FormattedPrice>
+            </AmountSaved>
+            <PercentageSaved>34</PercentageSaved>
+            <Availability>Usually ships in 24 hours</Availability>
+            <AvailabilityAttributes>
+              <AvailabilityType>now</AvailabilityType>
+              <MinimumHours>0</MinimumHours>
+              <MaximumHours>0</MaximumHours>
+            </AvailabilityAttributes>
+            <Quantity>-1</Quantity>
+            <IsEligibleForSuperSaverShipping>1</IsEligibleForSuperSaverShipping>
+          </OfferListing>
+        </Offer>
+      </Offers>
+    </Item>
+    <Item>
+      <ASIN>B000NSU05O</ASIN>
+      <SalesRank>159067</SalesRank>
+      <ItemAttributes>
+        <Binding>Apparel</Binding>
+        <Brand>Mephisto</Brand>
+        <ClothingSize>*</ClothingSize>
+        <Color>*</Color>
+        <Department>womens</Department>
+        <FabricType>leather</FabricType>
+        <Feature>Heel Height: 2 1/2"</Feature>
+        <Feature>Imported</Feature>
+        <Feature>Fit: True to Size</Feature>
+        <NumberOfItems>1</NumberOfItems>
+        <PackageQuantity>1</PackageQuantity>
+        <ProductGroup>Shoes</ProductGroup>
+        <ProductTypeName>SHOES</ProductTypeName>
+        <Size>*</Size>
+        <SKU>s349889</SKU>
+        <Title>Mephisto Women's Carly Mid Heel Shoes</Title>
+      </ItemAttributes>
+      <OfferSummary>
+        <TotalNew>0</TotalNew>
         <TotalUsed>0</TotalUsed>
         <TotalCollectible>0</TotalCollectible>
         <TotalRefurbished>0</TotalRefurbished>
@@ -1884,32 +2201,26 @@
       </Offers>
     </Item>
     <Item>
-      <ASIN>B000B755FW</ASIN>
-      <DetailPageURL>http://www.amazon.com/gp/redirect.html%3FASIN=B000B755FW%26tag=ws%26lcode=xm2%26cID=2025%26ccmID=165953%26location=/o/ASIN/B000B755FW%253FSubscriptionId=1VAESZQN1G7SXNRG4882</DetailPageURL>
+      <ASIN>B001D9EPBC</ASIN>
+      <SalesRank>579053</SalesRank>
       <ItemAttributes>
-        <Binding>Misc.</Binding>
-        <Feature>A unique alternative to DE</Feature>
-        <Feature>100% crystaline silica free</Feature>
-        <Feature>Use less, Save more!!</Feature>
-        <ItemDimensions>
-          <Weight Units="hundredths-pounds">1250</Weight>
-        </ItemDimensions>
-        <Label>Aqua Perl</Label>
-        <Manufacturer>Aqua Perl</Manufacturer>
+        <Binding>Apparel</Binding>
+        <Brand>Mephisto</Brand>
+        <ClothingSize>*</ClothingSize>
+        <Color>*</Color>
+        <Department>womens</Department>
+        <Feature>Heel Height: 2"</Feature>
+        <Feature>Fit: True to Size</Feature>
+        <NumberOfItems>1</NumberOfItems>
         <PackageQuantity>1</PackageQuantity>
-        <ProductGroup>Sports</ProductGroup>
-        <ProductTypeName>SPORTING_GOODS</ProductTypeName>
-        <Publisher>Aqua Perl</Publisher>
-        <Studio>Aqua Perl</Studio>
-        <Title>DIATOMACEOUS EARTH ALTERNATIVE by Aqua Perl</Title>
+        <ProductGroup>Apparel</ProductGroup>
+        <ProductTypeName>SHOES</ProductTypeName>
+        <Size>*</Size>
+        <SKU>s507562</SKU>
+        <Title>Mephisto Women's Carina Walking Shoes</Title>
       </ItemAttributes>
       <OfferSummary>
-        <LowestNewPrice>
-          <Amount>1239</Amount>
-          <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$12.39</FormattedPrice>
-        </LowestNewPrice>
-        <TotalNew>1</TotalNew>
+        <TotalNew>0</TotalNew>
         <TotalUsed>0</TotalUsed>
         <TotalCollectible>0</TotalCollectible>
         <TotalRefurbished>0</TotalRefurbished>
@@ -1918,6 +2229,97 @@
         <TotalOffers>0</TotalOffers>
         <TotalOfferPages>0</TotalOfferPages>
       </Offers>
+    </Item>
+    <Item>
+      <ASIN>B000S6D6C0</ASIN>
+      <SalesRank>88616</SalesRank>
+      <ItemAttributes>
+        <Binding>Apparel</Binding>
+        <Brand>Mephisto</Brand>
+        <ClothingSize>*</ClothingSize>
+        <Color>*</Color>
+        <Department>womens</Department>
+        <FabricType>buckskin</FabricType>
+        <Feature>Heel Height: 1"</Feature>
+        <Feature>Fit: True to Size</Feature>
+        <ListPrice>
+          <Amount>18200</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$182.00</FormattedPrice>
+        </ListPrice>
+        <NumberOfItems>1</NumberOfItems>
+        <PackageQuantity>1</PackageQuantity>
+        <ProductGroup>Shoes</ProductGroup>
+        <ProductTypeName>SHOES</ProductTypeName>
+        <Size>*</Size>
+        <SKU>5035235</SKU>
+        <Title>Women's Mephisto Affia</Title>
+      </ItemAttributes>
+      <OfferSummary>
+        <TotalNew>0</TotalNew>
+        <TotalUsed>0</TotalUsed>
+        <TotalCollectible>0</TotalCollectible>
+        <TotalRefurbished>0</TotalRefurbished>
+      </OfferSummary>
+      <Offers>
+        <TotalOffers>0</TotalOffers>
+        <TotalOfferPages>0</TotalOfferPages>
+      </Offers>
+    </Item>
+    <Item>
+      <ASIN>B00188MOIE</ASIN>
+      <SalesRank>731</SalesRank>
+      <ItemAttributes>
+        <Binding>Sports</Binding>
+        <Brand>Pearl Izumi</Brand>
+        <Department>unisex-adult</Department>
+        <Feature>Dense, U-bridge padding and Coolmaxï¿½ mesh offer comfort for short or long rides</Feature>
+        <Feature>Coolmaxï¿½ mesh on back of hand keeps your hands cool and dry</Feature>
+        <Feature>U-Bridge padding alleviates pressure on both the ulnar and medial nerves</Feature>
+        <Feature>Reflective logos</Feature>
+        <Label>Pearl Izumi</Label>
+        <Manufacturer>Pearl Izumi</Manufacturer>
+        <Model>8807</Model>
+        <ProductGroup>Sports</ProductGroup>
+        <ProductTypeName>ABIS_SPORTS</ProductTypeName>
+        <Publisher>Pearl Izumi</Publisher>
+        <ReleaseDate>2008-04-22</ReleaseDate>
+        <SKU>a_20445_0_0</SKU>
+        <Studio>Pearl Izumi</Studio>
+        <Title>Pearl Izumi Attack Cycling Glove</Title>
+      </ItemAttributes>
+      <OfferSummary>
+        <TotalNew>0</TotalNew>
+        <TotalUsed>0</TotalUsed>
+        <TotalCollectible>0</TotalCollectible>
+        <TotalRefurbished>0</TotalRefurbished>
+      </OfferSummary>
+      <Offers>
+        <TotalOffers>0</TotalOffers>
+        <TotalOfferPages>0</TotalOfferPages>
+      </Offers>
+      <Accessories>
+        <Accessory>
+          <ASIN>B000JGHOPY</ASIN>
+          <Title>Assos Prosline Gloves - Black - 2200.2000.1</Title>
+        </Accessory>
+        <Accessory>
+          <ASIN>B000JGLCLQ</ASIN>
+          <Title>Assos Prosline Gloves - White - 2200.2000.5</Title>
+        </Accessory>
+        <Accessory>
+          <ASIN>B001LURPQA</ASIN>
+          <Title>Pearl Izumi 2009 Men's Select Gel Cycling Gloves - Black - 8588-021</Title>
+        </Accessory>
+        <Accessory>
+          <ASIN>B001CUYHG0</ASIN>
+          <Title>Pearl Izumi 2009 Men's Pittards Octane Leather Cycling Gloves - Black - 8809-021</Title>
+        </Accessory>
+        <Accessory>
+          <ASIN>B0018IU3U0</ASIN>
+          <Title>Giordana 2009 Forma Cycling Gloves - Red - gi-glov-form-redd</Title>
+        </Accessory>
+      </Accessories>
     </Item>
   </Items>
 </ItemSearchResponse>

@@ -70,8 +70,6 @@ the Amazon web service with the given seller id.
 
 =back
 
-=head1 SEE ALSO
-
 =head1 AUTHOR
 
 Mike Schilli, E<lt>m@perlmeister.comE<gt>

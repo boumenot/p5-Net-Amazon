@@ -1,149 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<SellerListingSearchResponse xmlns="http://webservices.amazon.com/AWSECommerceService/2007-10-29">
+<SellerListingSearchResponse xmlns="http://webservices.amazon.com/AWSECommerceService/2009-03-31">
   <SellerListings>
-    <TotalResults>2113</TotalResults>
-    <TotalPages>212</TotalPages>
+    <TotalResults>1750</TotalResults>
+    <TotalPages>175</TotalPages>
     <SellerListing>
-      <ExchangeId>Y03Y3368867Y8279042</ExchangeId>
-      <ListingId>1220F944235</ListingId>
-      <ASIN>0831777923</ASIN>
-      <SKU>743</SKU>
-      <EAN>9780831777920</EAN>
-      <WillShipExpedited>1</WillShipExpedited>
-      <WillShipInternational>0</WillShipInternational>
-      <Title>The Sign of Four: A Sherlock Holmes Mystery  by Doyle, Arthur Conan, Sir</Title>
-      <Price>
-        <Amount>501</Amount>
-        <CurrencyCode>USD</CurrencyCode>
-        <FormattedPrice>$5.01</FormattedPrice>
-      </Price>
-      <StartDate>2003-12-20</StartDate>
-      <EndDate>2006-12-04</EndDate>
-      <Status>Open</Status>
-      <Quantity>1</Quantity>
-      <Condition>used</Condition>
-      <SubCondition>verygood</SubCondition>
-      <Seller>
-        <SellerId>A23JJ2BNHZMFCO</SellerId>
-        <Nickname>brick_road_books</Nickname>
-      </Seller>
-    </SellerListing>
-    <SellerListing>
-      <ExchangeId>Y01Y1549233Y9019922</ExchangeId>
-      <ListingId>1221T217343</ListingId>
-      <ASIN>0671695169</ASIN>
-      <SKU>3</SKU>
-      <EAN>9780671695163</EAN>
-      <WillShipExpedited>1</WillShipExpedited>
-      <WillShipInternational>0</WillShipInternational>
-      <Title>Midnight Whispers [Paperback]  by Andrews, V.C.; Linda Marrow</Title>
-      <Price>
-        <Amount>248</Amount>
-        <CurrencyCode>USD</CurrencyCode>
-        <FormattedPrice>$2.48</FormattedPrice>
-      </Price>
-      <StartDate>2003-12-22</StartDate>
-      <EndDate>2006-12-06</EndDate>
-      <Status>Open</Status>
-      <Quantity>1</Quantity>
-      <Condition>used</Condition>
-      <SubCondition>verygood</SubCondition>
-      <Seller>
-        <SellerId>A23JJ2BNHZMFCO</SellerId>
-        <Nickname>brick_road_books</Nickname>
-      </Seller>
-    </SellerListing>
-    <SellerListing>
-      <ExchangeId>Y02Y6148191Y0980985</ExchangeId>
-      <ListingId>1221R797909</ListingId>
-      <ASIN>0517532530</ASIN>
-      <SKU>2</SKU>
-      <EAN>9780517532539</EAN>
-      <WillShipExpedited>1</WillShipExpedited>
-      <WillShipInternational>0</WillShipInternational>
-      <Title>SCRUPLES            PM  by KRANTZ, JUDITH</Title>
-      <Price>
-        <Amount>248</Amount>
-        <CurrencyCode>USD</CurrencyCode>
-        <FormattedPrice>$2.48</FormattedPrice>
-      </Price>
-      <StartDate>2003-12-22</StartDate>
-      <EndDate>2006-12-06</EndDate>
-      <Status>Open</Status>
-      <Quantity>1</Quantity>
-      <Condition>used</Condition>
-      <SubCondition>verygood</SubCondition>
-      <Seller>
-        <SellerId>A23JJ2BNHZMFCO</SellerId>
-        <Nickname>brick_road_books</Nickname>
-      </Seller>
-    </SellerListing>
-    <SellerListing>
-      <ExchangeId>Y01Y6246275Y9444966</ExchangeId>
-      <ListingId>1221R411683</ListingId>
-      <ASIN>0140150188</ASIN>
-      <SKU>11</SKU>
-      <EAN>9780140150186</EAN>
-      <WillShipExpedited>1</WillShipExpedited>
-      <WillShipInternational>0</WillShipInternational>
-      <Title>The Portable Faulkner (Penguin Classics)  by Faulkner, William</Title>
-      <Price>
-        <Amount>248</Amount>
-        <CurrencyCode>USD</CurrencyCode>
-        <FormattedPrice>$2.48</FormattedPrice>
-      </Price>
-      <StartDate>2003-12-22</StartDate>
-      <EndDate>2006-12-06</EndDate>
-      <Status>Open</Status>
-      <Quantity>1</Quantity>
-      <Condition>used</Condition>
-      <SubCondition>good</SubCondition>
-      <Seller>
-        <SellerId>A23JJ2BNHZMFCO</SellerId>
-        <Nickname>brick_road_books</Nickname>
-      </Seller>
-    </SellerListing>
-    <SellerListing>
-      <ExchangeId>Y02Y0450062Y5293945</ExchangeId>
-      <ListingId>1221B089419</ListingId>
-      <ASIN>0345289781</ASIN>
-      <SKU>15</SKU>
-      <EAN>9780345289780</EAN>
-      <WillShipExpedited>1</WillShipExpedited>
-      <WillShipInternational>1</WillShipInternational>
-      <Title>OUTERMOST HOUSE [Paperback]  by BESTON, HENRY</Title>
-      <Price>
-        <Amount>135</Amount>
-        <CurrencyCode>USD</CurrencyCode>
-        <FormattedPrice>$1.35</FormattedPrice>
-      </Price>
-      <StartDate>2003-12-22</StartDate>
-      <EndDate>2006-12-06</EndDate>
-      <Status>Open</Status>
-      <Quantity>1</Quantity>
-      <Condition>used</Condition>
-      <SubCondition>good</SubCondition>
-      <Seller>
-        <SellerId>A23JJ2BNHZMFCO</SellerId>
-        <Nickname>brick_road_books</Nickname>
-      </Seller>
-    </SellerListing>
-    <SellerListing>
-      <ExchangeId>Y01Y3810229Y1402488</ExchangeId>
+      <ExchangeId>Y11M5526205M1732079</ExchangeId>
       <ListingId>1221T896306</ListingId>
       <ASIN>0376055723</ASIN>
       <SKU>19</SKU>
-      <EAN>9780376055729</EAN>
-      <WillShipExpedited>1</WillShipExpedited>
+      <WillShipExpedited>0</WillShipExpedited>
       <WillShipInternational>0</WillShipInternational>
-      <Title>National Parks of the West [Hardcover]  by Sunset Books; Sunset Magazine &amp; Book</Title>
+      <Title>National Parks of the West</Title>
       <Price>
         <Amount>405</Amount>
         <CurrencyCode>USD</CurrencyCode>
         <FormattedPrice>$4.05</FormattedPrice>
       </Price>
-      <StartDate>2003-12-22</StartDate>
-      <EndDate>2006-12-06</EndDate>
+      <StartDate>2008-09-19</StartDate>
       <Status>Open</Status>
       <Quantity>1</Quantity>
       <Condition>used</Condition>
@@ -154,71 +27,19 @@
       </Seller>
     </SellerListing>
     <SellerListing>
-      <ExchangeId>Y04Y6797041Y5325341</ExchangeId>
-      <ListingId>1221B315740</ListingId>
-      <ASIN>0060152362</ASIN>
-      <SKU>20</SKU>
-      <EAN>9780060152369</EAN>
-      <WillShipExpedited>1</WillShipExpedited>
-      <WillShipInternational>0</WillShipInternational>
-      <Title>Almost Paradise  by Isaacs, Susan</Title>
-      <Price>
-        <Amount>135</Amount>
-        <CurrencyCode>USD</CurrencyCode>
-        <FormattedPrice>$1.35</FormattedPrice>
-      </Price>
-      <StartDate>2003-12-22</StartDate>
-      <EndDate>2006-12-06</EndDate>
-      <Status>Open</Status>
-      <Quantity>1</Quantity>
-      <Condition>used</Condition>
-      <SubCondition>good</SubCondition>
-      <Seller>
-        <SellerId>A23JJ2BNHZMFCO</SellerId>
-        <Nickname>brick_road_books</Nickname>
-      </Seller>
-    </SellerListing>
-    <SellerListing>
-      <ExchangeId>Y02Y2254402Y8833144</ExchangeId>
-      <ListingId>1221L671212</ListingId>
-      <ASIN>0061014591</ASIN>
-      <SKU>41</SKU>
-      <EAN>9780061014598</EAN>
-      <WillShipExpedited>1</WillShipExpedited>
-      <WillShipInternational>0</WillShipInternational>
-      <Title>The Terrible Hours [Paperback]  by Maas, Peter</Title>
-      <Price>
-        <Amount>293</Amount>
-        <CurrencyCode>USD</CurrencyCode>
-        <FormattedPrice>$2.93</FormattedPrice>
-      </Price>
-      <StartDate>2003-12-22</StartDate>
-      <EndDate>2006-12-06</EndDate>
-      <Status>Open</Status>
-      <Quantity>1</Quantity>
-      <Condition>used</Condition>
-      <SubCondition>verygood</SubCondition>
-      <Seller>
-        <SellerId>A23JJ2BNHZMFCO</SellerId>
-        <Nickname>brick_road_books</Nickname>
-      </Seller>
-    </SellerListing>
-    <SellerListing>
-      <ExchangeId>Y04Y0616384Y6549986</ExchangeId>
+      <ExchangeId>Y11M4112817M6890583</ExchangeId>
       <ListingId>1221R251778</ListingId>
       <ASIN>0762188731</ASIN>
       <SKU>40</SKU>
-      <EAN>9780762188734</EAN>
-      <WillShipExpedited>1</WillShipExpedited>
+      <WillShipExpedited>0</WillShipExpedited>
       <WillShipInternational>0</WillShipInternational>
-      <Title>The Moonstone (The Best Mysteries of All Time)  by Collins, Wilkie</Title>
+      <Title>The Moonstone (The Best Mysteries of All Time)</Title>
       <Price>
         <Amount>630</Amount>
         <CurrencyCode>USD</CurrencyCode>
         <FormattedPrice>$6.30</FormattedPrice>
       </Price>
-      <StartDate>2003-12-22</StartDate>
-      <EndDate>2006-12-06</EndDate>
+      <StartDate>2008-09-19</StartDate>
       <Status>Open</Status>
       <Quantity>1</Quantity>
       <Condition>used</Condition>
@@ -229,21 +50,180 @@
       </Seller>
     </SellerListing>
     <SellerListing>
-      <ExchangeId>Y02Y3220578Y9051703</ExchangeId>
+      <ExchangeId>Y11M1456061M8942330</ExchangeId>
+      <ListingId>1221L671212</ListingId>
+      <ASIN>0061014591</ASIN>
+      <SKU>41</SKU>
+      <WillShipExpedited>0</WillShipExpedited>
+      <WillShipInternational>0</WillShipInternational>
+      <Title>The Terrible Hours</Title>
+      <Price>
+        <Amount>293</Amount>
+        <CurrencyCode>USD</CurrencyCode>
+        <FormattedPrice>$2.93</FormattedPrice>
+      </Price>
+      <StartDate>2008-09-19</StartDate>
+      <Status>Open</Status>
+      <Quantity>1</Quantity>
+      <Condition>used</Condition>
+      <SubCondition>verygood</SubCondition>
+      <Seller>
+        <SellerId>A23JJ2BNHZMFCO</SellerId>
+        <Nickname>brick_road_books</Nickname>
+      </Seller>
+    </SellerListing>
+    <SellerListing>
+      <ExchangeId>Y11M1082685M7692543</ExchangeId>
       <ListingId>1221L897533</ListingId>
       <ASIN>0140150552</ASIN>
       <SKU>53</SKU>
-      <EAN>9780140150551</EAN>
-      <WillShipExpedited>1</WillShipExpedited>
+      <WillShipExpedited>0</WillShipExpedited>
       <WillShipInternational>0</WillShipInternational>
-      <Title>The Portable Henry James (Viking Portable Library)  by James, Henry</Title>
+      <Title>The Portable Henry James (Viking Portable Library)</Title>
       <Price>
         <Amount>585</Amount>
         <CurrencyCode>USD</CurrencyCode>
         <FormattedPrice>$5.85</FormattedPrice>
       </Price>
-      <StartDate>2003-12-22</StartDate>
-      <EndDate>2006-12-06</EndDate>
+      <StartDate>2008-09-19</StartDate>
+      <Status>Open</Status>
+      <Quantity>1</Quantity>
+      <Condition>used</Condition>
+      <SubCondition>good</SubCondition>
+      <Seller>
+        <SellerId>A23JJ2BNHZMFCO</SellerId>
+        <Nickname>brick_road_books</Nickname>
+      </Seller>
+    </SellerListing>
+    <SellerListing>
+      <ExchangeId>Y11M3628209M1816687</ExchangeId>
+      <ListingId>1221A221024</ListingId>
+      <ASIN>0743436210</ASIN>
+      <SKU>66</SKU>
+      <WillShipExpedited>0</WillShipExpedited>
+      <WillShipInternational>0</WillShipInternational>
+      <Title>Hearts in Atlantis</Title>
+      <Price>
+        <Amount>158</Amount>
+        <CurrencyCode>USD</CurrencyCode>
+        <FormattedPrice>$1.58</FormattedPrice>
+      </Price>
+      <StartDate>2008-09-19</StartDate>
+      <Status>Open</Status>
+      <Quantity>1</Quantity>
+      <Condition>used</Condition>
+      <SubCondition>mint</SubCondition>
+      <Seller>
+        <SellerId>A23JJ2BNHZMFCO</SellerId>
+        <Nickname>brick_road_books</Nickname>
+      </Seller>
+    </SellerListing>
+    <SellerListing>
+      <ExchangeId>Y11M4422098M8344962</ExchangeId>
+      <ListingId>1221K898760</ListingId>
+      <ASIN>0679429220</ASIN>
+      <SKU>72</SKU>
+      <WillShipExpedited>0</WillShipExpedited>
+      <WillShipInternational>0</WillShipInternational>
+      <Title>Midnight in the Garden of Good and Evil</Title>
+      <Price>
+        <Amount>473</Amount>
+        <CurrencyCode>USD</CurrencyCode>
+        <FormattedPrice>$4.73</FormattedPrice>
+      </Price>
+      <StartDate>2008-09-19</StartDate>
+      <Status>Open</Status>
+      <Quantity>1</Quantity>
+      <Condition>used</Condition>
+      <SubCondition>verygood</SubCondition>
+      <Seller>
+        <SellerId>A23JJ2BNHZMFCO</SellerId>
+        <Nickname>brick_road_books</Nickname>
+      </Seller>
+    </SellerListing>
+    <SellerListing>
+      <ExchangeId>Y11M1651048M1070096</ExchangeId>
+      <ListingId>1221H254232</ListingId>
+      <ASIN>0590435140</ASIN>
+      <SKU>79</SKU>
+      <WillShipExpedited>0</WillShipExpedited>
+      <WillShipInternational>0</WillShipInternational>
+      <Title>When No One Was Looking...Someone Died</Title>
+      <Price>
+        <Amount>199</Amount>
+        <CurrencyCode>USD</CurrencyCode>
+        <FormattedPrice>$1.99</FormattedPrice>
+      </Price>
+      <StartDate>2008-09-19</StartDate>
+      <Status>Open</Status>
+      <Quantity>1</Quantity>
+      <Condition>used</Condition>
+      <SubCondition>good</SubCondition>
+      <Seller>
+        <SellerId>A23JJ2BNHZMFCO</SellerId>
+        <Nickname>brick_road_books</Nickname>
+      </Seller>
+    </SellerListing>
+    <SellerListing>
+      <ExchangeId>Y11M1512807M4322331</ExchangeId>
+      <ListingId>1221L351402</ListingId>
+      <ASIN>1559583495</ASIN>
+      <SKU>85</SKU>
+      <WillShipExpedited>0</WillShipExpedited>
+      <WillShipInternational>0</WillShipInternational>
+      <Title>Romance Writer's Pink Pages: The Insider's Guide to Getting Your Romance Novel Published</Title>
+      <Price>
+        <Amount>215</Amount>
+        <CurrencyCode>USD</CurrencyCode>
+        <FormattedPrice>$2.15</FormattedPrice>
+      </Price>
+      <StartDate>2008-09-19</StartDate>
+      <Status>Open</Status>
+      <Quantity>1</Quantity>
+      <Condition>used</Condition>
+      <SubCondition>verygood</SubCondition>
+      <Seller>
+        <SellerId>A23JJ2BNHZMFCO</SellerId>
+        <Nickname>brick_road_books</Nickname>
+      </Seller>
+    </SellerListing>
+    <SellerListing>
+      <ExchangeId>Y11M5448158M7125215</ExchangeId>
+      <ListingId>1221L804044</ListingId>
+      <ASIN>0436209519</ASIN>
+      <SKU>100</SKU>
+      <WillShipExpedited>0</WillShipExpedited>
+      <WillShipInternational>0</WillShipInternational>
+      <Title>Meyer Meyer</Title>
+      <Price>
+        <Amount>1350</Amount>
+        <CurrencyCode>USD</CurrencyCode>
+        <FormattedPrice>$13.50</FormattedPrice>
+      </Price>
+      <StartDate>2008-09-19</StartDate>
+      <Status>Open</Status>
+      <Quantity>1</Quantity>
+      <Condition>used</Condition>
+      <SubCondition>verygood</SubCondition>
+      <Seller>
+        <SellerId>A23JJ2BNHZMFCO</SellerId>
+        <Nickname>brick_road_books</Nickname>
+      </Seller>
+    </SellerListing>
+    <SellerListing>
+      <ExchangeId>Y11M3246682M5419966</ExchangeId>
+      <ListingId>1221B674893</ListingId>
+      <ASIN>0553210130</ASIN>
+      <SKU>98</SKU>
+      <WillShipExpedited>0</WillShipExpedited>
+      <WillShipInternational>0</WillShipInternational>
+      <Title>Canterbury Tales</Title>
+      <Price>
+        <Amount>261</Amount>
+        <CurrencyCode>USD</CurrencyCode>
+        <FormattedPrice>$2.61</FormattedPrice>
+      </Price>
+      <StartDate>2008-09-19</StartDate>
       <Status>Open</Status>
       <Quantity>1</Quantity>
       <Condition>used</Condition>

@@ -147,8 +147,6 @@ C<Net::Amazon::Response::Exchange>'s C<result> method.
 
 =back
 
-=head1 SEE ALSO
-
 =head1 AUTHOR
 
 Mike Schilli, E<lt>m@perlmeister.comE<gt>

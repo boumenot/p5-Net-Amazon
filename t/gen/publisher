@@ -8,12 +8,13 @@ use Net::Amazon::Request::Publisher;
 
 my $ua = Net::Amazon->new(
     token         => $ENV{AMAZON_TOKEN},
+    secret_key    => $ENV{AMAZON_SECRET_KEY},
     max_pages     => 1,
     response_dump => 1,
 );
 
 my $req = Net::Amazon::Request::Publisher->new(
-    publisher => 'Black Belt Communications, Inc.',
+    publisher => 'Disney Hyperion Books for Children',
 );
 
 my $resp = $ua->request($req);

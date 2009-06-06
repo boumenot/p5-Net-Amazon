@@ -1,11 +1,19 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<ItemLookupResponse xmlns="http://webservices.amazon.com/AWSECommerceService/2007-10-29">
+<?xml version="1.0"?>
+<ItemLookupResponse xmlns="http://webservices.amazon.com/AWSECommerceService/2009-03-31">
   <Items>
     <Request>
       <IsValid>True</IsValid>
       <ItemLookupRequest>
+        <Condition>New</Condition>
+        <DeliveryMethod>Ship</DeliveryMethod>
+        <IdType>ASIN</IdType>
+        <MerchantId>Amazon</MerchantId>
+        <OfferPage>1</OfferPage>
         <ItemId>123</ItemId>
         <ResponseGroup>Large</ResponseGroup>
+        <ReviewPage>1</ReviewPage>
+        <ReviewSort>-SubmissionDate</ReviewSort>
+        <VariationPage>All</VariationPage>
       </ItemLookupRequest>
       <Errors>
         <Error>

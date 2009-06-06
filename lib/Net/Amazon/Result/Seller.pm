@@ -116,8 +116,6 @@ See the documentation of this class for details.
 
 =back
 
-=head1 SEE ALSO
-
 =head1 AUTHOR
 
 Mike Schilli, E<lt>m@perlmeister.comE<gt>

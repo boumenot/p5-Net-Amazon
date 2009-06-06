@@ -78,7 +78,7 @@ is typically C<"books">. Examples for C<$search_string> are:
     keywords: "high tech*" and not fiction and pubdate: during 1999
 
     power "author: randal schwartz and publisher: Addison Wesley"
- 
+
     author: randal schwartz and title: object books
 
 See the "Amazon Web Services 2.1 API and Integration Guide" for details.
@@ -86,8 +86,6 @@ See the "Amazon Web Services 2.1 API and Integration Guide" for details.
 =back
 
 Check L<Net::Amazon::Request> for common request parameters not listed here.
-
-=head1 SEE ALSO
 
 =head1 AUTHORS
 

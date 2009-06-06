@@ -1,10 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<ItemLookupResponse xmlns="http://webservices.amazon.com/AWSECommerceService/2007-10-29">
+<?xml version="1.0"?>
+<ItemLookupResponse xmlns="http://webservices.amazon.com/AWSECommerceService/2009-03-31">
   <Items>
     <Item>
       <ASIN>0201633612</ASIN>
-      <DetailPageURL>http://www.amazon.com/gp/redirect.html%3FASIN=0201633612%26tag=ws%26lcode=xm2%26cID=2025%26ccmID=165953%26location=/o/ASIN/0201633612%253FSubscriptionId=1VAESZQN1G7SXNRG4882</DetailPageURL>
-      <SalesRank>5062</SalesRank>
+      <SalesRank>4011</SalesRank>
       <ItemAttributes>
         <Author>Erich Gamma</Author>
         <Author>Richard Helm</Author>
@@ -13,8 +12,23 @@
         <Binding>Hardcover</Binding>
         <DeweyDecimalNumber>005.12</DeweyDecimalNumber>
         <EAN>9780201633610</EAN>
+        <Edition>illustrated edition</Edition>
         <ISBN>0201633612</ISBN>
         <Label>Addison-Wesley Professional</Label>
+        <Languages>
+          <Language>
+            <Name>English</Name>
+            <Type>Original Language</Type>
+          </Language>
+          <Language>
+            <Name>English</Name>
+            <Type>Unknown</Type>
+          </Language>
+          <Language>
+            <Name>English</Name>
+            <Type>Published</Type>
+          </Language>
+        </Languages>
         <ListPrice>
           <Amount>5999</Amount>
           <CurrencyCode>USD</CurrencyCode>
@@ -33,17 +47,17 @@
       </ItemAttributes>
       <OfferSummary>
         <LowestNewPrice>
-          <Amount>4000</Amount>
+          <Amount>2900</Amount>
           <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$40.00</FormattedPrice>
+          <FormattedPrice>$29.00</FormattedPrice>
         </LowestNewPrice>
         <LowestUsedPrice>
-          <Amount>3998</Amount>
+          <Amount>2443</Amount>
           <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$39.98</FormattedPrice>
+          <FormattedPrice>$24.43</FormattedPrice>
         </LowestUsedPrice>
-        <TotalNew>46</TotalNew>
-        <TotalUsed>29</TotalUsed>
+        <TotalNew>58</TotalNew>
+        <TotalUsed>64</TotalUsed>
         <TotalCollectible>0</TotalCollectible>
         <TotalRefurbished>0</TotalRefurbished>
       </OfferSummary>
@@ -62,18 +76,18 @@
             <SubCondition>new</SubCondition>
           </OfferAttributes>
           <OfferListing>
-            <OfferListingId>TFk3PRVIE1NizL36LKSsR1WEDURhPHSlhnkn%2BBr3V35OMJ7oZYwc%2Bjf1Lz5%2FgoqwaFftFHzM%2BVucDb8EieXHog%3D%3D</OfferListingId>
+            <OfferListingId>UCJQjXqyKvkWYpeYuduWsCUH8dkRgcGdbhbV7UbJBhy97aLXJ64ZgVnN%2F7iSct28xNV74u8%2FGIjWtp2lCo8S%2Fw%3D%3D</OfferListingId>
             <Price>
-              <Amount>4800</Amount>
+              <Amount>3896</Amount>
               <CurrencyCode>USD</CurrencyCode>
-              <FormattedPrice>$48.00</FormattedPrice>
+              <FormattedPrice>$38.96</FormattedPrice>
             </Price>
             <AmountSaved>
-              <Amount>1199</Amount>
+              <Amount>2103</Amount>
               <CurrencyCode>USD</CurrencyCode>
-              <FormattedPrice>$11.99</FormattedPrice>
+              <FormattedPrice>$21.03</FormattedPrice>
             </AmountSaved>
-            <PercentageSaved>20</PercentageSaved>
+            <PercentageSaved>35</PercentageSaved>
             <Availability>Usually ships in 24 hours</Availability>
             <AvailabilityAttributes>
               <AvailabilityType>now</AvailabilityType>
@@ -85,6 +99,20 @@
           </OfferListing>
         </Offer>
       </Offers>
+      <Accessories>
+        <Accessory>
+          <ASIN>0321247140</ASIN>
+          <Title>Design Patterns Explained: A New Perspective on Object-Oriented Design (2nd Edition) (Software Patterns Series)</Title>
+        </Accessory>
+        <Accessory>
+          <ASIN>0321509366</ASIN>
+          <Title>Emergent Design: The Evolutionary Nature of Professional Software Development (Net Objectives Lean-Agile Series)</Title>
+        </Accessory>
+        <Accessory>
+          <ASIN>0321413091</ASIN>
+          <Title>Implementation Patterns (Addison-Wesley Signature Series)</Title>
+        </Accessory>
+      </Accessories>
     </Item>
   </Items>
 </ItemLookupResponse>

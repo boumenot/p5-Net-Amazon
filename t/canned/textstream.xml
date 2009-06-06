@@ -1,460 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ItemSearchResponse xmlns="http://webservices.amazon.com/AWSECommerceService/2007-10-29">
+<ItemSearchResponse xmlns="http://webservices.amazon.com/AWSECommerceService/2009-03-31">
   <Items>
     <Item>
-      <ASIN>0066620996</ASIN>
-      <DetailPageURL>http://www.amazon.com/gp/redirect.html%3FASIN=0066620996%26tag=ws%26lcode=xm2%26cID=2025%26ccmID=165953%26location=/o/ASIN/0066620996%253FSubscriptionId=1VAESZQN1G7SXNRG4882</DetailPageURL>
-      <SalesRank>146</SalesRank>
+      <ASIN>0977326411</ASIN>
+      <SalesRank>57</SalesRank>
       <ItemAttributes>
         <Author>Jim Collins</Author>
         <Binding>Hardcover</Binding>
         <DeweyDecimalNumber>658</DeweyDecimalNumber>
-        <EAN>9780066620992</EAN>
-        <Edition>1</Edition>
-        <ISBN>0066620996</ISBN>
-        <Label>Collins</Label>
+        <EAN>9780977326419</EAN>
+        <ISBN>0977326411</ISBN>
+        <Label>Jim Collins</Label>
         <ListPrice>
-          <Amount>2750</Amount>
+          <Amount>2399</Amount>
           <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$27.50</FormattedPrice>
+          <FormattedPrice>$23.99</FormattedPrice>
         </ListPrice>
-        <Manufacturer>Collins</Manufacturer>
+        <Manufacturer>Jim Collins</Manufacturer>
         <NumberOfItems>1</NumberOfItems>
-        <NumberOfPages>300</NumberOfPages>
+        <NumberOfPages>240</NumberOfPages>
         <ProductGroup>Book</ProductGroup>
         <ProductTypeName>ABIS_BOOK</ProductTypeName>
-        <PublicationDate>2001-10</PublicationDate>
-        <Publisher>Collins</Publisher>
-        <ReleaseDate>2001-10-16</ReleaseDate>
-        <Studio>Collins</Studio>
-        <Title>Good to Great: Why Some Companies Make the Leap... and Others Don't</Title>
+        <PublicationDate>2009-06-01</PublicationDate>
+        <Publisher>Jim Collins</Publisher>
+        <ReleaseDate>2009-05-19</ReleaseDate>
+        <Studio>Jim Collins</Studio>
+        <Title>How The Mighty Fall: And Why Some Companies Never Give In</Title>
       </ItemAttributes>
       <OfferSummary>
         <LowestNewPrice>
-          <Amount>1300</Amount>
+          <Amount>1389</Amount>
           <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$13.00</FormattedPrice>
+          <FormattedPrice>$13.89</FormattedPrice>
         </LowestNewPrice>
         <LowestUsedPrice>
-          <Amount>1015</Amount>
+          <Amount>1487</Amount>
           <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$10.15</FormattedPrice>
+          <FormattedPrice>$14.87</FormattedPrice>
         </LowestUsedPrice>
-        <LowestCollectiblePrice>
-          <Amount>2750</Amount>
-          <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$27.50</FormattedPrice>
-        </LowestCollectiblePrice>
-        <TotalNew>85</TotalNew>
-        <TotalUsed>92</TotalUsed>
-        <TotalCollectible>32</TotalCollectible>
-        <TotalRefurbished>0</TotalRefurbished>
-      </OfferSummary>
-      <Offers>
-        <TotalOffers>1</TotalOffers>
-        <TotalOfferPages>1</TotalOfferPages>
-        <Offer>
-          <Merchant>
-            <MerchantId>ATVPDKIKX0DER</MerchantId>
-            <GlancePage>http://www.amazon.com/gp/help/seller/home.html?seller=ATVPDKIKX0DER</GlancePage>
-            <AverageFeedbackRating>0.0</AverageFeedbackRating>
-            <TotalFeedback>0</TotalFeedback>
-          </Merchant>
-          <OfferAttributes>
-            <Condition>New</Condition>
-            <SubCondition>new</SubCondition>
-          </OfferAttributes>
-          <OfferListing>
-            <OfferListingId>X6w2H3uZDSzyvfwcLA8GlbCSgIyfN%2FdNoS3PSwJg9hgm0qJ89xdcwTgMHY3cpTNoZx4Hcx9CgzRNt3Xyil7TVA%3D%3D</OfferListingId>
-            <Price>
-              <Amount>1815</Amount>
-              <CurrencyCode>USD</CurrencyCode>
-              <FormattedPrice>$18.15</FormattedPrice>
-            </Price>
-            <AmountSaved>
-              <Amount>935</Amount>
-              <CurrencyCode>USD</CurrencyCode>
-              <FormattedPrice>$9.35</FormattedPrice>
-            </AmountSaved>
-            <PercentageSaved>34</PercentageSaved>
-            <Availability>Usually ships in 24 hours</Availability>
-            <AvailabilityAttributes>
-              <AvailabilityType>now</AvailabilityType>
-              <MinimumHours>0</MinimumHours>
-              <MaximumHours>0</MaximumHours>
-            </AvailabilityAttributes>
-            <Quantity>-1</Quantity>
-            <IsEligibleForSuperSaverShipping>1</IsEligibleForSuperSaverShipping>
-          </OfferListing>
-        </Offer>
-      </Offers>
-    </Item>
-    <Item>
-      <ASIN>1400064287</ASIN>
-      <DetailPageURL>http://www.amazon.com/gp/redirect.html%3FASIN=1400064287%26tag=ws%26lcode=xm2%26cID=2025%26ccmID=165953%26location=/o/ASIN/1400064287%253FSubscriptionId=1VAESZQN1G7SXNRG4882</DetailPageURL>
-      <SalesRank>272</SalesRank>
-      <ItemAttributes>
-        <Author>Chip Heath</Author>
-        <Author>Dan Heath</Author>
-        <Binding>Hardcover</Binding>
-        <DeweyDecimalNumber>302.13</DeweyDecimalNumber>
-        <EAN>9781400064281</EAN>
-        <ISBN>1400064287</ISBN>
-        <Label>Random House</Label>
-        <ListPrice>
-          <Amount>2495</Amount>
-          <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$24.95</FormattedPrice>
-        </ListPrice>
-        <Manufacturer>Random House</Manufacturer>
-        <NumberOfItems>1</NumberOfItems>
-        <NumberOfPages>304</NumberOfPages>
-        <ProductGroup>Book</ProductGroup>
-        <ProductTypeName>ABIS_BOOK</ProductTypeName>
-        <PublicationDate>2007-01-02</PublicationDate>
-        <Publisher>Random House</Publisher>
-        <ReleaseDate>2007-01-02</ReleaseDate>
-        <Studio>Random House</Studio>
-        <Title>Made to Stick: Why Some Ideas Survive and Others Die</Title>
-      </ItemAttributes>
-      <OfferSummary>
-        <LowestNewPrice>
-          <Amount>1395</Amount>
-          <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$13.95</FormattedPrice>
-        </LowestNewPrice>
-        <LowestUsedPrice>
-          <Amount>997</Amount>
-          <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$9.97</FormattedPrice>
-        </LowestUsedPrice>
-        <LowestCollectiblePrice>
-          <Amount>2895</Amount>
-          <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$28.95</FormattedPrice>
-        </LowestCollectiblePrice>
-        <TotalNew>42</TotalNew>
-        <TotalUsed>23</TotalUsed>
-        <TotalCollectible>1</TotalCollectible>
-        <TotalRefurbished>0</TotalRefurbished>
-      </OfferSummary>
-      <Offers>
-        <TotalOffers>1</TotalOffers>
-        <TotalOfferPages>1</TotalOfferPages>
-        <Offer>
-          <Merchant>
-            <MerchantId>ATVPDKIKX0DER</MerchantId>
-            <GlancePage>http://www.amazon.com/gp/help/seller/home.html?seller=ATVPDKIKX0DER</GlancePage>
-            <AverageFeedbackRating>0.0</AverageFeedbackRating>
-            <TotalFeedback>0</TotalFeedback>
-          </Merchant>
-          <OfferAttributes>
-            <Condition>New</Condition>
-            <SubCondition>new</SubCondition>
-          </OfferAttributes>
-          <OfferListing>
-            <OfferListingId>1ULNkcdXCf%2BCgbwpJ5HXYLt7iyHACEA%2BiMtipWyOat9H9hgGCAMl9uScrlAMN7ijGkW%2Ft8dRqu03%2BOYyxFSUng%3D%3D</OfferListingId>
-            <Price>
-              <Amount>1497</Amount>
-              <CurrencyCode>USD</CurrencyCode>
-              <FormattedPrice>$14.97</FormattedPrice>
-            </Price>
-            <AmountSaved>
-              <Amount>998</Amount>
-              <CurrencyCode>USD</CurrencyCode>
-              <FormattedPrice>$9.98</FormattedPrice>
-            </AmountSaved>
-            <PercentageSaved>40</PercentageSaved>
-            <Availability>Usually ships in 24 hours</Availability>
-            <AvailabilityAttributes>
-              <AvailabilityType>now</AvailabilityType>
-              <MinimumHours>0</MinimumHours>
-              <MaximumHours>0</MaximumHours>
-            </AvailabilityAttributes>
-            <Quantity>-1</Quantity>
-            <IsEligibleForSuperSaverShipping>1</IsEligibleForSuperSaverShipping>
-          </OfferListing>
-        </Offer>
-      </Offers>
-    </Item>
-    <Item>
-      <ASIN>1580626580</ASIN>
-      <DetailPageURL>http://www.amazon.com/gp/redirect.html%3FASIN=1580626580%26tag=ws%26lcode=xm2%26cID=2025%26ccmID=165953%26location=/o/ASIN/1580626580%253FSubscriptionId=1VAESZQN1G7SXNRG4882</DetailPageURL>
-      <SalesRank>1276</SalesRank>
-      <ItemAttributes>
-        <Author>Sandra K. Nissenberg</Author>
-        <Binding>Paperback</Binding>
-        <DeweyDecimalNumber>641.5123</DeweyDecimalNumber>
-        <EAN>9781580626583</EAN>
-        <ISBN>1580626580</ISBN>
-        <Label>Adams Media Corporation</Label>
-        <ListPrice>
-          <Amount>795</Amount>
-          <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$7.95</FormattedPrice>
-        </ListPrice>
-        <Manufacturer>Adams Media Corporation</Manufacturer>
-        <NumberOfItems>1</NumberOfItems>
-        <NumberOfPages>144</NumberOfPages>
-        <ProductGroup>Book</ProductGroup>
-        <ProductTypeName>ABIS_BOOK</ProductTypeName>
-        <PublicationDate>2002-10</PublicationDate>
-        <Publisher>Adams Media Corporation</Publisher>
-        <ReadingLevel>Ages 9-12</ReadingLevel>
-        <Studio>Adams Media Corporation</Studio>
-        <Title>Everything Kids' Cookbook: From Mac ' N Cheese to Double Chocolate Chip Cookies-All You Need to Have Some Finger Lickin' Fun (Everything Kids Series)</Title>
-      </ItemAttributes>
-      <OfferSummary>
-        <LowestNewPrice>
-          <Amount>259</Amount>
-          <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$2.59</FormattedPrice>
-        </LowestNewPrice>
-        <LowestUsedPrice>
-          <Amount>233</Amount>
-          <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$2.33</FormattedPrice>
-        </LowestUsedPrice>
-        <TotalNew>9</TotalNew>
-        <TotalUsed>6</TotalUsed>
-        <TotalCollectible>0</TotalCollectible>
-        <TotalRefurbished>0</TotalRefurbished>
-      </OfferSummary>
-      <Offers>
-        <TotalOffers>1</TotalOffers>
-        <TotalOfferPages>1</TotalOfferPages>
-        <Offer>
-          <Merchant>
-            <MerchantId>ATVPDKIKX0DER</MerchantId>
-            <GlancePage>http://www.amazon.com/gp/help/seller/home.html?seller=ATVPDKIKX0DER</GlancePage>
-            <AverageFeedbackRating>0.0</AverageFeedbackRating>
-            <TotalFeedback>0</TotalFeedback>
-          </Merchant>
-          <OfferAttributes>
-            <Condition>New</Condition>
-            <SubCondition>new</SubCondition>
-          </OfferAttributes>
-          <OfferListing>
-            <OfferListingId>dSEd%2BNbfRWm4k7aWjP6lEju5xzDIcp%2FoT2SNmoVGXOc%2F3NkJ6Q0KzYlLIOCqznOI7JXO6mZcQz9GXZEROct7OA%3D%3D</OfferListingId>
-            <Price>
-              <Amount>795</Amount>
-              <CurrencyCode>USD</CurrencyCode>
-              <FormattedPrice>$7.95</FormattedPrice>
-            </Price>
-            <Availability>In stock soon. Order now to get in line. First come, first served.</Availability>
-            <AvailabilityAttributes>
-              <AvailabilityType>unknown</AvailabilityType>
-              <MinimumHours>672</MinimumHours>
-              <MaximumHours>1008</MaximumHours>
-            </AvailabilityAttributes>
-            <IsEligibleForSuperSaverShipping>1</IsEligibleForSuperSaverShipping>
-          </OfferListing>
-        </Offer>
-      </Offers>
-    </Item>
-    <Item>
-      <ASIN>0979526108</ASIN>
-      <DetailPageURL>http://www.amazon.com/gp/redirect.html%3FASIN=0979526108%26tag=ws%26lcode=xm2%26cID=2025%26ccmID=165953%26location=/o/ASIN/0979526108%253FSubscriptionId=1VAESZQN1G7SXNRG4882</DetailPageURL>
-      <SalesRank>433</SalesRank>
-      <ItemAttributes>
-        <Binding>Hardcover</Binding>
-        <Creator Role="Editor">Rolling Stone</Creator>
-        <DeweyDecimalNumber>704</DeweyDecimalNumber>
-        <EAN>9780979526107</EAN>
-        <Edition>Har/DVD</Edition>
-        <ISBN>0979526108</ISBN>
-        <Label>Bondi Digital Publishing, LLC</Label>
-        <ListPrice>
-          <Amount>12500</Amount>
-          <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$125.00</FormattedPrice>
-        </ListPrice>
-        <Manufacturer>Bondi Digital Publishing, LLC</Manufacturer>
-        <NumberOfItems>1</NumberOfItems>
-        <NumberOfPages>200</NumberOfPages>
-        <ProductGroup>Book</ProductGroup>
-        <ProductTypeName>ABIS_BOOK</ProductTypeName>
-        <PublicationDate>2007-10-22</PublicationDate>
-        <Publisher>Bondi Digital Publishing, LLC</Publisher>
-        <Studio>Bondi Digital Publishing, LLC</Studio>
-        <Title>Rolling Stone Cover to Cover: The First 40 Years</Title>
-      </ItemAttributes>
-      <OfferSummary>
-        <LowestNewPrice>
-          <Amount>6900</Amount>
-          <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$69.00</FormattedPrice>
-        </LowestNewPrice>
-        <LowestUsedPrice>
-          <Amount>7918</Amount>
-          <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$79.18</FormattedPrice>
-        </LowestUsedPrice>
-        <TotalNew>20</TotalNew>
-        <TotalUsed>3</TotalUsed>
-        <TotalCollectible>0</TotalCollectible>
-        <TotalRefurbished>0</TotalRefurbished>
-      </OfferSummary>
-      <Offers>
-        <TotalOffers>1</TotalOffers>
-        <TotalOfferPages>1</TotalOfferPages>
-        <Offer>
-          <Merchant>
-            <MerchantId>ATVPDKIKX0DER</MerchantId>
-            <GlancePage>http://www.amazon.com/gp/help/seller/home.html?seller=ATVPDKIKX0DER</GlancePage>
-            <AverageFeedbackRating>0.0</AverageFeedbackRating>
-            <TotalFeedback>0</TotalFeedback>
-          </Merchant>
-          <OfferAttributes>
-            <Condition>New</Condition>
-            <SubCondition>new</SubCondition>
-          </OfferAttributes>
-          <OfferListing>
-            <OfferListingId>lyescCYUEavgUL%2BLlRNKx9MqOjlp8pZYKIP3W%2FPzPVXLEl0fDhKSQpXRAfAGHzyhHr%2BkEMan9cgBOPo73GiRbg%3D%3D</OfferListingId>
-            <Price>
-              <Amount>7875</Amount>
-              <CurrencyCode>USD</CurrencyCode>
-              <FormattedPrice>$78.75</FormattedPrice>
-            </Price>
-            <AmountSaved>
-              <Amount>4625</Amount>
-              <CurrencyCode>USD</CurrencyCode>
-              <FormattedPrice>$46.25</FormattedPrice>
-            </AmountSaved>
-            <PercentageSaved>37</PercentageSaved>
-            <Availability>Usually ships in 24 hours</Availability>
-            <AvailabilityAttributes>
-              <AvailabilityType>now</AvailabilityType>
-              <MinimumHours>0</MinimumHours>
-              <MaximumHours>0</MaximumHours>
-            </AvailabilityAttributes>
-            <Quantity>-1</Quantity>
-            <IsEligibleForSuperSaverShipping>1</IsEligibleForSuperSaverShipping>
-          </OfferListing>
-        </Offer>
-      </Offers>
-    </Item>
-    <Item>
-      <ASIN>0312366523</ASIN>
-      <DetailPageURL>http://www.amazon.com/gp/redirect.html%3FASIN=0312366523%26tag=ws%26lcode=xm2%26cID=2025%26ccmID=165953%26location=/o/ASIN/0312366523%253FSubscriptionId=1VAESZQN1G7SXNRG4882</DetailPageURL>
-      <SalesRank>985</SalesRank>
-      <ItemAttributes>
-        <Author>Ronnie Wood</Author>
-        <Binding>Hardcover</Binding>
-        <DeweyDecimalNumber>787.87166092</DeweyDecimalNumber>
-        <EAN>9780312366520</EAN>
-        <ISBN>0312366523</ISBN>
-        <Label>St. Martin's Press</Label>
-        <ListPrice>
-          <Amount>2595</Amount>
-          <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$25.95</FormattedPrice>
-        </ListPrice>
-        <Manufacturer>St. Martin's Press</Manufacturer>
-        <NumberOfItems>1</NumberOfItems>
-        <NumberOfPages>384</NumberOfPages>
-        <ProductGroup>Book</ProductGroup>
-        <ProductTypeName>ABIS_BOOK</ProductTypeName>
-        <PublicationDate>2007-10-02</PublicationDate>
-        <Publisher>St. Martin's Press</Publisher>
-        <ReleaseDate>2007-10-30</ReleaseDate>
-        <Studio>St. Martin's Press</Studio>
-        <Title>Ronnie: The Autobiography</Title>
-      </ItemAttributes>
-      <OfferSummary>
-        <LowestNewPrice>
-          <Amount>1451</Amount>
-          <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$14.51</FormattedPrice>
-        </LowestNewPrice>
-        <LowestUsedPrice>
-          <Amount>1595</Amount>
-          <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$15.95</FormattedPrice>
-        </LowestUsedPrice>
-        <TotalNew>25</TotalNew>
-        <TotalUsed>8</TotalUsed>
-        <TotalCollectible>0</TotalCollectible>
-        <TotalRefurbished>0</TotalRefurbished>
-      </OfferSummary>
-      <Offers>
-        <TotalOffers>1</TotalOffers>
-        <TotalOfferPages>1</TotalOfferPages>
-        <Offer>
-          <Merchant>
-            <MerchantId>ATVPDKIKX0DER</MerchantId>
-            <GlancePage>http://www.amazon.com/gp/help/seller/home.html?seller=ATVPDKIKX0DER</GlancePage>
-            <AverageFeedbackRating>0.0</AverageFeedbackRating>
-            <TotalFeedback>0</TotalFeedback>
-          </Merchant>
-          <OfferAttributes>
-            <Condition>New</Condition>
-            <SubCondition>new</SubCondition>
-          </OfferAttributes>
-          <OfferListing>
-            <OfferListingId>sU6e89M%2BLb2Gfsi6WXLzblQw7qlPAeC9bPZKC%2BfcaC2BAVu4qHMelvwgaUD%2BPdZeBbdeCeJ3%2FM%2Bh3Pb6QWyP9g%3D%3D</OfferListingId>
-            <Price>
-              <Amount>1713</Amount>
-              <CurrencyCode>USD</CurrencyCode>
-              <FormattedPrice>$17.13</FormattedPrice>
-            </Price>
-            <AmountSaved>
-              <Amount>882</Amount>
-              <CurrencyCode>USD</CurrencyCode>
-              <FormattedPrice>$8.82</FormattedPrice>
-            </AmountSaved>
-            <PercentageSaved>34</PercentageSaved>
-            <Availability>Usually ships in 24 hours</Availability>
-            <AvailabilityAttributes>
-              <AvailabilityType>now</AvailabilityType>
-              <MinimumHours>0</MinimumHours>
-              <MaximumHours>0</MaximumHours>
-            </AvailabilityAttributes>
-            <Quantity>-1</Quantity>
-            <IsEligibleForSuperSaverShipping>1</IsEligibleForSuperSaverShipping>
-          </OfferListing>
-        </Offer>
-      </Offers>
-    </Item>
-    <Item>
-      <ASIN>0375505709</ASIN>
-      <DetailPageURL>http://www.amazon.com/gp/redirect.html%3FASIN=0375505709%26tag=ws%26lcode=xm2%26cID=2025%26ccmID=165953%26location=/o/ASIN/0375505709%253FSubscriptionId=1VAESZQN1G7SXNRG4882</DetailPageURL>
-      <SalesRank>2254</SalesRank>
-      <ItemAttributes>
-        <Author>David Meyer</Author>
-        <Binding>Hardcover</Binding>
-        <DeweyDecimalNumber>782.42166092</DeweyDecimalNumber>
-        <EAN>9780375505706</EAN>
-        <ISBN>0375505709</ISBN>
-        <Label>Villard</Label>
-        <ListPrice>
-          <Amount>2995</Amount>
-          <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$29.95</FormattedPrice>
-        </ListPrice>
-        <Manufacturer>Villard</Manufacturer>
-        <NumberOfItems>1</NumberOfItems>
-        <NumberOfPages>592</NumberOfPages>
-        <ProductGroup>Book</ProductGroup>
-        <ProductTypeName>ABIS_BOOK</ProductTypeName>
-        <PublicationDate>2007-10-30</PublicationDate>
-        <Publisher>Villard</Publisher>
-        <ReleaseDate>2007-10-30</ReleaseDate>
-        <Studio>Villard</Studio>
-        <Title>Twenty Thousand Roads: The Ballad of Gram Parsons and His Cosmic American Music</Title>
-      </ItemAttributes>
-      <OfferSummary>
-        <LowestNewPrice>
-          <Amount>1827</Amount>
-          <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$18.27</FormattedPrice>
-        </LowestNewPrice>
-        <LowestUsedPrice>
-          <Amount>1868</Amount>
-          <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$18.68</FormattedPrice>
-        </LowestUsedPrice>
-        <TotalNew>30</TotalNew>
+        <TotalNew>26</TotalNew>
         <TotalUsed>7</TotalUsed>
         <TotalCollectible>0</TotalCollectible>
         <TotalRefurbished>0</TotalRefurbished>
@@ -474,18 +58,18 @@
             <SubCondition>new</SubCondition>
           </OfferAttributes>
           <OfferListing>
-            <OfferListingId>w942JNhKgqlR6VJ%2BlB0dS2nXjGdRx4Co6oNMsyjWxX8MgJmpF6SGAwBPjfxcitqSrmjTD68raDeT8SyWK0KZHg%3D%3D</OfferListingId>
+            <OfferListingId>MqErCqmk8ZDtLdNBKcHstQLz6IO6Dz1lr71sEAa5zQRPQJPastJbyXtnwTBK8qjlE%2F4cDX3c171fWIumjQ1gkVWoqPbSeuDJ</OfferListingId>
             <Price>
-              <Amount>1977</Amount>
+              <Amount>1439</Amount>
               <CurrencyCode>USD</CurrencyCode>
-              <FormattedPrice>$19.77</FormattedPrice>
+              <FormattedPrice>$14.39</FormattedPrice>
             </Price>
             <AmountSaved>
-              <Amount>1018</Amount>
+              <Amount>960</Amount>
               <CurrencyCode>USD</CurrencyCode>
-              <FormattedPrice>$10.18</FormattedPrice>
+              <FormattedPrice>$9.60</FormattedPrice>
             </AmountSaved>
-            <PercentageSaved>34</PercentageSaved>
+            <PercentageSaved>40</PercentageSaved>
             <Availability>Usually ships in 24 hours</Availability>
             <AvailabilityAttributes>
               <AvailabilityType>now</AvailabilityType>
@@ -499,51 +83,51 @@
       </Offers>
     </Item>
     <Item>
-      <ASIN>0446577391</ASIN>
-      <DetailPageURL>http://www.amazon.com/gp/redirect.html%3FASIN=0446577391%26tag=ws%26lcode=xm2%26cID=2025%26ccmID=165953%26location=/o/ASIN/0446577391%253FSubscriptionId=1VAESZQN1G7SXNRG4882</DetailPageURL>
-      <SalesRank>40</SalesRank>
+      <ASIN>0066620996</ASIN>
+      <SalesRank>65</SalesRank>
       <ItemAttributes>
-        <Author>David Baldacci</Author>
+        <Author>Jim Collins</Author>
         <Binding>Hardcover</Binding>
-        <DeweyDecimalNumber>813.54</DeweyDecimalNumber>
-        <EAN>9780446577397</EAN>
-        <ISBN>0446577391</ISBN>
-        <Label>Grand Central Publishing</Label>
+        <DeweyDecimalNumber>658</DeweyDecimalNumber>
+        <EAN>9780066620992</EAN>
+        <Edition>1</Edition>
+        <ISBN>0066620996</ISBN>
+        <Label>Collins Business</Label>
         <ListPrice>
-          <Amount>2699</Amount>
+          <Amount>2999</Amount>
           <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$26.99</FormattedPrice>
+          <FormattedPrice>$29.99</FormattedPrice>
         </ListPrice>
-        <Manufacturer>Grand Central Publishing</Manufacturer>
+        <Manufacturer>Collins Business</Manufacturer>
         <NumberOfItems>1</NumberOfItems>
-        <NumberOfPages>400</NumberOfPages>
+        <NumberOfPages>300</NumberOfPages>
         <ProductGroup>Book</ProductGroup>
         <ProductTypeName>ABIS_BOOK</ProductTypeName>
-        <PublicationDate>2007-11-06</PublicationDate>
-        <Publisher>Grand Central Publishing</Publisher>
-        <ReleaseDate>2007-11-06</ReleaseDate>
-        <Studio>Grand Central Publishing</Studio>
-        <Title>Stone Cold (The Camel Club)</Title>
+        <PublicationDate>2001-10</PublicationDate>
+        <Publisher>Collins Business</Publisher>
+        <ReleaseDate>2001-10-16</ReleaseDate>
+        <Studio>Collins Business</Studio>
+        <Title>Good to Great: Why Some Companies Make the Leap... and Others Don't</Title>
       </ItemAttributes>
       <OfferSummary>
         <LowestNewPrice>
-          <Amount>1300</Amount>
+          <Amount>1296</Amount>
           <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$13.00</FormattedPrice>
+          <FormattedPrice>$12.96</FormattedPrice>
         </LowestNewPrice>
         <LowestUsedPrice>
-          <Amount>1349</Amount>
+          <Amount>80</Amount>
           <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$13.49</FormattedPrice>
+          <FormattedPrice>$0.80</FormattedPrice>
         </LowestUsedPrice>
         <LowestCollectiblePrice>
-          <Amount>2699</Amount>
+          <Amount>1895</Amount>
           <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$26.99</FormattedPrice>
+          <FormattedPrice>$18.95</FormattedPrice>
         </LowestCollectiblePrice>
-        <TotalNew>43</TotalNew>
-        <TotalUsed>17</TotalUsed>
-        <TotalCollectible>4</TotalCollectible>
+        <TotalNew>118</TotalNew>
+        <TotalUsed>262</TotalUsed>
+        <TotalCollectible>34</TotalCollectible>
         <TotalRefurbished>0</TotalRefurbished>
       </OfferSummary>
       <Offers>
@@ -561,18 +145,18 @@
             <SubCondition>new</SubCondition>
           </OfferAttributes>
           <OfferListing>
-            <OfferListingId>z8%2B%2BQ2Rn%2BFfEl9gv2gLS%2BaDJMlE9cn7GNUcscif0A7CnYCXPXzo7eYIwn6CvyF0c%2Bpdqn985luglEvBjheocfA%3D%3D</OfferListingId>
+            <OfferListingId>U%2F4fMhwZNEcxpRBhnSGh9wUq2B7S8l1NzgOdYVpCRt%2BDz6zNfw5cfYnuE%2BXDivMgkCxECegbFS2fYix7zEMOmQ%3D%3D</OfferListingId>
             <Price>
-              <Amount>1619</Amount>
+              <Amount>1739</Amount>
               <CurrencyCode>USD</CurrencyCode>
-              <FormattedPrice>$16.19</FormattedPrice>
+              <FormattedPrice>$17.39</FormattedPrice>
             </Price>
             <AmountSaved>
-              <Amount>1080</Amount>
+              <Amount>1260</Amount>
               <CurrencyCode>USD</CurrencyCode>
-              <FormattedPrice>$10.80</FormattedPrice>
+              <FormattedPrice>$12.60</FormattedPrice>
             </AmountSaved>
-            <PercentageSaved>40</PercentageSaved>
+            <PercentageSaved>42</PercentageSaved>
             <Availability>Usually ships in 24 hours</Availability>
             <AvailabilityAttributes>
               <AvailabilityType>now</AvailabilityType>
@@ -586,46 +170,126 @@
       </Offers>
     </Item>
     <Item>
-      <ASIN>0689040342</ASIN>
-      <DetailPageURL>http://www.amazon.com/gp/redirect.html%3FASIN=0689040342%26tag=ws%26lcode=xm2%26cID=2025%26ccmID=165953%26location=/o/ASIN/0689040342%253FSubscriptionId=1VAESZQN1G7SXNRG4882</DetailPageURL>
-      <SalesRank>218</SalesRank>
+      <ASIN>1400064287</ASIN>
+      <SalesRank>243</SalesRank>
       <ItemAttributes>
-        <Author>Holly Black</Author>
-        <Author>Tony DiTerlizzi</Author>
+        <Author>Chip Heath</Author>
+        <Author>Dan Heath</Author>
         <Binding>Hardcover</Binding>
-        <EAN>9780689040344</EAN>
-        <Format>Box set</Format>
-        <ISBN>0689040342</ISBN>
-        <Label>Simon &amp; Schuster Children's Publishing</Label>
+        <DeweyDecimalNumber>302.13</DeweyDecimalNumber>
+        <EAN>9781400064281</EAN>
+        <Edition>1</Edition>
+        <ISBN>1400064287</ISBN>
+        <Label>Random House</Label>
         <ListPrice>
-          <Amount>4999</Amount>
+          <Amount>2500</Amount>
           <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$49.99</FormattedPrice>
+          <FormattedPrice>$25.00</FormattedPrice>
         </ListPrice>
-        <Manufacturer>Simon &amp; Schuster Children's Publishing</Manufacturer>
+        <Manufacturer>Random House</Manufacturer>
         <NumberOfItems>1</NumberOfItems>
-        <NumberOfPages>672</NumberOfPages>
+        <NumberOfPages>336</NumberOfPages>
         <ProductGroup>Book</ProductGroup>
         <ProductTypeName>ABIS_BOOK</ProductTypeName>
-        <PublicationDate>2004-09-21</PublicationDate>
-        <Publisher>Simon &amp; Schuster Children's Publishing</Publisher>
-        <ReadingLevel>Ages 9-12</ReadingLevel>
-        <Studio>Simon &amp; Schuster Children's Publishing</Studio>
-        <Title>The Spiderwick Chronicles (Boxed Set): The Field Guide; The Seeing Stone; Lucinda's Secret; The Ironwood Tree; The Wrath of Mulgrath</Title>
+        <PublicationDate>2007-01-02</PublicationDate>
+        <Publisher>Random House</Publisher>
+        <ReleaseDate>2007-01-02</ReleaseDate>
+        <Studio>Random House</Studio>
+        <Title>Made to Stick: Why Some Ideas Survive and Others Die</Title>
       </ItemAttributes>
       <OfferSummary>
         <LowestNewPrice>
-          <Amount>2495</Amount>
+          <Amount>648</Amount>
           <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$24.95</FormattedPrice>
+          <FormattedPrice>$6.48</FormattedPrice>
         </LowestNewPrice>
         <LowestUsedPrice>
-          <Amount>2619</Amount>
+          <Amount>540</Amount>
           <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$26.19</FormattedPrice>
+          <FormattedPrice>$5.40</FormattedPrice>
         </LowestUsedPrice>
-        <TotalNew>24</TotalNew>
-        <TotalUsed>11</TotalUsed>
+        <LowestCollectiblePrice>
+          <Amount>2500</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$25.00</FormattedPrice>
+        </LowestCollectiblePrice>
+        <TotalNew>74</TotalNew>
+        <TotalUsed>66</TotalUsed>
+        <TotalCollectible>10</TotalCollectible>
+        <TotalRefurbished>0</TotalRefurbished>
+      </OfferSummary>
+      <Offers>
+        <TotalOffers>1</TotalOffers>
+        <TotalOfferPages>1</TotalOfferPages>
+        <Offer>
+          <Merchant>
+            <MerchantId>ATVPDKIKX0DER</MerchantId>
+            <GlancePage>http://www.amazon.com/gp/help/seller/home.html?seller=ATVPDKIKX0DER</GlancePage>
+            <AverageFeedbackRating>0.0</AverageFeedbackRating>
+            <TotalFeedback>0</TotalFeedback>
+          </Merchant>
+          <OfferAttributes>
+            <Condition>New</Condition>
+            <SubCondition>new</SubCondition>
+          </OfferAttributes>
+          <OfferListing>
+            <OfferListingId>oedtuRVy%2Fh87DCUS1zA6vHrqfB2hv%2Bdg%2BgdDIBf6d0QVe3oPyA0JfcBSKutUKmQmU4bDaPm%2F96GUSv2BzSQOJA%3D%3D</OfferListingId>
+            <Price>
+              <Amount>1650</Amount>
+              <CurrencyCode>USD</CurrencyCode>
+              <FormattedPrice>$16.50</FormattedPrice>
+            </Price>
+            <AmountSaved>
+              <Amount>850</Amount>
+              <CurrencyCode>USD</CurrencyCode>
+              <FormattedPrice>$8.50</FormattedPrice>
+            </AmountSaved>
+            <PercentageSaved>34</PercentageSaved>
+            <Availability>Usually ships in 24 hours</Availability>
+            <AvailabilityAttributes>
+              <AvailabilityType>now</AvailabilityType>
+              <MinimumHours>0</MinimumHours>
+              <MaximumHours>0</MaximumHours>
+            </AvailabilityAttributes>
+            <Quantity>-1</Quantity>
+            <IsEligibleForSuperSaverShipping>1</IsEligibleForSuperSaverShipping>
+          </OfferListing>
+        </Offer>
+      </Offers>
+    </Item>
+    <Item>
+      <ASIN>B0020BUWXC</ASIN>
+      <SalesRank>98</SalesRank>
+      <ItemAttributes>
+        <Author>Stuart Woods</Author>
+        <Binding>Kindle Edition</Binding>
+        <DeweyDecimalNumber>813.54</DeweyDecimalNumber>
+        <Format>Kindle Book</Format>
+        <Label>Putnam Adult</Label>
+        <ListPrice>
+          <Amount>2595</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$25.95</FormattedPrice>
+        </ListPrice>
+        <Manufacturer>Putnam Adult</Manufacturer>
+        <NumberOfItems>1</NumberOfItems>
+        <NumberOfPages>304</NumberOfPages>
+        <ProductGroup>eBooks</ProductGroup>
+        <ProductTypeName>ABIS_EBOOKS</ProductTypeName>
+        <PublicationDate>2009-03-24</PublicationDate>
+        <Publisher>Putnam Adult</Publisher>
+        <ReleaseDate>2009-04-21</ReleaseDate>
+        <Studio>Putnam Adult</Studio>
+        <Title>Loitering with Intent</Title>
+      </ItemAttributes>
+      <OfferSummary>
+        <LowestNewPrice>
+          <Amount>999</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$9.99</FormattedPrice>
+        </LowestNewPrice>
+        <TotalNew>1</TotalNew>
+        <TotalUsed>0</TotalUsed>
         <TotalCollectible>0</TotalCollectible>
         <TotalRefurbished>0</TotalRefurbished>
       </OfferSummary>
@@ -644,18 +308,18 @@
             <SubCondition>new</SubCondition>
           </OfferAttributes>
           <OfferListing>
-            <OfferListingId>1WoIc9EntzAJmuEbZtJWyydC8j3nm%2BKDfNq4UgEE6mNZTc5%2FQsIvhpCtZoROpv2QTCTOnM8KcklNE5fOodFUZg%3D%3D</OfferListingId>
+            <OfferListingId>DwySsDZBoZW4fawNKmLlCsz1wFFf6mX3Btfj6bD56M6dKxZVeP6CbKR4NLdos%2BdaXFtG9QmmybWof8OscPLCoB12TJbN1nMc</OfferListingId>
             <Price>
-              <Amount>3149</Amount>
+              <Amount>999</Amount>
               <CurrencyCode>USD</CurrencyCode>
-              <FormattedPrice>$31.49</FormattedPrice>
+              <FormattedPrice>$9.99</FormattedPrice>
             </Price>
             <AmountSaved>
-              <Amount>1850</Amount>
+              <Amount>1596</Amount>
               <CurrencyCode>USD</CurrencyCode>
-              <FormattedPrice>$18.50</FormattedPrice>
+              <FormattedPrice>$15.96</FormattedPrice>
             </AmountSaved>
-            <PercentageSaved>37</PercentageSaved>
+            <PercentageSaved>62</PercentageSaved>
             <Availability>Usually ships in 24 hours</Availability>
             <AvailabilityAttributes>
               <AvailabilityType>now</AvailabilityType>
@@ -663,59 +327,57 @@
               <MaximumHours>0</MaximumHours>
             </AvailabilityAttributes>
             <Quantity>-1</Quantity>
-            <IsEligibleForSuperSaverShipping>1</IsEligibleForSuperSaverShipping>
+            <IsEligibleForSuperSaverShipping>0</IsEligibleForSuperSaverShipping>
           </OfferListing>
         </Offer>
       </Offers>
     </Item>
     <Item>
-      <ASIN>0590353403</ASIN>
-      <DetailPageURL>http://www.amazon.com/gp/redirect.html%3FASIN=0590353403%26tag=ws%26lcode=xm2%26cID=2025%26ccmID=165953%26location=/o/ASIN/0590353403%253FSubscriptionId=1VAESZQN1G7SXNRG4882</DetailPageURL>
-      <SalesRank>248</SalesRank>
+      <ASIN>0375414495</ASIN>
+      <SalesRank>197</SalesRank>
       <ItemAttributes>
-        <Author>J.K. Rowling</Author>
+        <Author>Abraham Verghese</Author>
         <Binding>Hardcover</Binding>
-        <Creator Role="Illustrator">Mary GrandPré</Creator>
-        <EAN>9780590353403</EAN>
-        <Edition>1</Edition>
-        <ISBN>0590353403</ISBN>
-        <Label>Scholastic</Label>
+        <DeweyDecimalNumber>813.6</DeweyDecimalNumber>
+        <EAN>9780375414497</EAN>
+        <Edition>Stated First Edition</Edition>
+        <ISBN>0375414495</ISBN>
+        <Label>Knopf</Label>
         <ListPrice>
-          <Amount>2299</Amount>
+          <Amount>2695</Amount>
           <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$22.99</FormattedPrice>
+          <FormattedPrice>$26.95</FormattedPrice>
         </ListPrice>
-        <Manufacturer>Scholastic</Manufacturer>
+        <Manufacturer>Knopf</Manufacturer>
         <NumberOfItems>1</NumberOfItems>
-        <NumberOfPages>309</NumberOfPages>
+        <NumberOfPages>560</NumberOfPages>
         <ProductGroup>Book</ProductGroup>
         <ProductTypeName>ABIS_BOOK</ProductTypeName>
-        <PublicationDate>1998-09</PublicationDate>
-        <Publisher>Scholastic</Publisher>
-        <ReadingLevel>Ages 9-12</ReadingLevel>
-        <Studio>Scholastic</Studio>
-        <Title>Harry Potter and the Sorcerer's Stone (Book 1)</Title>
-        <UPC>038332175202</UPC>
+        <PublicationDate>2009-02-03</PublicationDate>
+        <Publisher>Knopf</Publisher>
+        <ReleaseDate>2009-02-03</ReleaseDate>
+        <Studio>Knopf</Studio>
+        <Title>Cutting for Stone: A novel</Title>
       </ItemAttributes>
       <OfferSummary>
         <LowestNewPrice>
-          <Amount>1284</Amount>
+          <Amount>1642</Amount>
           <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$12.84</FormattedPrice>
+          <FormattedPrice>$16.42</FormattedPrice>
         </LowestNewPrice>
         <LowestUsedPrice>
-          <Amount>388</Amount>
+          <Amount>1643</Amount>
           <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$3.88</FormattedPrice>
+          <FormattedPrice>$16.43</FormattedPrice>
         </LowestUsedPrice>
         <LowestCollectiblePrice>
-          <Amount>2299</Amount>
+          <Amount>2695</Amount>
           <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$22.99</FormattedPrice>
+          <FormattedPrice>$26.95</FormattedPrice>
         </LowestCollectiblePrice>
-        <TotalNew>45</TotalNew>
-        <TotalUsed>72</TotalUsed>
-        <TotalCollectible>49</TotalCollectible>
+        <TotalNew>30</TotalNew>
+        <TotalUsed>10</TotalUsed>
+        <TotalCollectible>10</TotalCollectible>
         <TotalRefurbished>0</TotalRefurbished>
       </OfferSummary>
       <Offers>
@@ -733,18 +395,352 @@
             <SubCondition>new</SubCondition>
           </OfferAttributes>
           <OfferListing>
-            <OfferListingId>bLuNg%2BCtVN%2FpzELOODL0BUMrf3FbeWd0CUckV7Mkc7BXpLLRml3oWqdvOfqM7kQUgaB3xpvL2%2FehHiFGa1uK7Q%3D%3D</OfferListingId>
+            <OfferListingId>hFkafwOEQGBHfNeF1skTMoirD9oQvMfb1U%2FnEc9zfUpQYsq2YtUOxMlytqGOyFo%2Bq3vHivj6h9T91LYIbOaa2w%3D%3D</OfferListingId>
             <Price>
-              <Amount>1563</Amount>
+              <Amount>1716</Amount>
               <CurrencyCode>USD</CurrencyCode>
-              <FormattedPrice>$15.63</FormattedPrice>
+              <FormattedPrice>$17.16</FormattedPrice>
             </Price>
             <AmountSaved>
-              <Amount>736</Amount>
+              <Amount>979</Amount>
               <CurrencyCode>USD</CurrencyCode>
-              <FormattedPrice>$7.36</FormattedPrice>
+              <FormattedPrice>$9.79</FormattedPrice>
+            </AmountSaved>
+            <PercentageSaved>36</PercentageSaved>
+            <Availability>Usually ships in 24 hours</Availability>
+            <AvailabilityAttributes>
+              <AvailabilityType>now</AvailabilityType>
+              <MinimumHours>0</MinimumHours>
+              <MaximumHours>0</MaximumHours>
+            </AvailabilityAttributes>
+            <Quantity>-1</Quantity>
+            <IsEligibleForSuperSaverShipping>1</IsEligibleForSuperSaverShipping>
+          </OfferListing>
+        </Offer>
+      </Offers>
+    </Item>
+    <Item>
+      <ASIN>0812575601</ASIN>
+      <SalesRank>1168</SalesRank>
+      <ItemAttributes>
+        <Author>Terry Goodkind</Author>
+        <Binding>Paperback</Binding>
+        <DeweyDecimalNumber>813</DeweyDecimalNumber>
+        <EAN>9780812575606</EAN>
+        <Format>Box set</Format>
+        <ISBN>0812575601</ISBN>
+        <Label>Tor Books</Label>
+        <ListPrice>
+          <Amount>2497</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$24.97</FormattedPrice>
+        </ListPrice>
+        <Manufacturer>Tor Books</Manufacturer>
+        <NumberOfItems>3</NumberOfItems>
+        <NumberOfPages>2480</NumberOfPages>
+        <ProductGroup>Book</ProductGroup>
+        <ProductTypeName>ABIS_BOOK</ProductTypeName>
+        <PublicationDate>1998-11</PublicationDate>
+        <Publisher>Tor Books</Publisher>
+        <Studio>Tor Books</Studio>
+        <Title>The Sword of Truth, Boxed Set I, Books 1-3: Wizard's First Rule, Blood of the Fold ,Stone of Tears</Title>
+      </ItemAttributes>
+      <OfferSummary>
+        <LowestNewPrice>
+          <Amount>1596</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$15.96</FormattedPrice>
+        </LowestNewPrice>
+        <LowestUsedPrice>
+          <Amount>3297</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$32.97</FormattedPrice>
+        </LowestUsedPrice>
+        <TotalNew>11</TotalNew>
+        <TotalUsed>10</TotalUsed>
+        <TotalCollectible>0</TotalCollectible>
+        <TotalRefurbished>0</TotalRefurbished>
+      </OfferSummary>
+      <Offers>
+        <TotalOffers>1</TotalOffers>
+        <TotalOfferPages>1</TotalOfferPages>
+        <Offer>
+          <Merchant>
+            <MerchantId>ATVPDKIKX0DER</MerchantId>
+            <GlancePage>http://www.amazon.com/gp/help/seller/home.html?seller=ATVPDKIKX0DER</GlancePage>
+            <AverageFeedbackRating>0.0</AverageFeedbackRating>
+            <TotalFeedback>0</TotalFeedback>
+          </Merchant>
+          <OfferAttributes>
+            <Condition>New</Condition>
+            <SubCondition>new</SubCondition>
+          </OfferAttributes>
+          <OfferListing>
+            <OfferListingId>HyKOD7OSOIWQQrmg9u%2F1TFF8%2BMMrtqZCDyB5rLl6JC4Nf2nof%2BISDTuKtJUEo2XPuATEtLhugeblP1aDCX9JJg%3D%3D</OfferListingId>
+            <Price>
+              <Amount>1596</Amount>
+              <CurrencyCode>USD</CurrencyCode>
+              <FormattedPrice>$15.96</FormattedPrice>
+            </Price>
+            <AmountSaved>
+              <Amount>901</Amount>
+              <CurrencyCode>USD</CurrencyCode>
+              <FormattedPrice>$9.01</FormattedPrice>
+            </AmountSaved>
+            <PercentageSaved>36</PercentageSaved>
+            <Availability>Usually ships in 7 to 13 days</Availability>
+            <AvailabilityAttributes>
+              <AvailabilityType>now</AvailabilityType>
+              <MinimumHours>144</MinimumHours>
+              <MaximumHours>312</MaximumHours>
+            </AvailabilityAttributes>
+            <Quantity>-1</Quantity>
+            <IsEligibleForSuperSaverShipping>1</IsEligibleForSuperSaverShipping>
+          </OfferListing>
+        </Offer>
+      </Offers>
+    </Item>
+    <Item>
+      <ASIN>1400066220</ASIN>
+      <SalesRank>17726</SalesRank>
+      <ItemAttributes>
+        <Author>Bill German</Author>
+        <Binding>Hardcover</Binding>
+        <DeweyDecimalNumber>782.42166092</DeweyDecimalNumber>
+        <EAN>9781400066223</EAN>
+        <ISBN>1400066220</ISBN>
+        <Label>Villard</Label>
+        <ListPrice>
+          <Amount>2500</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$25.00</FormattedPrice>
+        </ListPrice>
+        <Manufacturer>Villard</Manufacturer>
+        <NumberOfItems>1</NumberOfItems>
+        <NumberOfPages>368</NumberOfPages>
+        <ProductGroup>Book</ProductGroup>
+        <ProductTypeName>ABIS_BOOK</ProductTypeName>
+        <PublicationDate>2009-02-24</PublicationDate>
+        <Publisher>Villard</Publisher>
+        <ReleaseDate>2009-02-24</ReleaseDate>
+        <Studio>Villard</Studio>
+        <Title>Under Their Thumb: How a Nice Boy from Brooklyn Got Mixed Up with the Rolling Stones (and Lived to Tell About It)</Title>
+      </ItemAttributes>
+      <OfferSummary>
+        <LowestNewPrice>
+          <Amount>1250</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$12.50</FormattedPrice>
+        </LowestNewPrice>
+        <LowestUsedPrice>
+          <Amount>1199</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$11.99</FormattedPrice>
+        </LowestUsedPrice>
+        <LowestCollectiblePrice>
+          <Amount>4995</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$49.95</FormattedPrice>
+        </LowestCollectiblePrice>
+        <TotalNew>32</TotalNew>
+        <TotalUsed>8</TotalUsed>
+        <TotalCollectible>1</TotalCollectible>
+        <TotalRefurbished>0</TotalRefurbished>
+      </OfferSummary>
+      <Offers>
+        <TotalOffers>1</TotalOffers>
+        <TotalOfferPages>1</TotalOfferPages>
+        <Offer>
+          <Merchant>
+            <MerchantId>ATVPDKIKX0DER</MerchantId>
+            <GlancePage>http://www.amazon.com/gp/help/seller/home.html?seller=ATVPDKIKX0DER</GlancePage>
+            <AverageFeedbackRating>0.0</AverageFeedbackRating>
+            <TotalFeedback>0</TotalFeedback>
+          </Merchant>
+          <OfferAttributes>
+            <Condition>New</Condition>
+            <SubCondition>new</SubCondition>
+          </OfferAttributes>
+          <OfferListing>
+            <OfferListingId>9H%2BCKwPdGaM3rzcfJEPsBvzNjYi0efp8KeE6Aox7LxJpez3K8VQzBdESGZ9vfADSZ28fyIuxO15NZdgE6D67OQ%3D%3D</OfferListingId>
+            <Price>
+              <Amount>1650</Amount>
+              <CurrencyCode>USD</CurrencyCode>
+              <FormattedPrice>$16.50</FormattedPrice>
+            </Price>
+            <AmountSaved>
+              <Amount>850</Amount>
+              <CurrencyCode>USD</CurrencyCode>
+              <FormattedPrice>$8.50</FormattedPrice>
+            </AmountSaved>
+            <PercentageSaved>34</PercentageSaved>
+            <Availability>Usually ships in 24 hours</Availability>
+            <AvailabilityAttributes>
+              <AvailabilityType>now</AvailabilityType>
+              <MinimumHours>0</MinimumHours>
+              <MaximumHours>0</MaximumHours>
+            </AvailabilityAttributes>
+            <Quantity>-1</Quantity>
+            <IsEligibleForSuperSaverShipping>1</IsEligibleForSuperSaverShipping>
+          </OfferListing>
+        </Offer>
+      </Offers>
+    </Item>
+    <Item>
+      <ASIN>1400077532</ASIN>
+      <SalesRank>13646</SalesRank>
+      <ItemAttributes>
+        <Author>Richard Lyman Bushman</Author>
+        <Binding>Paperback</Binding>
+        <DeweyDecimalNumber>200</DeweyDecimalNumber>
+        <EAN>9781400077533</EAN>
+        <ISBN>1400077532</ISBN>
+        <Label>Vintage</Label>
+        <ListPrice>
+          <Amount>1895</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$18.95</FormattedPrice>
+        </ListPrice>
+        <Manufacturer>Vintage</Manufacturer>
+        <NumberOfItems>1</NumberOfItems>
+        <NumberOfPages>784</NumberOfPages>
+        <ProductGroup>Book</ProductGroup>
+        <ProductTypeName>ABIS_BOOK</ProductTypeName>
+        <PublicationDate>2007-03-13</PublicationDate>
+        <Publisher>Vintage</Publisher>
+        <ReleaseDate>2007-03-13</ReleaseDate>
+        <Studio>Vintage</Studio>
+        <Title>Joseph Smith: Rough Stone Rolling</Title>
+      </ItemAttributes>
+      <OfferSummary>
+        <LowestNewPrice>
+          <Amount>1130</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$11.30</FormattedPrice>
+        </LowestNewPrice>
+        <LowestUsedPrice>
+          <Amount>758</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$7.58</FormattedPrice>
+        </LowestUsedPrice>
+        <TotalNew>29</TotalNew>
+        <TotalUsed>13</TotalUsed>
+        <TotalCollectible>0</TotalCollectible>
+        <TotalRefurbished>0</TotalRefurbished>
+      </OfferSummary>
+      <Offers>
+        <TotalOffers>1</TotalOffers>
+        <TotalOfferPages>1</TotalOfferPages>
+        <Offer>
+          <Merchant>
+            <MerchantId>ATVPDKIKX0DER</MerchantId>
+            <GlancePage>http://www.amazon.com/gp/help/seller/home.html?seller=ATVPDKIKX0DER</GlancePage>
+            <AverageFeedbackRating>0.0</AverageFeedbackRating>
+            <TotalFeedback>0</TotalFeedback>
+          </Merchant>
+          <OfferAttributes>
+            <Condition>New</Condition>
+            <SubCondition>new</SubCondition>
+          </OfferAttributes>
+          <OfferListing>
+            <OfferListingId>GMxI7Gpz4BWYen6kPyAYvCn%2FPYllBtY%2FWkNfZtnOnGqOOA%2B5p4P2utLazB%2FTyIlpaxe3yExYNcMcjVtomp%2BW7Q%3D%3D</OfferListingId>
+            <Price>
+              <Amount>1289</Amount>
+              <CurrencyCode>USD</CurrencyCode>
+              <FormattedPrice>$12.89</FormattedPrice>
+            </Price>
+            <AmountSaved>
+              <Amount>606</Amount>
+              <CurrencyCode>USD</CurrencyCode>
+              <FormattedPrice>$6.06</FormattedPrice>
             </AmountSaved>
             <PercentageSaved>32</PercentageSaved>
+            <Availability>Usually ships in 24 hours</Availability>
+            <AvailabilityAttributes>
+              <AvailabilityType>now</AvailabilityType>
+              <MinimumHours>0</MinimumHours>
+              <MaximumHours>0</MaximumHours>
+            </AvailabilityAttributes>
+            <Quantity>-1</Quantity>
+            <IsEligibleForSuperSaverShipping>1</IsEligibleForSuperSaverShipping>
+          </OfferListing>
+        </Offer>
+      </Offers>
+    </Item>
+    <Item>
+      <ASIN>0739052365</ASIN>
+      <SalesRank>99817</SalesRank>
+      <ItemAttributes>
+        <Author>Staff</Author>
+        <Author>Alfred Publishing</Author>
+        <Binding>Sheet music</Binding>
+        <DeweyDecimalNumber>786</DeweyDecimalNumber>
+        <EAN>9780739052365</EAN>
+        <ISBN>0739052365</ISBN>
+        <Label>Alfred Publishing</Label>
+        <ListPrice>
+          <Amount>1995</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$19.95</FormattedPrice>
+        </ListPrice>
+        <Manufacturer>Alfred Publishing</Manufacturer>
+        <NumberOfItems>1</NumberOfItems>
+        <NumberOfPages>172</NumberOfPages>
+        <ProductGroup>Book</ProductGroup>
+        <ProductTypeName>ABIS_BOOK</ProductTypeName>
+        <PublicationDate>2009-01-15</PublicationDate>
+        <Publisher>Alfred Publishing</Publisher>
+        <Studio>Alfred Publishing</Studio>
+        <Title>Rolling Stone Magazine Sheet Music Classics, Volume 1: 39 Selections from the 500 Greatest Songs of All Time (Easy Piano) (Rolling Stone, Easy Piano Sheet Music Classics)</Title>
+      </ItemAttributes>
+      <OfferSummary>
+        <LowestNewPrice>
+          <Amount>1179</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$11.79</FormattedPrice>
+        </LowestNewPrice>
+        <LowestUsedPrice>
+          <Amount>3617</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$36.17</FormattedPrice>
+        </LowestUsedPrice>
+        <LowestCollectiblePrice>
+          <Amount>2399</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$23.99</FormattedPrice>
+        </LowestCollectiblePrice>
+        <TotalNew>4</TotalNew>
+        <TotalUsed>2</TotalUsed>
+        <TotalCollectible>1</TotalCollectible>
+        <TotalRefurbished>0</TotalRefurbished>
+      </OfferSummary>
+      <Offers>
+        <TotalOffers>1</TotalOffers>
+        <TotalOfferPages>1</TotalOfferPages>
+        <Offer>
+          <Merchant>
+            <MerchantId>ATVPDKIKX0DER</MerchantId>
+            <GlancePage>http://www.amazon.com/gp/help/seller/home.html?seller=ATVPDKIKX0DER</GlancePage>
+            <AverageFeedbackRating>0.0</AverageFeedbackRating>
+            <TotalFeedback>0</TotalFeedback>
+          </Merchant>
+          <OfferAttributes>
+            <Condition>New</Condition>
+            <SubCondition>new</SubCondition>
+          </OfferAttributes>
+          <OfferListing>
+            <OfferListingId>Xft%2Fs8L3k5oPnFxVqFGaRDooUfwk4THlgRteorLtOqKFKff5L5HGY4xKhaNyzjUtAk0eZaqt8OdhVMZMBiGjwg%3D%3D</OfferListingId>
+            <Price>
+              <Amount>1955</Amount>
+              <CurrencyCode>USD</CurrencyCode>
+              <FormattedPrice>$19.55</FormattedPrice>
+            </Price>
+            <AmountSaved>
+              <Amount>40</Amount>
+              <CurrencyCode>USD</CurrencyCode>
+              <FormattedPrice>$0.40</FormattedPrice>
+            </AmountSaved>
+            <PercentageSaved>2</PercentageSaved>
             <Availability>Usually ships in 24 hours</Availability>
             <AvailabilityAttributes>
               <AvailabilityType>now</AvailabilityType>

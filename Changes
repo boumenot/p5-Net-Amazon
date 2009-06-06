@@ -1,7 +1,13 @@
 Revision history for Perl extension Net::Amazon:
-(unreleased)
+0.51 (06/05/2009)
+   (cb) Vince Veselosky submitted a patch to support request signing, a
+        feature that is required for accessing AWS after 2009-08-15.
+        Upgrading is recommended.
+   (cb) Complete the upgrade to WSDL 2009-03-31 that was started by
+        Vince Veselosky.
+   (cb) Clean-up POD issues found by pod checker.
    (cb) Indicate the code has moved to github.com.
-   (cb) Update the README to reflect the date of the WSDL.
+   (cb) Update the README to reflect the actual date of the WSDL.
 
 0.50 (07/29/2008)
    (cb) Michael Hendricks submitted a patch to guarantee that error 

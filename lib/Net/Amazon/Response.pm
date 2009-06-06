@@ -147,7 +147,7 @@ Net::Amazon::Response - Baseclass for responses from Amazon's web service
     if($resp->is_error()) {
         print $resp->message();
     }
- 
+
     if($resp->is_success()) { 
         for my $property ($resp->properties) {
             print $property->as_string(), "\n";
@@ -199,8 +199,6 @@ Returns all error messages for a response as a reference to an array
 of string messages.
 
 =back
-
-=head1 SEE ALSO
 
 =head1 AUTHOR
 

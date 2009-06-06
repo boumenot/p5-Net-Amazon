@@ -1,12 +1,16 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<ItemSearchResponse xmlns="http://webservices.amazon.com/AWSECommerceService/2007-10-29">
+<?xml version="1.0"?>
+<ItemSearchResponse xmlns="http://webservices.amazon.com/AWSECommerceService/2009-03-31">
   <Items>
     <Request>
       <IsValid>True</IsValid>
       <ItemSearchRequest>
+        <Condition>New</Condition>
+        <DeliveryMethod>Ship</DeliveryMethod>
         <ItemPage>1</ItemPage>
+        <MerchantId>Amazon</MerchantId>
         <Power>author: randal schwartz and author: mike schilli</Power>
         <ResponseGroup>Large</ResponseGroup>
+        <ReviewSort>-SubmissionDate</ReviewSort>
         <SearchIndex>Books</SearchIndex>
         <Sort>salesrank</Sort>
       </ItemSearchRequest>

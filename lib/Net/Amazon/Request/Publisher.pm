@@ -71,8 +71,6 @@ the Amazon web service for items of a given publisher.
 
 =back
 
-=head1 SEE ALSO
-
 =head1 AUTHOR
 
 Christopher Boumenot, E<lt>boumenot@gmail.comE<gt>

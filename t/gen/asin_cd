@@ -13,6 +13,7 @@ use Net::Amazon::Response::ASIN;
 
 my $ua = Net::Amazon->new(
     token         => $ENV{AMAZON_TOKEN},
+    secret_key  => $ENV{AMAZON_SECRET_KEY},
     response_dump => 1,
 );
 

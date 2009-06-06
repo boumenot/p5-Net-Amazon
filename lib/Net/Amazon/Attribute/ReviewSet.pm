@@ -120,8 +120,6 @@ Add a C<Net::Amazon::Attribute::Review> object to the list.
 
 =back
 
-=head1 SEE ALSO
-
 =head1 AUTHOR
 
 Mike Schilli, E<lt>m@perlmeister.comE<gt>

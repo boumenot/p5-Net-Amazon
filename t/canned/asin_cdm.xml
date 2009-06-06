@@ -1,10 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<ItemLookupResponse xmlns="http://webservices.amazon.com/AWSECommerceService/2007-10-29">
+<?xml version="1.0"?>
+<ItemLookupResponse xmlns="http://webservices.amazon.com/AWSECommerceService/2009-03-31">
   <Items>
     <Item>
       <ASIN>B00005A46I</ASIN>
-      <DetailPageURL>http://www.amazon.com/gp/redirect.html%3FASIN=B00005A46I%26tag=ws%26lcode=xm2%26cID=2025%26ccmID=165953%26location=/o/ASIN/B00005A46I%253FSubscriptionId=1VAESZQN1G7SXNRG4882</DetailPageURL>
-      <SalesRank>138792</SalesRank>
+      <SalesRank>81546</SalesRank>
       <ItemAttributes>
         <Artist>Anne Sofie von Otter</Artist>
         <Artist>Elvis Costello</Artist>
@@ -30,17 +29,17 @@
       </ItemAttributes>
       <OfferSummary>
         <LowestNewPrice>
-          <Amount>497</Amount>
+          <Amount>439</Amount>
           <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$4.97</FormattedPrice>
+          <FormattedPrice>$4.39</FormattedPrice>
         </LowestNewPrice>
         <LowestUsedPrice>
-          <Amount>98</Amount>
+          <Amount>130</Amount>
           <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$0.98</FormattedPrice>
+          <FormattedPrice>$1.30</FormattedPrice>
         </LowestUsedPrice>
-        <TotalNew>43</TotalNew>
-        <TotalUsed>52</TotalUsed>
+        <TotalNew>38</TotalNew>
+        <TotalUsed>46</TotalUsed>
         <TotalCollectible>0</TotalCollectible>
         <TotalRefurbished>0</TotalRefurbished>
       </OfferSummary>
@@ -59,7 +58,7 @@
             <SubCondition>new</SubCondition>
           </OfferAttributes>
           <OfferListing>
-            <OfferListingId>iHN1sWHSqiZHOwhkrWhnuVVPSi%2Fq5rIXZniJ4fwHrox1oW%2FvOc78BHD%2BpUOFvawK3lpA%2Ftvwv87GFCLOdvuDAQ%3D%3D</OfferListingId>
+            <OfferListingId>5EsNOHyAMvPiGsG3JjVS%2B4nxzD8xKliwVtfVRvBGA8IUC2dyouhd%2B%2BA7jCIcGGa1HA1IayPhN%2B5C6Y4hPj8PKA%3D%3D</OfferListingId>
             <Price>
               <Amount>1798</Amount>
               <CurrencyCode>USD</CurrencyCode>

@@ -82,8 +82,6 @@ the Amazon web service for an item with the given UPC number.
 
 =back
 
-=head1 SEE ALSO
-
 =head1 AUTHOR
 
 Mike Schilli, E<lt>m@perlmeister.comE<gt>

@@ -1,10 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<ItemLookupResponse xmlns="http://webservices.amazon.com/AWSECommerceService/2007-10-29">
+<?xml version="1.0"?>
+<ItemLookupResponse xmlns="http://webservices.amazon.com/AWSECommerceService/2009-03-31">
   <Items>
     <Item>
       <ASIN>6305181772</ASIN>
-      <DetailPageURL>http://www.amazon.com/gp/redirect.html%3FASIN=6305181772%26tag=ws%26lcode=xm2%26cID=2025%26ccmID=165953%26location=/o/ASIN/6305181772%253FSubscriptionId=1VAESZQN1G7SXNRG4882</DetailPageURL>
-      <SalesRank>26637</SalesRank>
+      <SalesRank>47411</SalesRank>
       <ItemAttributes>
         <Actor>Tom Cruise</Actor>
         <Actor>Jon Voight</Actor>
@@ -14,6 +13,13 @@
         <AspectRatio>2.35:1</AspectRatio>
         <AudienceRating>PG-13 (Parental Guidance Suggested)</AudienceRating>
         <Binding>DVD</Binding>
+        <Creator Role="Producer">J.C. Calciano</Creator>
+        <Creator Role="Producer">Paul Hitchcock</Creator>
+        <Creator Role="Producer">Paula Wagner</Creator>
+        <Creator Role="Writer">Bruce Geller</Creator>
+        <Creator Role="Writer">David Koepp</Creator>
+        <Creator Role="Writer">Robert Towne</Creator>
+        <Creator Role="Writer">Steven Zaillian</Creator>
         <Director>Brian De Palma</Director>
         <DVDLayers>2</DVDLayers>
         <DVDSides>1</DVDSides>
@@ -67,28 +73,62 @@
       </ItemAttributes>
       <OfferSummary>
         <LowestNewPrice>
-          <Amount>1295</Amount>
+          <Amount>380</Amount>
           <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$12.95</FormattedPrice>
+          <FormattedPrice>$3.80</FormattedPrice>
         </LowestNewPrice>
         <LowestUsedPrice>
-          <Amount>240</Amount>
+          <Amount>99</Amount>
           <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$2.40</FormattedPrice>
+          <FormattedPrice>$0.99</FormattedPrice>
         </LowestUsedPrice>
         <LowestCollectiblePrice>
           <Amount>1498</Amount>
           <CurrencyCode>USD</CurrencyCode>
           <FormattedPrice>$14.98</FormattedPrice>
         </LowestCollectiblePrice>
-        <TotalNew>1</TotalNew>
-        <TotalUsed>48</TotalUsed>
-        <TotalCollectible>4</TotalCollectible>
+        <TotalNew>30</TotalNew>
+        <TotalUsed>128</TotalUsed>
+        <TotalCollectible>2</TotalCollectible>
         <TotalRefurbished>0</TotalRefurbished>
       </OfferSummary>
       <Offers>
-        <TotalOffers>0</TotalOffers>
-        <TotalOfferPages>0</TotalOfferPages>
+        <TotalOffers>1</TotalOffers>
+        <TotalOfferPages>1</TotalOfferPages>
+        <Offer>
+          <Merchant>
+            <MerchantId>ATVPDKIKX0DER</MerchantId>
+            <GlancePage>http://www.amazon.com/gp/help/seller/home.html?seller=ATVPDKIKX0DER</GlancePage>
+            <AverageFeedbackRating>0.0</AverageFeedbackRating>
+            <TotalFeedback>0</TotalFeedback>
+          </Merchant>
+          <OfferAttributes>
+            <Condition>New</Condition>
+            <SubCondition>new</SubCondition>
+          </OfferAttributes>
+          <OfferListing>
+            <OfferListingId>nZzdk3rIpoXaJYCaEaTFLzHRMNKBk2zI6AnZQpK7u1mQQNVNl7pAV%2F1dfqJOwmWe2kjKqMWB8gHfS02gCyXgqQ%3D%3D</OfferListingId>
+            <Price>
+              <Amount>1349</Amount>
+              <CurrencyCode>USD</CurrencyCode>
+              <FormattedPrice>$13.49</FormattedPrice>
+            </Price>
+            <AmountSaved>
+              <Amount>149</Amount>
+              <CurrencyCode>USD</CurrencyCode>
+              <FormattedPrice>$1.49</FormattedPrice>
+            </AmountSaved>
+            <PercentageSaved>10</PercentageSaved>
+            <Availability>Usually ships in 3 to 5 days</Availability>
+            <AvailabilityAttributes>
+              <AvailabilityType>now</AvailabilityType>
+              <MinimumHours>72</MinimumHours>
+              <MaximumHours>120</MaximumHours>
+            </AvailabilityAttributes>
+            <Quantity>-1</Quantity>
+            <IsEligibleForSuperSaverShipping>1</IsEligibleForSuperSaverShipping>
+          </OfferListing>
+        </Offer>
       </Offers>
     </Item>
   </Items>

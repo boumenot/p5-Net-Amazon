@@ -70,8 +70,6 @@ the Amazon web service for an item with the specified manufacturer name.
 
 Check L<Net::Amazon::Request> for common request parameters not listed here.
 
-=head1 SEE ALSO
-
 =head1 AUTHORS
 
 Bill Fitzpatrick

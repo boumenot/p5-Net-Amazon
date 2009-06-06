@@ -1,104 +1,152 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<ItemSearchResponse xmlns="http://webservices.amazon.com/AWSECommerceService/2007-10-29">
+<?xml version="1.0"?>
+<ItemSearchResponse xmlns="http://webservices.amazon.com/AWSECommerceService/2009-03-31">
   <Items>
-    <TotalResults>399</TotalResults>
-    <TotalPages>40</TotalPages>
+    <TotalResults>450</TotalResults>
+    <TotalPages>45</TotalPages>
     <Item>
-      <ASIN>B00029BQAC</ASIN>
-      <DetailPageURL>http://www.amazon.com/gp/redirect.html%3FASIN=B00029BQAC%26tag=ws%26lcode=xm2%26cID=2025%26ccmID=165953%26location=/o/ASIN/B00029BQAC%253FSubscriptionId=1VAESZQN1G7SXNRG4882</DetailPageURL>
-      <SalesRank>249</SalesRank>
+      <ASIN>B00005LBW1</ASIN>
+      <SalesRank>409</SalesRank>
       <ItemAttributes>
-        <AmazonMaximumAge Units="months">95</AmazonMaximumAge>
-        <AmazonMinimumAge Units="months">60</AmazonMinimumAge>
         <Binding>CD-ROM</Binding>
         <Brand>Disney</Brand>
-        <ESRBAgeRating>Everyone</ESRBAgeRating>
-        <Feature>Winnie the Pooh Kindergarten w/French &amp; Spanish brings parents and young children a fun set of educational games they can enjoy together</Feature>
-        <Feature>Play eight games and 25 learning skills like Eeyore's Musical Mix &amp; Match, Owl's Memory Challenge, and Rabbit's Shape Sorting</Feature>
-        <Feature>Mickey Mouse Kindergarten introduces fundamental learning skills as they play with Mickey</Feature>
-        <Feature>As children play, they'll develop critical thinking skills and problem-solving abilities</Feature>
-        <Feature>Explore fun word games with Goofy and Tigger</Feature>
+        <EAN>0044702012695</EAN>
+        <ESRBAgeRating>Rating Pending</ESRBAgeRating>
         <Format>CD-ROM</Format>
-        <HardwarePlatform>pc;mac</HardwarePlatform>
-        <Label>Disney</Label>
+        <Genre>Action Video Games</Genre>
+        <HardwarePlatform>Unix</HardwarePlatform>
+        <ItemDimensions>
+          <Weight Units="hundredths-pounds">31</Weight>
+        </ItemDimensions>
+        <Label>Disney Interactive</Label>
         <ListPrice>
-          <Amount>1999</Amount>
+          <Amount>999</Amount>
           <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$19.99</FormattedPrice>
+          <FormattedPrice>$9.99</FormattedPrice>
         </ListPrice>
-        <Manufacturer>Disney</Manufacturer>
-        <Model>3706201</Model>
-        <MPN>3706201</MPN>
-        <OperatingSystem>Windows 98</OperatingSystem>
+        <Manufacturer>Disney Interactive</Manufacturer>
+        <Model>2211301</Model>
+        <OperatingSystem>Windows Vista</OperatingSystem>
         <PackageQuantity>1</PackageQuantity>
+        <Platform>Linux</Platform>
+        <Platform>Unix</Platform>
         <Platform>Macintosh</Platform>
+        <Platform>Windows 95</Platform>
         <Platform>Windows 98</Platform>
+        <Platform>Windows NT</Platform>
+        <Platform>Windows 2000</Platform>
         <Platform>Windows Me</Platform>
+        <Platform>Windows Vista</Platform>
         <Platform>Windows XP</Platform>
-        <Platform>Mac OS X</Platform>
-        <Platform>Mac OS 9 and below</Platform>
-        <Platform>Windows</Platform>
         <ProductGroup>Software</ProductGroup>
-        <ProductTypeName>ABIS_SOFTWARE</ProductTypeName>
-        <Publisher>Disney</Publisher>
-        <ReleaseDate>2004-07-06</ReleaseDate>
-        <Studio>Disney</Studio>
-        <Title>Kindergarten Bundle (Pooh Kindergarten, Mickey Kindergarten, and Phonics Quest)</Title>
-        <UPC>044702022410</UPC>
+        <ProductTypeName>SOFTWARE_GAMES</ProductTypeName>
+        <Publisher>Disney Interactive</Publisher>
+        <ReleaseDate>2004-06-07</ReleaseDate>
+        <Studio>Disney Interactive</Studio>
+        <Title>Disney's Magic Artist Deluxe</Title>
+        <UPC>044702015146</UPC>
       </ItemAttributes>
       <OfferSummary>
         <LowestNewPrice>
-          <Amount>1489</Amount>
+          <Amount>375</Amount>
           <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$14.89</FormattedPrice>
+          <FormattedPrice>$3.75</FormattedPrice>
         </LowestNewPrice>
         <LowestUsedPrice>
-          <Amount>1326</Amount>
+          <Amount>367</Amount>
           <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$13.26</FormattedPrice>
+          <FormattedPrice>$3.67</FormattedPrice>
         </LowestUsedPrice>
-        <TotalNew>3</TotalNew>
-        <TotalUsed>1</TotalUsed>
+        <TotalNew>5</TotalNew>
+        <TotalUsed>4</TotalUsed>
         <TotalCollectible>0</TotalCollectible>
         <TotalRefurbished>0</TotalRefurbished>
       </OfferSummary>
       <Offers>
-        <TotalOffers>1</TotalOffers>
-        <TotalOfferPages>1</TotalOfferPages>
-        <Offer>
-          <Merchant>
-            <MerchantId>ATVPDKIKX0DER</MerchantId>
-            <GlancePage>http://www.amazon.com/gp/help/seller/home.html?seller=ATVPDKIKX0DER</GlancePage>
-            <AverageFeedbackRating>0.0</AverageFeedbackRating>
-            <TotalFeedback>0</TotalFeedback>
-          </Merchant>
-          <OfferAttributes>
-            <Condition>New</Condition>
-            <SubCondition>new</SubCondition>
-          </OfferAttributes>
-          <OfferListing>
-            <OfferListingId>xJ3CukpgFtH1M6iETKK%2FeQOmzsPCdYAI7adR9zOsVFzJcLX6WZPF9afgE5JisvpZG250hs5aDIXPDueflaiNkw%3D%3D</OfferListingId>
-            <Price>
-              <Amount>1999</Amount>
-              <CurrencyCode>USD</CurrencyCode>
-              <FormattedPrice>$19.99</FormattedPrice>
-            </Price>
-            <Availability>Usually ships in 24 hours</Availability>
-            <AvailabilityAttributes>
-              <AvailabilityType>now</AvailabilityType>
-              <MinimumHours>0</MinimumHours>
-              <MaximumHours>0</MaximumHours>
-            </AvailabilityAttributes>
-            <Quantity>-1</Quantity>
-            <IsEligibleForSuperSaverShipping>1</IsEligibleForSuperSaverShipping>
-          </OfferListing>
-        </Offer>
+        <TotalOffers>0</TotalOffers>
+        <TotalOfferPages>0</TotalOfferPages>
       </Offers>
     </Item>
     <Item>
+      <ASIN>B000023VVH</ASIN>
+      <SalesRank>585</SalesRank>
+      <ItemAttributes>
+        <AmazonMaximumAge Units="months">216</AmazonMaximumAge>
+        <AmazonMinimumAge Units="months">72</AmazonMinimumAge>
+        <Binding>CD-ROM</Binding>
+        <Brand>Disney</Brand>
+        <Color>Adventures in Typing</Color>
+        <ESRBAgeRating>Everyone</ESRBAgeRating>
+        <Format>CD-ROM</Format>
+        <Genre>Childrens Reading and Language Software</Genre>
+        <HardwarePlatform>Mac</HardwarePlatform>
+        <ItemDimensions>
+          <Weight Units="hundredths-pounds">31</Weight>
+        </ItemDimensions>
+        <Label>Disney Interactive</Label>
+        <ListPrice>
+          <Amount>1499</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$14.99</FormattedPrice>
+        </ListPrice>
+        <Manufacturer>Disney Interactive</Manufacturer>
+        <Model>1369901</Model>
+        <OperatingSystem>Windows 95</OperatingSystem>
+        <PackageQuantity>1</PackageQuantity>
+        <Platform>Macintosh</Platform>
+        <Platform>Windows 98</Platform>
+        <Platform>Windows 95</Platform>
+        <ProductGroup>Software</ProductGroup>
+        <ProductTypeName>SOFTWARE_GAMES</ProductTypeName>
+        <Publisher>Disney Interactive</Publisher>
+        <Studio>Disney Interactive</Studio>
+        <Title>Disney's Adventures in Typing with Timon &amp; Pumbaa</Title>
+      </ItemAttributes>
+      <OfferSummary>
+        <LowestNewPrice>
+          <Amount>284</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$2.84</FormattedPrice>
+        </LowestNewPrice>
+        <LowestUsedPrice>
+          <Amount>199</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$1.99</FormattedPrice>
+        </LowestUsedPrice>
+        <TotalNew>7</TotalNew>
+        <TotalUsed>3</TotalUsed>
+        <TotalCollectible>0</TotalCollectible>
+        <TotalRefurbished>0</TotalRefurbished>
+      </OfferSummary>
+      <Offers>
+        <TotalOffers>0</TotalOffers>
+        <TotalOfferPages>0</TotalOfferPages>
+      </Offers>
+      <Accessories>
+        <Accessory>
+          <ASIN>6303925324</ASIN>
+          <Title>Timon &amp; Pumbaa: Hangin With Baby [VHS]</Title>
+        </Accessory>
+        <Accessory>
+          <ASIN>6303925332</ASIN>
+          <Title>Timon &amp; Pumbaa: Grub's on [VHS]</Title>
+        </Accessory>
+        <Accessory>
+          <ASIN>6304032129</ASIN>
+          <Title>Timon &amp; Pumbaa: Don't Get Mad [VHS]</Title>
+        </Accessory>
+        <Accessory>
+          <ASIN>6304032137</ASIN>
+          <Title>Timon &amp; Pumbaa: Live &amp; Learn [VHS]</Title>
+        </Accessory>
+        <Accessory>
+          <ASIN>B00000G23C</ASIN>
+          <Title>Disney's Jungle Boogie: 14 Favorite Songs From Jungle Book, The Lion King, Jungle Cubs, Timon &amp; Pumbaa (Soundtrack Anthology)</Title>
+        </Accessory>
+      </Accessories>
+    </Item>
+    <Item>
       <ASIN>B00029BQAW</ASIN>
-      <DetailPageURL>http://www.amazon.com/gp/redirect.html%3FASIN=B00029BQAW%26tag=ws%26lcode=xm2%26cID=2025%26ccmID=165953%26location=/o/ASIN/B00029BQAW%253FSubscriptionId=1VAESZQN1G7SXNRG4882</DetailPageURL>
-      <SalesRank>254</SalesRank>
+      <SalesRank>2106</SalesRank>
       <ItemAttributes>
         <AmazonMaximumAge Units="months">48</AmazonMaximumAge>
         <AmazonMinimumAge Units="months">24</AmazonMinimumAge>
@@ -112,13 +160,10 @@
         <Feature>Teaches numbers, letters, shapes, colors, music, and more</Feature>
         <Feature>Learn Spanish and French words; increases confidence</Feature>
         <Feature>For kids ages 18 to 36 months</Feature>
-        <Format>CD</Format>
-        <HardwarePlatform>pc; mac</HardwarePlatform>
+        <Format>CD-ROM</Format>
+        <HardwarePlatform>Pc</HardwarePlatform>
         <ItemDimensions>
-          <Height Units="hundredths-inches">750</Height>
-          <Length Units="hundredths-inches">530</Length>
-          <Weight Units="hundredths-pounds">44</Weight>
-          <Width Units="hundredths-inches">120</Width>
+          <Weight Units="hundredths-pounds">500</Weight>
         </ItemDimensions>
         <Label>Disney</Label>
         <LegalDisclaimer>Warranty does not cover misuse of product.</LegalDisclaimer>
@@ -129,15 +174,15 @@
         </ListPrice>
         <Manufacturer>Disney</Manufacturer>
         <Model>3706001</Model>
-        <MPN>3706001</MPN>
-        <OperatingSystem>Windows XP Home Edition</OperatingSystem>
+        <MPN>03706001</MPN>
+        <OperatingSystem>Windows XP</OperatingSystem>
         <PackageQuantity>1</PackageQuantity>
         <Platform>Macintosh</Platform>
-        <Platform>Windows XP</Platform>
-        <Platform>Mac OS X</Platform>
         <Platform>Windows</Platform>
+        <Platform>Mac OS X</Platform>
+        <Platform>Windows XP</Platform>
         <ProductGroup>Software</ProductGroup>
-        <ProductTypeName>ABIS_SOFTWARE</ProductTypeName>
+        <ProductTypeName>SOFTWARE_GAMES</ProductTypeName>
         <Publisher>Disney</Publisher>
         <ReleaseDate>2004-07-06</ReleaseDate>
         <Studio>Disney</Studio>
@@ -146,12 +191,17 @@
       </ItemAttributes>
       <OfferSummary>
         <LowestNewPrice>
-          <Amount>1299</Amount>
+          <Amount>1288</Amount>
           <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$12.99</FormattedPrice>
+          <FormattedPrice>$12.88</FormattedPrice>
         </LowestNewPrice>
-        <TotalNew>6</TotalNew>
-        <TotalUsed>0</TotalUsed>
+        <LowestUsedPrice>
+          <Amount>1165</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$11.65</FormattedPrice>
+        </LowestUsedPrice>
+        <TotalNew>8</TotalNew>
+        <TotalUsed>2</TotalUsed>
         <TotalCollectible>0</TotalCollectible>
         <TotalRefurbished>0</TotalRefurbished>
       </OfferSummary>
@@ -170,18 +220,18 @@
             <SubCondition>new</SubCondition>
           </OfferAttributes>
           <OfferListing>
-            <OfferListingId>94S2ZforOe8wml4eYYd1qLSTk%2FbhgPdyqOkSehhk9nBcYmDipSAgczyQ0TYXpPt7fJzZP8cNotIG%2BfVKfD6WwQ%3D%3D</OfferListingId>
+            <OfferListingId>cN5LzGmjcRVxBkfFuH1KaH5hkETAhLVTveSubgX9V1iV2m1lee1g0RK5NU7emKXY0f4JwC2twD5qFLTYsRMyJw%3D%3D</OfferListingId>
             <Price>
-              <Amount>1299</Amount>
+              <Amount>1899</Amount>
               <CurrencyCode>USD</CurrencyCode>
-              <FormattedPrice>$12.99</FormattedPrice>
+              <FormattedPrice>$18.99</FormattedPrice>
             </Price>
             <AmountSaved>
-              <Amount>700</Amount>
+              <Amount>100</Amount>
               <CurrencyCode>USD</CurrencyCode>
-              <FormattedPrice>$7.00</FormattedPrice>
+              <FormattedPrice>$1.00</FormattedPrice>
             </AmountSaved>
-            <PercentageSaved>35</PercentageSaved>
+            <PercentageSaved>5</PercentageSaved>
             <Availability>Usually ships in 24 hours</Availability>
             <AvailabilityAttributes>
               <AvailabilityType>now</AvailabilityType>
@@ -195,290 +245,129 @@
       </Offers>
     </Item>
     <Item>
-      <ASIN>B00092S8N0</ASIN>
-      <DetailPageURL>http://www.amazon.com/gp/redirect.html%3FASIN=B00092S8N0%26tag=ws%26lcode=xm2%26cID=2025%26ccmID=165953%26location=/o/ASIN/B00092S8N0%253FSubscriptionId=1VAESZQN1G7SXNRG4882</DetailPageURL>
-      <SalesRank>309</SalesRank>
+      <ASIN>B000G6IP5A</ASIN>
+      <SalesRank>4528</SalesRank>
       <ItemAttributes>
-        <AmazonMaximumAge Units="months">48</AmazonMaximumAge>
-        <AmazonMinimumAge Units="months">24</AmazonMinimumAge>
-        <Binding>CD-ROM</Binding>
-        <Brand>Disney</Brand>
-        <EAN>0044702022403</EAN>
-        <ESRBAgeRating>Everyone</ESRBAgeRating>
-        <Feature>Mickey Preschool helps children learn self-esteem and social skills while they play with Mickey and friends</Feature>
-        <Feature>Kids will explore the Hundred Acre Wood with Winnie The Pooh, and learn counting to 100 with Huey, Dewey and Louie</Feature>
-        <Feature>Stanley Wild for Sharks! is undersea adventure with Stanley and his animal friends. Dive right into a learning adventure while building problem-solving skills</Feature>
-        <Feature>Ages for 5 to 7</Feature>
-        <Format>CD-ROM</Format>
-        <HardwarePlatform>pc;mac</HardwarePlatform>
-        <ItemDimensions>
-          <Height Units="hundredths-inches">750</Height>
-          <Length Units="hundredths-inches">530</Length>
-          <Weight Units="hundredths-pounds">44</Weight>
-          <Width Units="hundredths-inches">120</Width>
-        </ItemDimensions>
-        <Label>Disney</Label>
-        <LegalDisclaimer>Warranty does not cover misuse of product.</LegalDisclaimer>
-        <ListPrice>
-          <Amount>1999</Amount>
-          <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$19.99</FormattedPrice>
-        </ListPrice>
-        <Manufacturer>Disney</Manufacturer>
-        <Model>3706101</Model>
-        <MPN>3706101</MPN>
-        <NumberOfItems>1</NumberOfItems>
-        <OperatingSystem>Windows 98</OperatingSystem>
-        <PackageQuantity>1</PackageQuantity>
-        <Platform>Macintosh</Platform>
-        <Platform>Windows 98</Platform>
-        <Platform>Windows Me</Platform>
-        <Platform>Windows XP</Platform>
-        <Platform>Mac OS X</Platform>
-        <Platform>Mac OS 9 and below</Platform>
-        <Platform>Windows</Platform>
-        <ProductGroup>Software</ProductGroup>
-        <ProductTypeName>ABIS_SOFTWARE</ProductTypeName>
-        <Publisher>Disney</Publisher>
-        <ReleaseDate>2004-07-06</ReleaseDate>
-        <Studio>Disney</Studio>
-        <Title>Disney Preschool Bundle (Pooh Pre-School, Mickey Pre-School, and Stanley Wild for Sharks)</Title>
-        <UPC>044702022403</UPC>
-      </ItemAttributes>
-      <OfferSummary>
-        <LowestNewPrice>
-          <Amount>1109</Amount>
-          <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$11.09</FormattedPrice>
-        </LowestNewPrice>
-        <TotalNew>7</TotalNew>
-        <TotalUsed>0</TotalUsed>
-        <TotalCollectible>0</TotalCollectible>
-        <TotalRefurbished>0</TotalRefurbished>
-      </OfferSummary>
-      <Offers>
-        <TotalOffers>1</TotalOffers>
-        <TotalOfferPages>1</TotalOfferPages>
-        <Offer>
-          <Merchant>
-            <MerchantId>ATVPDKIKX0DER</MerchantId>
-            <GlancePage>http://www.amazon.com/gp/help/seller/home.html?seller=ATVPDKIKX0DER</GlancePage>
-            <AverageFeedbackRating>0.0</AverageFeedbackRating>
-            <TotalFeedback>0</TotalFeedback>
-          </Merchant>
-          <OfferAttributes>
-            <Condition>New</Condition>
-            <SubCondition>new</SubCondition>
-          </OfferAttributes>
-          <OfferListing>
-            <OfferListingId>3WUKiZMw3s1sIYExgqWTO1jteWW4e3F6aqrm3F6iCWBIJBf%2Bu7V0TbDl1bm50jxCRhsZVFUUT0vYonQmJKbMqA%3D%3D</OfferListingId>
-            <Price>
-              <Amount>1499</Amount>
-              <CurrencyCode>USD</CurrencyCode>
-              <FormattedPrice>$14.99</FormattedPrice>
-            </Price>
-            <AmountSaved>
-              <Amount>500</Amount>
-              <CurrencyCode>USD</CurrencyCode>
-              <FormattedPrice>$5.00</FormattedPrice>
-            </AmountSaved>
-            <PercentageSaved>25</PercentageSaved>
-            <Availability>Usually ships in 24 hours</Availability>
-            <AvailabilityAttributes>
-              <AvailabilityType>now</AvailabilityType>
-              <MinimumHours>0</MinimumHours>
-              <MaximumHours>0</MaximumHours>
-            </AvailabilityAttributes>
-            <Quantity>-1</Quantity>
-            <IsEligibleForSuperSaverShipping>1</IsEligibleForSuperSaverShipping>
-          </OfferListing>
-        </Offer>
-      </Offers>
-    </Item>
-    <Item>
-      <ASIN>B00029BQA2</ASIN>
-      <DetailPageURL>http://www.amazon.com/gp/redirect.html%3FASIN=B00029BQA2%26tag=ws%26lcode=xm2%26cID=2025%26ccmID=165953%26location=/o/ASIN/B00029BQA2%253FSubscriptionId=1VAESZQN1G7SXNRG4882</DetailPageURL>
-      <SalesRank>619</SalesRank>
-      <ItemAttributes>
-        <AmazonMaximumAge Units="months">95</AmazonMaximumAge>
-        <AmazonMinimumAge Units="months">60</AmazonMinimumAge>
-        <Binding>CD-ROM</Binding>
-        <Brand>Disney</Brand>
-        <EAN>0044702022427</EAN>
-        <ESRBAgeRating>Everyone</ESRBAgeRating>
-        <Feature>3 fun and interactive learning games with Buzz, Mickey, and Aladdin</Feature>
-        <Feature>Build phonics, vocabulary, and reading comprehension</Feature>
-        <Feature>Develops critical thinking and problem solving skills</Feature>
-        <Feature>Goal and reward structured; printable take-away activities</Feature>
-        <Feature>For 1st and 2nd graders</Feature>
-        <Format>CD-ROM</Format>
-        <Genre>Childrens Early Learning Software</Genre>
-        <HardwarePlatform>pc;mac</HardwarePlatform>
-        <ItemDimensions>
-          <Height Units="hundredths-inches">750</Height>
-          <Length Units="hundredths-inches">530</Length>
-          <Weight Units="hundredths-pounds">44</Weight>
-          <Width Units="hundredths-inches">120</Width>
-        </ItemDimensions>
-        <Label>Disney</Label>
-        <LegalDisclaimer>Warranty does not cover misuse of product.</LegalDisclaimer>
-        <ListPrice>
-          <Amount>1499</Amount>
-          <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$14.99</FormattedPrice>
-        </ListPrice>
-        <Manufacturer>Disney</Manufacturer>
-        <Model>3706301</Model>
-        <MPN>3706301</MPN>
-        <NumberOfItems>1</NumberOfItems>
-        <OperatingSystem>Windows 98</OperatingSystem>
-        <PackageQuantity>1</PackageQuantity>
-        <Platform>Macintosh</Platform>
-        <Platform>Windows XP</Platform>
-        <Platform>Mac OS X</Platform>
-        <Platform>Windows</Platform>
-        <ProductGroup>Software</ProductGroup>
-        <ProductTypeName>ABIS_SOFTWARE</ProductTypeName>
-        <Publisher>Disney</Publisher>
-        <ReleaseDate>2004-07-06</ReleaseDate>
-        <Studio>Disney</Studio>
-        <Title>Disney's 1st &amp; 2nd Grade Bundle (Pixar 1st Grade, Secret Keys, and Aladdin Reading Quest)</Title>
-        <UPC>044702022427</UPC>
-      </ItemAttributes>
-      <OfferSummary>
-        <LowestNewPrice>
-          <Amount>1356</Amount>
-          <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$13.56</FormattedPrice>
-        </LowestNewPrice>
-        <TotalNew>7</TotalNew>
-        <TotalUsed>0</TotalUsed>
-        <TotalCollectible>0</TotalCollectible>
-        <TotalRefurbished>0</TotalRefurbished>
-      </OfferSummary>
-      <Offers>
-        <TotalOffers>1</TotalOffers>
-        <TotalOfferPages>1</TotalOfferPages>
-        <Offer>
-          <Merchant>
-            <MerchantId>ATVPDKIKX0DER</MerchantId>
-            <GlancePage>http://www.amazon.com/gp/help/seller/home.html?seller=ATVPDKIKX0DER</GlancePage>
-            <AverageFeedbackRating>0.0</AverageFeedbackRating>
-            <TotalFeedback>0</TotalFeedback>
-          </Merchant>
-          <OfferAttributes>
-            <Condition>New</Condition>
-            <SubCondition>new</SubCondition>
-          </OfferAttributes>
-          <OfferListing>
-            <OfferListingId>KmZjba9fppOVRzvbA4n%2F%2FSrNhMcy62f7pLd2ZBL%2Bfy3SxNy7gwFMfHx1IKKLnQMAoBKEd%2FOVhav1SBba6URWiQ%3D%3D</OfferListingId>
-            <Price>
-              <Amount>1499</Amount>
-              <CurrencyCode>USD</CurrencyCode>
-              <FormattedPrice>$14.99</FormattedPrice>
-            </Price>
-            <Availability>Usually ships in 24 hours</Availability>
-            <AvailabilityAttributes>
-              <AvailabilityType>now</AvailabilityType>
-              <MinimumHours>0</MinimumHours>
-              <MaximumHours>0</MaximumHours>
-            </AvailabilityAttributes>
-            <Quantity>-1</Quantity>
-            <IsEligibleForSuperSaverShipping>1</IsEligibleForSuperSaverShipping>
-          </OfferListing>
-        </Offer>
-      </Offers>
-    </Item>
-    <Item>
-      <ASIN>B00008L40W</ASIN>
-      <DetailPageURL>http://www.amazon.com/gp/redirect.html%3FASIN=B00008L40W%26tag=ws%26lcode=xm2%26cID=2025%26ccmID=165953%26location=/o/ASIN/B00008L40W%253FSubscriptionId=1VAESZQN1G7SXNRG4882</DetailPageURL>
-      <SalesRank>5101</SalesRank>
-      <ItemAttributes>
+        <AmazonMaximumAge Units="months">240</AmazonMaximumAge>
+        <AmazonMinimumAge Units="months">144</AmazonMinimumAge>
         <BatteriesIncluded>0</BatteriesIncluded>
-        <Binding>Video Game</Binding>
-        <Brand>GameBoy</Brand>
-        <EAN>0712725001421</EAN>
-        <ESRBAgeRating>Everyone</ESRBAgeRating>
-        <Feature>When Cheerleader Attack! arcade game with over 15 levels of action.</Feature>
-        <Feature>More than 20 single and multiplayer games and activities to choose from.</Feature>
-        <Feature>In the PDA, keep track of friends' contact information, important dates, and of course, horoscopes and biorhythms,</Feature>
-        <Feature>Music from the award-winning show.</Feature>
-        <Genre>Action Games</Genre>
-        <HardwarePlatform>game_boy_advance</HardwarePlatform>
+        <Binding>CD-ROM</Binding>
+        <Brand>Disney</Brand>
+        <EAN>0044702022830</EAN>
+        <ESRBAgeRating>Teen</ESRBAgeRating>
+        <Feature>Interact with characters from the show - Bree, Gabrielle, Lynette, Susan, Edie and more</Feature>
+        <Feature>Solve mysteries - sneak through homes, flirt, entertain, charm, and spy your way to the truth</Feature>
+        <Feature>Gossip with your favorite characters from Wisteria Lane</Feature>
+        <Feature>Customize your appearance, decorate your house, shop for clothing and more</Feature>
+        <Feature>Uncover secrets while still running your household - Looking after your family, home and garden</Feature>
+        <Format>CD-ROM</Format>
+        <Genre>Simulation Games</Genre>
+        <HardwarePlatform>Pc</HardwarePlatform>
         <ItemDimensions>
-          <Weight Units="hundredths-pounds">50</Weight>
+          <Height Units="inches">1.25</Height>
+          <Length Units="inches">7.5</Length>
+          <Weight Units="hundredths-pounds">300</Weight>
+          <Width Units="inches">5.25</Width>
         </ItemDimensions>
         <Label>Disney Interactive</Label>
         <ListPrice>
-          <Amount>1999</Amount>
+          <Amount>999</Amount>
           <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$19.99</FormattedPrice>
+          <FormattedPrice>$9.99</FormattedPrice>
         </ListPrice>
         <Manufacturer>Disney Interactive</Manufacturer>
-        <Model>712725001421</Model>
-        <MPN>100730</MPN>
-        <PackageQuantity>1</PackageQuantity>
-        <Platform>Game Boy Advance</Platform>
+        <Model>700601</Model>
+        <MPN>7000601</MPN>
+        <OperatingSystem>Windows XP</OperatingSystem>
+        <Platform>Windows XP</Platform>
         <ProductGroup>Video Games</ProductGroup>
-        <ProductTypeName>ABIS_VIDEO_GAMES</ProductTypeName>
+        <ProductTypeName>SOFTWARE_GAMES</ProductTypeName>
         <Publisher>Disney Interactive</Publisher>
+        <ReleaseDate>2006-10-05</ReleaseDate>
         <Studio>Disney Interactive</Studio>
-        <Title>Lizzie McGuire: On the Go</Title>
-        <UPC>712725001421</UPC>
+        <Title>Desperate Housewives</Title>
+        <UPC>044702022830</UPC>
       </ItemAttributes>
       <OfferSummary>
         <LowestNewPrice>
-          <Amount>1041</Amount>
+          <Amount>602</Amount>
           <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$10.41</FormattedPrice>
+          <FormattedPrice>$6.02</FormattedPrice>
         </LowestNewPrice>
         <LowestUsedPrice>
-          <Amount>897</Amount>
+          <Amount>393</Amount>
           <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$8.97</FormattedPrice>
+          <FormattedPrice>$3.93</FormattedPrice>
         </LowestUsedPrice>
-        <TotalNew>15</TotalNew>
-        <TotalUsed>1</TotalUsed>
+        <TotalNew>19</TotalNew>
+        <TotalUsed>44</TotalUsed>
         <TotalCollectible>0</TotalCollectible>
         <TotalRefurbished>0</TotalRefurbished>
       </OfferSummary>
       <Offers>
-        <TotalOffers>0</TotalOffers>
-        <TotalOfferPages>0</TotalOfferPages>
+        <TotalOffers>1</TotalOffers>
+        <TotalOfferPages>1</TotalOfferPages>
+        <Offer>
+          <Merchant>
+            <MerchantId>ATVPDKIKX0DER</MerchantId>
+            <GlancePage>http://www.amazon.com/gp/help/seller/home.html?seller=ATVPDKIKX0DER</GlancePage>
+            <AverageFeedbackRating>0.0</AverageFeedbackRating>
+            <TotalFeedback>0</TotalFeedback>
+          </Merchant>
+          <OfferAttributes>
+            <Condition>New</Condition>
+            <SubCondition>new</SubCondition>
+          </OfferAttributes>
+          <OfferListing>
+            <OfferListingId>trsNzpQoVJT43WjtyuXL1jJynTjeCAOM%2Fod8yK8nTm4IvEpBNSQaJ6LpEqUQE57IZ%2BikMKZwNMiNb7877Rbp2A%3D%3D</OfferListingId>
+            <Price>
+              <Amount>999</Amount>
+              <CurrencyCode>USD</CurrencyCode>
+              <FormattedPrice>$9.99</FormattedPrice>
+            </Price>
+            <Availability>Usually ships in 24 hours</Availability>
+            <AvailabilityAttributes>
+              <AvailabilityType>now</AvailabilityType>
+              <MinimumHours>0</MinimumHours>
+              <MaximumHours>0</MaximumHours>
+            </AvailabilityAttributes>
+            <Quantity>-1</Quantity>
+            <IsEligibleForSuperSaverShipping>1</IsEligibleForSuperSaverShipping>
+          </OfferListing>
+        </Offer>
       </Offers>
       <Accessories>
         <Accessory>
-          <ASIN>B00005N7PX</ASIN>
-          <Title>Electronic Gaming Monthly</Title>
-        </Accessory>
-        <Accessory>
-          <ASIN>B0000AFQQY</ASIN>
-          <Title>Play</Title>
-        </Accessory>
-        <Accessory>
-          <ASIN>B00009KO2N</ASIN>
-          <Title>Newtype USA</Title>
-        </Accessory>
-        <Accessory>
-          <ASIN>B000E11BJE</ASIN>
-          <Title>Tips &amp; Tricks Magazine</Title>
+          <ASIN>B000NDESM0</ASIN>
+          <Title>PC Gamer (1-year)</Title>
         </Accessory>
       </Accessories>
     </Item>
     <Item>
-      <ASIN>B00006FRNI</ASIN>
-      <DetailPageURL>http://www.amazon.com/gp/redirect.html%3FASIN=B00006FRNI%26tag=ws%26lcode=xm2%26cID=2025%26ccmID=165953%26location=/o/ASIN/B00006FRNI%253FSubscriptionId=1VAESZQN1G7SXNRG4882</DetailPageURL>
-      <SalesRank>4067</SalesRank>
+      <ASIN>B000W2UHQ8</ASIN>
+      <SalesRank>5018</SalesRank>
       <ItemAttributes>
         <AmazonMaximumAge Units="months">240</AmazonMaximumAge>
         <AmazonMinimumAge Units="months">60</AmazonMinimumAge>
-        <Binding>CD-ROM</Binding>
+        <BatteriesIncluded>0</BatteriesIncluded>
+        <Binding>Video Game</Binding>
         <Brand>Disney</Brand>
-        <EAN>0044702017720</EAN>
+        <EAN>0044702019816</EAN>
         <ESRBAgeRating>Everyone</ESRBAgeRating>
-        <Format>CD-ROM</Format>
-        <Genre>strategy_games</Genre>
-        <HardwarePlatform>pc</HardwarePlatform>
+        <Feature>Befriend and interact with your favourite Princesses - Cinderella, Ariel, Snow White and Jasmine</Feature>
+        <Feature>Play as your own customizable heroine princess character, selecting her name, dresses, accessories, hair, skin tone and eye colour</Feature>
+        <Feature>Utilize unique, themed magic as you explore and adventure through four enchanted Princess worlds</Feature>
+        <Feature>Earn rewards for exploration and achieving goals to keep motivation high</Feature>
+        <Feature>Experience a variety of mini-games that complement the adventure gameplay</Feature>
+        <Format>DVD-ROM</Format>
+        <Genre>Adventure Games</Genre>
+        <HardwarePlatform>Pc</HardwarePlatform>
+        <ItemDimensions>
+          <Height Units="inches">1.25</Height>
+          <Length Units="inches">7.5</Length>
+          <Weight Units="hundredths-pounds">500</Weight>
+          <Width Units="inches">5.25</Width>
+        </ItemDimensions>
         <Label>Disney Interactive</Label>
         <ListPrice>
           <Amount>1999</Amount>
@@ -486,31 +375,30 @@
           <FormattedPrice>$19.99</FormattedPrice>
         </ListPrice>
         <Manufacturer>Disney Interactive</Manufacturer>
-        <MPN>2590001</MPN>
+        <Model>7026201</Model>
+        <MPN>7026201</MPN>
+        <OperatingSystem>Windows XP</OperatingSystem>
         <Platform>Windows XP</Platform>
-        <Platform>Windows 2000</Platform>
-        <Platform>Windows 98</Platform>
-        <Platform>Windows Me</Platform>
         <ProductGroup>Video Games</ProductGroup>
-        <ProductTypeName>ABIS_VIDEO_GAMES</ProductTypeName>
+        <ProductTypeName>SOFTWARE_GAMES</ProductTypeName>
         <Publisher>Disney Interactive</Publisher>
-        <ReleaseDate>2002-09-03</ReleaseDate>
+        <ReleaseDate>2008-01-21</ReleaseDate>
         <Studio>Disney Interactive</Studio>
-        <Title>Ultimate Ride Coaster: Disney Edition</Title>
-        <UPC>044702017720</UPC>
+        <Title>Disney Princess: Enchanted Journey</Title>
+        <UPC>044702019816</UPC>
       </ItemAttributes>
       <OfferSummary>
         <LowestNewPrice>
-          <Amount>1650</Amount>
+          <Amount>900</Amount>
           <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$16.50</FormattedPrice>
+          <FormattedPrice>$9.00</FormattedPrice>
         </LowestNewPrice>
         <LowestUsedPrice>
-          <Amount>846</Amount>
+          <Amount>925</Amount>
           <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$8.46</FormattedPrice>
+          <FormattedPrice>$9.25</FormattedPrice>
         </LowestUsedPrice>
-        <TotalNew>2</TotalNew>
+        <TotalNew>17</TotalNew>
         <TotalUsed>4</TotalUsed>
         <TotalCollectible>0</TotalCollectible>
         <TotalRefurbished>0</TotalRefurbished>
@@ -530,131 +418,372 @@
             <SubCondition>new</SubCondition>
           </OfferAttributes>
           <OfferListing>
-            <OfferListingId>7zJgoy1WUx%2FrWtGSjwYDk5Wi4WrSoYQv%2Fdx97ROhq825Tz%2F6juEskqpVK16YX0YQBcfTBJWyOnq7LHcUHqqsMA%3D%3D</OfferListingId>
+            <OfferListingId>8k2M3MBY51ecgXBa6VKichwSONV0C9txcjupRA5v5gsNCDJeCAIT25N5RaAvx%2F0lW1zfQTLPchEIa6yBh536jw%3D%3D</OfferListingId>
             <Price>
               <Amount>1999</Amount>
               <CurrencyCode>USD</CurrencyCode>
               <FormattedPrice>$19.99</FormattedPrice>
             </Price>
-            <Availability>Usually ships in 3 to 4 weeks</Availability>
+            <Availability>Usually ships in 24 hours</Availability>
             <AvailabilityAttributes>
               <AvailabilityType>now</AvailabilityType>
-              <MinimumHours>552</MinimumHours>
-              <MaximumHours>624</MaximumHours>
+              <MinimumHours>0</MinimumHours>
+              <MaximumHours>0</MaximumHours>
             </AvailabilityAttributes>
             <Quantity>-1</Quantity>
             <IsEligibleForSuperSaverShipping>1</IsEligibleForSuperSaverShipping>
           </OfferListing>
         </Offer>
       </Offers>
-      <Accessories>
-        <Accessory>
-          <ASIN>B000NDESM0</ASIN>
-          <Title>PC Gamer [1-year]</Title>
-        </Accessory>
-        <Accessory>
-          <ASIN>B00005N7PE</ASIN>
-          <Title>Games for Windows: The Official Magazine</Title>
-        </Accessory>
-      </Accessories>
     </Item>
     <Item>
-      <ASIN>B00005LBW1</ASIN>
-      <DetailPageURL>http://www.amazon.com/gp/redirect.html%3FASIN=B00005LBW1%26tag=ws%26lcode=xm2%26cID=2025%26ccmID=165953%26location=/o/ASIN/B00005LBW1%253FSubscriptionId=1VAESZQN1G7SXNRG4882</DetailPageURL>
-      <SalesRank>352</SalesRank>
+      <ASIN>B00029BQAC</ASIN>
+      <SalesRank>1788</SalesRank>
       <ItemAttributes>
+        <AmazonMaximumAge Units="months">95</AmazonMaximumAge>
+        <AmazonMinimumAge Units="months">60</AmazonMinimumAge>
+        <BatteriesIncluded>0</BatteriesIncluded>
         <Binding>CD-ROM</Binding>
         <Brand>Disney</Brand>
-        <EAN>0044702012695</EAN>
+        <EAN>0044702022410</EAN>
+        <ESRBAgeRating>Everyone</ESRBAgeRating>
+        <Feature>Winnie the Pooh Kindergarten w/French &amp; Spanish brings parents and young children a fun set of educational games they can enjoy together</Feature>
+        <Feature>Play eight games and 25 learning skills like Eeyore's Musical Mix &amp; Match, Owl's Memory Challenge, and Rabbit's Shape Sorting</Feature>
+        <Feature>Mickey Mouse Kindergarten introduces fundamental learning skills as they play with Mickey</Feature>
+        <Feature>As children play, they'll develop critical thinking skills and problem-solving abilities</Feature>
+        <Feature>Explore fun word games with Goofy and Tigger</Feature>
         <Format>CD-ROM</Format>
-        <Label>Disney Interactive</Label>
-        <ListPrice>
-          <Amount>999</Amount>
-          <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$9.99</FormattedPrice>
-        </ListPrice>
-        <Manufacturer>Disney Interactive</Manufacturer>
-        <Model>2211301</Model>
-        <PackageQuantity>1</PackageQuantity>
-        <Platform>Windows NT</Platform>
-        <Platform>Macintosh</Platform>
-        <Platform>Linux</Platform>
-        <Platform>Unix</Platform>
-        <Platform>Windows 98</Platform>
-        <Platform>Windows 2000</Platform>
-        <Platform>Windows Me</Platform>
-        <Platform>Windows XP</Platform>
-        <Platform>Windows 95</Platform>
-        <ProductGroup>Software</ProductGroup>
-        <ProductTypeName>ABIS_SOFTWARE</ProductTypeName>
-        <Publisher>Disney Interactive</Publisher>
-        <ReleaseDate>2004-06-07</ReleaseDate>
-        <Studio>Disney Interactive</Studio>
-        <Title>Disney's Magic Artist Deluxe</Title>
-        <UPC>044702015146</UPC>
-      </ItemAttributes>
-      <OfferSummary>
-        <LowestUsedPrice>
-          <Amount>2182</Amount>
-          <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$21.82</FormattedPrice>
-        </LowestUsedPrice>
-        <TotalNew>0</TotalNew>
-        <TotalUsed>1</TotalUsed>
-        <TotalCollectible>0</TotalCollectible>
-        <TotalRefurbished>0</TotalRefurbished>
-      </OfferSummary>
-      <Offers>
-        <TotalOffers>0</TotalOffers>
-        <TotalOfferPages>0</TotalOfferPages>
-      </Offers>
-    </Item>
-    <Item>
-      <ASIN>B00005JSG9</ASIN>
-      <DetailPageURL>http://www.amazon.com/gp/redirect.html%3FASIN=B00005JSG9%26tag=ws%26lcode=xm2%26cID=2025%26ccmID=165953%26location=/o/ASIN/B00005JSG9%253FSubscriptionId=1VAESZQN1G7SXNRG4882</DetailPageURL>
-      <SalesRank>18148</SalesRank>
-      <ItemAttributes>
-        <Artist>Disney's Cinderella</Artist>
-        <Binding>Audio CD</Binding>
-        <Brand>Disney</Brand>
-        <EAN>0044702012640</EAN>
-        <Format>CD</Format>
+        <HardwarePlatform>Pc</HardwarePlatform>
         <ItemDimensions>
-          <Weight Units="hundredths-pounds">20</Weight>
+          <Weight Units="hundredths-pounds">500</Weight>
         </ItemDimensions>
-        <Label>Disney Studios</Label>
+        <Label>Disney</Label>
         <LegalDisclaimer>Warranty does not cover misuse of product.</LegalDisclaimer>
         <ListPrice>
           <Amount>1999</Amount>
           <CurrencyCode>USD</CurrencyCode>
           <FormattedPrice>$19.99</FormattedPrice>
         </ListPrice>
-        <Manufacturer>Disney Studios</Manufacturer>
-        <Model>044702012640</Model>
-        <MPN>2210801</MPN>
-        <NumberOfDiscs>1</NumberOfDiscs>
-        <OperatingSystem>Windows&amp;Macintosh</OperatingSystem>
+        <Manufacturer>Disney</Manufacturer>
+        <Model>3706201</Model>
+        <MPN>3706201</MPN>
+        <NumberOfItems>1</NumberOfItems>
+        <OperatingSystem>Windows 98</OperatingSystem>
+        <PackageQuantity>1</PackageQuantity>
         <Platform>Windows XP</Platform>
-        <ProductGroup>Music</ProductGroup>
-        <ProductTypeName>ABIS_MUSIC</ProductTypeName>
-        <Publisher>Disney Studios</Publisher>
-        <ReleaseDate>2001-08-07</ReleaseDate>
-        <Studio>Disney Studios</Studio>
-        <Title>Dollhouse</Title>
-        <UPC>044702012640</UPC>
+        <Platform>Mac OS 9 and below</Platform>
+        <Platform>Windows</Platform>
+        <Platform>Windows Me</Platform>
+        <Platform>Windows 98</Platform>
+        <Platform>Macintosh</Platform>
+        <Platform>Mac OS X</Platform>
+        <ProductGroup>Software</ProductGroup>
+        <ProductTypeName>SOFTWARE_GAMES</ProductTypeName>
+        <Publisher>Disney</Publisher>
+        <ReleaseDate>2004-07-06</ReleaseDate>
+        <Studio>Disney</Studio>
+        <Title>Disney Learning Kindergarten Bundle (Pooh Kindergarten, Mickey Kindergarten, and Phonics Quest)</Title>
+        <UPC>044702022410</UPC>
       </ItemAttributes>
       <OfferSummary>
         <LowestNewPrice>
-          <Amount>474</Amount>
+          <Amount>1324</Amount>
           <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$4.74</FormattedPrice>
+          <FormattedPrice>$13.24</FormattedPrice>
         </LowestNewPrice>
         <LowestUsedPrice>
-          <Amount>2000</Amount>
+          <Amount>1199</Amount>
           <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$20.00</FormattedPrice>
+          <FormattedPrice>$11.99</FormattedPrice>
         </LowestUsedPrice>
-        <TotalNew>6</TotalNew>
+        <TotalNew>7</TotalNew>
+        <TotalUsed>2</TotalUsed>
+        <TotalCollectible>0</TotalCollectible>
+        <TotalRefurbished>0</TotalRefurbished>
+      </OfferSummary>
+      <Offers>
+        <TotalOffers>1</TotalOffers>
+        <TotalOfferPages>1</TotalOfferPages>
+        <Offer>
+          <Merchant>
+            <MerchantId>ATVPDKIKX0DER</MerchantId>
+            <GlancePage>http://www.amazon.com/gp/help/seller/home.html?seller=ATVPDKIKX0DER</GlancePage>
+            <AverageFeedbackRating>0.0</AverageFeedbackRating>
+            <TotalFeedback>0</TotalFeedback>
+          </Merchant>
+          <OfferAttributes>
+            <Condition>New</Condition>
+            <SubCondition>new</SubCondition>
+          </OfferAttributes>
+          <OfferListing>
+            <OfferListingId>s8mI7jvbcmJUBU%2FQe4%2BNnhEhROdhOBm5Fw0S4ljiND97GpaRUC1GEJSWrj%2FI7ZW9rYygE%2F6xONkZPpHvHya4cw%3D%3D</OfferListingId>
+            <Price>
+              <Amount>1899</Amount>
+              <CurrencyCode>USD</CurrencyCode>
+              <FormattedPrice>$18.99</FormattedPrice>
+            </Price>
+            <AmountSaved>
+              <Amount>100</Amount>
+              <CurrencyCode>USD</CurrencyCode>
+              <FormattedPrice>$1.00</FormattedPrice>
+            </AmountSaved>
+            <PercentageSaved>5</PercentageSaved>
+            <Availability>Usually ships in 24 hours</Availability>
+            <AvailabilityAttributes>
+              <AvailabilityType>now</AvailabilityType>
+              <MinimumHours>0</MinimumHours>
+              <MaximumHours>0</MaximumHours>
+            </AvailabilityAttributes>
+            <Quantity>-1</Quantity>
+            <IsEligibleForSuperSaverShipping>1</IsEligibleForSuperSaverShipping>
+          </OfferListing>
+        </Offer>
+      </Offers>
+    </Item>
+    <Item>
+      <ASIN>B000Y5DTJK</ASIN>
+      <SalesRank>7962</SalesRank>
+      <ItemAttributes>
+        <AmazonMaximumAge Units="months">240</AmazonMaximumAge>
+        <AmazonMinimumAge Units="months">204</AmazonMinimumAge>
+        <BatteriesIncluded>0</BatteriesIncluded>
+        <Binding>Video Game</Binding>
+        <Brand>Disney Interactive Studios</Brand>
+        <EAN>0044702022823</EAN>
+        <Edition>Standard</Edition>
+        <ESRBAgeRating>Mature</ESRBAgeRating>
+        <Feature>Strategic Combat ¿ Choose to take out your enemies with quiet kills or massive firepower.</Feature>
+        <Feature>Intense Dino Combat ¿ Battle vicious dinosaurs or lure them to attack your enemies</Feature>
+        <Feature>Explosive Weapons ¿ Choose from 13 deadly weapons with most featuring a secondary function</Feature>
+        <Feature>Intelligent A.I. ¿ Enemy soldiers advance to flank and dinosaurs reacts in unpredictable predatory and defensive behavior</Feature>
+        <Feature>Frenetic Multiplayer Action - Take the fight on-line with intense action for up to 16 players on dinosaur-infested maps</Feature>
+        <Format>DVD-ROM</Format>
+        <Genre>Action Games</Genre>
+        <HardwarePlatform>Pc</HardwarePlatform>
+        <IsAutographed>0</IsAutographed>
+        <IsMemorabilia>0</IsMemorabilia>
+        <ItemDimensions>
+          <Weight Units="hundredths-pounds">200</Weight>
+        </ItemDimensions>
+        <Label>Disney Interactive Studios</Label>
+        <ListPrice>
+          <Amount>4999</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$49.99</FormattedPrice>
+        </ListPrice>
+        <Manufacturer>Disney Interactive Studios</Manufacturer>
+        <Model>7000301</Model>
+        <MPN>7000301</MPN>
+        <OperatingSystem>Windows XP</OperatingSystem>
+        <PackageQuantity>1</PackageQuantity>
+        <Platform>Windows XP</Platform>
+        <Platform>Windows Vista</Platform>
+        <ProductGroup>Video Games</ProductGroup>
+        <ProductTypeName>SOFTWARE_GAMES</ProductTypeName>
+        <Publisher>Disney Interactive Studios</Publisher>
+        <ReleaseDate>2008-04-29</ReleaseDate>
+        <Studio>Disney Interactive Studios</Studio>
+        <Title>Turok</Title>
+        <UPC>044702022823</UPC>
+      </ItemAttributes>
+      <OfferSummary>
+        <LowestNewPrice>
+          <Amount>998</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$9.98</FormattedPrice>
+        </LowestNewPrice>
+        <LowestUsedPrice>
+          <Amount>1000</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$10.00</FormattedPrice>
+        </LowestUsedPrice>
+        <TotalNew>28</TotalNew>
+        <TotalUsed>6</TotalUsed>
+        <TotalCollectible>0</TotalCollectible>
+        <TotalRefurbished>0</TotalRefurbished>
+      </OfferSummary>
+      <Offers>
+        <TotalOffers>1</TotalOffers>
+        <TotalOfferPages>1</TotalOfferPages>
+        <Offer>
+          <Merchant>
+            <MerchantId>ATVPDKIKX0DER</MerchantId>
+            <GlancePage>http://www.amazon.com/gp/help/seller/home.html?seller=ATVPDKIKX0DER</GlancePage>
+            <AverageFeedbackRating>0.0</AverageFeedbackRating>
+            <TotalFeedback>0</TotalFeedback>
+          </Merchant>
+          <OfferAttributes>
+            <Condition>New</Condition>
+            <SubCondition>new</SubCondition>
+          </OfferAttributes>
+          <OfferListing>
+            <OfferListingId>G5f%2Bkss%2B6dKjzxOLy2aW1nzYz1joCXIH5kXE7sYPGARvj5IfWEOFyD2ss2YpK%2FtKd8CYSy8OOjBLEifkjE%2FFEg%3D%3D</OfferListingId>
+            <Price>
+              <Amount>2949</Amount>
+              <CurrencyCode>USD</CurrencyCode>
+              <FormattedPrice>$29.49</FormattedPrice>
+            </Price>
+            <AmountSaved>
+              <Amount>2050</Amount>
+              <CurrencyCode>USD</CurrencyCode>
+              <FormattedPrice>$20.50</FormattedPrice>
+            </AmountSaved>
+            <PercentageSaved>41</PercentageSaved>
+            <Availability>Usually ships in 24 hours</Availability>
+            <AvailabilityAttributes>
+              <AvailabilityType>now</AvailabilityType>
+              <MinimumHours>0</MinimumHours>
+              <MaximumHours>0</MaximumHours>
+            </AvailabilityAttributes>
+            <Quantity>-1</Quantity>
+            <IsEligibleForSuperSaverShipping>1</IsEligibleForSuperSaverShipping>
+          </OfferListing>
+        </Offer>
+      </Offers>
+    </Item>
+    <Item>
+      <ASIN>B00029BQA2</ASIN>
+      <SalesRank>1168</SalesRank>
+      <ItemAttributes>
+        <AmazonMaximumAge Units="months">95</AmazonMaximumAge>
+        <AmazonMinimumAge Units="months">60</AmazonMinimumAge>
+        <BatteriesIncluded>0</BatteriesIncluded>
+        <Binding>CD-ROM</Binding>
+        <Brand>Disney</Brand>
+        <EAN>0044702022427</EAN>
+        <ESRBAgeRating>Everyone</ESRBAgeRating>
+        <Feature>3 fun and interactive learning games with Buzz, Mickey, and Aladdin</Feature>
+        <Feature>Build phonics, vocabulary, and reading comprehension</Feature>
+        <Feature>Develops critical thinking and problem solving skills</Feature>
+        <Feature>Goal and reward structured; printable take-away activities</Feature>
+        <Feature>For 1st and 2nd graders</Feature>
+        <Format>CD-ROM</Format>
+        <Genre>Childrens Early Learning Software</Genre>
+        <HardwarePlatform>Pc</HardwarePlatform>
+        <ItemDimensions>
+          <Weight Units="hundredths-pounds">500</Weight>
+        </ItemDimensions>
+        <Label>Disney</Label>
+        <LegalDisclaimer>Warranty does not cover misuse of product.</LegalDisclaimer>
+        <ListPrice>
+          <Amount>1499</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$14.99</FormattedPrice>
+        </ListPrice>
+        <Manufacturer>Disney</Manufacturer>
+        <Model>3706301</Model>
+        <MPN>3706301</MPN>
+        <NumberOfItems>1</NumberOfItems>
+        <OperatingSystem>Windows XP</OperatingSystem>
+        <PackageQuantity>1</PackageQuantity>
+        <Platform>Macintosh</Platform>
+        <Platform>Windows</Platform>
+        <Platform>Mac OS X</Platform>
+        <Platform>Windows XP</Platform>
+        <ProductGroup>Software</ProductGroup>
+        <ProductTypeName>SOFTWARE_GAMES</ProductTypeName>
+        <Publisher>Disney</Publisher>
+        <ReleaseDate>2004-07-06</ReleaseDate>
+        <Studio>Disney</Studio>
+        <Title>Disney's 1st &amp; 2nd Grade Bundle (Pixar 1st Grade, Secret Keys, and Aladdin Reading Quest)</Title>
+        <UPC>044702022427</UPC>
+      </ItemAttributes>
+      <OfferSummary>
+        <LowestNewPrice>
+          <Amount>887</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$8.87</FormattedPrice>
+        </LowestNewPrice>
+        <LowestUsedPrice>
+          <Amount>459</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$4.59</FormattedPrice>
+        </LowestUsedPrice>
+        <TotalNew>11</TotalNew>
+        <TotalUsed>6</TotalUsed>
+        <TotalCollectible>0</TotalCollectible>
+        <TotalRefurbished>0</TotalRefurbished>
+      </OfferSummary>
+      <Offers>
+        <TotalOffers>1</TotalOffers>
+        <TotalOfferPages>1</TotalOfferPages>
+        <Offer>
+          <Merchant>
+            <MerchantId>ATVPDKIKX0DER</MerchantId>
+            <GlancePage>http://www.amazon.com/gp/help/seller/home.html?seller=ATVPDKIKX0DER</GlancePage>
+            <AverageFeedbackRating>0.0</AverageFeedbackRating>
+            <TotalFeedback>0</TotalFeedback>
+          </Merchant>
+          <OfferAttributes>
+            <Condition>New</Condition>
+            <SubCondition>new</SubCondition>
+          </OfferAttributes>
+          <OfferListing>
+            <OfferListingId>UxAmmZ5qNDioXRbXCwdFibPtXIP7IHqJXtliJXXtXhnIDD7y2hOWsj%2B7vZazfKvT6YG9ptGFX6xKEKBOBwJYIw%3D%3D</OfferListingId>
+            <Price>
+              <Amount>1899</Amount>
+              <CurrencyCode>USD</CurrencyCode>
+              <FormattedPrice>$18.99</FormattedPrice>
+            </Price>
+            <Availability>Usually ships in 24 hours</Availability>
+            <AvailabilityAttributes>
+              <AvailabilityType>now</AvailabilityType>
+              <MinimumHours>0</MinimumHours>
+              <MaximumHours>0</MaximumHours>
+            </AvailabilityAttributes>
+            <Quantity>-1</Quantity>
+            <IsEligibleForSuperSaverShipping>1</IsEligibleForSuperSaverShipping>
+          </OfferListing>
+        </Offer>
+      </Offers>
+    </Item>
+    <Item>
+      <ASIN>B00006C25R</ASIN>
+      <SalesRank>4779</SalesRank>
+      <ItemAttributes>
+        <AmazonMaximumAge Units="months">240</AmazonMaximumAge>
+        <AmazonMinimumAge Units="months">60</AmazonMinimumAge>
+        <Binding>CD-ROM</Binding>
+        <Brand>Disney</Brand>
+        <Color>Disney's Princess Magical Dress-Up</Color>
+        <EAN>0044702017690</EAN>
+        <ESRBAgeRating>Everyone</ESRBAgeRating>
+        <Format>CD-ROM</Format>
+        <Genre>Arcade Games</Genre>
+        <HardwarePlatform>Pc</HardwarePlatform>
+        <Label>Disney Interactive</Label>
+        <ListPrice>
+          <Amount>1999</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$19.99</FormattedPrice>
+        </ListPrice>
+        <Manufacturer>Disney Interactive</Manufacturer>
+        <MPN>2589601/H3342</MPN>
+        <OperatingSystem>Windows 2000</OperatingSystem>
+        <Platform>Windows 98</Platform>
+        <Platform>Windows 2000</Platform>
+        <Platform>Windows Me</Platform>
+        <Platform>Windows XP</Platform>
+        <ProductGroup>Video Games</ProductGroup>
+        <ProductTypeName>SOFTWARE_GAMES</ProductTypeName>
+        <Publisher>Disney Interactive</Publisher>
+        <ReleaseDate>2002-09-10</ReleaseDate>
+        <Studio>Disney Interactive</Studio>
+        <Title>Disney's Princess Magical Dress-Up</Title>
+        <UPC>044702017690</UPC>
+      </ItemAttributes>
+      <OfferSummary>
+        <LowestNewPrice>
+          <Amount>1295</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$12.95</FormattedPrice>
+        </LowestNewPrice>
+        <LowestUsedPrice>
+          <Amount>399</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$3.99</FormattedPrice>
+        </LowestUsedPrice>
+        <TotalNew>4</TotalNew>
         <TotalUsed>1</TotalUsed>
         <TotalCollectible>0</TotalCollectible>
         <TotalRefurbished>0</TotalRefurbished>
@@ -665,97 +794,12 @@
       </Offers>
       <Accessories>
         <Accessory>
-          <ASIN>B0007Z1M50</ASIN>
-          <Title>Logitech MX518 Gaming Optical Mouse - Metal</Title>
-        </Accessory>
-        <Accessory>
-          <ASIN>B000AY0HTU</ASIN>
-          <Title>Logitech G15 Gaming Keyboard</Title>
-        </Accessory>
-        <Accessory>
-          <ASIN>B0002H7F3G</ASIN>
-          <Title>Ideazon Zboard Gaming Keyboard</Title>
+          <ASIN>B000NDESM0</ASIN>
+          <Title>PC Gamer (1-year)</Title>
         </Accessory>
         <Accessory>
           <ASIN>B000I3HDP4</ASIN>
           <Title>Zonealarm Internet Security Suite [Old Version]</Title>
-        </Accessory>
-        <Accessory>
-          <ASIN>B0002WPSBC</ASIN>
-          <Title>Logitech Z-5500 THX-Certified 505-Watt 5.1 Digital Surround Sound Speaker System</Title>
-        </Accessory>
-      </Accessories>
-    </Item>
-    <Item>
-      <ASIN>B00005LQSN</ASIN>
-      <DetailPageURL>http://www.amazon.com/gp/redirect.html%3FASIN=B00005LQSN%26tag=ws%26lcode=xm2%26cID=2025%26ccmID=165953%26location=/o/ASIN/B00005LQSN%253FSubscriptionId=1VAESZQN1G7SXNRG4882</DetailPageURL>
-      <SalesRank>2181</SalesRank>
-      <ItemAttributes>
-        <AmazonMaximumAge Units="months">240</AmazonMaximumAge>
-        <AmazonMinimumAge Units="months">60</AmazonMinimumAge>
-        <Binding>CD-ROM</Binding>
-        <Brand>Disney</Brand>
-        <EAN>0044702013913</EAN>
-        <ESRBAgeRating>Everyone</ESRBAgeRating>
-        <Feature>You can jump right into the game show action, with the original Who Wants To Be A Millionaire?</Feature>
-        <Feature>It features over 700 tough trivia questions, which you can answer with help from your lifelines</Feature>
-        <Feature>Try Who Wants To Be A Millionaire? 2nd Edition, for even more game-show excitement -- just like the show, from the fastest-finger competition, to Regis' wisecracks</Feature>
-        <Feature>The sports fan can test their knowledge by getting into the Hot Seat with   Who Wants To Be A Millionaire? Sports Edition</Feature>
-        <HardwarePlatform>pc; mac</HardwarePlatform>
-        <ItemDimensions>
-          <Weight Units="hundredths-pounds">88</Weight>
-        </ItemDimensions>
-        <Label>Disney Interactive</Label>
-        <ListPrice>
-          <Amount>999</Amount>
-          <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$9.99</FormattedPrice>
-        </ListPrice>
-        <Manufacturer>Disney Interactive</Manufacturer>
-        <Model>044702013913</Model>
-        <Platform>Windows 95</Platform>
-        <Platform>Windows Me</Platform>
-        <Platform>Windows 98</Platform>
-        <Platform>Macintosh</Platform>
-        <ProductGroup>Video Games</ProductGroup>
-        <ProductTypeName>ABIS_VIDEO_GAMES</ProductTypeName>
-        <Publisher>Disney Interactive</Publisher>
-        <ReleaseDate>2004-06-07</ReleaseDate>
-        <Studio>Disney Interactive</Studio>
-        <Title>Who Wants To Be A Millionaire Platinum Edition</Title>
-      </ItemAttributes>
-      <OfferSummary>
-        <LowestNewPrice>
-          <Amount>488</Amount>
-          <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$4.88</FormattedPrice>
-        </LowestNewPrice>
-        <LowestUsedPrice>
-          <Amount>487</Amount>
-          <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$4.87</FormattedPrice>
-        </LowestUsedPrice>
-        <TotalNew>10</TotalNew>
-        <TotalUsed>7</TotalUsed>
-        <TotalCollectible>0</TotalCollectible>
-        <TotalRefurbished>0</TotalRefurbished>
-      </OfferSummary>
-      <Offers>
-        <TotalOffers>0</TotalOffers>
-        <TotalOfferPages>0</TotalOfferPages>
-      </Offers>
-      <Accessories>
-        <Accessory>
-          <ASIN>B000NDESM0</ASIN>
-          <Title>PC Gamer [1-year]</Title>
-        </Accessory>
-        <Accessory>
-          <ASIN>B00005N7PE</ASIN>
-          <Title>Games for Windows: The Official Magazine</Title>
-        </Accessory>
-        <Accessory>
-          <ASIN>B000H16G3W</ASIN>
-          <Title>Microsoft Habu Laser Gaming Mouse (Black)</Title>
         </Accessory>
         <Accessory>
           <ASIN>B000EGK0IC</ASIN>
@@ -764,49 +808,50 @@
       </Accessories>
     </Item>
     <Item>
-      <ASIN>B000023VVH</ASIN>
-      <DetailPageURL>http://www.amazon.com/gp/redirect.html%3FASIN=B000023VVH%26tag=ws%26lcode=xm2%26cID=2025%26ccmID=165953%26location=/o/ASIN/B000023VVH%253FSubscriptionId=1VAESZQN1G7SXNRG4882</DetailPageURL>
-      <SalesRank>688</SalesRank>
+      <ASIN>B0010WP8E0</ASIN>
+      <SalesRank>2759</SalesRank>
       <ItemAttributes>
-        <AmazonMaximumAge Units="months">216</AmazonMaximumAge>
-        <AmazonMinimumAge Units="months">72</AmazonMinimumAge>
         <Binding>CD-ROM</Binding>
-        <Brand>Disney</Brand>
-        <Color>Adventures in Typing</Color>
-        <ESRBAgeRating>Everyone</ESRBAgeRating>
+        <Brand>SelectSoft Publishing</Brand>
+        <EAN>0798936836724</EAN>
+        <Feature>WINDOWS 98/XP</Feature>
         <Format>CD-ROM</Format>
-        <Genre>Childrens Reading and Language Software</Genre>
-        <HardwarePlatform>Windows</HardwarePlatform>
+        <HardwarePlatform>PC</HardwarePlatform>
         <ItemDimensions>
           <Weight Units="hundredths-pounds">31</Weight>
         </ItemDimensions>
-        <Label>Disney Interactive</Label>
+        <Label>Disney</Label>
         <ListPrice>
-          <Amount>1499</Amount>
+          <Amount>995</Amount>
           <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$14.99</FormattedPrice>
+          <FormattedPrice>$9.95</FormattedPrice>
         </ListPrice>
-        <Manufacturer>Disney Interactive</Manufacturer>
-        <Model>1369901</Model>
-        <OperatingSystem>Windows</OperatingSystem>
-        <PackageQuantity>1</PackageQuantity>
-        <Platform>Macintosh</Platform>
+        <Manufacturer>Disney</Manufacturer>
+        <MPN>DISADVTYPE</MPN>
+        <OperatingSystem>Windows Vista</OperatingSystem>
         <Platform>Windows 98</Platform>
-        <Platform>Windows 95</Platform>
+        <Platform>Windows XP</Platform>
+        <Platform>Windows Vista</Platform>
         <ProductGroup>Software</ProductGroup>
-        <ProductTypeName>ABIS_SOFTWARE</ProductTypeName>
-        <Publisher>Disney Interactive</Publisher>
-        <Studio>Disney Interactive</Studio>
-        <Title>Disney's Adventures in Typing with Timon &amp; Pumbaa</Title>
+        <ProductTypeName>SOFTWARE</ProductTypeName>
+        <Publisher>Disney</Publisher>
+        <Studio>Disney</Studio>
+        <Title>Disney Adventure In Typing With Timon and Pumbaa</Title>
+        <UPC>798936836724</UPC>
       </ItemAttributes>
       <OfferSummary>
         <LowestNewPrice>
-          <Amount>123</Amount>
+          <Amount>340</Amount>
           <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$1.23</FormattedPrice>
+          <FormattedPrice>$3.40</FormattedPrice>
         </LowestNewPrice>
-        <TotalNew>11</TotalNew>
-        <TotalUsed>0</TotalUsed>
+        <LowestUsedPrice>
+          <Amount>597</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$5.97</FormattedPrice>
+        </LowestUsedPrice>
+        <TotalNew>8</TotalNew>
+        <TotalUsed>1</TotalUsed>
         <TotalCollectible>0</TotalCollectible>
         <TotalRefurbished>0</TotalRefurbished>
       </OfferSummary>
@@ -814,28 +859,6 @@
         <TotalOffers>0</TotalOffers>
         <TotalOfferPages>0</TotalOfferPages>
       </Offers>
-      <Accessories>
-        <Accessory>
-          <ASIN>6303925324</ASIN>
-          <Title>Timon &amp; Pumbaa: Hangin With Baby</Title>
-        </Accessory>
-        <Accessory>
-          <ASIN>6303925332</ASIN>
-          <Title>Timon &amp; Pumbaa: Grub's on</Title>
-        </Accessory>
-        <Accessory>
-          <ASIN>6304032129</ASIN>
-          <Title>Timon &amp; Pumbaa: Don't Get Mad</Title>
-        </Accessory>
-        <Accessory>
-          <ASIN>6304032137</ASIN>
-          <Title>Timon &amp; Pumbaa: Live &amp; Learn</Title>
-        </Accessory>
-        <Accessory>
-          <ASIN>6304032153</ASIN>
-          <Title>Timon &amp; Pumbaa: Quit Buggin Me</Title>
-        </Accessory>
-      </Accessories>
     </Item>
   </Items>
 </ItemSearchResponse>

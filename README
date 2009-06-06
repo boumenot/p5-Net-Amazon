@@ -1,5 +1,5 @@
 ######################################################################
-    Net::Amazon 0.50
+    Net::Amazon 0.51
 ######################################################################
 NAME
     Net::Amazon - Framework for accessing amazon.com via REST
@@ -7,7 +7,9 @@ NAME
 SYNOPSIS
       use Net::Amazon;
 
-      my $ua = Net::Amazon->new(token => 'YOUR_AMZN_TOKEN');
+      my $ua = Net::Amazon->new(
+            token      => 'YOUR_AMZN_TOKEN',
+            secret_key => 'YOUR_AMZN_SECRET_KEY');
 
         # Get a request object
       my $response = $ua->search(asin => '0201360683');
@@ -29,7 +31,8 @@ DESCRIPTION
     like
 
       my $ua = Net::Amazon->new(
-          token     => 'YOUR_AMZN_TOKEN',
+          token      => 'YOUR_AMZN_TOKEN',
+          secret_key => 'YOUR_AMZN_SECRET_KEY',
           max_pages => 3,
       );
 
@@ -278,10 +281,14 @@ DESCRIPTION
     The convenient "search()" method just does these two steps in one.
 
   METHODS
-    $ua = Net::Amazon->new(token => $token, ...)
+    $ua = Net::Amazon->new(token => $token, secret_key => $key, ...)
         Create a new Net::Amazon useragent. $token is the value of the
         mandatory Amazon developer's token, which can be obtained from
-        <http://amazon.com/soap>.
+        <http://aws.amazon.com>.
+
+        By 2009-08-15 Amazon will require that all requests be signed with
+        an Amazon assigned Secret Key. The Secret Key can be obtained from
+        <http://aws.amazon.com>.
 
         Additional optional parameters:
 
@@ -355,7 +362,8 @@ DESCRIPTION
             unless defined $ARGV[0];
 
         my $ua = Net::Amazon->new(
-            token       => 'YOUR_AMZN_TOKEN',
+            token      => 'YOUR_AMZN_TOKEN',
+            secret_key => 'YOUR_AMZN_SECRET_KEY',
         );
 
         my $req = Net::Amazon::Request::Artist->new(
@@ -380,7 +388,8 @@ DESCRIPTION
             "(use 1XL5DWOUFMFVJ as an example)\n" unless $ARGV[0];
 
         my $ua = Net::Amazon->new(
-            token       => 'YOUR_AMZN_TOKEN',
+            token      => 'YOUR_AMZN_TOKEN',
+            secret_key => 'YOUR_AMZN_SECRET_KEY',
         );
 
         my $req = Net::Amazon::Request::Wishlist->new(
@@ -397,7 +406,7 @@ DESCRIPTION
         }
 
     DETAILS Net::Amazon is based on Amazon Web Services version 4, and uses
-    WSDL version 2007-10-29.
+    WSDL version 2009-03-31.
 
 CACHING
     Responses returned by Amazon's web service can be cached locally.
@@ -419,6 +428,7 @@ CACHING
 
         my $ua = Net::Amazon->new(
             token       => 'YOUR_AMZN_TOKEN',
+            secret_key  => 'YOUR_AMZN_SECRET_KEY',
             cache       => $cache,
         );
 
@@ -458,7 +468,11 @@ PROXY SETTINGS
         use LWP::UserAgent;
 
         my $ua = LWP::UserAgent->new();
-        my $na = Net::Amazon->new(ua => $ua, token => 'YOUR_AMZN_TOKEN');
+        my $na = Net::Amazon->new(
+            ua         => $ua, 
+            token      => 'YOUR_AMZN_TOKEN',
+            secret_key => 'YOUR_AMZN_SECRET_KEY',
+        );
         # ...
 
     This way, you can configure $ua up front before Net::Amazon will use it.
@@ -524,10 +538,10 @@ WHY ISN'T THERE SUPPORT FOR METHOD XYZ?
                 if(!exists $options{XYZ_option}) {
                     die "Mandatory parameter 'XYZ_option' not defined";
                 }
-            
-        my $self = $class->SUPER::new(%options);
-            
-        bless $self, $class;   # reconsecrate
+
+                my $self = $class->SUPER::new(%options);
+
+                bless $self, $class;   # reconsecrate
             }
 
         and add documentation. Then, create a new Net::Amazon::Response::XYZ
@@ -544,10 +558,10 @@ WHY ISN'T THERE SUPPORT FOR METHOD XYZ?
             sub new {
             ##############################
                 my($class, %options) = @_;
-            
-        my $self = $class->SUPER::new(%options);
-            
-        bless $self, $class;   # reconsecrate
+
+                my $self = $class->SUPER::new(%options);
+
+                bless $self, $class;   # reconsecrate
             }
 
         and also add documentation to it. Then, add the line
@@ -709,11 +723,4 @@ COPYRIGHT AND LICENSE
 
     This library is free software; you can redistribute it and/or modify it
     under the same terms as Perl itself.
-
-POD ERRORS
-    Hey! The above document had some coding errors, which are explained
-    below:
-
-    Around line 993:
-        You forgot a '=back' before '=head2'
 

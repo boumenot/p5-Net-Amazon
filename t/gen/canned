@@ -52,7 +52,9 @@ for my $test (@tests) {
     my $default_handlers = {
         BrowseNodes       => sub { $_->delete; }, 
         CustomerReviews   => sub { $_->delete; }, 
+        DetailPageURL     => sub { $_->delete; }, 
         EditorialReviews  => sub { $_->delete; }, 
+        ItemLinks         => sub { $_->delete; }, 
         ImageSets         => sub { $_->delete; }, 
         LargeImage        => sub { $_->delete; }, 
         ListmaniaLists    => sub { $_->delete; }, 

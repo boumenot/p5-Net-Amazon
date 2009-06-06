@@ -76,8 +76,6 @@ mode (catalog) specified.
 
 Check L<Net::Amazon::Request> for common request parameters not listed here.
 
-=head1 SEE ALSO
-
 =head1 AUTHOR
 
 Mike Schilli, E<lt>m@perlmeister.comE<gt>

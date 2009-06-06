@@ -164,8 +164,6 @@ data.
 Check out L<Net::Amazon::Property> for all-purpose accessors, like
 C<year>, C<OurPrice>, C<ListPrice>, etc.
 
-=head1 SEE ALSO
-
 =head1 AUTHOR
 
 Mike Schilli, E<lt>m@perlmeister.comE<gt>

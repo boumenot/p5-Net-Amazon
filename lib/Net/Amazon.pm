@@ -8,8 +8,8 @@ use 5.006;
 use strict;
 use warnings;
 
-our $VERSION          = '0.50';
-our $WSDL_DATE        = '2007-10-29';
+our $VERSION          = '0.51';
+our $WSDL_DATE        = '2009-03-31';
 our $Locale           = 'us';
 our @CANNED_RESPONSES = ();
 our $IS_CANNED        = 0;
@@ -21,6 +21,8 @@ use Data::Dumper;
 use URI;
 use Log::Log4perl qw(:easy get_logger);
 use Time::HiRes qw(usleep gettimeofday tv_interval);
+use Digest::SHA qw(hmac_sha256_base64);
+use URI::Escape qw(uri_escape);
 
 # Each key represents a search() type, and each value indicates which
 # Net::Amazon::Request:: class to use to handle it.
@@ -56,6 +58,11 @@ sub new {
     if(! exists $options{token}) {
         die "Mandatory paramter 'token' not defined";
     }
+
+    # CMB: To be enabled on 2009-08-15.
+    # if(! exists $options{token}) {
+    #    die "Mandatory paramter 'token' not defined";
+    # }
 
     my $self = {
         strict         => 1,
@@ -155,6 +162,8 @@ sub request {
             'Version'        => $WSDL_DATE,
             map { $_, $params{$_} } sort keys %params,
         );
+        # New signature for 2009-03-31. Do not alter URL after this!
+        $url = $self->_sign_request($url) if exists $self->{secret_key};
 
         DEBUG(sub { "request: params = " . Dumper(\%params) . "\n"});
 
@@ -598,6 +607,30 @@ sub _make_request {
     return $self->request($req);
 }
 
+# $self->_sign_request( URI )
+#
+# Takes a URI object that corresponds to a Net::Amazon::Request
+# adds the required Timestamp and Signature parameters, and returns it
+# See http://docs.amazonwebservices.com/AWSECommerceService/2009-03-31/DG/Query_QueryAuth.html
+sub _sign_request {
+    my ($self,$uri) = @_;
+    return $uri unless exists $self->{secret_key};
+    # This assumes no duplicated keys. Safe assumption?
+    my %query = $uri->query_form;
+    my @now = gmtime;
+    $query{Timestamp} ||= sprintf('%04d-%02d-%02dT%02d:%02d:%02dZ',$now[5]+1900,$now[4]+1,@now[3,2,1,0]);
+    my $qstring = join '&', map {"$_=". uri_escape($query{$_},"^A-Za-z0-9\-_.~")} sort keys %query;
+    # Use chr(10), not "\n" which varies by platform
+    my $signme = join chr(10),"GET",$uri->host,$uri->path,$qstring;
+    my $sig = hmac_sha256_base64($signme, $self->{secret_key});
+    # Digest does not properly pad b64 strings
+    $sig .= '=' while length($sig) % 4;
+    $sig = uri_escape($sig,"^A-Za-z0-9\-_.~");
+    $qstring .= "&Signature=$sig";
+    $uri->query( $qstring );
+    return $uri;
+}
+
 1;
 
 __END__
@@ -610,7 +643,9 @@ Net::Amazon - Framework for accessing amazon.com via REST
 
   use Net::Amazon;
 
-  my $ua = Net::Amazon->new(token => 'YOUR_AMZN_TOKEN');
+  my $ua = Net::Amazon->new(
+	token      => 'YOUR_AMZN_TOKEN',
+	secret_key => 'YOUR_AMZN_SECRET_KEY');
 
     # Get a request object
   my $response = $ua->search(asin => '0201360683');
@@ -634,7 +669,8 @@ C<Net::Amazon> works very much like C<LWP>: First you define a useragent
 like
 
   my $ua = Net::Amazon->new(
-      token     => 'YOUR_AMZN_TOKEN',
+      token      => 'YOUR_AMZN_TOKEN',
+      secret_key => 'YOUR_AMZN_SECRET_KEY',
       max_pages => 3,
   );
 
@@ -948,11 +984,15 @@ The convenient C<search()> method just does these two steps in one.
 
 =over 4
 
-=item $ua = Net::Amazon->new(token => $token, ...)
+=item $ua = Net::Amazon->new(token => $token, secret_key => $key, ...)
 
 Create a new Net::Amazon useragent. C<$token> is the value of 
 the mandatory Amazon developer's token, which can be obtained from
-L<http://amazon.com/soap>. 
+L<http://aws.amazon.com>.
+
+By 2009-08-15 Amazon will require that all requests be signed with an Amazon
+assigned Secret Key.  The Secret Key can be obtained from
+L<http://aws.amazon.com>.
 
 Additional optional parameters:
 
@@ -1038,7 +1078,8 @@ Here's a full-fledged example doing a artist search:
         unless defined $ARGV[0];
 
     my $ua = Net::Amazon->new(
-        token       => 'YOUR_AMZN_TOKEN',
+        token      => 'YOUR_AMZN_TOKEN',
+        secret_key => 'YOUR_AMZN_SECRET_KEY',
     );
 
     my $req = Net::Amazon::Request::Artist->new(
@@ -1063,7 +1104,8 @@ And here's one displaying someone's wishlist:
         "(use 1XL5DWOUFMFVJ as an example)\n" unless $ARGV[0];
 
     my $ua = Net::Amazon->new(
-        token       => 'YOUR_AMZN_TOKEN',
+        token      => 'YOUR_AMZN_TOKEN',
+        secret_key => 'YOUR_AMZN_SECRET_KEY',
     );
 
     my $req = Net::Amazon::Request::Wishlist->new(
@@ -1081,7 +1123,7 @@ And here's one displaying someone's wishlist:
 
 DETAILS
         Net::Amazon is based on Amazon Web Services version 4, and uses
-        WSDL version 2007-10-29.
+        WSDL version 2009-03-31.
 
 =head1 CACHING
 
@@ -1104,6 +1146,7 @@ cache responses for 30 minutes:
 
     my $ua = Net::Amazon->new(
         token       => 'YOUR_AMZN_TOKEN',
+        secret_key  => 'YOUR_AMZN_SECRET_KEY',
         cache       => $cache,
     );
 
@@ -1145,7 +1188,11 @@ pass a user agent instance to Net::Amazon's constructor:
     use LWP::UserAgent;
 
     my $ua = LWP::UserAgent->new();
-    my $na = Net::Amazon->new(ua => $ua, token => 'YOUR_AMZN_TOKEN');
+    my $na = Net::Amazon->new(
+	ua         => $ua, 
+	token      => 'YOUR_AMZN_TOKEN',
+        secret_key => 'YOUR_AMZN_SECRET_KEY',
+    );
     # ...
 
 This way, you can configure C<$ua> up front before Net::Amazon will use it.
@@ -1219,9 +1266,9 @@ Write a new Net::Amazon::Request::XYZ package, start with this template
         if(!exists $options{XYZ_option}) {
             die "Mandatory parameter 'XYZ_option' not defined";
         }
-    
+
         my $self = $class->SUPER::new(%options);
-    
+
         bless $self, $class;   # reconsecrate
     }
 
@@ -1238,9 +1285,9 @@ and add documentation. Then, create a new Net::Amazon::Response::XYZ module:
     sub new {
     ##############################
         my($class, %options) = @_;
-    
+
         my $self = $class->SUPER::new(%options);
-    
+
         bless $self, $class;   # reconsecrate
     }
 
@@ -1418,10 +1465,12 @@ Contributors (thanks y'all!):
     Steve Rushe <steve@deeden.co.uk>
     Tatsuhiko Miyagawa <miyagawa@livedoor.jp>
     Tony Bowden <tony@kasei.com>
+    Vince Veselosky
 
 =head1 COPYRIGHT AND LICENSE
 
 Copyright 2003, 2004 by Mike Schilli E<lt>na@perlmeister.comE<gt>
+Copyright 2007-2009 by Christopher Boumenot E<lt>boumenot+na@gmail.comE<gt>
 
 This library is free software; you can redistribute it and/or modify
 it under the same terms as Perl itself. 

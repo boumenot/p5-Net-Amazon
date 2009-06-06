@@ -87,13 +87,13 @@ examples of URLs that contain browse IDs:
 
 =over 8
 
-http://www.amazon.com/exec/obidos/tg/browse/-/30 
+=item http://www.amazon.com/exec/obidos/tg/browse/-/30 
 (In this example, the browse ID = 30)
 
-http://www.amazon.com/exec/obidos/tg/browse/-/467970 
+=item http://www.amazon.com/exec/obidos/tg/browse/-/467970 
 (In this example, the browse ID = 467970)
 
-http://www.amazon.com/exec/obidos/tg/browse/-/602314 
+=item http://www.amazon.com/exec/obidos/tg/browse/-/602314 
 (In this example, the browse ID = 60231
 
 =back

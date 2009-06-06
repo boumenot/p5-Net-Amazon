@@ -44,23 +44,23 @@ like($resp->as_string(), qr/Spirited Away.*?Castle of Cagliostro/s, "Examine Mov
 my $i = 0;
 my @starring = $properties[$i]->starring();
 
-is($properties[$i]->actor, "Chieko Baisho", "Check actor");
-is($starring[$i], "Chieko Baisho", "Check starring");
+is($properties[$i]->actor, "Hitoshi Takagi", "Check actor");
+is($starring[$i], "Hitoshi Takagi", "Check starring");
 is($properties[$i]->director, "Hayao Miyazaki", "Check director");
-like($properties[$i]->title, qr/Howl's Moving Castle/, "Check title");
+like($properties[$i]->title, qr/My Neighbor Totoro/, "Check title");
 is($properties[$i]->studio, "Walt Disney Home Entertainment", "Check studio");
 is($properties[$i]->ReleaseDate, "2006-03-07", "Check release date");
 is($properties[$i]->media, "DVD", "Check media");
 is($properties[$i]->Media, "DVD", "Check Media");
 is($properties[$i]->nummedia, 2, "Check nummedia");
 is($properties[$i]->NumMedia, 2, "Check NumMedia");
-is($properties[$i]->upc, "786936296662", "Check UPC");
-like($properties[$i]->mpaa_rating, qr/PG/, "Check MPAA rating");
+is($properties[$i]->upc, "786936175271", "Check UPC");
+like($properties[$i]->mpaa_rating, qr/G \(General Audience\)/, "Check MPAA rating");
 is($properties[$i]->region_code, 1, "Check region code");
 is($properties[$i]->label, "Walt Disney Home Entertainment", "Check label");
-is($properties[$i]->running_time, "119", "Check running time");
+is($properties[$i]->running_time, "86", "Check running time");
 is($properties[$i]->publisher, "Walt Disney Home Entertainment", "Check publisher");
-is($properties[$i]->ean, "0786936296662", "Check ean");
+is($properties[$i]->ean, "9780788834035", "Check ean");
 is($properties[$i]->feature, "Animated", "Check feature");
-is(scalar($properties[$i]->features), 7, "Check number of features");
+is(scalar($properties[$i]->features), 8, "Check number of features");
 

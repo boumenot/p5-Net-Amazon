@@ -11,6 +11,8 @@ WriteMakefile(
                              Time::HiRes    => 1,
                              Data::Dumper   => 0,
                              URI            => 0,
+                             Digest::SHA    => 0,
+                             URI::Escape    => 0,
                            }, # e.g., Module::Name => 1.1
     ($] >= 5.005 ?    ## Add these new keywords supported since 5.005
       (ABSTRACT_FROM => 'lib/Net/Amazon.pm', # retrieve abstract from module

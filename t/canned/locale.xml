@@ -1,18 +1,31 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<ItemLookupResponse xmlns="http://webservices.amazon.com/AWSECommerceService/2007-10-29">
+<?xml version="1.0"?>
+<ItemLookupResponse xmlns="http://webservices.amazon.com/AWSECommerceService/2009-03-31">
   <Items>
     <Item>
       <ASIN>3827313783</ASIN>
-      <DetailPageURL>http://www.amazon.de/gp/redirect.html%3FASIN=3827313783%26tag=ws%26lcode=xm2%26cID=2025%26ccmID=165953%26location=/o/ASIN/3827313783%253FSubscriptionId=1VAESZQN1G7SXNRG4882</DetailPageURL>
-      <SalesRank>517710</SalesRank>
+      <SalesRank>426473</SalesRank>
       <ItemAttributes>
         <Author>Michael Schilli</Author>
         <Binding>Gebundene Ausgabe</Binding>
-        <Creator Role="Autor">Michael Schilli</Creator>
         <EAN>9783827313782</EAN>
         <Edition>4. Aufl.</Edition>
         <ISBN>3827313783</ISBN>
         <Label>Addison-Wesley</Label>
+        <Languages>
+          <Language>
+            <Name>Deutsch</Name>
+            <Type>Unknown</Type>
+          </Language>
+          <Language>
+            <Name>Deutsch</Name>
+            <Type>Original Language</Type>
+          </Language>
+        </Languages>
+        <ListPrice>
+          <Amount>3495</Amount>
+          <CurrencyCode>EUR</CurrencyCode>
+          <FormattedPrice>EUR 34,95</FormattedPrice>
+        </ListPrice>
         <Manufacturer>Addison-Wesley</Manufacturer>
         <NumberOfPages>488</NumberOfPages>
         <ProductGroup>Book</ProductGroup>
@@ -24,12 +37,12 @@
       </ItemAttributes>
       <OfferSummary>
         <LowestUsedPrice>
-          <Amount>900</Amount>
+          <Amount>445</Amount>
           <CurrencyCode>EUR</CurrencyCode>
-          <FormattedPrice>EUR 9,00</FormattedPrice>
+          <FormattedPrice>EUR 4,45</FormattedPrice>
         </LowestUsedPrice>
         <TotalNew>0</TotalNew>
-        <TotalUsed>3</TotalUsed>
+        <TotalUsed>8</TotalUsed>
         <TotalCollectible>0</TotalCollectible>
         <TotalRefurbished>0</TotalRefurbished>
       </OfferSummary>

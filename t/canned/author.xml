@@ -1,21 +1,20 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<ItemSearchResponse xmlns="http://webservices.amazon.com/AWSECommerceService/2007-10-29">
+<?xml version="1.0"?>
+<ItemSearchResponse xmlns="http://webservices.amazon.com/AWSECommerceService/2009-03-31">
   <Items>
     <TotalResults>4</TotalResults>
     <TotalPages>1</TotalPages>
     <Item>
       <ASIN>0201360683</ASIN>
-      <DetailPageURL>http://www.amazon.com/gp/redirect.html%3FASIN=0201360683%26tag=ws%26lcode=xm2%26cID=2025%26ccmID=165953%26location=/o/ASIN/0201360683%253FSubscriptionId=1VAESZQN1G7SXNRG4882</DetailPageURL>
-      <SalesRank>816560</SalesRank>
+      <SalesRank>1280843</SalesRank>
       <SmallImage>
-        <URL>http://ecx.images-amazon.com/images/I/01XB0VVS3VL.jpg</URL>
-        <Height Units="pixels">60</Height>
-        <Width Units="pixels">44</Width>
+        <URL>http://ecx.images-amazon.com/images/I/516Y2ENTVFL._SL75_.jpg</URL>
+        <Height Units="pixels">75</Height>
+        <Width Units="pixels">54</Width>
       </SmallImage>
       <MediumImage>
-        <URL>http://ecx.images-amazon.com/images/I/215WCKSNX7L.jpg</URL>
-        <Height Units="pixels">140</Height>
-        <Width Units="pixels">102</Width>
+        <URL>http://ecx.images-amazon.com/images/I/516Y2ENTVFL._SL160_.jpg</URL>
+        <Height Units="pixels">160</Height>
+        <Width Units="pixels">116</Width>
       </MediumImage>
       <LargeImage>
         <URL>http://ecx.images-amazon.com/images/I/516Y2ENTVFL.jpg</URL>
@@ -27,9 +26,22 @@
         <Binding>Paperback</Binding>
         <DeweyDecimalNumber>005.133</DeweyDecimalNumber>
         <EAN>9780201360684</EAN>
-        <Edition>Pap/Cdr</Edition>
         <ISBN>0201360683</ISBN>
         <Label>Addison-Wesley Professional</Label>
+        <Languages>
+          <Language>
+            <Name>English</Name>
+            <Type>Original Language</Type>
+          </Language>
+          <Language>
+            <Name>English</Name>
+            <Type>Unknown</Type>
+          </Language>
+          <Language>
+            <Name>English</Name>
+            <Type>Published</Type>
+          </Language>
+        </Languages>
         <ListPrice>
           <Amount>3999</Amount>
           <CurrencyCode>USD</CurrencyCode>
@@ -47,17 +59,17 @@
       </ItemAttributes>
       <OfferSummary>
         <LowestNewPrice>
-          <Amount>1481</Amount>
+          <Amount>1627</Amount>
           <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$14.81</FormattedPrice>
+          <FormattedPrice>$16.27</FormattedPrice>
         </LowestNewPrice>
         <LowestUsedPrice>
-          <Amount>309</Amount>
+          <Amount>863</Amount>
           <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$3.09</FormattedPrice>
+          <FormattedPrice>$8.63</FormattedPrice>
         </LowestUsedPrice>
-        <TotalNew>3</TotalNew>
-        <TotalUsed>13</TotalUsed>
+        <TotalNew>7</TotalNew>
+        <TotalUsed>12</TotalUsed>
         <TotalCollectible>0</TotalCollectible>
         <TotalRefurbished>0</TotalRefurbished>
       </OfferSummary>
@@ -67,23 +79,83 @@
       </Offers>
     </Item>
     <Item>
-      <ASIN>B000OLKCCG</ASIN>
-      <DetailPageURL>http://www.amazon.com/gp/redirect.html%3FASIN=B000OLKCCG%26tag=ws%26lcode=xm2%26cID=2025%26ccmID=165953%26location=/o/ASIN/B000OLKCCG%253FSubscriptionId=1VAESZQN1G7SXNRG4882</DetailPageURL>
+      <ASIN>3540284028</ASIN>
+      <SalesRank>7984239</SalesRank>
+      <SmallImage>
+        <URL>http://ecx.images-amazon.com/images/I/41T0BS5MNYL._SL75_.jpg</URL>
+        <Height Units="pixels">75</Height>
+        <Width Units="pixels">47</Width>
+      </SmallImage>
+      <MediumImage>
+        <URL>http://ecx.images-amazon.com/images/I/41T0BS5MNYL._SL160_.jpg</URL>
+        <Height Units="pixels">160</Height>
+        <Width Units="pixels">100</Width>
+      </MediumImage>
+      <LargeImage>
+        <URL>http://ecx.images-amazon.com/images/I/41T0BS5MNYL.jpg</URL>
+        <Height Units="pixels">500</Height>
+        <Width Units="pixels">313</Width>
+      </LargeImage>
       <ItemAttributes>
-        <Author>Michael Schilli</Author>
-        <Binding>Paperback</Binding>
-        <Label>Addison-Wesley Professional</Label>
-        <Manufacturer>Addison-Wesley Professional</Manufacturer>
+        <Author>August-Wilhelm Scheer</Author>
+        <Author>Manfred Boczanski</Author>
+        <Author>Michael Muth</Author>
+        <Author>Willi-Gerd Schmitz</Author>
+        <Author>Uwe Segelbacher</Author>
+        <Binding>Hardcover</Binding>
+        <Creator Role="Contributor">A. Cocchi</Creator>
+        <Creator Role="Contributor">C. Herzog</Creator>
+        <Creator Role="Contributor">I. Kern</Creator>
+        <Creator Role="Contributor">H. Okruch</Creator>
+        <Creator Role="Contributor">A. Schadenberger</Creator>
+        <Creator Role="Contributor">B. Schilli</Creator>
+        <Creator Role="Contributor">M. Stürken</Creator>
+        <EAN>9783540284024</EAN>
+        <Edition>1</Edition>
+        <ISBN>3540284028</ISBN>
+        <Label>Springer</Label>
+        <Languages>
+          <Language>
+            <Name>German</Name>
+            <Type>Original Language</Type>
+          </Language>
+          <Language>
+            <Name>German</Name>
+            <Type>Unknown</Type>
+          </Language>
+          <Language>
+            <Name>German</Name>
+            <Type>Published</Type>
+          </Language>
+        </Languages>
+        <ListPrice>
+          <Amount>6995</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$69.95</FormattedPrice>
+        </ListPrice>
+        <Manufacturer>Springer</Manufacturer>
+        <NumberOfItems>1</NumberOfItems>
+        <NumberOfPages>260</NumberOfPages>
         <ProductGroup>Book</ProductGroup>
-        <ProductTypeName>BOOKS_1973_AND_LATER</ProductTypeName>
-        <PublicationDate>1998</PublicationDate>
-        <Publisher>Addison-Wesley Professional</Publisher>
-        <Studio>Addison-Wesley Professional</Studio>
-        <Title>Perl Power!: A JumpStart Guide to Programming with Perl 5</Title>
+        <ProductTypeName>ABIS_BOOK</ProductTypeName>
+        <PublicationDate>2005-10-05</PublicationDate>
+        <Publisher>Springer</Publisher>
+        <Studio>Springer</Studio>
+        <Title>Prozessorientiertes Product Lifecycle Management (German Edition)</Title>
       </ItemAttributes>
       <OfferSummary>
-        <TotalNew>0</TotalNew>
-        <TotalUsed>0</TotalUsed>
+        <LowestNewPrice>
+          <Amount>7698</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$76.98</FormattedPrice>
+        </LowestNewPrice>
+        <LowestUsedPrice>
+          <Amount>8022</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$80.22</FormattedPrice>
+        </LowestUsedPrice>
+        <TotalNew>7</TotalNew>
+        <TotalUsed>1</TotalUsed>
         <TotalCollectible>0</TotalCollectible>
         <TotalRefurbished>0</TotalRefurbished>
       </OfferSummary>
@@ -94,7 +166,6 @@
     </Item>
     <Item>
       <ASIN>B000S99K90</ASIN>
-      <DetailPageURL>http://www.amazon.com/gp/redirect.html%3FASIN=B000S99K90%26tag=ws%26lcode=xm2%26cID=2025%26ccmID=165953%26location=/o/ASIN/B000S99K90%253FSubscriptionId=1VAESZQN1G7SXNRG4882</DetailPageURL>
       <ItemAttributes>
         <Author>Michael Schilli</Author>
         <Binding>Paperback</Binding>
@@ -124,104 +195,48 @@
       </Offers>
     </Item>
     <Item>
-      <ASIN>3540284028</ASIN>
-      <DetailPageURL>http://www.amazon.com/gp/redirect.html%3FASIN=3540284028%26tag=ws%26lcode=xm2%26cID=2025%26ccmID=165953%26location=/o/ASIN/3540284028%253FSubscriptionId=1VAESZQN1G7SXNRG4882</DetailPageURL>
-      <SalesRank>6127682</SalesRank>
+      <ASIN>B002AD83KO</ASIN>
       <SmallImage>
-        <URL>http://ecx.images-amazon.com/images/I/017DF20FEEL.jpg</URL>
+        <URL>http://ecx.images-amazon.com/images/I/31dyvlOnGoL._SL75_.jpg</URL>
         <Height Units="pixels">75</Height>
-        <Width Units="pixels">47</Width>
+        <Width Units="pixels">56</Width>
       </SmallImage>
       <MediumImage>
-        <URL>http://ecx.images-amazon.com/images/I/214ZNRTFNML.jpg</URL>
+        <URL>http://ecx.images-amazon.com/images/I/31dyvlOnGoL._SL160_.jpg</URL>
         <Height Units="pixels">160</Height>
-        <Width Units="pixels">100</Width>
+        <Width Units="pixels">120</Width>
       </MediumImage>
       <LargeImage>
-        <URL>http://ecx.images-amazon.com/images/I/41T0BS5MNYL.jpg</URL>
-        <Height Units="pixels">500</Height>
-        <Width Units="pixels">313</Width>
+        <URL>http://ecx.images-amazon.com/images/I/31dyvlOnGoL.jpg</URL>
+        <Height Units="pixels">320</Height>
+        <Width Units="pixels">240</Width>
       </LargeImage>
       <ItemAttributes>
-        <Author>August-Wilhelm Scheer</Author>
-        <Author>Manfred Boczanski</Author>
-        <Author>Michael Muth</Author>
-        <Author>Willi-Gerd Schmitz</Author>
-        <Author>Uwe Segelbacher</Author>
-        <Binding>Hardcover</Binding>
-        <Creator Role="Contributor">A. Cocchi</Creator>
-        <Creator Role="Contributor">C. Herzog</Creator>
-        <Creator Role="Contributor">I. Kern</Creator>
-        <Creator Role="Contributor">H. Okruch</Creator>
-        <Creator Role="Contributor">A. Schadenberger</Creator>
-        <Creator Role="Contributor">B. Schilli</Creator>
-        <Creator Role="Contributor">M. Stürken</Creator>
-        <EAN>9783540284024</EAN>
-        <Edition>1</Edition>
-        <ISBN>3540284028</ISBN>
-        <Label>Springer</Label>
-        <ListPrice>
-          <Amount>6995</Amount>
-          <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$69.95</FormattedPrice>
-        </ListPrice>
-        <Manufacturer>Springer</Manufacturer>
-        <NumberOfItems>1</NumberOfItems>
-        <NumberOfPages>260</NumberOfPages>
+        <Author>Angelika Schilli Michael Schilli</Author>
+        <Binding>Board book</Binding>
+        <Label>lulu</Label>
+        <Manufacturer>lulu</Manufacturer>
         <ProductGroup>Book</ProductGroup>
-        <ProductTypeName>ABIS_BOOK</ProductTypeName>
-        <PublicationDate>2005-10</PublicationDate>
-        <Publisher>Springer</Publisher>
-        <Studio>Springer</Studio>
-        <Title>Prozessorientiertes Product Lifecycle Management</Title>
+        <ProductTypeName>BOOKS_1973_AND_LATER</ProductTypeName>
+        <PublicationDate>2007-01-01</PublicationDate>
+        <Publisher>lulu</Publisher>
+        <Studio>lulu</Studio>
+        <Title>USArundbrief.com - Das erste Jahrzehnt: 1996 - 2007</Title>
       </ItemAttributes>
       <OfferSummary>
         <LowestNewPrice>
-          <Amount>6925</Amount>
+          <Amount>9606</Amount>
           <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$69.25</FormattedPrice>
+          <FormattedPrice>$96.06</FormattedPrice>
         </LowestNewPrice>
-        <LowestUsedPrice>
-          <Amount>14352</Amount>
-          <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$143.52</FormattedPrice>
-        </LowestUsedPrice>
-        <TotalNew>7</TotalNew>
-        <TotalUsed>1</TotalUsed>
+        <TotalNew>1</TotalNew>
+        <TotalUsed>0</TotalUsed>
         <TotalCollectible>0</TotalCollectible>
         <TotalRefurbished>0</TotalRefurbished>
       </OfferSummary>
       <Offers>
-        <TotalOffers>1</TotalOffers>
-        <TotalOfferPages>1</TotalOfferPages>
-        <Offer>
-          <Merchant>
-            <MerchantId>ATVPDKIKX0DER</MerchantId>
-            <GlancePage>http://www.amazon.com/gp/help/seller/home.html?seller=ATVPDKIKX0DER</GlancePage>
-            <AverageFeedbackRating>0.0</AverageFeedbackRating>
-            <TotalFeedback>0</TotalFeedback>
-          </Merchant>
-          <OfferAttributes>
-            <Condition>New</Condition>
-            <SubCondition>new</SubCondition>
-          </OfferAttributes>
-          <OfferListing>
-            <OfferListingId>Rv60F9fEHKH3IwylaYSiaJ3VMU8pTU%2FYzO6vuhE%2F%2F7pk%2BN%2BrglZDrjCwaw1qumLosp%2BoNjIyU6CZAL3lIh5g7pa6CPjxgR%2BL</OfferListingId>
-            <Price>
-              <Amount>6995</Amount>
-              <CurrencyCode>USD</CurrencyCode>
-              <FormattedPrice>$69.95</FormattedPrice>
-            </Price>
-            <Availability>Usually ships in 3 to 6 weeks</Availability>
-            <AvailabilityAttributes>
-              <AvailabilityType>now</AvailabilityType>
-              <MinimumHours>648</MinimumHours>
-              <MaximumHours>984</MaximumHours>
-            </AvailabilityAttributes>
-            <Quantity>-1</Quantity>
-            <IsEligibleForSuperSaverShipping>1</IsEligibleForSuperSaverShipping>
-          </OfferListing>
-        </Offer>
+        <TotalOffers>0</TotalOffers>
+        <TotalOfferPages>0</TotalOfferPages>
       </Offers>
     </Item>
   </Items>

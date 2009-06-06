@@ -1,10 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<ItemLookupResponse xmlns="http://webservices.amazon.com/AWSECommerceService/2007-10-29">
+<?xml version="1.0"?>
+<ItemLookupResponse xmlns="http://webservices.amazon.com/AWSECommerceService/2009-03-31">
   <Items>
     <Item>
       <ASIN>B00007M84Q</ASIN>
-      <DetailPageURL>http://www.amazon.com/gp/redirect.html%3FASIN=B00007M84Q%26tag=ws%26lcode=xm2%26cID=2025%26ccmID=165953%26location=/o/ASIN/B00007M84Q%253FSubscriptionId=1VAESZQN1G7SXNRG4882</DetailPageURL>
-      <SalesRank>60159</SalesRank>
+      <SalesRank>88294</SalesRank>
       <ItemAttributes>
         <Artist>Zwan</Artist>
         <Binding>Audio CD</Binding>
@@ -29,22 +28,22 @@
       </ItemAttributes>
       <OfferSummary>
         <LowestNewPrice>
-          <Amount>462</Amount>
+          <Amount>722</Amount>
           <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$4.62</FormattedPrice>
+          <FormattedPrice>$7.22</FormattedPrice>
         </LowestNewPrice>
         <LowestUsedPrice>
-          <Amount>146</Amount>
+          <Amount>1</Amount>
           <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$1.46</FormattedPrice>
+          <FormattedPrice>$0.01</FormattedPrice>
         </LowestUsedPrice>
         <LowestCollectiblePrice>
           <Amount>1898</Amount>
           <CurrencyCode>USD</CurrencyCode>
           <FormattedPrice>$18.98</FormattedPrice>
         </LowestCollectiblePrice>
-        <TotalNew>51</TotalNew>
-        <TotalUsed>72</TotalUsed>
+        <TotalNew>25</TotalNew>
+        <TotalUsed>103</TotalUsed>
         <TotalCollectible>8</TotalCollectible>
         <TotalRefurbished>0</TotalRefurbished>
       </OfferSummary>
@@ -63,18 +62,12 @@
             <SubCondition>new</SubCondition>
           </OfferAttributes>
           <OfferListing>
-            <OfferListingId>%2FA1nfrAfUG0qMbSs9KT5sRQ1iT2Kzz7nCGtvONrq6D12%2BBYO1zRFBxmFPCcKH41PrjK5CmoBQLelnDZ5phpjaw%3D%3D</OfferListingId>
+            <OfferListingId>HXv1z%2B8EWBsYcyZqkYsH7%2BsnEnz%2B6zxwEYyCkBhE7vheLoFzGbD451MFaxwl%2BVzDyggnChN0ZC0eposA9YpOZA%3D%3D</OfferListingId>
             <Price>
-              <Amount>1297</Amount>
+              <Amount>1898</Amount>
               <CurrencyCode>USD</CurrencyCode>
-              <FormattedPrice>$12.97</FormattedPrice>
+              <FormattedPrice>$18.98</FormattedPrice>
             </Price>
-            <AmountSaved>
-              <Amount>601</Amount>
-              <CurrencyCode>USD</CurrencyCode>
-              <FormattedPrice>$6.01</FormattedPrice>
-            </AmountSaved>
-            <PercentageSaved>32</PercentageSaved>
             <Availability>Usually ships in 24 hours</Availability>
             <AvailabilityAttributes>
               <AvailabilityType>now</AvailabilityType>

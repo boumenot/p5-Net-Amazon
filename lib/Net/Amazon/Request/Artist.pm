@@ -71,8 +71,6 @@ the Amazon web service for items of a given artist.
 
 =back
 
-=head1 SEE ALSO
-
 =head1 AUTHOR
 
 Mike Schilli, E<lt>m@perlmeister.comE<gt>

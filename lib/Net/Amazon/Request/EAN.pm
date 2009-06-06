@@ -74,8 +74,6 @@ web service for an item with the given EAN number.
 
 =back
 
-=head1 SEE ALSO
-
 =head1 AUTHOR
 
 Christopher Boumenot, E<lt>boumenot@gmail.comE<gt>
