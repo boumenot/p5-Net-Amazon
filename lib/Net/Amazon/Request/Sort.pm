@@ -1,5 +1,9 @@
 =pod
 
+=head1 NAME
+
+Net::Amazon::Request::Sort - listing of sort types
+
 =head1 SORT TYPES
 
 Search results can be sorted in various ways, depending on the type of

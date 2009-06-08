@@ -1,4 +1,9 @@
 Revision history for Perl extension Net::Amazon:
+0.53 (06/13/2009)
+   (cb) Nathan Handler re-reported a man page issue on Ubuntu, rt 46708.  
+        I managed to fix 197 issues, except for the specific one he called 
+        out in the bug.
+
 0.52 (06/09/2009)
    (cb) Nathan Handler reported a man page issue on Ubuntu, rt 46708.
 
