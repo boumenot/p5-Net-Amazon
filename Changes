@@ -1,4 +1,7 @@
 Revision history for Perl extension Net::Amazon:
+0.52 (06/09/2009)
+   (cb) Nathan Handler reported a man page issue on Ubuntu, rt 46708.
+
 0.51 (06/05/2009)
    (cb) Vince Veselosky submitted a patch to support request signing, a
         feature that is required for accessing AWS after 2009-08-15.
