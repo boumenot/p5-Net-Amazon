@@ -47,7 +47,7 @@ __END__
 
 =head1 NAME
 
-Net::Amazon::Validate::ItemSearch::jp::MusicLabel;
+Net::Amazon::Validate::ItemSearch::jp::MusicLabel - valid search indices for the jp locale and the MusicLabel operation.
 
 =head1 DESCRIPTION
 

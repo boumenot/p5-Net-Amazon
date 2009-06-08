@@ -52,7 +52,7 @@ __END__
 
 =head1 NAME
 
-Net::Amazon::Validate::ItemSearch::uk::Magazines;
+Net::Amazon::Validate::ItemSearch::uk::Magazines - valid search indices for the uk locale and the Magazines operation.
 
 =head1 DESCRIPTION
 

@@ -47,7 +47,7 @@ __END__
 
 =head1 NAME
 
-Net::Amazon::Validate::ItemSearch::fr::Power;
+Net::Amazon::Validate::ItemSearch::fr::Power - valid search indices for the fr locale and the Power operation.
 
 =head1 DESCRIPTION
 

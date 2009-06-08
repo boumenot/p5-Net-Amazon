@@ -47,7 +47,7 @@ __END__
 
 =head1 NAME
 
-Net::Amazon::Validate::ItemSearch::fr::Brand;
+Net::Amazon::Validate::ItemSearch::fr::Brand - valid search indices for the fr locale and the Brand operation.
 
 =head1 DESCRIPTION
 

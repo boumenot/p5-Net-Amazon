@@ -52,7 +52,7 @@ __END__
 
 =head1 NAME
 
-Net::Amazon::Validate::ItemSearch::uk::Count;
+Net::Amazon::Validate::ItemSearch::uk::Count - valid search indices for the uk locale and the Count operation.
 
 =head1 DESCRIPTION
 

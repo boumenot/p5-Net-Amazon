@@ -54,7 +54,7 @@ __END__
 
 =head1 NAME
 
-Net::Amazon::Validate::ItemSearch::us::Publisher;
+Net::Amazon::Validate::ItemSearch::us::Publisher - valid search indices for the us locale and the Publisher operation.
 
 =head1 DESCRIPTION
 

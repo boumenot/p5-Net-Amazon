@@ -53,7 +53,7 @@ __END__
 
 =head1 NAME
 
-Net::Amazon::Validate::ItemSearch::de::Count;
+Net::Amazon::Validate::ItemSearch::de::Count - valid search indices for the de locale and the Count operation.
 
 =head1 DESCRIPTION
 

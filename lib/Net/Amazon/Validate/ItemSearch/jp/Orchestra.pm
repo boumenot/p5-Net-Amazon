@@ -46,7 +46,7 @@ __END__
 
 =head1 NAME
 
-Net::Amazon::Validate::ItemSearch::jp::Orchestra;
+Net::Amazon::Validate::ItemSearch::jp::Orchestra - valid search indices for the jp locale and the Orchestra operation.
 
 =head1 DESCRIPTION
 

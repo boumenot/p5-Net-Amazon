@@ -50,7 +50,7 @@ __END__
 
 =head1 NAME
 
-Net::Amazon::Validate::ItemSearch::fr::Format;
+Net::Amazon::Validate::ItemSearch::fr::Format - valid search indices for the fr locale and the Format operation.
 
 =head1 DESCRIPTION
 

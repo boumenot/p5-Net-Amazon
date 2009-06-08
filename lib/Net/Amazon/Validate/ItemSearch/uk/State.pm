@@ -53,7 +53,7 @@ __END__
 
 =head1 NAME
 
-Net::Amazon::Validate::ItemSearch::uk::State;
+Net::Amazon::Validate::ItemSearch::uk::State - valid search indices for the uk locale and the State operation.
 
 =head1 DESCRIPTION
 

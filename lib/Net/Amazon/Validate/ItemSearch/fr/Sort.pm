@@ -58,7 +58,7 @@ __END__
 
 =head1 NAME
 
-Net::Amazon::Validate::ItemSearch::fr::Sort;
+Net::Amazon::Validate::ItemSearch::fr::Sort - valid search indices for the fr locale and the Sort operation.
 
 =head1 DESCRIPTION
 

@@ -51,7 +51,7 @@ __END__
 
 =head1 NAME
 
-Net::Amazon::Validate::ItemSearch::jp::Count;
+Net::Amazon::Validate::ItemSearch::jp::Count - valid search indices for the jp locale and the Count operation.
 
 =head1 DESCRIPTION
 

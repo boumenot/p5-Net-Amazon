@@ -60,7 +60,7 @@ __END__
 
 =head1 NAME
 
-Net::Amazon::Validate::ItemSearch::uk::Condition;
+Net::Amazon::Validate::ItemSearch::uk::Condition - valid search indices for the uk locale and the Condition operation.
 
 =head1 DESCRIPTION
 

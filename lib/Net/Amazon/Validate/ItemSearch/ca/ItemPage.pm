@@ -55,7 +55,7 @@ __END__
 
 =head1 NAME
 
-Net::Amazon::Validate::ItemSearch::ca::ItemPage;
+Net::Amazon::Validate::ItemSearch::ca::ItemPage - valid search indices for the ca locale and the ItemPage operation.
 
 =head1 DESCRIPTION
 

@@ -64,7 +64,7 @@ __END__
 
 =head1 NAME
 
-Net::Amazon::Validate::ItemSearch::uk::Sort;
+Net::Amazon::Validate::ItemSearch::uk::Sort - valid search indices for the uk locale and the Sort operation.
 
 =head1 DESCRIPTION
 

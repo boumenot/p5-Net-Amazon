@@ -46,7 +46,7 @@ __END__
 
 =head1 NAME
 
-Net::Amazon::Validate::ItemSearch::us::Power;
+Net::Amazon::Validate::ItemSearch::us::Power - valid search indices for the us locale and the Power operation.
 
 =head1 DESCRIPTION
 

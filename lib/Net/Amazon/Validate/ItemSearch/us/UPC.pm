@@ -84,7 +84,7 @@ __END__
 
 =head1 NAME
 
-Net::Amazon::Validate::ItemSearch::us::UPC;
+Net::Amazon::Validate::ItemSearch::us::UPC - valid search indices for the us locale and the UPC operation.
 
 =head1 DESCRIPTION
 

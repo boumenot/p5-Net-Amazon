@@ -46,7 +46,7 @@ __END__
 
 =head1 NAME
 
-Net::Amazon::Validate::ItemSearch::ca::Brand;
+Net::Amazon::Validate::ItemSearch::ca::Brand - valid search indices for the ca locale and the Brand operation.
 
 =head1 DESCRIPTION
 

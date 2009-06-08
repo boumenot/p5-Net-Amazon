@@ -51,7 +51,7 @@ __END__
 
 =head1 NAME
 
-Net::Amazon::Validate::ItemSearch::fr::State;
+Net::Amazon::Validate::ItemSearch::fr::State - valid search indices for the fr locale and the State operation.
 
 =head1 DESCRIPTION
 

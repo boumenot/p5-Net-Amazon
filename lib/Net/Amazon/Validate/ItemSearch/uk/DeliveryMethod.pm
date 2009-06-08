@@ -47,7 +47,7 @@ __END__
 
 =head1 NAME
 
-Net::Amazon::Validate::ItemSearch::uk::DeliveryMethod;
+Net::Amazon::Validate::ItemSearch::uk::DeliveryMethod - valid search indices for the uk locale and the DeliveryMethod operation.
 
 =head1 DESCRIPTION
 

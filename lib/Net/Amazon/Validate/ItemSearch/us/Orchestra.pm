@@ -48,7 +48,7 @@ __END__
 
 =head1 NAME
 
-Net::Amazon::Validate::ItemSearch::us::Orchestra;
+Net::Amazon::Validate::ItemSearch::us::Orchestra - valid search indices for the us locale and the Orchestra operation.
 
 =head1 DESCRIPTION
 

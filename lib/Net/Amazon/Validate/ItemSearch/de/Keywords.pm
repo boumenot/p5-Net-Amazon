@@ -71,7 +71,7 @@ __END__
 
 =head1 NAME
 
-Net::Amazon::Validate::ItemSearch::de::Keywords;
+Net::Amazon::Validate::ItemSearch::de::Keywords - valid search indices for the de locale and the Keywords operation.
 
 =head1 DESCRIPTION
 

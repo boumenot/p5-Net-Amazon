@@ -64,7 +64,7 @@ __END__
 
 =head1 NAME
 
-Net::Amazon::Validate::ItemSearch::jp::Sort;
+Net::Amazon::Validate::ItemSearch::jp::Sort - valid search indices for the jp locale and the Sort operation.
 
 =head1 DESCRIPTION
 

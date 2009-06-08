@@ -47,7 +47,7 @@ __END__
 
 =head1 NAME
 
-Net::Amazon::Validate::ItemSearch::us::City;
+Net::Amazon::Validate::ItemSearch::us::City - valid search indices for the us locale and the City operation.
 
 =head1 DESCRIPTION
 

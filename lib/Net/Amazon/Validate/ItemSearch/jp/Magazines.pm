@@ -51,7 +51,7 @@ __END__
 
 =head1 NAME
 
-Net::Amazon::Validate::ItemSearch::jp::Magazines;
+Net::Amazon::Validate::ItemSearch::jp::Magazines - valid search indices for the jp locale and the Magazines operation.
 
 =head1 DESCRIPTION
 

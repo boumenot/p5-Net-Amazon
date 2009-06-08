@@ -51,7 +51,7 @@ __END__
 
 =head1 NAME
 
-Net::Amazon::Validate::ItemSearch::jp::Format;
+Net::Amazon::Validate::ItemSearch::jp::Format - valid search indices for the jp locale and the Format operation.
 
 =head1 DESCRIPTION
 

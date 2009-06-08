@@ -65,7 +65,7 @@ __END__
 
 =head1 NAME
 
-Net::Amazon::Validate::ItemSearch::jp::Keywords;
+Net::Amazon::Validate::ItemSearch::jp::Keywords - valid search indices for the jp locale and the Keywords operation.
 
 =head1 DESCRIPTION
 

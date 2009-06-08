@@ -48,7 +48,7 @@ __END__
 
 =head1 NAME
 
-Net::Amazon::Validate::ItemSearch::uk::Author;
+Net::Amazon::Validate::ItemSearch::uk::Author - valid search indices for the uk locale and the Author operation.
 
 =head1 DESCRIPTION
 

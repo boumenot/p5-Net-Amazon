@@ -65,7 +65,7 @@ __END__
 
 =head1 NAME
 
-Net::Amazon::Validate::ItemSearch::de::MerchantId;
+Net::Amazon::Validate::ItemSearch::de::MerchantId - valid search indices for the de locale and the MerchantId operation.
 
 =head1 DESCRIPTION
 

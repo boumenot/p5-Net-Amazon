@@ -59,7 +59,7 @@ __END__
 
 =head1 NAME
 
-Net::Amazon::Validate::ItemSearch::jp::Condition;
+Net::Amazon::Validate::ItemSearch::jp::Condition - valid search indices for the jp locale and the Condition operation.
 
 =head1 DESCRIPTION
 

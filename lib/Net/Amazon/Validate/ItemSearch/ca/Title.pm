@@ -55,7 +55,7 @@ __END__
 
 =head1 NAME
 
-Net::Amazon::Validate::ItemSearch::ca::Title;
+Net::Amazon::Validate::ItemSearch::ca::Title - valid search indices for the ca locale and the Title operation.
 
 =head1 DESCRIPTION
 

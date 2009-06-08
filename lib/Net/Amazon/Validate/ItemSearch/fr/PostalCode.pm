@@ -51,7 +51,7 @@ __END__
 
 =head1 NAME
 
-Net::Amazon::Validate::ItemSearch::fr::PostalCode;
+Net::Amazon::Validate::ItemSearch::fr::PostalCode - valid search indices for the fr locale and the PostalCode operation.
 
 =head1 DESCRIPTION
 

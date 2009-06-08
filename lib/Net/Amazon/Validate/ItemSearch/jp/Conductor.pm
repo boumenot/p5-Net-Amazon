@@ -46,7 +46,7 @@ __END__
 
 =head1 NAME
 
-Net::Amazon::Validate::ItemSearch::jp::Conductor;
+Net::Amazon::Validate::ItemSearch::jp::Conductor - valid search indices for the jp locale and the Conductor operation.
 
 =head1 DESCRIPTION
 

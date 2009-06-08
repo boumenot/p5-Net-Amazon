@@ -46,7 +46,7 @@ __END__
 
 =head1 NAME
 
-Net::Amazon::Validate::ItemSearch::uk::Composer;
+Net::Amazon::Validate::ItemSearch::uk::Composer - valid search indices for the uk locale and the Composer operation.
 
 =head1 DESCRIPTION
 

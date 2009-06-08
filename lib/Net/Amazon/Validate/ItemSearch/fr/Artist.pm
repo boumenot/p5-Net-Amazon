@@ -46,7 +46,7 @@ __END__
 
 =head1 NAME
 
-Net::Amazon::Validate::ItemSearch::fr::Artist;
+Net::Amazon::Validate::ItemSearch::fr::Artist - valid search indices for the fr locale and the Artist operation.
 
 =head1 DESCRIPTION
 

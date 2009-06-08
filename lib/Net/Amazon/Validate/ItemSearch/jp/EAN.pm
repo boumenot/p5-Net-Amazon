@@ -65,7 +65,7 @@ __END__
 
 =head1 NAME
 
-Net::Amazon::Validate::ItemSearch::jp::EAN;
+Net::Amazon::Validate::ItemSearch::jp::EAN - valid search indices for the jp locale and the EAN operation.
 
 =head1 DESCRIPTION
 

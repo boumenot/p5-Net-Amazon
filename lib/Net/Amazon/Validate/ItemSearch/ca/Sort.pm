@@ -55,7 +55,7 @@ __END__
 
 =head1 NAME
 
-Net::Amazon::Validate::ItemSearch::ca::Sort;
+Net::Amazon::Validate::ItemSearch::ca::Sort - valid search indices for the ca locale and the Sort operation.
 
 =head1 DESCRIPTION
 

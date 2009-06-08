@@ -46,7 +46,7 @@ __END__
 
 =head1 NAME
 
-Net::Amazon::Validate::ItemSearch::ca::Artist;
+Net::Amazon::Validate::ItemSearch::ca::Artist - valid search indices for the ca locale and the Artist operation.
 
 =head1 DESCRIPTION
 

@@ -46,7 +46,7 @@ __END__
 
 =head1 NAME
 
-Net::Amazon::Validate::ItemSearch::fr::Orchestra;
+Net::Amazon::Validate::ItemSearch::fr::Orchestra - valid search indices for the fr locale and the Orchestra operation.
 
 =head1 DESCRIPTION
 

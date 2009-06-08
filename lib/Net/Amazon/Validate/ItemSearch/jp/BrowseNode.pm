@@ -63,7 +63,7 @@ __END__
 
 =head1 NAME
 
-Net::Amazon::Validate::ItemSearch::jp::BrowseNode;
+Net::Amazon::Validate::ItemSearch::jp::BrowseNode - valid search indices for the jp locale and the BrowseNode operation.
 
 =head1 DESCRIPTION
 

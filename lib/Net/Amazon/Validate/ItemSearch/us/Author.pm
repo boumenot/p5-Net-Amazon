@@ -50,7 +50,7 @@ __END__
 
 =head1 NAME
 
-Net::Amazon::Validate::ItemSearch::us::Author;
+Net::Amazon::Validate::ItemSearch::us::Author - valid search indices for the us locale and the Author operation.
 
 =head1 DESCRIPTION
 

@@ -51,7 +51,7 @@ __END__
 
 =head1 NAME
 
-Net::Amazon::Validate::ItemSearch::fr::MaximumPrice;
+Net::Amazon::Validate::ItemSearch::fr::MaximumPrice - valid search indices for the fr locale and the MaximumPrice operation.
 
 =head1 DESCRIPTION
 

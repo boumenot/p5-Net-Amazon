@@ -47,7 +47,7 @@ __END__
 
 =head1 NAME
 
-Net::Amazon::Validate::ItemSearch::us::Neighborhood;
+Net::Amazon::Validate::ItemSearch::us::Neighborhood - valid search indices for the us locale and the Neighborhood operation.
 
 =head1 DESCRIPTION
 

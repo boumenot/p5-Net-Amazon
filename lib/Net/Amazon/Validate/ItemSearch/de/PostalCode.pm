@@ -52,7 +52,7 @@ __END__
 
 =head1 NAME
 
-Net::Amazon::Validate::ItemSearch::de::PostalCode;
+Net::Amazon::Validate::ItemSearch::de::PostalCode - valid search indices for the de locale and the PostalCode operation.
 
 =head1 DESCRIPTION
 

@@ -58,7 +58,7 @@ __END__
 
 =head1 NAME
 
-Net::Amazon::Validate::ItemSearch::de::Manufacturer;
+Net::Amazon::Validate::ItemSearch::de::Manufacturer - valid search indices for the de locale and the Manufacturer operation.
 
 =head1 DESCRIPTION
 

@@ -46,7 +46,7 @@ __END__
 
 =head1 NAME
 
-Net::Amazon::Validate::ItemSearch::jp::DeliveryMethod;
+Net::Amazon::Validate::ItemSearch::jp::DeliveryMethod - valid search indices for the jp locale and the DeliveryMethod operation.
 
 =head1 DESCRIPTION
 

@@ -48,7 +48,7 @@ __END__
 
 =head1 NAME
 
-Net::Amazon::Validate::ItemSearch::jp::AudienceRating;
+Net::Amazon::Validate::ItemSearch::jp::AudienceRating - valid search indices for the jp locale and the AudienceRating operation.
 
 =head1 DESCRIPTION
 

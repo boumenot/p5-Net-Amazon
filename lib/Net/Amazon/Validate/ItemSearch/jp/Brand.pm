@@ -51,7 +51,7 @@ __END__
 
 =head1 NAME
 
-Net::Amazon::Validate::ItemSearch::jp::Brand;
+Net::Amazon::Validate::ItemSearch::jp::Brand - valid search indices for the jp locale and the Brand operation.
 
 =head1 DESCRIPTION
 

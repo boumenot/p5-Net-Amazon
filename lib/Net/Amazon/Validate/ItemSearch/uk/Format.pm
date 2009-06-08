@@ -52,7 +52,7 @@ __END__
 
 =head1 NAME
 
-Net::Amazon::Validate::ItemSearch::uk::Format;
+Net::Amazon::Validate::ItemSearch::uk::Format - valid search indices for the uk locale and the Format operation.
 
 =head1 DESCRIPTION
 

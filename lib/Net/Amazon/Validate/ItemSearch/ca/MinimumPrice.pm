@@ -55,7 +55,7 @@ __END__
 
 =head1 NAME
 
-Net::Amazon::Validate::ItemSearch::ca::MinimumPrice;
+Net::Amazon::Validate::ItemSearch::ca::MinimumPrice - valid search indices for the ca locale and the MinimumPrice operation.
 
 =head1 DESCRIPTION
 

@@ -48,7 +48,7 @@ __END__
 
 =head1 NAME
 
-Net::Amazon::Validate::ItemSearch::us::Conductor;
+Net::Amazon::Validate::ItemSearch::us::Conductor - valid search indices for the us locale and the Conductor operation.
 
 =head1 DESCRIPTION
 

@@ -46,7 +46,7 @@ __END__
 
 =head1 NAME
 
-Net::Amazon::Validate::ItemSearch::de::MPAARating;
+Net::Amazon::Validate::ItemSearch::de::MPAARating - valid search indices for the de locale and the MPAARating operation.
 
 =head1 DESCRIPTION
 

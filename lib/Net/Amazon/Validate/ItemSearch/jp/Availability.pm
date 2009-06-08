@@ -51,7 +51,7 @@ __END__
 
 =head1 NAME
 
-Net::Amazon::Validate::ItemSearch::jp::Availability;
+Net::Amazon::Validate::ItemSearch::jp::Availability - valid search indices for the jp locale and the Availability operation.
 
 =head1 DESCRIPTION
 

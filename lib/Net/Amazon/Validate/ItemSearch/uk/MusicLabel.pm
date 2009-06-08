@@ -47,7 +47,7 @@ __END__
 
 =head1 NAME
 
-Net::Amazon::Validate::ItemSearch::uk::MusicLabel;
+Net::Amazon::Validate::ItemSearch::uk::MusicLabel - valid search indices for the uk locale and the MusicLabel operation.
 
 =head1 DESCRIPTION
 

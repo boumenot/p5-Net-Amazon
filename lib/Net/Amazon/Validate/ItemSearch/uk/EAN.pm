@@ -65,7 +65,7 @@ __END__
 
 =head1 NAME
 
-Net::Amazon::Validate::ItemSearch::uk::EAN;
+Net::Amazon::Validate::ItemSearch::uk::EAN - valid search indices for the uk locale and the EAN operation.
 
 =head1 DESCRIPTION
 

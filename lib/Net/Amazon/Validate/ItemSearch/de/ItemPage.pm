@@ -70,7 +70,7 @@ __END__
 
 =head1 NAME
 
-Net::Amazon::Validate::ItemSearch::de::ItemPage;
+Net::Amazon::Validate::ItemSearch::de::ItemPage - valid search indices for the de locale and the ItemPage operation.
 
 =head1 DESCRIPTION
 

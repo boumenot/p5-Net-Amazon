@@ -48,7 +48,7 @@ __END__
 
 =head1 NAME
 
-Net::Amazon::Validate::ItemSearch::jp::Director;
+Net::Amazon::Validate::ItemSearch::jp::Director - valid search indices for the jp locale and the Director operation.
 
 =head1 DESCRIPTION
 

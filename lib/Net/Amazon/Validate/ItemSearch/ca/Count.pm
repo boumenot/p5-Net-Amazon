@@ -55,7 +55,7 @@ __END__
 
 =head1 NAME
 
-Net::Amazon::Validate::ItemSearch::ca::Count;
+Net::Amazon::Validate::ItemSearch::ca::Count - valid search indices for the ca locale and the Count operation.
 
 =head1 DESCRIPTION
 

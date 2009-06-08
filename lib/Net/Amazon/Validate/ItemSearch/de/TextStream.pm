@@ -46,7 +46,7 @@ __END__
 
 =head1 NAME
 
-Net::Amazon::Validate::ItemSearch::de::TextStream;
+Net::Amazon::Validate::ItemSearch::de::TextStream - valid search indices for the de locale and the TextStream operation.
 
 =head1 DESCRIPTION
 

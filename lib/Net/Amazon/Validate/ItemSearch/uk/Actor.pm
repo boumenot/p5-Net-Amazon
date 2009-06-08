@@ -49,7 +49,7 @@ __END__
 
 =head1 NAME
 
-Net::Amazon::Validate::ItemSearch::uk::Actor;
+Net::Amazon::Validate::ItemSearch::uk::Actor - valid search indices for the uk locale and the Actor operation.
 
 =head1 DESCRIPTION
 

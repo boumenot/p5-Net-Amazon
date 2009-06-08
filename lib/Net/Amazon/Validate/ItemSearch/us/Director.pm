@@ -52,7 +52,7 @@ __END__
 
 =head1 NAME
 
-Net::Amazon::Validate::ItemSearch::us::Director;
+Net::Amazon::Validate::ItemSearch::us::Director - valid search indices for the us locale and the Director operation.
 
 =head1 DESCRIPTION
 

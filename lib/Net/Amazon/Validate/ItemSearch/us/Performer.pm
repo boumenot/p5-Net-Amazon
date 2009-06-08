@@ -50,7 +50,7 @@ __END__
 
 =head1 NAME
 
-Net::Amazon::Validate::ItemSearch::us::Performer;
+Net::Amazon::Validate::ItemSearch::us::Performer - valid search indices for the us locale and the Performer operation.
 
 =head1 DESCRIPTION
 

@@ -46,7 +46,7 @@ __END__
 
 =head1 NAME
 
-Net::Amazon::Validate::ItemSearch::jp::Power;
+Net::Amazon::Validate::ItemSearch::jp::Power - valid search indices for the jp locale and the Power operation.
 
 =head1 DESCRIPTION
 

@@ -52,7 +52,7 @@ __END__
 
 =head1 NAME
 
-Net::Amazon::Validate::ItemSearch::uk::Availability;
+Net::Amazon::Validate::ItemSearch::uk::Availability - valid search indices for the uk locale and the Availability operation.
 
 =head1 DESCRIPTION
 

@@ -58,7 +58,7 @@ __END__
 
 =head1 NAME
 
-Net::Amazon::Validate::ItemSearch::fr::BrowseNode;
+Net::Amazon::Validate::ItemSearch::fr::BrowseNode - valid search indices for the fr locale and the BrowseNode operation.
 
 =head1 DESCRIPTION
 

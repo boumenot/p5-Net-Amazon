@@ -51,7 +51,7 @@ __END__
 
 =head1 NAME
 
-Net::Amazon::Validate::ItemSearch::jp::Performer;
+Net::Amazon::Validate::ItemSearch::jp::Performer - valid search indices for the jp locale and the Performer operation.
 
 =head1 DESCRIPTION
 

@@ -58,7 +58,7 @@ __END__
 
 =head1 NAME
 
-Net::Amazon::Validate::ItemSearch::jp::MinimumPrice;
+Net::Amazon::Validate::ItemSearch::jp::MinimumPrice - valid search indices for the jp locale and the MinimumPrice operation.
 
 =head1 DESCRIPTION
 

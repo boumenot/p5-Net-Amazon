@@ -74,7 +74,7 @@ __END__
 
 =head1 NAME
 
-Net::Amazon::Validate::ItemSearch::us::MaximumPrice;
+Net::Amazon::Validate::ItemSearch::us::MaximumPrice - valid search indices for the us locale and the MaximumPrice operation.
 
 =head1 DESCRIPTION
 

@@ -46,7 +46,7 @@ __END__
 
 =head1 NAME
 
-Net::Amazon::Validate::ItemSearch::ca::Conductor;
+Net::Amazon::Validate::ItemSearch::ca::Conductor - valid search indices for the ca locale and the Conductor operation.
 
 =head1 DESCRIPTION
 

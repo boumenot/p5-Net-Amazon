@@ -49,7 +49,7 @@ __END__
 
 =head1 NAME
 
-Net::Amazon::Validate::ItemSearch::uk::Publisher;
+Net::Amazon::Validate::ItemSearch::uk::Publisher - valid search indices for the uk locale and the Publisher operation.
 
 =head1 DESCRIPTION
 

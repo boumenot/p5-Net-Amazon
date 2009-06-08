@@ -59,7 +59,7 @@ __END__
 
 =head1 NAME
 
-Net::Amazon::Validate::ItemSearch::jp::MerchantId;
+Net::Amazon::Validate::ItemSearch::jp::MerchantId - valid search indices for the jp locale and the MerchantId operation.
 
 =head1 DESCRIPTION
 

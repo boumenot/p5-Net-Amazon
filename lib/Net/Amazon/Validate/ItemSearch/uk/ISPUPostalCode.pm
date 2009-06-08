@@ -47,7 +47,7 @@ __END__
 
 =head1 NAME
 
-Net::Amazon::Validate::ItemSearch::uk::ISPUPostalCode;
+Net::Amazon::Validate::ItemSearch::uk::ISPUPostalCode - valid search indices for the uk locale and the ISPUPostalCode operation.
 
 =head1 DESCRIPTION
 

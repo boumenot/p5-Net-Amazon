@@ -65,7 +65,7 @@ __END__
 
 =head1 NAME
 
-Net::Amazon::Validate::ItemSearch::de::Condition;
+Net::Amazon::Validate::ItemSearch::de::Condition - valid search indices for the de locale and the Condition operation.
 
 =head1 DESCRIPTION
 

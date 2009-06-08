@@ -48,7 +48,7 @@ __END__
 
 =head1 NAME
 
-Net::Amazon::Validate::ItemSearch::de::Actor;
+Net::Amazon::Validate::ItemSearch::de::Actor - valid search indices for the de locale and the Actor operation.
 
 =head1 DESCRIPTION
 

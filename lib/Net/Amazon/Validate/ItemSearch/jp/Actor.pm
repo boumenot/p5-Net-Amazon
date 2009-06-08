@@ -49,7 +49,7 @@ __END__
 
 =head1 NAME
 
-Net::Amazon::Validate::ItemSearch::jp::Actor;
+Net::Amazon::Validate::ItemSearch::jp::Actor - valid search indices for the jp locale and the Actor operation.
 
 =head1 DESCRIPTION
 

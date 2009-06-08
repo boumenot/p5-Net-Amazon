@@ -70,7 +70,7 @@ __END__
 
 =head1 NAME
 
-Net::Amazon::Validate::ItemSearch::de::Sort;
+Net::Amazon::Validate::ItemSearch::de::Sort - valid search indices for the de locale and the Sort operation.
 
 =head1 DESCRIPTION
 

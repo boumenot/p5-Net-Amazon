@@ -46,7 +46,7 @@ __END__
 
 =head1 NAME
 
-Net::Amazon::Validate::ItemSearch::jp::Artist;
+Net::Amazon::Validate::ItemSearch::jp::Artist - valid search indices for the jp locale and the Artist operation.
 
 =head1 DESCRIPTION
 

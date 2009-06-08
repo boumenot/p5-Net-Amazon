@@ -79,7 +79,7 @@ __END__
 
 =head1 NAME
 
-Net::Amazon::Validate::ItemSearch::us::Sort;
+Net::Amazon::Validate::ItemSearch::us::Sort - valid search indices for the us locale and the Sort operation.
 
 =head1 DESCRIPTION
 

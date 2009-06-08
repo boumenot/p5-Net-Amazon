@@ -46,7 +46,7 @@ __END__
 
 =head1 NAME
 
-Net::Amazon::Validate::ItemSearch::jp::ISPUPostalCode;
+Net::Amazon::Validate::ItemSearch::jp::ISPUPostalCode - valid search indices for the jp locale and the ISPUPostalCode operation.
 
 =head1 DESCRIPTION
 

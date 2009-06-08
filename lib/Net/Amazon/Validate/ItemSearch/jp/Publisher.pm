@@ -50,7 +50,7 @@ __END__
 
 =head1 NAME
 
-Net::Amazon::Validate::ItemSearch::jp::Publisher;
+Net::Amazon::Validate::ItemSearch::jp::Publisher - valid search indices for the jp locale and the Publisher operation.
 
 =head1 DESCRIPTION
 

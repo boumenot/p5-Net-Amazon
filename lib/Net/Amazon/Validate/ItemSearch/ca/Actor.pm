@@ -48,7 +48,7 @@ __END__
 
 =head1 NAME
 
-Net::Amazon::Validate::ItemSearch::ca::Actor;
+Net::Amazon::Validate::ItemSearch::ca::Actor - valid search indices for the ca locale and the Actor operation.
 
 =head1 DESCRIPTION
 

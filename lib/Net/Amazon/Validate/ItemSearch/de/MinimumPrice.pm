@@ -62,7 +62,7 @@ __END__
 
 =head1 NAME
 
-Net::Amazon::Validate::ItemSearch::de::MinimumPrice;
+Net::Amazon::Validate::ItemSearch::de::MinimumPrice - valid search indices for the de locale and the MinimumPrice operation.
 
 =head1 DESCRIPTION
 

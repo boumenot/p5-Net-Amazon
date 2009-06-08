@@ -53,7 +53,7 @@ __END__
 
 =head1 NAME
 
-Net::Amazon::Validate::ItemSearch::jp::State;
+Net::Amazon::Validate::ItemSearch::jp::State - valid search indices for the jp locale and the State operation.
 
 =head1 DESCRIPTION
 

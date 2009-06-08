@@ -64,7 +64,7 @@ __END__
 
 =head1 NAME
 
-Net::Amazon::Validate::ItemSearch::jp::ItemPage;
+Net::Amazon::Validate::ItemSearch::jp::ItemPage - valid search indices for the jp locale and the ItemPage operation.
 
 =head1 DESCRIPTION
 

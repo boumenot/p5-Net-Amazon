@@ -56,7 +56,7 @@ __END__
 
 =head1 NAME
 
-Net::Amazon::Validate::ItemSearch::ca::EAN;
+Net::Amazon::Validate::ItemSearch::ca::EAN - valid search indices for the ca locale and the EAN operation.
 
 =head1 DESCRIPTION
 

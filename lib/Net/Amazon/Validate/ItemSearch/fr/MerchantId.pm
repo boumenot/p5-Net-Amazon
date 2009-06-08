@@ -53,7 +53,7 @@ __END__
 
 =head1 NAME
 
-Net::Amazon::Validate::ItemSearch::fr::MerchantId;
+Net::Amazon::Validate::ItemSearch::fr::MerchantId - valid search indices for the fr locale and the MerchantId operation.
 
 =head1 DESCRIPTION
 

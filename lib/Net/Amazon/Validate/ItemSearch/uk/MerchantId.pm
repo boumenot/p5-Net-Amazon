@@ -59,7 +59,7 @@ __END__
 
 =head1 NAME
 
-Net::Amazon::Validate::ItemSearch::uk::MerchantId;
+Net::Amazon::Validate::ItemSearch::uk::MerchantId - valid search indices for the uk locale and the MerchantId operation.
 
 =head1 DESCRIPTION
 

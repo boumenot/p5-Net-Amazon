@@ -55,7 +55,7 @@ __END__
 
 =head1 NAME
 
-Net::Amazon::Validate::ItemSearch::ca::Condition;
+Net::Amazon::Validate::ItemSearch::ca::Condition - valid search indices for the ca locale and the Condition operation.
 
 =head1 DESCRIPTION
 

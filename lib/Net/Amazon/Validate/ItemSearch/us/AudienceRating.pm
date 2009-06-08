@@ -50,7 +50,7 @@ __END__
 
 =head1 NAME
 
-Net::Amazon::Validate::ItemSearch::us::AudienceRating;
+Net::Amazon::Validate::ItemSearch::us::AudienceRating - valid search indices for the us locale and the AudienceRating operation.
 
 =head1 DESCRIPTION
 

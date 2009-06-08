@@ -48,7 +48,7 @@ __END__
 
 =head1 NAME
 
-Net::Amazon::Validate::ItemSearch::ca::Power;
+Net::Amazon::Validate::ItemSearch::ca::Power - valid search indices for the ca locale and the Power operation.
 
 =head1 DESCRIPTION
 
