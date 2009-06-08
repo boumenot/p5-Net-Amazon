@@ -1,6 +1,9 @@
 #!/usr/bin/perl 
 #$Revision: 1.3 $$Date: 2007-11-11 20:26:22 $$Author: boumenot $
 #######################################################################
+# FIXME: this script screen scapes the web to build classes to validate
+# ResponseGroups.  Unfortunately, this breaks too frequently.  A
+# better way needs to be found.
 #######################################################################
 
 require 5.008_001;
@@ -18,7 +21,8 @@ use warnings;
 
 
 sub AWS4_BASE_URL {
-    'http://docs.amazonwebservices.com/AWSECommerceService/2007-10-29/DG/';
+    #'http://docs.amazonwebservices.com/AWSECommerceService/2007-10-29/DG/';
+    'http://docs.amazonwebservices.com/AWSECommerceService/2009-03-31/DG/';
 }
 sub AWS4_ONLINE_HTML {
     AWS4_BASE_URL . 'CHAP_ResponseGroupsList.html';

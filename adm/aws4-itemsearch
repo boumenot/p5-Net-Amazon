@@ -1,6 +1,9 @@
 #!/usr/bin/perl 
 #$Revision: 1.4 $$Date: 2007-11-11 20:26:22 $$Author: boumenot $
 #######################################################################
+# FIXME: this script screen scapes the web to build the ItemSearch
+# validate classes.  Unfortunately, this breaks too frequently.  A
+# better way needs to be found.
 #######################################################################
 
 package main;
@@ -19,7 +22,8 @@ use strict;
 use warnings;
 
 use constant AWS4_ONLINE_HTML => {
-    '2007-10-29' => 'http://docs.amazonwebservices.com/AWSECommerceService/2007-10-29/DG/',
+    #'2007-10-29' => 'http://docs.amazonwebservices.com/AWSECommerceService/2007-10-29/DG/',
+    '2009-03-31' => 'http://docs.amazonwebservices.com/AWSECommerceService/2009-03-31/DG/',
 };
 
 use constant AWS4_LOCALE_HTML => {
