@@ -8,7 +8,7 @@ use 5.006;
 use strict;
 use warnings;
 
-our $VERSION          = '0.53';
+our $VERSION          = '0.54';
 our $WSDL_DATE        = '2009-03-31';
 our $Locale           = 'us';
 our @CANNED_RESPONSES = ();
@@ -162,6 +162,11 @@ sub request {
             'Version'        => $WSDL_DATE,
             map { $_, $params{$_} } sort keys %params,
         );
+	
+        # Signed requests will have different URLs, which breaks caching.
+        # Get a cachable URL before signing the request.
+        my $url_cachablestr = $url->as_string;
+
         # New signature for 2009-03-31. Do not alter URL after this!
         $url = $self->_sign_request($url) if exists $self->{secret_key};
 
@@ -171,7 +176,7 @@ sub request {
 
         DEBUG(sub { "urlstr=" . $urlstr });
 
-        my $xml = fetch_url($self, $urlstr, $res);
+        my $xml = fetch_url($self, $urlstr, $url_cachablestr, $res);
 
         if(!defined $xml) {
             return $res;
@@ -229,7 +234,7 @@ sub request {
 ##################################################
 sub fetch_url {
 ##################################################
-    my($self, $url, $res) = @_;
+    my($self, $url, $url_cachablestr, $res) = @_;
 
     my $max_retries = 2;
 
@@ -242,7 +247,7 @@ sub fetch_url {
     }
 
     if(exists $self->{cache}) {
-        my $resp = $self->{cache}->get($url);
+        my $resp = $self->{cache}->get($url_cachablestr);
         if(defined $resp) {
             INFO("Serving from cache");
             return $resp;
@@ -309,7 +314,7 @@ sub fetch_url {
     }
 
     if(exists $self->{cache}) {
-        $self->{cache}->set($url, $resp->content());
+        $self->{cache}->set($url_cachablestr, $resp->content());
     }
 
     return $resp->content();

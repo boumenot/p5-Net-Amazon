@@ -1,5 +1,5 @@
 #########################
-# Artist Search tests
+# Signature Test
 #########################
 use warnings;
 use strict;

@@ -1,4 +1,9 @@
 Revision history for Perl extension Net::Amazon:
+0.54 (06/17/2009)
+   (cb) Alfons Wittmann reported that signing requests broke caching due
+        to the current time being incorporated into every signed URL 
+	submitted.
+
 0.53 (06/13/2009)
    (cb) Nathan Handler re-reported a man page issue on Ubuntu, rt 46708.  
         I managed to fix 197 issues, except for the specific one he called 
