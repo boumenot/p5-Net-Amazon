@@ -29,6 +29,7 @@ use URI::Escape qw(uri_escape);
 use constant SEARCH_TYPE_CLASS_MAP => {
     actor        => 'Actor',
     artist       => 'Artist',
+    all          => 'All',
     author       => 'Author',
     asin         => 'ASIN',
     blended      => 'Blended',
@@ -896,6 +897,11 @@ Music search by Actor, mandatory parameter "actor". Can return many results.
 =item Net::Amazon::Request::Artist
 
 Music search by Artist, mandatory parameter C<artist>.
+Can return many results.
+
+=item Net::Amazon::Request::All
+
+'All' search on a keyword, mandatory parameter C<all>.
 Can return many results.
 
 =item Net::Amazon::Request::Author

@@ -26,6 +26,7 @@ use constant AWS3_VALID_TYPES_MAP => {
 use constant SEARCH_TYPE_OPERATION_MAP => {
     Actor        => 'ItemSearch',
     Artist       => 'ItemSearch',
+    All          => 'ItemSearch',
     Author       => 'ItemSearch',
     ASIN         => 'ItemLookup',
     Blended      => 'ItemSearch',
@@ -52,6 +53,7 @@ use constant SEARCH_TYPE_OPERATION_MAP => {
 # if it isn't defined it defaults to salesrank
 use constant DEFAULT_SORT_CRITERIA_MAP => {
     Wishlist     => 'DateAdded',
+    All          => '',
     Blended      => '',
     Seller       => '',
     Exchange     => '',
