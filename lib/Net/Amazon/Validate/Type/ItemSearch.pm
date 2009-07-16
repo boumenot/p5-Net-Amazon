@@ -9,6 +9,7 @@ use warnings;
 
 use constant RESPONSEGROUP_VALID_VALUES => {
     'Accessories' => 1,
+    'AlternateVersions' => 1,
     'BrowseNodes' => 1,
     'Collections' => 1,
     'EditorialReview' => 1,
@@ -25,6 +26,7 @@ use constant RESPONSEGROUP_VALID_VALUES => {
     'Offers' => 1,
     'PromotionDetails' => 1,
     'PromotionSummary' => 1,
+    'RelatedItems' => 1,
     'Reviews' => 1,
     'SalesRank' => 1,
     'SearchBins' => 1,

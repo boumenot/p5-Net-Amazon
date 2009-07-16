@@ -1,18 +1,17 @@
 # -*- perl -*-
 # !!! DO NOT EDIT !!!
 # This file was automatically generated.
-package Net::Amazon::Validate::Type::BrowseNodeLookup;
+package Net::Amazon::Validate::Type::VehiclePartSearch;
 
 use 5.006;
 use strict;
 use warnings;
 
 use constant RESPONSEGROUP_VALID_VALUES => {
-    'BrowseNodeInfo' => 1,
-    'MostGifted ' => 1,
-    'MostWishedFor ' => 1,
-    'NewReleases' => 1,
-    'TopSellers' => 1,
+    'HasPartCompatibility' => 1,
+    'PartBrandBinsSummary' => 1,
+    'VehiclePartFit' => 1,
+    'VehicleParts' => 1,
 };
 
 sub new {
