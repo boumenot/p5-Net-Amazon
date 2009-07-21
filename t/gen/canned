@@ -9,6 +9,7 @@ my $response_file = "response-1.txt";
 
 my %tests = (
     'actor'         => [qw()],
+    'all'           => [qw()],
     'artist'        => [qw(Offers)],
     'asin_cd'       => [qw()],
     'asin_cdm'      => [qw()],
@@ -47,7 +48,7 @@ for my $test (@tests) {
 
     print "Processing $test ...\n";
 
-    system("./$test");
+    #system("./$test");
 
     my $default_handlers = {
         BrowseNodes       => sub { $_->delete; }, 

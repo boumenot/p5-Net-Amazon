@@ -1,4 +1,8 @@
 Revision history for Perl extension Net::Amazon:
+0.55 (mm/dd/yyyy)
+   (cb) Yuichi Tateno implemented support for the SearchIndex all.
+   (cb) 
+
 0.54 (06/17/2009)
    (cb) Alfons Wittmann reported that signing requests broke caching due
         to the current time being incorporated into every signed URL 

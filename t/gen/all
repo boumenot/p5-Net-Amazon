@@ -1,0 +1,25 @@
+#!/usr/bin/perl
+############################################################
+# actor actor_name
+# Christopher Boumenot <boumenot@gmail.com>, 2006
+############################################################
+
+use strict;
+use warnings;
+
+use Net::Amazon;
+use Net::Amazon::Request::All;
+
+my $ua = Net::Amazon->new(
+    token       => $ENV{AMAZON_TOKEN},
+    secret_key  => $ENV{AMAZON_SECRET_KEY},
+    max_pages   => 1,
+    response_dump => 1,
+);
+
+my $req = Net::Amazon::Request::All->new(
+    all => 'perl',
+);
+
+# Response is of type Net::Amazon::Actor::Response
+my $resp = $ua->request($req);
