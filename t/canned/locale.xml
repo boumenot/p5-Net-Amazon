@@ -1,9 +1,9 @@
 <?xml version="1.0"?>
-<ItemLookupResponse xmlns="http://webservices.amazon.com/AWSECommerceService/2009-03-31">
+<ItemLookupResponse xmlns="http://webservices.amazon.com/AWSECommerceService/2009-07-01">
   <Items>
     <Item>
       <ASIN>3827313783</ASIN>
-      <SalesRank>426473</SalesRank>
+      <SalesRank>620271</SalesRank>
       <ItemAttributes>
         <Author>Michael Schilli</Author>
         <Binding>Gebundene Ausgabe</Binding>
@@ -42,7 +42,7 @@
           <FormattedPrice>EUR 4,45</FormattedPrice>
         </LowestUsedPrice>
         <TotalNew>0</TotalNew>
-        <TotalUsed>8</TotalUsed>
+        <TotalUsed>9</TotalUsed>
         <TotalCollectible>0</TotalCollectible>
         <TotalRefurbished>0</TotalRefurbished>
       </OfferSummary>

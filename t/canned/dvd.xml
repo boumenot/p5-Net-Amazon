@@ -1,9 +1,9 @@
 <?xml version="1.0"?>
-<ItemLookupResponse xmlns="http://webservices.amazon.com/AWSECommerceService/2009-03-31">
+<ItemLookupResponse xmlns="http://webservices.amazon.com/AWSECommerceService/2009-07-01">
   <Items>
     <Item>
       <ASIN>6305181772</ASIN>
-      <SalesRank>47411</SalesRank>
+      <SalesRank>42002</SalesRank>
       <ItemAttributes>
         <Actor>Tom Cruise</Actor>
         <Actor>Jon Voight</Actor>
@@ -27,7 +27,7 @@
         <Format>AC-3</Format>
         <Format>Closed-captioned</Format>
         <Format>Color</Format>
-        <Format>DVD-Video</Format>
+        <Format>DVD</Format>
         <Format>Full Screen</Format>
         <Format>Letterboxed</Format>
         <Format>Widescreen</Format>
@@ -73,22 +73,22 @@
       </ItemAttributes>
       <OfferSummary>
         <LowestNewPrice>
-          <Amount>380</Amount>
+          <Amount>246</Amount>
           <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$3.80</FormattedPrice>
+          <FormattedPrice>$2.46</FormattedPrice>
         </LowestNewPrice>
         <LowestUsedPrice>
-          <Amount>99</Amount>
+          <Amount>28</Amount>
           <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$0.99</FormattedPrice>
+          <FormattedPrice>$0.28</FormattedPrice>
         </LowestUsedPrice>
         <LowestCollectiblePrice>
           <Amount>1498</Amount>
           <CurrencyCode>USD</CurrencyCode>
           <FormattedPrice>$14.98</FormattedPrice>
         </LowestCollectiblePrice>
-        <TotalNew>30</TotalNew>
-        <TotalUsed>128</TotalUsed>
+        <TotalNew>35</TotalNew>
+        <TotalUsed>147</TotalUsed>
         <TotalCollectible>2</TotalCollectible>
         <TotalRefurbished>0</TotalRefurbished>
       </OfferSummary>
@@ -107,7 +107,7 @@
             <SubCondition>new</SubCondition>
           </OfferAttributes>
           <OfferListing>
-            <OfferListingId>nZzdk3rIpoXaJYCaEaTFLzHRMNKBk2zI6AnZQpK7u1mQQNVNl7pAV%2F1dfqJOwmWe2kjKqMWB8gHfS02gCyXgqQ%3D%3D</OfferListingId>
+            <OfferListingId>Gp7Rawg81Oc8zAnU5Br%2F0Mbc8APXhGyshGaqbea1vrCzGEuYxHbTphE%2BlDhWf33z8i2cE%2BU8tps%2FfBi1LD6ZNQ%3D%3D</OfferListingId>
             <Price>
               <Amount>1349</Amount>
               <CurrencyCode>USD</CurrencyCode>
@@ -119,11 +119,11 @@
               <FormattedPrice>$1.49</FormattedPrice>
             </AmountSaved>
             <PercentageSaved>10</PercentageSaved>
-            <Availability>Usually ships in 3 to 5 days</Availability>
+            <Availability>Usually ships in 2 to 3 days</Availability>
             <AvailabilityAttributes>
               <AvailabilityType>now</AvailabilityType>
-              <MinimumHours>72</MinimumHours>
-              <MaximumHours>120</MaximumHours>
+              <MinimumHours>48</MinimumHours>
+              <MaximumHours>72</MaximumHours>
             </AvailabilityAttributes>
             <Quantity>-1</Quantity>
             <IsEligibleForSuperSaverShipping>1</IsEligibleForSuperSaverShipping>

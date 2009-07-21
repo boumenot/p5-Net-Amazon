@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<SellerListingSearchResponse xmlns="http://webservices.amazon.com/AWSECommerceService/2009-03-31">
+<SellerListingSearchResponse xmlns="http://webservices.amazon.com/AWSECommerceService/2009-07-01">
   <SellerListings>
-    <TotalResults>1750</TotalResults>
-    <TotalPages>175</TotalPages>
+    <TotalResults>1735</TotalResults>
+    <TotalPages>174</TotalPages>
     <SellerListing>
       <ExchangeId>Y11M5526205M1732079</ExchangeId>
       <ListingId>1221T896306</ListingId>
@@ -10,7 +10,7 @@
       <SKU>19</SKU>
       <WillShipExpedited>0</WillShipExpedited>
       <WillShipInternational>0</WillShipInternational>
-      <Title>National Parks of the West</Title>
+      <Title>National Parks of the West by Sunset Books; Sunset Magazine &amp; Book</Title>
       <Price>
         <Amount>405</Amount>
         <CurrencyCode>USD</CurrencyCode>
@@ -33,7 +33,7 @@
       <SKU>40</SKU>
       <WillShipExpedited>0</WillShipExpedited>
       <WillShipInternational>0</WillShipInternational>
-      <Title>The Moonstone (The Best Mysteries of All Time)</Title>
+      <Title>The Moonstone (The Best Mysteries of All Time) by Collins, Wilkie</Title>
       <Price>
         <Amount>630</Amount>
         <CurrencyCode>USD</CurrencyCode>
@@ -56,7 +56,7 @@
       <SKU>41</SKU>
       <WillShipExpedited>0</WillShipExpedited>
       <WillShipInternational>0</WillShipInternational>
-      <Title>The Terrible Hours</Title>
+      <Title>The Terrible Hours [Mass Market Paperback] by Maas, Peter</Title>
       <Price>
         <Amount>293</Amount>
         <CurrencyCode>USD</CurrencyCode>
@@ -79,7 +79,7 @@
       <SKU>53</SKU>
       <WillShipExpedited>0</WillShipExpedited>
       <WillShipInternational>0</WillShipInternational>
-      <Title>The Portable Henry James (Viking Portable Library)</Title>
+      <Title>The Portable Henry James (Viking Portable Library) by James, Henry</Title>
       <Price>
         <Amount>585</Amount>
         <CurrencyCode>USD</CurrencyCode>
@@ -102,7 +102,7 @@
       <SKU>66</SKU>
       <WillShipExpedited>0</WillShipExpedited>
       <WillShipInternational>0</WillShipInternational>
-      <Title>Hearts in Atlantis</Title>
+      <Title>Hearts in Atlantis by King, Stephen</Title>
       <Price>
         <Amount>158</Amount>
         <CurrencyCode>USD</CurrencyCode>
@@ -125,7 +125,7 @@
       <SKU>72</SKU>
       <WillShipExpedited>0</WillShipExpedited>
       <WillShipInternational>0</WillShipInternational>
-      <Title>Midnight in the Garden of Good and Evil</Title>
+      <Title>Midnight in the Garden of Good and Evil [Hardcover] by Berendt, John</Title>
       <Price>
         <Amount>473</Amount>
         <CurrencyCode>USD</CurrencyCode>
@@ -148,7 +148,7 @@
       <SKU>79</SKU>
       <WillShipExpedited>0</WillShipExpedited>
       <WillShipInternational>0</WillShipInternational>
-      <Title>When No One Was Looking...Someone Died</Title>
+      <Title>When No One Was Looking...Someone Died by Wells, Rosemary</Title>
       <Price>
         <Amount>199</Amount>
         <CurrencyCode>USD</CurrencyCode>
@@ -171,7 +171,7 @@
       <SKU>85</SKU>
       <WillShipExpedited>0</WillShipExpedited>
       <WillShipInternational>0</WillShipInternational>
-      <Title>Romance Writer's Pink Pages: The Insider's Guide to Getting Your Romance Novel Published</Title>
+      <Title>Romance Writer's Pink Pages: The Insider's Guide to Getting Your Romance Nove...</Title>
       <Price>
         <Amount>215</Amount>
         <CurrencyCode>USD</CurrencyCode>
@@ -194,7 +194,7 @@
       <SKU>100</SKU>
       <WillShipExpedited>0</WillShipExpedited>
       <WillShipInternational>0</WillShipInternational>
-      <Title>Meyer Meyer</Title>
+      <Title>Meyer Meyer by Hudson, Helen</Title>
       <Price>
         <Amount>1350</Amount>
         <CurrencyCode>USD</CurrencyCode>
@@ -217,7 +217,7 @@
       <SKU>98</SKU>
       <WillShipExpedited>0</WillShipExpedited>
       <WillShipInternational>0</WillShipInternational>
-      <Title>Canterbury Tales</Title>
+      <Title>Canterbury Tales by Chaucer, Geoffrey</Title>
       <Price>
         <Amount>261</Amount>
         <CurrencyCode>USD</CurrencyCode>

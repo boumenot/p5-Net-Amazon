@@ -1,11 +1,11 @@
 <?xml version="1.0"?>
-<ItemSearchResponse xmlns="http://webservices.amazon.com/AWSECommerceService/2009-03-31">
+<ItemSearchResponse xmlns="http://webservices.amazon.com/AWSECommerceService/2009-07-01">
   <Items>
-    <TotalResults>20</TotalResults>
+    <TotalResults>19</TotalResults>
     <TotalPages>2</TotalPages>
     <Item>
       <ASIN>0596521871</ASIN>
-      <SalesRank>204967</SalesRank>
+      <SalesRank>30403</SalesRank>
       <ItemAttributes>
         <Author>Shelley Powers</Author>
         <Binding>Paperback</Binding>
@@ -45,17 +45,17 @@
       </ItemAttributes>
       <OfferSummary>
         <LowestNewPrice>
-          <Amount>1500</Amount>
+          <Amount>1871</Amount>
           <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$15.00</FormattedPrice>
+          <FormattedPrice>$18.71</FormattedPrice>
         </LowestNewPrice>
         <LowestUsedPrice>
-          <Amount>1395</Amount>
+          <Amount>1771</Amount>
           <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$13.95</FormattedPrice>
+          <FormattedPrice>$17.71</FormattedPrice>
         </LowestUsedPrice>
-        <TotalNew>34</TotalNew>
-        <TotalUsed>10</TotalUsed>
+        <TotalNew>31</TotalNew>
+        <TotalUsed>11</TotalUsed>
         <TotalCollectible>0</TotalCollectible>
         <TotalRefurbished>0</TotalRefurbished>
       </OfferSummary>
@@ -74,7 +74,7 @@
             <SubCondition>new</SubCondition>
           </OfferAttributes>
           <OfferListing>
-            <OfferListingId>KU%2ByaS45NMuP6Pa%2FCrlp9wi%2FJB9maBpxlVpLh0erXgTdisYny4tijr8kCiSUl0TPcjUIKxG%2Bt3YEb3RGS5GM7g%3D%3D</OfferListingId>
+            <OfferListingId>SkZByRO%2Fe6fMVTvE%2FKmeGrXHhDbTlBxmsUQbhGF2Ik%2FzZID2wvmz8d7K7MzIiqrWZtSpmdHmROnanv9ESw6uvw%3D%3D</OfferListingId>
             <Price>
               <Amount>2309</Amount>
               <CurrencyCode>USD</CurrencyCode>
@@ -100,7 +100,7 @@
     </Item>
     <Item>
       <ASIN>0470048182</ASIN>
-      <SalesRank>308569</SalesRank>
+      <SalesRank>438272</SalesRank>
       <ItemAttributes>
         <Author>Thomas Schmitt</Author>
         <Author>Arnold Perl</Author>
@@ -115,6 +115,10 @@
           <Language>
             <Name>English</Name>
             <Type>Original Language</Type>
+          </Language>
+          <Language>
+            <Name>English</Name>
+            <Type>Unknown</Type>
           </Language>
           <Language>
             <Name>English</Name>
@@ -138,23 +142,18 @@
       </ItemAttributes>
       <OfferSummary>
         <LowestNewPrice>
-          <Amount>725</Amount>
+          <Amount>849</Amount>
           <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$7.25</FormattedPrice>
+          <FormattedPrice>$8.49</FormattedPrice>
         </LowestNewPrice>
         <LowestUsedPrice>
-          <Amount>85</Amount>
+          <Amount>20</Amount>
           <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$0.85</FormattedPrice>
+          <FormattedPrice>$0.20</FormattedPrice>
         </LowestUsedPrice>
-        <LowestCollectiblePrice>
-          <Amount>1150</Amount>
-          <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$11.50</FormattedPrice>
-        </LowestCollectiblePrice>
-        <TotalNew>39</TotalNew>
-        <TotalUsed>34</TotalUsed>
-        <TotalCollectible>1</TotalCollectible>
+        <TotalNew>40</TotalNew>
+        <TotalUsed>36</TotalUsed>
+        <TotalCollectible>0</TotalCollectible>
         <TotalRefurbished>0</TotalRefurbished>
       </OfferSummary>
       <Offers>
@@ -172,18 +171,18 @@
             <SubCondition>new</SubCondition>
           </OfferAttributes>
           <OfferListing>
-            <OfferListingId>Y0PiNuAvVV%2BDjeGRxQ1ESRKt0iQfa1HxGu7Wkj0aQgJ4gK7BHf%2Br7PTMVNAY4fWfoM7v9zJHaIFUzDwLUeHqaA%3D%3D</OfferListingId>
+            <OfferListingId>kXqhrvAVee2gq92nCiMVUn6cp1m7YRdaTcYEs%2FDp51Xn3Ux2PTH%2FhPOJsA11iMmJ7e%2BfNGe%2F%2BeqizKyYf%2BKyfQ%3D%3D</OfferListingId>
             <Price>
-              <Amount>1561</Amount>
+              <Amount>1721</Amount>
               <CurrencyCode>USD</CurrencyCode>
-              <FormattedPrice>$15.61</FormattedPrice>
+              <FormattedPrice>$17.21</FormattedPrice>
             </Price>
             <AmountSaved>
-              <Amount>734</Amount>
+              <Amount>574</Amount>
               <CurrencyCode>USD</CurrencyCode>
-              <FormattedPrice>$7.34</FormattedPrice>
+              <FormattedPrice>$5.74</FormattedPrice>
             </AmountSaved>
-            <PercentageSaved>32</PercentageSaved>
+            <PercentageSaved>25</PercentageSaved>
             <Availability>Usually ships in 24 hours</Availability>
             <AvailabilityAttributes>
               <AvailabilityType>now</AvailabilityType>
@@ -201,7 +200,7 @@
     </Item>
     <Item>
       <ASIN>1861004494</ASIN>
-      <SalesRank>958793</SalesRank>
+      <SalesRank>905093</SalesRank>
       <ItemAttributes>
         <Author>Peter Wainwright</Author>
         <Author>Aldo Calpini</Author>
@@ -252,17 +251,17 @@
       </ItemAttributes>
       <OfferSummary>
         <LowestNewPrice>
-          <Amount>8500</Amount>
+          <Amount>8351</Amount>
           <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$85.00</FormattedPrice>
+          <FormattedPrice>$83.51</FormattedPrice>
         </LowestNewPrice>
         <LowestUsedPrice>
-          <Amount>1859</Amount>
+          <Amount>1773</Amount>
           <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$18.59</FormattedPrice>
+          <FormattedPrice>$17.73</FormattedPrice>
         </LowestUsedPrice>
         <TotalNew>5</TotalNew>
-        <TotalUsed>13</TotalUsed>
+        <TotalUsed>11</TotalUsed>
         <TotalCollectible>0</TotalCollectible>
         <TotalRefurbished>0</TotalRefurbished>
       </OfferSummary>
@@ -272,8 +271,87 @@
       </Offers>
     </Item>
     <Item>
+      <ASIN>1438247990</ASIN>
+      <SalesRank>1728711</SalesRank>
+      <ItemAttributes>
+        <Author>David Aniston</Author>
+        <Binding>Paperback</Binding>
+        <EAN>9781438247991</EAN>
+        <ISBN>1438247990</ISBN>
+        <Label>CreateSpace</Label>
+        <Languages>
+          <Language>
+            <Name>English</Name>
+            <Type>Published</Type>
+          </Language>
+        </Languages>
+        <ListPrice>
+          <Amount>795</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$7.95</FormattedPrice>
+        </ListPrice>
+        <Manufacturer>CreateSpace</Manufacturer>
+        <NumberOfPages>108</NumberOfPages>
+        <ProductGroup>Book</ProductGroup>
+        <ProductTypeName>ABIS_BOOK</ProductTypeName>
+        <PublicationDate>2008-07-09</PublicationDate>
+        <Publisher>CreateSpace</Publisher>
+        <ReleaseDate>2008-07-09</ReleaseDate>
+        <Studio>CreateSpace</Studio>
+        <Title>The Newbies Guide To PHP Programming: Save Time And Money By Learning How To Master The Power Of Php Programming</Title>
+      </ItemAttributes>
+      <OfferSummary>
+        <LowestNewPrice>
+          <Amount>795</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$7.95</FormattedPrice>
+        </LowestNewPrice>
+        <LowestUsedPrice>
+          <Amount>2606</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$26.06</FormattedPrice>
+        </LowestUsedPrice>
+        <TotalNew>2</TotalNew>
+        <TotalUsed>2</TotalUsed>
+        <TotalCollectible>0</TotalCollectible>
+        <TotalRefurbished>0</TotalRefurbished>
+      </OfferSummary>
+      <Offers>
+        <TotalOffers>1</TotalOffers>
+        <TotalOfferPages>1</TotalOfferPages>
+        <Offer>
+          <Merchant>
+            <MerchantId>ATVPDKIKX0DER</MerchantId>
+            <GlancePage>http://www.amazon.com/gp/help/seller/home.html?seller=ATVPDKIKX0DER</GlancePage>
+            <AverageFeedbackRating>0.0</AverageFeedbackRating>
+            <TotalFeedback>0</TotalFeedback>
+          </Merchant>
+          <OfferAttributes>
+            <Condition>New</Condition>
+            <SubCondition>new</SubCondition>
+          </OfferAttributes>
+          <OfferListing>
+            <OfferListingId>eueIvr0K0JMPSq74wb3mfAApT%2F7ad6ccYVbUXJoJ5DJecTYTgA%2BBuAZba65eSpbMYsIxt2tJA%2BHuwsVTXF7WNA%3D%3D</OfferListingId>
+            <Price>
+              <Amount>795</Amount>
+              <CurrencyCode>USD</CurrencyCode>
+              <FormattedPrice>$7.95</FormattedPrice>
+            </Price>
+            <Availability>Usually ships in 24 hours</Availability>
+            <AvailabilityAttributes>
+              <AvailabilityType>now</AvailabilityType>
+              <MinimumHours>0</MinimumHours>
+              <MaximumHours>0</MaximumHours>
+            </AvailabilityAttributes>
+            <Quantity>-1</Quantity>
+            <IsEligibleForSuperSaverShipping>1</IsEligibleForSuperSaverShipping>
+          </OfferListing>
+        </Offer>
+      </Offers>
+    </Item>
+    <Item>
       <ASIN>0201360683</ASIN>
-      <SalesRank>1280843</SalesRank>
+      <SalesRank>1803937</SalesRank>
       <ItemAttributes>
         <Author>Michael Schilli</Author>
         <Binding>Paperback</Binding>
@@ -317,160 +395,18 @@
           <FormattedPrice>$16.27</FormattedPrice>
         </LowestNewPrice>
         <LowestUsedPrice>
-          <Amount>863</Amount>
+          <Amount>728</Amount>
           <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$8.63</FormattedPrice>
+          <FormattedPrice>$7.28</FormattedPrice>
         </LowestUsedPrice>
         <TotalNew>7</TotalNew>
-        <TotalUsed>12</TotalUsed>
+        <TotalUsed>13</TotalUsed>
         <TotalCollectible>0</TotalCollectible>
         <TotalRefurbished>0</TotalRefurbished>
       </OfferSummary>
       <Offers>
         <TotalOffers>0</TotalOffers>
         <TotalOfferPages>0</TotalOfferPages>
-      </Offers>
-    </Item>
-    <Item>
-      <ASIN>0789706598</ASIN>
-      <SalesRank>1902291</SalesRank>
-      <ItemAttributes>
-        <Author>David Harlan</Author>
-        <Author>Paul Doyle</Author>
-        <Author>Matthew D. Healy</Author>
-        <Author>Micheal O Foghlu</Author>
-        <Author>Shelley Powers</Author>
-        <Binding>Paperback</Binding>
-        <EAN>9780789706591</EAN>
-        <ISBN>0789706598</ISBN>
-        <Label>Que Pub</Label>
-        <Languages>
-          <Language>
-            <Name>English</Name>
-            <Type>Original Language</Type>
-          </Language>
-          <Language>
-            <Name>English</Name>
-            <Type>Unknown</Type>
-          </Language>
-          <Language>
-            <Name>English</Name>
-            <Type>Published</Type>
-          </Language>
-        </Languages>
-        <ListPrice>
-          <Amount>4999</Amount>
-          <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$49.99</FormattedPrice>
-        </ListPrice>
-        <Manufacturer>Que Pub</Manufacturer>
-        <NumberOfItems>1</NumberOfItems>
-        <NumberOfPages>600</NumberOfPages>
-        <ProductGroup>Book</ProductGroup>
-        <ProductTypeName>ABIS_BOOK</ProductTypeName>
-        <PublicationDate>1996-09-01</PublicationDate>
-        <Publisher>Que Pub</Publisher>
-        <Studio>Que Pub</Studio>
-        <Title>Special Edition Using Perl 5 for Web Programming</Title>
-      </ItemAttributes>
-      <OfferSummary>
-        <LowestNewPrice>
-          <Amount>200</Amount>
-          <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$2.00</FormattedPrice>
-        </LowestNewPrice>
-        <LowestUsedPrice>
-          <Amount>1</Amount>
-          <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$0.01</FormattedPrice>
-        </LowestUsedPrice>
-        <TotalNew>8</TotalNew>
-        <TotalUsed>17</TotalUsed>
-        <TotalCollectible>0</TotalCollectible>
-        <TotalRefurbished>0</TotalRefurbished>
-      </OfferSummary>
-      <Offers>
-        <TotalOffers>0</TotalOffers>
-        <TotalOfferPages>0</TotalOfferPages>
-      </Offers>
-    </Item>
-    <Item>
-      <ASIN>1438247990</ASIN>
-      <SalesRank>1996200</SalesRank>
-      <ItemAttributes>
-        <Author>David Aniston</Author>
-        <Binding>Paperback</Binding>
-        <EAN>9781438247991</EAN>
-        <ISBN>1438247990</ISBN>
-        <Label>CreateSpace</Label>
-        <Languages>
-          <Language>
-            <Name>English</Name>
-            <Type>Published</Type>
-          </Language>
-        </Languages>
-        <ListPrice>
-          <Amount>795</Amount>
-          <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$7.95</FormattedPrice>
-        </ListPrice>
-        <Manufacturer>CreateSpace</Manufacturer>
-        <NumberOfPages>108</NumberOfPages>
-        <ProductGroup>Book</ProductGroup>
-        <ProductTypeName>ABIS_BOOK</ProductTypeName>
-        <PublicationDate>2008-07-09</PublicationDate>
-        <Publisher>CreateSpace</Publisher>
-        <ReleaseDate>2008-07-09</ReleaseDate>
-        <Studio>CreateSpace</Studio>
-        <Title>The Newbies Guide To PHP Programming: Save Time And Money By Learning How To Master The Power of PHP Programming</Title>
-      </ItemAttributes>
-      <OfferSummary>
-        <LowestNewPrice>
-          <Amount>794</Amount>
-          <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$7.94</FormattedPrice>
-        </LowestNewPrice>
-        <LowestUsedPrice>
-          <Amount>2606</Amount>
-          <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$26.06</FormattedPrice>
-        </LowestUsedPrice>
-        <TotalNew>4</TotalNew>
-        <TotalUsed>2</TotalUsed>
-        <TotalCollectible>0</TotalCollectible>
-        <TotalRefurbished>0</TotalRefurbished>
-      </OfferSummary>
-      <Offers>
-        <TotalOffers>1</TotalOffers>
-        <TotalOfferPages>1</TotalOfferPages>
-        <Offer>
-          <Merchant>
-            <MerchantId>ATVPDKIKX0DER</MerchantId>
-            <GlancePage>http://www.amazon.com/gp/help/seller/home.html?seller=ATVPDKIKX0DER</GlancePage>
-            <AverageFeedbackRating>0.0</AverageFeedbackRating>
-            <TotalFeedback>0</TotalFeedback>
-          </Merchant>
-          <OfferAttributes>
-            <Condition>New</Condition>
-            <SubCondition>new</SubCondition>
-          </OfferAttributes>
-          <OfferListing>
-            <OfferListingId>8wK%2BMwocvBEWG1mFV3ViIHX6lBNyYxBZI5RxZxldrThxBnov9wqByYUEOT5nbCbcPZFCOaUToWylPM33DzIeEQ%3D%3D</OfferListingId>
-            <Price>
-              <Amount>795</Amount>
-              <CurrencyCode>USD</CurrencyCode>
-              <FormattedPrice>$7.95</FormattedPrice>
-            </Price>
-            <Availability>Usually ships in 24 hours</Availability>
-            <AvailabilityAttributes>
-              <AvailabilityType>now</AvailabilityType>
-              <MinimumHours>24</MinimumHours>
-              <MaximumHours>24</MaximumHours>
-            </AvailabilityAttributes>
-            <Quantity>-1</Quantity>
-            <IsEligibleForSuperSaverShipping>1</IsEligibleForSuperSaverShipping>
-          </OfferListing>
-        </Offer>
       </Offers>
     </Item>
     <Item>
@@ -505,18 +441,18 @@
     </Item>
     <Item>
       <ASIN>B000IXLNZK</ASIN>
-      <SalesRank>6109732</SalesRank>
+      <SalesRank>6283647</SalesRank>
       <ItemAttributes>
-        <Author>David; Powers, Shelley; Doyle, Paul; O'Foghlu, Michael Harlan</Author>
+        <Author>David; Foghlu, Micheal O.; Doyle, Paul; Powers, Shelley; Healy, Matthew D. Harlan</Author>
         <Binding>Paperback</Binding>
-        <Label>Que/Macmillan</Label>
-        <Manufacturer>Que/Macmillan</Manufacturer>
+        <Label>Que Corp.</Label>
+        <Manufacturer>Que Corp.</Manufacturer>
         <ProductGroup>Book</ProductGroup>
         <ProductTypeName>BOOKS_1973_AND_LATER</ProductTypeName>
-        <PublicationDate>1996-01-01</PublicationDate>
-        <Publisher>Que/Macmillan</Publisher>
-        <Studio>Que/Macmillan</Studio>
-        <Title>Special Edition Using Perl 5 for Web Programming</Title>
+        <PublicationDate>1996</PublicationDate>
+        <Publisher>Que Corp.</Publisher>
+        <Studio>Que Corp.</Studio>
+        <Title>Using Perl For Web Programming, Special Edition</Title>
       </ItemAttributes>
       <OfferSummary>
         <TotalNew>0</TotalNew>
@@ -531,7 +467,7 @@
     </Item>
     <Item>
       <ASIN>0596527454</ASIN>
-      <SalesRank>8025582</SalesRank>
+      <SalesRank>8173050</SalesRank>
       <ItemAttributes>
         <Author>Amy Hoy</Author>
         <Author>Chris Cornutt</Author>
@@ -582,18 +518,58 @@
       </Offers>
     </Item>
     <Item>
-      <ASIN>B002BWF2FS</ASIN>
+      <ASIN>B001K2LURY</ASIN>
       <ItemAttributes>
-        <Author>Thomas Schmitt; Arnold Perl; Foreword-Frederick W. Smith</Author>
-        <Binding>Hardcover</Binding>
-        <Label>Wiley</Label>
-        <Manufacturer>Wiley</Manufacturer>
+        <Author>John P. Flynt</Author>
+        <Binding>Paperback</Binding>
+        <Label>Thomson Publications, Calif.</Label>
+        <Manufacturer>Thomson Publications, Calif.</Manufacturer>
         <ProductGroup>Book</ProductGroup>
         <ProductTypeName>BOOKS_1973_AND_LATER</ProductTypeName>
-        <PublicationDate>2006-01-01</PublicationDate>
-        <Publisher>Wiley</Publisher>
-        <Studio>Wiley</Studio>
-        <Title>SIGNED) - Simple Solutions: Harness the Power of Passion and Simplicity to Get R</Title>
+        <Publisher>Thomson Publications, Calif.</Publisher>
+        <Studio>Thomson Publications, Calif.</Studio>
+        <Title>Perl power!: the comprehensive guide.</Title>
+      </ItemAttributes>
+      <OfferSummary>
+        <TotalNew>0</TotalNew>
+        <TotalUsed>0</TotalUsed>
+        <TotalCollectible>0</TotalCollectible>
+        <TotalRefurbished>0</TotalRefurbished>
+      </OfferSummary>
+      <Offers>
+        <TotalOffers>0</TotalOffers>
+        <TotalOfferPages>0</TotalOfferPages>
+      </Offers>
+    </Item>
+    <Item>
+      <ASIN>0071666591</ASIN>
+      <ItemAttributes>
+        <Author>Robin Nixon</Author>
+        <Binding>Paperback</Binding>
+        <EAN>9780071666596</EAN>
+        <Edition>1</Edition>
+        <ISBN>0071666591</ISBN>
+        <Label>McGraw-Hill Osborne Media</Label>
+        <Languages>
+          <Language>
+            <Name>English</Name>
+            <Type>Published</Type>
+          </Language>
+        </Languages>
+        <ListPrice>
+          <Amount>3999</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$39.99</FormattedPrice>
+        </ListPrice>
+        <Manufacturer>McGraw-Hill Osborne Media</Manufacturer>
+        <NumberOfItems>1</NumberOfItems>
+        <NumberOfPages>400</NumberOfPages>
+        <ProductGroup>Book</ProductGroup>
+        <ProductTypeName>ABIS_BOOK</ProductTypeName>
+        <PublicationDate>2010-04-17</PublicationDate>
+        <Publisher>McGraw-Hill Osborne Media</Publisher>
+        <Studio>McGraw-Hill Osborne Media</Studio>
+        <Title>Plug-In PHP: 100 Power Solutions: Simple Solutions to Practical PHP Problems</Title>
       </ItemAttributes>
       <OfferSummary>
         <TotalNew>0</TotalNew>

@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ListLookupResponse xmlns="http://webservices.amazon.com/AWSECommerceService/2009-03-31">
+<ListLookupResponse xmlns="http://webservices.amazon.com/AWSECommerceService/2009-07-01">
   <Lists>
     <List>
       <ListId>1XL5DWOUFMFVJ</ListId>
       <ListItem>
         <Item>
           <ASIN>0201633612</ASIN>
-          <SalesRank>4011</SalesRank>
+          <SalesRank>3141</SalesRank>
           <ItemAttributes>
             <Author>Erich Gamma</Author>
             <Author>Richard Helm</Author>
@@ -36,17 +36,17 @@
           </ItemAttributes>
           <OfferSummary>
             <LowestNewPrice>
-              <Amount>2900</Amount>
+              <Amount>3800</Amount>
               <CurrencyCode>USD</CurrencyCode>
-              <FormattedPrice>$29.00</FormattedPrice>
+              <FormattedPrice>$38.00</FormattedPrice>
             </LowestNewPrice>
             <LowestUsedPrice>
-              <Amount>2443</Amount>
+              <Amount>2499</Amount>
               <CurrencyCode>USD</CurrencyCode>
-              <FormattedPrice>$24.43</FormattedPrice>
+              <FormattedPrice>$24.99</FormattedPrice>
             </LowestUsedPrice>
-            <TotalNew>58</TotalNew>
-            <TotalUsed>64</TotalUsed>
+            <TotalNew>47</TotalNew>
+            <TotalUsed>60</TotalUsed>
             <TotalCollectible>0</TotalCollectible>
             <TotalRefurbished>0</TotalRefurbished>
           </OfferSummary>
@@ -65,18 +65,18 @@
                 <SubCondition>new</SubCondition>
               </OfferAttributes>
               <OfferListing>
-                <OfferListingId>CCqbAh7N7NMnVayYC47qVhdYrqb%2BipOss1gaheFY1CNfwX%2FPvWBf%2B6IzVQ4GgMPW%2BF9qB%2FWrCVUq6v0aiDVafg%3D%3D</OfferListingId>
+                <OfferListingId>675MOAXXYj9CJmdtLFzjXAoHx%2BCQW%2FPLdypRkTEMGExdlLIF1ydSHANPijAnIER2kWc77%2F5ALjbf3VDfTbdOgA%3D%3D</OfferListingId>
                 <Price>
-                  <Amount>3896</Amount>
+                  <Amount>4841</Amount>
                   <CurrencyCode>USD</CurrencyCode>
-                  <FormattedPrice>$38.96</FormattedPrice>
+                  <FormattedPrice>$48.41</FormattedPrice>
                 </Price>
                 <AmountSaved>
-                  <Amount>2103</Amount>
+                  <Amount>1158</Amount>
                   <CurrencyCode>USD</CurrencyCode>
-                  <FormattedPrice>$21.03</FormattedPrice>
+                  <FormattedPrice>$11.58</FormattedPrice>
                 </AmountSaved>
-                <PercentageSaved>35</PercentageSaved>
+                <PercentageSaved>19</PercentageSaved>
                 <Availability>Usually ships in 24 hours</Availability>
                 <AvailabilityAttributes>
                   <AvailabilityType>now</AvailabilityType>
@@ -107,7 +107,7 @@
       <ListItem>
         <Item>
           <ASIN>1882114981</ASIN>
-          <SalesRank>251437</SalesRank>
+          <SalesRank>534352</SalesRank>
           <ItemAttributes>
             <Author>Richard M. Stallman</Author>
             <Author>Lawrence Lessig</Author>
@@ -116,6 +116,7 @@
             <Creator Role="Introduction">Laurence Lessig</Creator>
             <DeweyDecimalNumber>346</DeweyDecimalNumber>
             <EAN>9781882114986</EAN>
+            <Edition>First Printing, First Edition</Edition>
             <ISBN>1882114981</ISBN>
             <Label>Free Software Foundation</Label>
             <ListPrice>
@@ -135,22 +136,22 @@
           </ItemAttributes>
           <OfferSummary>
             <LowestNewPrice>
-              <Amount>1795</Amount>
+              <Amount>1420</Amount>
               <CurrencyCode>USD</CurrencyCode>
-              <FormattedPrice>$17.95</FormattedPrice>
+              <FormattedPrice>$14.20</FormattedPrice>
             </LowestNewPrice>
             <LowestUsedPrice>
-              <Amount>1000</Amount>
+              <Amount>1329</Amount>
               <CurrencyCode>USD</CurrencyCode>
-              <FormattedPrice>$10.00</FormattedPrice>
+              <FormattedPrice>$13.29</FormattedPrice>
             </LowestUsedPrice>
             <LowestCollectiblePrice>
               <Amount>12100</Amount>
               <CurrencyCode>USD</CurrencyCode>
               <FormattedPrice>$121.00</FormattedPrice>
             </LowestCollectiblePrice>
-            <TotalNew>9</TotalNew>
-            <TotalUsed>10</TotalUsed>
+            <TotalNew>16</TotalNew>
+            <TotalUsed>13</TotalUsed>
             <TotalCollectible>1</TotalCollectible>
             <TotalRefurbished>0</TotalRefurbished>
           </OfferSummary>
@@ -169,12 +170,18 @@
                 <SubCondition>new</SubCondition>
               </OfferAttributes>
               <OfferListing>
-                <OfferListingId>jYfxj%2F9xO8c%2FOkFqqPuBGPnyq5Ikrkw6KZnRd4M%2FJsKO9ir7HIq0jRtSc%2B9B0TFJMQ8HndHRPT%2B8iAYo239srQ%3D%3D</OfferListingId>
+                <OfferListingId>dQo0e%2Fl8AZOxx6U7mNBy6z2HDtfZDFZcUSJyDrZMwCvXURaT2oHwxtfFcZna3u%2Bs67UGgShQtwvzpKQ5twaftA%3D%3D</OfferListingId>
                 <Price>
-                  <Amount>2495</Amount>
+                  <Amount>2445</Amount>
                   <CurrencyCode>USD</CurrencyCode>
-                  <FormattedPrice>$24.95</FormattedPrice>
+                  <FormattedPrice>$24.45</FormattedPrice>
                 </Price>
+                <AmountSaved>
+                  <Amount>50</Amount>
+                  <CurrencyCode>USD</CurrencyCode>
+                  <FormattedPrice>$0.50</FormattedPrice>
+                </AmountSaved>
+                <PercentageSaved>2</PercentageSaved>
                 <Availability>Usually ships in 24 hours</Availability>
                 <AvailabilityAttributes>
                   <AvailabilityType>now</AvailabilityType>

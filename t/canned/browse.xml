@@ -1,11 +1,11 @@
 <?xml version="1.0"?>
-<ItemSearchResponse xmlns="http://webservices.amazon.com/AWSECommerceService/2009-03-31">
+<ItemSearchResponse xmlns="http://webservices.amazon.com/AWSECommerceService/2009-07-01">
   <Items>
     <TotalResults>6</TotalResults>
     <TotalPages>1</TotalPages>
     <Item>
       <ASIN>0619034408</ASIN>
-      <SalesRank>315476</SalesRank>
+      <SalesRank>376340</SalesRank>
       <ItemAttributes>
         <Author>Diane Zak</Author>
         <Binding>Paperback</Binding>
@@ -45,17 +45,17 @@
       </ItemAttributes>
       <OfferSummary>
         <LowestNewPrice>
-          <Amount>4795</Amount>
+          <Amount>4790</Amount>
           <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$47.95</FormattedPrice>
+          <FormattedPrice>$47.90</FormattedPrice>
         </LowestNewPrice>
         <LowestUsedPrice>
-          <Amount>691</Amount>
+          <Amount>242</Amount>
           <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$6.91</FormattedPrice>
+          <FormattedPrice>$2.42</FormattedPrice>
         </LowestUsedPrice>
         <TotalNew>8</TotalNew>
-        <TotalUsed>21</TotalUsed>
+        <TotalUsed>23</TotalUsed>
         <TotalCollectible>0</TotalCollectible>
         <TotalRefurbished>0</TotalRefurbished>
       </OfferSummary>
@@ -64,136 +64,6 @@
         <TotalOfferPages>0</TotalOfferPages>
       </Offers>
       <BrowseNodes>
-        <BrowseNode>
-          <BrowseNodeId>491302</BrowseNodeId>
-          <Name>Networking</Name>
-          <Ancestors>
-            <BrowseNode>
-              <BrowseNodeId>468204</BrowseNodeId>
-              <Name>Computer Science</Name>
-              <Ancestors>
-                <BrowseNode>
-                  <BrowseNodeId>465600</BrowseNodeId>
-                  <Name>New &amp; Used Textbooks</Name>
-                  <Ancestors>
-                    <BrowseNode>
-                      <BrowseNodeId>251254011</BrowseNodeId>
-                      <Name>Custom Stores</Name>
-                      <Ancestors>
-                        <BrowseNode>
-                          <BrowseNodeId>44258011</BrowseNodeId>
-                          <Name>Specialty Stores</Name>
-                          <Ancestors>
-                            <BrowseNode>
-                              <BrowseNodeId>283155</BrowseNodeId>
-                              <Name>Books</Name>
-                            </BrowseNode>
-                          </Ancestors>
-                        </BrowseNode>
-                      </Ancestors>
-                    </BrowseNode>
-                  </Ancestors>
-                </BrowseNode>
-              </Ancestors>
-            </BrowseNode>
-          </Ancestors>
-        </BrowseNode>
-        <BrowseNode>
-          <BrowseNodeId>491314</BrowseNodeId>
-          <Name>Programming Languages</Name>
-          <Ancestors>
-            <BrowseNode>
-              <BrowseNodeId>468204</BrowseNodeId>
-              <Name>Computer Science</Name>
-              <Ancestors>
-                <BrowseNode>
-                  <BrowseNodeId>465600</BrowseNodeId>
-                  <Name>New &amp; Used Textbooks</Name>
-                  <Ancestors>
-                    <BrowseNode>
-                      <BrowseNodeId>251254011</BrowseNodeId>
-                      <Name>Custom Stores</Name>
-                      <Ancestors>
-                        <BrowseNode>
-                          <BrowseNodeId>44258011</BrowseNodeId>
-                          <Name>Specialty Stores</Name>
-                          <Ancestors>
-                            <BrowseNode>
-                              <BrowseNodeId>283155</BrowseNodeId>
-                              <Name>Books</Name>
-                            </BrowseNode>
-                          </Ancestors>
-                        </BrowseNode>
-                      </Ancestors>
-                    </BrowseNode>
-                  </Ancestors>
-                </BrowseNode>
-              </Ancestors>
-            </BrowseNode>
-          </Ancestors>
-        </BrowseNode>
-        <BrowseNode>
-          <BrowseNodeId>712985011</BrowseNodeId>
-          <Name>General AAS</Name>
-          <Ancestors>
-            <BrowseNode>
-              <BrowseNodeId>468204</BrowseNodeId>
-              <Name>Computer Science</Name>
-              <Ancestors>
-                <BrowseNode>
-                  <BrowseNodeId>465600</BrowseNodeId>
-                  <Name>New &amp; Used Textbooks</Name>
-                  <Ancestors>
-                    <BrowseNode>
-                      <BrowseNodeId>251254011</BrowseNodeId>
-                      <Name>Custom Stores</Name>
-                      <Ancestors>
-                        <BrowseNode>
-                          <BrowseNodeId>44258011</BrowseNodeId>
-                          <Name>Specialty Stores</Name>
-                          <Ancestors>
-                            <BrowseNode>
-                              <BrowseNodeId>283155</BrowseNodeId>
-                              <Name>Books</Name>
-                            </BrowseNode>
-                          </Ancestors>
-                        </BrowseNode>
-                      </Ancestors>
-                    </BrowseNode>
-                  </Ancestors>
-                </BrowseNode>
-              </Ancestors>
-            </BrowseNode>
-          </Ancestors>
-        </BrowseNode>
-        <BrowseNode>
-          <BrowseNodeId>712982011</BrowseNodeId>
-          <Name>General AAS</Name>
-          <Ancestors>
-            <BrowseNode>
-              <BrowseNodeId>465600</BrowseNodeId>
-              <Name>New &amp; Used Textbooks</Name>
-              <Ancestors>
-                <BrowseNode>
-                  <BrowseNodeId>251254011</BrowseNodeId>
-                  <Name>Custom Stores</Name>
-                  <Ancestors>
-                    <BrowseNode>
-                      <BrowseNodeId>44258011</BrowseNodeId>
-                      <Name>Specialty Stores</Name>
-                      <Ancestors>
-                        <BrowseNode>
-                          <BrowseNodeId>283155</BrowseNodeId>
-                          <Name>Books</Name>
-                        </BrowseNode>
-                      </Ancestors>
-                    </BrowseNode>
-                  </Ancestors>
-                </BrowseNode>
-              </Ancestors>
-            </BrowseNode>
-          </Ancestors>
-        </BrowseNode>
         <BrowseNode>
           <BrowseNodeId>495380</BrowseNodeId>
           <Name>General</Name>
@@ -842,7 +712,7 @@
     </Item>
     <Item>
       <ASIN>1571691014</ASIN>
-      <SalesRank>7932286</SalesRank>
+      <SalesRank>8075904</SalesRank>
       <ItemAttributes>
         <Author>Reuven Lerner</Author>
         <Binding>Hardcover</Binding>
@@ -1265,17 +1135,17 @@
             <SubCondition>new</SubCondition>
           </OfferAttributes>
           <OfferListing>
-            <OfferListingId>5Irzsn5WfCoVjBEAczuH0PuiHtIuJ7qGRne0ZlYh1lTlBm96Df4ox4%2FOixk7vvsbshY1%2BYTDeNkbkfKk%2FRufrg%3D%3D</OfferListingId>
+            <OfferListingId>ETnkTsTa9Rld%2BWIt0J9COCKg1%2FPkpCywr6IKvB4FRPMkugJuss802wreVgIVm%2BaidAiA%2BipAz0rqcFZMA3QTvQ%3D%3D</OfferListingId>
             <Price>
               <Amount>10000</Amount>
               <CurrencyCode>USD</CurrencyCode>
               <FormattedPrice>$100.00</FormattedPrice>
             </Price>
-            <Availability>Usually ships in 7 to 12 days</Availability>
+            <Availability>Usually ships in 9 to 14 days</Availability>
             <AvailabilityAttributes>
               <AvailabilityType>now</AvailabilityType>
-              <MinimumHours>168</MinimumHours>
-              <MaximumHours>288</MaximumHours>
+              <MinimumHours>216</MinimumHours>
+              <MaximumHours>336</MaximumHours>
             </AvailabilityAttributes>
             <Quantity>-1</Quantity>
             <IsEligibleForSuperSaverShipping>1</IsEligibleForSuperSaverShipping>

@@ -48,7 +48,7 @@ foreach (@properties) {
     $result .= $_->as_string();
 }
 
-like($result, qr/Persil Megaperls/, "single product line");
+like($result, qr/ Hot Pink Crystal Case/, "single product line");
 
 ####################
 # Mult product lines

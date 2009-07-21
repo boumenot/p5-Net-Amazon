@@ -1,11 +1,148 @@
 <?xml version="1.0"?>
-<ItemSearchResponse xmlns="http://webservices.amazon.com/AWSECommerceService/2009-03-31">
+<ItemSearchResponse xmlns="http://webservices.amazon.com/AWSECommerceService/2009-07-01">
   <Items>
-    <TotalResults>68</TotalResults>
+    <TotalResults>70</TotalResults>
     <TotalPages>7</TotalPages>
     <Item>
+      <ASIN>B00003CXBK</ASIN>
+      <SalesRank>543</SalesRank>
+      <ItemAttributes>
+        <Actor>Yôji Matsuda</Actor>
+        <Actor>Yuriko Ishida</Actor>
+        <Actor>Yûko Tanaka</Actor>
+        <Actor>Kaoru Kobayashi</Actor>
+        <Actor>Masahiko Nishimura</Actor>
+        <AspectRatio>1.85:1</AspectRatio>
+        <AudienceRating>PG-13 (Parental Guidance Suggested)</AudienceRating>
+        <Binding>DVD</Binding>
+        <Brand>Princess</Brand>
+        <Creator Role="Writer">Hayao Miyazaki</Creator>
+        <Creator Role="Producer">Bob Weinstein</Creator>
+        <Creator Role="Producer">Harvey Weinstein</Creator>
+        <Creator Role="Producer">Scott Martin</Creator>
+        <Creator Role="Producer">Seiichiro Ujiie</Creator>
+        <Creator Role="Producer">Seiji Okuda</Creator>
+        <Creator Role="Producer">Takahiro Yonezawa</Creator>
+        <Director>Hayao Miyazaki</Director>
+        <EAN>9780788820618</EAN>
+        <Format>Animated</Format>
+        <Format>Color</Format>
+        <Format>DVD</Format>
+        <Format>NTSC</Format>
+        <ISBN>0788820613</ISBN>
+        <IsEligibleForTradeIn>1</IsEligibleForTradeIn>
+        <Label>Miramax</Label>
+        <Languages>
+          <Language>
+            <Name>English</Name>
+            <Type>Original Language</Type>
+          </Language>
+          <Language>
+            <Name>Japanese</Name>
+            <Type>Original Language</Type>
+          </Language>
+          <Language>
+            <Name>French</Name>
+            <Type>Original Language</Type>
+          </Language>
+        </Languages>
+        <ListPrice>
+          <Amount>2299</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$22.99</FormattedPrice>
+        </ListPrice>
+        <Manufacturer>Miramax</Manufacturer>
+        <MPN>D19300D</MPN>
+        <NumberOfItems>1</NumberOfItems>
+        <OriginalReleaseDate>1997-01-01</OriginalReleaseDate>
+        <ProductGroup>DVD</ProductGroup>
+        <ProductTypeName>ABIS_DVD</ProductTypeName>
+        <Publisher>Miramax</Publisher>
+        <RegionCode>1</RegionCode>
+        <ReleaseDate>2000-12-19</ReleaseDate>
+        <RunningTime Units="minutes">134</RunningTime>
+        <Studio>Miramax</Studio>
+        <TheatricalReleaseDate>1997</TheatricalReleaseDate>
+        <Title>Princess Mononoke</Title>
+        <TradeInValue>
+          <Amount>600</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$6.00</FormattedPrice>
+        </TradeInValue>
+        <UPC>717951007414</UPC>
+      </ItemAttributes>
+      <OfferSummary>
+        <LowestNewPrice>
+          <Amount>1488</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$14.88</FormattedPrice>
+        </LowestNewPrice>
+        <LowestUsedPrice>
+          <Amount>1089</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$10.89</FormattedPrice>
+        </LowestUsedPrice>
+        <TotalNew>39</TotalNew>
+        <TotalUsed>25</TotalUsed>
+        <TotalCollectible>0</TotalCollectible>
+        <TotalRefurbished>0</TotalRefurbished>
+      </OfferSummary>
+      <Offers>
+        <TotalOffers>1</TotalOffers>
+        <TotalOfferPages>1</TotalOfferPages>
+        <Offer>
+          <Merchant>
+            <MerchantId>ATVPDKIKX0DER</MerchantId>
+            <GlancePage>http://www.amazon.com/gp/help/seller/home.html?seller=ATVPDKIKX0DER</GlancePage>
+            <AverageFeedbackRating>0.0</AverageFeedbackRating>
+            <TotalFeedback>0</TotalFeedback>
+          </Merchant>
+          <OfferAttributes>
+            <Condition>New</Condition>
+            <SubCondition>new</SubCondition>
+          </OfferAttributes>
+          <OfferListing>
+            <OfferListingId>STOP70mG%2BVX5scrYTS4jOZ9pfBlZ864Tl9KdIxUgf2xZD7Iw6wiYXZcB5eXNv2S8a5UuGfhf48KD0hNSWpIA5A%3D%3D</OfferListingId>
+            <Price>
+              <Amount>1699</Amount>
+              <CurrencyCode>USD</CurrencyCode>
+              <FormattedPrice>$16.99</FormattedPrice>
+            </Price>
+            <AmountSaved>
+              <Amount>600</Amount>
+              <CurrencyCode>USD</CurrencyCode>
+              <FormattedPrice>$6.00</FormattedPrice>
+            </AmountSaved>
+            <PercentageSaved>26</PercentageSaved>
+            <Availability>Usually ships in 24 hours</Availability>
+            <AvailabilityAttributes>
+              <AvailabilityType>now</AvailabilityType>
+              <MinimumHours>0</MinimumHours>
+              <MaximumHours>0</MaximumHours>
+            </AvailabilityAttributes>
+            <Quantity>-1</Quantity>
+            <IsEligibleForSuperSaverShipping>1</IsEligibleForSuperSaverShipping>
+          </OfferListing>
+        </Offer>
+      </Offers>
+      <Accessories>
+        <Accessory>
+          <ASIN>6303118240</ASIN>
+          <Title>My Neighbor Totoro [VHS]</Title>
+        </Accessory>
+        <Accessory>
+          <ASIN>B00001U06H</ASIN>
+          <Title>Princess Mononoke: Music From The Miramax Motion Picture</Title>
+        </Accessory>
+        <Accessory>
+          <ASIN>6305173478</ASIN>
+          <Title>Kiki's Delivery Service (Widescreen Edition) [VHS]</Title>
+        </Accessory>
+      </Accessories>
+    </Item>
+    <Item>
       <ASIN>B0001XAQ0A</ASIN>
-      <SalesRank>636</SalesRank>
+      <SalesRank>890</SalesRank>
       <ItemAttributes>
         <Actor>Hitoshi Takagi</Actor>
         <Actor>Noriko Hidaka</Actor>
@@ -28,7 +165,7 @@
         <Format>Color</Format>
         <Format>Dolby</Format>
         <Format>Dubbed</Format>
-        <Format>DVD-Video</Format>
+        <Format>DVD</Format>
         <Format>THX</Format>
         <Format>Widescreen</Format>
         <Format>NTSC</Format>
@@ -87,22 +224,22 @@
       </ItemAttributes>
       <OfferSummary>
         <LowestNewPrice>
-          <Amount>2119</Amount>
+          <Amount>2097</Amount>
           <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$21.19</FormattedPrice>
+          <FormattedPrice>$20.97</FormattedPrice>
         </LowestNewPrice>
         <LowestUsedPrice>
-          <Amount>2123</Amount>
+          <Amount>2098</Amount>
           <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$21.23</FormattedPrice>
+          <FormattedPrice>$20.98</FormattedPrice>
         </LowestUsedPrice>
         <LowestCollectiblePrice>
           <Amount>3199</Amount>
           <CurrencyCode>USD</CurrencyCode>
           <FormattedPrice>$31.99</FormattedPrice>
         </LowestCollectiblePrice>
-        <TotalNew>39</TotalNew>
-        <TotalUsed>8</TotalUsed>
+        <TotalNew>37</TotalNew>
+        <TotalUsed>9</TotalUsed>
         <TotalCollectible>1</TotalCollectible>
         <TotalRefurbished>0</TotalRefurbished>
       </OfferSummary>
@@ -121,18 +258,18 @@
             <SubCondition>new</SubCondition>
           </OfferAttributes>
           <OfferListing>
-            <OfferListingId>WEz2em1RaWRKHrt3pyfdNaDU%2FliPiBEgwquoUJXInnd7Ilgd3gHCYyad5mVeVibEXOGMirOkRCAJAhHiB%2BTzCQ%3D%3D</OfferListingId>
+            <OfferListingId>ngY2uh5FJaH5NXLsnbuQ%2F4m6am3wTj37lmgATE7JPI3vJPx7GG1H0EeclvC3baaX%2Bn1JGWGPxmG%2F29oRcCrRJw%3D%3D</OfferListingId>
             <Price>
-              <Amount>2399</Amount>
+              <Amount>2249</Amount>
               <CurrencyCode>USD</CurrencyCode>
-              <FormattedPrice>$23.99</FormattedPrice>
+              <FormattedPrice>$22.49</FormattedPrice>
             </Price>
             <AmountSaved>
-              <Amount>600</Amount>
+              <Amount>750</Amount>
               <CurrencyCode>USD</CurrencyCode>
-              <FormattedPrice>$6.00</FormattedPrice>
+              <FormattedPrice>$7.50</FormattedPrice>
             </AmountSaved>
-            <PercentageSaved>20</PercentageSaved>
+            <PercentageSaved>25</PercentageSaved>
             <Availability>Usually ships in 24 hours</Availability>
             <AvailabilityAttributes>
               <AvailabilityType>now</AvailabilityType>
@@ -147,18 +284,19 @@
     </Item>
     <Item>
       <ASIN>B00005JLEU</ASIN>
-      <SalesRank>550</SalesRank>
+      <SalesRank>507</SalesRank>
       <ItemAttributes>
         <AspectRatio>1.78:1</AspectRatio>
         <AudienceRating>Unrated</AudienceRating>
         <Binding>DVD</Binding>
+        <Brand>BUENA VISTA HOME VIDEO</Brand>
         <Director>Hayao Miyazaki</Director>
         <EAN>9780788844614</EAN>
         <Format>Animated</Format>
         <Format>Closed-captioned</Format>
         <Format>Color</Format>
         <Format>Dolby</Format>
-        <Format>DVD-Video</Format>
+        <Format>DVD</Format>
         <Format>Widescreen</Format>
         <Format>NTSC</Format>
         <ISBN>078884461X</ISBN>
@@ -199,17 +337,17 @@
       </ItemAttributes>
       <OfferSummary>
         <LowestNewPrice>
-          <Amount>2117</Amount>
+          <Amount>1794</Amount>
           <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$21.17</FormattedPrice>
+          <FormattedPrice>$17.94</FormattedPrice>
         </LowestNewPrice>
         <LowestUsedPrice>
-          <Amount>1875</Amount>
+          <Amount>1734</Amount>
           <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$18.75</FormattedPrice>
+          <FormattedPrice>$17.34</FormattedPrice>
         </LowestUsedPrice>
-        <TotalNew>40</TotalNew>
-        <TotalUsed>22</TotalUsed>
+        <TotalNew>42</TotalNew>
+        <TotalUsed>26</TotalUsed>
         <TotalCollectible>0</TotalCollectible>
         <TotalRefurbished>0</TotalRefurbished>
       </OfferSummary>
@@ -228,18 +366,18 @@
             <SubCondition>new</SubCondition>
           </OfferAttributes>
           <OfferListing>
-            <OfferListingId>HYWfFYrSMy8EV3X0W7QVKckFflMFVB1bWPNMA3GauBWbDntil4JVEUzYF6g5hwc%2Bc92QeHiHL3j%2BaLu343vIHA%3D%3D</OfferListingId>
+            <OfferListingId>HpjbtpOkMef2Y%2FrGc1zpVX%2BfBxU54TPyCpmwGSNXRBbuqObGLj27O4fSLdtzIUevecU4ixq3a7lrWJVzlU99aA%3D%3D</OfferListingId>
             <Price>
-              <Amount>2399</Amount>
+              <Amount>2249</Amount>
               <CurrencyCode>USD</CurrencyCode>
-              <FormattedPrice>$23.99</FormattedPrice>
+              <FormattedPrice>$22.49</FormattedPrice>
             </Price>
             <AmountSaved>
-              <Amount>600</Amount>
+              <Amount>750</Amount>
               <CurrencyCode>USD</CurrencyCode>
-              <FormattedPrice>$6.00</FormattedPrice>
+              <FormattedPrice>$7.50</FormattedPrice>
             </AmountSaved>
-            <PercentageSaved>20</PercentageSaved>
+            <PercentageSaved>25</PercentageSaved>
             <Availability>Usually ships in 24 hours</Availability>
             <AvailabilityAttributes>
               <AvailabilityType>now</AvailabilityType>
@@ -251,141 +389,10 @@
           </OfferListing>
         </Offer>
       </Offers>
-    </Item>
-    <Item>
-      <ASIN>B00003CXBK</ASIN>
-      <SalesRank>552</SalesRank>
-      <ItemAttributes>
-        <Actor>Yôji Matsuda</Actor>
-        <Actor>Yuriko Ishida</Actor>
-        <Actor>Yûko Tanaka</Actor>
-        <Actor>Kaoru Kobayashi</Actor>
-        <Actor>Masahiko Nishimura</Actor>
-        <AspectRatio>1.85:1</AspectRatio>
-        <AudienceRating>PG-13 (Parental Guidance Suggested)</AudienceRating>
-        <Binding>DVD</Binding>
-        <Brand>Princess</Brand>
-        <Creator Role="Writer">Hayao Miyazaki</Creator>
-        <Creator Role="Producer">Bob Weinstein</Creator>
-        <Creator Role="Producer">Harvey Weinstein</Creator>
-        <Creator Role="Producer">Scott Martin</Creator>
-        <Creator Role="Producer">Seiichiro Ujiie</Creator>
-        <Creator Role="Producer">Seiji Okuda</Creator>
-        <Creator Role="Producer">Takahiro Yonezawa</Creator>
-        <Director>Hayao Miyazaki</Director>
-        <EAN>9780788820618</EAN>
-        <Format>Animated</Format>
-        <Format>Color</Format>
-        <Format>DVD-Video</Format>
-        <Format>NTSC</Format>
-        <ISBN>0788820613</ISBN>
-        <Label>Miramax</Label>
-        <Languages>
-          <Language>
-            <Name>English</Name>
-            <Type>Original Language</Type>
-          </Language>
-          <Language>
-            <Name>Japanese</Name>
-            <Type>Original Language</Type>
-          </Language>
-          <Language>
-            <Name>French</Name>
-            <Type>Original Language</Type>
-          </Language>
-        </Languages>
-        <ListPrice>
-          <Amount>2299</Amount>
-          <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$22.99</FormattedPrice>
-        </ListPrice>
-        <Manufacturer>Miramax</Manufacturer>
-        <MPN>D19300D</MPN>
-        <NumberOfItems>1</NumberOfItems>
-        <OriginalReleaseDate>1997-01-01</OriginalReleaseDate>
-        <ProductGroup>DVD</ProductGroup>
-        <ProductTypeName>ABIS_DVD</ProductTypeName>
-        <Publisher>Miramax</Publisher>
-        <RegionCode>1</RegionCode>
-        <ReleaseDate>2000-12-19</ReleaseDate>
-        <RunningTime Units="minutes">134</RunningTime>
-        <Studio>Miramax</Studio>
-        <TheatricalReleaseDate>1997</TheatricalReleaseDate>
-        <Title>Princess Mononoke</Title>
-        <UPC>717951007414</UPC>
-      </ItemAttributes>
-      <OfferSummary>
-        <LowestNewPrice>
-          <Amount>1392</Amount>
-          <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$13.92</FormattedPrice>
-        </LowestNewPrice>
-        <LowestUsedPrice>
-          <Amount>1276</Amount>
-          <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$12.76</FormattedPrice>
-        </LowestUsedPrice>
-        <TotalNew>45</TotalNew>
-        <TotalUsed>16</TotalUsed>
-        <TotalCollectible>0</TotalCollectible>
-        <TotalRefurbished>0</TotalRefurbished>
-      </OfferSummary>
-      <Offers>
-        <TotalOffers>1</TotalOffers>
-        <TotalOfferPages>1</TotalOfferPages>
-        <Offer>
-          <Merchant>
-            <MerchantId>ATVPDKIKX0DER</MerchantId>
-            <GlancePage>http://www.amazon.com/gp/help/seller/home.html?seller=ATVPDKIKX0DER</GlancePage>
-            <AverageFeedbackRating>0.0</AverageFeedbackRating>
-            <TotalFeedback>0</TotalFeedback>
-          </Merchant>
-          <OfferAttributes>
-            <Condition>New</Condition>
-            <SubCondition>new</SubCondition>
-          </OfferAttributes>
-          <OfferListing>
-            <OfferListingId>0oIM1MYmtpqwjylA1dzvbAsiAFAisY9O%2FSnMmRu4B%2FFcSz3K8CWgovgNSbAvqWUPoR%2FMBH7e5FTEKa6G0NYVig%3D%3D</OfferListingId>
-            <Price>
-              <Amount>1799</Amount>
-              <CurrencyCode>USD</CurrencyCode>
-              <FormattedPrice>$17.99</FormattedPrice>
-            </Price>
-            <AmountSaved>
-              <Amount>500</Amount>
-              <CurrencyCode>USD</CurrencyCode>
-              <FormattedPrice>$5.00</FormattedPrice>
-            </AmountSaved>
-            <PercentageSaved>22</PercentageSaved>
-            <Availability>Usually ships in 24 hours</Availability>
-            <AvailabilityAttributes>
-              <AvailabilityType>now</AvailabilityType>
-              <MinimumHours>0</MinimumHours>
-              <MaximumHours>0</MaximumHours>
-            </AvailabilityAttributes>
-            <Quantity>-1</Quantity>
-            <IsEligibleForSuperSaverShipping>1</IsEligibleForSuperSaverShipping>
-          </OfferListing>
-        </Offer>
-      </Offers>
-      <Accessories>
-        <Accessory>
-          <ASIN>6303118240</ASIN>
-          <Title>My Neighbor Totoro [VHS]</Title>
-        </Accessory>
-        <Accessory>
-          <ASIN>B00001U06H</ASIN>
-          <Title>Princess Mononoke: Music From The Miramax Motion Picture</Title>
-        </Accessory>
-        <Accessory>
-          <ASIN>6305173478</ASIN>
-          <Title>Kiki's Delivery Service (Widescreen Edition) [VHS]</Title>
-        </Accessory>
-      </Accessories>
     </Item>
     <Item>
       <ASIN>B000CDGVOE</ASIN>
-      <SalesRank>685</SalesRank>
+      <SalesRank>926</SalesRank>
       <ItemAttributes>
         <Actor>Chieko Baisho</Actor>
         <Actor>Takuya Kimura</Actor>
@@ -395,7 +402,7 @@
         <AspectRatio>1.85:1</AspectRatio>
         <AudienceRating>PG (Parental Guidance Suggested)</AudienceRating>
         <Binding>DVD</Binding>
-        <Brand>Buena Vista Home Video</Brand>
+        <Brand>gkworld</Brand>
         <Creator Role="Producer">Hayao Miyazaki</Creator>
         <Creator Role="Writer">Hayao Miyazaki</Creator>
         <Creator Role="Producer">John Lasseter</Creator>
@@ -409,7 +416,7 @@
         <Format>Closed-captioned</Format>
         <Format>Color</Format>
         <Format>Dolby</Format>
-        <Format>DVD-Video</Format>
+        <Format>DVD</Format>
         <Format>Widescreen</Format>
         <Format>NTSC</Format>
         <ItemDimensions>
@@ -459,23 +466,18 @@
       </ItemAttributes>
       <OfferSummary>
         <LowestNewPrice>
-          <Amount>2115</Amount>
+          <Amount>2098</Amount>
           <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$21.15</FormattedPrice>
+          <FormattedPrice>$20.98</FormattedPrice>
         </LowestNewPrice>
         <LowestUsedPrice>
-          <Amount>1999</Amount>
+          <Amount>2123</Amount>
           <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$19.99</FormattedPrice>
+          <FormattedPrice>$21.23</FormattedPrice>
         </LowestUsedPrice>
-        <LowestCollectiblePrice>
-          <Amount>2999</Amount>
-          <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$29.99</FormattedPrice>
-        </LowestCollectiblePrice>
-        <TotalNew>47</TotalNew>
-        <TotalUsed>17</TotalUsed>
-        <TotalCollectible>1</TotalCollectible>
+        <TotalNew>34</TotalNew>
+        <TotalUsed>10</TotalUsed>
+        <TotalCollectible>0</TotalCollectible>
         <TotalRefurbished>0</TotalRefurbished>
       </OfferSummary>
       <Offers>
@@ -493,18 +495,18 @@
             <SubCondition>new</SubCondition>
           </OfferAttributes>
           <OfferListing>
-            <OfferListingId>ubv8ayaHsxoasQ5wEdWF3awXLg%2B0wKWy0UQ7EIF4gyVZ6wvj2Zy0lDmGFihKR9C7P1DAzWQ%2B8H3pCFCbljIZgp1DbJMN7QTB</OfferListingId>
+            <OfferListingId>LCG%2FOTmL2ft6%2BQdbi4Pzlh02f1zeFUr8At2lNv7N2CFZIfG5CVG8UNRi6z5DiAoMDjCurRcomk9IJUKN%2FB2Y78fQlYpKT09%2F</OfferListingId>
             <Price>
-              <Amount>2399</Amount>
+              <Amount>2249</Amount>
               <CurrencyCode>USD</CurrencyCode>
-              <FormattedPrice>$23.99</FormattedPrice>
+              <FormattedPrice>$22.49</FormattedPrice>
             </Price>
             <AmountSaved>
-              <Amount>600</Amount>
+              <Amount>750</Amount>
               <CurrencyCode>USD</CurrencyCode>
-              <FormattedPrice>$6.00</FormattedPrice>
+              <FormattedPrice>$7.50</FormattedPrice>
             </AmountSaved>
-            <PercentageSaved>20</PercentageSaved>
+            <PercentageSaved>25</PercentageSaved>
             <Availability>Usually ships in 24 hours</Availability>
             <AvailabilityAttributes>
               <AvailabilityType>now</AvailabilityType>
@@ -519,7 +521,7 @@
     </Item>
     <Item>
       <ASIN>B00005JM2O</ASIN>
-      <SalesRank>1003</SalesRank>
+      <SalesRank>1217</SalesRank>
       <ItemAttributes>
         <Actor>Kirsten Dunst</Actor>
         <Actor>Minami Takayama</Actor>
@@ -529,6 +531,7 @@
         <AspectRatio>1.85:1</AspectRatio>
         <AudienceRating>NR (Not Rated)</AudienceRating>
         <Binding>DVD</Binding>
+        <Brand>BUENA VISTA HOME VIDEO</Brand>
         <Creator Role="Producer">Hayao Miyazaki</Creator>
         <Creator Role="Writer">Hayao Miyazaki</Creator>
         <Creator Role="Producer">Jane Schonberger</Creator>
@@ -542,7 +545,7 @@
         <Format>Closed-captioned</Format>
         <Format>Color</Format>
         <Format>Dolby</Format>
-        <Format>DVD-Video</Format>
+        <Format>DVD</Format>
         <Format>Widescreen</Format>
         <Format>NTSC</Format>
         <Label>Walt Disney Video</Label>
@@ -582,22 +585,22 @@
       </ItemAttributes>
       <OfferSummary>
         <LowestNewPrice>
-          <Amount>2095</Amount>
+          <Amount>2096</Amount>
           <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$20.95</FormattedPrice>
+          <FormattedPrice>$20.96</FormattedPrice>
         </LowestNewPrice>
         <LowestUsedPrice>
-          <Amount>1865</Amount>
+          <Amount>1789</Amount>
           <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$18.65</FormattedPrice>
+          <FormattedPrice>$17.89</FormattedPrice>
         </LowestUsedPrice>
         <LowestCollectiblePrice>
           <Amount>3199</Amount>
           <CurrencyCode>USD</CurrencyCode>
           <FormattedPrice>$31.99</FormattedPrice>
         </LowestCollectiblePrice>
-        <TotalNew>37</TotalNew>
-        <TotalUsed>15</TotalUsed>
+        <TotalNew>41</TotalNew>
+        <TotalUsed>13</TotalUsed>
         <TotalCollectible>1</TotalCollectible>
         <TotalRefurbished>0</TotalRefurbished>
       </OfferSummary>
@@ -616,18 +619,18 @@
             <SubCondition>new</SubCondition>
           </OfferAttributes>
           <OfferListing>
-            <OfferListingId>j7pFLW99JZB0wmI2r0jQtpW8kFJblDICKc0BSSVWT3Ik3%2F0FsNKpcnfmw%2B7cIh2VvqIplGt%2B%2BWt7uYgm1X6G1w%3D%3D</OfferListingId>
+            <OfferListingId>VsvlnrIa1b1dDbWmbWCcGJIX6CaKAkC30EFPFRAYwpk4mhFA%2F42sOj8NWX0nAxUWI7s31WbB77%2F%2FXDoN9ce0Mw%3D%3D</OfferListingId>
             <Price>
-              <Amount>2399</Amount>
+              <Amount>2249</Amount>
               <CurrencyCode>USD</CurrencyCode>
-              <FormattedPrice>$23.99</FormattedPrice>
+              <FormattedPrice>$22.49</FormattedPrice>
             </Price>
             <AmountSaved>
-              <Amount>600</Amount>
+              <Amount>750</Amount>
               <CurrencyCode>USD</CurrencyCode>
-              <FormattedPrice>$6.00</FormattedPrice>
+              <FormattedPrice>$7.50</FormattedPrice>
             </AmountSaved>
-            <PercentageSaved>20</PercentageSaved>
+            <PercentageSaved>25</PercentageSaved>
             <Availability>Usually ships in 24 hours</Availability>
             <AvailabilityAttributes>
               <AvailabilityType>now</AvailabilityType>
@@ -642,7 +645,7 @@
     </Item>
     <Item>
       <ASIN>B0001XAPZ6</ASIN>
-      <SalesRank>1914</SalesRank>
+      <SalesRank>2105</SalesRank>
       <ItemAttributes>
         <Actor>Sumi Shimamoto</Actor>
         <Actor>Mahito Tsujimura</Actor>
@@ -652,6 +655,7 @@
         <AspectRatio>1.85:1</AspectRatio>
         <AudienceRating>PG (Parental Guidance Suggested)</AudienceRating>
         <Binding>DVD</Binding>
+        <Brand>BUENA VISTA HOME VIDEO</Brand>
         <Creator Role="Writer">Hayao Miyazaki</Creator>
         <Creator Role="Producer">Isao Takahata</Creator>
         <Creator Role="Producer">Michio Kondô</Creator>
@@ -665,7 +669,7 @@
         <Format>Animated</Format>
         <Format>Color</Format>
         <Format>Dubbed</Format>
-        <Format>DVD-Video</Format>
+        <Format>DVD</Format>
         <Format>Widescreen</Format>
         <Format>NTSC</Format>
         <ISBN>0788824007</ISBN>
@@ -713,22 +717,22 @@
       </ItemAttributes>
       <OfferSummary>
         <LowestNewPrice>
-          <Amount>2113</Amount>
+          <Amount>2098</Amount>
           <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$21.13</FormattedPrice>
+          <FormattedPrice>$20.98</FormattedPrice>
         </LowestNewPrice>
         <LowestUsedPrice>
-          <Amount>1725</Amount>
+          <Amount>1750</Amount>
           <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$17.25</FormattedPrice>
+          <FormattedPrice>$17.50</FormattedPrice>
         </LowestUsedPrice>
         <LowestCollectiblePrice>
           <Amount>2999</Amount>
           <CurrencyCode>USD</CurrencyCode>
           <FormattedPrice>$29.99</FormattedPrice>
         </LowestCollectiblePrice>
-        <TotalNew>48</TotalNew>
-        <TotalUsed>13</TotalUsed>
+        <TotalNew>41</TotalNew>
+        <TotalUsed>11</TotalUsed>
         <TotalCollectible>1</TotalCollectible>
         <TotalRefurbished>0</TotalRefurbished>
       </OfferSummary>
@@ -747,18 +751,18 @@
             <SubCondition>new</SubCondition>
           </OfferAttributes>
           <OfferListing>
-            <OfferListingId>NHFP6sye6oPIGJwPzNDzeB3zJBySf9dixg%2BEPbeNjAfvnC4nHgtqT61oDKgY0zYXGzwUGtCftKllLaCydctjzg%3D%3D</OfferListingId>
+            <OfferListingId>mocb%2BHE7EDrjaWoBJBKRoVBPbpGLkdM4tf3mnuM49%2FV6zs%2FoU4chMPDGYLWI6jZN9VZvNmwQ%2BYSIoXh0WrUIog%3D%3D</OfferListingId>
             <Price>
-              <Amount>2499</Amount>
+              <Amount>2349</Amount>
               <CurrencyCode>USD</CurrencyCode>
-              <FormattedPrice>$24.99</FormattedPrice>
+              <FormattedPrice>$23.49</FormattedPrice>
             </Price>
             <AmountSaved>
-              <Amount>500</Amount>
+              <Amount>650</Amount>
               <CurrencyCode>USD</CurrencyCode>
-              <FormattedPrice>$5.00</FormattedPrice>
+              <FormattedPrice>$6.50</FormattedPrice>
             </AmountSaved>
-            <PercentageSaved>17</PercentageSaved>
+            <PercentageSaved>22</PercentageSaved>
             <Availability>Usually ships in 24 hours</Availability>
             <AvailabilityAttributes>
               <AvailabilityType>now</AvailabilityType>
@@ -773,7 +777,7 @@
     </Item>
     <Item>
       <ASIN>B00005JKYG</ASIN>
-      <SalesRank>2853</SalesRank>
+      <SalesRank>2146</SalesRank>
       <ItemAttributes>
         <Actor>Mayumi Tanaka</Actor>
         <Actor>James Van Der Beek</Actor>
@@ -796,7 +800,7 @@
         <Format>Closed-captioned</Format>
         <Format>Color</Format>
         <Format>Dolby</Format>
-        <Format>DVD-Video</Format>
+        <Format>DVD</Format>
         <Format>Widescreen</Format>
         <Format>NTSC</Format>
         <ISBN>0788833979</ISBN>
@@ -837,22 +841,22 @@
       </ItemAttributes>
       <OfferSummary>
         <LowestNewPrice>
-          <Amount>2094</Amount>
+          <Amount>1899</Amount>
           <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$20.94</FormattedPrice>
+          <FormattedPrice>$18.99</FormattedPrice>
         </LowestNewPrice>
         <LowestUsedPrice>
-          <Amount>1997</Amount>
+          <Amount>1443</Amount>
           <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$19.97</FormattedPrice>
+          <FormattedPrice>$14.43</FormattedPrice>
         </LowestUsedPrice>
         <LowestCollectiblePrice>
           <Amount>2999</Amount>
           <CurrencyCode>USD</CurrencyCode>
           <FormattedPrice>$29.99</FormattedPrice>
         </LowestCollectiblePrice>
-        <TotalNew>36</TotalNew>
-        <TotalUsed>16</TotalUsed>
+        <TotalNew>41</TotalNew>
+        <TotalUsed>21</TotalUsed>
         <TotalCollectible>1</TotalCollectible>
         <TotalRefurbished>0</TotalRefurbished>
       </OfferSummary>
@@ -871,18 +875,18 @@
             <SubCondition>new</SubCondition>
           </OfferAttributes>
           <OfferListing>
-            <OfferListingId>O9jWhlteTJMEz51nM1SajW%2FRDkwdp2TJ5VrhOFsXOOTf2AS734cxRt3X20LUtFa6JVhg0%2Fy6l0ryNoTIwMRmUQ%3D%3D</OfferListingId>
+            <OfferListingId>jRxHgJ3A2I3w9AtdcfaSpZve8m3lT2LEAxtQGQxnXg0RgQqlMYHZFgHLwIuXLDBi2BxDxBdPD1oiPgoV%2BdZkPQ%3D%3D</OfferListingId>
             <Price>
-              <Amount>2399</Amount>
+              <Amount>2249</Amount>
               <CurrencyCode>USD</CurrencyCode>
-              <FormattedPrice>$23.99</FormattedPrice>
+              <FormattedPrice>$22.49</FormattedPrice>
             </Price>
             <AmountSaved>
-              <Amount>600</Amount>
+              <Amount>750</Amount>
               <CurrencyCode>USD</CurrencyCode>
-              <FormattedPrice>$6.00</FormattedPrice>
+              <FormattedPrice>$7.50</FormattedPrice>
             </AmountSaved>
-            <PercentageSaved>20</PercentageSaved>
+            <PercentageSaved>25</PercentageSaved>
             <Availability>Usually ships in 24 hours</Availability>
             <AvailabilityAttributes>
               <AvailabilityType>now</AvailabilityType>
@@ -897,7 +901,7 @@
     </Item>
     <Item>
       <ASIN>B0001XAPY2</ASIN>
-      <SalesRank>3881</SalesRank>
+      <SalesRank>2622</SalesRank>
       <ItemAttributes>
         <Actor>Shûichirô Moriyama</Actor>
         <Actor>Tokiko Kato</Actor>
@@ -907,6 +911,7 @@
         <AspectRatio>1.85:1</AspectRatio>
         <AudienceRating>PG (Parental Guidance Suggested)</AudienceRating>
         <Binding>DVD</Binding>
+        <Brand>BUENA VISTA HOME VIDEO</Brand>
         <Creator Role="Writer">Hayao Miyazaki</Creator>
         <Creator Role="Producer">Matsuo Toshimitsu</Creator>
         <Creator Role="Producer">Ned Lott</Creator>
@@ -919,7 +924,7 @@
         <Format>Color</Format>
         <Format>Dolby</Format>
         <Format>Dubbed</Format>
-        <Format>DVD-Video</Format>
+        <Format>DVD</Format>
         <Format>Widescreen</Format>
         <Format>NTSC</Format>
         <ISBN>0788834029</ISBN>
@@ -972,16 +977,16 @@
       </ItemAttributes>
       <OfferSummary>
         <LowestNewPrice>
-          <Amount>1893</Amount>
+          <Amount>1935</Amount>
           <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$18.93</FormattedPrice>
+          <FormattedPrice>$19.35</FormattedPrice>
         </LowestNewPrice>
         <LowestUsedPrice>
-          <Amount>467</Amount>
+          <Amount>399</Amount>
           <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$4.67</FormattedPrice>
+          <FormattedPrice>$3.99</FormattedPrice>
         </LowestUsedPrice>
-        <TotalNew>37</TotalNew>
+        <TotalNew>43</TotalNew>
         <TotalUsed>18</TotalUsed>
         <TotalCollectible>0</TotalCollectible>
         <TotalRefurbished>0</TotalRefurbished>
@@ -1001,18 +1006,18 @@
             <SubCondition>new</SubCondition>
           </OfferAttributes>
           <OfferListing>
-            <OfferListingId>oa6I349kNP39bhF7Q0IpYBya%2B7f29d73R0bu83vaqRM2i5PTa9ig6LQU98y5FipTx53uuOc5stLfj7S8AaEm%2Bw%3D%3D</OfferListingId>
+            <OfferListingId>%2FNhJiHBBA3YtHKUFDKpPe2G%2B5j3IMsuFhMlPA9gyEpl0hHMESb8kYX5c6hnRnM3DOxtRtYOx5W0XMMSr%2BYmNsg%3D%3D</OfferListingId>
             <Price>
-              <Amount>2199</Amount>
+              <Amount>2049</Amount>
               <CurrencyCode>USD</CurrencyCode>
-              <FormattedPrice>$21.99</FormattedPrice>
+              <FormattedPrice>$20.49</FormattedPrice>
             </Price>
             <AmountSaved>
-              <Amount>800</Amount>
+              <Amount>950</Amount>
               <CurrencyCode>USD</CurrencyCode>
-              <FormattedPrice>$8.00</FormattedPrice>
+              <FormattedPrice>$9.50</FormattedPrice>
             </AmountSaved>
-            <PercentageSaved>27</PercentageSaved>
+            <PercentageSaved>32</PercentageSaved>
             <Availability>Usually ships in 24 hours</Availability>
             <AvailabilityAttributes>
               <AvailabilityType>now</AvailabilityType>
@@ -1027,7 +1032,7 @@
     </Item>
     <Item>
       <ASIN>B000FGG5NK</ASIN>
-      <SalesRank>7408</SalesRank>
+      <SalesRank>6233</SalesRank>
       <ItemAttributes>
         <Actor>Bob Bergen</Actor>
         <Actor>Yasuo Yamada</Actor>
@@ -1048,11 +1053,12 @@
         <EAN>0013138206695</EAN>
         <Format>Animated</Format>
         <Format>Color</Format>
-        <Format>DVD-Video</Format>
+        <Format>DVD</Format>
         <Format>Special Edition</Format>
         <Format>Subtitled</Format>
         <Format>Widescreen</Format>
         <Format>NTSC</Format>
+        <IsEligibleForTradeIn>1</IsEligibleForTradeIn>
         <Label>Manga Video</Label>
         <Languages>
           <Language>
@@ -1081,9 +1087,9 @@
           </Language>
         </Languages>
         <ListPrice>
-          <Amount>2497</Amount>
+          <Amount>1997</Amount>
           <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$24.97</FormattedPrice>
+          <FormattedPrice>$19.97</FormattedPrice>
         </ListPrice>
         <Manufacturer>Manga Video</Manufacturer>
         <MPN>MANDM2066D</MPN>
@@ -1098,26 +1104,31 @@
         <Studio>Manga Video</Studio>
         <TheatricalReleaseDate>1991-04-03</TheatricalReleaseDate>
         <Title>Lupin the III: The Castle of Cagliostro (Special Edition)</Title>
+        <TradeInValue>
+          <Amount>450</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$4.50</FormattedPrice>
+        </TradeInValue>
         <UPC>013138206695</UPC>
       </ItemAttributes>
       <OfferSummary>
         <LowestNewPrice>
-          <Amount>1174</Amount>
+          <Amount>1012</Amount>
           <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$11.74</FormattedPrice>
+          <FormattedPrice>$10.12</FormattedPrice>
         </LowestNewPrice>
         <LowestUsedPrice>
-          <Amount>1099</Amount>
+          <Amount>905</Amount>
           <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$10.99</FormattedPrice>
+          <FormattedPrice>$9.05</FormattedPrice>
         </LowestUsedPrice>
         <LowestCollectiblePrice>
           <Amount>2497</Amount>
           <CurrencyCode>USD</CurrencyCode>
           <FormattedPrice>$24.97</FormattedPrice>
         </LowestCollectiblePrice>
-        <TotalNew>41</TotalNew>
-        <TotalUsed>9</TotalUsed>
+        <TotalNew>30</TotalNew>
+        <TotalUsed>11</TotalUsed>
         <TotalCollectible>1</TotalCollectible>
         <TotalRefurbished>0</TotalRefurbished>
       </OfferSummary>
@@ -1136,18 +1147,18 @@
             <SubCondition>new</SubCondition>
           </OfferAttributes>
           <OfferListing>
-            <OfferListingId>pbpa2lsSgh9joaONj0bRCTXB5ITpXv%2FAZ5xMd8qXW4tIS7tDPQO1exVxSpuYkeA5Hl5wPRJM3TnmWv8cF6NrWg%3D%3D</OfferListingId>
+            <OfferListingId>fbHDoU2iZUQyW1Sdq7E4KkcK5GyNY6JOfVe5rmbmDd7aqUhPbNd7ppxhbKeK9VYT5DrwC%2BYxsKTGc9otk0iSIQ%3D%3D</OfferListingId>
             <Price>
-              <Amount>1799</Amount>
+              <Amount>1099</Amount>
               <CurrencyCode>USD</CurrencyCode>
-              <FormattedPrice>$17.99</FormattedPrice>
+              <FormattedPrice>$10.99</FormattedPrice>
             </Price>
             <AmountSaved>
-              <Amount>698</Amount>
+              <Amount>898</Amount>
               <CurrencyCode>USD</CurrencyCode>
-              <FormattedPrice>$6.98</FormattedPrice>
+              <FormattedPrice>$8.98</FormattedPrice>
             </AmountSaved>
-            <PercentageSaved>28</PercentageSaved>
+            <PercentageSaved>45</PercentageSaved>
             <Availability>Usually ships in 24 hours</Availability>
             <AvailabilityAttributes>
               <AvailabilityType>now</AvailabilityType>
@@ -1155,6 +1166,9 @@
               <MaximumHours>0</MaximumHours>
             </AvailabilityAttributes>
             <Quantity>-1</Quantity>
+            <QuantityRestriction>
+              <QuantityLimit>10</QuantityLimit>
+            </QuantityRestriction>
             <IsEligibleForSuperSaverShipping>1</IsEligibleForSuperSaverShipping>
           </OfferListing>
         </Offer>
@@ -1162,7 +1176,7 @@
     </Item>
     <Item>
       <ASIN>B00003CXCZ</ASIN>
-      <SalesRank>11458</SalesRank>
+      <SalesRank>6053</SalesRank>
       <ItemAttributes>
         <Actor>Hitoshi Takagi</Actor>
         <Actor>Noriko Hidaka</Actor>
@@ -1183,7 +1197,7 @@
         <EAN>0024543061663</EAN>
         <Format>Animated</Format>
         <Format>Color</Format>
-        <Format>DVD-Video</Format>
+        <Format>DVD</Format>
         <Format>Full Screen</Format>
         <Format>NTSC</Format>
         <Label>20th Century Fox</Label>
@@ -1215,17 +1229,17 @@
       </ItemAttributes>
       <OfferSummary>
         <LowestNewPrice>
-          <Amount>2988</Amount>
+          <Amount>898</Amount>
           <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$29.88</FormattedPrice>
+          <FormattedPrice>$8.98</FormattedPrice>
         </LowestNewPrice>
         <LowestUsedPrice>
-          <Amount>1785</Amount>
+          <Amount>833</Amount>
           <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$17.85</FormattedPrice>
+          <FormattedPrice>$8.33</FormattedPrice>
         </LowestUsedPrice>
-        <TotalNew>6</TotalNew>
-        <TotalUsed>19</TotalUsed>
+        <TotalNew>2</TotalNew>
+        <TotalUsed>24</TotalUsed>
         <TotalCollectible>0</TotalCollectible>
         <TotalRefurbished>0</TotalRefurbished>
       </OfferSummary>

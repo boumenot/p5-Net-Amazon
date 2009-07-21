@@ -1,11 +1,11 @@
 <?xml version="1.0"?>
-<ItemSearchResponse xmlns="http://webservices.amazon.com/AWSECommerceService/2009-03-31">
+<ItemSearchResponse xmlns="http://webservices.amazon.com/AWSECommerceService/2009-07-01">
   <Items>
     <TotalResults>4</TotalResults>
     <TotalPages>1</TotalPages>
     <Item>
       <ASIN>0201360683</ASIN>
-      <SalesRank>1280843</SalesRank>
+      <SalesRank>1803937</SalesRank>
       <SmallImage>
         <URL>http://ecx.images-amazon.com/images/I/516Y2ENTVFL._SL75_.jpg</URL>
         <Height Units="pixels">75</Height>
@@ -64,12 +64,12 @@
           <FormattedPrice>$16.27</FormattedPrice>
         </LowestNewPrice>
         <LowestUsedPrice>
-          <Amount>863</Amount>
+          <Amount>728</Amount>
           <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$8.63</FormattedPrice>
+          <FormattedPrice>$7.28</FormattedPrice>
         </LowestUsedPrice>
         <TotalNew>7</TotalNew>
-        <TotalUsed>12</TotalUsed>
+        <TotalUsed>13</TotalUsed>
         <TotalCollectible>0</TotalCollectible>
         <TotalRefurbished>0</TotalRefurbished>
       </OfferSummary>
@@ -80,7 +80,7 @@
     </Item>
     <Item>
       <ASIN>3540284028</ASIN>
-      <SalesRank>7984239</SalesRank>
+      <SalesRank>8129789</SalesRank>
       <SmallImage>
         <URL>http://ecx.images-amazon.com/images/I/41T0BS5MNYL._SL75_.jpg</URL>
         <Height Units="pixels">75</Height>
@@ -129,9 +129,9 @@
           </Language>
         </Languages>
         <ListPrice>
-          <Amount>6995</Amount>
+          <Amount>7995</Amount>
           <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$69.95</FormattedPrice>
+          <FormattedPrice>$79.95</FormattedPrice>
         </ListPrice>
         <Manufacturer>Springer</Manufacturer>
         <NumberOfItems>1</NumberOfItems>
@@ -145,17 +145,17 @@
       </ItemAttributes>
       <OfferSummary>
         <LowestNewPrice>
-          <Amount>7698</Amount>
+          <Amount>7775</Amount>
           <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$76.98</FormattedPrice>
+          <FormattedPrice>$77.75</FormattedPrice>
         </LowestNewPrice>
         <LowestUsedPrice>
-          <Amount>8022</Amount>
+          <Amount>6924</Amount>
           <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$80.22</FormattedPrice>
+          <FormattedPrice>$69.24</FormattedPrice>
         </LowestUsedPrice>
-        <TotalNew>7</TotalNew>
-        <TotalUsed>1</TotalUsed>
+        <TotalNew>8</TotalNew>
+        <TotalUsed>2</TotalUsed>
         <TotalCollectible>0</TotalCollectible>
         <TotalRefurbished>0</TotalRefurbished>
       </OfferSummary>
@@ -225,9 +225,9 @@
       </ItemAttributes>
       <OfferSummary>
         <LowestNewPrice>
-          <Amount>9606</Amount>
+          <Amount>9853</Amount>
           <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$96.06</FormattedPrice>
+          <FormattedPrice>$98.53</FormattedPrice>
         </LowestNewPrice>
         <TotalNew>1</TotalNew>
         <TotalUsed>0</TotalUsed>

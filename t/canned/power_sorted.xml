@@ -1,11 +1,136 @@
 <?xml version="1.0"?>
-<ItemSearchResponse xmlns="http://webservices.amazon.com/AWSECommerceService/2009-03-31">
+<ItemSearchResponse xmlns="http://webservices.amazon.com/AWSECommerceService/2009-07-01">
   <Items>
-    <TotalResults>6</TotalResults>
+    <TotalResults>5</TotalResults>
     <TotalPages>1</TotalPages>
     <Item>
+      <ASIN>0596001320</ASIN>
+      <SalesRank>441350</SalesRank>
+      <ItemAttributes>
+        <Author>Randal L. Schwartz</Author>
+        <Author>Tom Phoenix</Author>
+        <Binding>Paperback</Binding>
+        <DeweyDecimalNumber>005.133</DeweyDecimalNumber>
+        <EAN>9780596001322</EAN>
+        <Edition>3rd</Edition>
+        <ISBN>0596001320</ISBN>
+        <Label>O'Reilly</Label>
+        <Languages>
+          <Language>
+            <Name>English</Name>
+            <Type>Original Language</Type>
+          </Language>
+          <Language>
+            <Name>English</Name>
+            <Type>Unknown</Type>
+          </Language>
+          <Language>
+            <Name>English</Name>
+            <Type>Published</Type>
+          </Language>
+        </Languages>
+        <ListPrice>
+          <Amount>3495</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$34.95</FormattedPrice>
+        </ListPrice>
+        <Manufacturer>O'Reilly</Manufacturer>
+        <NumberOfItems>1</NumberOfItems>
+        <NumberOfPages>334</NumberOfPages>
+        <ProductGroup>Book</ProductGroup>
+        <ProductTypeName>ABIS_BOOK</ProductTypeName>
+        <PublicationDate>2001-07-15</PublicationDate>
+        <Publisher>O'Reilly</Publisher>
+        <Studio>O'Reilly</Studio>
+        <Title>Learning Perl, Third Edition</Title>
+      </ItemAttributes>
+      <OfferSummary>
+        <LowestNewPrice>
+          <Amount>594</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$5.94</FormattedPrice>
+        </LowestNewPrice>
+        <LowestUsedPrice>
+          <Amount>1</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$0.01</FormattedPrice>
+        </LowestUsedPrice>
+        <TotalNew>20</TotalNew>
+        <TotalUsed>48</TotalUsed>
+        <TotalCollectible>0</TotalCollectible>
+        <TotalRefurbished>0</TotalRefurbished>
+      </OfferSummary>
+      <Offers>
+        <TotalOffers>0</TotalOffers>
+        <TotalOfferPages>0</TotalOfferPages>
+      </Offers>
+    </Item>
+    <Item>
+      <ASIN>0596004788</ASIN>
+      <SalesRank>144486</SalesRank>
+      <ItemAttributes>
+        <Author>Randal L. Schwartz</Author>
+        <Author>Tom Phoenix</Author>
+        <Binding>Paperback</Binding>
+        <DeweyDecimalNumber>005</DeweyDecimalNumber>
+        <EAN>9780596004781</EAN>
+        <Format>Illustrated</Format>
+        <ISBN>0596004788</ISBN>
+        <Label>O'Reilly Media, Inc.</Label>
+        <Languages>
+          <Language>
+            <Name>English</Name>
+            <Type>Original Language</Type>
+          </Language>
+          <Language>
+            <Name>English</Name>
+            <Type>Unknown</Type>
+          </Language>
+          <Language>
+            <Name>English</Name>
+            <Type>Published</Type>
+          </Language>
+        </Languages>
+        <ListPrice>
+          <Amount>3495</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$34.95</FormattedPrice>
+        </ListPrice>
+        <Manufacturer>O'Reilly Media, Inc.</Manufacturer>
+        <NumberOfItems>1</NumberOfItems>
+        <NumberOfPages>224</NumberOfPages>
+        <ProductGroup>Book</ProductGroup>
+        <ProductTypeName>ABIS_BOOK</ProductTypeName>
+        <PublicationDate>2003-06-09</PublicationDate>
+        <Publisher>O'Reilly Media, Inc.</Publisher>
+        <Studio>O'Reilly Media, Inc.</Studio>
+        <Title>Learning Perl Objects, References, and Modules</Title>
+        <UPC>636920004783</UPC>
+      </ItemAttributes>
+      <OfferSummary>
+        <LowestNewPrice>
+          <Amount>2449</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$24.49</FormattedPrice>
+        </LowestNewPrice>
+        <LowestUsedPrice>
+          <Amount>650</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$6.50</FormattedPrice>
+        </LowestUsedPrice>
+        <TotalNew>10</TotalNew>
+        <TotalUsed>19</TotalUsed>
+        <TotalCollectible>0</TotalCollectible>
+        <TotalRefurbished>0</TotalRefurbished>
+      </OfferSummary>
+      <Offers>
+        <TotalOffers>0</TotalOffers>
+        <TotalOfferPages>0</TotalOfferPages>
+      </Offers>
+    </Item>
+    <Item>
       <ASIN>B0026OR38K</ASIN>
-      <SalesRank>28245</SalesRank>
+      <SalesRank>13173</SalesRank>
       <ItemAttributes>
         <Author>Tom Phoenix</Author>
         <Author>Randal Schwartz</Author>
@@ -63,7 +188,7 @@
             <SubCondition>new</SubCondition>
           </OfferAttributes>
           <OfferListing>
-            <OfferListingId>h18MqY%2BhbeuRr2r9fZyFUWMYb0DlMZG7E4bBygylKVOVMnz2ifHbYizPWp0NdOvWHoNQdRUEfCpB0BVYwJV1XYMgeppz%2FeSs</OfferListingId>
+            <OfferListingId>mILhtzoFxvIPpxMngu3WqJKVTPpboiO2dX6xfl07%2Fwq%2FAtGsP3XlFL3ptgN91P7Ln78zJ4UlB6LC0KWqg7MQMs73y1TGJygx</OfferListingId>
             <Price>
               <Amount>1759</Amount>
               <CurrencyCode>USD</CurrencyCode>
@@ -88,161 +213,6 @@
       </Offers>
     </Item>
     <Item>
-      <ASIN>0596001320</ASIN>
-      <SalesRank>306932</SalesRank>
-      <ItemAttributes>
-        <Author>Randal L. Schwartz</Author>
-        <Author>Tom Phoenix</Author>
-        <Binding>Paperback</Binding>
-        <DeweyDecimalNumber>005.133</DeweyDecimalNumber>
-        <EAN>9780596001322</EAN>
-        <Edition>3rd</Edition>
-        <ISBN>0596001320</ISBN>
-        <Label>O'Reilly</Label>
-        <Languages>
-          <Language>
-            <Name>English</Name>
-            <Type>Original Language</Type>
-          </Language>
-          <Language>
-            <Name>English</Name>
-            <Type>Unknown</Type>
-          </Language>
-          <Language>
-            <Name>English</Name>
-            <Type>Published</Type>
-          </Language>
-        </Languages>
-        <ListPrice>
-          <Amount>3495</Amount>
-          <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$34.95</FormattedPrice>
-        </ListPrice>
-        <Manufacturer>O'Reilly</Manufacturer>
-        <NumberOfItems>1</NumberOfItems>
-        <NumberOfPages>334</NumberOfPages>
-        <ProductGroup>Book</ProductGroup>
-        <ProductTypeName>ABIS_BOOK</ProductTypeName>
-        <PublicationDate>2001-07-15</PublicationDate>
-        <Publisher>O'Reilly</Publisher>
-        <Studio>O'Reilly</Studio>
-        <Title>Learning Perl, Third Edition</Title>
-      </ItemAttributes>
-      <OfferSummary>
-        <LowestNewPrice>
-          <Amount>288</Amount>
-          <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$2.88</FormattedPrice>
-        </LowestNewPrice>
-        <LowestUsedPrice>
-          <Amount>4</Amount>
-          <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$0.04</FormattedPrice>
-        </LowestUsedPrice>
-        <TotalNew>22</TotalNew>
-        <TotalUsed>63</TotalUsed>
-        <TotalCollectible>0</TotalCollectible>
-        <TotalRefurbished>0</TotalRefurbished>
-      </OfferSummary>
-      <Offers>
-        <TotalOffers>0</TotalOffers>
-        <TotalOfferPages>0</TotalOfferPages>
-      </Offers>
-    </Item>
-    <Item>
-      <ASIN>0596004788</ASIN>
-      <SalesRank>653010</SalesRank>
-      <ItemAttributes>
-        <Author>Randal L. Schwartz</Author>
-        <Author>Tom Phoenix</Author>
-        <Binding>Paperback</Binding>
-        <DeweyDecimalNumber>005</DeweyDecimalNumber>
-        <EAN>9780596004781</EAN>
-        <Format>Illustrated</Format>
-        <ISBN>0596004788</ISBN>
-        <Label>O'Reilly Media, Inc.</Label>
-        <Languages>
-          <Language>
-            <Name>English</Name>
-            <Type>Original Language</Type>
-          </Language>
-          <Language>
-            <Name>English</Name>
-            <Type>Unknown</Type>
-          </Language>
-          <Language>
-            <Name>English</Name>
-            <Type>Published</Type>
-          </Language>
-        </Languages>
-        <ListPrice>
-          <Amount>3495</Amount>
-          <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$34.95</FormattedPrice>
-        </ListPrice>
-        <Manufacturer>O'Reilly Media, Inc.</Manufacturer>
-        <NumberOfItems>1</NumberOfItems>
-        <NumberOfPages>224</NumberOfPages>
-        <ProductGroup>Book</ProductGroup>
-        <ProductTypeName>ABIS_BOOK</ProductTypeName>
-        <PublicationDate>2003-06-09</PublicationDate>
-        <Publisher>O'Reilly Media, Inc.</Publisher>
-        <Studio>O'Reilly Media, Inc.</Studio>
-        <Title>Learning Perl Objects, References, and Modules</Title>
-        <UPC>636920004783</UPC>
-      </ItemAttributes>
-      <OfferSummary>
-        <LowestNewPrice>
-          <Amount>2799</Amount>
-          <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$27.99</FormattedPrice>
-        </LowestNewPrice>
-        <LowestUsedPrice>
-          <Amount>505</Amount>
-          <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$5.05</FormattedPrice>
-        </LowestUsedPrice>
-        <TotalNew>9</TotalNew>
-        <TotalUsed>19</TotalUsed>
-        <TotalCollectible>0</TotalCollectible>
-        <TotalRefurbished>0</TotalRefurbished>
-      </OfferSummary>
-      <Offers>
-        <TotalOffers>0</TotalOffers>
-        <TotalOfferPages>0</TotalOfferPages>
-      </Offers>
-    </Item>
-    <Item>
-      <ASIN>B0020Q9Z30</ASIN>
-      <ItemAttributes>
-        <Author>Tom Phoenix Randal L. Schwartz</Author>
-        <Binding>Paperback</Binding>
-        <Label>O'Reilly</Label>
-        <Manufacturer>O'Reilly</Manufacturer>
-        <ProductGroup>Book</ProductGroup>
-        <ProductTypeName>BOOKS_1973_AND_LATER</ProductTypeName>
-        <PublicationDate>2001-01-01</PublicationDate>
-        <Publisher>O'Reilly</Publisher>
-        <Studio>O'Reilly</Studio>
-        <Title>Learning Perl, Third Edition</Title>
-      </ItemAttributes>
-      <OfferSummary>
-        <LowestUsedPrice>
-          <Amount>2495</Amount>
-          <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$24.95</FormattedPrice>
-        </LowestUsedPrice>
-        <TotalNew>0</TotalNew>
-        <TotalUsed>2</TotalUsed>
-        <TotalCollectible>0</TotalCollectible>
-        <TotalRefurbished>0</TotalRefurbished>
-      </OfferSummary>
-      <Offers>
-        <TotalOffers>0</TotalOffers>
-        <TotalOfferPages>0</TotalOfferPages>
-      </Offers>
-    </Item>
-    <Item>
       <ASIN>B001WALKVU</ASIN>
       <ItemAttributes>
         <Author>Tom Phoenix, brian d foy Randal Schwartz</Author>
@@ -263,7 +233,7 @@
           <FormattedPrice>$98.70</FormattedPrice>
         </LowestUsedPrice>
         <TotalNew>0</TotalNew>
-        <TotalUsed>1</TotalUsed>
+        <TotalUsed>2</TotalUsed>
         <TotalCollectible>0</TotalCollectible>
         <TotalRefurbished>0</TotalRefurbished>
       </OfferSummary>
@@ -273,24 +243,37 @@
       </Offers>
     </Item>
     <Item>
-      <ASIN>B002BLQ6J0</ASIN>
+      <ASIN>3897211491</ASIN>
       <ItemAttributes>
-        <Author>Randal Schwartz~Tom Phoenix~brian d foy</Author>
+        <Author>Randal L.; Phoenix, Tom Schwartz</Author>
         <Binding>Paperback</Binding>
-        <Label>O'Reilly Media, Inc.</Label>
-        <Manufacturer>O'Reilly Media, Inc.</Manufacturer>
+        <EAN>9783897211490</EAN>
+        <ISBN>3897211491</ISBN>
+        <Label>O'Reilly</Label>
+        <Languages>
+          <Language>
+            <Name>German</Name>
+            <Type>Unknown</Type>
+          </Language>
+          <Language>
+            <Name>German</Name>
+            <Type>Original Language</Type>
+          </Language>
+        </Languages>
+        <Manufacturer>O'Reilly</Manufacturer>
+        <NumberOfPages>250</NumberOfPages>
         <ProductGroup>Book</ProductGroup>
-        <ProductTypeName>BOOKS_1973_AND_LATER</ProductTypeName>
-        <PublicationDate>2008-01-01</PublicationDate>
-        <Publisher>O'Reilly Media, Inc.</Publisher>
-        <Studio>O'Reilly Media, Inc.</Studio>
-        <Title>Learning Perl, 5th Edition</Title>
+        <ProductTypeName>ABIS_BOOK</ProductTypeName>
+        <PublicationDate>2004</PublicationDate>
+        <Publisher>O'Reilly</Publisher>
+        <Studio>O'Reilly</Studio>
+        <Title>Einführung in Perl Objekte, Referenzen &amp; Module</Title>
       </ItemAttributes>
       <OfferSummary>
         <LowestUsedPrice>
-          <Amount>11205</Amount>
+          <Amount>16811</Amount>
           <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$112.05</FormattedPrice>
+          <FormattedPrice>$168.11</FormattedPrice>
         </LowestUsedPrice>
         <TotalNew>0</TotalNew>
         <TotalUsed>1</TotalUsed>

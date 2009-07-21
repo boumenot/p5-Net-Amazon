@@ -1,9 +1,9 @@
 <?xml version="1.0"?>
-<ItemLookupResponse xmlns="http://webservices.amazon.com/AWSECommerceService/2009-03-31">
+<ItemLookupResponse xmlns="http://webservices.amazon.com/AWSECommerceService/2009-07-01">
   <Items>
     <Item>
       <ASIN>B00005A46I</ASIN>
-      <SalesRank>81546</SalesRank>
+      <SalesRank>28617</SalesRank>
       <ItemAttributes>
         <Artist>Anne Sofie von Otter</Artist>
         <Artist>Elvis Costello</Artist>
@@ -29,17 +29,17 @@
       </ItemAttributes>
       <OfferSummary>
         <LowestNewPrice>
-          <Amount>439</Amount>
+          <Amount>442</Amount>
           <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$4.39</FormattedPrice>
+          <FormattedPrice>$4.42</FormattedPrice>
         </LowestNewPrice>
         <LowestUsedPrice>
-          <Amount>130</Amount>
+          <Amount>47</Amount>
           <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$1.30</FormattedPrice>
+          <FormattedPrice>$0.47</FormattedPrice>
         </LowestUsedPrice>
-        <TotalNew>38</TotalNew>
-        <TotalUsed>46</TotalUsed>
+        <TotalNew>27</TotalNew>
+        <TotalUsed>48</TotalUsed>
         <TotalCollectible>0</TotalCollectible>
         <TotalRefurbished>0</TotalRefurbished>
       </OfferSummary>
@@ -58,7 +58,7 @@
             <SubCondition>new</SubCondition>
           </OfferAttributes>
           <OfferListing>
-            <OfferListingId>5EsNOHyAMvPiGsG3JjVS%2B4nxzD8xKliwVtfVRvBGA8IUC2dyouhd%2B%2BA7jCIcGGa1HA1IayPhN%2B5C6Y4hPj8PKA%3D%3D</OfferListingId>
+            <OfferListingId>tMZPNDW9g9E4HNiEUsihdNEJ%2Bs9uXOWhSw5TvZnnVQge2yGdwEh53fyZ%2Fpsp2MSDDv3oY3nXS6V39dChcwsFRQ%3D%3D</OfferListingId>
             <Price>
               <Amount>1798</Amount>
               <CurrencyCode>USD</CurrencyCode>

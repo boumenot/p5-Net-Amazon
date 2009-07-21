@@ -1,9 +1,9 @@
 <?xml version="1.0"?>
-<ItemLookupResponse xmlns="http://webservices.amazon.com/AWSECommerceService/2009-03-31">
+<ItemLookupResponse xmlns="http://webservices.amazon.com/AWSECommerceService/2009-07-01">
   <Items>
     <Item>
       <ASIN>0201633612</ASIN>
-      <SalesRank>4011</SalesRank>
+      <SalesRank>3141</SalesRank>
       <ItemAttributes>
         <Author>Erich Gamma</Author>
         <Author>Richard Helm</Author>
@@ -47,17 +47,17 @@
       </ItemAttributes>
       <OfferSummary>
         <LowestNewPrice>
-          <Amount>2900</Amount>
+          <Amount>3800</Amount>
           <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$29.00</FormattedPrice>
+          <FormattedPrice>$38.00</FormattedPrice>
         </LowestNewPrice>
         <LowestUsedPrice>
-          <Amount>2443</Amount>
+          <Amount>2796</Amount>
           <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$24.43</FormattedPrice>
+          <FormattedPrice>$27.96</FormattedPrice>
         </LowestUsedPrice>
-        <TotalNew>58</TotalNew>
-        <TotalUsed>64</TotalUsed>
+        <TotalNew>47</TotalNew>
+        <TotalUsed>59</TotalUsed>
         <TotalCollectible>0</TotalCollectible>
         <TotalRefurbished>0</TotalRefurbished>
       </OfferSummary>
@@ -76,18 +76,18 @@
             <SubCondition>new</SubCondition>
           </OfferAttributes>
           <OfferListing>
-            <OfferListingId>UCJQjXqyKvkWYpeYuduWsCUH8dkRgcGdbhbV7UbJBhy97aLXJ64ZgVnN%2F7iSct28xNV74u8%2FGIjWtp2lCo8S%2Fw%3D%3D</OfferListingId>
+            <OfferListingId>i1Lz91yGKFqf8JZlFKLJnAMnwxtqsMP%2BVMAY%2Bn%2Fr1wf%2F97ZYRogfqyfKOp4UJQ%2BNHfRqBMmy1B%2BuIqibh2RdmA%3D%3D</OfferListingId>
             <Price>
-              <Amount>3896</Amount>
+              <Amount>4841</Amount>
               <CurrencyCode>USD</CurrencyCode>
-              <FormattedPrice>$38.96</FormattedPrice>
+              <FormattedPrice>$48.41</FormattedPrice>
             </Price>
             <AmountSaved>
-              <Amount>2103</Amount>
+              <Amount>1158</Amount>
               <CurrencyCode>USD</CurrencyCode>
-              <FormattedPrice>$21.03</FormattedPrice>
+              <FormattedPrice>$11.58</FormattedPrice>
             </AmountSaved>
-            <PercentageSaved>35</PercentageSaved>
+            <PercentageSaved>19</PercentageSaved>
             <Availability>Usually ships in 24 hours</Availability>
             <AvailabilityAttributes>
               <AvailabilityType>now</AvailabilityType>

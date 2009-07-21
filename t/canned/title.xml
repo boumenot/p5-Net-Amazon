@@ -1,11 +1,11 @@
 <?xml version="1.0"?>
-<ItemSearchResponse xmlns="http://webservices.amazon.com/AWSECommerceService/2009-03-31">
+<ItemSearchResponse xmlns="http://webservices.amazon.com/AWSECommerceService/2009-07-01">
   <Items>
-    <TotalResults>200</TotalResults>
-    <TotalPages>20</TotalPages>
+    <TotalResults>203</TotalResults>
+    <TotalPages>21</TotalPages>
     <Item>
       <ASIN>1905857829</ASIN>
-      <SalesRank>54360</SalesRank>
+      <SalesRank>250826</SalesRank>
       <ItemAttributes>
         <Author>Philippa Faulks</Author>
         <Author>Robert L D Cooper</Author>
@@ -46,16 +46,16 @@
       </ItemAttributes>
       <OfferSummary>
         <LowestNewPrice>
-          <Amount>1247</Amount>
+          <Amount>1346</Amount>
           <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$12.47</FormattedPrice>
+          <FormattedPrice>$13.46</FormattedPrice>
         </LowestNewPrice>
         <LowestUsedPrice>
-          <Amount>1441</Amount>
+          <Amount>1347</Amount>
           <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$14.41</FormattedPrice>
+          <FormattedPrice>$13.47</FormattedPrice>
         </LowestUsedPrice>
-        <TotalNew>27</TotalNew>
+        <TotalNew>22</TotalNew>
         <TotalUsed>9</TotalUsed>
         <TotalCollectible>0</TotalCollectible>
         <TotalRefurbished>0</TotalRefurbished>
@@ -75,7 +75,7 @@
             <SubCondition>new</SubCondition>
           </OfferAttributes>
           <OfferListing>
-            <OfferListingId>5%2B6NzYGV%2FxlHhLdnIbG78c2HaSjZvqbnV0Ut6vCFRWy9Z0fdKW7tmEZLQlgNPCS1ekMsNbW6BiX4UXe9cTUQqg%3D%3D</OfferListingId>
+            <OfferListingId>sDUu%2BZRnLjB54Hk6qhY1PQexI6p2vPNcu%2B5BXHGIJeuBRFRYyU49L6vF7vzr6EKLOR8srXj86qMQkhyMJmN53g%3D%3D</OfferListingId>
             <Price>
               <Amount>1647</Amount>
               <CurrencyCode>USD</CurrencyCode>
@@ -100,8 +100,231 @@
       </Offers>
     </Item>
     <Item>
+      <ASIN>0060006900</ASIN>
+      <SalesRank>454352</SalesRank>
+      <ItemAttributes>
+        <Author>Iain Mccalman</Author>
+        <Binding>Hardcover</Binding>
+        <DeweyDecimalNumber>133.092</DeweyDecimalNumber>
+        <EAN>9780060006907</EAN>
+        <Edition>1st</Edition>
+        <ISBN>0060006900</ISBN>
+        <Label>HarperCollins</Label>
+        <Languages>
+          <Language>
+            <Name>English</Name>
+            <Type>Original Language</Type>
+          </Language>
+          <Language>
+            <Name>English</Name>
+            <Type>Unknown</Type>
+          </Language>
+          <Language>
+            <Name>English</Name>
+            <Type>Published</Type>
+          </Language>
+        </Languages>
+        <ListPrice>
+          <Amount>2595</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$25.95</FormattedPrice>
+        </ListPrice>
+        <Manufacturer>HarperCollins</Manufacturer>
+        <NumberOfItems>1</NumberOfItems>
+        <NumberOfPages>288</NumberOfPages>
+        <ProductGroup>Book</ProductGroup>
+        <ProductTypeName>ABIS_BOOK</ProductTypeName>
+        <PublicationDate>2003-06-01</PublicationDate>
+        <Publisher>HarperCollins</Publisher>
+        <ReleaseDate>2003-06-03</ReleaseDate>
+        <Studio>HarperCollins</Studio>
+        <Title>The Last Alchemist: Count Cagliostro, Master of Magic in the Age of Reason</Title>
+      </ItemAttributes>
+      <OfferSummary>
+        <LowestNewPrice>
+          <Amount>699</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$6.99</FormattedPrice>
+        </LowestNewPrice>
+        <LowestUsedPrice>
+          <Amount>98</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$0.98</FormattedPrice>
+        </LowestUsedPrice>
+        <LowestCollectiblePrice>
+          <Amount>2595</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$25.95</FormattedPrice>
+        </LowestCollectiblePrice>
+        <TotalNew>11</TotalNew>
+        <TotalUsed>42</TotalUsed>
+        <TotalCollectible>2</TotalCollectible>
+        <TotalRefurbished>0</TotalRefurbished>
+      </OfferSummary>
+      <Offers>
+        <TotalOffers>0</TotalOffers>
+        <TotalOfferPages>0</TotalOfferPages>
+      </Offers>
+    </Item>
+    <Item>
+      <ASIN>B0006C4DQ4</ASIN>
+      <SalesRank>1426067</SalesRank>
+      <ItemAttributes>
+        <Author>Andrew Susac</Author>
+        <Binding>Unknown Binding</Binding>
+        <Edition>1st</Edition>
+        <Label>Doubleday</Label>
+        <Languages>
+          <Language>
+            <Name>English</Name>
+            <Type>Published</Type>
+          </Language>
+        </Languages>
+        <Manufacturer>Doubleday</Manufacturer>
+        <NumberOfPages>146</NumberOfPages>
+        <ProductGroup>Book</ProductGroup>
+        <ProductTypeName>ABIS_BOOK</ProductTypeName>
+        <PublicationDate>1972</PublicationDate>
+        <Publisher>Doubleday</Publisher>
+        <Studio>Doubleday</Studio>
+        <Title>God's fool;: A biographical novel of Cagliostro</Title>
+      </ItemAttributes>
+      <OfferSummary>
+        <LowestUsedPrice>
+          <Amount>299</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$2.99</FormattedPrice>
+        </LowestUsedPrice>
+        <TotalNew>0</TotalNew>
+        <TotalUsed>1</TotalUsed>
+        <TotalCollectible>0</TotalCollectible>
+        <TotalRefurbished>0</TotalRefurbished>
+      </OfferSummary>
+      <Offers>
+        <TotalOffers>0</TotalOffers>
+        <TotalOfferPages>0</TotalOfferPages>
+      </Offers>
+    </Item>
+    <Item>
+      <ASIN>B000RQ293I</ASIN>
+      <SalesRank>1426066</SalesRank>
+      <ItemAttributes>
+        <Author>Harry C. Schnur</Author>
+        <Binding>Hardcover</Binding>
+        <Label>Beechhurst Press</Label>
+        <Manufacturer>Beechhurst Press</Manufacturer>
+        <ProductGroup>Book</ProductGroup>
+        <ProductTypeName>BOOKS_1973_AND_LATER</ProductTypeName>
+        <PublicationDate>1949</PublicationDate>
+        <Publisher>Beechhurst Press</Publisher>
+        <Studio>Beechhurst Press</Studio>
+        <Title>Mystic Rebels - Apollonius of Tyaneus, Jan Van Leyden, Sabbatai Zevi, Cagliostro</Title>
+      </ItemAttributes>
+      <OfferSummary>
+        <LowestUsedPrice>
+          <Amount>1250</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$12.50</FormattedPrice>
+        </LowestUsedPrice>
+        <TotalNew>0</TotalNew>
+        <TotalUsed>5</TotalUsed>
+        <TotalCollectible>0</TotalCollectible>
+        <TotalRefurbished>0</TotalRefurbished>
+      </OfferSummary>
+      <Offers>
+        <TotalOffers>0</TotalOffers>
+        <TotalOfferPages>0</TotalOfferPages>
+      </Offers>
+    </Item>
+    <Item>
+      <ASIN>B000OM76UQ</ASIN>
+      <SalesRank>1443269</SalesRank>
+      <ItemAttributes>
+        <Author>Francois Ribadeau Dumas</Author>
+        <Binding>Hardcover</Binding>
+        <Label>George Allen &amp; UNWIN Ltd</Label>
+        <Manufacturer>George Allen &amp; UNWIN Ltd</Manufacturer>
+        <ProductGroup>Book</ProductGroup>
+        <ProductTypeName>BOOKS_1973_AND_LATER</ProductTypeName>
+        <PublicationDate>1967</PublicationDate>
+        <Publisher>George Allen &amp; UNWIN Ltd</Publisher>
+        <Studio>George Allen &amp; UNWIN Ltd</Studio>
+        <Title>Cagliostro</Title>
+      </ItemAttributes>
+      <OfferSummary>
+        <LowestUsedPrice>
+          <Amount>1125</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$11.25</FormattedPrice>
+        </LowestUsedPrice>
+        <TotalNew>0</TotalNew>
+        <TotalUsed>1</TotalUsed>
+        <TotalCollectible>0</TotalCollectible>
+        <TotalRefurbished>0</TotalRefurbished>
+      </OfferSummary>
+      <Offers>
+        <TotalOffers>0</TotalOffers>
+        <TotalOfferPages>0</TotalOfferPages>
+      </Offers>
+    </Item>
+    <Item>
+      <ASIN>9706666079</ASIN>
+      <SalesRank>1695756</SalesRank>
+      <ItemAttributes>
+        <Author>Luis Zepeda Castaneda</Author>
+        <Binding>Paperback</Binding>
+        <DeweyDecimalNumber>920</DeweyDecimalNumber>
+        <EAN>9789706666079</EAN>
+        <ISBN>9706666079</ISBN>
+        <Label>Tomo</Label>
+        <Languages>
+          <Language>
+            <Name>Spanish</Name>
+            <Type>Original Language</Type>
+          </Language>
+          <Language>
+            <Name>Spanish</Name>
+            <Type>Unknown</Type>
+          </Language>
+          <Language>
+            <Name>Spanish</Name>
+            <Type>Published</Type>
+          </Language>
+        </Languages>
+        <ListPrice>
+          <Amount>495</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$4.95</FormattedPrice>
+        </ListPrice>
+        <Manufacturer>Tomo</Manufacturer>
+        <NumberOfItems>1</NumberOfItems>
+        <NumberOfPages>128</NumberOfPages>
+        <ProductGroup>Book</ProductGroup>
+        <ProductTypeName>ABIS_BOOK</ProductTypeName>
+        <PublicationDate>2008-01-28</PublicationDate>
+        <Publisher>Tomo</Publisher>
+        <Studio>Tomo</Studio>
+        <Title>Conde Cagliostro/ Count Alessandro di Cagliostro (Los Grandes) (Spanish Edition)</Title>
+      </ItemAttributes>
+      <OfferSummary>
+        <LowestUsedPrice>
+          <Amount>425</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$4.25</FormattedPrice>
+        </LowestUsedPrice>
+        <TotalNew>0</TotalNew>
+        <TotalUsed>2</TotalUsed>
+        <TotalCollectible>0</TotalCollectible>
+        <TotalRefurbished>0</TotalRefurbished>
+      </OfferSummary>
+      <Offers>
+        <TotalOffers>0</TotalOffers>
+        <TotalOfferPages>0</TotalOfferPages>
+      </Offers>
+    </Item>
+    <Item>
       <ASIN>0913866709</ASIN>
-      <SalesRank>790741</SalesRank>
+      <SalesRank>1226427</SalesRank>
       <ItemAttributes>
         <Author>Bruno Sigon</Author>
         <Binding>Paperback</Binding>
@@ -145,9 +368,9 @@
           <FormattedPrice>$60.00</FormattedPrice>
         </LowestNewPrice>
         <LowestUsedPrice>
-          <Amount>3000</Amount>
+          <Amount>4800</Amount>
           <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$30.00</FormattedPrice>
+          <FormattedPrice>$48.00</FormattedPrice>
         </LowestUsedPrice>
         <TotalNew>5</TotalNew>
         <TotalUsed>8</TotalUsed>
@@ -160,74 +383,8 @@
       </Offers>
     </Item>
     <Item>
-      <ASIN>0060006919</ASIN>
-      <SalesRank>934638</SalesRank>
-      <ItemAttributes>
-        <Author>Iain Mccalman</Author>
-        <Binding>Paperback</Binding>
-        <DeweyDecimalNumber>133</DeweyDecimalNumber>
-        <EAN>9780060006914</EAN>
-        <ISBN>0060006919</ISBN>
-        <Label>Harper Perennial</Label>
-        <Languages>
-          <Language>
-            <Name>English</Name>
-            <Type>Original Language</Type>
-          </Language>
-          <Language>
-            <Name>English</Name>
-            <Type>Unknown</Type>
-          </Language>
-          <Language>
-            <Name>English</Name>
-            <Type>Published</Type>
-          </Language>
-        </Languages>
-        <ListPrice>
-          <Amount>1395</Amount>
-          <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$13.95</FormattedPrice>
-        </ListPrice>
-        <Manufacturer>Harper Perennial</Manufacturer>
-        <NumberOfItems>1</NumberOfItems>
-        <NumberOfPages>288</NumberOfPages>
-        <ProductGroup>Book</ProductGroup>
-        <ProductTypeName>ABIS_BOOK</ProductTypeName>
-        <PublicationDate>2004-04-01</PublicationDate>
-        <Publisher>Harper Perennial</Publisher>
-        <ReleaseDate>2004-04-13</ReleaseDate>
-        <Studio>Harper Perennial</Studio>
-        <Title>The Last Alchemist: Count Cagliostro, Master of Magic in the Age of Reason</Title>
-      </ItemAttributes>
-      <OfferSummary>
-        <LowestNewPrice>
-          <Amount>555</Amount>
-          <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$5.55</FormattedPrice>
-        </LowestNewPrice>
-        <LowestUsedPrice>
-          <Amount>204</Amount>
-          <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$2.04</FormattedPrice>
-        </LowestUsedPrice>
-        <LowestCollectiblePrice>
-          <Amount>2450</Amount>
-          <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$24.50</FormattedPrice>
-        </LowestCollectiblePrice>
-        <TotalNew>12</TotalNew>
-        <TotalUsed>23</TotalUsed>
-        <TotalCollectible>1</TotalCollectible>
-        <TotalRefurbished>0</TotalRefurbished>
-      </OfferSummary>
-      <Offers>
-        <TotalOffers>0</TotalOffers>
-        <TotalOfferPages>0</TotalOfferPages>
-      </Offers>
-    </Item>
-    <Item>
       <ASIN>1425330851</ASIN>
-      <SalesRank>1403383</SalesRank>
+      <SalesRank>2947640</SalesRank>
       <ItemAttributes>
         <Author>Cagliostro</Author>
         <Binding>Paperback</Binding>
@@ -265,16 +422,16 @@
       </ItemAttributes>
       <OfferSummary>
         <LowestNewPrice>
-          <Amount>925</Amount>
+          <Amount>922</Amount>
           <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$9.25</FormattedPrice>
+          <FormattedPrice>$9.22</FormattedPrice>
         </LowestNewPrice>
         <LowestUsedPrice>
-          <Amount>1014</Amount>
+          <Amount>1047</Amount>
           <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$10.14</FormattedPrice>
+          <FormattedPrice>$10.47</FormattedPrice>
         </LowestUsedPrice>
-        <TotalNew>14</TotalNew>
+        <TotalNew>12</TotalNew>
         <TotalUsed>4</TotalUsed>
         <TotalCollectible>0</TotalCollectible>
         <TotalRefurbished>0</TotalRefurbished>
@@ -294,7 +451,7 @@
             <SubCondition>new</SubCondition>
           </OfferAttributes>
           <OfferListing>
-            <OfferListingId>yIfuq3unP%2FkPoS%2FZnU%2Bhp9ikHedPEsZ%2B%2Bg4m%2FxgAn3ee9CgrEPMNhCt0RYCgdRNg4hT3kqQoZzyJwuJ7HqDSld9URRr1YBwv</OfferListingId>
+            <OfferListingId>8Xk5rQJ7DSJ3Qywn9XYIplGS6VwFG2N7LxrpfeCNC2Gywrh9P8zmojKnVMe65cNqJs2sRk1F%2FmkOFQdqcrrW9LJeG8lox9jw</OfferListingId>
             <Price>
               <Amount>1244</Amount>
               <CurrencyCode>USD</CurrencyCode>
@@ -319,382 +476,58 @@
       </Offers>
     </Item>
     <Item>
-      <ASIN>B000OM76UQ</ASIN>
-      <SalesRank>1917206</SalesRank>
+      <ASIN>B0000D3SWE</ASIN>
       <ItemAttributes>
-        <Author>Francois Ribadeau Dumas</Author>
-        <Binding>Hardcover</Binding>
-        <Label>George Allen &amp; UNWIN Ltd</Label>
-        <Manufacturer>George Allen &amp; UNWIN Ltd</Manufacturer>
+        <Author>Johann Strauss</Author>
+        <Binding>Unknown Binding</Binding>
+        <Format>Import</Format>
+        <ItemDimensions>
+          <Weight Units="hundredths-pounds">174</Weight>
+        </ItemDimensions>
         <ProductGroup>Book</ProductGroup>
-        <ProductTypeName>BOOKS_1973_AND_LATER</ProductTypeName>
-        <PublicationDate>1967</PublicationDate>
-        <Publisher>George Allen &amp; UNWIN Ltd</Publisher>
-        <Studio>George Allen &amp; UNWIN Ltd</Studio>
-        <Title>Cagliostro</Title>
+        <ProductTypeName>ABIS_BOOK</ProductTypeName>
+        <PublicationDate>1880</PublicationDate>
+        <Title>Valse - " Cagliostro " . [Op. 370. Military band parts.] (Boosé's military Journal)</Title>
       </ItemAttributes>
       <OfferSummary>
-        <LowestUsedPrice>
-          <Amount>1000</Amount>
-          <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$10.00</FormattedPrice>
-        </LowestUsedPrice>
         <TotalNew>0</TotalNew>
-        <TotalUsed>2</TotalUsed>
-        <TotalCollectible>0</TotalCollectible>
-        <TotalRefurbished>0</TotalRefurbished>
-      </OfferSummary>
-      <Offers>
-        <TotalOffers>0</TotalOffers>
-        <TotalOfferPages>0</TotalOfferPages>
-      </Offers>
-    </Item>
-    <Item>
-      <ASIN>1417955880</ASIN>
-      <SalesRank>1946302</SalesRank>
-      <ItemAttributes>
-        <Author>W. R. H. Trowbridge</Author>
-        <Binding>Paperback</Binding>
-        <EAN>9781417955886</EAN>
-        <ISBN>1417955880</ISBN>
-        <Label>Kessinger Publishing</Label>
-        <Languages>
-          <Language>
-            <Name>English</Name>
-            <Type>Unknown</Type>
-          </Language>
-          <Language>
-            <Name>English</Name>
-            <Type>Original Language</Type>
-          </Language>
-          <Language>
-            <Name>English</Name>
-            <Type>Published</Type>
-          </Language>
-        </Languages>
-        <ListPrice>
-          <Amount>1595</Amount>
-          <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$15.95</FormattedPrice>
-        </ListPrice>
-        <Manufacturer>Kessinger Publishing</Manufacturer>
-        <NumberOfItems>1</NumberOfItems>
-        <NumberOfPages>48</NumberOfPages>
-        <ProductGroup>Book</ProductGroup>
-        <ProductTypeName>ABIS_BOOK</ProductTypeName>
-        <PublicationDate>2005-12-30</PublicationDate>
-        <Publisher>Kessinger Publishing</Publisher>
-        <Studio>Kessinger Publishing</Studio>
-        <Title>Giuseppe Balsamo, Cagliostro, and the Diamond Necklace Affair</Title>
-      </ItemAttributes>
-      <OfferSummary>
-        <LowestNewPrice>
-          <Amount>925</Amount>
-          <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$9.25</FormattedPrice>
-        </LowestNewPrice>
-        <LowestUsedPrice>
-          <Amount>830</Amount>
-          <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$8.30</FormattedPrice>
-        </LowestUsedPrice>
-        <TotalNew>15</TotalNew>
-        <TotalUsed>7</TotalUsed>
-        <TotalCollectible>0</TotalCollectible>
-        <TotalRefurbished>0</TotalRefurbished>
-      </OfferSummary>
-      <Offers>
-        <TotalOffers>1</TotalOffers>
-        <TotalOfferPages>1</TotalOfferPages>
-        <Offer>
-          <Merchant>
-            <MerchantId>ATVPDKIKX0DER</MerchantId>
-            <GlancePage>http://www.amazon.com/gp/help/seller/home.html?seller=ATVPDKIKX0DER</GlancePage>
-            <AverageFeedbackRating>0.0</AverageFeedbackRating>
-            <TotalFeedback>0</TotalFeedback>
-          </Merchant>
-          <OfferAttributes>
-            <Condition>New</Condition>
-            <SubCondition>new</SubCondition>
-          </OfferAttributes>
-          <OfferListing>
-            <OfferListingId>MrlGMyVlA801D2EahGDUFMEZeq6%2BqCAEA8icQ2z7ROt5Y53XgoYLA%2Bf6FKoVeF8DkSSMjKPdXsast%2FvPBReMeTFZHolXr%2FmV</OfferListingId>
-            <Price>
-              <Amount>1244</Amount>
-              <CurrencyCode>USD</CurrencyCode>
-              <FormattedPrice>$12.44</FormattedPrice>
-            </Price>
-            <AmountSaved>
-              <Amount>351</Amount>
-              <CurrencyCode>USD</CurrencyCode>
-              <FormattedPrice>$3.51</FormattedPrice>
-            </AmountSaved>
-            <PercentageSaved>22</PercentageSaved>
-            <Availability>Usually ships in 24 hours</Availability>
-            <AvailabilityAttributes>
-              <AvailabilityType>now</AvailabilityType>
-              <MinimumHours>24</MinimumHours>
-              <MaximumHours>24</MaximumHours>
-            </AvailabilityAttributes>
-            <Quantity>-1</Quantity>
-            <IsEligibleForSuperSaverShipping>1</IsEligibleForSuperSaverShipping>
-          </OfferListing>
-        </Offer>
-      </Offers>
-    </Item>
-    <Item>
-      <ASIN>B001NI2WGI</ASIN>
-      <SalesRank>3484350</SalesRank>
-      <ItemAttributes>
-        <Author>W.R.H. Trowbridge</Author>
-        <Binding>Hardcover</Binding>
-        <Label>E.P. Dutton &amp; Co.</Label>
-        <Manufacturer>E.P. Dutton &amp; Co.</Manufacturer>
-        <ProductGroup>Book</ProductGroup>
-        <ProductTypeName>BOOKS_1973_AND_LATER</ProductTypeName>
-        <PublicationDate>1910-01-01</PublicationDate>
-        <Publisher>E.P. Dutton &amp; Co.</Publisher>
-        <Studio>E.P. Dutton &amp; Co.</Studio>
-        <Title>Cagliostro the Splendour and Misery of a Master of Magic</Title>
-      </ItemAttributes>
-      <OfferSummary>
-        <LowestUsedPrice>
-          <Amount>15118</Amount>
-          <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$151.18</FormattedPrice>
-        </LowestUsedPrice>
-        <TotalNew>0</TotalNew>
-        <TotalUsed>1</TotalUsed>
-        <TotalCollectible>0</TotalCollectible>
-        <TotalRefurbished>0</TotalRefurbished>
-      </OfferSummary>
-      <Offers>
-        <TotalOffers>0</TotalOffers>
-        <TotalOfferPages>0</TotalOfferPages>
-      </Offers>
-    </Item>
-    <Item>
-      <ASIN>0099441462</ASIN>
-      <SalesRank>2458439</SalesRank>
-      <ItemAttributes>
-        <Author>Iain McCalman</Author>
-        <Binding>Paperback</Binding>
-        <DeweyDecimalNumber>940</DeweyDecimalNumber>
-        <EAN>9780099441465</EAN>
-        <ISBN>0099441462</ISBN>
-        <Label>Arrow Books Ltd</Label>
-        <Languages>
-          <Language>
-            <Name>English</Name>
-            <Type>Original Language</Type>
-          </Language>
-          <Language>
-            <Name>English</Name>
-            <Type>Unknown</Type>
-          </Language>
-        </Languages>
-        <ListPrice>
-          <Amount>1650</Amount>
-          <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$16.50</FormattedPrice>
-        </ListPrice>
-        <Manufacturer>Arrow Books Ltd</Manufacturer>
-        <NumberOfPages>272</NumberOfPages>
-        <ProductGroup>Book</ProductGroup>
-        <ProductTypeName>ABIS_BOOK</ProductTypeName>
-        <PublicationDate>2004-05-06</PublicationDate>
-        <Publisher>Arrow Books Ltd</Publisher>
-        <Studio>Arrow Books Ltd</Studio>
-        <Title>The Seven Ordeals of Count Cagliostro</Title>
-      </ItemAttributes>
-      <OfferSummary>
-        <LowestNewPrice>
-          <Amount>2568</Amount>
-          <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$25.68</FormattedPrice>
-        </LowestNewPrice>
-        <LowestUsedPrice>
-          <Amount>1905</Amount>
-          <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$19.05</FormattedPrice>
-        </LowestUsedPrice>
-        <TotalNew>4</TotalNew>
-        <TotalUsed>1</TotalUsed>
-        <TotalCollectible>0</TotalCollectible>
-        <TotalRefurbished>0</TotalRefurbished>
-      </OfferSummary>
-      <Offers>
-        <TotalOffers>0</TotalOffers>
-        <TotalOfferPages>0</TotalOfferPages>
-      </Offers>
-    </Item>
-    <Item>
-      <ASIN>9706666079</ASIN>
-      <SalesRank>4097495</SalesRank>
-      <ItemAttributes>
-        <Author>Luis Zepeda Castaneda</Author>
-        <Binding>Paperback</Binding>
-        <DeweyDecimalNumber>920</DeweyDecimalNumber>
-        <EAN>9789706666079</EAN>
-        <ISBN>9706666079</ISBN>
-        <Label>Tomo</Label>
-        <Languages>
-          <Language>
-            <Name>Spanish</Name>
-            <Type>Original Language</Type>
-          </Language>
-          <Language>
-            <Name>Spanish</Name>
-            <Type>Unknown</Type>
-          </Language>
-          <Language>
-            <Name>Spanish</Name>
-            <Type>Published</Type>
-          </Language>
-        </Languages>
-        <ListPrice>
-          <Amount>495</Amount>
-          <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$4.95</FormattedPrice>
-        </ListPrice>
-        <Manufacturer>Tomo</Manufacturer>
-        <NumberOfItems>1</NumberOfItems>
-        <NumberOfPages>128</NumberOfPages>
-        <ProductGroup>Book</ProductGroup>
-        <ProductTypeName>ABIS_BOOK</ProductTypeName>
-        <PublicationDate>2008-01-28</PublicationDate>
-        <Publisher>Tomo</Publisher>
-        <Studio>Tomo</Studio>
-        <Title>Conde Cagliostro/ Count Alessandro di Cagliostro (Los Grandes) (Spanish Edition)</Title>
-      </ItemAttributes>
-      <OfferSummary>
-        <LowestNewPrice>
-          <Amount>495</Amount>
-          <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$4.95</FormattedPrice>
-        </LowestNewPrice>
-        <LowestUsedPrice>
-          <Amount>425</Amount>
-          <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$4.25</FormattedPrice>
-        </LowestUsedPrice>
-        <TotalNew>1</TotalNew>
-        <TotalUsed>3</TotalUsed>
-        <TotalCollectible>0</TotalCollectible>
-        <TotalRefurbished>0</TotalRefurbished>
-      </OfferSummary>
-      <Offers>
-        <TotalOffers>1</TotalOffers>
-        <TotalOfferPages>1</TotalOfferPages>
-        <Offer>
-          <Merchant>
-            <MerchantId>ATVPDKIKX0DER</MerchantId>
-            <GlancePage>http://www.amazon.com/gp/help/seller/home.html?seller=ATVPDKIKX0DER</GlancePage>
-            <AverageFeedbackRating>0.0</AverageFeedbackRating>
-            <TotalFeedback>0</TotalFeedback>
-          </Merchant>
-          <OfferAttributes>
-            <Condition>New</Condition>
-            <SubCondition>new</SubCondition>
-          </OfferAttributes>
-          <OfferListing>
-            <OfferListingId>KMcIrL6wZvroeeg1ECQxYcd0Uw4K1cxJoUgPl9nK1ADOGO6bQBSvNzSRZPnNTVdbsC%2FbD6pv1LjuFlz5V%2BWn0Q%3D%3D</OfferListingId>
-            <Price>
-              <Amount>495</Amount>
-              <CurrencyCode>USD</CurrencyCode>
-              <FormattedPrice>$4.95</FormattedPrice>
-            </Price>
-            <Availability>Temporarily out of stock. Order now and we'll deliver when available. We'll e-mail you with an estimated delivery date as soon as we have more information. Your credit card will not be charged until we ship the item.</Availability>
-            <AvailabilityAttributes>
-              <AvailabilityType>unknown</AvailabilityType>
-              <MinimumHours>672</MinimumHours>
-              <MaximumHours>1008</MaximumHours>
-            </AvailabilityAttributes>
-            <IsEligibleForSuperSaverShipping>1</IsEligibleForSuperSaverShipping>
-          </OfferListing>
-        </Offer>
-      </Offers>
-    </Item>
-    <Item>
-      <ASIN>8479102446</ASIN>
-      <SalesRank>3912750</SalesRank>
-      <ItemAttributes>
-        <Author>Alessandro Cagliostro</Author>
-        <Binding>Paperback</Binding>
-        <EAN>9788479102449</EAN>
-        <ISBN>8479102446</ISBN>
-        <Label>Humanitas</Label>
-        <Languages>
-          <Language>
-            <Name>Spanish</Name>
-            <Type>Unknown</Type>
-          </Language>
-          <Language>
-            <Name>Spanish</Name>
-            <Type>Original Language</Type>
-          </Language>
-          <Language>
-            <Name>Spanish</Name>
-            <Type>Published</Type>
-          </Language>
-        </Languages>
-        <ListPrice>
-          <Amount>2140</Amount>
-          <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$21.40</FormattedPrice>
-        </ListPrice>
-        <Manufacturer>Humanitas</Manufacturer>
-        <NumberOfItems>1</NumberOfItems>
-        <NumberOfPages>75</NumberOfPages>
-        <ProductGroup>Book</ProductGroup>
-        <ProductTypeName>ABIS_BOOK</ProductTypeName>
-        <PublicationDate>2005-09</PublicationDate>
-        <Publisher>Humanitas</Publisher>
-        <Studio>Humanitas</Studio>
-        <Title>Evangelio de Cagliostro (Spanish Edition)</Title>
-      </ItemAttributes>
-      <OfferSummary>
-        <LowestNewPrice>
-          <Amount>1808</Amount>
-          <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$18.08</FormattedPrice>
-        </LowestNewPrice>
-        <TotalNew>2</TotalNew>
         <TotalUsed>0</TotalUsed>
         <TotalCollectible>0</TotalCollectible>
         <TotalRefurbished>0</TotalRefurbished>
       </OfferSummary>
       <Offers>
-        <TotalOffers>1</TotalOffers>
-        <TotalOfferPages>1</TotalOfferPages>
-        <Offer>
-          <Merchant>
-            <MerchantId>ATVPDKIKX0DER</MerchantId>
-            <GlancePage>http://www.amazon.com/gp/help/seller/home.html?seller=ATVPDKIKX0DER</GlancePage>
-            <AverageFeedbackRating>0.0</AverageFeedbackRating>
-            <TotalFeedback>0</TotalFeedback>
-          </Merchant>
-          <OfferAttributes>
-            <Condition>New</Condition>
-            <SubCondition>new</SubCondition>
-          </OfferAttributes>
-          <OfferListing>
-            <OfferListingId>d6ZR%2FYqyxjcpAcvLr981KLuodMyzHOguq0MCLI26btRNH7lLG%2BsU3Bfno5SZSEB3klwUpXA7Kq3UwISrrdcWrUJ%2BwMI33%2BlD</OfferListingId>
-            <Price>
-              <Amount>2140</Amount>
-              <CurrencyCode>USD</CurrencyCode>
-              <FormattedPrice>$21.40</FormattedPrice>
-            </Price>
-            <Availability>Usually ships in 1 to 3 weeks</Availability>
-            <AvailabilityAttributes>
-              <AvailabilityType>now</AvailabilityType>
-              <MinimumHours>216</MinimumHours>
-              <MaximumHours>456</MaximumHours>
-            </AvailabilityAttributes>
-            <Quantity>-1</Quantity>
-            <IsEligibleForSuperSaverShipping>1</IsEligibleForSuperSaverShipping>
-          </OfferListing>
-        </Offer>
+        <TotalOffers>0</TotalOffers>
+        <TotalOfferPages>0</TotalOfferPages>
+      </Offers>
+    </Item>
+    <Item>
+      <ASIN>B0000CYPR9</ASIN>
+      <ItemAttributes>
+        <Author>George Alexander Lee</Author>
+        <Binding>Unknown Binding</Binding>
+        <Format>Import</Format>
+        <ItemDimensions>
+          <Weight Units="hundredths-pounds">174</Weight>
+        </ItemDimensions>
+        <Label>Bunting Walsh Pigott and Sherwin</Label>
+        <Manufacturer>Bunting Walsh Pigott and Sherwin</Manufacturer>
+        <NumberOfPages>9</NumberOfPages>
+        <ProductGroup>Book</ProductGroup>
+        <ProductTypeName>ABIS_BOOK</ProductTypeName>
+        <PublicationDate>1825</PublicationDate>
+        <Publisher>Bunting Walsh Pigott and Sherwin</Publisher>
+        <Studio>Bunting Walsh Pigott and Sherwin</Studio>
+        <Title>" Be wise &amp; never take a Wife, " [song] as sung by Mrs Browne in the new grand melo-drama of Cagliostro. The words by Butler Danvers ... Arranged &amp; in part ... Lee. &lt; Flute, voice, piano forte. &gt; [Score.]</Title>
+      </ItemAttributes>
+      <OfferSummary>
+        <TotalNew>0</TotalNew>
+        <TotalUsed>0</TotalUsed>
+        <TotalCollectible>0</TotalCollectible>
+        <TotalRefurbished>0</TotalRefurbished>
+      </OfferSummary>
+      <Offers>
+        <TotalOffers>0</TotalOffers>
+        <TotalOfferPages>0</TotalOfferPages>
       </Offers>
     </Item>
   </Items>

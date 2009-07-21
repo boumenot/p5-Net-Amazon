@@ -39,14 +39,14 @@ ok($resp->is_success(), "Request successful");
 my @properties = $resp->properties();
 is(scalar @properties, 10, "10 movies");
 
-my $i = 2;
+my $i = 3;
 
 like($resp->as_string(), qr/Bedtime Stories.*?Wedding Singer/s, "Examine Movies");
 
 my @starring = $properties[$i]->starring();
 
 is($properties[$i]->actor, "Adam Sandler", "Check actor");
-is($starring[$i], "Christine Taylor", "Check starring");
+is($starring[$i], "Allen Covert", "Check starring");
 is($properties[$i]->director, "Frank Coraci", "Check director");
 like($properties[$i]->title, qr/The Wedding Singer.*/, "Check title");
 is($properties[$i]->studio, "New Line Home Video", "Check studio");

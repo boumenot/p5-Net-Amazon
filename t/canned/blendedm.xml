@@ -1,44 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ItemSearchResponse xmlns="http://webservices.amazon.com/AWSECommerceService/2009-03-31">
+<ItemSearchResponse xmlns="http://webservices.amazon.com/AWSECommerceService/2009-07-01">
   <Items>
-    <TotalResults>2705</TotalResults>
-    <TotalPages>907</TotalPages>
-    <Item>
-      <ASIN>B000ASNBN0</ASIN>
-      <SalesRank>19646</SalesRank>
-      <ItemAttributes>
-        <Binding>Kitchen</Binding>
-        <Brand>Persil</Brand>
-        <Feature>Persil Megaperls is specially formulated to protect lighter colors.  </Feature>
-        <Feature>It is a high-efficiency heavy-duty laundry detergent for use with all types of fabrics. Suitable for whites, light colors and colorfast fabrics.</Feature>
-        <Feature>Persil Megaperls is highly concentrated and guarantees best cleaning performance while being gentle on your clothes and the environment.</Feature>
-        <Feature>Persil Megaperls will keep your clothes looking new longer.</Feature>
-        <Feature>50 loads per box. Use about 1/4 cup per load.</Feature>
-        <Label>Henkel</Label>
-        <Manufacturer>Henkel</Manufacturer>
-        <ProductGroup>Kitchen</ProductGroup>
-        <ProductTypeName>HOME</ProductTypeName>
-        <Publisher>Henkel</Publisher>
-        <Size>3.645 KG</Size>
-        <Studio>Henkel</Studio>
-        <Title>Persil Megaperls</Title>
-      </ItemAttributes>
-      <OfferSummary>
-        <LowestNewPrice>
-          <Amount>4999</Amount>
-          <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$49.99</FormattedPrice>
-        </LowestNewPrice>
-        <TotalNew>4</TotalNew>
-        <TotalUsed>0</TotalUsed>
-        <TotalCollectible>0</TotalCollectible>
-        <TotalRefurbished>0</TotalRefurbished>
-      </OfferSummary>
-      <Offers>
-        <TotalOffers>0</TotalOffers>
-        <TotalOfferPages>0</TotalOfferPages>
-      </Offers>
-    </Item>
+    <TotalResults>2658</TotalResults>
+    <TotalPages>891</TotalPages>
     <Item>
       <ASIN>B001BM8SJG</ASIN>
       <ItemAttributes>
@@ -66,6 +30,24 @@
           <FormattedPrice>$18.21</FormattedPrice>
         </LowestNewPrice>
         <TotalNew>1</TotalNew>
+        <TotalUsed>0</TotalUsed>
+        <TotalCollectible>0</TotalCollectible>
+        <TotalRefurbished>0</TotalRefurbished>
+      </OfferSummary>
+      <Offers>
+        <TotalOffers>0</TotalOffers>
+        <TotalOfferPages>0</TotalOfferPages>
+      </Offers>
+    </Item>
+    <Item>
+      <ASIN>B002GOQYC6</ASIN>
+      <ItemAttributes>
+        <ProductGroup>Kitchen</ProductGroup>
+        <ProductTypeName>KITCHEN</ProductTypeName>
+        <Title>Cake Stencil Persia LARGE</Title>
+      </ItemAttributes>
+      <OfferSummary>
+        <TotalNew>0</TotalNew>
         <TotalUsed>0</TotalUsed>
         <TotalCollectible>0</TotalCollectible>
         <TotalRefurbished>0</TotalRefurbished>
@@ -112,7 +94,7 @@
     </Item>
     <Item>
       <ASIN>B0007YXPRE</ASIN>
-      <SalesRank>27320</SalesRank>
+      <SalesRank>30979</SalesRank>
       <ItemAttributes>
         <Actor>Megan Mullally</Actor>
         <Actor>Scott Beaudin</Actor>
@@ -134,7 +116,7 @@
         <Format>Box set</Format>
         <Format>Closed-captioned</Format>
         <Format>Color</Format>
-        <Format>DVD-Video</Format>
+        <Format>DVD</Format>
         <Format>NTSC</Format>
         <ISBN>1593753519</ISBN>
         <Label>Wgbh Boston</Label>
@@ -164,22 +146,22 @@
       </ItemAttributes>
       <OfferSummary>
         <LowestNewPrice>
-          <Amount>1619</Amount>
+          <Amount>1596</Amount>
           <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$16.19</FormattedPrice>
+          <FormattedPrice>$15.96</FormattedPrice>
         </LowestNewPrice>
         <LowestUsedPrice>
-          <Amount>1763</Amount>
+          <Amount>1737</Amount>
           <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$17.63</FormattedPrice>
+          <FormattedPrice>$17.37</FormattedPrice>
         </LowestUsedPrice>
         <LowestCollectiblePrice>
           <Amount>3095</Amount>
           <CurrencyCode>USD</CurrencyCode>
           <FormattedPrice>$30.95</FormattedPrice>
         </LowestCollectiblePrice>
-        <TotalNew>29</TotalNew>
-        <TotalUsed>7</TotalUsed>
+        <TotalNew>27</TotalNew>
+        <TotalUsed>5</TotalUsed>
         <TotalCollectible>1</TotalCollectible>
         <TotalRefurbished>0</TotalRefurbished>
       </OfferSummary>
@@ -198,7 +180,7 @@
             <SubCondition>new</SubCondition>
           </OfferAttributes>
           <OfferListing>
-            <OfferListingId>7DQTQk2Dy49jMtvbRt5IJWlxkDuh5KwdBkzvUcNS%2BTCpztE4XS1xr4ZxwBhr4qylUWtJrMhId2y0U5uT2e6PBVga0kOxQl9j</OfferListingId>
+            <OfferListingId>0sYdgsAxxbZe8FiiH1z%2FntV13fioh98R9D3d7%2B2ATD%2F61FUiHz1%2B4UCif3T%2FS1KO%2BVYtGg3ySe64F9p9yPdvj66bVn46O6g9</OfferListingId>
             <Price>
               <Amount>1849</Amount>
               <CurrencyCode>USD</CurrencyCode>
@@ -223,122 +205,8 @@
       </Offers>
     </Item>
     <Item>
-      <ASIN>B0009UZGAU</ASIN>
-      <SalesRank>24740</SalesRank>
-      <ItemAttributes>
-        <Actor>Megan Mullally</Actor>
-        <Actor>Scott Beaudin</Actor>
-        <Actor>Raquel Cadilha</Actor>
-        <Actor>Marium Carvell</Actor>
-        <Actor>Corinne Conley</Actor>
-        <AspectRatio>1.33:1</AspectRatio>
-        <AudienceRating>NR (Not Rated)</AudienceRating>
-        <Binding>DVD</Binding>
-        <Creator Role="Writer">Daisy Scott</Creator>
-        <Creator Role="Writer">Diana DeCubellis</Creator>
-        <Creator Role="Writer">Diana Fischer</Creator>
-        <Creator Role="Writer">Erica S. Perl</Creator>
-        <Creator Role="Writer">Gentry Menzel</Creator>
-        <Creator Role="Writer">Joe Fallon</Creator>
-        <Creator Role="Writer">Jonathan Greenberg</Creator>
-        <Director>Rick Marshall</Director>
-        <EAN>9781593754891</EAN>
-        <Format>Box set</Format>
-        <Format>Closed-captioned</Format>
-        <Format>Color</Format>
-        <Format>DVD-Video</Format>
-        <Format>NTSC</Format>
-        <ISBN>1593754892</ISBN>
-        <Label>Wgbh Boston</Label>
-        <Languages>
-          <Language>
-            <Name>English</Name>
-            <Type>Original Language</Type>
-          </Language>
-        </Languages>
-        <ListPrice>
-          <Amount>2995</Amount>
-          <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$29.95</FormattedPrice>
-        </ListPrice>
-        <Manufacturer>Wgbh Boston</Manufacturer>
-        <MPN>40179</MPN>
-        <NumberOfItems>3</NumberOfItems>
-        <OriginalReleaseDate>2005-01-01</OriginalReleaseDate>
-        <ProductGroup>DVD</ProductGroup>
-        <ProductTypeName>ABIS_DVD</ProductTypeName>
-        <Publisher>Wgbh Boston</Publisher>
-        <RegionCode>1</RegionCode>
-        <ReleaseDate>2005-10-11</ReleaseDate>
-        <RunningTime Units="minutes">180</RunningTime>
-        <Studio>Wgbh Boston</Studio>
-        <TheatricalReleaseDate>2005</TheatricalReleaseDate>
-        <Title>Peep and His Pals - Peep Explores / Chirp Flies / Quack Knows it All</Title>
-        <UPC>783421401792</UPC>
-      </ItemAttributes>
-      <OfferSummary>
-        <LowestNewPrice>
-          <Amount>1617</Amount>
-          <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$16.17</FormattedPrice>
-        </LowestNewPrice>
-        <LowestUsedPrice>
-          <Amount>1762</Amount>
-          <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$17.62</FormattedPrice>
-        </LowestUsedPrice>
-        <LowestCollectiblePrice>
-          <Amount>3195</Amount>
-          <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$31.95</FormattedPrice>
-        </LowestCollectiblePrice>
-        <TotalNew>25</TotalNew>
-        <TotalUsed>6</TotalUsed>
-        <TotalCollectible>1</TotalCollectible>
-        <TotalRefurbished>0</TotalRefurbished>
-      </OfferSummary>
-      <Offers>
-        <TotalOffers>1</TotalOffers>
-        <TotalOfferPages>1</TotalOfferPages>
-        <Offer>
-          <Merchant>
-            <MerchantId>ATVPDKIKX0DER</MerchantId>
-            <GlancePage>http://www.amazon.com/gp/help/seller/home.html?seller=ATVPDKIKX0DER</GlancePage>
-            <AverageFeedbackRating>0.0</AverageFeedbackRating>
-            <TotalFeedback>0</TotalFeedback>
-          </Merchant>
-          <OfferAttributes>
-            <Condition>New</Condition>
-            <SubCondition>new</SubCondition>
-          </OfferAttributes>
-          <OfferListing>
-            <OfferListingId>CZ4wnZQmy43qYJjZ83Fbdvbh2MgbqXn2YV3pwfK%2Be5VvcP5jk1%2FyQZ2nmeEGebkeJ2GUd%2BEuegtXrzevoqlADP%2FJHmBRtjxL</OfferListingId>
-            <Price>
-              <Amount>2499</Amount>
-              <CurrencyCode>USD</CurrencyCode>
-              <FormattedPrice>$24.99</FormattedPrice>
-            </Price>
-            <AmountSaved>
-              <Amount>496</Amount>
-              <CurrencyCode>USD</CurrencyCode>
-              <FormattedPrice>$4.96</FormattedPrice>
-            </AmountSaved>
-            <PercentageSaved>17</PercentageSaved>
-            <Availability>Usually ships in 24 hours</Availability>
-            <AvailabilityAttributes>
-              <AvailabilityType>now</AvailabilityType>
-              <MinimumHours>0</MinimumHours>
-              <MaximumHours>0</MaximumHours>
-            </AvailabilityAttributes>
-            <Quantity>-1</Quantity>
-            <IsEligibleForSuperSaverShipping>1</IsEligibleForSuperSaverShipping>
-          </OfferListing>
-        </Offer>
-      </Offers>
-    </Item>
-    <Item>
       <ASIN>B000PWQPB6</ASIN>
-      <SalesRank>25785</SalesRank>
+      <SalesRank>45274</SalesRank>
       <ItemAttributes>
         <Actor>Megan Mullally</Actor>
         <Actor>Scott Beaudin</Actor>
@@ -360,7 +228,7 @@
         <EAN>0783421418899</EAN>
         <Format>Closed-captioned</Format>
         <Format>Color</Format>
-        <Format>DVD-Video</Format>
+        <Format>DVD</Format>
         <Format>NTSC</Format>
         <ItemDimensions>
           <Weight Units="hundredths-pounds">15</Weight>
@@ -396,9 +264,9 @@
       </ItemAttributes>
       <OfferSummary>
         <LowestNewPrice>
-          <Amount>594</Amount>
+          <Amount>602</Amount>
           <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$5.94</FormattedPrice>
+          <FormattedPrice>$6.02</FormattedPrice>
         </LowestNewPrice>
         <LowestUsedPrice>
           <Amount>624</Amount>
@@ -410,8 +278,8 @@
           <CurrencyCode>USD</CurrencyCode>
           <FormattedPrice>$16.85</FormattedPrice>
         </LowestCollectiblePrice>
-        <TotalNew>33</TotalNew>
-        <TotalUsed>7</TotalUsed>
+        <TotalNew>20</TotalNew>
+        <TotalUsed>2</TotalUsed>
         <TotalCollectible>1</TotalCollectible>
         <TotalRefurbished>0</TotalRefurbished>
       </OfferSummary>
@@ -430,7 +298,7 @@
             <SubCondition>new</SubCondition>
           </OfferAttributes>
           <OfferListing>
-            <OfferListingId>UKUMxIzemZ3rY1oofgnBfCne%2FFlr7F7pX4%2FF02O6%2FUYdyUsMqHznxQjtUAE7DrxknmYuCnjtpPvYF7lEceOtBQ%3D%3D</OfferListingId>
+            <OfferListingId>3FzcI7pU6tSRvft1uUoaiwtLkjeg8PDMqdpFkRm%2F%2FH0Updv1gP%2F4Ye1GsIzupQVh3M66V3KXL1hp1toPEinSDg%3D%3D</OfferListingId>
             <Price>
               <Amount>1149</Amount>
               <CurrencyCode>USD</CurrencyCode>
@@ -455,25 +323,33 @@
       </Offers>
     </Item>
     <Item>
-      <ASIN>6303347681</ASIN>
-      <SalesRank>21419</SalesRank>
+      <ASIN>B0009UZGAU</ASIN>
+      <SalesRank>24806</SalesRank>
       <ItemAttributes>
-        <Actor>Malcolm X</Actor>
-        <Actor>James Earl Jones</Actor>
-        <Actor>Martin Luther King</Actor>
-        <Actor>Betty Shabazz</Actor>
-        <Actor>Ossie Davis</Actor>
-        <AudienceRating>PG (Parental Guidance Suggested)</AudienceRating>
-        <Binding>VHS Tape</Binding>
-        <Director>Arnold Perl</Director>
-        <EAN>9786303347684</EAN>
-        <Format>Black &amp; White</Format>
+        <Actor>Megan Mullally</Actor>
+        <Actor>Scott Beaudin</Actor>
+        <Actor>Raquel Cadilha</Actor>
+        <Actor>Marium Carvell</Actor>
+        <Actor>Corinne Conley</Actor>
+        <AspectRatio>1.33:1</AspectRatio>
+        <AudienceRating>NR (Not Rated)</AudienceRating>
+        <Binding>DVD</Binding>
+        <Creator Role="Writer">Daisy Scott</Creator>
+        <Creator Role="Writer">Diana DeCubellis</Creator>
+        <Creator Role="Writer">Diana Fischer</Creator>
+        <Creator Role="Writer">Erica S. Perl</Creator>
+        <Creator Role="Writer">Gentry Menzel</Creator>
+        <Creator Role="Writer">Joe Fallon</Creator>
+        <Creator Role="Writer">Jonathan Greenberg</Creator>
+        <Director>Rick Marshall</Director>
+        <EAN>9781593754891</EAN>
+        <Format>Box set</Format>
         <Format>Closed-captioned</Format>
         <Format>Color</Format>
-        <Format>HiFi Sound</Format>
+        <Format>DVD</Format>
         <Format>NTSC</Format>
-        <ISBN>6303347681</ISBN>
-        <Label>Warner Home Video</Label>
+        <ISBN>1593754892</ISBN>
+        <Label>Wgbh Boston</Label>
         <Languages>
           <Language>
             <Name>English</Name>
@@ -481,42 +357,88 @@
           </Language>
         </Languages>
         <ListPrice>
-          <Amount>1998</Amount>
+          <Amount>2995</Amount>
           <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$19.98</FormattedPrice>
+          <FormattedPrice>$29.95</FormattedPrice>
         </ListPrice>
-        <Manufacturer>Warner Home Video</Manufacturer>
-        <NumberOfItems>1</NumberOfItems>
-        <OriginalReleaseDate>1972-01-01</OriginalReleaseDate>
-        <ProductGroup>Video</ProductGroup>
-        <ProductTypeName>ABIS_VIDEO</ProductTypeName>
-        <Publisher>Warner Home Video</Publisher>
-        <ReleaseDate>1995-01-31</ReleaseDate>
-        <RunningTime Units="minutes">92</RunningTime>
-        <Studio>Warner Home Video</Studio>
-        <TheatricalReleaseDate>1972</TheatricalReleaseDate>
-        <Title>Malcolm X: His Own Story as it Really Happened [VHS]</Title>
-        <UPC>085391230731</UPC>
+        <Manufacturer>Wgbh Boston</Manufacturer>
+        <MPN>40179</MPN>
+        <NumberOfItems>3</NumberOfItems>
+        <OriginalReleaseDate>2005-01-01</OriginalReleaseDate>
+        <ProductGroup>DVD</ProductGroup>
+        <ProductTypeName>ABIS_DVD</ProductTypeName>
+        <Publisher>Wgbh Boston</Publisher>
+        <RegionCode>1</RegionCode>
+        <ReleaseDate>2005-10-11</ReleaseDate>
+        <RunningTime Units="minutes">180</RunningTime>
+        <Studio>Wgbh Boston</Studio>
+        <TheatricalReleaseDate>2005</TheatricalReleaseDate>
+        <Title>Peep and His Pals - Peep Explores / Chirp Flies / Quack Knows it All</Title>
+        <UPC>783421401792</UPC>
       </ItemAttributes>
       <OfferSummary>
-        <LowestUsedPrice>
-          <Amount>3998</Amount>
+        <LowestNewPrice>
+          <Amount>1576</Amount>
           <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$39.98</FormattedPrice>
+          <FormattedPrice>$15.76</FormattedPrice>
+        </LowestNewPrice>
+        <LowestUsedPrice>
+          <Amount>1763</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$17.63</FormattedPrice>
         </LowestUsedPrice>
-        <TotalNew>0</TotalNew>
-        <TotalUsed>5</TotalUsed>
-        <TotalCollectible>0</TotalCollectible>
+        <LowestCollectiblePrice>
+          <Amount>3195</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$31.95</FormattedPrice>
+        </LowestCollectiblePrice>
+        <TotalNew>29</TotalNew>
+        <TotalUsed>9</TotalUsed>
+        <TotalCollectible>1</TotalCollectible>
         <TotalRefurbished>0</TotalRefurbished>
       </OfferSummary>
       <Offers>
-        <TotalOffers>0</TotalOffers>
-        <TotalOfferPages>0</TotalOfferPages>
+        <TotalOffers>1</TotalOffers>
+        <TotalOfferPages>1</TotalOfferPages>
+        <Offer>
+          <Merchant>
+            <MerchantId>ATVPDKIKX0DER</MerchantId>
+            <GlancePage>http://www.amazon.com/gp/help/seller/home.html?seller=ATVPDKIKX0DER</GlancePage>
+            <AverageFeedbackRating>0.0</AverageFeedbackRating>
+            <TotalFeedback>0</TotalFeedback>
+          </Merchant>
+          <OfferAttributes>
+            <Condition>New</Condition>
+            <SubCondition>new</SubCondition>
+          </OfferAttributes>
+          <OfferListing>
+            <OfferListingId>Pgpe2ouqcVVSb0obDu%2FIcpzbs%2B%2BzWj30%2F4hVvhEGs5r04FBvWsQD4kiGfnTLdcDOjBLC0Gyf5u5DmLqJvXUjFC47NOdvk13i</OfferListingId>
+            <Price>
+              <Amount>2499</Amount>
+              <CurrencyCode>USD</CurrencyCode>
+              <FormattedPrice>$24.99</FormattedPrice>
+            </Price>
+            <AmountSaved>
+              <Amount>496</Amount>
+              <CurrencyCode>USD</CurrencyCode>
+              <FormattedPrice>$4.96</FormattedPrice>
+            </AmountSaved>
+            <PercentageSaved>17</PercentageSaved>
+            <Availability>Usually ships in 24 hours</Availability>
+            <AvailabilityAttributes>
+              <AvailabilityType>now</AvailabilityType>
+              <MinimumHours>0</MinimumHours>
+              <MaximumHours>0</MaximumHours>
+            </AvailabilityAttributes>
+            <Quantity>-1</Quantity>
+            <IsEligibleForSuperSaverShipping>1</IsEligibleForSuperSaverShipping>
+          </OfferListing>
+        </Offer>
       </Offers>
     </Item>
     <Item>
       <ASIN>6301658795</ASIN>
-      <SalesRank>9103</SalesRank>
+      <SalesRank>18491</SalesRank>
       <ItemAttributes>
         <Actor>Louis Armstrong</Actor>
         <Actor>Mahalia Jackson</Actor>
@@ -567,9 +489,9 @@
       </ItemAttributes>
       <OfferSummary>
         <LowestUsedPrice>
-          <Amount>999</Amount>
+          <Amount>697</Amount>
           <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$9.99</FormattedPrice>
+          <FormattedPrice>$6.97</FormattedPrice>
         </LowestUsedPrice>
         <LowestCollectiblePrice>
           <Amount>2899</Amount>
@@ -577,7 +499,7 @@
           <FormattedPrice>$28.99</FormattedPrice>
         </LowestCollectiblePrice>
         <TotalNew>0</TotalNew>
-        <TotalUsed>8</TotalUsed>
+        <TotalUsed>11</TotalUsed>
         <TotalCollectible>1</TotalCollectible>
         <TotalRefurbished>0</TotalRefurbished>
       </OfferSummary>
@@ -587,29 +509,86 @@
       </Offers>
     </Item>
     <Item>
-      <ASIN>6304326246</ASIN>
-      <SalesRank>37571</SalesRank>
+      <ASIN>6304124961</ASIN>
+      <SalesRank>52709</SalesRank>
       <ItemAttributes>
-        <Actor>Gila Almagor</Actor>
-        <Actor>Juliano Mer</Actor>
-        <Actor>Uri Avrahami</Actor>
-        <Actor>Yael Pearl</Actor>
-        <Actor>Alexander Peleg</Actor>
+        <Actor>Cynthia Daniel</Actor>
+        <Actor>Brittany Daniel</Actor>
+        <Actor>Amy Danles</Actor>
+        <Actor>Michael Perl</Actor>
+        <Actor>Ryan Bittle</Actor>
         <AudienceRating>NR (Not Rated)</AudienceRating>
         <Binding>VHS Tape</Binding>
-        <Director>Eli Cohen</Director>
-        <EAN>9786304326244</EAN>
+        <Creator Role="Writer">Eleah Horwitz</Creator>
+        <Director>Brian Thomas Jones</Director>
+        <Director>David Garber</Director>
+        <Director>David Winning</Director>
+        <Director>Harvey Frost</Director>
+        <Director>Joel Bender</Director>
+        <EAN>9786304124963</EAN>
+        <Format>Closed-captioned</Format>
         <Format>Color</Format>
-        <Format>Letterboxed</Format>
-        <Format>Subtitled</Format>
-        <Format>Widescreen</Format>
         <Format>NTSC</Format>
-        <ISBN>6304326246</ISBN>
-        <Label>Fox Lorber</Label>
+        <ISBN>6304124961</ISBN>
+        <Label>Wea Music Video</Label>
+        <ListPrice>
+          <Amount>5999</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$59.99</FormattedPrice>
+        </ListPrice>
+        <Manufacturer>Wea Music Video</Manufacturer>
+        <NumberOfItems>1</NumberOfItems>
+        <OriginalReleaseDate>1994-09-05</OriginalReleaseDate>
+        <ProductGroup>Video</ProductGroup>
+        <ProductTypeName>ABIS_VIDEO</ProductTypeName>
+        <Publisher>Wea Music Video</Publisher>
+        <ReleaseDate>1996-08-20</ReleaseDate>
+        <RunningTime Units="minutes">60</RunningTime>
+        <Studio>Wea Music Video</Studio>
+        <TheatricalReleaseDate>1994-09-05</TheatricalReleaseDate>
+        <Title>Sweet Valley High:Kidnapped [VHS]</Title>
+        <UPC>729014206436</UPC>
+      </ItemAttributes>
+      <OfferSummary>
+        <LowestUsedPrice>
+          <Amount>279</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$2.79</FormattedPrice>
+        </LowestUsedPrice>
+        <TotalNew>0</TotalNew>
+        <TotalUsed>6</TotalUsed>
+        <TotalCollectible>0</TotalCollectible>
+        <TotalRefurbished>0</TotalRefurbished>
+      </OfferSummary>
+      <Offers>
+        <TotalOffers>0</TotalOffers>
+        <TotalOfferPages>0</TotalOfferPages>
+      </Offers>
+    </Item>
+    <Item>
+      <ASIN>6303347681</ASIN>
+      <SalesRank>28965</SalesRank>
+      <ItemAttributes>
+        <Actor>Malcolm X</Actor>
+        <Actor>James Earl Jones</Actor>
+        <Actor>Martin Luther King</Actor>
+        <Actor>Betty Shabazz</Actor>
+        <Actor>Ossie Davis</Actor>
+        <AudienceRating>PG (Parental Guidance Suggested)</AudienceRating>
+        <Binding>VHS Tape</Binding>
+        <Director>Arnold Perl</Director>
+        <EAN>9786303347684</EAN>
+        <Format>Black &amp; White</Format>
+        <Format>Closed-captioned</Format>
+        <Format>Color</Format>
+        <Format>HiFi Sound</Format>
+        <Format>NTSC</Format>
+        <ISBN>6303347681</ISBN>
+        <Label>Warner Home Video</Label>
         <Languages>
           <Language>
             <Name>English</Name>
-            <Type>Subtitled</Type>
+            <Type>Original Language</Type>
           </Language>
         </Languages>
         <ListPrice>
@@ -617,38 +596,209 @@
           <CurrencyCode>USD</CurrencyCode>
           <FormattedPrice>$19.98</FormattedPrice>
         </ListPrice>
-        <Manufacturer>Fox Lorber</Manufacturer>
+        <Manufacturer>Warner Home Video</Manufacturer>
         <NumberOfItems>1</NumberOfItems>
-        <OriginalReleaseDate>1996-05-17</OriginalReleaseDate>
+        <OriginalReleaseDate>1972-01-01</OriginalReleaseDate>
         <ProductGroup>Video</ProductGroup>
         <ProductTypeName>ABIS_VIDEO</ProductTypeName>
-        <Publisher>Fox Lorber</Publisher>
-        <ReleaseDate>1998-03-24</ReleaseDate>
-        <RunningTime Units="minutes">102</RunningTime>
-        <Studio>Fox Lorber</Studio>
-        <TheatricalReleaseDate>1996-05-17</TheatricalReleaseDate>
-        <Title>Under the Domim Tree [VHS]</Title>
-        <UPC>720917012612</UPC>
+        <Publisher>Warner Home Video</Publisher>
+        <ReleaseDate>1995-01-31</ReleaseDate>
+        <RunningTime Units="minutes">92</RunningTime>
+        <Studio>Warner Home Video</Studio>
+        <TheatricalReleaseDate>1972</TheatricalReleaseDate>
+        <Title>Malcolm X: His Own Story as it Really Happened [VHS]</Title>
+        <UPC>085391230731</UPC>
+      </ItemAttributes>
+      <OfferSummary>
+        <LowestUsedPrice>
+          <Amount>2949</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$29.49</FormattedPrice>
+        </LowestUsedPrice>
+        <TotalNew>0</TotalNew>
+        <TotalUsed>7</TotalUsed>
+        <TotalCollectible>0</TotalCollectible>
+        <TotalRefurbished>0</TotalRefurbished>
+      </OfferSummary>
+      <Offers>
+        <TotalOffers>0</TotalOffers>
+        <TotalOfferPages>0</TotalOfferPages>
+      </Offers>
+    </Item>
+    <Item>
+      <ASIN>B00006ANSF</ASIN>
+      <SalesRank>62257</SalesRank>
+      <ItemAttributes>
+        <Binding>Tools &amp; Hardware</Binding>
+        <Brand>Granite City Tool</Brand>
+        <EAN>0662333041435</EAN>
+        <Feature>Easily attachable rolling platform for your worm-drive saw</Feature>
+        <Feature>Make smooth-edged cuts in concrete, granite, marble, wood, and stucco</Feature>
+        <Feature>Eliminate drag, makes guiding saw extremely easy</Feature>
+        <Feature>Attaches to saw in just seconds without the use of any tools</Feature>
+        <Feature>Smooth running wheels eliminate marring of smooth surfaces</Feature>
+        <ItemDimensions>
+          <Weight Units="pounds">2.60</Weight>
+        </ItemDimensions>
+        <Label>Granite City Tool</Label>
+        <ListPrice>
+          <Amount>12160</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$121.60</FormattedPrice>
+        </ListPrice>
+        <Manufacturer>Granite City Tool</Manufacturer>
+        <Model>BR70001</Model>
+        <ProductGroup>Home Improvement</ProductGroup>
+        <ProductTypeName>ABIS_HOME_IMPROVEMENT</ProductTypeName>
+        <Publisher>Granite City Tool</Publisher>
+        <Studio>Granite City Tool</Studio>
+        <Title>Pearl Abrasive Company BR70001 7-Inch Saw Blade Roller for Worm Drive Saws</Title>
+        <UPC>662333041435</UPC>
       </ItemAttributes>
       <OfferSummary>
         <LowestNewPrice>
-          <Amount>3884</Amount>
+          <Amount>7550</Amount>
           <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$38.84</FormattedPrice>
+          <FormattedPrice>$75.50</FormattedPrice>
         </LowestNewPrice>
-        <LowestUsedPrice>
-          <Amount>184</Amount>
-          <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$1.84</FormattedPrice>
-        </LowestUsedPrice>
-        <LowestCollectiblePrice>
-          <Amount>1998</Amount>
-          <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$19.98</FormattedPrice>
-        </LowestCollectiblePrice>
         <TotalNew>1</TotalNew>
-        <TotalUsed>19</TotalUsed>
-        <TotalCollectible>1</TotalCollectible>
+        <TotalUsed>0</TotalUsed>
+        <TotalCollectible>0</TotalCollectible>
+        <TotalRefurbished>0</TotalRefurbished>
+      </OfferSummary>
+      <Offers>
+        <TotalOffers>1</TotalOffers>
+        <TotalOfferPages>1</TotalOfferPages>
+        <Offer>
+          <Merchant>
+            <MerchantId>ATVPDKIKX0DER</MerchantId>
+            <GlancePage>http://www.amazon.com/gp/help/seller/home.html?seller=ATVPDKIKX0DER</GlancePage>
+            <AverageFeedbackRating>0.0</AverageFeedbackRating>
+            <TotalFeedback>0</TotalFeedback>
+          </Merchant>
+          <OfferAttributes>
+            <Condition>New</Condition>
+            <SubCondition>new</SubCondition>
+          </OfferAttributes>
+          <OfferListing>
+            <OfferListingId>VYitzZUbF0q7jriJVFsQYuqoUAEbq9GwykxrjL4WqZKXqVZksp0pmJ5f5%2BYKfucb5BKaGDI4MM42GLYiYQzOcQ%3D%3D</OfferListingId>
+            <Price>
+              <Amount>7550</Amount>
+              <CurrencyCode>USD</CurrencyCode>
+              <FormattedPrice>$75.50</FormattedPrice>
+            </Price>
+            <AmountSaved>
+              <Amount>4610</Amount>
+              <CurrencyCode>USD</CurrencyCode>
+              <FormattedPrice>$46.10</FormattedPrice>
+            </AmountSaved>
+            <PercentageSaved>38</PercentageSaved>
+            <Availability>Usually ships in 1 to 2 days</Availability>
+            <AvailabilityAttributes>
+              <AvailabilityType>now</AvailabilityType>
+              <MinimumHours>24</MinimumHours>
+              <MaximumHours>48</MaximumHours>
+            </AvailabilityAttributes>
+            <Quantity>-1</Quantity>
+            <IsEligibleForSuperSaverShipping>1</IsEligibleForSuperSaverShipping>
+          </OfferListing>
+        </Offer>
+      </Offers>
+      <Accessories>
+        <Accessory>
+          <ASIN>B00004Y2LX</ASIN>
+          <Title>MK Diamond 154250 7-Inch Dry Cutting Segmented Saw Blade with 5/8-Inch Arbor for Masonry</Title>
+        </Accessory>
+        <Accessory>
+          <ASIN>B0000224X3</ASIN>
+          <Title>DeWalt DW4702 Industrial 7-Inch Dry or Wet Cutting Continuous Rim Diamond Saw Blade with 5/8-Inch and Diamond Knockout Arbor</Title>
+        </Accessory>
+        <Accessory>
+          <ASIN>B0000224X4</ASIN>
+          <Title>DeWalt DW4703 Industrial 8-Inch Dry or Wet Cutting Continuous Rim Diamond Saw Blade with 5/8-Inch and Diamond Knockout Arbor</Title>
+        </Accessory>
+        <Accessory>
+          <ASIN>B0000224X8</ASIN>
+          <Title>DeWalt DW4714 Industrial 7-Inch Dry Cutting Segmented Diamond Saw Blade woth 5/8-Inch or 7/8-Inch Arbor</Title>
+        </Accessory>
+        <Accessory>
+          <ASIN>B000ILXPTO</ASIN>
+          <Title>This Old House</Title>
+        </Accessory>
+      </Accessories>
+    </Item>
+    <Item>
+      <ASIN>B002DO5DHQ</ASIN>
+      <ItemAttributes>
+        <Binding>Misc.</Binding>
+        <Brand>LineaAqua</Brand>
+        <Feature>Pearlized "World Patented" Finish</Feature>
+        <Feature>Thermostatic Mixer</Feature>
+        <Feature>Integrated Volume Control</Feature>
+        <Feature>Accessory Shelf | 80 Shower Hose</Feature>
+        <Feature>Five Adjustable Body Sprays</Feature>
+        <Label>LineaAqua</Label>
+        <ListPrice>
+          <Amount>105900</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$1,059.00</FormattedPrice>
+        </ListPrice>
+        <Manufacturer>LineaAqua</Manufacturer>
+        <Model>Daisy</Model>
+        <ProductGroup>Home Improvement</ProductGroup>
+        <ProductTypeName>TOOLS</ProductTypeName>
+        <Publisher>LineaAqua</Publisher>
+        <Studio>LineaAqua</Studio>
+        <Title>LineaAqua Free Form Daisy Perl Shower Panel with 5 Body Sprays, Glass Shelf, Over head Shower</Title>
+      </ItemAttributes>
+      <OfferSummary>
+        <LowestNewPrice>
+          <Amount>74000</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$740.00</FormattedPrice>
+        </LowestNewPrice>
+        <TotalNew>1</TotalNew>
+        <TotalUsed>0</TotalUsed>
+        <TotalCollectible>0</TotalCollectible>
+        <TotalRefurbished>0</TotalRefurbished>
+      </OfferSummary>
+      <Offers>
+        <TotalOffers>0</TotalOffers>
+        <TotalOfferPages>0</TotalOfferPages>
+      </Offers>
+    </Item>
+    <Item>
+      <ASIN>B001G0BXHC</ASIN>
+      <ItemAttributes>
+        <Brand>LineaAqua</Brand>
+        <Feature>LineaAqua Shower Panel</Feature>
+        <Feature>Wall Mounted with 4 Body Sprays</Feature>
+        <Feature>Adjustable Head Shower</Feature>
+        <Feature>Dual Spray hand shower and hose</Feature>
+        <Feature>Glass Shelf with brass frame and chrome finish</Feature>
+        <Label>LineaAqua</Label>
+        <ListPrice>
+          <Amount>151300</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$1,513.00</FormattedPrice>
+        </ListPrice>
+        <Manufacturer>LineaAqua</Manufacturer>
+        <Model>Perl Opal</Model>
+        <ProductGroup>Kitchen</ProductGroup>
+        <ProductTypeName>HOME_BED_AND_BATH</ProductTypeName>
+        <Publisher>LineaAqua</Publisher>
+        <Studio>LineaAqua</Studio>
+        <Title>LineaAqua Perl Opal Shower Panel with 4 Body Sprays, Glass Shelf, Over Head Shower, Hand Shower</Title>
+      </ItemAttributes>
+      <OfferSummary>
+        <LowestNewPrice>
+          <Amount>67500</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$675.00</FormattedPrice>
+        </LowestNewPrice>
+        <TotalNew>1</TotalNew>
+        <TotalUsed>0</TotalUsed>
+        <TotalCollectible>0</TotalCollectible>
         <TotalRefurbished>0</TotalRefurbished>
       </OfferSummary>
       <Offers>
@@ -658,15 +808,15 @@
     </Item>
     <Item>
       <ASIN>B001NY4X0U</ASIN>
-      <SalesRank>1562</SalesRank>
+      <SalesRank>1925</SalesRank>
       <ItemAttributes>
         <Actor>Micah Alberti</Actor>
         <Actor>Genevieve Cortese</Actor>
-        <Actor>James Read</Actor>
-        <Actor>Ryan Sypek</Actor>
-        <Actor>Nicole Tubiola</Actor>
+        <Actor>Hector Hank</Actor>
+        <Actor>Andrew Hoeft</Actor>
+        <Actor>Marina Lyon</Actor>
         <AspectRatio>1.78:1</AspectRatio>
-        <AudienceRating>NR (Not Rated)</AudienceRating>
+        <AudienceRating>Unrated</AudienceRating>
         <Binding>DVD</Binding>
         <Brand>Lions Gate</Brand>
         <Creator Role="Writer">Andy Reaser</Creator>
@@ -682,9 +832,10 @@
         <Format>Closed-captioned</Format>
         <Format>Color</Format>
         <Format>Dolby</Format>
-        <Format>DVD-Video</Format>
+        <Format>DVD</Format>
         <Format>Widescreen</Format>
         <Format>NTSC</Format>
+        <IsEligibleForTradeIn>1</IsEligibleForTradeIn>
         <Label>Lions Gate</Label>
         <Languages>
           <Language>
@@ -712,17 +863,17 @@
       </ItemAttributes>
       <OfferSummary>
         <LowestNewPrice>
-          <Amount>2099</Amount>
+          <Amount>1843</Amount>
           <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$20.99</FormattedPrice>
+          <FormattedPrice>$18.43</FormattedPrice>
         </LowestNewPrice>
         <LowestUsedPrice>
-          <Amount>2188</Amount>
+          <Amount>1899</Amount>
           <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$21.88</FormattedPrice>
+          <FormattedPrice>$18.99</FormattedPrice>
         </LowestUsedPrice>
-        <TotalNew>30</TotalNew>
-        <TotalUsed>8</TotalUsed>
+        <TotalNew>23</TotalNew>
+        <TotalUsed>10</TotalUsed>
         <TotalCollectible>0</TotalCollectible>
         <TotalRefurbished>0</TotalRefurbished>
       </OfferSummary>
@@ -741,7 +892,7 @@
             <SubCondition>new</SubCondition>
           </OfferAttributes>
           <OfferListing>
-            <OfferListingId>31E2orFhEjZW%2FDeGobeMfIIe0ZxgdivXkpkGTE2AwCFrU9gVsVDntOhqExotMINDjSaxiXZauDHvbDsrlICC7w%3D%3D</OfferListingId>
+            <OfferListingId>rCzzpnKtUJ0xuNSEx3ed0h%2BFI%2BELHRSMmw8CvuvciBPgFqZKTQ2VZxmERRR%2BRwU%2B1zhmH182igLw0M7NMn5tNg%3D%3D</OfferListingId>
             <Price>
               <Amount>2099</Amount>
               <CurrencyCode>USD</CurrencyCode>
@@ -767,7 +918,7 @@
     </Item>
     <Item>
       <ASIN>B000EAT23C</ASIN>
-      <SalesRank>6638</SalesRank>
+      <SalesRank>6187</SalesRank>
       <ItemAttributes>
         <Actor>James Van Der Beek</Actor>
         <Actor>Katie Holmes</Actor>
@@ -788,6 +939,7 @@
         <Format>Subtitled</Format>
         <Format>Color</Format>
         <Format>Dolby</Format>
+        <IsEligibleForTradeIn>1</IsEligibleForTradeIn>
         <ItemDimensions>
           <Weight Units="hundredths-pounds">95</Weight>
         </ItemDimensions>
@@ -834,22 +986,22 @@
       </ItemAttributes>
       <OfferSummary>
         <LowestNewPrice>
-          <Amount>2101</Amount>
+          <Amount>2102</Amount>
           <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$21.01</FormattedPrice>
+          <FormattedPrice>$21.02</FormattedPrice>
         </LowestNewPrice>
         <LowestUsedPrice>
-          <Amount>1360</Amount>
+          <Amount>1756</Amount>
           <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$13.60</FormattedPrice>
+          <FormattedPrice>$17.56</FormattedPrice>
         </LowestUsedPrice>
         <LowestCollectiblePrice>
           <Amount>4995</Amount>
           <CurrencyCode>USD</CurrencyCode>
           <FormattedPrice>$49.95</FormattedPrice>
         </LowestCollectiblePrice>
-        <TotalNew>55</TotalNew>
-        <TotalUsed>38</TotalUsed>
+        <TotalNew>51</TotalNew>
+        <TotalUsed>26</TotalUsed>
         <TotalCollectible>2</TotalCollectible>
         <TotalRefurbished>0</TotalRefurbished>
       </OfferSummary>
@@ -868,18 +1020,18 @@
             <SubCondition>new</SubCondition>
           </OfferAttributes>
           <OfferListing>
-            <OfferListingId>mNjtwTLlazfkhv3ClmmgE8PcGQ5I7o0crul8ujNXYXk5JBrBq7JYCnZpwD7wFZnU0oDSbithd8uV3gRSkEd128DqhkKhtuL9</OfferListingId>
+            <OfferListingId>7iQliSYcdTE2DdP1RWy8zVataxvIGGNfqczqhAQwCEHxb4%2FX8BssM2X7NUkIrGd5WMS9kZx0113W0uC3CB0Qyc90z6VPv0k%2F</OfferListingId>
             <Price>
-              <Amount>2999</Amount>
+              <Amount>2849</Amount>
               <CurrencyCode>USD</CurrencyCode>
-              <FormattedPrice>$29.99</FormattedPrice>
+              <FormattedPrice>$28.49</FormattedPrice>
             </Price>
             <AmountSaved>
-              <Amount>1996</Amount>
+              <Amount>2146</Amount>
               <CurrencyCode>USD</CurrencyCode>
-              <FormattedPrice>$19.96</FormattedPrice>
+              <FormattedPrice>$21.46</FormattedPrice>
             </AmountSaved>
-            <PercentageSaved>40</PercentageSaved>
+            <PercentageSaved>43</PercentageSaved>
             <Availability>Usually ships in 24 hours</Availability>
             <AvailabilityAttributes>
               <AvailabilityType>now</AvailabilityType>
@@ -894,7 +1046,7 @@
     </Item>
     <Item>
       <ASIN>B0001DMW9S</ASIN>
-      <SalesRank>4948</SalesRank>
+      <SalesRank>11382</SalesRank>
       <ItemAttributes>
         <Actor>Christine Lahti</Actor>
         <Actor>Beau Bridges</Actor>
@@ -904,6 +1056,7 @@
         <AspectRatio>1.33:1</AspectRatio>
         <AudienceRating>R (Restricted)</AudienceRating>
         <Binding>DVD</Binding>
+        <Brand>Paramount</Brand>
         <Creator Role="Producer">Edward Wessex</Creator>
         <Creator Role="Producer">Gerald W. Abrams</Creator>
         <Creator Role="Producer">Lee Levinson</Creator>
@@ -915,9 +1068,10 @@
         <EAN>9781594470035</EAN>
         <Format>Closed-captioned</Format>
         <Format>Color</Format>
-        <Format>DVD-Video</Format>
+        <Format>DVD</Format>
         <Format>NTSC</Format>
         <ISBN>1594470030</ISBN>
+        <IsEligibleForTradeIn>1</IsEligibleForTradeIn>
         <Label>Showtime Ent.</Label>
         <Languages>
           <Language>
@@ -931,7 +1085,7 @@
           <FormattedPrice>$14.98</FormattedPrice>
         </ListPrice>
         <Manufacturer>Showtime Ent.</Manufacturer>
-        <MPN>D1108D</MPN>
+        <MPN>SHOD1108D</MPN>
         <NumberOfItems>1</NumberOfItems>
         <OriginalReleaseDate>2003-04-13</OriginalReleaseDate>
         <ProductGroup>DVD</ProductGroup>
@@ -947,17 +1101,17 @@
       </ItemAttributes>
       <OfferSummary>
         <LowestNewPrice>
-          <Amount>778</Amount>
+          <Amount>813</Amount>
           <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$7.78</FormattedPrice>
+          <FormattedPrice>$8.13</FormattedPrice>
         </LowestNewPrice>
         <LowestUsedPrice>
           <Amount>650</Amount>
           <CurrencyCode>USD</CurrencyCode>
           <FormattedPrice>$6.50</FormattedPrice>
         </LowestUsedPrice>
-        <TotalNew>32</TotalNew>
-        <TotalUsed>19</TotalUsed>
+        <TotalNew>29</TotalNew>
+        <TotalUsed>17</TotalUsed>
         <TotalCollectible>0</TotalCollectible>
         <TotalRefurbished>0</TotalRefurbished>
       </OfferSummary>
@@ -976,7 +1130,7 @@
             <SubCondition>new</SubCondition>
           </OfferAttributes>
           <OfferListing>
-            <OfferListingId>cZo0hX4ZohW%2Blhw0kvmbfrOM%2BPyDoScKJPCBdgVSUeSSbKfzoYoXGVNg359TyxDHQxetTaQONRLKI2wVAWZXdQ%3D%3D</OfferListingId>
+            <OfferListingId>fiF9CgEI9lMND89iAmuvqBbP7m8fqnmJDEPSDPBqK3UgXiRTNsP%2BWEdej%2F5wQIByVVsNnn83xWJcC8Zuin0EDA%3D%3D</OfferListingId>
             <Price>
               <Amount>1299</Amount>
               <CurrencyCode>USD</CurrencyCode>
@@ -1001,8 +1155,405 @@
       </Offers>
     </Item>
     <Item>
+      <ASIN>B00106AFAS</ASIN>
+      <SalesRank>65985</SalesRank>
+      <ItemAttributes>
+        <Binding>Health and Beauty</Binding>
+        <Brand>Lalique</Brand>
+        <EAN>0510457100111</EAN>
+        <Feature>Every Stylish Woman Must Perles.</Feature>
+        <Feature>This Is An Elegant, Sophisticated Floral Chypre Fragrance For Women.</Feature>
+        <Feature>The Unique Opalescent Cactus Inspired Flacon Is A True Work Of Art.</Feature>
+        <Feature>The Parfum De Toilette Spray fragrance is original and 100% authentic.</Feature>
+        <ItemDimensions>
+          <Weight Units="hundredths-pounds">100</Weight>
+        </ItemDimensions>
+        <Label>Lalique</Label>
+        <ListPrice>
+          <Amount>11000</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$110.00</FormattedPrice>
+        </ListPrice>
+        <Manufacturer>Lalique</Manufacturer>
+        <MPN>460247</MPN>
+        <ProductGroup>Health and Beauty</ProductGroup>
+        <ProductTypeName>HEALTH_PERSONAL_CARE</ProductTypeName>
+        <Publisher>Lalique</Publisher>
+        <Size>3.4 oz</Size>
+        <Studio>Lalique</Studio>
+        <Title>Perles De Lalique by Lalique for Women, 3.4 oz Parfum De Toilette Spray</Title>
+        <UPC>510457100111</UPC>
+      </ItemAttributes>
+      <OfferSummary>
+        <LowestNewPrice>
+          <Amount>3850</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$38.50</FormattedPrice>
+        </LowestNewPrice>
+        <TotalNew>5</TotalNew>
+        <TotalUsed>0</TotalUsed>
+        <TotalCollectible>0</TotalCollectible>
+        <TotalRefurbished>0</TotalRefurbished>
+      </OfferSummary>
+      <Offers>
+        <TotalOffers>0</TotalOffers>
+        <TotalOfferPages>0</TotalOfferPages>
+      </Offers>
+    </Item>
+    <Item>
+      <ASIN>B0017SWHW8</ASIN>
+      <SalesRank>91342</SalesRank>
+      <ItemAttributes>
+        <Binding>Health and Beauty</Binding>
+        <Brand>Pure Encapsulations</Brand>
+        <EAN>0766298006857</EAN>
+        <Feature>Alleviates stress, stress-related eating and promotes weight management</Feature>
+        <Feature>60 veg caps</Feature>
+        <Label>Pure Encapsulations</Label>
+        <LegalDisclaimer>These statements have not been evaluated by the FDA. These products are not intended to diagnose, treat, cure, or prevent any disease.</LegalDisclaimer>
+        <ListPrice>
+          <Amount>2180</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$21.80</FormattedPrice>
+        </ListPrice>
+        <Manufacturer>Pure Encapsulations</Manufacturer>
+        <ProductGroup>Health and Beauty</ProductGroup>
+        <ProductTypeName>HEALTH_PERSONAL_CARE</ProductTypeName>
+        <Publisher>Pure Encapsulations</Publisher>
+        <Studio>Pure Encapsulations</Studio>
+        <Title>Pure Encapsulations Relora - 60 capsules</Title>
+        <UPC>766298006857</UPC>
+      </ItemAttributes>
+      <OfferSummary>
+        <LowestNewPrice>
+          <Amount>1799</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$17.99</FormattedPrice>
+        </LowestNewPrice>
+        <TotalNew>3</TotalNew>
+        <TotalUsed>0</TotalUsed>
+        <TotalCollectible>0</TotalCollectible>
+        <TotalRefurbished>0</TotalRefurbished>
+      </OfferSummary>
+      <Offers>
+        <TotalOffers>0</TotalOffers>
+        <TotalOfferPages>0</TotalOfferPages>
+      </Offers>
+    </Item>
+    <Item>
+      <ASIN>B000O1D1W4</ASIN>
+      <ItemAttributes>
+        <Binding>Health and Beauty</Binding>
+        <Label>Framesi</Label>
+        <Manufacturer>Framesi</Manufacturer>
+        <ProductGroup>Health and Beauty</ProductGroup>
+        <ProductTypeName>HEALTH_PERSONAL_CARE</ProductTypeName>
+        <Publisher>Framesi</Publisher>
+        <Studio>Framesi</Studio>
+        <Title>Framesi - FramColor Futura Hair Coloring Cream 2 oz.</Title>
+      </ItemAttributes>
+      <OfferSummary>
+        <TotalNew>0</TotalNew>
+        <TotalUsed>0</TotalUsed>
+        <TotalCollectible>0</TotalCollectible>
+        <TotalRefurbished>0</TotalRefurbished>
+      </OfferSummary>
+      <Offers>
+        <TotalOffers>0</TotalOffers>
+        <TotalOfferPages>0</TotalOfferPages>
+      </Offers>
+    </Item>
+    <Item>
+      <ASIN>B000SABXJO</ASIN>
+      <ItemAttributes>
+        <Brand>eforcity</Brand>
+        <EAN>0877083053588</EAN>
+        <Feature>Compatibility: Blackberry Pearl 8100 8110 8120 8130</Feature>
+        <Feature>Synchronize and charge your Blackberry Pearl with any PC</Feature>
+        <Feature>Multi-function docking cradle fits perfectly with your Pearl and positions it at a comfortable reading angle and provides convenient access on your desk</Feature>
+        <Feature>Dual charging functions lets you charge additional battery and device at the same time</Feature>
+        <Feature>Contents: Charging Cradle, USB cable, AC charger</Feature>
+        <ItemDimensions>
+          <Weight Units="hundredths-pounds">300</Weight>
+        </ItemDimensions>
+        <Label>Eforcity</Label>
+        <Manufacturer>Eforcity</Manufacturer>
+        <MPN>CBLA8100CRA1</MPN>
+        <PackageQuantity>1</PackageQuantity>
+        <ProductGroup>CE</ProductGroup>
+        <ProductTypeName>CONSUMER_ELECTRONICS</ProductTypeName>
+        <Publisher>Eforcity</Publisher>
+        <Studio>Eforcity</Studio>
+        <Title>3-in-1 Blackberry Pearl Desktop Charger Cradle for 8100 8110 8120 8130 (with extra Battery Slot)</Title>
+        <UPC>877083053588</UPC>
+      </ItemAttributes>
+      <OfferSummary>
+        <LowestNewPrice>
+          <Amount>679</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$6.79</FormattedPrice>
+        </LowestNewPrice>
+        <TotalNew>4</TotalNew>
+        <TotalUsed>0</TotalUsed>
+        <TotalCollectible>0</TotalCollectible>
+        <TotalRefurbished>0</TotalRefurbished>
+      </OfferSummary>
+      <Offers>
+        <TotalOffers>0</TotalOffers>
+        <TotalOfferPages>0</TotalOfferPages>
+      </Offers>
+    </Item>
+    <Item>
+      <ASIN>B0017WLOUK</ASIN>
+      <SalesRank>59056</SalesRank>
+      <ItemAttributes>
+        <Brand>Image Accessories</Brand>
+        <EAN>0640800127134</EAN>
+        <Feature>Sleek and stylish protection for your Motorola V3 series phone.</Feature>
+        <Feature>Hard, slick clear plastic designed to protect your phone from nicks and scratches</Feature>
+        <Feature>Perfectly designed for easy access to all your phone's functions</Feature>
+        <Feature>Works with GSM and CDMA models</Feature>
+        <Label>Image Accessories</Label>
+        <LegalDisclaimer>Warranty does not cover misuse of product or accidental damage.</LegalDisclaimer>
+        <Manufacturer>Image Accessories</Manufacturer>
+        <PackageQuantity>1</PackageQuantity>
+        <ProductGroup>CE</ProductGroup>
+        <ProductTypeName>CONSUMER_ELECTRONICS</ProductTypeName>
+        <Publisher>Image Accessories</Publisher>
+        <Studio>Image Accessories</Studio>
+        <Title>Crystal Protective Case for Blackberry 8100 Pearl Rubberized (Black)</Title>
+        <UPC>640800127134</UPC>
+      </ItemAttributes>
+      <OfferSummary>
+        <LowestNewPrice>
+          <Amount>499</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$4.99</FormattedPrice>
+        </LowestNewPrice>
+        <TotalNew>1</TotalNew>
+        <TotalUsed>0</TotalUsed>
+        <TotalCollectible>0</TotalCollectible>
+        <TotalRefurbished>0</TotalRefurbished>
+      </OfferSummary>
+      <Offers>
+        <TotalOffers>0</TotalOffers>
+        <TotalOfferPages>0</TotalOfferPages>
+      </Offers>
+    </Item>
+    <Item>
+      <ASIN>B001D1DTZS</ASIN>
+      <SalesRank>88495</SalesRank>
+      <ItemAttributes>
+        <Brand>Image Accessories</Brand>
+        <EAN>0640800167932</EAN>
+        <Feature>Sleek and stylish protection for your Blackberry 8100 Pearl series phone.</Feature>
+        <Feature>Hard, slick plastic designed to protect your phone from nicks and scratches</Feature>
+        <Feature>Perfectly designed for easy access to all your phone's functions</Feature>
+        <Label>Image Accessories</Label>
+        <LegalDisclaimer>Warranty does not cover misuse of product or accidental damage.</LegalDisclaimer>
+        <Manufacturer>Image Accessories</Manufacturer>
+        <PackageQuantity>1</PackageQuantity>
+        <ProductGroup>CE</ProductGroup>
+        <ProductTypeName>CONSUMER_ELECTRONICS</ProductTypeName>
+        <Publisher>Image Accessories</Publisher>
+        <Studio>Image Accessories</Studio>
+        <Title>Blackberry 8100 Pearl Rubberized Hot Pink Crystal Case - Includes TWO Bonus Personal Charm Straps!</Title>
+        <UPC>640800167932</UPC>
+      </ItemAttributes>
+      <OfferSummary>
+        <LowestNewPrice>
+          <Amount>1050</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$10.50</FormattedPrice>
+        </LowestNewPrice>
+        <TotalNew>1</TotalNew>
+        <TotalUsed>0</TotalUsed>
+        <TotalCollectible>0</TotalCollectible>
+        <TotalRefurbished>0</TotalRefurbished>
+      </OfferSummary>
+      <Offers>
+        <TotalOffers>0</TotalOffers>
+        <TotalOfferPages>0</TotalOfferPages>
+      </Offers>
+    </Item>
+    <Item>
+      <ASIN>B00188SEB0</ASIN>
+      <SalesRank>549</SalesRank>
+      <ItemAttributes>
+        <Binding>Apparel</Binding>
+        <Brand>Pearl iZUMi</Brand>
+        <Department>mens</Department>
+        <Feature>Pearl Izumi Tri Cycling Short with shorter, 6.5-inch inseam, designed for swim, run, and ride triathlons</Feature>
+        <Feature>Ultrasensor moisture wicking fabric, composed of a nylon/Lycra blend offers superior fit and dries quickly</Feature>
+        <Feature>Triathlon-specific, reduced size Ultrasensor chamois pad with quick-dry fabric</Feature>
+        <Feature>Unique panel design for ergonomic performance, spandex leg grippers, and internal drawstring closure at waist</Feature>
+        <Feature>Lifetime warranty against defects in materials and workmanship, Tri Cycling Short is not recommended for use in chlorinated pools</Feature>
+        <Label>Pearl Izumi</Label>
+        <Manufacturer>Pearl Izumi</Manufacturer>
+        <Model>235</Model>
+        <MPN>0235</MPN>
+        <ProductGroup>Apparel</ProductGroup>
+        <ProductTypeName>SHORTS</ProductTypeName>
+        <Publisher>Pearl Izumi</Publisher>
+        <ReleaseDate>2008-04-22</ReleaseDate>
+        <SKU>a_20551_0_0</SKU>
+        <Studio>Pearl Izumi</Studio>
+        <Title>Pearl Izumi Tri Cycling Short</Title>
+      </ItemAttributes>
+      <OfferSummary>
+        <TotalNew>0</TotalNew>
+        <TotalUsed>0</TotalUsed>
+        <TotalCollectible>0</TotalCollectible>
+        <TotalRefurbished>0</TotalRefurbished>
+      </OfferSummary>
+      <Offers>
+        <TotalOffers>0</TotalOffers>
+        <TotalOfferPages>0</TotalOfferPages>
+      </Offers>
+      <Accessories>
+        <Accessory>
+          <ASIN>B000EHVQJS</ASIN>
+          <Title>Louis Garneau 2008 Training Triathlon Tri Power Shorts - Black - 1050163-020</Title>
+        </Accessory>
+        <Accessory>
+          <ASIN>B0017SVQJS</ASIN>
+          <Title>Descente 2008 Men's Aero-XT Triathlon Top - Bright Red - 80204br</Title>
+        </Accessory>
+        <Accessory>
+          <ASIN>B000TEE8LE</ASIN>
+          <Title>Pearl Izumi 2007/08 Men's Triathlon Speed Suit - Moonlight/Diablo Red - 1062-029</Title>
+        </Accessory>
+        <Accessory>
+          <ASIN>B000TEE8R8</ASIN>
+          <Title>Pearl Izumi 2008/09 Men's Chrono Triathlon Top - White/Water Blue - 1823-6AK</Title>
+        </Accessory>
+        <Accessory>
+          <ASIN>B000TEG6ZA</ASIN>
+          <Title>Pearl Izumi 2007/08 Men's Richter Triathlon Race Jersey - Water Blue/Moab - 1820-6AB</Title>
+        </Accessory>
+      </Accessories>
+    </Item>
+    <Item>
+      <ASIN>B00188KZ9O</ASIN>
+      <SalesRank>121</SalesRank>
+      <ItemAttributes>
+        <Binding>Apparel</Binding>
+        <Brand>Pearl iZUMi</Brand>
+        <Department>mens</Department>
+        <FabricType>lycra</FabricType>
+        <Feature>Sensor fabric</Feature>
+        <Feature>Flatlocked seams for comfort</Feature>
+        <Feature>3D Race chamois</Feature>
+        <Feature>Modified 8 panel ergonomic design</Feature>
+        <Feature>9 1/4-inch inseam</Feature>
+        <Label>Pearl Izumi</Label>
+        <ListPrice>
+          <Amount>7495</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$74.95</FormattedPrice>
+        </ListPrice>
+        <Manufacturer>Pearl Izumi</Manufacturer>
+        <Model>220</Model>
+        <ProductGroup>Apparel</ProductGroup>
+        <ProductTypeName>SHORTS</ProductTypeName>
+        <Publisher>Pearl Izumi</Publisher>
+        <ReleaseDate>2008-04-22</ReleaseDate>
+        <SKU>100429</SKU>
+        <Studio>Pearl Izumi</Studio>
+        <Title>Pearl Izumi Attack Cycling Short</Title>
+      </ItemAttributes>
+      <OfferSummary>
+        <TotalNew>0</TotalNew>
+        <TotalUsed>0</TotalUsed>
+        <TotalCollectible>0</TotalCollectible>
+        <TotalRefurbished>0</TotalRefurbished>
+      </OfferSummary>
+      <Offers>
+        <TotalOffers>0</TotalOffers>
+        <TotalOfferPages>0</TotalOfferPages>
+      </Offers>
+      <Accessories>
+        <Accessory>
+          <ASIN>B000KF6HZW</ASIN>
+          <Title>Pearl Izumi 2007/08 Men's Quest Cycling Shorts - Black - 0165-021</Title>
+        </Accessory>
+        <Accessory>
+          <ASIN>B001TR7VHS</ASIN>
+          <Title>Titec Men's XC Team Lycra Cycling Shorts - Black</Title>
+        </Accessory>
+        <Accessory>
+          <ASIN>B000N4WNOO</ASIN>
+          <Title>Pearl Izumi 2007/08 Men's Boulder Bike Shorts - Black - 0195-021</Title>
+        </Accessory>
+        <Accessory>
+          <ASIN>B000WLYAKI</ASIN>
+          <Title>Castelli 2008 Wicked Cycling Bib Short - Black/Anthracite - L7019-010</Title>
+        </Accessory>
+        <Accessory>
+          <ASIN>B0011XZV0Y</ASIN>
+          <Title>Louis Garneau 2009 Men's Speed Matrix Cycling Bib Shorts - Black - 1058122-020</Title>
+        </Accessory>
+      </Accessories>
+    </Item>
+    <Item>
+      <ASIN>B00188LHE6</ASIN>
+      <SalesRank>416</SalesRank>
+      <ItemAttributes>
+        <Binding>Apparel</Binding>
+        <Brand>Pearl iZUMi</Brand>
+        <Department>mens</Department>
+        <Feature>Quest Cycling Short made of signature Pearl Izumi Sensor fabric that quickly wicks moisture away from the body for easy evaporation</Feature>
+        <Feature>Features supportive 08' 3D Pro Chamois and 6-panel ergonomic design</Feature>
+        <Feature>9.25-inch inseam short with custom Pearl Izumi spandex leg gripper for maximum comfort</Feature>
+        <Feature>Short is flatlock stitched for zero chafing to skin</Feature>
+        <Feature>Lifetime warranty against defects in materials and workmanship</Feature>
+        <Label>Pearl Izumi</Label>
+        <Manufacturer>Pearl Izumi</Manufacturer>
+        <Model>223</Model>
+        <ProductGroup>Apparel</ProductGroup>
+        <ProductTypeName>SHORTS</ProductTypeName>
+        <Publisher>Pearl Izumi</Publisher>
+        <ReleaseDate>2008-04-22</ReleaseDate>
+        <SKU>a_20658_0_0</SKU>
+        <Studio>Pearl Izumi</Studio>
+        <Title>Pearl Izumi Quest Cycling Short</Title>
+      </ItemAttributes>
+      <OfferSummary>
+        <TotalNew>0</TotalNew>
+        <TotalUsed>0</TotalUsed>
+        <TotalCollectible>0</TotalCollectible>
+        <TotalRefurbished>0</TotalRefurbished>
+      </OfferSummary>
+      <Offers>
+        <TotalOffers>0</TotalOffers>
+        <TotalOfferPages>0</TotalOfferPages>
+      </Offers>
+      <Accessories>
+        <Accessory>
+          <ASIN>B000I5NPL8</ASIN>
+          <Title>Louis Garneau 2009 Men's Oslo Bib Tights - Black - 1069041-020</Title>
+        </Accessory>
+        <Accessory>
+          <ASIN>B000TI59LI</ASIN>
+          <Title>Pearl Izumi 2007/08 Men's Vertex ThermaFleece Cycling Bib Shorts - Black - 0205-021</Title>
+        </Accessory>
+        <Accessory>
+          <ASIN>B000VKJWOO</ASIN>
+          <Title>Adidas 2008/09 Men's Response ClimaWarm Wind Race Tights w/ No Pad - Black - 485668</Title>
+        </Accessory>
+        <Accessory>
+          <ASIN>B002ERDUCC</ASIN>
+          <Title>Assos 2009 Men's T FI.Mille S5 Cycling Bib Shorts - Blue - 11.10.102.20</Title>
+        </Accessory>
+        <Accessory>
+          <ASIN>B001OODBIE</ASIN>
+          <Title>Pearl Izumi 2009 Men's P.R.O. Cycling Shorts - Black/White - 0254-065</Title>
+        </Accessory>
+      </Accessories>
+    </Item>
+    <Item>
       <ASIN>B001M1A5EC</ASIN>
-      <SalesRank>117412</SalesRank>
+      <SalesRank>299507</SalesRank>
       <ItemAttributes>
         <Binding>Toy</Binding>
         <Brand>Bakugan</Brand>
@@ -1043,8 +1594,42 @@
       </Offers>
     </Item>
     <Item>
+      <ASIN>B001TLCW3M</ASIN>
+      <ItemAttributes>
+        <Binding>Toy</Binding>
+        <EAN>0653569123798</EAN>
+        <Feature>Lifts Head</Feature>
+        <Feature>Opens Eyes</Feature>
+        <Feature>Ages 4 and up</Feature>
+        <Feature>Includes your very own special Adoption Certificate</Feature>
+        <Label>Tiger Electronics</Label>
+        <Manufacturer>Tiger Electronics</Manufacturer>
+        <ProductGroup>Toy</ProductGroup>
+        <ProductTypeName>TOYS_AND_GAMES</ProductTypeName>
+        <Publisher>Tiger Electronics</Publisher>
+        <Studio>Tiger Electronics</Studio>
+        <Title>Furreal Baby Cub Black Panther</Title>
+        <UPC>653569123798</UPC>
+      </ItemAttributes>
+      <OfferSummary>
+        <LowestNewPrice>
+          <Amount>2800</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$28.00</FormattedPrice>
+        </LowestNewPrice>
+        <TotalNew>2</TotalNew>
+        <TotalUsed>0</TotalUsed>
+        <TotalCollectible>0</TotalCollectible>
+        <TotalRefurbished>0</TotalRefurbished>
+      </OfferSummary>
+      <Offers>
+        <TotalOffers>0</TotalOffers>
+        <TotalOfferPages>0</TotalOfferPages>
+      </Offers>
+    </Item>
+    <Item>
       <ASIN>B001EREU90</ASIN>
-      <SalesRank>176502</SalesRank>
+      <SalesRank>188293</SalesRank>
       <ItemAttributes>
         <Binding>Toy</Binding>
         <Brand>GREAT FORTUNE</Brand>
@@ -1064,590 +1649,6 @@
           <Amount>694</Amount>
           <CurrencyCode>USD</CurrencyCode>
           <FormattedPrice>$6.94</FormattedPrice>
-        </LowestNewPrice>
-        <TotalNew>1</TotalNew>
-        <TotalUsed>0</TotalUsed>
-        <TotalCollectible>0</TotalCollectible>
-        <TotalRefurbished>0</TotalRefurbished>
-      </OfferSummary>
-      <Offers>
-        <TotalOffers>0</TotalOffers>
-        <TotalOfferPages>0</TotalOfferPages>
-      </Offers>
-    </Item>
-    <Item>
-      <ASIN>B00007BHYR</ASIN>
-      <SalesRank>40883</SalesRank>
-      <ItemAttributes>
-        <Binding>Tools &amp; Hardware</Binding>
-        <Brand>Pearl Abrasive</Brand>
-        <EAN>0662333050185</EAN>
-        <Feature>Install in seconds</Feature>
-        <Feature>For use on metal, concrete, marble, and much more</Feature>
-        <Feature>Increases the versatility and cutting control of your grinder</Feature>
-        <Feature>Adlustable depth of cut</Feature>
-        <Feature>Fits Makita 4" &amp; 4-1/2" grinders</Feature>
-        <ItemDimensions>
-          <Weight Units="pounds">2.80</Weight>
-        </ItemDimensions>
-        <Label>Pearl Abrasive Company</Label>
-        <ListPrice>
-          <Amount>4698</Amount>
-          <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$46.98</FormattedPrice>
-        </ListPrice>
-        <Manufacturer>Pearl Abrasive Company</Manufacturer>
-        <Model>BR45001</Model>
-        <ProductGroup>Home Improvement</ProductGroup>
-        <ProductTypeName>ABIS_HOME_IMPROVEMENT</ProductTypeName>
-        <Publisher>Pearl Abrasive Company</Publisher>
-        <Studio>Pearl Abrasive Company</Studio>
-        <Title>Pearl Abrasive Co BR45001 Mini-Me Blade Roller for Angle Grinder</Title>
-        <UPC>662333050185</UPC>
-      </ItemAttributes>
-      <OfferSummary>
-        <LowestNewPrice>
-          <Amount>3979</Amount>
-          <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$39.79</FormattedPrice>
-        </LowestNewPrice>
-        <TotalNew>1</TotalNew>
-        <TotalUsed>0</TotalUsed>
-        <TotalCollectible>0</TotalCollectible>
-        <TotalRefurbished>0</TotalRefurbished>
-      </OfferSummary>
-      <Offers>
-        <TotalOffers>1</TotalOffers>
-        <TotalOfferPages>1</TotalOfferPages>
-        <Offer>
-          <Merchant>
-            <MerchantId>ATVPDKIKX0DER</MerchantId>
-            <GlancePage>http://www.amazon.com/gp/help/seller/home.html?seller=ATVPDKIKX0DER</GlancePage>
-            <AverageFeedbackRating>0.0</AverageFeedbackRating>
-            <TotalFeedback>0</TotalFeedback>
-          </Merchant>
-          <OfferAttributes>
-            <Condition>New</Condition>
-            <SubCondition>new</SubCondition>
-          </OfferAttributes>
-          <OfferListing>
-            <OfferListingId>DsoLkTkBpGpnvD29IBAmak9w3S%2BUXuKiOLl%2BHNP1334ZWTm5NpOsMWYFBQWIzwVCEXLwWL7TTyybuGEpJhk7bg%3D%3D</OfferListingId>
-            <Price>
-              <Amount>3979</Amount>
-              <CurrencyCode>USD</CurrencyCode>
-              <FormattedPrice>$39.79</FormattedPrice>
-            </Price>
-            <AmountSaved>
-              <Amount>719</Amount>
-              <CurrencyCode>USD</CurrencyCode>
-              <FormattedPrice>$7.19</FormattedPrice>
-            </AmountSaved>
-            <PercentageSaved>15</PercentageSaved>
-            <Availability>Usually ships in 24 hours</Availability>
-            <AvailabilityAttributes>
-              <AvailabilityType>now</AvailabilityType>
-              <MinimumHours>0</MinimumHours>
-              <MaximumHours>0</MaximumHours>
-            </AvailabilityAttributes>
-            <Quantity>-1</Quantity>
-            <IsEligibleForSuperSaverShipping>1</IsEligibleForSuperSaverShipping>
-          </OfferListing>
-        </Offer>
-      </Offers>
-      <Accessories>
-        <Accessory>
-          <ASIN>B000ILXPTO</ASIN>
-          <Title>This Old House</Title>
-        </Accessory>
-        <Accessory>
-          <ASIN>156158620X</ASIN>
-          <Title>Woodworking Basics: Mastering the Essentials of Craftsmanship</Title>
-        </Accessory>
-      </Accessories>
-    </Item>
-    <Item>
-      <ASIN>B00007BHYP</ASIN>
-      <SalesRank>65910</SalesRank>
-      <ItemAttributes>
-        <Binding>Tools &amp; Hardware</Binding>
-        <Brand>Pearl Abrasive</Brand>
-        <EAN>0662333053872</EAN>
-        <Feature>No tools required</Feature>
-        <Feature>For use on wood, concrete, marble, and much more</Feature>
-        <Feature>Dramatically increases cutting speed and control</Feature>
-        <Feature>Greater versatility and efficiency</Feature>
-        <Feature>Fits most popular direct drive circular saws</Feature>
-        <ItemDimensions>
-          <Weight Units="pounds">2.80</Weight>
-        </ItemDimensions>
-        <Label>Pearl Abrasive Company</Label>
-        <ListPrice>
-          <Amount>6600</Amount>
-          <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$66.00</FormattedPrice>
-        </ListPrice>
-        <Manufacturer>Pearl Abrasive Company</Manufacturer>
-        <Model>BR7001C</Model>
-        <ProductGroup>Home Improvement</ProductGroup>
-        <ProductTypeName>ABIS_HOME_IMPROVEMENT</ProductTypeName>
-        <Publisher>Pearl Abrasive Company</Publisher>
-        <Studio>Pearl Abrasive Company</Studio>
-        <Title>Pearl Abrasive Company BR7001C Blade Roller Sidewinder for Most Circular Saws</Title>
-        <UPC>662333053872</UPC>
-      </ItemAttributes>
-      <OfferSummary>
-        <LowestNewPrice>
-          <Amount>6600</Amount>
-          <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$66.00</FormattedPrice>
-        </LowestNewPrice>
-        <TotalNew>2</TotalNew>
-        <TotalUsed>0</TotalUsed>
-        <TotalCollectible>0</TotalCollectible>
-        <TotalRefurbished>0</TotalRefurbished>
-      </OfferSummary>
-      <Offers>
-        <TotalOffers>1</TotalOffers>
-        <TotalOfferPages>1</TotalOfferPages>
-        <Offer>
-          <Merchant>
-            <MerchantId>ATVPDKIKX0DER</MerchantId>
-            <GlancePage>http://www.amazon.com/gp/help/seller/home.html?seller=ATVPDKIKX0DER</GlancePage>
-            <AverageFeedbackRating>0.0</AverageFeedbackRating>
-            <TotalFeedback>0</TotalFeedback>
-          </Merchant>
-          <OfferAttributes>
-            <Condition>New</Condition>
-            <SubCondition>new</SubCondition>
-          </OfferAttributes>
-          <OfferListing>
-            <OfferListingId>73%2BkB0txsyAxu8WDTCQXBYnRwz5%2FaxQnb1%2FZtlB4ai4P%2BtoGdBlo%2BSFd1ZRaj5mhVC0HoGeef2T0KXdZ5UjAOA%3D%3D</OfferListingId>
-            <Price>
-              <Amount>6600</Amount>
-              <CurrencyCode>USD</CurrencyCode>
-              <FormattedPrice>$66.00</FormattedPrice>
-            </Price>
-            <Availability>Temporarily out of stock. Order now and we'll deliver when available. We'll e-mail you with an estimated delivery date as soon as we have more information. Your credit card will not be charged until we ship the item.</Availability>
-            <AvailabilityAttributes>
-              <AvailabilityType>unknown</AvailabilityType>
-              <MinimumHours>672</MinimumHours>
-              <MaximumHours>1008</MaximumHours>
-            </AvailabilityAttributes>
-            <IsEligibleForSuperSaverShipping>1</IsEligibleForSuperSaverShipping>
-          </OfferListing>
-        </Offer>
-      </Offers>
-      <Accessories>
-        <Accessory>
-          <ASIN>B000ILXPTO</ASIN>
-          <Title>This Old House</Title>
-        </Accessory>
-        <Accessory>
-          <ASIN>1561587923</ASIN>
-          <Title>Creating a New Old House: Yesterday's Character for Today's Home (American Institute Architects)</Title>
-        </Accessory>
-      </Accessories>
-    </Item>
-    <Item>
-      <ASIN>B00006ANSF</ASIN>
-      <SalesRank>56132</SalesRank>
-      <ItemAttributes>
-        <Binding>Tools &amp; Hardware</Binding>
-        <Brand>Granite City Tool</Brand>
-        <EAN>0662333041435</EAN>
-        <Feature>Easily attachable rolling platform for your worm-drive saw</Feature>
-        <Feature>Make smooth-edged cuts in concrete, granite, marble, wood, and stucco</Feature>
-        <Feature>Eliminate drag, makes guiding saw extremely easy</Feature>
-        <Feature>Attaches to saw in just seconds without the use of any tools</Feature>
-        <Feature>Smooth running wheels eliminate marring of smooth surfaces</Feature>
-        <ItemDimensions>
-          <Weight Units="pounds">2.60</Weight>
-        </ItemDimensions>
-        <Label>Granite City Tool</Label>
-        <ListPrice>
-          <Amount>12160</Amount>
-          <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$121.60</FormattedPrice>
-        </ListPrice>
-        <Manufacturer>Granite City Tool</Manufacturer>
-        <Model>BR70001</Model>
-        <ProductGroup>Home Improvement</ProductGroup>
-        <ProductTypeName>ABIS_HOME_IMPROVEMENT</ProductTypeName>
-        <Publisher>Granite City Tool</Publisher>
-        <Studio>Granite City Tool</Studio>
-        <Title>Pearl Abrasive Company BR70001 7-Inch Saw Blade Roller for Worm Drive Saws</Title>
-        <UPC>662333041435</UPC>
-      </ItemAttributes>
-      <OfferSummary>
-        <LowestNewPrice>
-          <Amount>6999</Amount>
-          <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$69.99</FormattedPrice>
-        </LowestNewPrice>
-        <TotalNew>2</TotalNew>
-        <TotalUsed>0</TotalUsed>
-        <TotalCollectible>0</TotalCollectible>
-        <TotalRefurbished>0</TotalRefurbished>
-      </OfferSummary>
-      <Offers>
-        <TotalOffers>1</TotalOffers>
-        <TotalOfferPages>1</TotalOfferPages>
-        <Offer>
-          <Merchant>
-            <MerchantId>ATVPDKIKX0DER</MerchantId>
-            <GlancePage>http://www.amazon.com/gp/help/seller/home.html?seller=ATVPDKIKX0DER</GlancePage>
-            <AverageFeedbackRating>0.0</AverageFeedbackRating>
-            <TotalFeedback>0</TotalFeedback>
-          </Merchant>
-          <OfferAttributes>
-            <Condition>New</Condition>
-            <SubCondition>new</SubCondition>
-          </OfferAttributes>
-          <OfferListing>
-            <OfferListingId>H6i3dIZBiwMZmgI%2FXp9PkxXqwUP6o60Y2DUo%2F7u608JuM%2BoIf7VgF5D0p4yz7JPpTQG34FCq6NH7tAFKkad4Pg%3D%3D</OfferListingId>
-            <Price>
-              <Amount>7386</Amount>
-              <CurrencyCode>USD</CurrencyCode>
-              <FormattedPrice>$73.86</FormattedPrice>
-            </Price>
-            <AmountSaved>
-              <Amount>4774</Amount>
-              <CurrencyCode>USD</CurrencyCode>
-              <FormattedPrice>$47.74</FormattedPrice>
-            </AmountSaved>
-            <PercentageSaved>39</PercentageSaved>
-            <Availability>Usually ships in 1 to 2 days</Availability>
-            <AvailabilityAttributes>
-              <AvailabilityType>now</AvailabilityType>
-              <MinimumHours>24</MinimumHours>
-              <MaximumHours>48</MaximumHours>
-            </AvailabilityAttributes>
-            <Quantity>-1</Quantity>
-            <IsEligibleForSuperSaverShipping>1</IsEligibleForSuperSaverShipping>
-          </OfferListing>
-        </Offer>
-      </Offers>
-      <Accessories>
-        <Accessory>
-          <ASIN>B00004Y2LX</ASIN>
-          <Title>MK Diamond 154250 7-Inch Dry Cutting Segmented Saw Blade with 5/8-Inch Arbor for Masonry</Title>
-        </Accessory>
-        <Accessory>
-          <ASIN>B0000224X3</ASIN>
-          <Title>DeWalt DW4702 Industrial 7-Inch Dry or Wet Cutting Continuous Rim Diamond Saw Blade with 5/8-Inch and Diamond Knockout Arbor</Title>
-        </Accessory>
-        <Accessory>
-          <ASIN>B0000224X4</ASIN>
-          <Title>DeWalt DW4703 Industrial 8-Inch Dry or Wet Cutting Continuous Rim Diamond Saw Blade with 5/8-Inch and Diamond Knockout Arbor</Title>
-        </Accessory>
-        <Accessory>
-          <ASIN>B0000224X8</ASIN>
-          <Title>DeWalt DW4714 Industrial 7-Inch Dry Cutting Segmented Diamond Saw Blade woth 5/8-Inch or 7/8-Inch Arbor</Title>
-        </Accessory>
-        <Accessory>
-          <ASIN>B000ILXPTO</ASIN>
-          <Title>This Old House</Title>
-        </Accessory>
-      </Accessories>
-    </Item>
-    <Item>
-      <ASIN>B000O1D1W4</ASIN>
-      <ItemAttributes>
-        <Binding>Health and Beauty</Binding>
-        <Label>Framesi</Label>
-        <Manufacturer>Framesi</Manufacturer>
-        <ProductGroup>Health and Beauty</ProductGroup>
-        <ProductTypeName>HEALTH_PERSONAL_CARE</ProductTypeName>
-        <Publisher>Framesi</Publisher>
-        <Studio>Framesi</Studio>
-        <Title>Framesi - FramColor Futura Hair Coloring Cream 2 oz.</Title>
-      </ItemAttributes>
-      <OfferSummary>
-        <TotalNew>0</TotalNew>
-        <TotalUsed>0</TotalUsed>
-        <TotalCollectible>0</TotalCollectible>
-        <TotalRefurbished>0</TotalRefurbished>
-      </OfferSummary>
-      <Offers>
-        <TotalOffers>0</TotalOffers>
-        <TotalOfferPages>0</TotalOfferPages>
-      </Offers>
-    </Item>
-    <Item>
-      <ASIN>B001STLRJK</ASIN>
-      <SalesRank>194789</SalesRank>
-      <ItemAttributes>
-        <Binding>Health and Beauty</Binding>
-        <EAN>0637293186557</EAN>
-        <Feature>The original, classic Warm Vanilla Sugar, an addictively comforting scent where indulgence meets pure seduction</Feature>
-        <Feature>Fragrance Notes: Sheer Florals, Vanilla Absolute, Basmati Rice, Coconut,  Heliotrope, Musk, Veltol, Sandalwood</Feature>
-        <Feature>Pealrs are contained in large, elegant glass bottle</Feature>
-        <Feature>Fragrances bathwater and adds a sexy shimmer and a touch of moisture for an indulgent experience</Feature>
-        <Feature>Limited edtion item no longer carried in stores</Feature>
-        <Label>Bath &amp; Body Works</Label>
-        <Manufacturer>Bath &amp; Body Works</Manufacturer>
-        <ProductGroup>Health and Beauty</ProductGroup>
-        <ProductTypeName>HEALTH_PERSONAL_CARE</ProductTypeName>
-        <Publisher>Bath &amp; Body Works</Publisher>
-        <Studio>Bath &amp; Body Works</Studio>
-        <Title>Bath &amp; Body Works® Signature Collection Limited Edition Luminous Bath Pearls ~ Warm Vanilla Sugar ~ 6.3 oz.</Title>
-        <UPC>637293186557</UPC>
-      </ItemAttributes>
-      <OfferSummary>
-        <LowestNewPrice>
-          <Amount>1499</Amount>
-          <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$14.99</FormattedPrice>
-        </LowestNewPrice>
-        <TotalNew>3</TotalNew>
-        <TotalUsed>0</TotalUsed>
-        <TotalCollectible>0</TotalCollectible>
-        <TotalRefurbished>0</TotalRefurbished>
-      </OfferSummary>
-      <Offers>
-        <TotalOffers>0</TotalOffers>
-        <TotalOfferPages>0</TotalOfferPages>
-      </Offers>
-    </Item>
-    <Item>
-      <ASIN>B00070FXD2</ASIN>
-      <SalesRank>584558</SalesRank>
-      <ItemAttributes>
-        <Binding>Health and Beauty</Binding>
-        <Feature>Alchemical Elixir in Homeopathic Potency 1X</Feature>
-        <Feature>Size 1/4 oz or 7.5mL, approx. 300 drops or 2-3 months supply</Feature>
-        <Feature>Liquid homeopathic medicine, 25% alcohol per volume</Feature>
-        <Label>AlchemiaNova</Label>
-        <ListPrice>
-          <Amount>3500</Amount>
-          <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$35.00</FormattedPrice>
-        </ListPrice>
-        <Manufacturer>AlchemiaNova</Manufacturer>
-        <Model>PERL</Model>
-        <PackageQuantity>1</PackageQuantity>
-        <ProductGroup>Health and Beauty</ProductGroup>
-        <ProductTypeName>HEALTH_PERSONAL_CARE</ProductTypeName>
-        <Publisher>AlchemiaNova</Publisher>
-        <Studio>AlchemiaNova</Studio>
-        <Title>AlchemiaNova Gem Elixir of Pearl</Title>
-      </ItemAttributes>
-      <OfferSummary>
-        <TotalNew>0</TotalNew>
-        <TotalUsed>0</TotalUsed>
-        <TotalCollectible>0</TotalCollectible>
-        <TotalRefurbished>0</TotalRefurbished>
-      </OfferSummary>
-      <Offers>
-        <TotalOffers>0</TotalOffers>
-        <TotalOfferPages>0</TotalOfferPages>
-      </Offers>
-    </Item>
-    <Item>
-      <ASIN>B000SABXJO</ASIN>
-      <ItemAttributes>
-        <Brand>eforcity</Brand>
-        <EAN>0877083053588</EAN>
-        <Feature>Compatibility: Blackberry Pearl 8100 8110 8120 8130</Feature>
-        <Feature>Synchronize and charge your Blackberry Pearl with any PC</Feature>
-        <Feature>Multi-function docking cradle fits perfectly with your Pearl and positions it at a comfortable reading angle and provides convenient access on your desk</Feature>
-        <Feature>Dual charging functions lets you charge additional battery and device at the same time</Feature>
-        <Feature>Contents: Charging Cradle, USB cable, AC charger</Feature>
-        <ItemDimensions>
-          <Weight Units="hundredths-pounds">300</Weight>
-        </ItemDimensions>
-        <Label>Eforcity</Label>
-        <Manufacturer>Eforcity</Manufacturer>
-        <MPN>CBLA8100CRA1</MPN>
-        <PackageQuantity>1</PackageQuantity>
-        <ProductGroup>CE</ProductGroup>
-        <ProductTypeName>CONSUMER_ELECTRONICS</ProductTypeName>
-        <Publisher>Eforcity</Publisher>
-        <Studio>Eforcity</Studio>
-        <Title>3-in-1 Blackberry Pearl Desktop Charger Cradle for 8100 8110 8120 8130 (with extra Battery Slot)</Title>
-        <UPC>877083053588</UPC>
-      </ItemAttributes>
-      <OfferSummary>
-        <LowestNewPrice>
-          <Amount>799</Amount>
-          <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$7.99</FormattedPrice>
-        </LowestNewPrice>
-        <TotalNew>4</TotalNew>
-        <TotalUsed>0</TotalUsed>
-        <TotalCollectible>0</TotalCollectible>
-        <TotalRefurbished>0</TotalRefurbished>
-      </OfferSummary>
-      <Offers>
-        <TotalOffers>0</TotalOffers>
-        <TotalOfferPages>0</TotalOfferPages>
-      </Offers>
-    </Item>
-    <Item>
-      <ASIN>B0017WLOUK</ASIN>
-      <SalesRank>56498</SalesRank>
-      <ItemAttributes>
-        <Brand>Image Accessories</Brand>
-        <EAN>0640800127134</EAN>
-        <Feature>Sleek and stylish protection for your Motorola V3 series phone.</Feature>
-        <Feature>Hard, slick clear plastic designed to protect your phone from nicks and scratches</Feature>
-        <Feature>Perfectly designed for easy access to all your phone's functions</Feature>
-        <Feature>Works with GSM and CDMA models</Feature>
-        <Label>Image Accessories</Label>
-        <LegalDisclaimer>Warranty does not cover misuse of product or accidental damage.</LegalDisclaimer>
-        <Manufacturer>Image Accessories</Manufacturer>
-        <PackageQuantity>1</PackageQuantity>
-        <ProductGroup>CE</ProductGroup>
-        <ProductTypeName>CONSUMER_ELECTRONICS</ProductTypeName>
-        <Publisher>Image Accessories</Publisher>
-        <Studio>Image Accessories</Studio>
-        <Title>Crystal Protective Case for Blackberry 8100 Pearl Rubberized (Black)</Title>
-        <UPC>640800127134</UPC>
-      </ItemAttributes>
-      <OfferSummary>
-        <LowestNewPrice>
-          <Amount>499</Amount>
-          <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$4.99</FormattedPrice>
-        </LowestNewPrice>
-        <TotalNew>2</TotalNew>
-        <TotalUsed>0</TotalUsed>
-        <TotalCollectible>0</TotalCollectible>
-        <TotalRefurbished>0</TotalRefurbished>
-      </OfferSummary>
-      <Offers>
-        <TotalOffers>0</TotalOffers>
-        <TotalOfferPages>0</TotalOfferPages>
-      </Offers>
-    </Item>
-    <Item>
-      <ASIN>B0017QN30K</ASIN>
-      <SalesRank>74582</SalesRank>
-      <ItemAttributes>
-        <Brand>Image Accessories</Brand>
-        <EAN>0640800123730</EAN>
-        <Feature>Sleek and stylish protection for your Blackberry 8100 Pearl series phone.</Feature>
-        <Feature>Hard, slick plastic designed to protect your phone from nicks and scratches</Feature>
-        <Feature>Perfectly designed for easy access to all your phone's functions</Feature>
-        <Label>Image Accessories</Label>
-        <LegalDisclaimer>Warranty does not cover misuse of product or accidental damage.</LegalDisclaimer>
-        <Manufacturer>Image Accessories</Manufacturer>
-        <PackageQuantity>1</PackageQuantity>
-        <ProductGroup>CE</ProductGroup>
-        <ProductTypeName>CONSUMER_ELECTRONICS</ProductTypeName>
-        <Publisher>Image Accessories</Publisher>
-        <Studio>Image Accessories</Studio>
-        <Title>Blackberry 8100 Pearl Crystal Protective Case Rubberized (Red) - Image Brand</Title>
-        <UPC>640800123730</UPC>
-      </ItemAttributes>
-      <OfferSummary>
-        <LowestNewPrice>
-          <Amount>599</Amount>
-          <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$5.99</FormattedPrice>
-        </LowestNewPrice>
-        <TotalNew>2</TotalNew>
-        <TotalUsed>0</TotalUsed>
-        <TotalCollectible>0</TotalCollectible>
-        <TotalRefurbished>0</TotalRefurbished>
-      </OfferSummary>
-      <Offers>
-        <TotalOffers>0</TotalOffers>
-        <TotalOfferPages>0</TotalOfferPages>
-      </Offers>
-    </Item>
-    <Item>
-      <ASIN>B000V0G3XM</ASIN>
-      <SalesRank>47941</SalesRank>
-      <ItemAttributes>
-        <Feature>Clean and shine your vehicle with the latest German polymer technology!</Feature>
-        <Feature>1Z Einszett Perls Shampoo is environmentally safe, phosphate-free and biodegradable.</Feature>
-        <Feature>1Z Einszett Perls Shampoo is highly lubricated to protect the paint as loose dirt is rinsed away.</Feature>
-        <Label>Einszett</Label>
-        <ListPrice>
-          <Amount>999</Amount>
-          <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$9.99</FormattedPrice>
-        </ListPrice>
-        <Manufacturer>Einszett</Manufacturer>
-        <MPN>EIN-981405</MPN>
-        <PackageQuantity>1</PackageQuantity>
-        <ProductGroup>Automotive Parts and Accessories</ProductGroup>
-        <ProductTypeName>AUTO_ACCESSORY</ProductTypeName>
-        <Publisher>Einszett</Publisher>
-        <Studio>Einszett</Studio>
-        <Title>1Z Einszett Perls Shampoo Premium Car Wash</Title>
-      </ItemAttributes>
-      <OfferSummary>
-        <LowestNewPrice>
-          <Amount>999</Amount>
-          <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$9.99</FormattedPrice>
-        </LowestNewPrice>
-        <TotalNew>1</TotalNew>
-        <TotalUsed>0</TotalUsed>
-        <TotalCollectible>0</TotalCollectible>
-        <TotalRefurbished>0</TotalRefurbished>
-      </OfferSummary>
-      <Offers>
-        <TotalOffers>0</TotalOffers>
-        <TotalOfferPages>0</TotalOfferPages>
-      </Offers>
-    </Item>
-    <Item>
-      <ASIN>B000I4HKCY</ASIN>
-      <SalesRank>88372</SalesRank>
-      <ItemAttributes>
-        <Brand>Joe Rocket</Brand>
-        <Color>Perl Red/Black/White</Color>
-        <Label>Joe Rocket</Label>
-        <Manufacturer>Joe Rocket</Manufacturer>
-        <MPN>506263-186554</MPN>
-        <PackageQuantity>1</PackageQuantity>
-        <ProductGroup>Automotive Parts and Accessories</ProductGroup>
-        <ProductTypeName>AUTO_ACCESSORY</ProductTypeName>
-        <Publisher>Joe Rocket</Publisher>
-        <Size>Large</Size>
-        <Studio>Joe Rocket</Studio>
-        <Title>Joe Rocket Phoenix 3.0 Gloves - Perl Red/Black/White - Large</Title>
-      </ItemAttributes>
-      <OfferSummary>
-        <LowestNewPrice>
-          <Amount>4499</Amount>
-          <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$44.99</FormattedPrice>
-        </LowestNewPrice>
-        <TotalNew>1</TotalNew>
-        <TotalUsed>0</TotalUsed>
-        <TotalCollectible>0</TotalCollectible>
-        <TotalRefurbished>0</TotalRefurbished>
-      </OfferSummary>
-      <Offers>
-        <TotalOffers>0</TotalOffers>
-        <TotalOfferPages>0</TotalOfferPages>
-      </Offers>
-    </Item>
-    <Item>
-      <ASIN>B000I4FVRK</ASIN>
-      <ItemAttributes>
-        <Brand>Joe Rocket</Brand>
-        <Color>Perl Black/Black/Black</Color>
-        <Label>Joe Rocket</Label>
-        <Manufacturer>Joe Rocket</Manufacturer>
-        <MPN>506263-186550</MPN>
-        <PackageQuantity>1</PackageQuantity>
-        <ProductGroup>Automotive Parts and Accessories</ProductGroup>
-        <ProductTypeName>AUTO_ACCESSORY</ProductTypeName>
-        <Publisher>Joe Rocket</Publisher>
-        <Size>Extra Large</Size>
-        <Studio>Joe Rocket</Studio>
-        <Title>Joe Rocket Phoenix 3.0 Gloves - Perl Black/Black/Black - Extra Large</Title>
-      </ItemAttributes>
-      <OfferSummary>
-        <LowestNewPrice>
-          <Amount>4499</Amount>
-          <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$44.99</FormattedPrice>
         </LowestNewPrice>
         <TotalNew>1</TotalNew>
         <TotalUsed>0</TotalUsed>
@@ -1693,7 +1694,7 @@
     </Item>
     <Item>
       <ASIN>B0004JQU06</ASIN>
-      <SalesRank>31987</SalesRank>
+      <SalesRank>32381</SalesRank>
       <ItemAttributes>
         <Binding>CD-ROM</Binding>
         <EAN>0714765291671</EAN>
@@ -1757,210 +1758,32 @@
       </Offers>
     </Item>
     <Item>
-      <ASIN>B00188KZ9O</ASIN>
-      <SalesRank>588</SalesRank>
+      <ASIN>B000V0G3XM</ASIN>
+      <SalesRank>51395</SalesRank>
       <ItemAttributes>
-        <Binding>Sports</Binding>
-        <Brand>Pearl Izumi</Brand>
-        <Department>mens</Department>
-        <FabricType>lycra</FabricType>
-        <Feature>Sensor fabric</Feature>
-        <Feature>Flatlocked seams for comfort</Feature>
-        <Feature>3D Race chamois</Feature>
-        <Feature>Modified 8 panel ergonomic design</Feature>
-        <Feature>9 1/4-inch inseam</Feature>
-        <Label>Pearl Izumi</Label>
+        <Feature>Clean and shine your vehicle with the latest German polymer technology!</Feature>
+        <Feature>1Z Einszett Perls Shampoo is environmentally safe, phosphate-free and biodegradable.</Feature>
+        <Feature>1Z Einszett Perls Shampoo is highly lubricated to protect the paint as loose dirt is rinsed away.</Feature>
+        <Label>Einszett</Label>
         <ListPrice>
-          <Amount>6995</Amount>
+          <Amount>999</Amount>
           <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$69.95</FormattedPrice>
+          <FormattedPrice>$9.99</FormattedPrice>
         </ListPrice>
-        <Manufacturer>Pearl Izumi</Manufacturer>
-        <Model>220</Model>
-        <ProductGroup>Sports</ProductGroup>
-        <ProductTypeName>ABIS_SPORTS</ProductTypeName>
-        <Publisher>Pearl Izumi</Publisher>
-        <ReleaseDate>2008-04-22</ReleaseDate>
-        <SKU>100429</SKU>
-        <Studio>Pearl Izumi</Studio>
-        <Title>Pearl Izumi Attack Cycling Short</Title>
-      </ItemAttributes>
-      <OfferSummary>
-        <TotalNew>0</TotalNew>
-        <TotalUsed>0</TotalUsed>
-        <TotalCollectible>0</TotalCollectible>
-        <TotalRefurbished>0</TotalRefurbished>
-      </OfferSummary>
-      <Offers>
-        <TotalOffers>0</TotalOffers>
-        <TotalOfferPages>0</TotalOfferPages>
-      </Offers>
-      <Accessories>
-        <Accessory>
-          <ASIN>B000KF6HZW</ASIN>
-          <Title>Pearl Izumi 2007/08 Men's Quest Cycling Shorts - Black - 0165-021</Title>
-        </Accessory>
-        <Accessory>
-          <ASIN>B000KX8ZK4</ASIN>
-          <Title>Giordana 2008 Race Tech Cycling Shorts - Gray w/ Black and Yellow Accents - (GI-SHRT-RATE-GRAY)</Title>
-        </Accessory>
-        <Accessory>
-          <ASIN>B001QVLTTS</ASIN>
-          <Title>Fox Racing Men's Base Bike Shorts - Dark Khaki - 26020-108</Title>
-        </Accessory>
-        <Accessory>
-          <ASIN>B001OFRBRK</ASIN>
-          <Title>Louis Garneau 2009 Alveo Gel Cycling Shorts - Black - 1050285-020</Title>
-        </Accessory>
-        <Accessory>
-          <ASIN>B001IMRSOA</ASIN>
-          <Title>Primal Wear Men's Cargo Loose Fit Cycling Shorts - MTBSB</Title>
-        </Accessory>
-      </Accessories>
-    </Item>
-    <Item>
-      <ASIN>B00188SEB0</ASIN>
-      <SalesRank>878</SalesRank>
-      <ItemAttributes>
-        <Binding>Sports</Binding>
-        <Brand>Pearl Izumi</Brand>
-        <Department>mens</Department>
-        <Feature>Pearl Izumi Tri Cycling Short with shorter, 6.5-inch inseam, designed for swim, run, and ride triathlons</Feature>
-        <Feature>Ultrasensor moisture wicking fabric, composed of a nylon/Lycra blend offers superior fit and dries quickly</Feature>
-        <Feature>Triathlon-specific, reduced size Ultrasensor chamois pad with quick-dry fabric</Feature>
-        <Feature>Unique panel design for ergonomic performance, spandex leg grippers, and internal drawstring closure at waist</Feature>
-        <Feature>Lifetime warranty against defects in materials and workmanship, Tri Cycling Short is not recommended for use in chlorinated pools</Feature>
-        <Label>Pearl Izumi</Label>
-        <Manufacturer>Pearl Izumi</Manufacturer>
-        <Model>235</Model>
-        <ProductGroup>Sports</ProductGroup>
-        <ProductTypeName>ABIS_SPORTS</ProductTypeName>
-        <Publisher>Pearl Izumi</Publisher>
-        <ReleaseDate>2008-04-22</ReleaseDate>
-        <SKU>a_20551_0_0</SKU>
-        <Studio>Pearl Izumi</Studio>
-        <Title>Pearl Izumi Tri Cycling Short</Title>
-      </ItemAttributes>
-      <OfferSummary>
-        <TotalNew>0</TotalNew>
-        <TotalUsed>0</TotalUsed>
-        <TotalCollectible>0</TotalCollectible>
-        <TotalRefurbished>0</TotalRefurbished>
-      </OfferSummary>
-      <Offers>
-        <TotalOffers>0</TotalOffers>
-        <TotalOfferPages>0</TotalOfferPages>
-      </Offers>
-      <Accessories>
-        <Accessory>
-          <ASIN>B000EHVQJS</ASIN>
-          <Title>Louis Garneau 2008 Training Triathlon Tri Power Shorts - Black - 1050163-020</Title>
-        </Accessory>
-        <Accessory>
-          <ASIN>B000TEE8LE</ASIN>
-          <Title>Pearl Izumi 2007/08 Men's Triathlon Speed Suit - Moonlight/Diablo Red - 1062-029</Title>
-        </Accessory>
-        <Accessory>
-          <ASIN>B0017U1YC0</ASIN>
-          <Title>Descente 2008 Men's Aero-XT Triathlon Short Short - Black - 80101bk</Title>
-        </Accessory>
-        <Accessory>
-          <ASIN>B0017SVQJS</ASIN>
-          <Title>Descente 2008 Men's Aero-XT Triathlon Top - Bright Red - 80204br</Title>
-        </Accessory>
-        <Accessory>
-          <ASIN>B0017STIWU</ASIN>
-          <Title>Descente 2008 Men's Aero-XT Triathlon Top - White - 80204wh</Title>
-        </Accessory>
-      </Accessories>
-    </Item>
-    <Item>
-      <ASIN>B00188LHE6</ASIN>
-      <SalesRank>438</SalesRank>
-      <ItemAttributes>
-        <Binding>Sports</Binding>
-        <Brand>Pearl iZUMi</Brand>
-        <Department>mens</Department>
-        <Feature>Quest Cycling Short made of signature Pearl Izumi Sensor fabric that quickly wicks moisture away from the body for easy evaporation</Feature>
-        <Feature>Features supportive 08' 3D Pro Chamois and 6-panel ergonomic design</Feature>
-        <Feature>9.25-inch inseam short with custom Pearl Izumi spandex leg gripper for maximum comfort</Feature>
-        <Feature>Short is flatlock stitched for zero chafing to skin</Feature>
-        <Feature>Lifetime warranty against defects in materials and workmanship</Feature>
-        <Label>Pearl Izumi</Label>
-        <Manufacturer>Pearl Izumi</Manufacturer>
-        <Model>223</Model>
-        <ProductGroup>Apparel</ProductGroup>
-        <ProductTypeName>SHORTS</ProductTypeName>
-        <Publisher>Pearl Izumi</Publisher>
-        <ReleaseDate>2008-04-22</ReleaseDate>
-        <SKU>a_20658_0_0</SKU>
-        <Studio>Pearl Izumi</Studio>
-        <Title>Pearl Izumi Quest Cycling Short</Title>
-      </ItemAttributes>
-      <OfferSummary>
-        <TotalNew>0</TotalNew>
-        <TotalUsed>0</TotalUsed>
-        <TotalCollectible>0</TotalCollectible>
-        <TotalRefurbished>0</TotalRefurbished>
-      </OfferSummary>
-      <Offers>
-        <TotalOffers>0</TotalOffers>
-        <TotalOfferPages>0</TotalOfferPages>
-      </Offers>
-      <Accessories>
-        <Accessory>
-          <ASIN>B000I5NPL8</ASIN>
-          <Title>Louis Garneau 2009 Men's Oslo Bib Tights - Black - 1069041-020</Title>
-        </Accessory>
-        <Accessory>
-          <ASIN>B000TI59LI</ASIN>
-          <Title>Pearl Izumi 2007/08 Men's Vertex ThermaFleece Cycling Bib Shorts - Black - 0205-021</Title>
-        </Accessory>
-        <Accessory>
-          <ASIN>B000VKJWOO</ASIN>
-          <Title>Adidas 2008/09 Men's Response ClimaWarm Wind Race Tights w/ No Pad - Black - 485668</Title>
-        </Accessory>
-        <Accessory>
-          <ASIN>B001FYPM7Q</ASIN>
-          <Title>Rock Racing Men's O.G. Cycling Bib Shorts - Road Rash - MTBS024-RORA</Title>
-        </Accessory>
-        <Accessory>
-          <ASIN>B0012MA3B6</ASIN>
-          <Title>Pearl Izumi 2009 Men's Quest Cycling Bib Shorts - Black - 0222-021</Title>
-        </Accessory>
-      </Accessories>
-    </Item>
-    <Item>
-      <ASIN>0596520689</ASIN>
-      <SalesRank>3918</SalesRank>
-      <ItemAttributes>
-        <Author>Jan Goyvaerts</Author>
-        <Author>Steven Levithan</Author>
-        <Binding>Paperback</Binding>
-        <DeweyDecimalNumber>005</DeweyDecimalNumber>
-        <EAN>9780596520687</EAN>
-        <ISBN>0596520689</ISBN>
-        <Label>O'Reilly Media, Inc.</Label>
-        <ListPrice>
-          <Amount>4499</Amount>
-          <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$44.99</FormattedPrice>
-        </ListPrice>
-        <Manufacturer>O'Reilly Media, Inc.</Manufacturer>
-        <NumberOfItems>1</NumberOfItems>
-        <NumberOfPages>510</NumberOfPages>
-        <ProductGroup>Book</ProductGroup>
-        <ProductTypeName>ABIS_BOOK</ProductTypeName>
-        <PublicationDate>2009-06-04</PublicationDate>
-        <Publisher>O'Reilly Media, Inc.</Publisher>
-        <Studio>O'Reilly Media, Inc.</Studio>
-        <Title>Regular Expressions Cookbook</Title>
+        <Manufacturer>Einszett</Manufacturer>
+        <MPN>EIN-981405</MPN>
+        <PackageQuantity>1</PackageQuantity>
+        <ProductGroup>Automotive Parts and Accessories</ProductGroup>
+        <ProductTypeName>AUTO_ACCESSORY</ProductTypeName>
+        <Publisher>Einszett</Publisher>
+        <Studio>Einszett</Studio>
+        <Title>1Z Einszett Perls Shampoo Premium Car Wash</Title>
       </ItemAttributes>
       <OfferSummary>
         <LowestNewPrice>
-          <Amount>2969</Amount>
+          <Amount>999</Amount>
           <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$29.69</FormattedPrice>
+          <FormattedPrice>$9.99</FormattedPrice>
         </LowestNewPrice>
         <TotalNew>1</TotalNew>
         <TotalUsed>0</TotalUsed>
@@ -1968,47 +1791,77 @@
         <TotalRefurbished>0</TotalRefurbished>
       </OfferSummary>
       <Offers>
-        <TotalOffers>1</TotalOffers>
-        <TotalOfferPages>1</TotalOfferPages>
-        <Offer>
-          <Merchant>
-            <MerchantId>ATVPDKIKX0DER</MerchantId>
-            <GlancePage>http://www.amazon.com/gp/help/seller/home.html?seller=ATVPDKIKX0DER</GlancePage>
-            <AverageFeedbackRating>0.0</AverageFeedbackRating>
-            <TotalFeedback>0</TotalFeedback>
-          </Merchant>
-          <OfferAttributes>
-            <Condition>New</Condition>
-            <SubCondition>new</SubCondition>
-          </OfferAttributes>
-          <OfferListing>
-            <OfferListingId>RQBLsMdGMau940G2T1flJhbWtQ72xj%2BtY%2B2VGioJoQ%2BraWjKOn0N6B0u0H%2BJF%2B4Nz5bhyCNzF1eaUDWSXlGtfw%3D%3D</OfferListingId>
-            <Price>
-              <Amount>2969</Amount>
-              <CurrencyCode>USD</CurrencyCode>
-              <FormattedPrice>$29.69</FormattedPrice>
-            </Price>
-            <AmountSaved>
-              <Amount>1530</Amount>
-              <CurrencyCode>USD</CurrencyCode>
-              <FormattedPrice>$15.30</FormattedPrice>
-            </AmountSaved>
-            <PercentageSaved>34</PercentageSaved>
-            <Availability>Usually ships in 24 hours</Availability>
-            <AvailabilityAttributes>
-              <AvailabilityType>now</AvailabilityType>
-              <MinimumHours>0</MinimumHours>
-              <MaximumHours>0</MaximumHours>
-            </AvailabilityAttributes>
-            <Quantity>-1</Quantity>
-            <IsEligibleForSuperSaverShipping>1</IsEligibleForSuperSaverShipping>
-          </OfferListing>
-        </Offer>
+        <TotalOffers>0</TotalOffers>
+        <TotalOfferPages>0</TotalOfferPages>
+      </Offers>
+    </Item>
+    <Item>
+      <ASIN>B000I4FVRK</ASIN>
+      <ItemAttributes>
+        <Brand>Joe Rocket</Brand>
+        <Color>Perl Black/Black/Black</Color>
+        <Label>Joe Rocket</Label>
+        <Manufacturer>Joe Rocket</Manufacturer>
+        <MPN>506263-186550</MPN>
+        <PackageQuantity>1</PackageQuantity>
+        <ProductGroup>Automotive Parts and Accessories</ProductGroup>
+        <ProductTypeName>AUTO_ACCESSORY</ProductTypeName>
+        <Publisher>Joe Rocket</Publisher>
+        <Size>Extra Large</Size>
+        <Studio>Joe Rocket</Studio>
+        <Title>Joe Rocket Phoenix 3.0 Gloves - Perl Black/Black/Black - Extra Large</Title>
+      </ItemAttributes>
+      <OfferSummary>
+        <LowestNewPrice>
+          <Amount>4499</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$44.99</FormattedPrice>
+        </LowestNewPrice>
+        <TotalNew>1</TotalNew>
+        <TotalUsed>0</TotalUsed>
+        <TotalCollectible>0</TotalCollectible>
+        <TotalRefurbished>0</TotalRefurbished>
+      </OfferSummary>
+      <Offers>
+        <TotalOffers>0</TotalOffers>
+        <TotalOfferPages>0</TotalOfferPages>
+      </Offers>
+    </Item>
+    <Item>
+      <ASIN>B000I4CSV2</ASIN>
+      <ItemAttributes>
+        <Brand>Joe Rocket</Brand>
+        <Color>Perl Red/Black/White</Color>
+        <Label>Joe Rocket</Label>
+        <Manufacturer>Joe Rocket</Manufacturer>
+        <MPN>506263-186552</MPN>
+        <PackageQuantity>1</PackageQuantity>
+        <ProductGroup>Automotive Parts and Accessories</ProductGroup>
+        <ProductTypeName>AUTO_ACCESSORY</ProductTypeName>
+        <Publisher>Joe Rocket</Publisher>
+        <Size>Small</Size>
+        <Studio>Joe Rocket</Studio>
+        <Title>Joe Rocket Phoenix 3.0 Gloves - Perl Red/Black/White - Small</Title>
+      </ItemAttributes>
+      <OfferSummary>
+        <LowestNewPrice>
+          <Amount>4499</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$44.99</FormattedPrice>
+        </LowestNewPrice>
+        <TotalNew>1</TotalNew>
+        <TotalUsed>0</TotalUsed>
+        <TotalCollectible>0</TotalCollectible>
+        <TotalRefurbished>0</TotalRefurbished>
+      </OfferSummary>
+      <Offers>
+        <TotalOffers>0</TotalOffers>
+        <TotalOfferPages>0</TotalOfferPages>
       </Offers>
     </Item>
     <Item>
       <ASIN>0596101996</ASIN>
-      <SalesRank>3479</SalesRank>
+      <SalesRank>2781</SalesRank>
       <ItemAttributes>
         <Author>David Flanagan</Author>
         <Binding>Paperback</Binding>
@@ -2034,17 +1887,17 @@
       </ItemAttributes>
       <OfferSummary>
         <LowestNewPrice>
-          <Amount>2739</Amount>
+          <Amount>2599</Amount>
           <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$27.39</FormattedPrice>
+          <FormattedPrice>$25.99</FormattedPrice>
         </LowestNewPrice>
         <LowestUsedPrice>
-          <Amount>2290</Amount>
+          <Amount>1496</Amount>
           <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$22.90</FormattedPrice>
+          <FormattedPrice>$14.96</FormattedPrice>
         </LowestUsedPrice>
         <TotalNew>43</TotalNew>
-        <TotalUsed>31</TotalUsed>
+        <TotalUsed>32</TotalUsed>
         <TotalCollectible>0</TotalCollectible>
         <TotalRefurbished>0</TotalRefurbished>
       </OfferSummary>
@@ -2063,7 +1916,7 @@
             <SubCondition>new</SubCondition>
           </OfferAttributes>
           <OfferListing>
-            <OfferListingId>MZzIcVIu1Ea5lYVj%2FtaVSXQh6omYkeM1YdW7u2gkWvyHolxurtkK2ivzR8fIBxrSS%2BSiPWESO1LmTkexR02qOOlZ%2BzXlZvgv</OfferListingId>
+            <OfferListingId>f4bjf21lUs1wGKy4siRrXge3O5bWEhU2kNvNSIbizu%2FS4YQ%2Ff0%2BOUIzEvI4O9GkWFr%2FsS3PAbeWkRgBMGSuT6g0H6583xm7I</OfferListingId>
             <Price>
               <Amount>3149</Amount>
               <CurrencyCode>USD</CurrencyCode>
@@ -2088,44 +1941,45 @@
       </Offers>
     </Item>
     <Item>
-      <ASIN>0596513984</ASIN>
-      <SalesRank>2663</SalesRank>
+      <ASIN>0596520689</ASIN>
+      <SalesRank>4713</SalesRank>
       <ItemAttributes>
-        <Author>Mark Lutz</Author>
+        <Author>Jan Goyvaerts</Author>
+        <Author>Steven Levithan</Author>
         <Binding>Paperback</Binding>
-        <DeweyDecimalNumber>005.13</DeweyDecimalNumber>
-        <EAN>9780596513986</EAN>
-        <Edition>3</Edition>
-        <ISBN>0596513984</ISBN>
+        <DeweyDecimalNumber>005</DeweyDecimalNumber>
+        <EAN>9780596520687</EAN>
+        <Edition>1</Edition>
+        <ISBN>0596520689</ISBN>
         <Label>O'Reilly Media, Inc.</Label>
         <ListPrice>
-          <Amount>3999</Amount>
+          <Amount>4499</Amount>
           <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$39.99</FormattedPrice>
+          <FormattedPrice>$44.99</FormattedPrice>
         </ListPrice>
         <Manufacturer>O'Reilly Media, Inc.</Manufacturer>
         <NumberOfItems>1</NumberOfItems>
-        <NumberOfPages>746</NumberOfPages>
+        <NumberOfPages>510</NumberOfPages>
         <ProductGroup>Book</ProductGroup>
         <ProductTypeName>ABIS_BOOK</ProductTypeName>
-        <PublicationDate>2008-07-16</PublicationDate>
+        <PublicationDate>2009-06-04</PublicationDate>
         <Publisher>O'Reilly Media, Inc.</Publisher>
         <Studio>O'Reilly Media, Inc.</Studio>
-        <Title>Learning Python, 3rd Edition</Title>
+        <Title>Regular Expressions Cookbook</Title>
       </ItemAttributes>
       <OfferSummary>
         <LowestNewPrice>
-          <Amount>2289</Amount>
+          <Amount>2813</Amount>
           <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$22.89</FormattedPrice>
+          <FormattedPrice>$28.13</FormattedPrice>
         </LowestNewPrice>
         <LowestUsedPrice>
-          <Amount>1599</Amount>
+          <Amount>3438</Amount>
           <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$15.99</FormattedPrice>
+          <FormattedPrice>$34.38</FormattedPrice>
         </LowestUsedPrice>
-        <TotalNew>32</TotalNew>
-        <TotalUsed>22</TotalUsed>
+        <TotalNew>22</TotalNew>
+        <TotalUsed>8</TotalUsed>
         <TotalCollectible>0</TotalCollectible>
         <TotalRefurbished>0</TotalRefurbished>
       </OfferSummary>
@@ -2144,16 +1998,16 @@
             <SubCondition>new</SubCondition>
           </OfferAttributes>
           <OfferListing>
-            <OfferListingId>YlB5V2qoc%2BZloipWZ97OYGIjq64kBrPWqrYB133yunpwSc702Nz6SWFS%2FRtJlQNSPHU7wWTLU%2FQkkMg4vkGdCA%3D%3D</OfferListingId>
+            <OfferListingId>agzBF6bv6Cc6Z89Wf4OjFKI1abESW0HvbU4z6iN6o9afQuRb4ioxEGq1Gau%2BmjVmPERmZG2rzND87tEh5RaTPA%3D%3D</OfferListingId>
             <Price>
-              <Amount>2639</Amount>
+              <Amount>2969</Amount>
               <CurrencyCode>USD</CurrencyCode>
-              <FormattedPrice>$26.39</FormattedPrice>
+              <FormattedPrice>$29.69</FormattedPrice>
             </Price>
             <AmountSaved>
-              <Amount>1360</Amount>
+              <Amount>1530</Amount>
               <CurrencyCode>USD</CurrencyCode>
-              <FormattedPrice>$13.60</FormattedPrice>
+              <FormattedPrice>$15.30</FormattedPrice>
             </AmountSaved>
             <PercentageSaved>34</PercentageSaved>
             <Availability>Usually ships in 24 hours</Availability>
@@ -2169,55 +2023,114 @@
       </Offers>
     </Item>
     <Item>
-      <ASIN>B000NSU05O</ASIN>
-      <SalesRank>159067</SalesRank>
+      <ASIN>0596517742</ASIN>
+      <SalesRank>2772</SalesRank>
       <ItemAttributes>
-        <Binding>Apparel</Binding>
-        <Brand>Mephisto</Brand>
-        <ClothingSize>*</ClothingSize>
-        <Color>*</Color>
-        <Department>womens</Department>
-        <FabricType>leather</FabricType>
-        <Feature>Heel Height: 2 1/2"</Feature>
-        <Feature>Imported</Feature>
-        <Feature>Fit: True to Size</Feature>
+        <Author>Douglas Crockford</Author>
+        <Binding>Paperback</Binding>
+        <DeweyDecimalNumber>005.133</DeweyDecimalNumber>
+        <EAN>9780596517748</EAN>
+        <Edition>illustrated edition</Edition>
+        <ISBN>0596517742</ISBN>
+        <Label>O'Reilly Media, Inc.</Label>
+        <ListPrice>
+          <Amount>2999</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$29.99</FormattedPrice>
+        </ListPrice>
+        <Manufacturer>O'Reilly Media, Inc.</Manufacturer>
         <NumberOfItems>1</NumberOfItems>
-        <PackageQuantity>1</PackageQuantity>
-        <ProductGroup>Shoes</ProductGroup>
-        <ProductTypeName>SHOES</ProductTypeName>
-        <Size>*</Size>
-        <SKU>s349889</SKU>
-        <Title>Mephisto Women's Carly Mid Heel Shoes</Title>
+        <NumberOfPages>170</NumberOfPages>
+        <ProductGroup>Book</ProductGroup>
+        <ProductTypeName>ABIS_BOOK</ProductTypeName>
+        <PublicationDate>2008-05-15</PublicationDate>
+        <Publisher>O'Reilly Media, Inc.</Publisher>
+        <ReleaseDate>2009-05-11</ReleaseDate>
+        <Studio>O'Reilly Media, Inc.</Studio>
+        <Title>JavaScript: The Good Parts</Title>
       </ItemAttributes>
       <OfferSummary>
-        <TotalNew>0</TotalNew>
-        <TotalUsed>0</TotalUsed>
+        <LowestNewPrice>
+          <Amount>1605</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$16.05</FormattedPrice>
+        </LowestNewPrice>
+        <LowestUsedPrice>
+          <Amount>1555</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$15.55</FormattedPrice>
+        </LowestUsedPrice>
+        <TotalNew>28</TotalNew>
+        <TotalUsed>14</TotalUsed>
         <TotalCollectible>0</TotalCollectible>
         <TotalRefurbished>0</TotalRefurbished>
       </OfferSummary>
       <Offers>
-        <TotalOffers>0</TotalOffers>
-        <TotalOfferPages>0</TotalOfferPages>
+        <TotalOffers>1</TotalOffers>
+        <TotalOfferPages>1</TotalOfferPages>
+        <Offer>
+          <Merchant>
+            <MerchantId>ATVPDKIKX0DER</MerchantId>
+            <GlancePage>http://www.amazon.com/gp/help/seller/home.html?seller=ATVPDKIKX0DER</GlancePage>
+            <AverageFeedbackRating>0.0</AverageFeedbackRating>
+            <TotalFeedback>0</TotalFeedback>
+          </Merchant>
+          <OfferAttributes>
+            <Condition>New</Condition>
+            <SubCondition>new</SubCondition>
+          </OfferAttributes>
+          <OfferListing>
+            <OfferListingId>sZyDLo6d%2FSCpdBgXX%2BHEprVBdGM9qskLr%2BDNgFJT%2FO4VS74%2FJYl8RFJ00YpNcpLX0DZ8RXDHxYcQ%2FNT%2FDf9L1Q%3D%3D</OfferListingId>
+            <Price>
+              <Amount>1979</Amount>
+              <CurrencyCode>USD</CurrencyCode>
+              <FormattedPrice>$19.79</FormattedPrice>
+            </Price>
+            <AmountSaved>
+              <Amount>1020</Amount>
+              <CurrencyCode>USD</CurrencyCode>
+              <FormattedPrice>$10.20</FormattedPrice>
+            </AmountSaved>
+            <PercentageSaved>34</PercentageSaved>
+            <Availability>Usually ships in 24 hours</Availability>
+            <AvailabilityAttributes>
+              <AvailabilityType>now</AvailabilityType>
+              <MinimumHours>0</MinimumHours>
+              <MaximumHours>0</MaximumHours>
+            </AvailabilityAttributes>
+            <Quantity>-1</Quantity>
+            <IsEligibleForSuperSaverShipping>1</IsEligibleForSuperSaverShipping>
+          </OfferListing>
+        </Offer>
       </Offers>
     </Item>
     <Item>
-      <ASIN>B001D9EPBC</ASIN>
-      <SalesRank>579053</SalesRank>
+      <ASIN>B00188MOIE</ASIN>
+      <SalesRank>187</SalesRank>
       <ItemAttributes>
         <Binding>Apparel</Binding>
-        <Brand>Mephisto</Brand>
-        <ClothingSize>*</ClothingSize>
-        <Color>*</Color>
-        <Department>womens</Department>
-        <Feature>Heel Height: 2"</Feature>
-        <Feature>Fit: True to Size</Feature>
-        <NumberOfItems>1</NumberOfItems>
-        <PackageQuantity>1</PackageQuantity>
+        <Brand>Pearl iZUMi</Brand>
+        <Department>unisex-adult</Department>
+        <FabricType>leather</FabricType>
+        <Feature>Dense, U-bridge padding and Coolmaxï¿½ mesh offer comfort for short or long rides</Feature>
+        <Feature>Coolmaxï¿½ mesh on back of hand keeps your hands cool and dry</Feature>
+        <Feature>U-Bridge padding alleviates pressure on both the ulnar and medial nerves</Feature>
+        <Feature>Reflective logos</Feature>
+        <Label>Pearl Izumi</Label>
+        <ListPrice>
+          <Amount>1995</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$19.95</FormattedPrice>
+        </ListPrice>
+        <Manufacturer>Pearl Izumi</Manufacturer>
+        <Model>8807</Model>
         <ProductGroup>Apparel</ProductGroup>
-        <ProductTypeName>SHOES</ProductTypeName>
-        <Size>*</Size>
-        <SKU>s507562</SKU>
-        <Title>Mephisto Women's Carina Walking Shoes</Title>
+        <ProductTypeName>ACCESSORY</ProductTypeName>
+        <Publisher>Pearl Izumi</Publisher>
+        <ReleaseDate>2008-04-22</ReleaseDate>
+        <SKU>2335000</SKU>
+        <Studio>Pearl Izumi</Studio>
+        <Title>Pearl Izumi Attack Cycling Glove</Title>
       </ItemAttributes>
       <OfferSummary>
         <TotalNew>0</TotalNew>
@@ -2229,10 +2142,32 @@
         <TotalOffers>0</TotalOffers>
         <TotalOfferPages>0</TotalOfferPages>
       </Offers>
+      <Accessories>
+        <Accessory>
+          <ASIN>B000JGHOPY</ASIN>
+          <Title>Assos Prosline Gloves - Black - 2200.2000.1</Title>
+        </Accessory>
+        <Accessory>
+          <ASIN>B000JGLCLQ</ASIN>
+          <Title>Assos Prosline Gloves - White - 2200.2000.5</Title>
+        </Accessory>
+        <Accessory>
+          <ASIN>B001CUYHG0</ASIN>
+          <Title>Pearl Izumi 2009/10 Men's Pittards Octane Leather Cycling Gloves - Black - 8809-021</Title>
+        </Accessory>
+        <Accessory>
+          <ASIN>B0018IU3U0</ASIN>
+          <Title>Giordana 2009 Forma Cycling Gloves - Red - gi-glov-form-redd</Title>
+        </Accessory>
+        <Accessory>
+          <ASIN>B00188WRGI</ASIN>
+          <Title>Pearl Izumi Women's Select Cycling Glove</Title>
+        </Accessory>
+      </Accessories>
     </Item>
     <Item>
       <ASIN>B000S6D6C0</ASIN>
-      <SalesRank>88616</SalesRank>
+      <SalesRank>34269</SalesRank>
       <ItemAttributes>
         <Binding>Apparel</Binding>
         <Brand>Mephisto</Brand>
@@ -2267,26 +2202,25 @@
       </Offers>
     </Item>
     <Item>
-      <ASIN>B00188MOIE</ASIN>
-      <SalesRank>731</SalesRank>
+      <ASIN>B000NSU05O</ASIN>
+      <SalesRank>215788</SalesRank>
       <ItemAttributes>
-        <Binding>Sports</Binding>
-        <Brand>Pearl Izumi</Brand>
-        <Department>unisex-adult</Department>
-        <Feature>Dense, U-bridge padding and Coolmaxï¿½ mesh offer comfort for short or long rides</Feature>
-        <Feature>Coolmaxï¿½ mesh on back of hand keeps your hands cool and dry</Feature>
-        <Feature>U-Bridge padding alleviates pressure on both the ulnar and medial nerves</Feature>
-        <Feature>Reflective logos</Feature>
-        <Label>Pearl Izumi</Label>
-        <Manufacturer>Pearl Izumi</Manufacturer>
-        <Model>8807</Model>
-        <ProductGroup>Sports</ProductGroup>
-        <ProductTypeName>ABIS_SPORTS</ProductTypeName>
-        <Publisher>Pearl Izumi</Publisher>
-        <ReleaseDate>2008-04-22</ReleaseDate>
-        <SKU>a_20445_0_0</SKU>
-        <Studio>Pearl Izumi</Studio>
-        <Title>Pearl Izumi Attack Cycling Glove</Title>
+        <Binding>Apparel</Binding>
+        <Brand>Mephisto</Brand>
+        <ClothingSize>*</ClothingSize>
+        <Color>*</Color>
+        <Department>womens</Department>
+        <FabricType>leather</FabricType>
+        <Feature>Heel Height: 2 1/2"</Feature>
+        <Feature>Imported</Feature>
+        <Feature>Fit: True to Size</Feature>
+        <NumberOfItems>1</NumberOfItems>
+        <PackageQuantity>1</PackageQuantity>
+        <ProductGroup>Shoes</ProductGroup>
+        <ProductTypeName>SHOES</ProductTypeName>
+        <Size>*</Size>
+        <SKU>s349889</SKU>
+        <Title>Mephisto Women's Carly Mid Heel Shoes</Title>
       </ItemAttributes>
       <OfferSummary>
         <TotalNew>0</TotalNew>
@@ -2298,28 +2232,36 @@
         <TotalOffers>0</TotalOffers>
         <TotalOfferPages>0</TotalOfferPages>
       </Offers>
-      <Accessories>
-        <Accessory>
-          <ASIN>B000JGHOPY</ASIN>
-          <Title>Assos Prosline Gloves - Black - 2200.2000.1</Title>
-        </Accessory>
-        <Accessory>
-          <ASIN>B000JGLCLQ</ASIN>
-          <Title>Assos Prosline Gloves - White - 2200.2000.5</Title>
-        </Accessory>
-        <Accessory>
-          <ASIN>B001LURPQA</ASIN>
-          <Title>Pearl Izumi 2009 Men's Select Gel Cycling Gloves - Black - 8588-021</Title>
-        </Accessory>
-        <Accessory>
-          <ASIN>B001CUYHG0</ASIN>
-          <Title>Pearl Izumi 2009 Men's Pittards Octane Leather Cycling Gloves - Black - 8809-021</Title>
-        </Accessory>
-        <Accessory>
-          <ASIN>B0018IU3U0</ASIN>
-          <Title>Giordana 2009 Forma Cycling Gloves - Red - gi-glov-form-redd</Title>
-        </Accessory>
-      </Accessories>
+    </Item>
+    <Item>
+      <ASIN>B001D9EPBC</ASIN>
+      <SalesRank>604520</SalesRank>
+      <ItemAttributes>
+        <Binding>Apparel</Binding>
+        <Brand>Mephisto</Brand>
+        <ClothingSize>*</ClothingSize>
+        <Color>*</Color>
+        <Department>womens</Department>
+        <Feature>Heel Height: 2"</Feature>
+        <Feature>Fit: True to Size</Feature>
+        <NumberOfItems>1</NumberOfItems>
+        <PackageQuantity>1</PackageQuantity>
+        <ProductGroup>Apparel</ProductGroup>
+        <ProductTypeName>SHOES</ProductTypeName>
+        <Size>*</Size>
+        <SKU>s507562</SKU>
+        <Title>Mephisto Women's Carina Walking Shoes</Title>
+      </ItemAttributes>
+      <OfferSummary>
+        <TotalNew>0</TotalNew>
+        <TotalUsed>0</TotalUsed>
+        <TotalCollectible>0</TotalCollectible>
+        <TotalRefurbished>0</TotalRefurbished>
+      </OfferSummary>
+      <Offers>
+        <TotalOffers>0</TotalOffers>
+        <TotalOfferPages>0</TotalOfferPages>
+      </Offers>
     </Item>
   </Items>
 </ItemSearchResponse>

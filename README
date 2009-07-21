@@ -1,5 +1,5 @@
 ######################################################################
-    Net::Amazon 0.54
+    Net::Amazon 0.55
 ######################################################################
 NAME
     Net::Amazon - Framework for accessing amazon.com via REST
@@ -406,7 +406,7 @@ DESCRIPTION
         }
 
     DETAILS Net::Amazon is based on Amazon Web Services version 4, and uses
-    WSDL version 2009-03-31.
+    WSDL version 2009-07-01.
 
 CACHING
     Responses returned by Amazon's web service can be cached locally.

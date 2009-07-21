@@ -1,11 +1,11 @@
 <?xml version="1.0"?>
-<ItemSearchResponse xmlns="http://webservices.amazon.com/AWSECommerceService/2009-03-31">
+<ItemSearchResponse xmlns="http://webservices.amazon.com/AWSECommerceService/2009-07-01">
   <Items>
-    <TotalResults>2</TotalResults>
+    <TotalResults>7</TotalResults>
     <TotalPages>1</TotalPages>
     <Item>
       <ASIN>1423101472</ASIN>
-      <SalesRank>20</SalesRank>
+      <SalesRank>43</SalesRank>
       <ItemAttributes>
         <Author>Rick Riordan</Author>
         <Binding>Hardcover</Binding>
@@ -45,23 +45,23 @@
       </ItemAttributes>
       <OfferSummary>
         <LowestNewPrice>
-          <Amount>1069</Amount>
+          <Amount>780</Amount>
           <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$10.69</FormattedPrice>
+          <FormattedPrice>$7.80</FormattedPrice>
         </LowestNewPrice>
         <LowestUsedPrice>
-          <Amount>1099</Amount>
+          <Amount>1059</Amount>
           <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$10.99</FormattedPrice>
+          <FormattedPrice>$10.59</FormattedPrice>
         </LowestUsedPrice>
         <LowestCollectiblePrice>
-          <Amount>3500</Amount>
+          <Amount>2500</Amount>
           <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$35.00</FormattedPrice>
+          <FormattedPrice>$25.00</FormattedPrice>
         </LowestCollectiblePrice>
-        <TotalNew>32</TotalNew>
-        <TotalUsed>7</TotalUsed>
-        <TotalCollectible>5</TotalCollectible>
+        <TotalNew>54</TotalNew>
+        <TotalUsed>14</TotalUsed>
+        <TotalCollectible>8</TotalCollectible>
         <TotalRefurbished>0</TotalRefurbished>
       </OfferSummary>
       <Offers>
@@ -79,7 +79,7 @@
             <SubCondition>new</SubCondition>
           </OfferAttributes>
           <OfferListing>
-            <OfferListingId>DUpMbVMvzQ68zrqTyvHwkV%2BzoygVFDXbCAOxDvxG0EKvUdTKDUhzoWAERYEkLJBYg0XWUs4JCA91EUO3hYLlNg%3D%3D</OfferListingId>
+            <OfferListingId>7mcLbzU5y4y%2Bs4QGpHX6tkPv27VGnglWdMZOM7NgFSsOR9L3VewHNVQhOS%2FH%2FyvFxUxsgxvTEmzOU4SZPi8tLw%3D%3D</OfferListingId>
             <Price>
               <Amount>1079</Amount>
               <CurrencyCode>USD</CurrencyCode>
@@ -104,10 +104,10 @@
       </Offers>
     </Item>
     <Item>
-      <ASIN>B002BLKY7U</ASIN>
+      <ASIN>B002CANVDO</ASIN>
+      <SalesRank>2619743</SalesRank>
       <ItemAttributes>
-        <Author>Rick Riordan</Author>
-        <Binding>Hardcover</Binding>
+        <Binding>Unknown Binding</Binding>
         <Label>Disney Hyperion Books for Children</Label>
         <Manufacturer>Disney Hyperion Books for Children</Manufacturer>
         <ProductGroup>Book</ProductGroup>
@@ -118,13 +118,168 @@
         <Title>The Last Olympian (Percy Jackson and the Olympians, Book 5)</Title>
       </ItemAttributes>
       <OfferSummary>
-        <LowestUsedPrice>
-          <Amount>5295</Amount>
+        <LowestNewPrice>
+          <Amount>3300</Amount>
           <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$52.95</FormattedPrice>
+          <FormattedPrice>$33.00</FormattedPrice>
+        </LowestNewPrice>
+        <LowestUsedPrice>
+          <Amount>3170</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$31.70</FormattedPrice>
         </LowestUsedPrice>
+        <TotalNew>1</TotalNew>
+        <TotalUsed>4</TotalUsed>
+        <TotalCollectible>0</TotalCollectible>
+        <TotalRefurbished>0</TotalRefurbished>
+      </OfferSummary>
+      <Offers>
+        <TotalOffers>0</TotalOffers>
+        <TotalOfferPages>0</TotalOfferPages>
+      </Offers>
+    </Item>
+    <Item>
+      <ASIN>B001ROFWFG</ASIN>
+      <ItemAttributes>
+        <Binding>Unknown Binding</Binding>
+        <Label>Disney Editions/Hyperion Books For Children</Label>
+        <Manufacturer>Disney Editions/Hyperion Books For Children</Manufacturer>
+        <ProductGroup>Book</ProductGroup>
+        <ProductTypeName>BOOKS_1973_AND_LATER</ProductTypeName>
+        <PublicationDate>2004-01-01</PublicationDate>
+        <Publisher>Disney Editions/Hyperion Books For Children</Publisher>
+        <Studio>Disney Editions/Hyperion Books For Children</Studio>
+        <Title>Peter and the Starcatchers</Title>
+      </ItemAttributes>
+      <OfferSummary>
         <TotalNew>0</TotalNew>
-        <TotalUsed>1</TotalUsed>
+        <TotalUsed>0</TotalUsed>
+        <TotalCollectible>0</TotalCollectible>
+        <TotalRefurbished>0</TotalRefurbished>
+      </OfferSummary>
+      <Offers>
+        <TotalOffers>0</TotalOffers>
+        <TotalOfferPages>0</TotalOfferPages>
+      </Offers>
+    </Item>
+    <Item>
+      <ASIN>B002H39L94</ASIN>
+      <ItemAttributes>
+        <Author>Dave; Pearson, Ridley Barry</Author>
+        <Binding>Paperback</Binding>
+        <Label>Hyperion Books for Children / Disney Editions</Label>
+        <Manufacturer>Hyperion Books for Children / Disney Editions</Manufacturer>
+        <ProductGroup>Book</ProductGroup>
+        <ProductTypeName>BOOKS_1973_AND_LATER</ProductTypeName>
+        <PublicationDate>2006-01-01</PublicationDate>
+        <Publisher>Hyperion Books for Children / Disney Editions</Publisher>
+        <Studio>Hyperion Books for Children / Disney Editions</Studio>
+        <Title>Peter and the Shadow Thieves</Title>
+      </ItemAttributes>
+      <OfferSummary>
+        <LowestNewPrice>
+          <Amount>1800</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$18.00</FormattedPrice>
+        </LowestNewPrice>
+        <TotalNew>1</TotalNew>
+        <TotalUsed>0</TotalUsed>
+        <TotalCollectible>0</TotalCollectible>
+        <TotalRefurbished>0</TotalRefurbished>
+      </OfferSummary>
+      <Offers>
+        <TotalOffers>0</TotalOffers>
+        <TotalOfferPages>0</TotalOfferPages>
+      </Offers>
+    </Item>
+    <Item>
+      <ASIN>B0013FK6AA</ASIN>
+      <SalesRank>3868964</SalesRank>
+      <ItemAttributes>
+        <Binding>Unknown Binding</Binding>
+        <Label>Hyperion Books for Children / Disney Editions</Label>
+        <Manufacturer>Hyperion Books for Children / Disney Editions</Manufacturer>
+        <ProductGroup>Book</ProductGroup>
+        <ProductTypeName>BOOKS_1973_AND_LATER</ProductTypeName>
+        <PublicationDate>2006-01-01</PublicationDate>
+        <Publisher>Hyperion Books for Children / Disney Editions</Publisher>
+        <Studio>Hyperion Books for Children / Disney Editions</Studio>
+        <Title>Peter and the Shadow Thieves</Title>
+      </ItemAttributes>
+      <OfferSummary>
+        <TotalNew>0</TotalNew>
+        <TotalUsed>0</TotalUsed>
+        <TotalCollectible>0</TotalCollectible>
+        <TotalRefurbished>0</TotalRefurbished>
+      </OfferSummary>
+      <Offers>
+        <TotalOffers>0</TotalOffers>
+        <TotalOfferPages>0</TotalOfferPages>
+      </Offers>
+    </Item>
+    <Item>
+      <ASIN>1428737642</ASIN>
+      <ItemAttributes>
+        <Author>Dave Barry</Author>
+        <Binding>Hardcover</Binding>
+        <EAN>9781428737648</EAN>
+        <ISBN>1428737642</ISBN>
+        <Label>Disney Editions/Hyperion Books for Children</Label>
+        <Languages>
+          <Language>
+            <Name>English</Name>
+            <Type>Published</Type>
+          </Language>
+        </Languages>
+        <Manufacturer>Disney Editions/Hyperion Books for Children</Manufacturer>
+        <NumberOfItems>1</NumberOfItems>
+        <NumberOfPages>166</NumberOfPages>
+        <ProductGroup>Book</ProductGroup>
+        <ProductTypeName>ABIS_BOOK</ProductTypeName>
+        <PublicationDate>2007-01</PublicationDate>
+        <Publisher>Disney Editions/Hyperion Books for Children</Publisher>
+        <ReadingLevel>Ages 9-12</ReadingLevel>
+        <Studio>Disney Editions/Hyperion Books for Children</Studio>
+        <Title>Cave of the Dark Wind (Never Land Books)</Title>
+      </ItemAttributes>
+      <OfferSummary>
+        <LowestNewPrice>
+          <Amount>999</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$9.99</FormattedPrice>
+        </LowestNewPrice>
+        <TotalNew>1</TotalNew>
+        <TotalUsed>0</TotalUsed>
+        <TotalCollectible>0</TotalCollectible>
+        <TotalRefurbished>0</TotalRefurbished>
+      </OfferSummary>
+      <Offers>
+        <TotalOffers>0</TotalOffers>
+        <TotalOfferPages>0</TotalOfferPages>
+      </Offers>
+    </Item>
+    <Item>
+      <ASIN>B002H3D8BQ</ASIN>
+      <ItemAttributes>
+        <Author>Dave; Pearson, Ridley Barry</Author>
+        <Binding>Paperback</Binding>
+        <Label>Hyperion Books for Children / Disney Editions</Label>
+        <Manufacturer>Hyperion Books for Children / Disney Editions</Manufacturer>
+        <ProductGroup>Book</ProductGroup>
+        <ProductTypeName>BOOKS_1973_AND_LATER</ProductTypeName>
+        <PublicationDate>2006-01-01</PublicationDate>
+        <Publisher>Hyperion Books for Children / Disney Editions</Publisher>
+        <Studio>Hyperion Books for Children / Disney Editions</Studio>
+        <Title>Peter and the Shadow Thieves</Title>
+      </ItemAttributes>
+      <OfferSummary>
+        <LowestNewPrice>
+          <Amount>1800</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$18.00</FormattedPrice>
+        </LowestNewPrice>
+        <TotalNew>1</TotalNew>
+        <TotalUsed>0</TotalUsed>
         <TotalCollectible>0</TotalCollectible>
         <TotalRefurbished>0</TotalRefurbished>
       </OfferSummary>

@@ -41,11 +41,11 @@ is(scalar @properties, 10, "10 movies");
 
 like($resp->as_string(), qr/Spirited Away.*?Castle of Cagliostro/s, "Examine Movies");
 
-my $i = 0;
+my $i = 1;
 my @starring = $properties[$i]->starring();
 
 is($properties[$i]->actor, "Hitoshi Takagi", "Check actor");
-is($starring[$i], "Hitoshi Takagi", "Check starring");
+is($starring[0], "Hitoshi Takagi", "Check starring");
 is($properties[$i]->director, "Hayao Miyazaki", "Check director");
 like($properties[$i]->title, qr/My Neighbor Totoro/, "Check title");
 is($properties[$i]->studio, "Walt Disney Home Entertainment", "Check studio");

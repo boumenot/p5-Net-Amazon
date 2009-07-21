@@ -1,9 +1,9 @@
 <?xml version="1.0"?>
-<ItemLookupResponse xmlns="http://webservices.amazon.com/AWSECommerceService/2009-03-31">
+<ItemLookupResponse xmlns="http://webservices.amazon.com/AWSECommerceService/2009-07-01">
   <Items>
     <Item>
       <ASIN>B00007M84Q</ASIN>
-      <SalesRank>88294</SalesRank>
+      <SalesRank>77439</SalesRank>
       <ItemAttributes>
         <Artist>Zwan</Artist>
         <Binding>Audio CD</Binding>
@@ -19,7 +19,6 @@
         <OriginalReleaseDate>2003-01-28</OriginalReleaseDate>
         <ProductGroup>Music</ProductGroup>
         <ProductTypeName>ABIS_MUSIC</ProductTypeName>
-        <PublicationDate>2003</PublicationDate>
         <Publisher>Reprise / Wea</Publisher>
         <ReleaseDate>2003-01-28</ReleaseDate>
         <Studio>Reprise / Wea</Studio>
@@ -42,9 +41,9 @@
           <CurrencyCode>USD</CurrencyCode>
           <FormattedPrice>$18.98</FormattedPrice>
         </LowestCollectiblePrice>
-        <TotalNew>25</TotalNew>
-        <TotalUsed>103</TotalUsed>
-        <TotalCollectible>8</TotalCollectible>
+        <TotalNew>20</TotalNew>
+        <TotalUsed>110</TotalUsed>
+        <TotalCollectible>9</TotalCollectible>
         <TotalRefurbished>0</TotalRefurbished>
       </OfferSummary>
       <Offers>
@@ -62,7 +61,7 @@
             <SubCondition>new</SubCondition>
           </OfferAttributes>
           <OfferListing>
-            <OfferListingId>Wj9%2FAgj5ltO8qTQfbTO6xYGij9iTJ3T99IstLHLb3mptMu3ZKSYP633fQNrXr4tmV1dUQ1LV3keSlPp3%2F2i90g%3D%3D</OfferListingId>
+            <OfferListingId>Xa289j1Pa%2BWIdN6HsSeZChy4Ttwm%2B0l01Kq6MWSyNcuq0FwXIZhLoV5qyyMwjU51tJR3K2igmFMnB0dO77g%2B5Q%3D%3D</OfferListingId>
             <Price>
               <Amount>1898</Amount>
               <CurrencyCode>USD</CurrencyCode>

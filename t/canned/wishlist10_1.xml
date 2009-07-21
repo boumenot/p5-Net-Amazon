@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ListLookupResponse xmlns="http://webservices.amazon.com/AWSECommerceService/2009-03-31">
+<ListLookupResponse xmlns="http://webservices.amazon.com/AWSECommerceService/2009-07-01">
   <Lists>
     <List>
       <ListId>1XL5DWOUFMFVJ</ListId>
       <ListItem>
         <Item>
           <ASIN>076454229X</ASIN>
-          <SalesRank>603445</SalesRank>
+          <SalesRank>482897</SalesRank>
           <ItemAttributes>
             <Author>Barry Press</Author>
             <Author>Marcia Press</Author>
@@ -33,16 +33,16 @@
           </ItemAttributes>
           <OfferSummary>
             <LowestNewPrice>
-              <Amount>192</Amount>
+              <Amount>191</Amount>
               <CurrencyCode>USD</CurrencyCode>
-              <FormattedPrice>$1.92</FormattedPrice>
+              <FormattedPrice>$1.91</FormattedPrice>
             </LowestNewPrice>
             <LowestUsedPrice>
-              <Amount>51</Amount>
+              <Amount>21</Amount>
               <CurrencyCode>USD</CurrencyCode>
-              <FormattedPrice>$0.51</FormattedPrice>
+              <FormattedPrice>$0.21</FormattedPrice>
             </LowestUsedPrice>
-            <TotalNew>27</TotalNew>
+            <TotalNew>32</TotalNew>
             <TotalUsed>35</TotalUsed>
             <TotalCollectible>0</TotalCollectible>
             <TotalRefurbished>0</TotalRefurbished>
@@ -62,7 +62,7 @@
                 <SubCondition>new</SubCondition>
               </OfferAttributes>
               <OfferListing>
-                <OfferListingId>rgIrYOQJxxoZmkAebqmR4uhwM1AMndT%2Bvy1l4DPDJNp0oXEkIRwvkfVvw77mnK9EhhoW3AKPh5olt6N5Pzxodg%3D%3D</OfferListingId>
+                <OfferListingId>25Mu9WWkLHSUrplt5hBOeuoOWDTI2bizIMv6Qrcf%2FyaezHU%2FKMuyLeEAJnQUu9DcvAxxEuRQf2vgiQasO6W5mw%3D%3D</OfferListingId>
                 <Price>
                   <Amount>2699</Amount>
                   <CurrencyCode>USD</CurrencyCode>
@@ -90,7 +90,7 @@
       <ListItem>
         <Item>
           <ASIN>0201485419</ASIN>
-          <SalesRank>19805</SalesRank>
+          <SalesRank>51034</SalesRank>
           <ItemAttributes>
             <Author>Donald E. Knuth</Author>
             <Binding>Hardcover</Binding>
@@ -117,17 +117,17 @@
           </ItemAttributes>
           <OfferSummary>
             <LowestNewPrice>
-              <Amount>12860</Amount>
+              <Amount>14095</Amount>
               <CurrencyCode>USD</CurrencyCode>
-              <FormattedPrice>$128.60</FormattedPrice>
+              <FormattedPrice>$140.95</FormattedPrice>
             </LowestNewPrice>
             <LowestUsedPrice>
               <Amount>11000</Amount>
               <CurrencyCode>USD</CurrencyCode>
               <FormattedPrice>$110.00</FormattedPrice>
             </LowestUsedPrice>
-            <TotalNew>22</TotalNew>
-            <TotalUsed>15</TotalUsed>
+            <TotalNew>26</TotalNew>
+            <TotalUsed>12</TotalUsed>
             <TotalCollectible>0</TotalCollectible>
             <TotalRefurbished>0</TotalRefurbished>
           </OfferSummary>
@@ -146,18 +146,18 @@
                 <SubCondition>new</SubCondition>
               </OfferAttributes>
               <OfferListing>
-                <OfferListingId>1X0CfYHIurpwpeKVgwNuuBEj8DC82xhtqEvZSSQpeTGIZ%2FcN691VoutYyE6yGof6GX9%2BTVm0OSMCvemXA5YtVA%3D%3D</OfferListingId>
+                <OfferListingId>DKXqwCIJ2K9rTnM%2BvTOS3wXiX9Ougt6OOukAOQC0Ubh65ZtaSJ8AmWuk6f6O9ok4TBkqlKSPypmxv1yOQ1LALA%3D%3D</OfferListingId>
                 <Price>
-                  <Amount>15877</Amount>
+                  <Amount>15999</Amount>
                   <CurrencyCode>USD</CurrencyCode>
-                  <FormattedPrice>$158.77</FormattedPrice>
+                  <FormattedPrice>$159.99</FormattedPrice>
                 </Price>
                 <AmountSaved>
-                  <Amount>4122</Amount>
+                  <Amount>4000</Amount>
                   <CurrencyCode>USD</CurrencyCode>
-                  <FormattedPrice>$41.22</FormattedPrice>
+                  <FormattedPrice>$40.00</FormattedPrice>
                 </AmountSaved>
-                <PercentageSaved>21</PercentageSaved>
+                <PercentageSaved>20</PercentageSaved>
                 <Availability>Usually ships in 24 hours</Availability>
                 <AvailabilityAttributes>
                   <AvailabilityType>now</AvailabilityType>
@@ -174,7 +174,7 @@
       <ListItem>
         <Item>
           <ASIN>0201541998</ASIN>
-          <SalesRank>596794</SalesRank>
+          <SalesRank>608432</SalesRank>
           <ItemAttributes>
             <Author>Michel Goossens</Author>
             <Author>Frank Mittelbach</Author>
@@ -203,14 +203,14 @@
           </ItemAttributes>
           <OfferSummary>
             <LowestNewPrice>
-              <Amount>6084</Amount>
+              <Amount>5750</Amount>
               <CurrencyCode>USD</CurrencyCode>
-              <FormattedPrice>$60.84</FormattedPrice>
+              <FormattedPrice>$57.50</FormattedPrice>
             </LowestNewPrice>
             <LowestUsedPrice>
-              <Amount>523</Amount>
+              <Amount>335</Amount>
               <CurrencyCode>USD</CurrencyCode>
-              <FormattedPrice>$5.23</FormattedPrice>
+              <FormattedPrice>$3.35</FormattedPrice>
             </LowestUsedPrice>
             <TotalNew>6</TotalNew>
             <TotalUsed>17</TotalUsed>
@@ -232,7 +232,7 @@
       <ListItem>
         <Item>
           <ASIN>B000002MP2</ASIN>
-          <SalesRank>548</SalesRank>
+          <SalesRank>547</SalesRank>
           <ItemAttributes>
             <Artist>Green Day</Artist>
             <Binding>Audio CD</Binding>
@@ -258,23 +258,23 @@
           </ItemAttributes>
           <OfferSummary>
             <LowestNewPrice>
-              <Amount>395</Amount>
+              <Amount>540</Amount>
               <CurrencyCode>USD</CurrencyCode>
-              <FormattedPrice>$3.95</FormattedPrice>
+              <FormattedPrice>$5.40</FormattedPrice>
             </LowestNewPrice>
             <LowestUsedPrice>
-              <Amount>126</Amount>
+              <Amount>55</Amount>
               <CurrencyCode>USD</CurrencyCode>
-              <FormattedPrice>$1.26</FormattedPrice>
+              <FormattedPrice>$0.55</FormattedPrice>
             </LowestUsedPrice>
             <LowestCollectiblePrice>
-              <Amount>1099</Amount>
+              <Amount>1198</Amount>
               <CurrencyCode>USD</CurrencyCode>
-              <FormattedPrice>$10.99</FormattedPrice>
+              <FormattedPrice>$11.98</FormattedPrice>
             </LowestCollectiblePrice>
-            <TotalNew>43</TotalNew>
-            <TotalUsed>253</TotalUsed>
-            <TotalCollectible>8</TotalCollectible>
+            <TotalNew>42</TotalNew>
+            <TotalUsed>259</TotalUsed>
+            <TotalCollectible>6</TotalCollectible>
             <TotalRefurbished>0</TotalRefurbished>
           </OfferSummary>
           <Offers>
@@ -292,18 +292,18 @@
                 <SubCondition>new</SubCondition>
               </OfferAttributes>
               <OfferListing>
-                <OfferListingId>BkWhzZptafpDPlJdPsggvmWMKTZlM7ahsIUi8tL635YtEqWG%2FnFOiBF37%2B2et0S%2FwXcmli7klU7kHp4gAImkow%3D%3D</OfferListingId>
+                <OfferListingId>gplkG3Ak0VF5i0BZ55lEgKircmaO3fWpfMkG%2FOx3iJiTALQKEy8e1U60QUbjuYRTN6nk2jW6zsJMHWvlHKLFwQ%3D%3D</OfferListingId>
                 <Price>
-                  <Amount>899</Amount>
+                  <Amount>1099</Amount>
                   <CurrencyCode>USD</CurrencyCode>
-                  <FormattedPrice>$8.99</FormattedPrice>
+                  <FormattedPrice>$10.99</FormattedPrice>
                 </Price>
                 <AmountSaved>
-                  <Amount>299</Amount>
+                  <Amount>99</Amount>
                   <CurrencyCode>USD</CurrencyCode>
-                  <FormattedPrice>$2.99</FormattedPrice>
+                  <FormattedPrice>$0.99</FormattedPrice>
                 </AmountSaved>
-                <PercentageSaved>25</PercentageSaved>
+                <PercentageSaved>8</PercentageSaved>
                 <Availability>Usually ships in 24 hours</Availability>
                 <AvailabilityAttributes>
                   <AvailabilityType>now</AvailabilityType>
@@ -339,7 +339,7 @@
       <ListItem>
         <Item>
           <ASIN>0596001320</ASIN>
-          <SalesRank>306932</SalesRank>
+          <SalesRank>441350</SalesRank>
           <ItemAttributes>
             <Author>Randal L. Schwartz</Author>
             <Author>Tom Phoenix</Author>
@@ -366,17 +366,17 @@
           </ItemAttributes>
           <OfferSummary>
             <LowestNewPrice>
-              <Amount>288</Amount>
+              <Amount>594</Amount>
               <CurrencyCode>USD</CurrencyCode>
-              <FormattedPrice>$2.88</FormattedPrice>
+              <FormattedPrice>$5.94</FormattedPrice>
             </LowestNewPrice>
             <LowestUsedPrice>
-              <Amount>4</Amount>
+              <Amount>1</Amount>
               <CurrencyCode>USD</CurrencyCode>
-              <FormattedPrice>$0.04</FormattedPrice>
+              <FormattedPrice>$0.01</FormattedPrice>
             </LowestUsedPrice>
-            <TotalNew>22</TotalNew>
-            <TotalUsed>63</TotalUsed>
+            <TotalNew>20</TotalNew>
+            <TotalUsed>48</TotalUsed>
             <TotalCollectible>0</TotalCollectible>
             <TotalRefurbished>0</TotalRefurbished>
           </OfferSummary>
@@ -389,16 +389,16 @@
       <ListItem>
         <Item>
           <ASIN>B00006RU5B</ASIN>
-          <SalesRank>1152</SalesRank>
+          <SalesRank>2070</SalesRank>
           <ItemAttributes>
             <Artist>Audioslave</Artist>
             <Binding>Audio CD</Binding>
             <EAN>0696998696822</EAN>
             <Label>Sony</Label>
             <ListPrice>
-              <Amount>1398</Amount>
+              <Amount>999</Amount>
               <CurrencyCode>USD</CurrencyCode>
-              <FormattedPrice>$13.98</FormattedPrice>
+              <FormattedPrice>$9.99</FormattedPrice>
             </ListPrice>
             <Manufacturer>Sony</Manufacturer>
             <MPN>86968</MPN>
@@ -413,22 +413,22 @@
           </ItemAttributes>
           <OfferSummary>
             <LowestNewPrice>
-              <Amount>682</Amount>
+              <Amount>641</Amount>
               <CurrencyCode>USD</CurrencyCode>
-              <FormattedPrice>$6.82</FormattedPrice>
+              <FormattedPrice>$6.41</FormattedPrice>
             </LowestNewPrice>
             <LowestUsedPrice>
-              <Amount>154</Amount>
+              <Amount>166</Amount>
               <CurrencyCode>USD</CurrencyCode>
-              <FormattedPrice>$1.54</FormattedPrice>
+              <FormattedPrice>$1.66</FormattedPrice>
             </LowestUsedPrice>
             <LowestCollectiblePrice>
               <Amount>1398</Amount>
               <CurrencyCode>USD</CurrencyCode>
               <FormattedPrice>$13.98</FormattedPrice>
             </LowestCollectiblePrice>
-            <TotalNew>43</TotalNew>
-            <TotalUsed>85</TotalUsed>
+            <TotalNew>38</TotalNew>
+            <TotalUsed>96</TotalUsed>
             <TotalCollectible>1</TotalCollectible>
             <TotalRefurbished>0</TotalRefurbished>
           </OfferSummary>
@@ -447,18 +447,12 @@
                 <SubCondition>new</SubCondition>
               </OfferAttributes>
               <OfferListing>
-                <OfferListingId>L3PJVDpDiRxrnM3F1ldrRoVHPd447Irrq9baUBFRpdwlMbZWQE1koMlob2bjrd4zsWWu3KkYlCwOjpgPD8UUkQ%3D%3D</OfferListingId>
+                <OfferListingId>Beut20tZEd3g7D9o5REymYOC8pAs%2BP8RWXoNYSDQ8al2kOh7erz817vGlGbXpStZriu2GMLyRyucn3tkeFgTPw%3D%3D</OfferListingId>
                 <Price>
-                  <Amount>897</Amount>
+                  <Amount>999</Amount>
                   <CurrencyCode>USD</CurrencyCode>
-                  <FormattedPrice>$8.97</FormattedPrice>
+                  <FormattedPrice>$9.99</FormattedPrice>
                 </Price>
-                <AmountSaved>
-                  <Amount>501</Amount>
-                  <CurrencyCode>USD</CurrencyCode>
-                  <FormattedPrice>$5.01</FormattedPrice>
-                </AmountSaved>
-                <PercentageSaved>36</PercentageSaved>
                 <Availability>Usually ships in 24 hours</Availability>
                 <AvailabilityAttributes>
                   <AvailabilityType>now</AvailabilityType>
@@ -493,7 +487,7 @@
       <ListItem>
         <Item>
           <ASIN>B0000CC6QC</ASIN>
-          <SalesRank>85400</SalesRank>
+          <SalesRank>24542</SalesRank>
           <ItemAttributes>
             <Artist>Barenaked Ladies</Artist>
             <Binding>Audio CD</Binding>
@@ -519,14 +513,14 @@
           </ItemAttributes>
           <OfferSummary>
             <LowestNewPrice>
-              <Amount>125</Amount>
+              <Amount>115</Amount>
               <CurrencyCode>USD</CurrencyCode>
-              <FormattedPrice>$1.25</FormattedPrice>
+              <FormattedPrice>$1.15</FormattedPrice>
             </LowestNewPrice>
             <LowestUsedPrice>
-              <Amount>1</Amount>
+              <Amount>44</Amount>
               <CurrencyCode>USD</CurrencyCode>
-              <FormattedPrice>$0.01</FormattedPrice>
+              <FormattedPrice>$0.44</FormattedPrice>
             </LowestUsedPrice>
             <LowestCollectiblePrice>
               <Amount>1898</Amount>
@@ -534,7 +528,7 @@
               <FormattedPrice>$18.98</FormattedPrice>
             </LowestCollectiblePrice>
             <TotalNew>36</TotalNew>
-            <TotalUsed>66</TotalUsed>
+            <TotalUsed>77</TotalUsed>
             <TotalCollectible>1</TotalCollectible>
             <TotalRefurbished>0</TotalRefurbished>
           </OfferSummary>
@@ -553,7 +547,7 @@
                 <SubCondition>new</SubCondition>
               </OfferAttributes>
               <OfferListing>
-                <OfferListingId>9G1KB3hsJETU9tVT%2FcdNQSZYW5ApmFlkO4gSeUTGUExEGe1XeeaDLcaKGGodsbx4agEtFT7ZqxdRvmLAwlZcTw%3D%3D</OfferListingId>
+                <OfferListingId>feLgtoFv27rMjgry9TWOK5nPYgGOs2PhMuRMCZr0uhzNn7tNOBlP4KWAkTKXNtT429zkztObDFLKhjWzD2CQDg%3D%3D</OfferListingId>
                 <Price>
                   <Amount>1898</Amount>
                   <CurrencyCode>USD</CurrencyCode>
@@ -677,7 +671,7 @@
       <ListItem>
         <Item>
           <ASIN>0130661023</ASIN>
-          <SalesRank>56717</SalesRank>
+          <SalesRank>210007</SalesRank>
           <ItemAttributes>
             <Author>Andrew S. Tanenbaum</Author>
             <Binding>Hardcover</Binding>
@@ -685,36 +679,36 @@
             <EAN>9780130661029</EAN>
             <Edition>4</Edition>
             <ISBN>0130661023</ISBN>
-            <Label>Prentice Hall PTR</Label>
+            <Label>Prentice Hall</Label>
             <ListPrice>
-              <Amount>10733</Amount>
+              <Amount>11400</Amount>
               <CurrencyCode>USD</CurrencyCode>
-              <FormattedPrice>$107.33</FormattedPrice>
+              <FormattedPrice>$114.00</FormattedPrice>
             </ListPrice>
-            <Manufacturer>Prentice Hall PTR</Manufacturer>
+            <Manufacturer>Prentice Hall</Manufacturer>
             <NumberOfItems>1</NumberOfItems>
             <NumberOfPages>912</NumberOfPages>
             <ProductGroup>Book</ProductGroup>
             <ProductTypeName>ABIS_BOOK</ProductTypeName>
             <PublicationDate>2002-08-19</PublicationDate>
-            <Publisher>Prentice Hall PTR</Publisher>
-            <Studio>Prentice Hall PTR</Studio>
+            <Publisher>Prentice Hall</Publisher>
+            <Studio>Prentice Hall</Studio>
             <Title>Computer Networks (4th Edition)</Title>
             <UPC>076092022473</UPC>
           </ItemAttributes>
           <OfferSummary>
             <LowestNewPrice>
-              <Amount>6500</Amount>
+              <Amount>4898</Amount>
               <CurrencyCode>USD</CurrencyCode>
-              <FormattedPrice>$65.00</FormattedPrice>
+              <FormattedPrice>$48.98</FormattedPrice>
             </LowestNewPrice>
             <LowestUsedPrice>
-              <Amount>3988</Amount>
+              <Amount>3521</Amount>
               <CurrencyCode>USD</CurrencyCode>
-              <FormattedPrice>$39.88</FormattedPrice>
+              <FormattedPrice>$35.21</FormattedPrice>
             </LowestUsedPrice>
             <TotalNew>34</TotalNew>
-            <TotalUsed>43</TotalUsed>
+            <TotalUsed>55</TotalUsed>
             <TotalCollectible>0</TotalCollectible>
             <TotalRefurbished>0</TotalRefurbished>
           </OfferSummary>
@@ -733,18 +727,18 @@
                 <SubCondition>new</SubCondition>
               </OfferAttributes>
               <OfferListing>
-                <OfferListingId>%2FZ00A5DMuQ7P74S7BRooAvZq%2BgrePS%2BVf0p1qgnEHmRx6RN6oJjie37E%2Bl%2FRLfbN8GhddHEe3y%2BdFOaKWo3qwA%3D%3D</OfferListingId>
+                <OfferListingId>xOKfkEMzx0OfbC0UMN4M6SHZ7Elf5zqPJrLZoTXE29Rv%2F1Bp30wnO3fbXHxHM9MPyDypWlrWAoH8C%2FgJx1E%2Feg%3D%3D</OfferListingId>
                 <Price>
-                  <Amount>8586</Amount>
+                  <Amount>7267</Amount>
                   <CurrencyCode>USD</CurrencyCode>
-                  <FormattedPrice>$85.86</FormattedPrice>
+                  <FormattedPrice>$72.67</FormattedPrice>
                 </Price>
                 <AmountSaved>
-                  <Amount>2147</Amount>
+                  <Amount>4133</Amount>
                   <CurrencyCode>USD</CurrencyCode>
-                  <FormattedPrice>$21.47</FormattedPrice>
+                  <FormattedPrice>$41.33</FormattedPrice>
                 </AmountSaved>
-                <PercentageSaved>20</PercentageSaved>
+                <PercentageSaved>36</PercentageSaved>
                 <Availability>Usually ships in 24 hours</Availability>
                 <AvailabilityAttributes>
                   <AvailabilityType>now</AvailabilityType>
@@ -761,7 +755,7 @@
       <ListItem>
         <Item>
           <ASIN>0201100886</ASIN>
-          <SalesRank>25589</SalesRank>
+          <SalesRank>164915</SalesRank>
           <ItemAttributes>
             <Author>Alfred V. Aho</Author>
             <Author>Ravi Sethi</Author>
@@ -789,17 +783,17 @@
           </ItemAttributes>
           <OfferSummary>
             <LowestNewPrice>
-              <Amount>2795</Amount>
+              <Amount>2999</Amount>
               <CurrencyCode>USD</CurrencyCode>
-              <FormattedPrice>$27.95</FormattedPrice>
+              <FormattedPrice>$29.99</FormattedPrice>
             </LowestNewPrice>
             <LowestUsedPrice>
-              <Amount>284</Amount>
+              <Amount>374</Amount>
               <CurrencyCode>USD</CurrencyCode>
-              <FormattedPrice>$2.84</FormattedPrice>
+              <FormattedPrice>$3.74</FormattedPrice>
             </LowestUsedPrice>
-            <TotalNew>9</TotalNew>
-            <TotalUsed>43</TotalUsed>
+            <TotalNew>10</TotalNew>
+            <TotalUsed>49</TotalUsed>
             <TotalCollectible>0</TotalCollectible>
             <TotalRefurbished>0</TotalRefurbished>
           </OfferSummary>
