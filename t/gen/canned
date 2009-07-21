@@ -48,7 +48,7 @@ for my $test (@tests) {
 
     print "Processing $test ...\n";
 
-    #system("./$test");
+    system("./$test");
 
     my $default_handlers = {
         BrowseNodes       => sub { $_->delete; }, 
