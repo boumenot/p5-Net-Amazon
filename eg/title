@@ -17,6 +17,7 @@ die "usage: $0 title\n(use Dates as an example)\n" unless defined $ARGV[0];
 
 my $ua = Net::Amazon->new(
     token       => $ENV{AMAZON_TOKEN},
+    secret_key  => $ENV{AMAZON_SECRET_KEY},
 );
 
 my $req = Net::Amazon::Request::Title->new(

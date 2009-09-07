@@ -25,6 +25,7 @@ use Net::Amazon::Request::MusicLabel;
 
 my $ua = Net::Amazon->new(
     token         => $ENV{AMAZON_TOKEN},
+    secret_key    => 'YOUR_AMZN_SECRET_KEY',
     max_pages     => 1,
     #response_dump => 1,
 );

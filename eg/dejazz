@@ -12,9 +12,10 @@ use strict;
 use Net::Amazon;
 
 my $ua = Net::Amazon->new(
-  token     => $ENV{AMAZON_TOKEN},
-  locale    => 'de',
-  max_pages => 1,
+  token      => $ENV{AMAZON_TOKEN},
+  secret_key => $ENV{AMAZON_SECRET_KEY},
+  locale     => 'de',
+  max_pages  => 1,
 );
 
 my $resp = $ua->search(

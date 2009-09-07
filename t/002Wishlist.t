@@ -29,6 +29,7 @@ canned("wishlist1.xml");
 
 my $ua = Net::Amazon->new(
     token       => 'YOUR_AMZN_TOKEN',
+    secret_key  => 'YOUR_AMZN_SECRET_KEY',
 );
 
 my $req = Net::Amazon::Request::Wishlist->new(
@@ -47,6 +48,7 @@ canned("wishlist10_2.xml");
 
 $ua = Net::Amazon->new(
     token       => 'YOUR_AMZN_TOKEN',
+    secret_key  => 'YOUR_AMZN_SECRET_KEY',
 );
 
 $req = Net::Amazon::Request::Wishlist->new(
@@ -67,6 +69,7 @@ canned("wishlist1.xml");
 
 $ua = Net::Amazon->new(
     token       => 'YOUR_AMZN_TOKEN',
+    secret_key  => 'YOUR_AMZN_SECRET_KEY',
 );
 
 $req = Net::Amazon::Request::Wishlist->new(

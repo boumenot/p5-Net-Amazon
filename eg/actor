@@ -17,6 +17,7 @@ die "usage: $0 actor\n(use Sandler as an example)\n" unless defined $ARGV[0];
 
 my $ua = Net::Amazon->new(
     token       => $ENV{AMAZON_TOKEN},
+    secret_key  => $ENV{AMAZON_SECRET_KEY},
 );
 
 my $req = Net::Amazon::Request::Actor->new(

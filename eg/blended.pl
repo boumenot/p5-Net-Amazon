@@ -9,7 +9,10 @@ use Net::Amazon::Request::Blended;
 use Log::Log4perl qw(:easy);
 Log::Log4perl->easy_init($DEBUG);
 
-my $ua = Net::Amazon->new(token => $ENV{AMAZON_TOKEN});
+my $ua = Net::Amazon->new(
+    token       => $ENV{AMAZON_TOKEN},
+    secret_key  => $ENV{AMAZON_SECRET_KEY},
+);
 my $response = $ua->search(blended => ($ARGV[0] || "Perl"));
 
 if($response->is_success()) {

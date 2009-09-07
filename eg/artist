@@ -14,6 +14,7 @@ die "usage: $0 artist\n(use Zwan as an example)\n" unless defined $ARGV[0];
 
 my $ua = Net::Amazon->new(
     token       => $ENV{AMAZON_TOKEN},
+    secret_key  => $ENV{AMAZON_SECRET_KEY},
 );
 
 my $req = Net::Amazon::Request::Artist->new(

@@ -30,6 +30,7 @@ canned("manufacturer.xml");
 
 my $ua = Net::Amazon->new(
     token       => 'YOUR_AMZN_TOKEN',
+    secret_key  => 'YOUR_AMZN_SECRET_KEY',
 );
 
 my $req = Net::Amazon::Request::Manufacturer->new(

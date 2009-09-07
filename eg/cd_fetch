@@ -8,7 +8,10 @@ use strict;
 
 use Net::Amazon;
 
-my $ua = Net::Amazon->new(token => $ENV{AMAZON_TOKEN});
+my $ua = Net::Amazon->new(
+    token       => $ENV{AMAZON_TOKEN},
+    secret_key  => $ENV{AMAZON_SECRET_KEY},
+);
 
 # Get a request object
 my $resp = $ua->search(asin => 'B000000WA4');

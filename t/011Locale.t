@@ -24,9 +24,10 @@ use Test::More tests => 5;
 #Log::Log4perl->easy_init({level => $ERROR, layout => '%F{1}-%L: %m%n'});
 
 my $ua = Net::Amazon->new(
-    token         => 'YOUR_AMZN_TOKEN',
+    token       => 'YOUR_AMZN_TOKEN',
+    secret_key  => 'YOUR_AMZN_SECRET_KEY',
     #response_dump => 1,
-    locale        => 'de',
+    locale      => 'de',
 );
 
 my $resp = $ua->search(

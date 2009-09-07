@@ -9,6 +9,7 @@ use Net::Amazon;
 
 my $ua = Net::Amazon->new(
     token       => $ENV{AMAZON_TOKEN},
+    secret_key  => $ENV{AMAZON_SECRET_KEY},
 );
 
 die "usage: $0 upc [mode]\n(use " .

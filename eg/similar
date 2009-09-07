@@ -19,6 +19,7 @@ my $DEPTH = 1;
 
 my $ua = Net::Amazon->new(
     token       => $ENV{AMAZON_TOKEN},
+    secret_key  => $ENV{AMAZON_SECRET_KEY},
 );
 
 $ARGV[0] = "0201360683";

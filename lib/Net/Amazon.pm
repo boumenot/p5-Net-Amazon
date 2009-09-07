@@ -8,7 +8,7 @@ use 5.006;
 use strict;
 use warnings;
 
-our $VERSION          = '0.55';
+our $VERSION          = '0.56';
 our $WSDL_DATE        = '2009-07-01';
 our $Locale           = 'us';
 our @CANNED_RESPONSES = ();
@@ -60,10 +60,9 @@ sub new {
         die "Mandatory paramter 'token' not defined";
     }
 
-    # CMB: To be enabled on 2009-08-15.
-    # if(! exists $options{token}) {
-    #    die "Mandatory paramter 'token' not defined";
-    # }
+    if(! exists $options{secret_key}) {
+        die "Mandatory paramter 'secret_key' not defined";
+    }
 
     my $self = {
         strict         => 1,

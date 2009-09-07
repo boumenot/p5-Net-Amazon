@@ -16,7 +16,8 @@ use Log::Log4perl qw(:easy);
 Log::Log4perl->easy_init({level => $INFO, layout => '%F{1}-%L: %m%n'});
 
 my $ua = Net::Amazon->new(
-    token         => $ENV{AMAZON_TOKEN},
+    token       => $ENV{AMAZON_TOKEN},
+    secret_key  => $ENV{AMAZON_SECRET_KEY},
 );
 
 die "usage: $0 asin\n(use 0201360683 as " .

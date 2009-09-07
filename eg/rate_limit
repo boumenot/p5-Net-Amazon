@@ -29,6 +29,7 @@ Log::Log4perl::init(\$conf);
 
 my $ua = Net::Amazon->new(
     token       => $ENV{AMAZON_TOKEN},
+    secret_key  => $ENV{AMAZON_SECRET_KEY},
 );
 
 die "usage: $0 asin\n(use 0201360683 as " .

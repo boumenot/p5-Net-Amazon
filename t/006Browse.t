@@ -35,6 +35,7 @@ if(! exists $ENV{NET_AMAZON_LIVE_TESTS}) {
 ######################################################################
 my $ua = Net::Amazon->new(
     token       => 'YOUR_AMZN_TOKEN',
+    secret_key  => 'YOUR_AMZN_SECRET_KEY',
 );
 
 my $resp = $ua->search(

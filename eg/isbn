@@ -9,7 +9,8 @@ use Net::Amazon;
 #Log::Log4perl->easy_init($DEBUG);
 
 my $ua = Net::Amazon->new(
-   token       => $ENV{AMAZON_TOKEN},
+    token       => $ENV{AMAZON_TOKEN},
+    secret_key  => $ENV{AMAZON_SECRET_KEY},
 );
 
 die "usage: $0 isbn\n" unless defined $ARGV[0];

@@ -18,6 +18,7 @@ die "usage: $0 keyword" unless
 
 my $ua = Net::Amazon->new(
     token       => $ENV{AMAZON_TOKEN},
+    secret_key  => $ENV{AMAZON_SECRET_KEY},
     max_pages   => 10,
 );
 

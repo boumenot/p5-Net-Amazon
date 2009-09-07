@@ -6,7 +6,10 @@ use Data::Dumper; # for debugging
 use Log::Log4perl qw(:easy);
 Log::Log4perl->easy_init($DEBUG);
 
-my $ua = Net::Amazon->new(token => $ENV{AMAZON_TOKEN});
+my $ua = Net::Amazon->new(
+    token       => $ENV{AMAZON_TOKEN},
+    secret_key  => $ENV{AMAZON_SECRET_KEY},
+);
 
 # Get a request object
 my $response = $ua->search(exchange => 'Y04Y3424291Y2398445');

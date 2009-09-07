@@ -35,6 +35,7 @@ if(! exists $ENV{NET_AMAZON_LIVE_TESTS}) {
 ######################################################################
 my $ua = Net::Amazon->new(
     token       => 'YOUR_AMZN_TOKEN',
+    secret_key  => 'YOUR_AMZN_SECRET_KEY',
 );
 
 my $resp = $ua->search(
@@ -54,6 +55,7 @@ is($resp->total_results(), 4, "Found 4 total results");
 ######################################################################
 $ua = Net::Amazon->new(
     token       => 'YOUR_AMZN_TOKEN',
+    secret_key  => 'YOUR_AMZN_SECRET_KEY',
 );
 
 $resp = $ua->search(
@@ -79,6 +81,7 @@ my @sorted_prices = sort { $a <=> $b } @prices;
 ######################################################################
 $ua = Net::Amazon->new(
     token       => 'YOUR_AMZN_TOKEN',
+    secret_key  => 'YOUR_AMZN_SECRET_KEY',
 );
 
 $resp = $ua->search(
@@ -93,6 +96,7 @@ ok(!$resp->is_success(), "Power fetch came back empty");
 ######################################################################
 $ua = Net::Amazon->new(
     token       => 'YOUR_AMZN_TOKEN',
+    secret_key  => 'YOUR_AMZN_SECRET_KEY',
 );
 
 $resp = $ua->search(

@@ -12,7 +12,8 @@ use Net::Amazon;
 use Net::Amazon::Request::ASIN;
 
 my $ua = Net::Amazon->new(
-    token => $ENV{AMAZON_TOKEN},
+    token       => $ENV{AMAZON_TOKEN},
+    secret_key  => $ENV{AMAZON_SECRET_KEY},
 );
 
 die "usage: $0 asin=0201360683\n" 

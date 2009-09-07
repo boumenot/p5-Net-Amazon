@@ -29,6 +29,7 @@ canned("blendedm.xml");
 
 my $ua = Net::Amazon->new(
     token       => 'YOUR_AMZN_TOKEN',
+    secret_key  => 'YOUR_AMZN_SECRET_KEY',
 );
 
    # Response is of type Net::Amazon::Textstream::Response

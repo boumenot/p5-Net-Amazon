@@ -22,8 +22,9 @@ use Test::More tests => 12;
 ################################################################
 
 my $ua = Net::Amazon->new(
-    token         => 'YOUR_AMZN_TOKEN',
-    max_pages     => 5,
+    token       => 'YOUR_AMZN_TOKEN',
+    secret_key  => 'YOUR_AMZN_SECRET_KEY',
+    max_pages   => 5,
     #response_dump => 1,
 );
 

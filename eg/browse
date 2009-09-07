@@ -18,6 +18,7 @@ die "usage: $0 node mode [keywords]\n".
 
 my $ua = Net::Amazon->new(
     token       => $ENV{AMAZON_TOKEN},
+    secret_key  => $ENV{AMAZON_SECRET_KEY},
 );
 
 my $resp = $ua->search(

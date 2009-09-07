@@ -30,6 +30,7 @@ canned("isbn.xml");
 
 my $ua = Net::Amazon->new(
     token       => 'YOUR_AMZN_TOKEN',
+    secret_key  => 'YOUR_AMZN_SECRET_KEY',
 );
 
 my $req = Net::Amazon::Request::ISBN->new(
@@ -60,6 +61,7 @@ canned("isbn-de.xml");
 
 $ua = Net::Amazon->new(
     token       => 'YOUR_AMZN_TOKEN',
+    secret_key  => 'YOUR_AMZN_SECRET_KEY',
     locale      => 'de',
 );
 
