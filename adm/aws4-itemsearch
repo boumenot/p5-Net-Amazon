@@ -16,15 +16,16 @@ use LWP::Simple;
 use Text::Template;
 use Data::Dumper;
 use File::Path;
-use XML::Simple;
+use lib "$FindBin::Bin/../lib";
+use HTML::TreeBuilder::XPath;
+use Net::Amazon ();
 
 use strict;
 use warnings;
 
-use constant AWS4_ONLINE_HTML => {
-    #'2007-10-29' => 'http://docs.amazonwebservices.com/AWSECommerceService/2007-10-29/DG/',
-    '2009-03-31' => 'http://docs.amazonwebservices.com/AWSECommerceService/2009-03-31/DG/',
-};
+sub AWS4_ONLINE_HTML {
+    'http://docs.amazonwebservices.com/AWSECommerceService/'.$Net::Amazon::WSDL_DATE.'/DG/';
+}
 
 use constant AWS4_LOCALE_HTML => {
     'us' => 'USSearchIndexParamForItemsearch.html',
@@ -43,9 +44,9 @@ unless (&GetOptions (
 		     "help|h"	 => \&usage,
 		     "version|V" => \&version,
 		     "debug|D"   => \$Opt_Debug,
-             "dest=s"    => \$Opt_Dest,
+                     "dest=s"    => \$Opt_Dest,
 		     "overwrite" => \$Opt_Overwrite,
-		     "<>"	     => \&parameter,
+		     "<>"	 => \&parameter,
 		     )) {
     usage();
 }
@@ -58,54 +59,39 @@ unless (-d $Opt_Dest) {
 
 
 for my $locale (keys %{(AWS4_LOCALE_HTML)}) {
+    my $link =  AWS4_ONLINE_HTML.AWS4_LOCALE_HTML->{$locale};
+    print "fetching $link ...\n" if $Opt_Debug;
+
+    my $tree = HTML::TreeBuilder::XPath->new();
+    $tree->parse(get($link));
+    $tree->eof();
+
+    my @search_indicies = map { $_->as_text } $tree->findnodes("//div[\@class=\"section\"]//h2");
+    my %depts;
     my %upc;
-    for my $ver (keys %{(AWS4_ONLINE_HTML)}) {
-        my %depts;
-        my $link =  AWS4_ONLINE_HTML->{$ver}.AWS4_LOCALE_HTML->{$locale};
-        print "fetching $link ...\n" if $Opt_Debug;
 
-        my $xhtml = get($link);
-        die "%Error: failed to fetch '$link'!\n" 
-            unless $xhtml;
+    for my $search_index (@search_indicies) {
 
-        my $xs = XML::Simple->new(ForceArray => [qw(li)]);
-        my $href = $xs->XMLin($xhtml);
+	(my $search_index_name) = $search_index =~ /SearchIndex:\s+(\w+)/;
+	next if $search_index_name eq 'All';
 
-        for my $divI (@{$href->{body}->{div}}) {
-            for my $divJ (@{$divI->{div}}) {
-                next unless defined $divJ->{class} and $divJ->{class} eq 'section';
+	print $search_index_name."\n";
+	$upc{$search_index_name}++;
 
-                my @a = @{$divJ->{div}};
-                my $hdr = shift @a;
+	my @parameters = map { $_->as_text } $tree->findnodes("//div[\@class=\"section\"]//h2[contains(text(),\"$search_index\")]/../../../..//li/p");
 
-                next if scalar(@a) < 1;
-                next unless defined $hdr->{div}->{div}->{h2}->{content};
-                next unless $hdr->{div}->{div}->{h2}->{content} =~ m/^SearchIndex: (\w+)/;
+	for my $parameter (@parameters) {
+	    print "  -> $parameter\n";
+	    push @{$depts{$search_index_name}}, $parameter;
+	}
 
-                my $dept = $1;
-                next if $dept eq 'All';
-
-                for my $col (@a) {
-                    for my $td (@{$col->{table}->{tbody}->{tr}->{td}}) {
-                        for my $li (@{$td->{div}->{ul}->{li}}) {
-                            #push @{$depts{$dept}}, $li->{p};
-                            push @{$depts{$li->{p}}}, $dept;
-                        }
-                    }
-                    # GRRR: amazon.com should be more consistent.
-                    for my $li (@{$col->{ul}->{li}}) {
-                        #push @{$depts{$dept}}, $li->{p};
-                        push @{$depts{$li->{p}}}, $dept;
-                    }
-                }
-            }
-        }
-
-        for my $dept (keys %depts) {
-            dump_library($depts{$dept}, $locale, $dept);
-            upc_add(\%upc, $depts{$dept});
-        }
     }
+
+    for my $dept (keys %depts) {
+	dump_library($depts{$dept}, $locale, $dept);
+	upc_add(\%upc, $depts{$dept});
+    }
+
     my @a = keys %upc;
     my $type = ($locale eq 'us') ? 'UPC' : 'EAN';
     dump_library(\@a, $locale, $type);
@@ -133,17 +119,19 @@ sub parameter {
 
 # Attempt to pick a "favored" default for the different types of
 # ItemSearch'es.  The favored list is returned in order of preference.
-# The most preferred is Books because that was the default for AWS3.  As
-# Books is not available for all types of ItemSearch'es use other
-# "favored" defaults.  They are Music, DVD, and Software in that order.
-# If none of those are a possible default then use the first item in
-# the list of acceptable values.
+# The most preferred is Books because that was the default for AWS3.
+# As Books is not available for all types of ItemSearch'es use other
+# "favored" defaults.  They are Music, DVD, Software, etc. in that
+# order.  If none of those are a possible default then use the first
+# item in the list of acceptable values.
 
 sub select_default {
     my $aref = shift;
 
-    for my $favored_default (qw(Books Music DVD Software)) {
-        return $favored_default if grep {$favored_default eq $_} @$aref;
+    my %hash = map { $_ => 1 } @$aref;
+
+    for my $favored_default (qw(Books Music DVD Software Title Keyword Keywords)) {
+	return $favored_default if defined $hash{$favored_default};
     }
 
     return $aref->[0];

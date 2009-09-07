@@ -10,17 +10,20 @@ use warnings;
 sub new {
     my ($class , %options) = @_;
     my $self = {
-        '_default' => 'Music',
+        '_default' => 'Title',
         %options,
     };
 
-    push @{$self->{_options}}, 'Apparel';
-    push @{$self->{_options}}, 'Classical';
-    push @{$self->{_options}}, 'DVD';
-    push @{$self->{_options}}, 'Kitchen';
-    push @{$self->{_options}}, 'Music';
-    push @{$self->{_options}}, 'VHS';
-    push @{$self->{_options}}, 'Video';
+    push @{$self->{_options}}, 'BrowseNode';
+    push @{$self->{_options}}, 'Condition';
+    push @{$self->{_options}}, 'ItemPage';
+    push @{$self->{_options}}, 'Keywords';
+    push @{$self->{_options}}, 'MaximumPrice';
+    push @{$self->{_options}}, 'MerchantId';
+    push @{$self->{_options}}, 'MinimumPrice';
+    push @{$self->{_options}}, 'Publisher';
+    push @{$self->{_options}}, 'Sort';
+    push @{$self->{_options}}, 'Title';
 
     bless $self, $class;
 }
@@ -52,20 +55,23 @@ __END__
 
 =head1 NAME
 
-Net::Amazon::Validate::ItemSearch::de::Magazines - valid search indices for the de locale and the Magazines operation.
+Net::Amazon::Validate::ItemSearch::de::Magazines;
 
 =head1 DESCRIPTION
 
-The default value is Music, unless mode is specified.
+The default value is Title, unless mode is specified.
 
 The list of available values are:
 
-    Apparel
-    Classical
-    DVD
-    Kitchen
-    Music
-    VHS
-    Video
+    BrowseNode
+    Condition
+    ItemPage
+    Keywords
+    MaximumPrice
+    MerchantId
+    MinimumPrice
+    Publisher
+    Sort
+    Title
 
 =cut

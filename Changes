@@ -1,4 +1,10 @@
 Revision history for Perl extension Net::Amazon:
+0.56 (xx/yy/zzzz)
+   (cb) Add support for searching MP3 downloads as requsted by Dave 
+        Hodgkinson.
+   (cb) Required for MP3 Downloads, and inspired by Vince Veselosky's 
+        fix, update aws4-itemsearch.
+
 0.55 (07/20/2009)
    (cb) Yuichi Tateno implemented support for the SearchIndex all.
    (cb) Vince Veselosky fixed adm/aws4-types script, and as a result
