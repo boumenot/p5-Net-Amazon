@@ -36,9 +36,9 @@ use constant SEARCH_TYPE_OPERATION_MAP => {
     Exchange     => 'SellerListingLookup',
     ISBN         => 'ItemLookup',
     Keyword      => 'ItemSearch',
-    # XXX: are there really two types?!?
     Keywords     => 'ItemSearch',
     Manufacturer => 'ItemSearch',
+    MP3Downloads => 'ItemSearch',
     MusicLabel   => 'ItemSearch',
     Power        => 'ItemSearch',
     Publisher    => 'ItemSearch',

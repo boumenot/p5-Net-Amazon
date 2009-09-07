@@ -1,0 +1,347 @@
+<?xml version="1.0"?>
+<ItemSearchResponse xmlns="http://webservices.amazon.com/AWSECommerceService/2009-07-01">
+  <Items>
+    <TotalResults>43</TotalResults>
+    <TotalPages>5</TotalPages>
+    <Item>
+      <ASIN>B001OG3VSW</ASIN>
+      <SalesRank>17273</SalesRank>
+      <ItemAttributes>
+        <Binding>MP3 Download</Binding>
+        <Creator Role="Primary Contributor">Alanis Morissette</Creator>
+        <Genre>pop-music</Genre>
+        <Label>Maverick</Label>
+        <Manufacturer>Maverick</Manufacturer>
+        <ProductGroup>Digital Music Track</ProductGroup>
+        <ProductTypeName>DOWNLOADABLE_MUSIC_TRACK</ProductTypeName>
+        <Publisher>Maverick</Publisher>
+        <ReleaseDate>2008-12-23</ReleaseDate>
+        <RunningTime Units="seconds">221</RunningTime>
+        <Studio>Maverick</Studio>
+        <Title>Hand In My Pocket</Title>
+        <TrackSequence>4</TrackSequence>
+      </ItemAttributes>
+      <OfferSummary>
+        <LowestNewPrice>
+          <Amount>99</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$0.99</FormattedPrice>
+        </LowestNewPrice>
+        <TotalNew>1</TotalNew>
+        <TotalUsed>0</TotalUsed>
+        <TotalCollectible>0</TotalCollectible>
+        <TotalRefurbished>0</TotalRefurbished>
+      </OfferSummary>
+      <Offers>
+        <TotalOffers>0</TotalOffers>
+        <TotalOfferPages>0</TotalOfferPages>
+      </Offers>
+    </Item>
+    <Item>
+      <ASIN>B00122HP62</ASIN>
+      <SalesRank>28909</SalesRank>
+      <ItemAttributes>
+        <Binding>MP3 Download</Binding>
+        <Creator Role="Primary Contributor">Alanis Morissette</Creator>
+        <Genre>adult-alternative-pop-music</Genre>
+        <Label>Maverick</Label>
+        <Manufacturer>Maverick</Manufacturer>
+        <ProductGroup>Digital Music Track</ProductGroup>
+        <ProductTypeName>DOWNLOADABLE_MUSIC_TRACK</ProductTypeName>
+        <Publisher>Maverick</Publisher>
+        <ReleaseDate>2008-12-09</ReleaseDate>
+        <RunningTime Units="seconds">219</RunningTime>
+        <Studio>Maverick</Studio>
+        <Title>Hand In My Pocket</Title>
+        <TrackSequence>18</TrackSequence>
+      </ItemAttributes>
+      <OfferSummary>
+        <LowestNewPrice>
+          <Amount>99</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$0.99</FormattedPrice>
+        </LowestNewPrice>
+        <TotalNew>1</TotalNew>
+        <TotalUsed>0</TotalUsed>
+        <TotalCollectible>0</TotalCollectible>
+        <TotalRefurbished>0</TotalRefurbished>
+      </OfferSummary>
+      <Offers>
+        <TotalOffers>0</TotalOffers>
+        <TotalOfferPages>0</TotalOfferPages>
+      </Offers>
+    </Item>
+    <Item>
+      <ASIN>B00122KUY6</ASIN>
+      <SalesRank>177929</SalesRank>
+      <ItemAttributes>
+        <Binding>MP3 Download</Binding>
+        <Creator Role="Primary Contributor">Alanis Morissette</Creator>
+        <Genre>pop-music</Genre>
+        <Label>Maverick</Label>
+        <Manufacturer>Maverick</Manufacturer>
+        <ProductGroup>Digital Music Track</ProductGroup>
+        <ProductTypeName>DOWNLOADABLE_MUSIC_TRACK</ProductTypeName>
+        <PublicationDate>2005-07-22</PublicationDate>
+        <Publisher>Maverick</Publisher>
+        <ReleaseDate>2009-01-04</ReleaseDate>
+        <RunningTime Units="seconds">270</RunningTime>
+        <Studio>Maverick</Studio>
+        <Title>Hand In My Pocket (Acoustic Album Version)</Title>
+        <TrackSequence>4</TrackSequence>
+      </ItemAttributes>
+      <OfferSummary>
+        <LowestNewPrice>
+          <Amount>99</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$0.99</FormattedPrice>
+        </LowestNewPrice>
+        <TotalNew>1</TotalNew>
+        <TotalUsed>0</TotalUsed>
+        <TotalCollectible>0</TotalCollectible>
+        <TotalRefurbished>0</TotalRefurbished>
+      </OfferSummary>
+      <Offers>
+        <TotalOffers>0</TotalOffers>
+        <TotalOfferPages>0</TotalOfferPages>
+      </Offers>
+    </Item>
+    <Item>
+      <ASIN>B0029B4OWS</ASIN>
+      <SalesRank>278255</SalesRank>
+      <ItemAttributes>
+        <Binding>MP3 Download</Binding>
+        <Creator Role="Primary Contributor">APM Karaoke</Creator>
+        <Genre>pop-music</Genre>
+        <Label>APM Music</Label>
+        <Manufacturer>APM Music</Manufacturer>
+        <ProductGroup>Digital Music Track</ProductGroup>
+        <ProductTypeName>DOWNLOADABLE_MUSIC_TRACK</ProductTypeName>
+        <Publisher>APM Music</Publisher>
+        <ReleaseDate>2008-05-01</ReleaseDate>
+        <RunningTime Units="seconds">221</RunningTime>
+        <Studio>APM Music</Studio>
+        <Title>Hand In My Pocket</Title>
+        <TrackSequence>3</TrackSequence>
+      </ItemAttributes>
+      <OfferSummary>
+        <LowestNewPrice>
+          <Amount>89</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$0.89</FormattedPrice>
+        </LowestNewPrice>
+        <TotalNew>1</TotalNew>
+        <TotalUsed>0</TotalUsed>
+        <TotalCollectible>0</TotalCollectible>
+        <TotalRefurbished>0</TotalRefurbished>
+      </OfferSummary>
+      <Offers>
+        <TotalOffers>0</TotalOffers>
+        <TotalOfferPages>0</TotalOfferPages>
+      </Offers>
+    </Item>
+    <Item>
+      <ASIN>B002G3QQCA</ASIN>
+      <SalesRank>367311</SalesRank>
+      <ItemAttributes>
+        <Binding>MP3 Download</Binding>
+        <Creator Role="Primary Contributor">Belô Velloso</Creator>
+        <Genre>international-music</Genre>
+        <Label>Tratore</Label>
+        <Manufacturer>Tratore</Manufacturer>
+        <ProductGroup>Digital Music Track</ProductGroup>
+        <ProductTypeName>DOWNLOADABLE_MUSIC_TRACK</ProductTypeName>
+        <Publisher>Tratore</Publisher>
+        <ReleaseDate>2009-06-15</ReleaseDate>
+        <RunningTime Units="seconds">222</RunningTime>
+        <Studio>Tratore</Studio>
+        <Title>Hand in my pocket</Title>
+        <TrackSequence>1</TrackSequence>
+      </ItemAttributes>
+      <OfferSummary>
+        <LowestNewPrice>
+          <Amount>99</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$0.99</FormattedPrice>
+        </LowestNewPrice>
+        <TotalNew>1</TotalNew>
+        <TotalUsed>0</TotalUsed>
+        <TotalCollectible>0</TotalCollectible>
+        <TotalRefurbished>0</TotalRefurbished>
+      </OfferSummary>
+      <Offers>
+        <TotalOffers>0</TotalOffers>
+        <TotalOfferPages>0</TotalOfferPages>
+      </Offers>
+    </Item>
+    <Item>
+      <ASIN>B000SF06JM</ASIN>
+      <SalesRank>601937</SalesRank>
+      <ItemAttributes>
+        <Binding>MP3 Download</Binding>
+        <Creator Role="Primary Contributor">Vitamin String Quartet</Creator>
+        <Genre>pop-music</Genre>
+        <Label>Vitamin Records</Label>
+        <Manufacturer>Vitamin Records</Manufacturer>
+        <ProductGroup>Digital Music Track</ProductGroup>
+        <ProductTypeName>DOWNLOADABLE_MUSIC_TRACK</ProductTypeName>
+        <Publisher>Vitamin Records</Publisher>
+        <ReleaseDate>2007-03-27</ReleaseDate>
+        <RunningTime Units="seconds">215</RunningTime>
+        <Studio>Vitamin Records</Studio>
+        <Title>Hand In My Pocket</Title>
+        <TrackSequence>4</TrackSequence>
+      </ItemAttributes>
+      <OfferSummary>
+        <LowestNewPrice>
+          <Amount>99</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$0.99</FormattedPrice>
+        </LowestNewPrice>
+        <TotalNew>1</TotalNew>
+        <TotalUsed>0</TotalUsed>
+        <TotalCollectible>0</TotalCollectible>
+        <TotalRefurbished>0</TotalRefurbished>
+      </OfferSummary>
+      <Offers>
+        <TotalOffers>0</TotalOffers>
+        <TotalOfferPages>0</TotalOfferPages>
+      </Offers>
+    </Item>
+    <Item>
+      <ASIN>B0029S3AGW</ASIN>
+      <SalesRank>1198606</SalesRank>
+      <ItemAttributes>
+        <Binding>MP3 Download</Binding>
+        <Creator Role="Primary Contributor">Kate Pazakis</Creator>
+        <Genre>broadway-and-vocal-music</Genre>
+        <Label>PS Classics</Label>
+        <Manufacturer>PS Classics</Manufacturer>
+        <ProductGroup>Digital Music Track</ProductGroup>
+        <ProductTypeName>DOWNLOADABLE_MUSIC_TRACK</ProductTypeName>
+        <Publisher>PS Classics</Publisher>
+        <ReleaseDate>2009-06-02</ReleaseDate>
+        <RunningTime Units="seconds">252</RunningTime>
+        <Studio>PS Classics</Studio>
+        <Title>Hand In My Pocket</Title>
+        <TrackSequence>1</TrackSequence>
+      </ItemAttributes>
+      <OfferSummary>
+        <LowestNewPrice>
+          <Amount>99</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$0.99</FormattedPrice>
+        </LowestNewPrice>
+        <TotalNew>1</TotalNew>
+        <TotalUsed>0</TotalUsed>
+        <TotalCollectible>0</TotalCollectible>
+        <TotalRefurbished>0</TotalRefurbished>
+      </OfferSummary>
+      <Offers>
+        <TotalOffers>0</TotalOffers>
+        <TotalOfferPages>0</TotalOfferPages>
+      </Offers>
+    </Item>
+    <Item>
+      <ASIN>B000QM0EB2</ASIN>
+      <ItemAttributes>
+        <Binding>MP3 Download</Binding>
+        <Creator Role="Primary Contributor">The Cowlicks</Creator>
+        <Genre>country-music</Genre>
+        <Label>Tres Payasos</Label>
+        <Manufacturer>Tres Payasos</Manufacturer>
+        <ProductGroup>Digital Music Track</ProductGroup>
+        <ProductTypeName>DOWNLOADABLE_MUSIC_TRACK</ProductTypeName>
+        <Publisher>Tres Payasos</Publisher>
+        <ReleaseDate>2006-12-03</ReleaseDate>
+        <RunningTime Units="seconds">173</RunningTime>
+        <Studio>Tres Payasos</Studio>
+        <Title>Hand In My Pocket</Title>
+        <TrackSequence>15</TrackSequence>
+      </ItemAttributes>
+      <OfferSummary>
+        <LowestNewPrice>
+          <Amount>89</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$0.89</FormattedPrice>
+        </LowestNewPrice>
+        <TotalNew>1</TotalNew>
+        <TotalUsed>0</TotalUsed>
+        <TotalCollectible>0</TotalCollectible>
+        <TotalRefurbished>0</TotalRefurbished>
+      </OfferSummary>
+      <Offers>
+        <TotalOffers>0</TotalOffers>
+        <TotalOfferPages>0</TotalOfferPages>
+      </Offers>
+    </Item>
+    <Item>
+      <ASIN>B000QOPI7A</ASIN>
+      <SalesRank>781906</SalesRank>
+      <ItemAttributes>
+        <Binding>MP3 Download</Binding>
+        <Creator Role="Primary Contributor">Various Artists - Alanis Morissette</Creator>
+        <Genre>rock-music</Genre>
+        <Label>Big Eye Music</Label>
+        <Manufacturer>Big Eye Music</Manufacturer>
+        <ProductGroup>Digital Music Track</ProductGroup>
+        <ProductTypeName>DOWNLOADABLE_MUSIC_TRACK</ProductTypeName>
+        <Publisher>Big Eye Music</Publisher>
+        <ReleaseDate>2001-01-01</ReleaseDate>
+        <RunningTime Units="seconds">218</RunningTime>
+        <Studio>Big Eye Music</Studio>
+        <Title>Hand In My Pocket</Title>
+        <TrackSequence>2</TrackSequence>
+      </ItemAttributes>
+      <OfferSummary>
+        <LowestNewPrice>
+          <Amount>99</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$0.99</FormattedPrice>
+        </LowestNewPrice>
+        <TotalNew>1</TotalNew>
+        <TotalUsed>0</TotalUsed>
+        <TotalCollectible>0</TotalCollectible>
+        <TotalRefurbished>0</TotalRefurbished>
+      </OfferSummary>
+      <Offers>
+        <TotalOffers>0</TotalOffers>
+        <TotalOfferPages>0</TotalOfferPages>
+      </Offers>
+    </Item>
+    <Item>
+      <ASIN>B001DQMOPY</ASIN>
+      <SalesRank>1437547</SalesRank>
+      <ItemAttributes>
+        <Binding>MP3 Download</Binding>
+        <Creator Role="Primary Contributor">Vitamin String Quartet</Creator>
+        <Genre>pop-music</Genre>
+        <Label>Vitamin Records</Label>
+        <Manufacturer>Vitamin Records</Manufacturer>
+        <ProductGroup>Digital Music Track</ProductGroup>
+        <ProductTypeName>DOWNLOADABLE_MUSIC_TRACK</ProductTypeName>
+        <Publisher>Vitamin Records</Publisher>
+        <ReleaseDate>2007-03-27</ReleaseDate>
+        <RunningTime Units="seconds">215</RunningTime>
+        <Studio>Vitamin Records</Studio>
+        <Title>Hand In My Pocket</Title>
+        <TrackSequence>4</TrackSequence>
+      </ItemAttributes>
+      <OfferSummary>
+        <LowestNewPrice>
+          <Amount>99</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$0.99</FormattedPrice>
+        </LowestNewPrice>
+        <TotalNew>1</TotalNew>
+        <TotalUsed>0</TotalUsed>
+        <TotalCollectible>0</TotalCollectible>
+        <TotalRefurbished>0</TotalRefurbished>
+      </OfferSummary>
+      <Offers>
+        <TotalOffers>0</TotalOffers>
+        <TotalOfferPages>0</TotalOfferPages>
+      </Offers>
+    </Item>
+  </Items>
+</ItemSearchResponse>

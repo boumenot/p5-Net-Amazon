@@ -1,0 +1,25 @@
+#!/usr/bin/perl
+############################################################
+# mp3downloads mp3_title
+# Christopher Boumenot <boumenot+na@gmail.com>, 2009
+############################################################
+
+use strict;
+use warnings;
+
+use Net::Amazon;
+use Net::Amazon::Request::MP3Downloads;
+
+my $ua = Net::Amazon->new(
+    token         => $ENV{AMAZON_TOKEN},
+    secret_key    => $ENV{AMAZON_SECRET_KEY},
+    max_pages     => 1,
+    response_dump => 1,
+);
+
+my $req = Net::Amazon::Request::MP3Downloads->new(
+    title => 'Hand in My Pocket',
+);
+
+# Response is of type Net::Amazon::Response::MP3Downloads
+my $resp = $ua->request($req);

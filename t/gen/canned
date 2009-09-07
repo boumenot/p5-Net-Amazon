@@ -26,6 +26,7 @@ my %tests = (
     'keyword'       => [qw()],
     'locale'        => [qw(Offers)],
     'manufacturer'  => [qw()],
+    'mp3downloads'  => [qw()],
     'musiclabel'    => [qw()],
 #    'power'         => [qw(SimilarProducts)],
     'power_sorted'  => [qw()],

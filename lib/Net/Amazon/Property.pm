@@ -8,6 +8,7 @@ use base qw(Net::Amazon);
 
 use Net::Amazon::Property::Book;
 use Net::Amazon::Property::CE;
+use Net::Amazon::Property::DigitalMusicTrack;
 use Net::Amazon::Property::DVD;
 use Net::Amazon::Property::Music;
 use Net::Amazon::Property::Software;
@@ -198,6 +199,9 @@ sub factory {
     } elsif($catalog eq "CE") { # Consumer Electronics?
         DEBUG("Creating new CE Property");
         $obj = Net::Amazon::Property::CE->new(xmlref => $xmlref);
+    } elsif($catalog eq "Digital Music Track") {
+	DEBUG("Creating new Digital Music Track");
+	$obj = Net::Amazon::Property::DigitalMusicTrack->new(xmlref => $xmlref);
     } else {
 #         print "UNKNOWN CATALOG: ", Data::Dumper::Dumper($xmlref), "\n";
 #         die "%Error: there is no property defined for type '$catalog'\n";
