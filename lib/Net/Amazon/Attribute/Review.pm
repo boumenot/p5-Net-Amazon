@@ -7,15 +7,16 @@ use Log::Log4perl qw(:easy);
 use base qw(Net::Amazon);
 
 __PACKAGE__->make_accessor($_) for qw(date asin rating summary content 
-                                      total_votes helpful_votes customer_id);
-
-__PACKAGE__->make_compatible_accessor('comment', 'content');
+                                      total_votes helpful_votes customer_id
+				      customer_name customer_location);
 
 use constant ELEMENT_TO_METHOD_MAP => {
     # XXX: should ASIN be Asin, ASIN, or asin?
     'ASIN'         => 'asin',
     'Content'      => 'content',
     'CustomerId'   => 'customer_id',
+    'CustomerLocation' => 'customer_location',
+    'CustomerName' => 'customer_name',
     'Date'         => 'date',
     'HelpfulVotes' => 'helpful_votes',
     'Rating'       => 'rating',
@@ -34,15 +35,13 @@ sub new {
         content => "",
         helpful_votes => "",
         customer_id => "",
+        customer_name => "",
+        customer_location => "",
         asin => "",
         date => "",
         total_votes => "",
         %options,
     };
-
-    if(defined $self->{comment}) {
-        $self->{content} = $self->{comment};
-    }
 
     bless $self, $class;
 }
@@ -60,6 +59,9 @@ sub init_via_xmlref {
             $self->$method($xmlref->{$_});
         } 
     }
+
+    $self->customer_location($xmlref->{Reviewer}{Location});
+    $self->customer_name($xmlref->{Reviewer}{Name});
 }
 
 1;
@@ -100,11 +102,6 @@ Accessor for the numeric value of the rating.
 
 Accessor for the string value of the summary.
 
-=item comment()
-
-Accessor for the string value of the customer comment.  This accessor is deprecated in
-favor of content().
-
 =item content()
 
 Accessor for the string value of the content.
@@ -116,6 +113,14 @@ Accessor for the string value of ASIN.
 =item customer_id()
 
 Accessor for the string value of the customer ID.
+
+=item customer_location()
+
+Accessor for the string value of the customer location.
+
+=item customer_name()
+
+Accessor for the string value of the customer name.
 
 =item helpful_votes()
 

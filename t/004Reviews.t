@@ -54,15 +54,17 @@ for my $property ($resp->properties()) {
     $result .= "AVG=" . $reviewset->average_customer_rating() . "," .
                "TOT=" . $reviewset->total_reviews() . ",";
     for my $review ($reviewset->reviews()) {
-        $result .= "COM=" . $review->comment() . "," .
+        $result .= "COM=" . $review->content() . "," .
                    "SUM=" . $review->summary() . "," .
-                   "RAT=" . $review->rating() . ",";
+                   "RAT=" . $review->rating() . "," .
+                   "LOC=" . $review->customer_location() . "," .
+                   "NAM=" . $review->customer_name();
     }
 }
 
-like($result, qr/AVG=4.5,TOT=6,COM=From.*?RAT=4,
-                                COM=Excellent.*?SUM=Perl.*?RAT=5,
-                                COM=I\sbought.*?SUM=Don.*?RAT=2
+like($result, qr/AVG=4.5,TOT=6,COM=From.*?RAT=4,LOC=Enschede.*?,NAM=C.\sHulshof
+                               COM=Excellent.*?SUM=Perl.*?RAT=5.*?
+                               COM=I\sbought.*?SUM=Don.*?RAT=2.*?
                 /sx, "customer reviews");
 __END__
 
