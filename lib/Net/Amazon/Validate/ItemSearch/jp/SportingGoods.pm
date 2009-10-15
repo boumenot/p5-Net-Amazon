@@ -55,7 +55,8 @@ __END__
 
 =head1 NAME
 
-Net::Amazon::Validate::ItemSearch::jp::SportingGoods;
+Net::Amazon::Validate::ItemSearch::SportingGoods - valid search indicies
+for the jp locale and the SportingGoods SearchIndex.
 
 =head1 DESCRIPTION
 

@@ -67,7 +67,8 @@ __END__
 
 =head1 NAME
 
-Net::Amazon::Validate::ItemSearch::fr::Music;
+Net::Amazon::Validate::ItemSearch::Music - valid search indicies
+for the fr locale and the Music SearchIndex.
 
 =head1 DESCRIPTION
 

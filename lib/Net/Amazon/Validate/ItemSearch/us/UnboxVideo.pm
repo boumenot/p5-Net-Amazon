@@ -60,7 +60,8 @@ __END__
 
 =head1 NAME
 
-Net::Amazon::Validate::ItemSearch::us::UnboxVideo;
+Net::Amazon::Validate::ItemSearch::UnboxVideo - valid search indicies
+for the us locale and the UnboxVideo SearchIndex.
 
 =head1 DESCRIPTION
 

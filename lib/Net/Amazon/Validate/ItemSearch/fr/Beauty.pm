@@ -55,7 +55,8 @@ __END__
 
 =head1 NAME
 
-Net::Amazon::Validate::ItemSearch::fr::Beauty;
+Net::Amazon::Validate::ItemSearch::Beauty - valid search indicies
+for the fr locale and the Beauty SearchIndex.
 
 =head1 DESCRIPTION
 

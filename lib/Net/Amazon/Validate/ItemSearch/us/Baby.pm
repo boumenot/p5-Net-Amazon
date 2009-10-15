@@ -57,7 +57,8 @@ __END__
 
 =head1 NAME
 
-Net::Amazon::Validate::ItemSearch::us::Baby;
+Net::Amazon::Validate::ItemSearch::Baby - valid search indicies
+for the us locale and the Baby SearchIndex.
 
 =head1 DESCRIPTION
 

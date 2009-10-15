@@ -57,7 +57,8 @@ __END__
 
 =head1 NAME
 
-Net::Amazon::Validate::ItemSearch::jp::Baby;
+Net::Amazon::Validate::ItemSearch::Baby - valid search indicies
+for the jp locale and the Baby SearchIndex.
 
 =head1 DESCRIPTION
 

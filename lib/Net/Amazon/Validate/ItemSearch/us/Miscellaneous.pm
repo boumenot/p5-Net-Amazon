@@ -56,7 +56,8 @@ __END__
 
 =head1 NAME
 
-Net::Amazon::Validate::ItemSearch::us::Miscellaneous;
+Net::Amazon::Validate::ItemSearch::Miscellaneous - valid search indicies
+for the us locale and the Miscellaneous SearchIndex.
 
 =head1 DESCRIPTION
 

@@ -72,7 +72,8 @@ __END__
 
 =head1 NAME
 
-Net::Amazon::Validate::ItemSearch::de::Video;
+Net::Amazon::Validate::ItemSearch::Video - valid search indicies
+for the de locale and the Video SearchIndex.
 
 =head1 DESCRIPTION
 

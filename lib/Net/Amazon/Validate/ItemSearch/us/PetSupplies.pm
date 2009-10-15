@@ -59,7 +59,8 @@ __END__
 
 =head1 NAME
 
-Net::Amazon::Validate::ItemSearch::us::PetSupplies;
+Net::Amazon::Validate::ItemSearch::PetSupplies - valid search indicies
+for the us locale and the PetSupplies SearchIndex.
 
 =head1 DESCRIPTION
 

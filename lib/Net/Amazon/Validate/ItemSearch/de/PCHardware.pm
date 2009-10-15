@@ -55,7 +55,8 @@ __END__
 
 =head1 NAME
 
-Net::Amazon::Validate::ItemSearch::de::PCHardware;
+Net::Amazon::Validate::ItemSearch::PCHardware - valid search indicies
+for the de locale and the PCHardware SearchIndex.
 
 =head1 DESCRIPTION
 

@@ -62,7 +62,8 @@ __END__
 
 =head1 NAME
 
-Net::Amazon::Validate::ItemSearch::de::Classical;
+Net::Amazon::Validate::ItemSearch::Classical - valid search indicies
+for the de locale and the Classical SearchIndex.
 
 =head1 DESCRIPTION
 

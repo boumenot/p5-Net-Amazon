@@ -57,7 +57,8 @@ __END__
 
 =head1 NAME
 
-Net::Amazon::Validate::ItemSearch::us::DigitalMusic;
+Net::Amazon::Validate::ItemSearch::DigitalMusic - valid search indicies
+for the us locale and the DigitalMusic SearchIndex.
 
 =head1 DESCRIPTION
 

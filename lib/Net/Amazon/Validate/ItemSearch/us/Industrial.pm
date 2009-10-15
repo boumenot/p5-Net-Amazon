@@ -49,7 +49,8 @@ __END__
 
 =head1 NAME
 
-Net::Amazon::Validate::ItemSearch::us::Industrial;
+Net::Amazon::Validate::ItemSearch::Industrial - valid search indicies
+for the us locale and the Industrial SearchIndex.
 
 =head1 DESCRIPTION
 

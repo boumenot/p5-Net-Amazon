@@ -56,7 +56,8 @@ __END__
 
 =head1 NAME
 
-Net::Amazon::Validate::ItemSearch::us::Magazines;
+Net::Amazon::Validate::ItemSearch::Magazines - valid search indicies
+for the us locale and the Magazines SearchIndex.
 
 =head1 DESCRIPTION
 

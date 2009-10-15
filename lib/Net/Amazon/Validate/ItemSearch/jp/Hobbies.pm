@@ -55,7 +55,8 @@ __END__
 
 =head1 NAME
 
-Net::Amazon::Validate::ItemSearch::jp::Hobbies;
+Net::Amazon::Validate::ItemSearch::Hobbies - valid search indicies
+for the jp locale and the Hobbies SearchIndex.
 
 =head1 DESCRIPTION
 

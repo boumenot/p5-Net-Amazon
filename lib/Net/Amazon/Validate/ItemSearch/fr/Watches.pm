@@ -55,7 +55,8 @@ __END__
 
 =head1 NAME
 
-Net::Amazon::Validate::ItemSearch::fr::Watches;
+Net::Amazon::Validate::ItemSearch::Watches - valid search indicies
+for the fr locale and the Watches SearchIndex.
 
 =head1 DESCRIPTION
 

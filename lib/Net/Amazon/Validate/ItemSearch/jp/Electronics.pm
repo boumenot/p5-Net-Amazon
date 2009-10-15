@@ -54,7 +54,8 @@ __END__
 
 =head1 NAME
 
-Net::Amazon::Validate::ItemSearch::jp::Electronics;
+Net::Amazon::Validate::ItemSearch::Electronics - valid search indicies
+for the jp locale and the Electronics SearchIndex.
 
 =head1 DESCRIPTION
 

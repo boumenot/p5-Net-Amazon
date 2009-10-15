@@ -58,7 +58,8 @@ __END__
 
 =head1 NAME
 
-Net::Amazon::Validate::ItemSearch::us::KindleStore;
+Net::Amazon::Validate::ItemSearch::KindleStore - valid search indicies
+for the us locale and the KindleStore SearchIndex.
 
 =head1 DESCRIPTION
 

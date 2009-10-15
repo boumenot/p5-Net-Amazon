@@ -52,7 +52,8 @@ __END__
 
 =head1 NAME
 
-Net::Amazon::Validate::ItemSearch::uk::MusicTracks;
+Net::Amazon::Validate::ItemSearch::MusicTracks - valid search indicies
+for the uk locale and the MusicTracks SearchIndex.
 
 =head1 DESCRIPTION
 

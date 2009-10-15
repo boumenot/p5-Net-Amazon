@@ -68,7 +68,8 @@ __END__
 
 =head1 NAME
 
-Net::Amazon::Validate::ItemSearch::ca::Software;
+Net::Amazon::Validate::ItemSearch::Software - valid search indicies
+for the ca locale and the Software SearchIndex.
 
 =head1 DESCRIPTION
 

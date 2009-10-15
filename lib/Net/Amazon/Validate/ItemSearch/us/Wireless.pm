@@ -64,7 +64,8 @@ __END__
 
 =head1 NAME
 
-Net::Amazon::Validate::ItemSearch::us::Wireless;
+Net::Amazon::Validate::ItemSearch::Wireless - valid search indicies
+for the us locale and the Wireless SearchIndex.
 
 =head1 DESCRIPTION
 

@@ -57,7 +57,8 @@ __END__
 
 =head1 NAME
 
-Net::Amazon::Validate::ItemSearch::us::Kitchen;
+Net::Amazon::Validate::ItemSearch::Kitchen - valid search indicies
+for the us locale and the Kitchen SearchIndex.
 
 =head1 DESCRIPTION
 

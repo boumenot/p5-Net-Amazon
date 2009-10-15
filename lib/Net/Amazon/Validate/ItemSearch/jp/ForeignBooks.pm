@@ -56,7 +56,8 @@ __END__
 
 =head1 NAME
 
-Net::Amazon::Validate::ItemSearch::jp::ForeignBooks;
+Net::Amazon::Validate::ItemSearch::ForeignBooks - valid search indicies
+for the jp locale and the ForeignBooks SearchIndex.
 
 =head1 DESCRIPTION
 

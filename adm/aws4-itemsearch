@@ -165,6 +165,8 @@ sub dump_library {
 
     my $hash = {'MODULE_NAME'    => "$locale".'::'."$dept",
                 'DEFAULT_OPTION' => select_default(\@$aref),
+                'LOCALE'         => $locale,
+                'ITEM_SEARCH'    => $dept,
                 'options'        => \@$aref,
     };
 

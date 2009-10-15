@@ -56,7 +56,8 @@ __END__
 
 =head1 NAME
 
-Net::Amazon::Validate::ItemSearch::uk::Electronics;
+Net::Amazon::Validate::ItemSearch::Electronics - valid search indicies
+for the uk locale and the Electronics SearchIndex.
 
 =head1 DESCRIPTION
 

@@ -55,7 +55,8 @@ __END__
 
 =head1 NAME
 
-Net::Amazon::Validate::ItemSearch::us::GourmetFood;
+Net::Amazon::Validate::ItemSearch::GourmetFood - valid search indicies
+for the us locale and the GourmetFood SearchIndex.
 
 =head1 DESCRIPTION
 

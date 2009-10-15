@@ -58,7 +58,8 @@ __END__
 
 =head1 NAME
 
-Net::Amazon::Validate::ItemSearch::us::Apparel;
+Net::Amazon::Validate::ItemSearch::Apparel - valid search indicies
+for the us locale and the Apparel SearchIndex.
 
 =head1 DESCRIPTION
 

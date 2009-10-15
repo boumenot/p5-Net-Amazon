@@ -61,7 +61,8 @@ __END__
 
 =head1 NAME
 
-Net::Amazon::Validate::ItemSearch::de::VHS;
+Net::Amazon::Validate::ItemSearch::VHS - valid search indicies
+for the de locale and the VHS SearchIndex.
 
 =head1 DESCRIPTION
 

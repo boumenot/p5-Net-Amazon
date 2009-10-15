@@ -58,7 +58,8 @@ __END__
 
 =head1 NAME
 
-Net::Amazon::Validate::ItemSearch::us::Photo;
+Net::Amazon::Validate::ItemSearch::Photo - valid search indicies
+for the us locale and the Photo SearchIndex.
 
 =head1 DESCRIPTION
 

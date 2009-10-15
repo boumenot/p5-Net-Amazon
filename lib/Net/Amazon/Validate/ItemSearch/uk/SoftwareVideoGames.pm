@@ -56,7 +56,8 @@ __END__
 
 =head1 NAME
 
-Net::Amazon::Validate::ItemSearch::uk::SoftwareVideoGames;
+Net::Amazon::Validate::ItemSearch::SoftwareVideoGames - valid search indicies
+for the uk locale and the SoftwareVideoGames SearchIndex.
 
 =head1 DESCRIPTION
 

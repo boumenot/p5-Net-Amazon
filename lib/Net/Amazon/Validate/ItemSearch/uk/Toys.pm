@@ -56,7 +56,8 @@ __END__
 
 =head1 NAME
 
-Net::Amazon::Validate::ItemSearch::uk::Toys;
+Net::Amazon::Validate::ItemSearch::Toys - valid search indicies
+for the uk locale and the Toys SearchIndex.
 
 =head1 DESCRIPTION
 

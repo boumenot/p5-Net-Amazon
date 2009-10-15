@@ -52,7 +52,8 @@ __END__
 
 =head1 NAME
 
-Net::Amazon::Validate::ItemSearch::fr::Jewelry;
+Net::Amazon::Validate::ItemSearch::Jewelry - valid search indicies
+for the fr locale and the Jewelry SearchIndex.
 
 =head1 DESCRIPTION
 

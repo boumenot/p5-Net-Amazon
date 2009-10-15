@@ -57,7 +57,8 @@ __END__
 
 =head1 NAME
 
-Net::Amazon::Validate::ItemSearch::us::Tools;
+Net::Amazon::Validate::ItemSearch::Tools - valid search indicies
+for the us locale and the Tools SearchIndex.
 
 =head1 DESCRIPTION
 
