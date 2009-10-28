@@ -63,7 +63,7 @@ __END__
 
 =head1 NAME
 
-Net::Amazon::Validate::ItemSearch::MP3Downloads - valid search indicies
+Net::Amazon::Validate::ItemSearch::uk::MP3Downloads - valid search indicies
 for the uk locale and the MP3Downloads SearchIndex.
 
 =head1 DESCRIPTION

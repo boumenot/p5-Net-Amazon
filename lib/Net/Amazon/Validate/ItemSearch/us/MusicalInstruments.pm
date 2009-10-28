@@ -56,7 +56,7 @@ __END__
 
 =head1 NAME
 
-Net::Amazon::Validate::ItemSearch::MusicalInstruments - valid search indicies
+Net::Amazon::Validate::ItemSearch::us::MusicalInstruments - valid search indicies
 for the us locale and the MusicalInstruments SearchIndex.
 
 =head1 DESCRIPTION

@@ -31,6 +31,5 @@ my $req = Net::Amazon::Request::Keyword->new(
 my $resp = $ua->request($req);
 
 for ($resp->properties) {
-   print $_->Asin(), " ",
-         $_->OurPrice(), "\n";
+   print $_->as_string()."\n";
 }

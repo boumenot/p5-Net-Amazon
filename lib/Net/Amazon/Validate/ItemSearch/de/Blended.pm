@@ -46,7 +46,7 @@ __END__
 
 =head1 NAME
 
-Net::Amazon::Validate::ItemSearch::Blended - valid search indicies
+Net::Amazon::Validate::ItemSearch::de::Blended - valid search indicies
 for the de locale and the Blended SearchIndex.
 
 =head1 DESCRIPTION

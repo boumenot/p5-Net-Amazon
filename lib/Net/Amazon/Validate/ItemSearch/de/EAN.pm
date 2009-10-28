@@ -109,7 +109,7 @@ __END__
 
 =head1 NAME
 
-Net::Amazon::Validate::ItemSearch::EAN - valid search indicies
+Net::Amazon::Validate::ItemSearch::de::EAN - valid search indicies
 for the de locale and the EAN SearchIndex.
 
 =head1 DESCRIPTION

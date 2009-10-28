@@ -52,7 +52,7 @@ __END__
 
 =head1 NAME
 
-Net::Amazon::Validate::ItemSearch::MP3Downloads - valid search indicies
+Net::Amazon::Validate::ItemSearch::fr::MP3Downloads - valid search indicies
 for the fr locale and the MP3Downloads SearchIndex.
 
 =head1 DESCRIPTION

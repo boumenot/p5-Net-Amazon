@@ -63,7 +63,7 @@ __END__
 
 =head1 NAME
 
-Net::Amazon::Validate::ItemSearch::Merchants - valid search indicies
+Net::Amazon::Validate::ItemSearch::us::Merchants - valid search indicies
 for the us locale and the Merchants SearchIndex.
 
 =head1 DESCRIPTION

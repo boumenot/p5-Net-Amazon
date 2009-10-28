@@ -64,7 +64,7 @@ __END__
 
 =head1 NAME
 
-Net::Amazon::Validate::ItemSearch::Apparel - valid search indicies
+Net::Amazon::Validate::ItemSearch::jp::Apparel - valid search indicies
 for the jp locale and the Apparel SearchIndex.
 
 =head1 DESCRIPTION

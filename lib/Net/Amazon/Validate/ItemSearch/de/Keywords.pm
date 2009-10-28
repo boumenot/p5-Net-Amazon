@@ -15,7 +15,9 @@ sub new {
     };
 
     push @{$self->{_options}}, 'Apparel';
+    push @{$self->{_options}}, 'Automotive';
     push @{$self->{_options}}, 'Baby';
+    push @{$self->{_options}}, 'Beauty';
     push @{$self->{_options}}, 'Blended';
     push @{$self->{_options}}, 'Books';
     push @{$self->{_options}}, 'Classical';
@@ -24,10 +26,13 @@ sub new {
     push @{$self->{_options}}, 'ForeignBooks';
     push @{$self->{_options}}, 'HealthPersonalCare';
     push @{$self->{_options}}, 'HomeGarden';
+    push @{$self->{_options}}, 'Jewelry';
     push @{$self->{_options}}, 'Kitchen';
+    push @{$self->{_options}}, 'MP3Downloads';
     push @{$self->{_options}}, 'Magazines';
     push @{$self->{_options}}, 'Music';
     push @{$self->{_options}}, 'MusicTracks';
+    push @{$self->{_options}}, 'OfficeProducts';
     push @{$self->{_options}}, 'OutdoorLiving';
     push @{$self->{_options}}, 'PCHardware';
     push @{$self->{_options}}, 'Photo';
@@ -71,7 +76,8 @@ __END__
 
 =head1 NAME
 
-Net::Amazon::Validate::ItemSearch::de::Keywords - valid search indices for the de locale and the Keywords operation.
+Net::Amazon::Validate::ItemSearch::de::Keywords - valid search indicies
+for the de locale and the Keywords SearchIndex.
 
 =head1 DESCRIPTION
 
@@ -80,7 +86,9 @@ The default value is Books, unless mode is specified.
 The list of available values are:
 
     Apparel
+    Automotive
     Baby
+    Beauty
     Blended
     Books
     Classical
@@ -89,10 +97,13 @@ The list of available values are:
     ForeignBooks
     HealthPersonalCare
     HomeGarden
+    Jewelry
     Kitchen
+    MP3Downloads
     Magazines
     Music
     MusicTracks
+    OfficeProducts
     OutdoorLiving
     PCHardware
     Photo

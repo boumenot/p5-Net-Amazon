@@ -269,7 +269,6 @@ lib/Net/Amazon/Validate/ItemSearch/us/Count.pm
 lib/Net/Amazon/Validate/ItemSearch/us/Director.pm
 lib/Net/Amazon/Validate/ItemSearch/us/Format.pm
 lib/Net/Amazon/Validate/ItemSearch/us/ItemPage.pm
-lib/Net/Amazon/Validate/ItemSearch/us/Keyword.pm
 lib/Net/Amazon/Validate/ItemSearch/us/Keywords.pm
 lib/Net/Amazon/Validate/ItemSearch/us/Magazines.pm
 lib/Net/Amazon/Validate/ItemSearch/us/Manufacturer.pm

@@ -55,7 +55,7 @@ __END__
 
 =head1 NAME
 
-Net::Amazon::Validate::ItemSearch::Toys - valid search indicies
+Net::Amazon::Validate::ItemSearch::jp::Toys - valid search indicies
 for the jp locale and the Toys SearchIndex.
 
 =head1 DESCRIPTION

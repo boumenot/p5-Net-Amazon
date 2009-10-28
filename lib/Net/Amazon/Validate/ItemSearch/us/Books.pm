@@ -59,7 +59,7 @@ __END__
 
 =head1 NAME
 
-Net::Amazon::Validate::ItemSearch::Books - valid search indicies
+Net::Amazon::Validate::ItemSearch::us::Books - valid search indicies
 for the us locale and the Books SearchIndex.
 
 =head1 DESCRIPTION

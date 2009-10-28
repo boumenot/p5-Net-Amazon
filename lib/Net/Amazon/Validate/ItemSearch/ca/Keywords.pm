@@ -18,6 +18,7 @@ sub new {
     push @{$self->{_options}}, 'Books';
     push @{$self->{_options}}, 'Classical';
     push @{$self->{_options}}, 'DVD';
+    push @{$self->{_options}}, 'Electronics';
     push @{$self->{_options}}, 'ForeignBooks';
     push @{$self->{_options}}, 'Music';
     push @{$self->{_options}}, 'Software';
@@ -56,7 +57,8 @@ __END__
 
 =head1 NAME
 
-Net::Amazon::Validate::ItemSearch::ca::Keywords - valid search indices for the ca locale and the Keywords operation.
+Net::Amazon::Validate::ItemSearch::ca::Keywords - valid search indicies
+for the ca locale and the Keywords SearchIndex.
 
 =head1 DESCRIPTION
 
@@ -68,6 +70,7 @@ The list of available values are:
     Books
     Classical
     DVD
+    Electronics
     ForeignBooks
     Music
     Software

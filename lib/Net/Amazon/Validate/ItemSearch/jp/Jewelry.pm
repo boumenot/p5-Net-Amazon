@@ -52,7 +52,7 @@ __END__
 
 =head1 NAME
 
-Net::Amazon::Validate::ItemSearch::Jewelry - valid search indicies
+Net::Amazon::Validate::ItemSearch::jp::Jewelry - valid search indicies
 for the jp locale and the Jewelry SearchIndex.
 
 =head1 DESCRIPTION

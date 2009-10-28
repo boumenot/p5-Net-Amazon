@@ -29,11 +29,11 @@ sub AWS4_ONLINE_HTML {
 
 use constant AWS4_LOCALE_HTML => {
     'us' => 'USSearchIndexParamForItemsearch.html',
-    'de' => 'DESearchIndexParamForItemsearch.html',
-    'jp' => 'JPSearchIndexParamForItemsearch.html',
-    'uk' => 'UKSearchIndexParamForItemsearch.html',
-    'fr' => 'FRSearchIndexParamForItemsearch.html',
-    'ca' => 'CASearchIndexParamForItemsearch.html',
+#     'de' => 'DESearchIndexParamForItemsearch.html',
+#     'jp' => 'JPSearchIndexParamForItemsearch.html',
+#     'uk' => 'UKSearchIndexParamForItemsearch.html',
+#     'fr' => 'FRSearchIndexParamForItemsearch.html',
+#     'ca' => 'CASearchIndexParamForItemsearch.html',
 };
 
 my $Opt_Debug = 0;
@@ -69,6 +69,7 @@ for my $locale (keys %{(AWS4_LOCALE_HTML)}) {
     my @search_indicies = map { $_->as_text } $tree->findnodes("//div[\@class=\"section\"]//h2");
     my %depts;
     my %upc;
+    my %keywords;
 
     for my $search_index (@search_indicies) {
 
@@ -83,6 +84,7 @@ for my $locale (keys %{(AWS4_LOCALE_HTML)}) {
 	for my $parameter (@parameters) {
 	    print "  -> $parameter\n";
 	    push @{$depts{$search_index_name}}, $parameter;
+            $keywords{$locale}{$search_index_name}++ if $parameter eq "Keywords";
 	}
 
     }
@@ -90,6 +92,11 @@ for my $locale (keys %{(AWS4_LOCALE_HTML)}) {
     for my $dept (keys %depts) {
 	dump_library($depts{$dept}, $locale, $dept);
 	upc_add(\%upc, $depts{$dept});
+    }
+
+    for my $locale (keys %keywords) {
+        my @a = keys %{$keywords{$locale}};
+        dump_library(\@a, $locale, "Keywords");
     }
 
     my @a = keys %upc;

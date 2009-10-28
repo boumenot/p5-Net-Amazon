@@ -57,7 +57,7 @@ __END__
 
 =head1 NAME
 
-Net::Amazon::Validate::ItemSearch::ForeignBooks - valid search indicies
+Net::Amazon::Validate::ItemSearch::ca::ForeignBooks - valid search indicies
 for the ca locale and the ForeignBooks SearchIndex.
 
 =head1 DESCRIPTION

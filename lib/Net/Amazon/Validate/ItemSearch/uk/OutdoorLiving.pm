@@ -56,7 +56,7 @@ __END__
 
 =head1 NAME
 
-Net::Amazon::Validate::ItemSearch::OutdoorLiving - valid search indicies
+Net::Amazon::Validate::ItemSearch::uk::OutdoorLiving - valid search indicies
 for the uk locale and the OutdoorLiving SearchIndex.
 
 =head1 DESCRIPTION

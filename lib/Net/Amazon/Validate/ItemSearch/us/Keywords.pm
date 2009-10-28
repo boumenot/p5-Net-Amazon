@@ -29,6 +29,7 @@ sub new {
     push @{$self->{_options}}, 'HomeGarden';
     push @{$self->{_options}}, 'Industrial';
     push @{$self->{_options}}, 'Jewelry';
+    push @{$self->{_options}}, 'KindleStore';
     push @{$self->{_options}}, 'Kitchen';
     push @{$self->{_options}}, 'Magazines';
     push @{$self->{_options}}, 'Merchants';
@@ -41,6 +42,7 @@ sub new {
     push @{$self->{_options}}, 'PCHardware';
     push @{$self->{_options}}, 'PetSupplies';
     push @{$self->{_options}}, 'Photo';
+    push @{$self->{_options}}, 'Shoes';
     push @{$self->{_options}}, 'SilverMerchants';
     push @{$self->{_options}}, 'Software';
     push @{$self->{_options}}, 'SportingGoods';
@@ -50,6 +52,7 @@ sub new {
     push @{$self->{_options}}, 'VHS';
     push @{$self->{_options}}, 'Video';
     push @{$self->{_options}}, 'VideoGames';
+    push @{$self->{_options}}, 'Watches';
     push @{$self->{_options}}, 'Wireless';
     push @{$self->{_options}}, 'WirelessAccessories';
 
@@ -83,7 +86,8 @@ __END__
 
 =head1 NAME
 
-Net::Amazon::Validate::ItemSearch::us::Keywords - valid search indices for the us locale and the Keywords operation.
+Net::Amazon::Validate::ItemSearch::us::Keywords - valid search indicies
+for the us locale and the Keywords SearchIndex.
 
 =head1 DESCRIPTION
 
@@ -106,6 +110,7 @@ The list of available values are:
     HomeGarden
     Industrial
     Jewelry
+    KindleStore
     Kitchen
     Magazines
     Merchants
@@ -118,6 +123,7 @@ The list of available values are:
     PCHardware
     PetSupplies
     Photo
+    Shoes
     SilverMerchants
     Software
     SportingGoods
@@ -127,6 +133,7 @@ The list of available values are:
     VHS
     Video
     VideoGames
+    Watches
     Wireless
     WirelessAccessories
 

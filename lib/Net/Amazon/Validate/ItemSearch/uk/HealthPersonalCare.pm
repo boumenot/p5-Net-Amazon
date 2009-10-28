@@ -60,7 +60,7 @@ __END__
 
 =head1 NAME
 
-Net::Amazon::Validate::ItemSearch::HealthPersonalCare - valid search indicies
+Net::Amazon::Validate::ItemSearch::uk::HealthPersonalCare - valid search indicies
 for the uk locale and the HealthPersonalCare SearchIndex.
 
 =head1 DESCRIPTION

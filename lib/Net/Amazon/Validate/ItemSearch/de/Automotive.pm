@@ -58,7 +58,7 @@ __END__
 
 =head1 NAME
 
-Net::Amazon::Validate::ItemSearch::Automotive - valid search indicies
+Net::Amazon::Validate::ItemSearch::de::Automotive - valid search indicies
 for the de locale and the Automotive SearchIndex.
 
 =head1 DESCRIPTION

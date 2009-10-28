@@ -55,7 +55,7 @@ __END__
 
 =head1 NAME
 
-Net::Amazon::Validate::ItemSearch::OfficeProducts - valid search indicies
+Net::Amazon::Validate::ItemSearch::de::OfficeProducts - valid search indicies
 for the de locale and the OfficeProducts SearchIndex.
 
 =head1 DESCRIPTION

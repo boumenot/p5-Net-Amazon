@@ -1,5 +1,7 @@
 Revision history for Perl extension Net::Amazon:
 0.57 (xx/yy/zzzz)
+   (cb) Update the Keywords library in Validate - reported by Dave
+        Hodgkinson.
    (cb) Added customer_location and customer_name accessors to review
         results for Scott Weisman.
    (cb) Nathan Handler re-re-reported a man page issue, rt 46708.

@@ -55,7 +55,7 @@ __END__
 
 =head1 NAME
 
-Net::Amazon::Validate::ItemSearch::HomeGarden - valid search indicies
+Net::Amazon::Validate::ItemSearch::de::HomeGarden - valid search indicies
 for the de locale and the HomeGarden SearchIndex.
 
 =head1 DESCRIPTION

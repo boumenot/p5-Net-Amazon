@@ -58,7 +58,7 @@ __END__
 
 =head1 NAME
 
-Net::Amazon::Validate::ItemSearch::Shoes - valid search indicies
+Net::Amazon::Validate::ItemSearch::uk::Shoes - valid search indicies
 for the uk locale and the Shoes SearchIndex.
 
 =head1 DESCRIPTION

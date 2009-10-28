@@ -55,7 +55,7 @@ __END__
 
 =head1 NAME
 
-Net::Amazon::Validate::ItemSearch::Software - valid search indicies
+Net::Amazon::Validate::ItemSearch::jp::Software - valid search indicies
 for the jp locale and the Software SearchIndex.
 
 =head1 DESCRIPTION

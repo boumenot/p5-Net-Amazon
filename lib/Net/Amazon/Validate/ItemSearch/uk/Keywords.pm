@@ -16,6 +16,7 @@ sub new {
 
     push @{$self->{_options}}, 'Apparel';
     push @{$self->{_options}}, 'Baby';
+    push @{$self->{_options}}, 'Beauty';
     push @{$self->{_options}}, 'Blended';
     push @{$self->{_options}}, 'Books';
     push @{$self->{_options}}, 'Classical';
@@ -23,10 +24,14 @@ sub new {
     push @{$self->{_options}}, 'Electronics';
     push @{$self->{_options}}, 'HealthPersonalCare';
     push @{$self->{_options}}, 'HomeGarden';
+    push @{$self->{_options}}, 'Jewelry';
     push @{$self->{_options}}, 'Kitchen';
+    push @{$self->{_options}}, 'MP3Downloads';
     push @{$self->{_options}}, 'Music';
     push @{$self->{_options}}, 'MusicTracks';
+    push @{$self->{_options}}, 'OfficeProducts';
     push @{$self->{_options}}, 'OutdoorLiving';
+    push @{$self->{_options}}, 'Shoes';
     push @{$self->{_options}}, 'Software';
     push @{$self->{_options}}, 'SoftwareVideoGames';
     push @{$self->{_options}}, 'Toys';
@@ -65,7 +70,8 @@ __END__
 
 =head1 NAME
 
-Net::Amazon::Validate::ItemSearch::uk::Keywords - valid search indices for the uk locale and the Keywords operation.
+Net::Amazon::Validate::ItemSearch::uk::Keywords - valid search indicies
+for the uk locale and the Keywords SearchIndex.
 
 =head1 DESCRIPTION
 
@@ -75,6 +81,7 @@ The list of available values are:
 
     Apparel
     Baby
+    Beauty
     Blended
     Books
     Classical
@@ -82,10 +89,14 @@ The list of available values are:
     Electronics
     HealthPersonalCare
     HomeGarden
+    Jewelry
     Kitchen
+    MP3Downloads
     Music
     MusicTracks
+    OfficeProducts
     OutdoorLiving
+    Shoes
     Software
     SoftwareVideoGames
     Toys

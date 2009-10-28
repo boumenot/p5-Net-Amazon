@@ -61,7 +61,7 @@ __END__
 
 =head1 NAME
 
-Net::Amazon::Validate::ItemSearch::DVD - valid search indicies
+Net::Amazon::Validate::ItemSearch::us::DVD - valid search indicies
 for the us locale and the DVD SearchIndex.
 
 =head1 DESCRIPTION

@@ -55,7 +55,7 @@ __END__
 
 =head1 NAME
 
-Net::Amazon::Validate::ItemSearch::SportingGoods - valid search indicies
+Net::Amazon::Validate::ItemSearch::de::SportingGoods - valid search indicies
 for the de locale and the SportingGoods SearchIndex.
 
 =head1 DESCRIPTION

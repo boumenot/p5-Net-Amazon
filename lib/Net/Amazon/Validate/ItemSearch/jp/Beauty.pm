@@ -56,7 +56,7 @@ __END__
 
 =head1 NAME
 
-Net::Amazon::Validate::ItemSearch::Beauty - valid search indicies
+Net::Amazon::Validate::ItemSearch::jp::Beauty - valid search indicies
 for the jp locale and the Beauty SearchIndex.
 
 =head1 DESCRIPTION
