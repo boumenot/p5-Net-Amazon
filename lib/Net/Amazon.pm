@@ -8,7 +8,7 @@ use 5.006;
 use strict;
 use warnings;
 
-our $VERSION          = '0.58';
+our $VERSION          = '0.59';
 our $WSDL_DATE        = '2009-07-01';
 our $Locale           = 'us';
 our @CANNED_RESPONSES = ();

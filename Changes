@@ -1,4 +1,8 @@
 Revision history for Perl extension Net::Amazon:
+0.59 (11/02/2009)
+   (cb) DigitalMusicTrack.pm was not included, reported by Matt 
+        Okeson-Harlow.
+
 0.58 (11/01/2009)
    (cb) Update the Keywords library in Validate - reported by Dave
         Hodgkinson.

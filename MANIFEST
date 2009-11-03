@@ -49,6 +49,7 @@ lib/Net/Amazon/Attribute/ReviewSet.pm
 lib/Net/Amazon/Property.pm
 lib/Net/Amazon/Property/Book.pm
 lib/Net/Amazon/Property/CE.pm
+lib/Net/Amazon/Property/DigitalMusicTrack.pm
 lib/Net/Amazon/Property/DVD.pm
 lib/Net/Amazon/Property/Music.pm
 lib/Net/Amazon/Property/Software.pm
