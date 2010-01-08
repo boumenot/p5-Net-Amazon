@@ -1,4 +1,8 @@
 Revision history for Perl extension Net::Amazon:
+0.60 (xx/yy/zzzz)
+   (cb) Push from cpanservice: Small dist maintenance. Please use latest 
+        ExtUtils::MakeMaker for release.
+
 0.59 (11/02/2009)
    (cb) DigitalMusicTrack.pm was not included, reported by Matt 
         Okeson-Harlow.
