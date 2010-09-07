@@ -181,7 +181,7 @@ sub factory {
     my $obj;
 
     if(0) {
-    } elsif($catalog eq "Book") {
+    } elsif($catalog eq "Book" || $catalog eq "eBooks") {
         DEBUG("Creating new Book Property");
         $obj = Net::Amazon::Property::Book->new(xmlref => $xmlref);
     } elsif($catalog eq "Music") {
