@@ -1,5 +1,6 @@
 Revision history for Perl extension Net::Amazon:
 0.60 (xx/yy/zzzz)
+   (cb) Add a method to get similar products.  Patch submitted by Jennifer.
    (cb) Push from cpanservice: Small dist maintenance. Please use latest 
         ExtUtils::MakeMaker for release.
 

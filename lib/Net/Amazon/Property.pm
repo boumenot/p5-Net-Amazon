@@ -52,6 +52,7 @@ our %DEFAULT_ATTRIBUTES_XPATH = (
     RawListPrice => [qw(ItemAttributes ListPrice Amount)],
     CurrencyCode => [qw(ItemAttributes ListPrice CurrencyCode)],
     ReleaseDate => [qw(ItemAttributes ReleaseDate)],
+    SimilarProducts => [qw(SimilarProducts SimilarProduct)],
 );
 
 our @DEFAULT_ATTRIBUTES = qw(
@@ -435,6 +436,10 @@ Returns a list of browse nodes (text string categories) for this item.
 =item similar_asins()
 
 Returns a list of ASINs of similar items for this item.
+
+=item SimilarProducts()
+
+Returns a list of ASINs and titles of similar items for this item.
 
 =back
 
