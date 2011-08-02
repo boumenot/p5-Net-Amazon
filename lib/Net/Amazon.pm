@@ -8,7 +8,7 @@ use 5.006;
 use strict;
 use warnings;
 
-our $VERSION          = '0.59';
+our $VERSION          = '0.60';
 our $WSDL_DATE        = '2009-07-01';
 our $Locale           = 'us';
 our @CANNED_RESPONSES = ();
@@ -149,8 +149,11 @@ sub request {
     my $res  = $resp_class->new();
 
     my $url  = URI->new($self->intl_url($request->amzn_xml_url()));
-    my $page = $request->page();
+    my $page = (defined $request->page()) ?
+	($request->page() - 1) * $self->{max_pages} + 1 :
+	0;
     my $ref;
+    my $max_pages_in_this_search = $self->{max_pages} + $page - 1;
 
     REQUEST: {
         my %params = $request->params(page => $page);
@@ -211,8 +214,8 @@ sub request {
         DEBUG("Received valid XML ($new_items items)");
 
         # Stop if we've fetched max_pages already
-        if(defined $page && $self->{max_pages} <= $page) {
-            DEBUG("Fetched max_pages ($self->{max_pages}) -- stopping");
+        if(defined $page && $max_pages_in_this_search <= $page) {
+            DEBUG("Fetched max_pages ($max_pages_in_this_search) -- stopping");
             last;
         }
 
