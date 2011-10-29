@@ -11,6 +11,7 @@ use Net::Amazon;
 use Net::Amazon::Request::MusicLabel;
 
 my $ua = Net::Amazon->new(
+    associate_tag => $ENV{AMAZON_ASSOCIATE_TAG},
     token         => $ENV{AMAZON_TOKEN},
     secret_key    => $ENV{AMAZON_SECRET_KEY},
     response_dump => 1,

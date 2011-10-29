@@ -1,9 +1,9 @@
 <?xml version="1.0"?>
-<ItemLookupResponse xmlns="http://webservices.amazon.com/AWSECommerceService/2009-07-01">
+<ItemLookupResponse xmlns="http://webservices.amazon.com/AWSECommerceService/2011-08-01">
   <Items>
     <Item>
       <ASIN>6305181772</ASIN>
-      <SalesRank>42002</SalesRank>
+      <SalesRank>45192</SalesRank>
       <ItemAttributes>
         <Actor>Tom Cruise</Actor>
         <Actor>Jon Voight</Actor>
@@ -13,17 +13,16 @@
         <AspectRatio>2.35:1</AspectRatio>
         <AudienceRating>PG-13 (Parental Guidance Suggested)</AudienceRating>
         <Binding>DVD</Binding>
-        <Creator Role="Producer">J.C. Calciano</Creator>
-        <Creator Role="Producer">Paul Hitchcock</Creator>
-        <Creator Role="Producer">Paula Wagner</Creator>
-        <Creator Role="Writer">Bruce Geller</Creator>
-        <Creator Role="Writer">David Koepp</Creator>
-        <Creator Role="Writer">Robert Towne</Creator>
-        <Creator Role="Writer">Steven Zaillian</Creator>
-        <Director>Brian De Palma</Director>
-        <DVDLayers>2</DVDLayers>
-        <DVDSides>1</DVDSides>
-        <EAN>9786305181774</EAN>
+        <CatalogNumberList>
+          <CatalogNumberListElement>154977</CatalogNumberListElement>
+        </CatalogNumberList>
+        <EAN>9780792153016</EAN>
+        <EANList>
+          <EANListElement>9780792153016</EANListElement>
+          <EANListElement>0097361549729</EANListElement>
+          <EANListElement>0097361549774</EANListElement>
+          <EANListElement>9786305181774</EANListElement>
+        </EANList>
         <Format>AC-3</Format>
         <Format>Closed-captioned</Format>
         <Format>Color</Format>
@@ -32,9 +31,19 @@
         <Format>Letterboxed</Format>
         <Format>Widescreen</Format>
         <Format>NTSC</Format>
-        <ISBN>0792153014</ISBN>
+        <ISBN>6305181772</ISBN>
+        <IsEligibleForTradeIn>1</IsEligibleForTradeIn>
         <Label>Paramount</Label>
         <Languages>
+          <Language>
+            <Name>English</Name>
+            <Type>Unknown</Type>
+            <AudioFormat>Dolby Digital 2.0 Surround</AudioFormat>
+          </Language>
+          <Language>
+            <Name>Spanish</Name>
+            <Type>Subtitled</Type>
+          </Language>
           <Language>
             <Name>English</Name>
             <Type>Original Language</Type>
@@ -45,10 +54,6 @@
             <Type>Original Language</Type>
             <AudioFormat>Dolby Digital 2.0 Surround</AudioFormat>
           </Language>
-          <Language>
-            <Name>Spanish</Name>
-            <Type>Subtitled</Type>
-          </Language>
         </Languages>
         <ListPrice>
           <Amount>1498</Amount>
@@ -56,76 +61,75 @@
           <FormattedPrice>$14.98</FormattedPrice>
         </ListPrice>
         <Manufacturer>Paramount</Manufacturer>
-        <NumberOfItems>1</NumberOfItems>
-        <OriginalReleaseDate>1996-05-22</OriginalReleaseDate>
-        <PictureFormat>Letterbox</PictureFormat>
-        <PictureFormat>Pan &amp; Scan</PictureFormat>
+        <NumberOfDiscs>1</NumberOfDiscs>
         <ProductGroup>DVD</ProductGroup>
         <ProductTypeName>ABIS_DVD</ProductTypeName>
         <Publisher>Paramount</Publisher>
         <RegionCode>1</RegionCode>
         <ReleaseDate>1998-11-17</ReleaseDate>
         <RunningTime Units="minutes">110</RunningTime>
+        <SKU>1U03J70002P1</SKU>
         <Studio>Paramount</Studio>
-        <TheatricalReleaseDate>1996-05-22</TheatricalReleaseDate>
         <Title>Mission Impossible (Widescreen Edition)</Title>
-        <UPC>097361549774</UPC>
+        <TradeInValue>
+          <Amount>25</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$0.25</FormattedPrice>
+        </TradeInValue>
+        <UPC>097361549729</UPC>
+        <UPCList>
+          <UPCListElement>097361549729</UPCListElement>
+          <UPCListElement>097361549774</UPCListElement>
+        </UPCList>
       </ItemAttributes>
       <OfferSummary>
         <LowestNewPrice>
-          <Amount>246</Amount>
+          <Amount>614</Amount>
           <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$2.46</FormattedPrice>
+          <FormattedPrice>$6.14</FormattedPrice>
         </LowestNewPrice>
         <LowestUsedPrice>
-          <Amount>28</Amount>
+          <Amount>1</Amount>
           <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$0.28</FormattedPrice>
+          <FormattedPrice>$0.01</FormattedPrice>
         </LowestUsedPrice>
         <LowestCollectiblePrice>
-          <Amount>1498</Amount>
+          <Amount>1000</Amount>
           <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$14.98</FormattedPrice>
+          <FormattedPrice>$10.00</FormattedPrice>
         </LowestCollectiblePrice>
-        <TotalNew>35</TotalNew>
-        <TotalUsed>147</TotalUsed>
-        <TotalCollectible>2</TotalCollectible>
+        <TotalNew>20</TotalNew>
+        <TotalUsed>191</TotalUsed>
+        <TotalCollectible>5</TotalCollectible>
         <TotalRefurbished>0</TotalRefurbished>
       </OfferSummary>
       <Offers>
         <TotalOffers>1</TotalOffers>
         <TotalOfferPages>1</TotalOfferPages>
+        <MoreOffersUrl>http://www.amazon.com/gp/offer-listing/6305181772%3FSubscriptionId%3D1V5JRJ4JQCSHB3NGG902%26tag%3Dblogdivebombo-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3D6305181772</MoreOffersUrl>
         <Offer>
-          <Merchant>
-            <MerchantId>ATVPDKIKX0DER</MerchantId>
-            <GlancePage>http://www.amazon.com/gp/help/seller/home.html?seller=ATVPDKIKX0DER</GlancePage>
-            <AverageFeedbackRating>0.0</AverageFeedbackRating>
-            <TotalFeedback>0</TotalFeedback>
-          </Merchant>
           <OfferAttributes>
             <Condition>New</Condition>
-            <SubCondition>new</SubCondition>
           </OfferAttributes>
           <OfferListing>
-            <OfferListingId>Gp7Rawg81Oc8zAnU5Br%2F0Mbc8APXhGyshGaqbea1vrCzGEuYxHbTphE%2BlDhWf33z8i2cE%2BU8tps%2FfBi1LD6ZNQ%3D%3D</OfferListingId>
+            <OfferListingId>9k%2B2N1ZavzvK7j6T8CiL5CcZWZ9DNQeLUDv3cXG%2FWrpPz3T%2FrewSJ3JVtFYmqfd4qYQ6fPpWxurHyaPrR1OhIGa8ct1TYFboZ7Yt%2FmNhT%2FtbGYOYQperp0udpe4VXOAcGl0DT5VkJCBZk48Aq9SHeA%3D%3D</OfferListingId>
             <Price>
-              <Amount>1349</Amount>
+              <Amount>614</Amount>
               <CurrencyCode>USD</CurrencyCode>
-              <FormattedPrice>$13.49</FormattedPrice>
+              <FormattedPrice>$6.14</FormattedPrice>
             </Price>
             <AmountSaved>
-              <Amount>149</Amount>
+              <Amount>884</Amount>
               <CurrencyCode>USD</CurrencyCode>
-              <FormattedPrice>$1.49</FormattedPrice>
+              <FormattedPrice>$8.84</FormattedPrice>
             </AmountSaved>
-            <PercentageSaved>10</PercentageSaved>
-            <Availability>Usually ships in 2 to 3 days</Availability>
+            <PercentageSaved>59</PercentageSaved>
+            <Availability>Usually ships in 24 hours</Availability>
             <AvailabilityAttributes>
               <AvailabilityType>now</AvailabilityType>
-              <MinimumHours>48</MinimumHours>
-              <MaximumHours>72</MaximumHours>
+              <MinimumHours>0</MinimumHours>
+              <MaximumHours>0</MaximumHours>
             </AvailabilityAttributes>
-            <Quantity>-1</Quantity>
             <IsEligibleForSuperSaverShipping>1</IsEligibleForSuperSaverShipping>
           </OfferListing>
         </Offer>

@@ -28,6 +28,7 @@ canned("blended1.xml");
 canned("blendedm.xml");
 
 my $ua = Net::Amazon->new(
+    associate_tag => 'YOUR_AMZN_ASSOCIATE_TAG',
     token       => 'YOUR_AMZN_TOKEN',
     secret_key  => 'YOUR_AMZN_SECRET_KEY',
 );
@@ -49,7 +50,7 @@ foreach (@properties) {
     $result .= $_->as_string();
 }
 
-like($result, qr/ Hot Pink Crystal Case/, "single product line");
+like($result, qr/Water Pearls/, "single product line");
 
 ####################
 # Mult product lines
@@ -67,7 +68,7 @@ foreach (@properties) {
     $result .= $_->as_string();
 }
 
-like($result, qr/JavaScript.*?Curriculum/, "multiple product lines");
+like($result, qr/International Warranty/, "multiple product lines");
 #print $result;
 
 ######################################################################

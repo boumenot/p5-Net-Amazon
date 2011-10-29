@@ -24,6 +24,7 @@ use Net::Amazon::Request::Artist;
 ################################################################
 
 my $ua = Net::Amazon->new(
+    associate_tag => 'YOUR_AMZN_ASSOCIATE_TAG',
     token         => 'YOUR_AMZN_TOKEN',
     secret_key  => 'YOUR_AMZN_SECRET_KEY',
     # response_dump => 1,
@@ -43,8 +44,8 @@ is(scalar @properties, 9, "9 hits");
 like($resp->as_string(), qr/Honestly.*?Honestly.*?Honestly/s, "Examine Hits");
 
 @properties = $resp->properties();
-is($properties[0]->ListPrice, '$18.98', "Check list price");
-is($properties[0]->OurPrice, '$18.98', "Check our price");
+is($properties[0]->ListPrice, '$13.96', "Check list price");
+is($properties[0]->OurPrice, '$11.24', "Check our price");
 is($properties[0]->SuperSaverShipping, 1, "Check super saver shipping");
 is($properties[0]->artist, "Zwan", "Check artist");
 is($properties[0]->album, "Mary Star of the Sea", "Check album");

@@ -1,4 +1,10 @@
 Revision history for Perl extension Net::Amazon:
+0.61 (10/28/2011)
+   (cb) rt 71937; Amazon now requires an Associate Tag, so enforce usage.
+   (cb) The ListLookup operation has been removed from the WSDL (from 2010!),
+        scrub all of the wishlist operations as a result.
+   (cb) Update to the latest WSDL - 2011-08-01.
+
 0.60 (08/01/2011)
    (cb) Fix the page and max_pages parameter to correctly fetch the specified
         number of pages, and start at the correct offset.  Reported as rt 69201.

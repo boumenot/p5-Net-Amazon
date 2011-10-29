@@ -5,7 +5,7 @@
 use warnings;
 use strict;
 
-use Test::More tests => 17;
+use Test::More tests => 16;
 BEGIN { use_ok('Net::Amazon') };
 
 my @request_types = (
@@ -24,7 +24,6 @@ my @request_types = (
 ['Similar'],
 ['TextStream'],
 ['UPC'],
-['Wishlist'],
 );
 
 for my $t (@request_types) {

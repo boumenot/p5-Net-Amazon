@@ -1,25 +1,40 @@
 <?xml version="1.0"?>
-<ItemSearchResponse xmlns="http://webservices.amazon.com/AWSECommerceService/2009-07-01">
+<ItemSearchResponse xmlns="http://webservices.amazon.com/AWSECommerceService/2011-08-01">
   <Items>
-    <TotalResults>7</TotalResults>
+    <TotalResults>5</TotalResults>
     <TotalPages>1</TotalPages>
+    <MoreSearchResultsUrl>http://www.amazon.com/gp/redirect.html?camp=2025&amp;creative=386001&amp;location=http%3A%2F%2Fwww.amazon.com%2Fgp%2Fsearch%3Fkeywords%3DDisney%2BHyperion%2BBooks%2Bfor%2BChildren%26url%3Dsearch-alias%253Dstripbooks&amp;linkCode=xm2&amp;tag=blogdivebombo-20&amp;SubscriptionId=1V5JRJ4JQCSHB3NGG902</MoreSearchResultsUrl>
     <Item>
       <ASIN>1423101472</ASIN>
-      <SalesRank>43</SalesRank>
+      <SalesRank>5491</SalesRank>
       <ItemAttributes>
         <Author>Rick Riordan</Author>
         <Binding>Hardcover</Binding>
+        <Brand>Books</Brand>
         <EAN>9781423101475</EAN>
+        <EANList>
+          <EANListElement>9781423101475</EANListElement>
+        </EANList>
+        <Edition>1St Edition</Edition>
+        <Feature>ISBN13: 9781423101475</Feature>
+        <Feature>Condition: New</Feature>
+        <Feature>Notes: BRAND NEW FROM PUBLISHER! 100% Satisfaction Guarantee. Tracking provided on most orders. Buy with Confidence! Millions of books sold!</Feature>
         <ISBN>1423101472</ISBN>
+        <ItemDimensions>
+          <Height Units="hundredths-inches">126</Height>
+          <Length Units="hundredths-inches">837</Length>
+          <Weight Units="hundredths-pounds">123</Weight>
+          <Width Units="hundredths-inches">584</Width>
+        </ItemDimensions>
         <Label>Disney Hyperion Books for Children</Label>
         <Languages>
           <Language>
             <Name>English</Name>
-            <Type>Original Language</Type>
+            <Type>Unknown</Type>
           </Language>
           <Language>
             <Name>English</Name>
-            <Type>Unknown</Type>
+            <Type>Original Language</Type>
           </Language>
           <Language>
             <Name>English</Name>
@@ -32,169 +47,150 @@
           <FormattedPrice>$17.99</FormattedPrice>
         </ListPrice>
         <Manufacturer>Disney Hyperion Books for Children</Manufacturer>
+        <MPN>1423101472</MPN>
         <NumberOfItems>1</NumberOfItems>
         <NumberOfPages>400</NumberOfPages>
+        <PartNumber>1423101472</PartNumber>
         <ProductGroup>Book</ProductGroup>
         <ProductTypeName>ABIS_BOOK</ProductTypeName>
         <PublicationDate>2009-05-05</PublicationDate>
         <Publisher>Disney Hyperion Books for Children</Publisher>
-        <ReadingLevel>Ages 9-12</ReadingLevel>
         <ReleaseDate>2009-05-05</ReleaseDate>
+        <SKU>1101773436</SKU>
         <Studio>Disney Hyperion Books for Children</Studio>
         <Title>The Last Olympian (Percy Jackson &amp; the Olympians, Book 5)</Title>
       </ItemAttributes>
       <OfferSummary>
         <LowestNewPrice>
-          <Amount>780</Amount>
+          <Amount>500</Amount>
           <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$7.80</FormattedPrice>
+          <FormattedPrice>$5.00</FormattedPrice>
         </LowestNewPrice>
         <LowestUsedPrice>
-          <Amount>1059</Amount>
+          <Amount>9</Amount>
           <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$10.59</FormattedPrice>
+          <FormattedPrice>$0.09</FormattedPrice>
         </LowestUsedPrice>
         <LowestCollectiblePrice>
-          <Amount>2500</Amount>
+          <Amount>499</Amount>
           <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$25.00</FormattedPrice>
+          <FormattedPrice>$4.99</FormattedPrice>
         </LowestCollectiblePrice>
-        <TotalNew>54</TotalNew>
-        <TotalUsed>14</TotalUsed>
-        <TotalCollectible>8</TotalCollectible>
+        <TotalNew>99</TotalNew>
+        <TotalUsed>258</TotalUsed>
+        <TotalCollectible>19</TotalCollectible>
         <TotalRefurbished>0</TotalRefurbished>
       </OfferSummary>
       <Offers>
         <TotalOffers>1</TotalOffers>
         <TotalOfferPages>1</TotalOfferPages>
+        <MoreOffersUrl>http://www.amazon.com/gp/offer-listing/1423101472%3FSubscriptionId%3D1V5JRJ4JQCSHB3NGG902%26tag%3Dblogdivebombo-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3D1423101472</MoreOffersUrl>
         <Offer>
-          <Merchant>
-            <MerchantId>ATVPDKIKX0DER</MerchantId>
-            <GlancePage>http://www.amazon.com/gp/help/seller/home.html?seller=ATVPDKIKX0DER</GlancePage>
-            <AverageFeedbackRating>0.0</AverageFeedbackRating>
-            <TotalFeedback>0</TotalFeedback>
-          </Merchant>
           <OfferAttributes>
             <Condition>New</Condition>
-            <SubCondition>new</SubCondition>
           </OfferAttributes>
           <OfferListing>
-            <OfferListingId>7mcLbzU5y4y%2Bs4QGpHX6tkPv27VGnglWdMZOM7NgFSsOR9L3VewHNVQhOS%2FH%2FyvFxUxsgxvTEmzOU4SZPi8tLw%3D%3D</OfferListingId>
+            <OfferListingId>7aVoI8W0Lbja6CzsjIR4CSZVhUsGIKbe8vHn%2B%2FVdU5PGAiiRX%2FcD9uncUKo5R%2Bl73jbFjn7pyc2JjLOI2OjIAMbZlkQ%2BBCCg%2Fjvbje8EMUU%3D</OfferListingId>
             <Price>
-              <Amount>1079</Amount>
+              <Amount>1022</Amount>
               <CurrencyCode>USD</CurrencyCode>
-              <FormattedPrice>$10.79</FormattedPrice>
+              <FormattedPrice>$10.22</FormattedPrice>
             </Price>
             <AmountSaved>
-              <Amount>720</Amount>
+              <Amount>777</Amount>
               <CurrencyCode>USD</CurrencyCode>
-              <FormattedPrice>$7.20</FormattedPrice>
+              <FormattedPrice>$7.77</FormattedPrice>
             </AmountSaved>
-            <PercentageSaved>40</PercentageSaved>
+            <PercentageSaved>43</PercentageSaved>
             <Availability>Usually ships in 24 hours</Availability>
             <AvailabilityAttributes>
               <AvailabilityType>now</AvailabilityType>
               <MinimumHours>0</MinimumHours>
               <MaximumHours>0</MaximumHours>
             </AvailabilityAttributes>
-            <Quantity>-1</Quantity>
             <IsEligibleForSuperSaverShipping>1</IsEligibleForSuperSaverShipping>
           </OfferListing>
         </Offer>
       </Offers>
     </Item>
     <Item>
-      <ASIN>B002CANVDO</ASIN>
-      <SalesRank>2619743</SalesRank>
+      <ASIN>B0030HJGSM</ASIN>
+      <SalesRank>337505</SalesRank>
       <ItemAttributes>
-        <Binding>Unknown Binding</Binding>
+        <Binding>Hardcover</Binding>
         <Label>Disney Hyperion Books for Children</Label>
         <Manufacturer>Disney Hyperion Books for Children</Manufacturer>
         <ProductGroup>Book</ProductGroup>
         <ProductTypeName>BOOKS_1973_AND_LATER</ProductTypeName>
-        <PublicationDate>2009-01-01</PublicationDate>
+        <PublicationDate>2009</PublicationDate>
         <Publisher>Disney Hyperion Books for Children</Publisher>
+        <SKU>B0030HJGSM-GOOD-5</SKU>
         <Studio>Disney Hyperion Books for Children</Studio>
-        <Title>The Last Olympian (Percy Jackson and the Olympians, Book 5)</Title>
+        <Title>by Rick Riordan The Last Olympian</Title>
       </ItemAttributes>
       <OfferSummary>
         <LowestNewPrice>
-          <Amount>3300</Amount>
+          <Amount>927</Amount>
           <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$33.00</FormattedPrice>
+          <FormattedPrice>$9.27</FormattedPrice>
         </LowestNewPrice>
         <LowestUsedPrice>
-          <Amount>3170</Amount>
+          <Amount>424</Amount>
           <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$31.70</FormattedPrice>
+          <FormattedPrice>$4.24</FormattedPrice>
         </LowestUsedPrice>
-        <TotalNew>1</TotalNew>
-        <TotalUsed>4</TotalUsed>
+        <TotalNew>11</TotalNew>
+        <TotalUsed>13</TotalUsed>
         <TotalCollectible>0</TotalCollectible>
         <TotalRefurbished>0</TotalRefurbished>
       </OfferSummary>
       <Offers>
         <TotalOffers>0</TotalOffers>
         <TotalOfferPages>0</TotalOfferPages>
+        <MoreOffersUrl>0</MoreOffersUrl>
       </Offers>
     </Item>
     <Item>
-      <ASIN>B001ROFWFG</ASIN>
+      <ASIN>B003OIRY90</ASIN>
+      <SalesRank>3997741</SalesRank>
       <ItemAttributes>
-        <Binding>Unknown Binding</Binding>
-        <Label>Disney Editions/Hyperion Books For Children</Label>
-        <Manufacturer>Disney Editions/Hyperion Books For Children</Manufacturer>
+        <Author>R.  (Author) Riordan</Author>
+        <Binding>Hardcover</Binding>
+        <Label>Disney Hyperion Books for Children</Label>
+        <Manufacturer>Disney Hyperion Books for Children</Manufacturer>
         <ProductGroup>Book</ProductGroup>
         <ProductTypeName>BOOKS_1973_AND_LATER</ProductTypeName>
-        <PublicationDate>2004-01-01</PublicationDate>
-        <Publisher>Disney Editions/Hyperion Books For Children</Publisher>
-        <Studio>Disney Editions/Hyperion Books For Children</Studio>
-        <Title>Peter and the Starcatchers</Title>
-      </ItemAttributes>
-      <OfferSummary>
-        <TotalNew>0</TotalNew>
-        <TotalUsed>0</TotalUsed>
-        <TotalCollectible>0</TotalCollectible>
-        <TotalRefurbished>0</TotalRefurbished>
-      </OfferSummary>
-      <Offers>
-        <TotalOffers>0</TotalOffers>
-        <TotalOfferPages>0</TotalOfferPages>
-      </Offers>
-    </Item>
-    <Item>
-      <ASIN>B002H39L94</ASIN>
-      <ItemAttributes>
-        <Author>Dave; Pearson, Ridley Barry</Author>
-        <Binding>Paperback</Binding>
-        <Label>Hyperion Books for Children / Disney Editions</Label>
-        <Manufacturer>Hyperion Books for Children / Disney Editions</Manufacturer>
-        <ProductGroup>Book</ProductGroup>
-        <ProductTypeName>BOOKS_1973_AND_LATER</ProductTypeName>
-        <PublicationDate>2006-01-01</PublicationDate>
-        <Publisher>Hyperion Books for Children / Disney Editions</Publisher>
-        <Studio>Hyperion Books for Children / Disney Editions</Studio>
-        <Title>Peter and the Shadow Thieves</Title>
+        <PublicationDate>2009</PublicationDate>
+        <Publisher>Disney Hyperion Books for Children</Publisher>
+        <SKU>B003OIRY90-GOOD-CHK-6</SKU>
+        <Studio>Disney Hyperion Books for Children</Studio>
+        <Title>TheLastOlympian(Percy Jackson and Olympians, Book 5) (Hardcover)(2009)Rick Riordan's</Title>
       </ItemAttributes>
       <OfferSummary>
         <LowestNewPrice>
-          <Amount>1800</Amount>
+          <Amount>910</Amount>
           <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$18.00</FormattedPrice>
+          <FormattedPrice>$9.10</FormattedPrice>
         </LowestNewPrice>
-        <TotalNew>1</TotalNew>
-        <TotalUsed>0</TotalUsed>
+        <LowestUsedPrice>
+          <Amount>873</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$8.73</FormattedPrice>
+        </LowestUsedPrice>
+        <TotalNew>10</TotalNew>
+        <TotalUsed>8</TotalUsed>
         <TotalCollectible>0</TotalCollectible>
         <TotalRefurbished>0</TotalRefurbished>
       </OfferSummary>
       <Offers>
         <TotalOffers>0</TotalOffers>
         <TotalOfferPages>0</TotalOfferPages>
+        <MoreOffersUrl>0</MoreOffersUrl>
       </Offers>
     </Item>
     <Item>
       <ASIN>B0013FK6AA</ASIN>
-      <SalesRank>3868964</SalesRank>
+      <SalesRank>7771648</SalesRank>
       <ItemAttributes>
         <Binding>Unknown Binding</Binding>
         <Label>Hyperion Books for Children / Disney Editions</Label>
@@ -207,14 +203,20 @@
         <Title>Peter and the Shadow Thieves</Title>
       </ItemAttributes>
       <OfferSummary>
+        <LowestUsedPrice>
+          <Amount>200</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$2.00</FormattedPrice>
+        </LowestUsedPrice>
         <TotalNew>0</TotalNew>
-        <TotalUsed>0</TotalUsed>
+        <TotalUsed>3</TotalUsed>
         <TotalCollectible>0</TotalCollectible>
         <TotalRefurbished>0</TotalRefurbished>
       </OfferSummary>
       <Offers>
         <TotalOffers>0</TotalOffers>
         <TotalOfferPages>0</TotalOfferPages>
+        <MoreOffersUrl>0</MoreOffersUrl>
       </Offers>
     </Item>
     <Item>
@@ -223,9 +225,16 @@
         <Author>Dave Barry</Author>
         <Binding>Hardcover</Binding>
         <EAN>9781428737648</EAN>
+        <EANList>
+          <EANListElement>9781428737648</EANListElement>
+        </EANList>
         <ISBN>1428737642</ISBN>
         <Label>Disney Editions/Hyperion Books for Children</Label>
         <Languages>
+          <Language>
+            <Name>English</Name>
+            <Type>Unknown</Type>
+          </Language>
           <Language>
             <Name>English</Name>
             <Type>Published</Type>
@@ -238,17 +247,16 @@
         <ProductTypeName>ABIS_BOOK</ProductTypeName>
         <PublicationDate>2007-01</PublicationDate>
         <Publisher>Disney Editions/Hyperion Books for Children</Publisher>
-        <ReadingLevel>Ages 9-12</ReadingLevel>
         <Studio>Disney Editions/Hyperion Books for Children</Studio>
         <Title>Cave of the Dark Wind (Never Land Books)</Title>
       </ItemAttributes>
       <OfferSummary>
         <LowestNewPrice>
-          <Amount>999</Amount>
+          <Amount>499</Amount>
           <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$9.99</FormattedPrice>
+          <FormattedPrice>$4.99</FormattedPrice>
         </LowestNewPrice>
-        <TotalNew>1</TotalNew>
+        <TotalNew>2</TotalNew>
         <TotalUsed>0</TotalUsed>
         <TotalCollectible>0</TotalCollectible>
         <TotalRefurbished>0</TotalRefurbished>
@@ -256,36 +264,7 @@
       <Offers>
         <TotalOffers>0</TotalOffers>
         <TotalOfferPages>0</TotalOfferPages>
-      </Offers>
-    </Item>
-    <Item>
-      <ASIN>B002H3D8BQ</ASIN>
-      <ItemAttributes>
-        <Author>Dave; Pearson, Ridley Barry</Author>
-        <Binding>Paperback</Binding>
-        <Label>Hyperion Books for Children / Disney Editions</Label>
-        <Manufacturer>Hyperion Books for Children / Disney Editions</Manufacturer>
-        <ProductGroup>Book</ProductGroup>
-        <ProductTypeName>BOOKS_1973_AND_LATER</ProductTypeName>
-        <PublicationDate>2006-01-01</PublicationDate>
-        <Publisher>Hyperion Books for Children / Disney Editions</Publisher>
-        <Studio>Hyperion Books for Children / Disney Editions</Studio>
-        <Title>Peter and the Shadow Thieves</Title>
-      </ItemAttributes>
-      <OfferSummary>
-        <LowestNewPrice>
-          <Amount>1800</Amount>
-          <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$18.00</FormattedPrice>
-        </LowestNewPrice>
-        <TotalNew>1</TotalNew>
-        <TotalUsed>0</TotalUsed>
-        <TotalCollectible>0</TotalCollectible>
-        <TotalRefurbished>0</TotalRefurbished>
-      </OfferSummary>
-      <Offers>
-        <TotalOffers>0</TotalOffers>
-        <TotalOfferPages>0</TotalOfferPages>
+        <MoreOffersUrl>0</MoreOffersUrl>
       </Offers>
     </Item>
   </Items>

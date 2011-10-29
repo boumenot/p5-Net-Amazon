@@ -16,8 +16,9 @@ use Net::Amazon::Request::Director;
 die "usage: $0 director\n(use Miyazaki as an example)\n" unless defined $ARGV[0];
 
 my $ua = Net::Amazon->new(
-    token       => $ENV{AMAZON_TOKEN},
-    secret_key  => $ENV{AMAZON_SECRET_KEY},
+    associate_tag => $ENV{AMAZON_ASSOCIATE_TAG},
+    token         => $ENV{AMAZON_TOKEN},
+    secret_key    => $ENV{AMAZON_SECRET_KEY},
 );
 
 my $req = Net::Amazon::Request::Director->new(

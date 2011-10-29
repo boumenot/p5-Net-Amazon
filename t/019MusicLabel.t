@@ -24,6 +24,7 @@ use Net::Amazon::Request::MusicLabel;
 ################################################################
 
 my $ua = Net::Amazon->new(
+    associate_tag => 'YOUR_AMZN_ASSOCIATE_TAG',
     token         => $ENV{AMAZON_TOKEN},
     secret_key    => 'YOUR_AMZN_SECRET_KEY',
     max_pages     => 1,
@@ -41,8 +42,8 @@ ok($resp->is_success(), "Request successful");
 my @properties = $resp->properties();
 is(scalar @properties, 10, "10 records");
 
-like($resp->as_string(), qr/Carrie Underwood.*?Jackson/s, "Examine records");
+like($resp->as_string(), qr/Jackson.*?Carrie Underwood/s, "Examine records");
 
 for ($resp->properties()) {
-    like($_->label(), qr/Arista/, "Check label");
+    like(lc($_->label()), qr/arista/, "Check label");
 }

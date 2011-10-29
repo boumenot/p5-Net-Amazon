@@ -22,9 +22,10 @@ my $cache = Cache::File->new(
 );
 
 my $ua = Net::Amazon->new(
-    token       => $ENV{AMAZON_TOKEN},
-    secret_key  => $ENV{AMAZON_SECRET_KEY},
-    cache       => $cache,
+    associate_tag => $ENV{AMAZON_ASSOCIATE_TAG},
+    token         => $ENV{AMAZON_TOKEN},
+    secret_key    => $ENV{AMAZON_SECRET_KEY},
+    cache         => $cache,
 );
 
 die "usage: $0 asin\n(use 0201360683 as " .

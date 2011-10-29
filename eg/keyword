@@ -17,8 +17,9 @@ die "usage: $0 keyword what mode\n(use " .
     unless defined $ARGV[1];
 
 my $ua = Net::Amazon->new(
-    token       => $ENV{AMAZON_TOKEN},
-    secret_key  => $ENV{AMAZON_SECRET_KEY},
+    associate_tag => $ENV{AMAZON_ASSOCIATE_TAG},
+    token         => $ENV{AMAZON_TOKEN},
+    secret_key    => $ENV{AMAZON_SECRET_KEY},
     max_pages   => 5,
 );
 

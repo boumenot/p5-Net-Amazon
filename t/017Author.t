@@ -24,6 +24,7 @@ use Net::Amazon::Request::Author;
 ################################################################
 
 my $ua = Net::Amazon->new(
+    associate_tag => 'YOUR_AMZN_ASSOCIATE_TAG',
     token         => 'YOUR_AMZN_TOKEN',
     secret_key  => 'YOUR_AMZN_SECRET_KEY',
     #response_dump => 1,
@@ -38,7 +39,7 @@ my $resp = $ua->request($req);
 
 ok($resp->is_success(), "Request successful");
 my @properties = $resp->properties();
-is(scalar @properties, 4, "4 books");
+is(scalar @properties, 3, "3 books");
 
 like($resp->as_string(), qr/JumpStart Guide.*?Management/s, "Examine Books");
  

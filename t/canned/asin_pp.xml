@@ -1,24 +1,29 @@
 <?xml version="1.0"?>
-<ItemLookupResponse xmlns="http://webservices.amazon.com/AWSECommerceService/2009-07-01">
+<ItemLookupResponse xmlns="http://webservices.amazon.com/AWSECommerceService/2011-08-01">
   <Items>
     <Item>
       <ASIN>0201360683</ASIN>
-      <SalesRank>1803937</SalesRank>
+      <SalesRank>2831243</SalesRank>
       <ItemAttributes>
         <Author>Michael Schilli</Author>
         <Binding>Paperback</Binding>
-        <DeweyDecimalNumber>005.133</DeweyDecimalNumber>
+        <CatalogNumberList>
+          <CatalogNumberListElement>AL07005145</CatalogNumberListElement>
+        </CatalogNumberList>
         <EAN>9780201360684</EAN>
+        <EANList>
+          <EANListElement>9780201360684</EANListElement>
+        </EANList>
         <ISBN>0201360683</ISBN>
         <Label>Addison-Wesley Professional</Label>
         <Languages>
           <Language>
             <Name>English</Name>
-            <Type>Original Language</Type>
+            <Type>Unknown</Type>
           </Language>
           <Language>
             <Name>English</Name>
-            <Type>Unknown</Type>
+            <Type>Original Language</Type>
           </Language>
           <Language>
             <Name>English</Name>
@@ -37,28 +42,30 @@
         <ProductTypeName>ABIS_BOOK</ProductTypeName>
         <PublicationDate>1998-12-16</PublicationDate>
         <Publisher>Addison-Wesley Professional</Publisher>
+        <SKU>3_0201360683</SKU>
         <Studio>Addison-Wesley Professional</Studio>
         <Title>Perl Power!: A JumpStart Guide to Programming with Perl 5</Title>
       </ItemAttributes>
       <OfferSummary>
         <LowestNewPrice>
-          <Amount>1627</Amount>
+          <Amount>200</Amount>
           <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$16.27</FormattedPrice>
+          <FormattedPrice>$2.00</FormattedPrice>
         </LowestNewPrice>
         <LowestUsedPrice>
-          <Amount>728</Amount>
+          <Amount>80</Amount>
           <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$7.28</FormattedPrice>
+          <FormattedPrice>$0.80</FormattedPrice>
         </LowestUsedPrice>
-        <TotalNew>7</TotalNew>
-        <TotalUsed>13</TotalUsed>
+        <TotalNew>11</TotalNew>
+        <TotalUsed>17</TotalUsed>
         <TotalCollectible>0</TotalCollectible>
         <TotalRefurbished>0</TotalRefurbished>
       </OfferSummary>
       <Offers>
         <TotalOffers>0</TotalOffers>
         <TotalOfferPages>0</TotalOfferPages>
+        <MoreOffersUrl>0</MoreOffersUrl>
       </Offers>
     </Item>
   </Items>

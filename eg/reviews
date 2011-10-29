@@ -14,8 +14,9 @@ use Text::Wrap;
 #Log::Log4perl->easy_init({level => $DEBUG, layout => '%F{1}-%L: %m%n'});
 
 my $ua = Net::Amazon->new(
-    token       => $ENV{AMAZON_TOKEN},
-    secret_key  => $ENV{AMAZON_SECRET_KEY},
+    associate_tag => $ENV{AMAZON_ASSOCIATE_TAG},
+    token         => $ENV{AMAZON_TOKEN},
+    secret_key    => $ENV{AMAZON_SECRET_KEY},
 );
 
 my $resp = $ua->search(

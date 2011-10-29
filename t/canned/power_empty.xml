@@ -1,16 +1,12 @@
 <?xml version="1.0"?>
-<ItemSearchResponse xmlns="http://webservices.amazon.com/AWSECommerceService/2009-07-01">
+<ItemSearchResponse xmlns="http://webservices.amazon.com/AWSECommerceService/2011-08-01">
   <Items>
     <Request>
       <IsValid>True</IsValid>
       <ItemSearchRequest>
-        <Condition>New</Condition>
-        <DeliveryMethod>Ship</DeliveryMethod>
         <ItemPage>1</ItemPage>
-        <MerchantId>Amazon</MerchantId>
         <Power>author: randal schwartz and author: mike schilli</Power>
         <ResponseGroup>Large</ResponseGroup>
-        <ReviewSort>-SubmissionDate</ReviewSort>
         <SearchIndex>Books</SearchIndex>
         <Sort>salesrank</Sort>
       </ItemSearchRequest>
@@ -23,5 +19,6 @@
     </Request>
     <TotalResults>0</TotalResults>
     <TotalPages>0</TotalPages>
+    <MoreSearchResultsUrl>http://www.amazon.com/gp/redirect.html?camp=2025&amp;creative=386001&amp;location=http%3A%2F%2Fwww.amazon.com%2Fgp%2Fsearch%3Furl%3Dsearch-alias%253Dstripbooks&amp;linkCode=xm2&amp;tag=blogdivebombo-20&amp;SubscriptionId=1V5JRJ4JQCSHB3NGG902</MoreSearchResultsUrl>
   </Items>
 </ItemSearchResponse>

@@ -42,7 +42,6 @@ eg/similar2
 eg/textstream
 eg/title
 eg/upc
-eg/wishlist
 lib/Net/Amazon.pm
 lib/Net/Amazon/Attribute/Review.pm
 lib/Net/Amazon/Attribute/ReviewSet.pm
@@ -78,7 +77,6 @@ lib/Net/Amazon/Request/Sort.pm
 lib/Net/Amazon/Request/TextStream.pm
 lib/Net/Amazon/Request/Title.pm
 lib/Net/Amazon/Request/UPC.pm
-lib/Net/Amazon/Request/Wishlist.pm
 lib/Net/Amazon/Response.pm
 lib/Net/Amazon/Response/Actor.pm
 lib/Net/Amazon/Response/All.pm
@@ -102,7 +100,6 @@ lib/Net/Amazon/Response/Similar.pm
 lib/Net/Amazon/Response/TextStream.pm
 lib/Net/Amazon/Response/Title.pm
 lib/Net/Amazon/Response/UPC.pm
-lib/Net/Amazon/Response/Wishlist.pm
 lib/Net/Amazon/Result/Seller.pm
 lib/Net/Amazon/Result/Seller/Listing.pm
 lib/Net/Amazon/Validate/ItemSearch.pm
@@ -475,7 +472,6 @@ MANIFEST.SKIP
 META.yml
 README
 t/001ASIN.t
-t/002Wishlist.t
 t/003UPC.t
 t/004Reviews.t
 t/005Power.t
@@ -533,8 +529,5 @@ t/canned/seller.xml
 t/canned/textstream.xml
 t/canned/title.xml
 t/canned/upc_zwan.xml
-t/canned/wishlist1.xml
-t/canned/wishlist10_1.xml
-t/canned/wishlist10_2.xml
 t/init.pl
 TODO

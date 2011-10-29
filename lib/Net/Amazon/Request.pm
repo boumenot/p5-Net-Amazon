@@ -47,12 +47,10 @@ use constant SEARCH_TYPE_OPERATION_MAP => {
     TextStream   => 'ItemSearch',
     Title        => 'ItemSearch',
     UPC          => 'ItemLookup',
-    Wishlist     => 'ListLookup',
 };
 
 # if it isn't defined it defaults to salesrank
 use constant DEFAULT_SORT_CRITERIA_MAP => {
-    Wishlist     => 'DateAdded',
     All          => '',
     Blended      => '',
     Seller       => '',
@@ -62,7 +60,6 @@ use constant DEFAULT_SORT_CRITERIA_MAP => {
 # if it isn't defined it defaults to ItemPage
 use constant DEFAULT_ITEM_PAGE_MAP => {
     Seller   => 'ListingPage',
-    Wishlist => 'ProductPage',
 };
 
 our $AMZN_XML_URL  = 'http://webservices.amazon.com/onca/xml?Service=AWSECommerceService';
@@ -328,9 +325,9 @@ Net::Amazon::Request - Baseclass for requests to Amazon's web service
 
 =head1 DESCRIPTION
 
-Don't use this class directly, use derived classes 
-(like C<Net::Amazon::Request::ASIN>, C<Net::Amazon::Request::Wishlist>
-etc.) instead to specify the type of request and its parameters.
+Don't use this class directly, use derived classes (like
+C<Net::Amazon::Request::ASIN>, etc.) instead to specify the type of request and
+its parameters.
 
 However, there's a bunch of parameters to the constructor
 that all request types have in common, here they are:

@@ -1,35 +1,60 @@
 <?xml version="1.0"?>
-<ItemLookupResponse xmlns="http://webservices.amazon.com/AWSECommerceService/2009-07-01">
+<ItemLookupResponse xmlns="http://webservices.amazon.com/AWSECommerceService/2011-08-01">
   <Items>
     <Item>
       <ASIN>B00007M84Q</ASIN>
-      <SalesRank>77439</SalesRank>
+      <SalesRank>60843</SalesRank>
       <ItemAttributes>
         <Artist>Zwan</Artist>
         <Binding>Audio CD</Binding>
+        <CatalogNumberList>
+          <CatalogNumberListElement>161</CatalogNumberListElement>
+          <CatalogNumberListElement>936248436-2</CatalogNumberListElement>
+          <CatalogNumberListElement>9362-48436-2</CatalogNumberListElement>
+        </CatalogNumberList>
         <EAN>0093624843627</EAN>
+        <EANList>
+          <EANListElement>0093624843627</EANListElement>
+        </EANList>
+        <IsAdultProduct>0</IsAdultProduct>
+        <ItemDimensions>
+          <Weight Units="hundredths-pounds">21</Weight>
+        </ItemDimensions>
         <Label>Reprise / Wea</Label>
+        <Languages>
+          <Language>
+            <Name>English</Name>
+            <Type>Original Language</Type>
+          </Language>
+        </Languages>
         <ListPrice>
-          <Amount>1898</Amount>
+          <Amount>1396</Amount>
           <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$18.98</FormattedPrice>
+          <FormattedPrice>$13.96</FormattedPrice>
         </ListPrice>
         <Manufacturer>Reprise / Wea</Manufacturer>
+        <MPN>9362-48436-2</MPN>
         <NumberOfDiscs>1</NumberOfDiscs>
-        <OriginalReleaseDate>2003-01-28</OriginalReleaseDate>
+        <PackageQuantity>1</PackageQuantity>
+        <PartNumber>9362-48436-2</PartNumber>
         <ProductGroup>Music</ProductGroup>
         <ProductTypeName>ABIS_MUSIC</ProductTypeName>
+        <PublicationDate>2003-02-07</PublicationDate>
         <Publisher>Reprise / Wea</Publisher>
         <ReleaseDate>2003-01-28</ReleaseDate>
+        <SKU>112172/10182653/10481862/00000002</SKU>
         <Studio>Reprise / Wea</Studio>
         <Title>Mary Star of the Sea</Title>
         <UPC>093624843627</UPC>
+        <UPCList>
+          <UPCListElement>093624843627</UPCListElement>
+        </UPCList>
       </ItemAttributes>
       <OfferSummary>
         <LowestNewPrice>
-          <Amount>722</Amount>
+          <Amount>175</Amount>
           <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$7.22</FormattedPrice>
+          <FormattedPrice>$1.75</FormattedPrice>
         </LowestNewPrice>
         <LowestUsedPrice>
           <Amount>1</Amount>
@@ -37,43 +62,42 @@
           <FormattedPrice>$0.01</FormattedPrice>
         </LowestUsedPrice>
         <LowestCollectiblePrice>
-          <Amount>1898</Amount>
+          <Amount>999</Amount>
           <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$18.98</FormattedPrice>
+          <FormattedPrice>$9.99</FormattedPrice>
         </LowestCollectiblePrice>
-        <TotalNew>20</TotalNew>
-        <TotalUsed>110</TotalUsed>
+        <TotalNew>38</TotalNew>
+        <TotalUsed>156</TotalUsed>
         <TotalCollectible>9</TotalCollectible>
         <TotalRefurbished>0</TotalRefurbished>
       </OfferSummary>
       <Offers>
         <TotalOffers>1</TotalOffers>
         <TotalOfferPages>1</TotalOfferPages>
+        <MoreOffersUrl>http://www.amazon.com/gp/offer-listing/B00007M84Q%3FSubscriptionId%3D1V5JRJ4JQCSHB3NGG902%26tag%3Dblogdivebombo-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3DB00007M84Q</MoreOffersUrl>
         <Offer>
-          <Merchant>
-            <MerchantId>ATVPDKIKX0DER</MerchantId>
-            <GlancePage>http://www.amazon.com/gp/help/seller/home.html?seller=ATVPDKIKX0DER</GlancePage>
-            <AverageFeedbackRating>0.0</AverageFeedbackRating>
-            <TotalFeedback>0</TotalFeedback>
-          </Merchant>
           <OfferAttributes>
             <Condition>New</Condition>
-            <SubCondition>new</SubCondition>
           </OfferAttributes>
           <OfferListing>
-            <OfferListingId>Xa289j1Pa%2BWIdN6HsSeZChy4Ttwm%2B0l01Kq6MWSyNcuq0FwXIZhLoV5qyyMwjU51tJR3K2igmFMnB0dO77g%2B5Q%3D%3D</OfferListingId>
+            <OfferListingId>XLuoRq4Et%2FA81njR5kZuZO4Y5%2Ff036JkqPM4vEWz44eI6G6Zf8JjRX8OjSmCl2g7wr1yoUlQYbTf815%2FwkzYs1UjWvV2IiTdehH5R4YTwfY%3D</OfferListingId>
             <Price>
-              <Amount>1898</Amount>
+              <Amount>1124</Amount>
               <CurrencyCode>USD</CurrencyCode>
-              <FormattedPrice>$18.98</FormattedPrice>
+              <FormattedPrice>$11.24</FormattedPrice>
             </Price>
+            <AmountSaved>
+              <Amount>272</Amount>
+              <CurrencyCode>USD</CurrencyCode>
+              <FormattedPrice>$2.72</FormattedPrice>
+            </AmountSaved>
+            <PercentageSaved>19</PercentageSaved>
             <Availability>Usually ships in 24 hours</Availability>
             <AvailabilityAttributes>
               <AvailabilityType>now</AvailabilityType>
-              <MinimumHours>0</MinimumHours>
-              <MaximumHours>0</MaximumHours>
+              <MinimumHours>24</MinimumHours>
+              <MaximumHours>24</MaximumHours>
             </AvailabilityAttributes>
-            <Quantity>-1</Quantity>
             <IsEligibleForSuperSaverShipping>1</IsEligibleForSuperSaverShipping>
           </OfferListing>
         </Offer>

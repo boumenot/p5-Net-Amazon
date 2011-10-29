@@ -39,6 +39,7 @@ SKIP: {
 
 
     my $ua = Net::Amazon->new(
+    associate_tag => 'YOUR_AMZN_ASSOCIATE_TAG',
         token      => $ENV{AMAZON_TOKEN},
         secret_key => $ENV{AMAZON_SECRET_KEY},
         cache      => $cache,

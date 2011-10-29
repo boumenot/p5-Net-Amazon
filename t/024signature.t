@@ -27,6 +27,7 @@ use URI;
 ################################################################
 
 my $ua = Net::Amazon->new(
+    associate_tag => 'YOUR_AMZN_ASSOCIATE_TAG',
     token         => 'YOUR_AMZN_TOKEN',
     secret_key    => 'YOUR_AMZN_SECRET_KEY',
     #response_dump => 1,
@@ -52,7 +53,7 @@ ok($resp->is_success(), "Request successful");
 my @properties = $resp->properties();
 is(scalar @properties, 10, "Number of Titles");
 
-like($resp->as_string(), qr/Iain Mccalman.*?Cagliostro/s, "Examine Movies");
+like($resp->as_string(), qr/Faulks.*?Cagliostro/s, "Examine Movies");
 
 #my @starring = $properties[$i]->starring();
 # is($properties[0]->actor, "Yasuo Yamada", "Check actor");

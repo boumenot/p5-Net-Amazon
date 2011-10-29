@@ -1,38 +1,492 @@
 <?xml version="1.0"?>
-<ItemSearchResponse xmlns="http://webservices.amazon.com/AWSECommerceService/2009-07-01">
+<ItemSearchResponse xmlns="http://webservices.amazon.com/AWSECommerceService/2011-08-01">
   <Items>
-    <TotalResults>70</TotalResults>
-    <TotalPages>7</TotalPages>
+    <TotalResults>150</TotalResults>
+    <TotalPages>15</TotalPages>
+    <MoreSearchResultsUrl>http://www.amazon.com/gp/redirect.html?camp=2025&amp;creative=386001&amp;location=http%3A%2F%2Fwww.amazon.com%2Fgp%2Fsearch%3Fkeywords%3DMiyazaki%26url%3Dsearch-alias%253Ddvd&amp;linkCode=xm2&amp;tag=blogdivebombo-20&amp;SubscriptionId=1V5JRJ4JQCSHB3NGG902</MoreSearchResultsUrl>
+    <Item>
+      <ASIN>B00005JLEU</ASIN>
+      <SalesRank>805</SalesRank>
+      <ItemAttributes>
+        <AspectRatio>1.78:1</AspectRatio>
+        <AudienceRating>Unrated</AudienceRating>
+        <Binding>DVD</Binding>
+        <Brand>BUENA VISTA HOME VIDEO</Brand>
+        <CatalogNumberList>
+          <CatalogNumberListElement>2978103</CatalogNumberListElement>
+        </CatalogNumberList>
+        <Director>Hayao Miyazaki</Director>
+        <EAN>9780788844614</EAN>
+        <EANList>
+          <EANListElement>9780788844614</EANListElement>
+          <EANListElement>0786936213843</EANListElement>
+        </EANList>
+        <Feature>From one of the most celebrated filmmakers in the history of animated cinema comes the most acclaimed film of 2002. Hayao Miyazaki's latest triumph, filled with astonishing animation and epic adventure, is a dazzling masterpiece for the ages. It's a "wonderfully welcoming work of art that's as funny and entertaining as it is brilliant, beautiful, and deep" (Joe Morgenstern, Wall Street</Feature>
+        <Format>Animated</Format>
+        <Format>Closed-captioned</Format>
+        <Format>Color</Format>
+        <Format>Dolby</Format>
+        <Format>DVD</Format>
+        <Format>Widescreen</Format>
+        <Format>NTSC</Format>
+        <IsAdultProduct>0</IsAdultProduct>
+        <ISBN>078884461X</ISBN>
+        <IsEligibleForTradeIn>1</IsEligibleForTradeIn>
+        <ItemDimensions>
+          <Weight Units="hundredths-pounds">25</Weight>
+        </ItemDimensions>
+        <Label>Walt Disney Video</Label>
+        <Languages>
+          <Language>
+            <Name>English</Name>
+            <Type>Unknown</Type>
+          </Language>
+          <Language>
+            <Name>English</Name>
+            <Type>Subtitled</Type>
+          </Language>
+          <Language>
+            <Name>English</Name>
+            <Type>Original Language</Type>
+          </Language>
+          <Language>
+            <Name>French</Name>
+            <Type>Original Language</Type>
+          </Language>
+          <Language>
+            <Name>Japanese</Name>
+            <Type>Original Language</Type>
+          </Language>
+          <Language>
+            <Name>French</Name>
+            <Type>Dubbed</Type>
+          </Language>
+          <Language>
+            <Name>Spanish</Name>
+            <Type>Dubbed</Type>
+          </Language>
+        </Languages>
+        <ListPrice>
+          <Amount>2999</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$29.99</FormattedPrice>
+        </ListPrice>
+        <Manufacturer>Walt Disney Video</Manufacturer>
+        <Model>02978100</Model>
+        <MPN>02978100</MPN>
+        <NumberOfDiscs>2</NumberOfDiscs>
+        <NumberOfItems>2</NumberOfItems>
+        <PackageQuantity>1</PackageQuantity>
+        <PartNumber>02978100</PartNumber>
+        <ProductGroup>DVD</ProductGroup>
+        <ProductTypeName>ABIS_DVD</ProductTypeName>
+        <Publisher>Walt Disney Video</Publisher>
+        <RegionCode>1</RegionCode>
+        <ReleaseDate>2003-04-15</ReleaseDate>
+        <RunningTime Units="minutes">125</RunningTime>
+        <SKU>DIS_D29781D</SKU>
+        <Studio>Walt Disney Video</Studio>
+        <Title>Spirited Away</Title>
+        <TradeInValue>
+          <Amount>500</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$5.00</FormattedPrice>
+        </TradeInValue>
+        <UPC>786936213843</UPC>
+        <UPCList>
+          <UPCListElement>786936213843</UPCListElement>
+        </UPCList>
+      </ItemAttributes>
+      <OfferSummary>
+        <LowestNewPrice>
+          <Amount>1769</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$17.69</FormattedPrice>
+        </LowestNewPrice>
+        <LowestUsedPrice>
+          <Amount>897</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$8.97</FormattedPrice>
+        </LowestUsedPrice>
+        <LowestCollectiblePrice>
+          <Amount>3250</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$32.50</FormattedPrice>
+        </LowestCollectiblePrice>
+        <TotalNew>49</TotalNew>
+        <TotalUsed>35</TotalUsed>
+        <TotalCollectible>1</TotalCollectible>
+        <TotalRefurbished>0</TotalRefurbished>
+      </OfferSummary>
+      <Offers>
+        <TotalOffers>1</TotalOffers>
+        <TotalOfferPages>1</TotalOfferPages>
+        <MoreOffersUrl>http://www.amazon.com/gp/offer-listing/B00005JLEU%3FSubscriptionId%3D1V5JRJ4JQCSHB3NGG902%26tag%3Dblogdivebombo-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3DB00005JLEU</MoreOffersUrl>
+        <Offer>
+          <OfferAttributes>
+            <Condition>New</Condition>
+          </OfferAttributes>
+          <OfferListing>
+            <OfferListingId>NZN9AdW9KTu9sPpm0A%2FSb0rFowdxUlZHnhjZPX2Y2Er%2BhmV7zHPoCF2ix3LMmRvvYYHwSLcNJrldLiETkZOi7PAnk3mec2QnMu5XbLYdvdI%3D</OfferListingId>
+            <Price>
+              <Amount>1999</Amount>
+              <CurrencyCode>USD</CurrencyCode>
+              <FormattedPrice>$19.99</FormattedPrice>
+            </Price>
+            <AmountSaved>
+              <Amount>1000</Amount>
+              <CurrencyCode>USD</CurrencyCode>
+              <FormattedPrice>$10.00</FormattedPrice>
+            </AmountSaved>
+            <PercentageSaved>33</PercentageSaved>
+            <Availability>Usually ships in 24 hours</Availability>
+            <AvailabilityAttributes>
+              <AvailabilityType>now</AvailabilityType>
+              <MinimumHours>0</MinimumHours>
+              <MaximumHours>0</MaximumHours>
+            </AvailabilityAttributes>
+            <IsEligibleForSuperSaverShipping>1</IsEligibleForSuperSaverShipping>
+          </OfferListing>
+        </Offer>
+      </Offers>
+    </Item>
+    <Item>
+      <ASIN>B002ZTQV8Y</ASIN>
+      <SalesRank>641</SalesRank>
+      <ItemAttributes>
+        <Actor>Hitoshi Takagi</Actor>
+        <Actor>Noriko Hidaka</Actor>
+        <Actor>Chika Sakamoto</Actor>
+        <Actor>Shigesato Itoi</Actor>
+        <Actor>Sumi Shimamoto</Actor>
+        <AspectRatio>1.85:1</AspectRatio>
+        <AudienceRating>G (General Audience)</AudienceRating>
+        <Binding>DVD</Binding>
+        <Brand>Buena Vista Home Video</Brand>
+        <Creator Role="Cinematographer">Mark Henley</Creator>
+        <Creator Role="Writer">Hayao Miyazaki</Creator>
+        <Creator Role="Producer">Eiko Tanaka</Creator>
+        <Creator Role="Producer">Ned Lott</Creator>
+        <Creator Role="Producer">Rick Dempsey</Creator>
+        <Creator Role="Producer">Toru Hara</Creator>
+        <Creator Role="Producer">Yasuyoshi Tokuma</Creator>
+        <Director>Hayao Miyazaki</Director>
+        <EAN>0786936791716</EAN>
+        <EANList>
+          <EANListElement>0786936791716</EANListElement>
+        </EANList>
+        <Feature>MY NEIGHBOR TOTORO: SPECIAL EDITION (DVD MOVIE)</Feature>
+        <Format>Animated</Format>
+        <Format>Color</Format>
+        <Format>Dubbed</Format>
+        <Format>DVD</Format>
+        <Format>Special Edition</Format>
+        <Format>Subtitled</Format>
+        <Format>Widescreen</Format>
+        <Format>NTSC</Format>
+        <IsAdultProduct>0</IsAdultProduct>
+        <IsEligibleForTradeIn>1</IsEligibleForTradeIn>
+        <ItemDimensions>
+          <Weight Units="hundredths-pounds">34</Weight>
+        </ItemDimensions>
+        <Label>Disney Presents Studio Ghibli</Label>
+        <Languages>
+          <Language>
+            <Name>English</Name>
+            <Type>Unknown</Type>
+          </Language>
+          <Language>
+            <Name>French</Name>
+            <Type>Subtitled</Type>
+          </Language>
+          <Language>
+            <Name>English</Name>
+            <Type>Subtitled</Type>
+          </Language>
+          <Language>
+            <Name>English</Name>
+            <Type>Original Language</Type>
+          </Language>
+          <Language>
+            <Name>Japanese</Name>
+            <Type>Original Language</Type>
+          </Language>
+          <Language>
+            <Name>English</Name>
+            <Type>Dubbed</Type>
+          </Language>
+        </Languages>
+        <ListPrice>
+          <Amount>2999</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$29.99</FormattedPrice>
+        </ListPrice>
+        <Manufacturer>Disney Presents Studio Ghibli</Manufacturer>
+        <MPN>DISD101847D</MPN>
+        <NumberOfDiscs>2</NumberOfDiscs>
+        <PackageQuantity>1</PackageQuantity>
+        <PartNumber>DISD101847D</PartNumber>
+        <ProductGroup>DVD</ProductGroup>
+        <ProductTypeName>ABIS_DVD</ProductTypeName>
+        <Publisher>Disney Presents Studio Ghibli</Publisher>
+        <RegionCode>1</RegionCode>
+        <ReleaseDate>2010-03-02</ReleaseDate>
+        <RunningTime Units="minutes">86</RunningTime>
+        <SKU>674709</SKU>
+        <Studio>Disney Presents Studio Ghibli</Studio>
+        <Title>My Neighbor Totoro (Two-Disc Special Edition)</Title>
+        <TradeInValue>
+          <Amount>1100</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$11.00</FormattedPrice>
+        </TradeInValue>
+        <UPC>786936791716</UPC>
+        <UPCList>
+          <UPCListElement>786936791716</UPCListElement>
+        </UPCList>
+      </ItemAttributes>
+      <OfferSummary>
+        <LowestNewPrice>
+          <Amount>1405</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$14.05</FormattedPrice>
+        </LowestNewPrice>
+        <LowestUsedPrice>
+          <Amount>1198</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$11.98</FormattedPrice>
+        </LowestUsedPrice>
+        <LowestCollectiblePrice>
+          <Amount>2999</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$29.99</FormattedPrice>
+        </LowestCollectiblePrice>
+        <TotalNew>45</TotalNew>
+        <TotalUsed>12</TotalUsed>
+        <TotalCollectible>1</TotalCollectible>
+        <TotalRefurbished>0</TotalRefurbished>
+      </OfferSummary>
+      <Offers>
+        <TotalOffers>1</TotalOffers>
+        <TotalOfferPages>1</TotalOfferPages>
+        <MoreOffersUrl>http://www.amazon.com/gp/offer-listing/B002ZTQV8Y%3FSubscriptionId%3D1V5JRJ4JQCSHB3NGG902%26tag%3Dblogdivebombo-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3DB002ZTQV8Y</MoreOffersUrl>
+        <Offer>
+          <OfferAttributes>
+            <Condition>New</Condition>
+          </OfferAttributes>
+          <OfferListing>
+            <OfferListingId>%2FaINGq%2Bs4i2RrWun1AKHnKzCY42DYzWvD3P%2FViXX1eCXgWJJDpVR%2BWIPQ%2Fdul3Auz%2FF2ysyvO8GlY0AEiaMMnBsvv2sa1B25ehUtTPAlx10KcMtfjrzo1A%3D%3D</OfferListingId>
+            <Price>
+              <Amount>2099</Amount>
+              <CurrencyCode>USD</CurrencyCode>
+              <FormattedPrice>$20.99</FormattedPrice>
+            </Price>
+            <AmountSaved>
+              <Amount>900</Amount>
+              <CurrencyCode>USD</CurrencyCode>
+              <FormattedPrice>$9.00</FormattedPrice>
+            </AmountSaved>
+            <PercentageSaved>30</PercentageSaved>
+            <Availability>Usually ships in 24 hours</Availability>
+            <AvailabilityAttributes>
+              <AvailabilityType>now</AvailabilityType>
+              <MinimumHours>0</MinimumHours>
+              <MaximumHours>0</MaximumHours>
+            </AvailabilityAttributes>
+            <IsEligibleForSuperSaverShipping>1</IsEligibleForSuperSaverShipping>
+          </OfferListing>
+        </Offer>
+      </Offers>
+    </Item>
+    <Item>
+      <ASIN>B000CDGVOE</ASIN>
+      <SalesRank>1317</SalesRank>
+      <ItemAttributes>
+        <Actor>Chieko Baishô</Actor>
+        <Actor>Takuya Kimura</Actor>
+        <Actor>Tatsuya Gashûin</Actor>
+        <Actor>Akihiro Miwa</Actor>
+        <Actor>Ryûnosuke Kamiki</Actor>
+        <AspectRatio>1.85:1</AspectRatio>
+        <AudienceRating>PG (Parental Guidance Suggested)</AudienceRating>
+        <Binding>DVD</Binding>
+        <Brand>Buena Vista Home Video</Brand>
+        <Creator Role="Producer">Hayao Miyazaki</Creator>
+        <Creator Role="Writer">Hayao Miyazaki</Creator>
+        <Creator Role="Producer">John Lasseter</Creator>
+        <Creator Role="Producer">Ned Lott</Creator>
+        <Creator Role="Producer">Rick Dempsey</Creator>
+        <Creator Role="Producer">Tomohiko Ishii</Creator>
+        <Creator Role="Writer">Diana Wynne Jones</Creator>
+        <Director>Hayao Miyazaki</Director>
+        <EAN>0786936296662</EAN>
+        <EANList>
+          <EANListElement>0786936296662</EANListElement>
+        </EANList>
+        <Feature>2-disc special edition features both the original Japanese soundtrack and an English language soundtrack</Feature>
+        <Feature>Behind the Microphone featurette with the English language voice cast and footage from the dubbing sessions</Feature>
+        <Feature>Interview with Pixar Animation Studios Director, Pete Docter</Feature>
+        <Feature>Hayao Miyazaki Visits Pixar Animation Studios with Pixar director John Lasseter</Feature>
+        <Feature>Complete storyboards set to the movie soundtrack</Feature>
+        <Format>Animated</Format>
+        <Format>Closed-captioned</Format>
+        <Format>Color</Format>
+        <Format>Dolby</Format>
+        <Format>DVD</Format>
+        <Format>Widescreen</Format>
+        <Format>NTSC</Format>
+        <IsAdultProduct>0</IsAdultProduct>
+        <IsEligibleForTradeIn>1</IsEligibleForTradeIn>
+        <ItemDimensions>
+          <Weight Units="hundredths-pounds">35</Weight>
+        </ItemDimensions>
+        <Label>Walt Disney Home Entertainment</Label>
+        <Languages>
+          <Language>
+            <Name>English</Name>
+            <Type>Unknown</Type>
+            <AudioFormat>Dolby Digital 5.1</AudioFormat>
+          </Language>
+          <Language>
+            <Name>English</Name>
+            <Type>Subtitled</Type>
+          </Language>
+          <Language>
+            <Name>English</Name>
+            <Type>Original Language</Type>
+            <AudioFormat>Dolby Digital 5.1</AudioFormat>
+          </Language>
+          <Language>
+            <Name>French</Name>
+            <Type>Original Language</Type>
+            <AudioFormat>Dolby Digital 5.1</AudioFormat>
+          </Language>
+          <Language>
+            <Name>Japanese</Name>
+            <Type>Original Language</Type>
+            <AudioFormat>Dolby Digital 5.1</AudioFormat>
+          </Language>
+          <Language>
+            <Name>French</Name>
+            <Type>Dubbed</Type>
+            <AudioFormat>Dolby Digital 5.1</AudioFormat>
+          </Language>
+          <Language>
+            <Name>Japanese</Name>
+            <Type>Dubbed</Type>
+            <AudioFormat>Dolby Digital 5.1</AudioFormat>
+          </Language>
+        </Languages>
+        <ListPrice>
+          <Amount>2999</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$29.99</FormattedPrice>
+        </ListPrice>
+        <Manufacturer>Walt Disney Home Entertainment</Manufacturer>
+        <MPN>DISD41399D</MPN>
+        <NumberOfDiscs>2</NumberOfDiscs>
+        <PackageQuantity>1</PackageQuantity>
+        <PartNumber>DISD41399D</PartNumber>
+        <ProductGroup>DVD</ProductGroup>
+        <ProductTypeName>ABIS_DVD</ProductTypeName>
+        <Publisher>Walt Disney Home Entertainment</Publisher>
+        <RegionCode>1</RegionCode>
+        <ReleaseDate>2006-03-07</ReleaseDate>
+        <RunningTime Units="minutes">119</RunningTime>
+        <SKU>mon0001263726</SKU>
+        <Studio>Walt Disney Home Entertainment</Studio>
+        <Title>Howl's Moving Castle</Title>
+        <TradeInValue>
+          <Amount>625</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$6.25</FormattedPrice>
+        </TradeInValue>
+        <UPC>786936296662</UPC>
+        <UPCList>
+          <UPCListElement>786936296662</UPCListElement>
+        </UPCList>
+      </ItemAttributes>
+      <OfferSummary>
+        <LowestNewPrice>
+          <Amount>1725</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$17.25</FormattedPrice>
+        </LowestNewPrice>
+        <LowestUsedPrice>
+          <Amount>1200</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$12.00</FormattedPrice>
+        </LowestUsedPrice>
+        <TotalNew>46</TotalNew>
+        <TotalUsed>38</TotalUsed>
+        <TotalCollectible>0</TotalCollectible>
+        <TotalRefurbished>0</TotalRefurbished>
+      </OfferSummary>
+      <Offers>
+        <TotalOffers>1</TotalOffers>
+        <TotalOfferPages>1</TotalOfferPages>
+        <MoreOffersUrl>http://www.amazon.com/gp/offer-listing/B000CDGVOE%3FSubscriptionId%3D1V5JRJ4JQCSHB3NGG902%26tag%3Dblogdivebombo-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3DB000CDGVOE</MoreOffersUrl>
+        <Offer>
+          <OfferAttributes>
+            <Condition>New</Condition>
+          </OfferAttributes>
+          <OfferListing>
+            <OfferListingId>p98bB6tH1z0%2FI0YlHtLFqNFxG5UggrxrPClagldnXdQR1wBa63u0Wj0QZtPEMoXmecr6ZRGh5J%2FgQQ9oj7WDavyurRL6vh9qlS3C2ABcg6rIYDb7wba2uNDJ3aFg3bqDnyda5IHYkM9iaagAvBIyAg%3D%3D</OfferListingId>
+            <Price>
+              <Amount>1949</Amount>
+              <CurrencyCode>USD</CurrencyCode>
+              <FormattedPrice>$19.49</FormattedPrice>
+            </Price>
+            <AmountSaved>
+              <Amount>1050</Amount>
+              <CurrencyCode>USD</CurrencyCode>
+              <FormattedPrice>$10.50</FormattedPrice>
+            </AmountSaved>
+            <PercentageSaved>35</PercentageSaved>
+            <Availability>Usually ships in 24 hours</Availability>
+            <AvailabilityAttributes>
+              <AvailabilityType>now</AvailabilityType>
+              <MinimumHours>0</MinimumHours>
+              <MaximumHours>0</MaximumHours>
+            </AvailabilityAttributes>
+            <IsEligibleForSuperSaverShipping>1</IsEligibleForSuperSaverShipping>
+          </OfferListing>
+        </Offer>
+      </Offers>
+    </Item>
     <Item>
       <ASIN>B00003CXBK</ASIN>
-      <SalesRank>543</SalesRank>
+      <SalesRank>881</SalesRank>
       <ItemAttributes>
-        <Actor>Yôji Matsuda</Actor>
-        <Actor>Yuriko Ishida</Actor>
-        <Actor>Yûko Tanaka</Actor>
-        <Actor>Kaoru Kobayashi</Actor>
-        <Actor>Masahiko Nishimura</Actor>
         <AspectRatio>1.85:1</AspectRatio>
         <AudienceRating>PG-13 (Parental Guidance Suggested)</AudienceRating>
         <Binding>DVD</Binding>
-        <Brand>Princess</Brand>
-        <Creator Role="Writer">Hayao Miyazaki</Creator>
-        <Creator Role="Producer">Bob Weinstein</Creator>
-        <Creator Role="Producer">Harvey Weinstein</Creator>
-        <Creator Role="Producer">Scott Martin</Creator>
-        <Creator Role="Producer">Seiichiro Ujiie</Creator>
-        <Creator Role="Producer">Seiji Okuda</Creator>
-        <Creator Role="Producer">Takahiro Yonezawa</Creator>
+        <Brand>Buena Vista Home Video</Brand>
+        <CatalogNumberList>
+          <CatalogNumberListElement>19300</CatalogNumberListElement>
+        </CatalogNumberList>
         <Director>Hayao Miyazaki</Director>
         <EAN>9780788820618</EAN>
+        <EANList>
+          <EANListElement>9780788820618</EANListElement>
+          <EANListElement>0717951007414</EANListElement>
+        </EANList>
         <Format>Animated</Format>
         <Format>Color</Format>
         <Format>DVD</Format>
         <Format>NTSC</Format>
+        <IsAdultProduct>0</IsAdultProduct>
         <ISBN>0788820613</ISBN>
         <IsEligibleForTradeIn>1</IsEligibleForTradeIn>
+        <ItemDimensions>
+          <Weight Units="hundredths-pounds">20</Weight>
+        </ItemDimensions>
         <Label>Miramax</Label>
         <Languages>
+          <Language>
+            <Name>English</Name>
+            <Type>Unknown</Type>
+          </Language>
           <Language>
             <Name>English</Name>
             <Type>Original Language</Type>
@@ -52,75 +506,72 @@
           <FormattedPrice>$22.99</FormattedPrice>
         </ListPrice>
         <Manufacturer>Miramax</Manufacturer>
-        <MPN>D19300D</MPN>
-        <NumberOfItems>1</NumberOfItems>
-        <OriginalReleaseDate>1997-01-01</OriginalReleaseDate>
+        <MPN>DISD19300D</MPN>
+        <NumberOfDiscs>1</NumberOfDiscs>
+        <PackageQuantity>1</PackageQuantity>
+        <PartNumber>DISD19300D</PartNumber>
         <ProductGroup>DVD</ProductGroup>
         <ProductTypeName>ABIS_DVD</ProductTypeName>
         <Publisher>Miramax</Publisher>
         <RegionCode>1</RegionCode>
         <ReleaseDate>2000-12-19</ReleaseDate>
         <RunningTime Units="minutes">134</RunningTime>
+        <SKU>00717951007414U</SKU>
         <Studio>Miramax</Studio>
-        <TheatricalReleaseDate>1997</TheatricalReleaseDate>
         <Title>Princess Mononoke</Title>
         <TradeInValue>
-          <Amount>600</Amount>
+          <Amount>625</Amount>
           <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$6.00</FormattedPrice>
+          <FormattedPrice>$6.25</FormattedPrice>
         </TradeInValue>
         <UPC>717951007414</UPC>
+        <UPCList>
+          <UPCListElement>717951007414</UPCListElement>
+        </UPCList>
       </ItemAttributes>
       <OfferSummary>
         <LowestNewPrice>
-          <Amount>1488</Amount>
+          <Amount>1346</Amount>
           <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$14.88</FormattedPrice>
+          <FormattedPrice>$13.46</FormattedPrice>
         </LowestNewPrice>
         <LowestUsedPrice>
-          <Amount>1089</Amount>
+          <Amount>1077</Amount>
           <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$10.89</FormattedPrice>
+          <FormattedPrice>$10.77</FormattedPrice>
         </LowestUsedPrice>
-        <TotalNew>39</TotalNew>
-        <TotalUsed>25</TotalUsed>
+        <TotalNew>19</TotalNew>
+        <TotalUsed>32</TotalUsed>
         <TotalCollectible>0</TotalCollectible>
         <TotalRefurbished>0</TotalRefurbished>
       </OfferSummary>
       <Offers>
         <TotalOffers>1</TotalOffers>
         <TotalOfferPages>1</TotalOfferPages>
+        <MoreOffersUrl>http://www.amazon.com/gp/offer-listing/B00003CXBK%3FSubscriptionId%3D1V5JRJ4JQCSHB3NGG902%26tag%3Dblogdivebombo-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3DB00003CXBK</MoreOffersUrl>
         <Offer>
-          <Merchant>
-            <MerchantId>ATVPDKIKX0DER</MerchantId>
-            <GlancePage>http://www.amazon.com/gp/help/seller/home.html?seller=ATVPDKIKX0DER</GlancePage>
-            <AverageFeedbackRating>0.0</AverageFeedbackRating>
-            <TotalFeedback>0</TotalFeedback>
-          </Merchant>
           <OfferAttributes>
             <Condition>New</Condition>
-            <SubCondition>new</SubCondition>
           </OfferAttributes>
           <OfferListing>
-            <OfferListingId>STOP70mG%2BVX5scrYTS4jOZ9pfBlZ864Tl9KdIxUgf2xZD7Iw6wiYXZcB5eXNv2S8a5UuGfhf48KD0hNSWpIA5A%3D%3D</OfferListingId>
+            <OfferListingId>tYu61GYxlZ5SxmTQ1APUr26Xb23RhYeNWbwVPzKhNskUt6SRP0VObhZaRyulBJBsMwz%2ByfDaLgNR%2BPuRMCtlmpgURyk4%2B5pkylmvHSGZejeIXUIjt0B5M9BfJ2uq7AyOhoDv3URTiE9eyxFnKrZ12sG9y98LDVd7</OfferListingId>
             <Price>
-              <Amount>1699</Amount>
+              <Amount>1959</Amount>
               <CurrencyCode>USD</CurrencyCode>
-              <FormattedPrice>$16.99</FormattedPrice>
+              <FormattedPrice>$19.59</FormattedPrice>
             </Price>
             <AmountSaved>
-              <Amount>600</Amount>
+              <Amount>340</Amount>
               <CurrencyCode>USD</CurrencyCode>
-              <FormattedPrice>$6.00</FormattedPrice>
+              <FormattedPrice>$3.40</FormattedPrice>
             </AmountSaved>
-            <PercentageSaved>26</PercentageSaved>
+            <PercentageSaved>15</PercentageSaved>
             <Availability>Usually ships in 24 hours</Availability>
             <AvailabilityAttributes>
               <AvailabilityType>now</AvailabilityType>
               <MinimumHours>0</MinimumHours>
               <MaximumHours>0</MaximumHours>
             </AvailabilityAttributes>
-            <Quantity>-1</Quantity>
             <IsEligibleForSuperSaverShipping>1</IsEligibleForSuperSaverShipping>
           </OfferListing>
         </Offer>
@@ -131,75 +582,84 @@
           <Title>My Neighbor Totoro [VHS]</Title>
         </Accessory>
         <Accessory>
-          <ASIN>B00001U06H</ASIN>
-          <Title>Princess Mononoke: Music From The Miramax Motion Picture</Title>
-        </Accessory>
-        <Accessory>
           <ASIN>6305173478</ASIN>
           <Title>Kiki's Delivery Service (Widescreen Edition) [VHS]</Title>
+        </Accessory>
+        <Accessory>
+          <ASIN>B00001U06H</ASIN>
+          <Title>Princess Mononoke: Music From The Miramax Motion Picture</Title>
         </Accessory>
       </Accessories>
     </Item>
     <Item>
-      <ASIN>B0001XAQ0A</ASIN>
-      <SalesRank>890</SalesRank>
+      <ASIN>B002ZTQVGQ</ASIN>
+      <SalesRank>824</SalesRank>
       <ItemAttributes>
-        <Actor>Hitoshi Takagi</Actor>
-        <Actor>Noriko Hidaka</Actor>
-        <Actor>Chika Sakamoto</Actor>
-        <Actor>Shigesato Itoi</Actor>
-        <Actor>Sumi Shimamoto</Actor>
-        <AspectRatio>1.85:1</AspectRatio>
+        <Actor>Noah Lindsey Cyrus</Actor>
+        <Actor>Frankie Jonas</Actor>
+        <Actor>Cate Blanchett</Actor>
+        <Actor>Liam Neeson</Actor>
+        <Actor>Tina Fey</Actor>
+        <AspectRatio>2.35:1</AspectRatio>
         <AudienceRating>G (General Audience)</AudienceRating>
         <Binding>DVD</Binding>
-        <Creator Role="Cinematographer">Mark Henley</Creator>
-        <Creator Role="Writer">Hayao Miyazaki</Creator>
-        <Creator Role="Editor">Takeshi Seyama</Creator>
-        <Creator Role="Producer">Ned Lott</Creator>
-        <Creator Role="Producer">Rick Dempsey</Creator>
-        <Creator Role="Producer">Tohru Hara</Creator>
-        <Creator Role="Producer">Yasuyoshi Tokuma</Creator>
+        <Brand>BUENA VISTA HOME VIDEO</Brand>
         <Director>Hayao Miyazaki</Director>
-        <EAN>9780788834035</EAN>
+        <EAN>0786936791754</EAN>
+        <EANList>
+          <EANListElement>0786936791754</EANListElement>
+        </EANList>
+        <Feature>PONYO - 2-DISC DVD (DVD MOVIE)</Feature>
         <Format>Animated</Format>
         <Format>Color</Format>
         <Format>Dolby</Format>
         <Format>Dubbed</Format>
         <Format>DVD</Format>
-        <Format>THX</Format>
-        <Format>Widescreen</Format>
         <Format>NTSC</Format>
-        <ISBN>0788834037</ISBN>
-        <Label>Walt Disney Home Entertainment</Label>
+        <Format>Subtitled</Format>
+        <Format>Widescreen</Format>
+        <IsAdultProduct>0</IsAdultProduct>
+        <IsEligibleForTradeIn>1</IsEligibleForTradeIn>
+        <ItemDimensions>
+          <Weight Units="hundredths-pounds">32</Weight>
+        </ItemDimensions>
+        <Label>Disney Presents Studio Ghibli</Label>
         <Languages>
           <Language>
             <Name>English</Name>
-            <Type>Original Language</Type>
-            <AudioFormat>Dolby Digital 2.0 Stereo</AudioFormat>
-          </Language>
-          <Language>
-            <Name>French</Name>
-            <Type>Original Language</Type>
-            <AudioFormat>Dolby Digital 2.0 Stereo</AudioFormat>
-          </Language>
-          <Language>
-            <Name>Japanese</Name>
-            <Type>Original Language</Type>
-            <AudioFormat>Dolby Digital 2.0 Stereo</AudioFormat>
+            <Type>Unknown</Type>
           </Language>
           <Language>
             <Name>English</Name>
             <Type>Subtitled</Type>
           </Language>
           <Language>
+            <Name>French</Name>
+            <Type>Subtitled</Type>
+          </Language>
+          <Language>
+            <Name>Spanish</Name>
+            <Type>Subtitled</Type>
+          </Language>
+          <Language>
             <Name>English</Name>
-            <Type>Dubbed</Type>
-            <AudioFormat>Dolby Digital 2.0 Stereo</AudioFormat>
+            <Type>Original Language</Type>
           </Language>
           <Language>
             <Name>Japanese</Name>
+            <Type>Original Language</Type>
+          </Language>
+          <Language>
+            <Name>French</Name>
+            <Type>Original Language</Type>
+          </Language>
+          <Language>
+            <Name>English</Name>
             <Type>Dubbed</Type>
-            <AudioFormat>Dolby Digital 2.0 Stereo</AudioFormat>
+          </Language>
+          <Language>
+            <Name>French</Name>
+            <Type>Dubbed</Type>
           </Language>
         </Languages>
         <ListPrice>
@@ -207,351 +667,145 @@
           <CurrencyCode>USD</CurrencyCode>
           <FormattedPrice>$29.99</FormattedPrice>
         </ListPrice>
-        <Manufacturer>Walt Disney Home Entertainment</Manufacturer>
-        <MPN>DISD25349D</MPN>
-        <NumberOfItems>2</NumberOfItems>
-        <OriginalReleaseDate>1988-01-01</OriginalReleaseDate>
+        <Manufacturer>Disney Presents Studio Ghibli</Manufacturer>
+        <MPN>DISD101854D</MPN>
+        <NumberOfDiscs>2</NumberOfDiscs>
+        <PackageQuantity>1</PackageQuantity>
+        <PartNumber>DISD101854D</PartNumber>
         <ProductGroup>DVD</ProductGroup>
         <ProductTypeName>ABIS_DVD</ProductTypeName>
-        <Publisher>Walt Disney Home Entertainment</Publisher>
+        <PublicationDate>2010</PublicationDate>
+        <Publisher>Disney Presents Studio Ghibli</Publisher>
         <RegionCode>1</RegionCode>
-        <ReleaseDate>2006-03-07</ReleaseDate>
-        <RunningTime Units="minutes">86</RunningTime>
-        <Studio>Walt Disney Home Entertainment</Studio>
-        <TheatricalReleaseDate>1988</TheatricalReleaseDate>
-        <Title>My Neighbor Totoro</Title>
-        <UPC>786936175271</UPC>
+        <ReleaseDate>2010-03-02</ReleaseDate>
+        <RunningTime Units="minutes">103</RunningTime>
+        <SKU>DS796</SKU>
+        <Studio>Disney Presents Studio Ghibli</Studio>
+        <Title>Ponyo</Title>
+        <TradeInValue>
+          <Amount>725</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$7.25</FormattedPrice>
+        </TradeInValue>
+        <UPC>786936791754</UPC>
+        <UPCList>
+          <UPCListElement>786936791754</UPCListElement>
+        </UPCList>
       </ItemAttributes>
       <OfferSummary>
         <LowestNewPrice>
-          <Amount>2097</Amount>
+          <Amount>1630</Amount>
           <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$20.97</FormattedPrice>
+          <FormattedPrice>$16.30</FormattedPrice>
         </LowestNewPrice>
         <LowestUsedPrice>
-          <Amount>2098</Amount>
+          <Amount>948</Amount>
           <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$20.98</FormattedPrice>
+          <FormattedPrice>$9.48</FormattedPrice>
         </LowestUsedPrice>
         <LowestCollectiblePrice>
-          <Amount>3199</Amount>
+          <Amount>2999</Amount>
           <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$31.99</FormattedPrice>
+          <FormattedPrice>$29.99</FormattedPrice>
         </LowestCollectiblePrice>
-        <TotalNew>37</TotalNew>
-        <TotalUsed>9</TotalUsed>
+        <TotalNew>40</TotalNew>
+        <TotalUsed>15</TotalUsed>
         <TotalCollectible>1</TotalCollectible>
         <TotalRefurbished>0</TotalRefurbished>
       </OfferSummary>
       <Offers>
         <TotalOffers>1</TotalOffers>
         <TotalOfferPages>1</TotalOfferPages>
+        <MoreOffersUrl>http://www.amazon.com/gp/offer-listing/B002ZTQVGQ%3FSubscriptionId%3D1V5JRJ4JQCSHB3NGG902%26tag%3Dblogdivebombo-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3DB002ZTQVGQ</MoreOffersUrl>
         <Offer>
-          <Merchant>
-            <MerchantId>ATVPDKIKX0DER</MerchantId>
-            <GlancePage>http://www.amazon.com/gp/help/seller/home.html?seller=ATVPDKIKX0DER</GlancePage>
-            <AverageFeedbackRating>0.0</AverageFeedbackRating>
-            <TotalFeedback>0</TotalFeedback>
-          </Merchant>
           <OfferAttributes>
             <Condition>New</Condition>
-            <SubCondition>new</SubCondition>
           </OfferAttributes>
           <OfferListing>
-            <OfferListingId>ngY2uh5FJaH5NXLsnbuQ%2F4m6am3wTj37lmgATE7JPI3vJPx7GG1H0EeclvC3baaX%2Bn1JGWGPxmG%2F29oRcCrRJw%3D%3D</OfferListingId>
+            <OfferListingId>RBChgBrYJX%2Brmp7gJdp6hNVOQ%2FWrP6FnsKRQIcvV1eLCpu%2BsmlDvxN1VXVxQzGc1qF3OfP3YM9P%2BxmPxjkxhnrFvNEyuC8Cuqz4B7NkeUnBBeTspgzZurA%3D%3D</OfferListingId>
             <Price>
-              <Amount>2249</Amount>
+              <Amount>1899</Amount>
               <CurrencyCode>USD</CurrencyCode>
-              <FormattedPrice>$22.49</FormattedPrice>
+              <FormattedPrice>$18.99</FormattedPrice>
             </Price>
             <AmountSaved>
-              <Amount>750</Amount>
+              <Amount>1100</Amount>
               <CurrencyCode>USD</CurrencyCode>
-              <FormattedPrice>$7.50</FormattedPrice>
+              <FormattedPrice>$11.00</FormattedPrice>
             </AmountSaved>
-            <PercentageSaved>25</PercentageSaved>
+            <PercentageSaved>37</PercentageSaved>
             <Availability>Usually ships in 24 hours</Availability>
             <AvailabilityAttributes>
               <AvailabilityType>now</AvailabilityType>
               <MinimumHours>0</MinimumHours>
               <MaximumHours>0</MaximumHours>
             </AvailabilityAttributes>
-            <Quantity>-1</Quantity>
             <IsEligibleForSuperSaverShipping>1</IsEligibleForSuperSaverShipping>
           </OfferListing>
         </Offer>
       </Offers>
     </Item>
     <Item>
-      <ASIN>B00005JLEU</ASIN>
-      <SalesRank>507</SalesRank>
-      <ItemAttributes>
-        <AspectRatio>1.78:1</AspectRatio>
-        <AudienceRating>Unrated</AudienceRating>
-        <Binding>DVD</Binding>
-        <Brand>BUENA VISTA HOME VIDEO</Brand>
-        <Director>Hayao Miyazaki</Director>
-        <EAN>9780788844614</EAN>
-        <Format>Animated</Format>
-        <Format>Closed-captioned</Format>
-        <Format>Color</Format>
-        <Format>Dolby</Format>
-        <Format>DVD</Format>
-        <Format>Widescreen</Format>
-        <Format>NTSC</Format>
-        <ISBN>078884461X</ISBN>
-        <Label>Walt Disney Video</Label>
-        <Languages>
-          <Language>
-            <Name>English</Name>
-            <Type>Original Language</Type>
-          </Language>
-          <Language>
-            <Name>French</Name>
-            <Type>Original Language</Type>
-          </Language>
-          <Language>
-            <Name>Japanese</Name>
-            <Type>Original Language</Type>
-          </Language>
-        </Languages>
-        <ListPrice>
-          <Amount>2999</Amount>
-          <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$29.99</FormattedPrice>
-        </ListPrice>
-        <Manufacturer>Walt Disney Video</Manufacturer>
-        <MPN>DISD29781D</MPN>
-        <NumberOfItems>2</NumberOfItems>
-        <OriginalReleaseDate>2001-01-01</OriginalReleaseDate>
-        <ProductGroup>DVD</ProductGroup>
-        <ProductTypeName>ABIS_DVD</ProductTypeName>
-        <Publisher>Walt Disney Video</Publisher>
-        <RegionCode>1</RegionCode>
-        <ReleaseDate>2003-04-15</ReleaseDate>
-        <RunningTime Units="minutes">125</RunningTime>
-        <Studio>Walt Disney Video</Studio>
-        <TheatricalReleaseDate>2001</TheatricalReleaseDate>
-        <Title>Spirited Away</Title>
-        <UPC>786936213843</UPC>
-      </ItemAttributes>
-      <OfferSummary>
-        <LowestNewPrice>
-          <Amount>1794</Amount>
-          <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$17.94</FormattedPrice>
-        </LowestNewPrice>
-        <LowestUsedPrice>
-          <Amount>1734</Amount>
-          <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$17.34</FormattedPrice>
-        </LowestUsedPrice>
-        <TotalNew>42</TotalNew>
-        <TotalUsed>26</TotalUsed>
-        <TotalCollectible>0</TotalCollectible>
-        <TotalRefurbished>0</TotalRefurbished>
-      </OfferSummary>
-      <Offers>
-        <TotalOffers>1</TotalOffers>
-        <TotalOfferPages>1</TotalOfferPages>
-        <Offer>
-          <Merchant>
-            <MerchantId>ATVPDKIKX0DER</MerchantId>
-            <GlancePage>http://www.amazon.com/gp/help/seller/home.html?seller=ATVPDKIKX0DER</GlancePage>
-            <AverageFeedbackRating>0.0</AverageFeedbackRating>
-            <TotalFeedback>0</TotalFeedback>
-          </Merchant>
-          <OfferAttributes>
-            <Condition>New</Condition>
-            <SubCondition>new</SubCondition>
-          </OfferAttributes>
-          <OfferListing>
-            <OfferListingId>HpjbtpOkMef2Y%2FrGc1zpVX%2BfBxU54TPyCpmwGSNXRBbuqObGLj27O4fSLdtzIUevecU4ixq3a7lrWJVzlU99aA%3D%3D</OfferListingId>
-            <Price>
-              <Amount>2249</Amount>
-              <CurrencyCode>USD</CurrencyCode>
-              <FormattedPrice>$22.49</FormattedPrice>
-            </Price>
-            <AmountSaved>
-              <Amount>750</Amount>
-              <CurrencyCode>USD</CurrencyCode>
-              <FormattedPrice>$7.50</FormattedPrice>
-            </AmountSaved>
-            <PercentageSaved>25</PercentageSaved>
-            <Availability>Usually ships in 24 hours</Availability>
-            <AvailabilityAttributes>
-              <AvailabilityType>now</AvailabilityType>
-              <MinimumHours>0</MinimumHours>
-              <MaximumHours>0</MaximumHours>
-            </AvailabilityAttributes>
-            <Quantity>-1</Quantity>
-            <IsEligibleForSuperSaverShipping>1</IsEligibleForSuperSaverShipping>
-          </OfferListing>
-        </Offer>
-      </Offers>
-    </Item>
-    <Item>
-      <ASIN>B000CDGVOE</ASIN>
-      <SalesRank>926</SalesRank>
-      <ItemAttributes>
-        <Actor>Chieko Baisho</Actor>
-        <Actor>Takuya Kimura</Actor>
-        <Actor>Tatsuya Gashuin</Actor>
-        <Actor>Akihiro Miwa</Actor>
-        <Actor>Ryûnosuke Kamiki</Actor>
-        <AspectRatio>1.85:1</AspectRatio>
-        <AudienceRating>PG (Parental Guidance Suggested)</AudienceRating>
-        <Binding>DVD</Binding>
-        <Brand>gkworld</Brand>
-        <Creator Role="Producer">Hayao Miyazaki</Creator>
-        <Creator Role="Writer">Hayao Miyazaki</Creator>
-        <Creator Role="Producer">John Lasseter</Creator>
-        <Creator Role="Producer">Ned Lott</Creator>
-        <Creator Role="Producer">Rick Dempsey</Creator>
-        <Creator Role="Producer">Tomohiko Ishii</Creator>
-        <Creator Role="Writer">Diana Wynne Jones</Creator>
-        <Director>Hayao Miyazaki</Director>
-        <EAN>0786936296662</EAN>
-        <Format>Animated</Format>
-        <Format>Closed-captioned</Format>
-        <Format>Color</Format>
-        <Format>Dolby</Format>
-        <Format>DVD</Format>
-        <Format>Widescreen</Format>
-        <Format>NTSC</Format>
-        <ItemDimensions>
-          <Weight Units="hundredths-pounds">30</Weight>
-        </ItemDimensions>
-        <Label>Walt Disney Home Entertainment</Label>
-        <Languages>
-          <Language>
-            <Name>English</Name>
-            <Type>Original Language</Type>
-            <AudioFormat>Dolby Digital 5.1</AudioFormat>
-          </Language>
-          <Language>
-            <Name>French</Name>
-            <Type>Original Language</Type>
-            <AudioFormat>Dolby Digital 5.1</AudioFormat>
-          </Language>
-          <Language>
-            <Name>Japanese</Name>
-            <Type>Original Language</Type>
-            <AudioFormat>Dolby Digital 5.1</AudioFormat>
-          </Language>
-          <Language>
-            <Name>English</Name>
-            <Type>Subtitled</Type>
-          </Language>
-        </Languages>
-        <ListPrice>
-          <Amount>2999</Amount>
-          <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$29.99</FormattedPrice>
-        </ListPrice>
-        <Manufacturer>Walt Disney Home Entertainment</Manufacturer>
-        <MPN>04139900</MPN>
-        <NumberOfItems>2</NumberOfItems>
-        <OriginalReleaseDate>2004-01-01</OriginalReleaseDate>
-        <ProductGroup>DVD</ProductGroup>
-        <ProductTypeName>ABIS_DVD</ProductTypeName>
-        <Publisher>Walt Disney Home Entertainment</Publisher>
-        <RegionCode>1</RegionCode>
-        <ReleaseDate>2006-03-07</ReleaseDate>
-        <RunningTime Units="minutes">119</RunningTime>
-        <Studio>Walt Disney Home Entertainment</Studio>
-        <TheatricalReleaseDate>2004</TheatricalReleaseDate>
-        <Title>Howl's Moving Castle</Title>
-        <UPC>786936296662</UPC>
-      </ItemAttributes>
-      <OfferSummary>
-        <LowestNewPrice>
-          <Amount>2098</Amount>
-          <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$20.98</FormattedPrice>
-        </LowestNewPrice>
-        <LowestUsedPrice>
-          <Amount>2123</Amount>
-          <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$21.23</FormattedPrice>
-        </LowestUsedPrice>
-        <TotalNew>34</TotalNew>
-        <TotalUsed>10</TotalUsed>
-        <TotalCollectible>0</TotalCollectible>
-        <TotalRefurbished>0</TotalRefurbished>
-      </OfferSummary>
-      <Offers>
-        <TotalOffers>1</TotalOffers>
-        <TotalOfferPages>1</TotalOfferPages>
-        <Offer>
-          <Merchant>
-            <MerchantId>ATVPDKIKX0DER</MerchantId>
-            <GlancePage>http://www.amazon.com/gp/help/seller/home.html?seller=ATVPDKIKX0DER</GlancePage>
-            <AverageFeedbackRating>0.0</AverageFeedbackRating>
-            <TotalFeedback>0</TotalFeedback>
-          </Merchant>
-          <OfferAttributes>
-            <Condition>New</Condition>
-            <SubCondition>new</SubCondition>
-          </OfferAttributes>
-          <OfferListing>
-            <OfferListingId>LCG%2FOTmL2ft6%2BQdbi4Pzlh02f1zeFUr8At2lNv7N2CFZIfG5CVG8UNRi6z5DiAoMDjCurRcomk9IJUKN%2FB2Y78fQlYpKT09%2F</OfferListingId>
-            <Price>
-              <Amount>2249</Amount>
-              <CurrencyCode>USD</CurrencyCode>
-              <FormattedPrice>$22.49</FormattedPrice>
-            </Price>
-            <AmountSaved>
-              <Amount>750</Amount>
-              <CurrencyCode>USD</CurrencyCode>
-              <FormattedPrice>$7.50</FormattedPrice>
-            </AmountSaved>
-            <PercentageSaved>25</PercentageSaved>
-            <Availability>Usually ships in 24 hours</Availability>
-            <AvailabilityAttributes>
-              <AvailabilityType>now</AvailabilityType>
-              <MinimumHours>0</MinimumHours>
-              <MaximumHours>0</MaximumHours>
-            </AvailabilityAttributes>
-            <Quantity>-1</Quantity>
-            <IsEligibleForSuperSaverShipping>1</IsEligibleForSuperSaverShipping>
-          </OfferListing>
-        </Offer>
-      </Offers>
-    </Item>
-    <Item>
-      <ASIN>B00005JM2O</ASIN>
-      <SalesRank>1217</SalesRank>
+      <ASIN>B002ZTQVLG</ASIN>
+      <SalesRank>1133</SalesRank>
       <ItemAttributes>
         <Actor>Kirsten Dunst</Actor>
         <Actor>Minami Takayama</Actor>
         <Actor>Rei Sakuma</Actor>
         <Actor>Kappei Yamaguchi</Actor>
         <Actor>Keiko Toda</Actor>
-        <AspectRatio>1.85:1</AspectRatio>
-        <AudienceRating>NR (Not Rated)</AudienceRating>
+        <AspectRatio>2.35:1</AspectRatio>
+        <AudienceRating>G (General Audience)</AudienceRating>
         <Binding>DVD</Binding>
-        <Brand>BUENA VISTA HOME VIDEO</Brand>
+        <Brand>Buena Vista Home Video</Brand>
         <Creator Role="Producer">Hayao Miyazaki</Creator>
         <Creator Role="Writer">Hayao Miyazaki</Creator>
+        <Creator Role="Producer">Eiko Tanaka</Creator>
         <Creator Role="Producer">Jane Schonberger</Creator>
         <Creator Role="Producer">Mikihiko Tsuzuki</Creator>
         <Creator Role="Producer">Morihisa Takagi</Creator>
-        <Creator Role="Producer">Toshio Suzuki</Creator>
         <Creator Role="Writer">Eiko Kadono</Creator>
         <Director>Hayao Miyazaki</Director>
-        <EAN>0786936175226</EAN>
+        <EAN>0786936791655</EAN>
+        <EANList>
+          <EANListElement>0786936791655</EANListElement>
+        </EANList>
+        <Feature>KIKI'S DELIVERY SERVICE:SPECIAL EDITION (DVD MOVIE)</Feature>
+        <Format>AC-3</Format>
         <Format>Animated</Format>
-        <Format>Closed-captioned</Format>
         <Format>Color</Format>
         <Format>Dolby</Format>
+        <Format>Dubbed</Format>
         <Format>DVD</Format>
+        <Format>Special Edition</Format>
+        <Format>Subtitled</Format>
         <Format>Widescreen</Format>
         <Format>NTSC</Format>
-        <Label>Walt Disney Video</Label>
+        <IsAdultProduct>0</IsAdultProduct>
+        <IsEligibleForTradeIn>1</IsEligibleForTradeIn>
+        <ItemDimensions>
+          <Weight Units="hundredths-pounds">32</Weight>
+        </ItemDimensions>
+        <Label>Disney Presents Studio Ghibli</Label>
         <Languages>
           <Language>
             <Name>English</Name>
+            <Type>Unknown</Type>
+          </Language>
+          <Language>
+            <Name>French</Name>
+            <Type>Subtitled</Type>
+          </Language>
+          <Language>
+            <Name>English</Name>
+            <Type>Original Language</Type>
+          </Language>
+          <Language>
+            <Name>Japanese</Name>
+            <Type>Original Language</Type>
+          </Language>
+          <Language>
+            <Name>French</Name>
             <Type>Original Language</Type>
           </Language>
           <Language>
@@ -559,8 +813,16 @@
             <Type>Original Language</Type>
           </Language>
           <Language>
-            <Name>Japanese</Name>
-            <Type>Original Language</Type>
+            <Name>English</Name>
+            <Type>Dubbed</Type>
+          </Language>
+          <Language>
+            <Name>French</Name>
+            <Type>Dubbed</Type>
+          </Language>
+          <Language>
+            <Name>Spanish</Name>
+            <Type>Dubbed</Type>
           </Language>
         </Languages>
         <ListPrice>
@@ -568,76 +830,358 @@
           <CurrencyCode>USD</CurrencyCode>
           <FormattedPrice>$29.99</FormattedPrice>
         </ListPrice>
-        <Manufacturer>Walt Disney Video</Manufacturer>
-        <MPN>D25341D</MPN>
-        <NumberOfItems>2</NumberOfItems>
-        <OriginalReleaseDate>1989-01-01</OriginalReleaseDate>
+        <Manufacturer>Disney Presents Studio Ghibli</Manufacturer>
+        <MPN>DISD101839D</MPN>
+        <NumberOfDiscs>2</NumberOfDiscs>
+        <PackageQuantity>1</PackageQuantity>
+        <PartNumber>DISD101839D</PartNumber>
         <ProductGroup>DVD</ProductGroup>
         <ProductTypeName>ABIS_DVD</ProductTypeName>
-        <Publisher>Walt Disney Video</Publisher>
+        <Publisher>Disney Presents Studio Ghibli</Publisher>
         <RegionCode>1</RegionCode>
-        <ReleaseDate>2003-04-15</ReleaseDate>
+        <ReleaseDate>2010-03-02</ReleaseDate>
         <RunningTime Units="minutes">103</RunningTime>
-        <Studio>Walt Disney Video</Studio>
-        <TheatricalReleaseDate>1989</TheatricalReleaseDate>
-        <Title>Kiki's Delivery Service</Title>
-        <UPC>786936175226</UPC>
+        <SKU>753502674</SKU>
+        <Studio>Disney Presents Studio Ghibli</Studio>
+        <Title>Kiki's Delivery Service: Special Edition - 2-Disc DVD</Title>
+        <TradeInValue>
+          <Amount>675</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$6.75</FormattedPrice>
+        </TradeInValue>
+        <UPC>786936791655</UPC>
+        <UPCList>
+          <UPCListElement>786936791655</UPCListElement>
+        </UPCList>
       </ItemAttributes>
       <OfferSummary>
         <LowestNewPrice>
-          <Amount>2096</Amount>
+          <Amount>1629</Amount>
           <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$20.96</FormattedPrice>
+          <FormattedPrice>$16.29</FormattedPrice>
         </LowestNewPrice>
         <LowestUsedPrice>
-          <Amount>1789</Amount>
+          <Amount>1449</Amount>
           <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$17.89</FormattedPrice>
+          <FormattedPrice>$14.49</FormattedPrice>
         </LowestUsedPrice>
         <LowestCollectiblePrice>
-          <Amount>3199</Amount>
+          <Amount>2999</Amount>
           <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$31.99</FormattedPrice>
+          <FormattedPrice>$29.99</FormattedPrice>
         </LowestCollectiblePrice>
-        <TotalNew>41</TotalNew>
-        <TotalUsed>13</TotalUsed>
+        <TotalNew>45</TotalNew>
+        <TotalUsed>9</TotalUsed>
         <TotalCollectible>1</TotalCollectible>
         <TotalRefurbished>0</TotalRefurbished>
       </OfferSummary>
       <Offers>
         <TotalOffers>1</TotalOffers>
         <TotalOfferPages>1</TotalOfferPages>
+        <MoreOffersUrl>http://www.amazon.com/gp/offer-listing/B002ZTQVLG%3FSubscriptionId%3D1V5JRJ4JQCSHB3NGG902%26tag%3Dblogdivebombo-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3DB002ZTQVLG</MoreOffersUrl>
         <Offer>
-          <Merchant>
-            <MerchantId>ATVPDKIKX0DER</MerchantId>
-            <GlancePage>http://www.amazon.com/gp/help/seller/home.html?seller=ATVPDKIKX0DER</GlancePage>
-            <AverageFeedbackRating>0.0</AverageFeedbackRating>
-            <TotalFeedback>0</TotalFeedback>
-          </Merchant>
           <OfferAttributes>
             <Condition>New</Condition>
-            <SubCondition>new</SubCondition>
           </OfferAttributes>
           <OfferListing>
-            <OfferListingId>VsvlnrIa1b1dDbWmbWCcGJIX6CaKAkC30EFPFRAYwpk4mhFA%2F42sOj8NWX0nAxUWI7s31WbB77%2F%2FXDoN9ce0Mw%3D%3D</OfferListingId>
+            <OfferListingId>Da9uz9u%2FlD6WNAWIvWIf72nCk4zgSJyZsTIt1Z1udtZrfak%2BzUQTWERe8Yvxd5%2BkbZY7ufrKyYrXQSyhNtcUpWSwW01ouP8jo%2B7yEbz%2FsO8EbguATKUeWg%3D%3D</OfferListingId>
             <Price>
-              <Amount>2249</Amount>
+              <Amount>1999</Amount>
               <CurrencyCode>USD</CurrencyCode>
-              <FormattedPrice>$22.49</FormattedPrice>
+              <FormattedPrice>$19.99</FormattedPrice>
             </Price>
             <AmountSaved>
-              <Amount>750</Amount>
+              <Amount>1000</Amount>
               <CurrencyCode>USD</CurrencyCode>
-              <FormattedPrice>$7.50</FormattedPrice>
+              <FormattedPrice>$10.00</FormattedPrice>
             </AmountSaved>
-            <PercentageSaved>25</PercentageSaved>
+            <PercentageSaved>33</PercentageSaved>
             <Availability>Usually ships in 24 hours</Availability>
             <AvailabilityAttributes>
               <AvailabilityType>now</AvailabilityType>
               <MinimumHours>0</MinimumHours>
               <MaximumHours>0</MaximumHours>
             </AvailabilityAttributes>
-            <Quantity>-1</Quantity>
+            <IsEligibleForSuperSaverShipping>1</IsEligibleForSuperSaverShipping>
+          </OfferListing>
+        </Offer>
+      </Offers>
+    </Item>
+    <Item>
+      <ASIN>B002ZTQVHK</ASIN>
+      <SalesRank>1379</SalesRank>
+      <ItemAttributes>
+        <Actor>Mayumi Tanaka</Actor>
+        <Actor>James Van Der Beek</Actor>
+        <Actor>Keiko Yokozawa</Actor>
+        <Actor>Kotoe Hatsui</Actor>
+        <Actor>Cloris Leachman</Actor>
+        <AspectRatio>2.35:1</AspectRatio>
+        <AudienceRating>PG (Parental Guidance Suggested)</AudienceRating>
+        <Binding>DVD</Binding>
+        <Brand>BUENA VISTA HOME VIDEO</Brand>
+        <Creator Role="Cinematographer">Hirokata Takahashi</Creator>
+        <Creator Role="Writer">Hayao Miyazaki</Creator>
+        <Creator Role="Producer">Hideo Ogata</Creator>
+        <Creator Role="Producer">Isao Takahata</Creator>
+        <Creator Role="Producer">Tatsumi Yamashita</Creator>
+        <Creator Role="Producer">Todd Olsson</Creator>
+        <Creator Role="Producer">Yasuyoshi Tokuma</Creator>
+        <Director>Hayao Miyazaki</Director>
+        <EAN>0786936791617</EAN>
+        <EANList>
+          <EANListElement>0786936791617</EANListElement>
+        </EANList>
+        <Feature>CASTLE IN THE SKY: SPECIAL EDITION (DVD MOVIE)</Feature>
+        <Format>AC-3</Format>
+        <Format>Animated</Format>
+        <Format>Color</Format>
+        <Format>Dolby</Format>
+        <Format>Dubbed</Format>
+        <Format>DVD</Format>
+        <Format>Special Edition</Format>
+        <Format>Subtitled</Format>
+        <Format>Widescreen</Format>
+        <Format>NTSC</Format>
+        <IsAdultProduct>0</IsAdultProduct>
+        <IsEligibleForTradeIn>1</IsEligibleForTradeIn>
+        <ItemDimensions>
+          <Weight Units="hundredths-pounds">34</Weight>
+        </ItemDimensions>
+        <Label>Disney Presents Studio Ghibli</Label>
+        <Languages>
+          <Language>
+            <Name>English</Name>
+            <Type>Unknown</Type>
+          </Language>
+          <Language>
+            <Name>English</Name>
+            <Type>Subtitled</Type>
+          </Language>
+          <Language>
+            <Name>French</Name>
+            <Type>Subtitled</Type>
+          </Language>
+          <Language>
+            <Name>Japanese</Name>
+            <Type>Original Language</Type>
+          </Language>
+          <Language>
+            <Name>English</Name>
+            <Type>Original Language</Type>
+          </Language>
+          <Language>
+            <Name>French</Name>
+            <Type>Original Language</Type>
+          </Language>
+          <Language>
+            <Name>English</Name>
+            <Type>Dubbed</Type>
+          </Language>
+        </Languages>
+        <ListPrice>
+          <Amount>2999</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$29.99</FormattedPrice>
+        </ListPrice>
+        <Manufacturer>Disney Presents Studio Ghibli</Manufacturer>
+        <MPN>DISD101836D</MPN>
+        <NumberOfDiscs>2</NumberOfDiscs>
+        <PackageQuantity>1</PackageQuantity>
+        <PartNumber>DISD101836D</PartNumber>
+        <ProductGroup>DVD</ProductGroup>
+        <ProductTypeName>ABIS_DVD</ProductTypeName>
+        <Publisher>Disney Presents Studio Ghibli</Publisher>
+        <RegionCode>1</RegionCode>
+        <ReleaseDate>2010-03-02</ReleaseDate>
+        <RunningTime Units="minutes">125</RunningTime>
+        <SKU>ING12749</SKU>
+        <Studio>Disney Presents Studio Ghibli</Studio>
+        <Title>Castle in the Sky: Special Edition - 2 Disc DVD</Title>
+        <TradeInValue>
+          <Amount>525</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$5.25</FormattedPrice>
+        </TradeInValue>
+        <UPC>786936791617</UPC>
+        <UPCList>
+          <UPCListElement>786936791617</UPCListElement>
+        </UPCList>
+      </ItemAttributes>
+      <OfferSummary>
+        <LowestNewPrice>
+          <Amount>1599</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$15.99</FormattedPrice>
+        </LowestNewPrice>
+        <LowestUsedPrice>
+          <Amount>1001</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$10.01</FormattedPrice>
+        </LowestUsedPrice>
+        <LowestCollectiblePrice>
+          <Amount>2999</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$29.99</FormattedPrice>
+        </LowestCollectiblePrice>
+        <TotalNew>43</TotalNew>
+        <TotalUsed>14</TotalUsed>
+        <TotalCollectible>2</TotalCollectible>
+        <TotalRefurbished>0</TotalRefurbished>
+      </OfferSummary>
+      <Offers>
+        <TotalOffers>1</TotalOffers>
+        <TotalOfferPages>1</TotalOfferPages>
+        <MoreOffersUrl>http://www.amazon.com/gp/offer-listing/B002ZTQVHK%3FSubscriptionId%3D1V5JRJ4JQCSHB3NGG902%26tag%3Dblogdivebombo-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3DB002ZTQVHK</MoreOffersUrl>
+        <Offer>
+          <OfferAttributes>
+            <Condition>New</Condition>
+          </OfferAttributes>
+          <OfferListing>
+            <OfferListingId>w8MtVLk6bbDWZiV1PVB6kwRo%2BVv9sEjw2jlCbVr%2BYOMEusWTUTlqfVmDWt2rfdHMAchn1T6mhvLqrDImixovV95n46zr3Paw3aQA5v%2FKcQMXWnYsdE2rmQ%3D%3D</OfferListingId>
+            <Price>
+              <Amount>1999</Amount>
+              <CurrencyCode>USD</CurrencyCode>
+              <FormattedPrice>$19.99</FormattedPrice>
+            </Price>
+            <AmountSaved>
+              <Amount>1000</Amount>
+              <CurrencyCode>USD</CurrencyCode>
+              <FormattedPrice>$10.00</FormattedPrice>
+            </AmountSaved>
+            <PercentageSaved>33</PercentageSaved>
+            <Availability>Usually ships in 24 hours</Availability>
+            <AvailabilityAttributes>
+              <AvailabilityType>now</AvailabilityType>
+              <MinimumHours>0</MinimumHours>
+              <MaximumHours>0</MaximumHours>
+            </AvailabilityAttributes>
+            <IsEligibleForSuperSaverShipping>1</IsEligibleForSuperSaverShipping>
+          </OfferListing>
+        </Offer>
+      </Offers>
+    </Item>
+    <Item>
+      <ASIN>B004CRR9G0</ASIN>
+      <SalesRank>4107</SalesRank>
+      <ItemAttributes>
+        <Actor>Uma Thurman</Actor>
+        <Actor>Patrick Stewart</Actor>
+        <Actor>Shia LeBeouf</Actor>
+        <AspectRatio>1.85:1</AspectRatio>
+        <AudienceRating>PG (Parental Guidance Suggested)</AudienceRating>
+        <Binding>Blu-ray</Binding>
+        <Brand>BUENA VISTA HOME VIDEO</Brand>
+        <Director>Hayao Miyazaki</Director>
+        <EAN>0786936810042</EAN>
+        <EANList>
+          <EANListElement>0786936810042</EANListElement>
+        </EANList>
+        <Format>Multiple Formats</Format>
+        <IsAdultProduct>0</IsAdultProduct>
+        <IsEligibleForTradeIn>1</IsEligibleForTradeIn>
+        <Label>Walt Disney Studios Home Entertainment</Label>
+        <Languages>
+          <Language>
+            <Name>English</Name>
+            <Type>Subtitled</Type>
+          </Language>
+          <Language>
+            <Name>French</Name>
+            <Type>Subtitled</Type>
+          </Language>
+          <Language>
+            <Name>Japanese</Name>
+            <Type>Original Language</Type>
+          </Language>
+          <Language>
+            <Name>English</Name>
+            <Type>Original Language</Type>
+          </Language>
+          <Language>
+            <Name>French</Name>
+            <Type>Original Language</Type>
+          </Language>
+          <Language>
+            <Name>French</Name>
+            <Type>Dubbed</Type>
+          </Language>
+          <Language>
+            <Name>Japanese</Name>
+            <Type>Dubbed</Type>
+          </Language>
+        </Languages>
+        <ListPrice>
+          <Amount>3999</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$39.99</FormattedPrice>
+        </ListPrice>
+        <Manufacturer>Walt Disney Studios Home Entertainment</Manufacturer>
+        <MPN>DISBR106207</MPN>
+        <NumberOfDiscs>2</NumberOfDiscs>
+        <PartNumber>DISBR106207</PartNumber>
+        <ProductGroup>DVD</ProductGroup>
+        <ProductTypeName>ABIS_DVD</ProductTypeName>
+        <Publisher>Walt Disney Studios Home Entertainment</Publisher>
+        <RegionCode>1</RegionCode>
+        <ReleaseDate>2011-03-08</ReleaseDate>
+        <RunningTime Units="minutes">118</RunningTime>
+        <SKU>ZB004CRR9G0Z2</SKU>
+        <Studio>Walt Disney Studios Home Entertainment</Studio>
+        <Title>Nausicaa of the Valley of the Wind (Two-Disc Blu-ray/DVD Combo)</Title>
+        <TradeInValue>
+          <Amount>1275</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$12.75</FormattedPrice>
+        </TradeInValue>
+        <UPC>786936810042</UPC>
+        <UPCList>
+          <UPCListElement>786936810042</UPCListElement>
+        </UPCList>
+      </ItemAttributes>
+      <OfferSummary>
+        <LowestNewPrice>
+          <Amount>2388</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$23.88</FormattedPrice>
+        </LowestNewPrice>
+        <LowestUsedPrice>
+          <Amount>2279</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$22.79</FormattedPrice>
+        </LowestUsedPrice>
+        <TotalNew>26</TotalNew>
+        <TotalUsed>4</TotalUsed>
+        <TotalCollectible>0</TotalCollectible>
+        <TotalRefurbished>0</TotalRefurbished>
+      </OfferSummary>
+      <Offers>
+        <TotalOffers>1</TotalOffers>
+        <TotalOfferPages>1</TotalOfferPages>
+        <MoreOffersUrl>http://www.amazon.com/gp/offer-listing/B004CRR9G0%3FSubscriptionId%3D1V5JRJ4JQCSHB3NGG902%26tag%3Dblogdivebombo-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3DB004CRR9G0</MoreOffersUrl>
+        <Offer>
+          <OfferAttributes>
+            <Condition>New</Condition>
+          </OfferAttributes>
+          <OfferListing>
+            <OfferListingId>frSqDU66fadn1nXVgnLzspiSip8ko%2FGuALDPhA1jTi%2BV8SJME2K4wjAa0XKQi%2B8YxlXLHKvqGuTs4E6GG0AZD0yLypFTFNtXuM%2BmelDD4nzO2TB5TjUAvg%3D%3D</OfferListingId>
+            <Price>
+              <Amount>2399</Amount>
+              <CurrencyCode>USD</CurrencyCode>
+              <FormattedPrice>$23.99</FormattedPrice>
+            </Price>
+            <AmountSaved>
+              <Amount>1600</Amount>
+              <CurrencyCode>USD</CurrencyCode>
+              <FormattedPrice>$16.00</FormattedPrice>
+            </AmountSaved>
+            <PercentageSaved>40</PercentageSaved>
+            <Availability>Usually ships in 24 hours</Availability>
+            <AvailabilityAttributes>
+              <AvailabilityType>now</AvailabilityType>
+              <MinimumHours>0</MinimumHours>
+              <MaximumHours>0</MaximumHours>
+            </AvailabilityAttributes>
             <IsEligibleForSuperSaverShipping>1</IsEligibleForSuperSaverShipping>
           </OfferListing>
         </Offer>
@@ -645,7 +1189,7 @@
     </Item>
     <Item>
       <ASIN>B0001XAPZ6</ASIN>
-      <SalesRank>2105</SalesRank>
+      <SalesRank>2103</SalesRank>
       <ItemAttributes>
         <Actor>Sumi Shimamoto</Actor>
         <Actor>Mahito Tsujimura</Actor>
@@ -655,16 +1199,21 @@
         <AspectRatio>1.85:1</AspectRatio>
         <AudienceRating>PG (Parental Guidance Suggested)</AudienceRating>
         <Binding>DVD</Binding>
-        <Brand>BUENA VISTA HOME VIDEO</Brand>
+        <Brand>Buena Vista Home Video</Brand>
         <Creator Role="Writer">Hayao Miyazaki</Creator>
         <Creator Role="Producer">Isao Takahata</Creator>
         <Creator Role="Producer">Michio Kondô</Creator>
         <Creator Role="Producer">Ned Lott</Creator>
         <Creator Role="Producer">Rick Dempsey</Creator>
-        <Creator Role="Producer">Tohru Hara</Creator>
+        <Creator Role="Producer">Toru Hara</Creator>
         <Creator Role="Producer">Yasuyoshi Tokuma</Creator>
         <Director>Hayao Miyazaki</Director>
         <EAN>9780788824005</EAN>
+        <EANList>
+          <EANListElement>9780788824005</EANListElement>
+          <EANListElement>0786936175240</EANListElement>
+        </EANList>
+        <Feature>From one of the most celebrated filmmakers in the history of animation and the creator of the Academy Award(R)-winning SPIRITED AWAY (Best Animated Featured Film, 2002) comes Hayao Miyazaki's epic masterpiece NAUSICA OF THE VALLEY OF THE WIND. A thousand years after a global war, a seaside kingdom known as the Valley Of The Wind remains one of only a few areas still populated. Led by the coura</Feature>
         <Format>Anamorphic</Format>
         <Format>Animated</Format>
         <Format>Color</Format>
@@ -672,9 +1221,23 @@
         <Format>DVD</Format>
         <Format>Widescreen</Format>
         <Format>NTSC</Format>
+        <IsAdultProduct>0</IsAdultProduct>
         <ISBN>0788824007</ISBN>
+        <IsEligibleForTradeIn>1</IsEligibleForTradeIn>
+        <ItemDimensions>
+          <Weight Units="hundredths-pounds">40</Weight>
+        </ItemDimensions>
         <Label>Walt Disney Home Entertainment</Label>
         <Languages>
+          <Language>
+            <Name>English</Name>
+            <Type>Unknown</Type>
+            <AudioFormat>Dolby Digital 2.1</AudioFormat>
+          </Language>
+          <Language>
+            <Name>English</Name>
+            <Type>Subtitled</Type>
+          </Language>
           <Language>
             <Name>English</Name>
             <Type>Original Language</Type>
@@ -684,10 +1247,6 @@
             <Name>Japanese</Name>
             <Type>Original Language</Type>
             <AudioFormat>Dolby Digital 2.1</AudioFormat>
-          </Language>
-          <Language>
-            <Name>English</Name>
-            <Type>Subtitled</Type>
           </Language>
           <Language>
             <Name>Japanese</Name>
@@ -702,550 +1261,220 @@
         </ListPrice>
         <Manufacturer>Walt Disney Home Entertainment</Manufacturer>
         <MPN>DISD25344D</MPN>
-        <NumberOfItems>2</NumberOfItems>
-        <OriginalReleaseDate>1985-06</OriginalReleaseDate>
+        <NumberOfDiscs>2</NumberOfDiscs>
+        <PackageQuantity>1</PackageQuantity>
+        <PartNumber>DISD25344D</PartNumber>
         <ProductGroup>DVD</ProductGroup>
         <ProductTypeName>ABIS_DVD</ProductTypeName>
         <Publisher>Walt Disney Home Entertainment</Publisher>
         <RegionCode>1</RegionCode>
         <ReleaseDate>2005-02-22</ReleaseDate>
-        <RunningTime Units="minutes">84</RunningTime>
+        <RunningTime Units="minutes">117</RunningTime>
+        <SKU>ZG04045-786936175240</SKU>
         <Studio>Walt Disney Home Entertainment</Studio>
-        <TheatricalReleaseDate>1985-06</TheatricalReleaseDate>
         <Title>Nausicaa of the Valley of the Wind</Title>
+        <TradeInValue>
+          <Amount>700</Amount>
+          <CurrencyCode>USD</CurrencyCode>
+          <FormattedPrice>$7.00</FormattedPrice>
+        </TradeInValue>
         <UPC>786936175240</UPC>
+        <UPCList>
+          <UPCListElement>786936175240</UPCListElement>
+        </UPCList>
       </ItemAttributes>
       <OfferSummary>
         <LowestNewPrice>
-          <Amount>2098</Amount>
+          <Amount>1795</Amount>
           <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$20.98</FormattedPrice>
+          <FormattedPrice>$17.95</FormattedPrice>
         </LowestNewPrice>
         <LowestUsedPrice>
-          <Amount>1750</Amount>
+          <Amount>1299</Amount>
           <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$17.50</FormattedPrice>
+          <FormattedPrice>$12.99</FormattedPrice>
         </LowestUsedPrice>
         <LowestCollectiblePrice>
           <Amount>2999</Amount>
           <CurrencyCode>USD</CurrencyCode>
           <FormattedPrice>$29.99</FormattedPrice>
         </LowestCollectiblePrice>
-        <TotalNew>41</TotalNew>
-        <TotalUsed>11</TotalUsed>
-        <TotalCollectible>1</TotalCollectible>
+        <TotalNew>46</TotalNew>
+        <TotalUsed>25</TotalUsed>
+        <TotalCollectible>3</TotalCollectible>
         <TotalRefurbished>0</TotalRefurbished>
       </OfferSummary>
       <Offers>
         <TotalOffers>1</TotalOffers>
         <TotalOfferPages>1</TotalOfferPages>
+        <MoreOffersUrl>http://www.amazon.com/gp/offer-listing/B0001XAPZ6%3FSubscriptionId%3D1V5JRJ4JQCSHB3NGG902%26tag%3Dblogdivebombo-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3DB0001XAPZ6</MoreOffersUrl>
         <Offer>
-          <Merchant>
-            <MerchantId>ATVPDKIKX0DER</MerchantId>
-            <GlancePage>http://www.amazon.com/gp/help/seller/home.html?seller=ATVPDKIKX0DER</GlancePage>
-            <AverageFeedbackRating>0.0</AverageFeedbackRating>
-            <TotalFeedback>0</TotalFeedback>
-          </Merchant>
           <OfferAttributes>
             <Condition>New</Condition>
-            <SubCondition>new</SubCondition>
           </OfferAttributes>
           <OfferListing>
-            <OfferListingId>mocb%2BHE7EDrjaWoBJBKRoVBPbpGLkdM4tf3mnuM49%2FV6zs%2FoU4chMPDGYLWI6jZN9VZvNmwQ%2BYSIoXh0WrUIog%3D%3D</OfferListingId>
+            <OfferListingId>5ohXYkg9W7tyrZbPj7UEgZqo9U0tIXcGoVI482wzwb2077wAVagIhZ4AVUgNh4rgHhCe%2BWZyCGa9LV77fl6qpKXza8VsP5LbKz3EuYhGHio%3D</OfferListingId>
             <Price>
-              <Amount>2349</Amount>
+              <Amount>1999</Amount>
               <CurrencyCode>USD</CurrencyCode>
-              <FormattedPrice>$23.49</FormattedPrice>
+              <FormattedPrice>$19.99</FormattedPrice>
             </Price>
             <AmountSaved>
-              <Amount>650</Amount>
+              <Amount>1000</Amount>
               <CurrencyCode>USD</CurrencyCode>
-              <FormattedPrice>$6.50</FormattedPrice>
+              <FormattedPrice>$10.00</FormattedPrice>
             </AmountSaved>
-            <PercentageSaved>22</PercentageSaved>
+            <PercentageSaved>33</PercentageSaved>
             <Availability>Usually ships in 24 hours</Availability>
             <AvailabilityAttributes>
               <AvailabilityType>now</AvailabilityType>
               <MinimumHours>0</MinimumHours>
               <MaximumHours>0</MaximumHours>
             </AvailabilityAttributes>
-            <Quantity>-1</Quantity>
             <IsEligibleForSuperSaverShipping>1</IsEligibleForSuperSaverShipping>
           </OfferListing>
         </Offer>
       </Offers>
     </Item>
     <Item>
-      <ASIN>B00005JKYG</ASIN>
-      <SalesRank>2146</SalesRank>
+      <ASIN>B002ZTQVBQ</ASIN>
+      <SalesRank>5854</SalesRank>
       <ItemAttributes>
-        <Actor>Mayumi Tanaka</Actor>
-        <Actor>James Van Der Beek</Actor>
-        <Actor>Anna Paquin</Actor>
-        <Actor>Keiko Yokozawa</Actor>
-        <Actor>Kotoe Hatsui</Actor>
+        <Actor>Noah Lindsey Cyrus</Actor>
+        <Actor>Frankie Jonas</Actor>
+        <Actor>Cate Blanchett</Actor>
+        <Actor>Liam Neeson</Actor>
+        <Actor>Tina Fey</Actor>
         <AspectRatio>1.85:1</AspectRatio>
-        <AudienceRating>NR (Not Rated)</AudienceRating>
-        <Binding>DVD</Binding>
-        <Creator Role="Editor">Hayao Miyazaki</Creator>
-        <Creator Role="Writer">Hayao Miyazaki</Creator>
-        <Creator Role="Editor">Takeshi Seyama</Creator>
-        <Creator Role="Producer">Hideo Ogata</Creator>
-        <Creator Role="Producer">Isao Takahata</Creator>
-        <Creator Role="Producer">Tatsumi Yamashita</Creator>
-        <Creator Role="Producer">Yasuyoshi Tokuma</Creator>
+        <AudienceRating>G (General Audience)</AudienceRating>
+        <Binding>Blu-ray</Binding>
+        <Brand>Buena Vista Home Video</Brand>
         <Director>Hayao Miyazaki</Director>
-        <EAN>9780788833977</EAN>
-        <Format>Animated</Format>
-        <Format>Closed-captioned</Format>
-        <Format>Color</Format>
-        <Format>Dolby</Format>
-        <Format>DVD</Format>
-        <Format>Widescreen</Format>
-        <Format>NTSC</Format>
-        <ISBN>0788833979</ISBN>
-        <Label>Walt Disney Video</Label>
+        <EAN>0786936791761</EAN>
+        <EANList>
+          <EANListElement>0786936791761</EANListElement>
+        </EANList>
+        <Feature>PONYO - 2-DISC BLU-RAY (BLU-RAY DISC)</Feature>
+        <Format>Multiple Formats</Format>
+        <IsAdultProduct>0</IsAdultProduct>
+        <IsEligibleForTradeIn>1</IsEligibleForTradeIn>
+        <ItemDimensions>
+          <Weight Units="hundredths-pounds">28</Weight>
+        </ItemDimensions>
+        <Label>Walt Disney Studios Home Entertainment</Label>
         <Languages>
           <Language>
             <Name>English</Name>
-            <Type>Original Language</Type>
-          </Language>
-          <Language>
-            <Name>French</Name>
-            <Type>Original Language</Type>
-          </Language>
-          <Language>
-            <Name>Japanese</Name>
-            <Type>Original Language</Type>
-          </Language>
-        </Languages>
-        <ListPrice>
-          <Amount>2999</Amount>
-          <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$29.99</FormattedPrice>
-        </ListPrice>
-        <Manufacturer>Walt Disney Video</Manufacturer>
-        <MPN>D25340D</MPN>
-        <NumberOfItems>2</NumberOfItems>
-        <OriginalReleaseDate>1986-01-01</OriginalReleaseDate>
-        <ProductGroup>DVD</ProductGroup>
-        <ProductTypeName>ABIS_DVD</ProductTypeName>
-        <Publisher>Walt Disney Video</Publisher>
-        <RegionCode>1</RegionCode>
-        <ReleaseDate>2003-04-15</ReleaseDate>
-        <RunningTime Units="minutes">124</RunningTime>
-        <Studio>Walt Disney Video</Studio>
-        <TheatricalReleaseDate>1986</TheatricalReleaseDate>
-        <Title>Castle in the Sky</Title>
-        <UPC>786936175219</UPC>
-      </ItemAttributes>
-      <OfferSummary>
-        <LowestNewPrice>
-          <Amount>1899</Amount>
-          <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$18.99</FormattedPrice>
-        </LowestNewPrice>
-        <LowestUsedPrice>
-          <Amount>1443</Amount>
-          <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$14.43</FormattedPrice>
-        </LowestUsedPrice>
-        <LowestCollectiblePrice>
-          <Amount>2999</Amount>
-          <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$29.99</FormattedPrice>
-        </LowestCollectiblePrice>
-        <TotalNew>41</TotalNew>
-        <TotalUsed>21</TotalUsed>
-        <TotalCollectible>1</TotalCollectible>
-        <TotalRefurbished>0</TotalRefurbished>
-      </OfferSummary>
-      <Offers>
-        <TotalOffers>1</TotalOffers>
-        <TotalOfferPages>1</TotalOfferPages>
-        <Offer>
-          <Merchant>
-            <MerchantId>ATVPDKIKX0DER</MerchantId>
-            <GlancePage>http://www.amazon.com/gp/help/seller/home.html?seller=ATVPDKIKX0DER</GlancePage>
-            <AverageFeedbackRating>0.0</AverageFeedbackRating>
-            <TotalFeedback>0</TotalFeedback>
-          </Merchant>
-          <OfferAttributes>
-            <Condition>New</Condition>
-            <SubCondition>new</SubCondition>
-          </OfferAttributes>
-          <OfferListing>
-            <OfferListingId>jRxHgJ3A2I3w9AtdcfaSpZve8m3lT2LEAxtQGQxnXg0RgQqlMYHZFgHLwIuXLDBi2BxDxBdPD1oiPgoV%2BdZkPQ%3D%3D</OfferListingId>
-            <Price>
-              <Amount>2249</Amount>
-              <CurrencyCode>USD</CurrencyCode>
-              <FormattedPrice>$22.49</FormattedPrice>
-            </Price>
-            <AmountSaved>
-              <Amount>750</Amount>
-              <CurrencyCode>USD</CurrencyCode>
-              <FormattedPrice>$7.50</FormattedPrice>
-            </AmountSaved>
-            <PercentageSaved>25</PercentageSaved>
-            <Availability>Usually ships in 24 hours</Availability>
-            <AvailabilityAttributes>
-              <AvailabilityType>now</AvailabilityType>
-              <MinimumHours>0</MinimumHours>
-              <MaximumHours>0</MaximumHours>
-            </AvailabilityAttributes>
-            <Quantity>-1</Quantity>
-            <IsEligibleForSuperSaverShipping>1</IsEligibleForSuperSaverShipping>
-          </OfferListing>
-        </Offer>
-      </Offers>
-    </Item>
-    <Item>
-      <ASIN>B0001XAPY2</ASIN>
-      <SalesRank>2622</SalesRank>
-      <ItemAttributes>
-        <Actor>Shûichirô Moriyama</Actor>
-        <Actor>Tokiko Kato</Actor>
-        <Actor>Sanshi Katsura</Actor>
-        <Actor>Greg Ellis</Actor>
-        <Actor>Tsunehiko Kamijô</Actor>
-        <AspectRatio>1.85:1</AspectRatio>
-        <AudienceRating>PG (Parental Guidance Suggested)</AudienceRating>
-        <Binding>DVD</Binding>
-        <Brand>BUENA VISTA HOME VIDEO</Brand>
-        <Creator Role="Writer">Hayao Miyazaki</Creator>
-        <Creator Role="Producer">Matsuo Toshimitsu</Creator>
-        <Creator Role="Producer">Ned Lott</Creator>
-        <Creator Role="Producer">Rick Dempsey</Creator>
-        <Creator Role="Producer">Sokai Tokuma</Creator>
-        <Creator Role="Producer">Yasuyoshi Tokuma</Creator>
-        <Creator Role="Producer">Yoshio Sasaki</Creator>
-        <Director>Hayao Miyazaki</Director>
-        <EAN>9780788834028</EAN>
-        <Format>Color</Format>
-        <Format>Dolby</Format>
-        <Format>Dubbed</Format>
-        <Format>DVD</Format>
-        <Format>Widescreen</Format>
-        <Format>NTSC</Format>
-        <ISBN>0788834029</ISBN>
-        <Label>Walt Disney Home Entertainment</Label>
-        <Languages>
-          <Language>
-            <Name>English</Name>
-            <Type>Original Language</Type>
-            <AudioFormat>Dolby Digital 2.1</AudioFormat>
-          </Language>
-          <Language>
-            <Name>French</Name>
-            <Type>Original Language</Type>
-            <AudioFormat>Unknown</AudioFormat>
-          </Language>
-          <Language>
-            <Name>Japanese</Name>
-            <Type>Original Language</Type>
-            <AudioFormat>Unknown</AudioFormat>
+            <Type>Unknown</Type>
           </Language>
           <Language>
             <Name>English</Name>
             <Type>Subtitled</Type>
           </Language>
           <Language>
-            <Name>Japanese</Name>
-            <Type>Dubbed</Type>
-            <AudioFormat>Unknown</AudioFormat>
-          </Language>
-        </Languages>
-        <ListPrice>
-          <Amount>2999</Amount>
-          <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$29.99</FormattedPrice>
-        </ListPrice>
-        <Manufacturer>Walt Disney Home Entertainment</Manufacturer>
-        <MPN>DISD25348D</MPN>
-        <NumberOfItems>2</NumberOfItems>
-        <OriginalReleaseDate>1992-01-01</OriginalReleaseDate>
-        <ProductGroup>DVD</ProductGroup>
-        <ProductTypeName>ABIS_DVD</ProductTypeName>
-        <Publisher>Walt Disney Home Entertainment</Publisher>
-        <RegionCode>1</RegionCode>
-        <ReleaseDate>2005-02-22</ReleaseDate>
-        <RunningTime Units="minutes">94</RunningTime>
-        <Studio>Walt Disney Home Entertainment</Studio>
-        <TheatricalReleaseDate>1992</TheatricalReleaseDate>
-        <Title>Porco Rosso</Title>
-        <UPC>786936175264</UPC>
-      </ItemAttributes>
-      <OfferSummary>
-        <LowestNewPrice>
-          <Amount>1935</Amount>
-          <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$19.35</FormattedPrice>
-        </LowestNewPrice>
-        <LowestUsedPrice>
-          <Amount>399</Amount>
-          <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$3.99</FormattedPrice>
-        </LowestUsedPrice>
-        <TotalNew>43</TotalNew>
-        <TotalUsed>18</TotalUsed>
-        <TotalCollectible>0</TotalCollectible>
-        <TotalRefurbished>0</TotalRefurbished>
-      </OfferSummary>
-      <Offers>
-        <TotalOffers>1</TotalOffers>
-        <TotalOfferPages>1</TotalOfferPages>
-        <Offer>
-          <Merchant>
-            <MerchantId>ATVPDKIKX0DER</MerchantId>
-            <GlancePage>http://www.amazon.com/gp/help/seller/home.html?seller=ATVPDKIKX0DER</GlancePage>
-            <AverageFeedbackRating>0.0</AverageFeedbackRating>
-            <TotalFeedback>0</TotalFeedback>
-          </Merchant>
-          <OfferAttributes>
-            <Condition>New</Condition>
-            <SubCondition>new</SubCondition>
-          </OfferAttributes>
-          <OfferListing>
-            <OfferListingId>%2FNhJiHBBA3YtHKUFDKpPe2G%2B5j3IMsuFhMlPA9gyEpl0hHMESb8kYX5c6hnRnM3DOxtRtYOx5W0XMMSr%2BYmNsg%3D%3D</OfferListingId>
-            <Price>
-              <Amount>2049</Amount>
-              <CurrencyCode>USD</CurrencyCode>
-              <FormattedPrice>$20.49</FormattedPrice>
-            </Price>
-            <AmountSaved>
-              <Amount>950</Amount>
-              <CurrencyCode>USD</CurrencyCode>
-              <FormattedPrice>$9.50</FormattedPrice>
-            </AmountSaved>
-            <PercentageSaved>32</PercentageSaved>
-            <Availability>Usually ships in 24 hours</Availability>
-            <AvailabilityAttributes>
-              <AvailabilityType>now</AvailabilityType>
-              <MinimumHours>0</MinimumHours>
-              <MaximumHours>0</MaximumHours>
-            </AvailabilityAttributes>
-            <Quantity>-1</Quantity>
-            <IsEligibleForSuperSaverShipping>1</IsEligibleForSuperSaverShipping>
-          </OfferListing>
-        </Offer>
-      </Offers>
-    </Item>
-    <Item>
-      <ASIN>B000FGG5NK</ASIN>
-      <SalesRank>6233</SalesRank>
-      <ItemAttributes>
-        <Actor>Bob Bergen</Actor>
-        <Actor>Yasuo Yamada</Actor>
-        <Actor>Eiko Masuyama</Actor>
-        <Actor>Kiyoshi Kobayashi</Actor>
-        <Actor>Makio Inoue</Actor>
-        <AspectRatio>1.77:1</AspectRatio>
-        <AudienceRating>PG-13 (Parental Guidance Suggested)</AudienceRating>
-        <Binding>DVD</Binding>
-        <Creator Role="Writer">Hayao Miyazaki</Creator>
-        <Creator Role="Producer">Carl Macek</Creator>
-        <Creator Role="Producer">Tetsuo Katayama</Creator>
-        <Creator Role="Producer">Yutaka Fujioka</Creator>
-        <Creator Role="Writer">Maurice Leblanc</Creator>
-        <Creator Role="Writer">Monkey Punch</Creator>
-        <Creator Role="Writer">Tadashi Yamazaki</Creator>
-        <Director>Hayao Miyazaki</Director>
-        <EAN>0013138206695</EAN>
-        <Format>Animated</Format>
-        <Format>Color</Format>
-        <Format>DVD</Format>
-        <Format>Special Edition</Format>
-        <Format>Subtitled</Format>
-        <Format>Widescreen</Format>
-        <Format>NTSC</Format>
-        <IsEligibleForTradeIn>1</IsEligibleForTradeIn>
-        <Label>Manga Video</Label>
-        <Languages>
-          <Language>
-            <Name>English</Name>
-            <Type>Original Language</Type>
-            <AudioFormat>Dolby Digital 2.0 Stereo</AudioFormat>
-          </Language>
-          <Language>
             <Name>French</Name>
-            <Type>Original Language</Type>
-            <AudioFormat>Dolby Digital 2.0 Stereo</AudioFormat>
-          </Language>
-          <Language>
-            <Name>Japanese</Name>
-            <Type>Original Language</Type>
-            <AudioFormat>Dolby Digital 2.0 Stereo</AudioFormat>
+            <Type>Subtitled</Type>
           </Language>
           <Language>
             <Name>Spanish</Name>
-            <Type>Original Language</Type>
-            <AudioFormat>Dolby Digital 2.0 Stereo</AudioFormat>
+            <Type>Subtitled</Type>
           </Language>
           <Language>
             <Name>English</Name>
-            <Type>Subtitled</Type>
+            <Type>Original Language</Type>
+          </Language>
+          <Language>
+            <Name>Japanese</Name>
+            <Type>Original Language</Type>
+          </Language>
+          <Language>
+            <Name>French</Name>
+            <Type>Original Language</Type>
+          </Language>
+          <Language>
+            <Name>English</Name>
+            <Type>Dubbed</Type>
+          </Language>
+          <Language>
+            <Name>French</Name>
+            <Type>Dubbed</Type>
           </Language>
         </Languages>
         <ListPrice>
-          <Amount>1997</Amount>
+          <Amount>3999</Amount>
           <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$19.97</FormattedPrice>
+          <FormattedPrice>$39.99</FormattedPrice>
         </ListPrice>
-        <Manufacturer>Manga Video</Manufacturer>
-        <MPN>MANDM2066D</MPN>
-        <NumberOfItems>1</NumberOfItems>
-        <OriginalReleaseDate>1991-04-03</OriginalReleaseDate>
+        <Manufacturer>Walt Disney Studios Home Entertainment</Manufacturer>
+        <MPN>DISBR101856</MPN>
+        <NumberOfDiscs>2</NumberOfDiscs>
+        <PackageQuantity>1</PackageQuantity>
+        <PartNumber>DISBR101856</PartNumber>
         <ProductGroup>DVD</ProductGroup>
         <ProductTypeName>ABIS_DVD</ProductTypeName>
-        <Publisher>Manga Video</Publisher>
+        <Publisher>Walt Disney Studios Home Entertainment</Publisher>
         <RegionCode>1</RegionCode>
-        <ReleaseDate>2006-08-29</ReleaseDate>
-        <RunningTime Units="minutes">102</RunningTime>
-        <Studio>Manga Video</Studio>
-        <TheatricalReleaseDate>1991-04-03</TheatricalReleaseDate>
-        <Title>Lupin the III: The Castle of Cagliostro (Special Edition)</Title>
+        <ReleaseDate>2010-03-02</ReleaseDate>
+        <RunningTime Units="minutes">103</RunningTime>
+        <SKU>1MX3KQ000792</SKU>
+        <Studio>Walt Disney Studios Home Entertainment</Studio>
+        <Title>Ponyo (Two-Disc Blu-ray/DVD Combo)</Title>
         <TradeInValue>
-          <Amount>450</Amount>
+          <Amount>840</Amount>
           <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$4.50</FormattedPrice>
+          <FormattedPrice>$8.40</FormattedPrice>
         </TradeInValue>
-        <UPC>013138206695</UPC>
+        <UPC>786936791761</UPC>
+        <UPCList>
+          <UPCListElement>786936791761</UPCListElement>
+        </UPCList>
       </ItemAttributes>
       <OfferSummary>
         <LowestNewPrice>
-          <Amount>1012</Amount>
+          <Amount>2200</Amount>
           <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$10.12</FormattedPrice>
+          <FormattedPrice>$22.00</FormattedPrice>
         </LowestNewPrice>
         <LowestUsedPrice>
-          <Amount>905</Amount>
+          <Amount>1487</Amount>
           <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$9.05</FormattedPrice>
+          <FormattedPrice>$14.87</FormattedPrice>
         </LowestUsedPrice>
-        <LowestCollectiblePrice>
-          <Amount>2497</Amount>
-          <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$24.97</FormattedPrice>
-        </LowestCollectiblePrice>
         <TotalNew>30</TotalNew>
-        <TotalUsed>11</TotalUsed>
-        <TotalCollectible>1</TotalCollectible>
+        <TotalUsed>12</TotalUsed>
+        <TotalCollectible>0</TotalCollectible>
         <TotalRefurbished>0</TotalRefurbished>
       </OfferSummary>
       <Offers>
         <TotalOffers>1</TotalOffers>
         <TotalOfferPages>1</TotalOfferPages>
+        <MoreOffersUrl>http://www.amazon.com/gp/offer-listing/B002ZTQVBQ%3FSubscriptionId%3D1V5JRJ4JQCSHB3NGG902%26tag%3Dblogdivebombo-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3DB002ZTQVBQ</MoreOffersUrl>
         <Offer>
-          <Merchant>
-            <MerchantId>ATVPDKIKX0DER</MerchantId>
-            <GlancePage>http://www.amazon.com/gp/help/seller/home.html?seller=ATVPDKIKX0DER</GlancePage>
-            <AverageFeedbackRating>0.0</AverageFeedbackRating>
-            <TotalFeedback>0</TotalFeedback>
-          </Merchant>
           <OfferAttributes>
             <Condition>New</Condition>
-            <SubCondition>new</SubCondition>
           </OfferAttributes>
           <OfferListing>
-            <OfferListingId>fbHDoU2iZUQyW1Sdq7E4KkcK5GyNY6JOfVe5rmbmDd7aqUhPbNd7ppxhbKeK9VYT5DrwC%2BYxsKTGc9otk0iSIQ%3D%3D</OfferListingId>
+            <OfferListingId>vxg7p0U45754aupplgOFFTQPqJ6b2gdqmhoDszvBni%2FhK1OMWTxrp8Jm5SzgH99%2B%2BDopizJUxe0pb%2BgZzBBPC7oyGVnVxR8S8pNXgW3su2UAdaGme1fiLQ%3D%3D</OfferListingId>
             <Price>
-              <Amount>1099</Amount>
+              <Amount>2599</Amount>
               <CurrencyCode>USD</CurrencyCode>
-              <FormattedPrice>$10.99</FormattedPrice>
+              <FormattedPrice>$25.99</FormattedPrice>
             </Price>
             <AmountSaved>
-              <Amount>898</Amount>
+              <Amount>1400</Amount>
               <CurrencyCode>USD</CurrencyCode>
-              <FormattedPrice>$8.98</FormattedPrice>
+              <FormattedPrice>$14.00</FormattedPrice>
             </AmountSaved>
-            <PercentageSaved>45</PercentageSaved>
+            <PercentageSaved>35</PercentageSaved>
             <Availability>Usually ships in 24 hours</Availability>
             <AvailabilityAttributes>
               <AvailabilityType>now</AvailabilityType>
               <MinimumHours>0</MinimumHours>
               <MaximumHours>0</MaximumHours>
             </AvailabilityAttributes>
-            <Quantity>-1</Quantity>
-            <QuantityRestriction>
-              <QuantityLimit>10</QuantityLimit>
-            </QuantityRestriction>
             <IsEligibleForSuperSaverShipping>1</IsEligibleForSuperSaverShipping>
           </OfferListing>
         </Offer>
-      </Offers>
-    </Item>
-    <Item>
-      <ASIN>B00003CXCZ</ASIN>
-      <SalesRank>6053</SalesRank>
-      <ItemAttributes>
-        <Actor>Hitoshi Takagi</Actor>
-        <Actor>Noriko Hidaka</Actor>
-        <Actor>Chika Sakamoto</Actor>
-        <Actor>Shigesato Itoi</Actor>
-        <Actor>Sumi Shimamoto</Actor>
-        <AspectRatio>1.33:1</AspectRatio>
-        <AudienceRating>G (General Audience)</AudienceRating>
-        <Binding>DVD</Binding>
-        <Creator Role="Cinematographer">Mark Henley</Creator>
-        <Creator Role="Writer">Hayao Miyazaki</Creator>
-        <Creator Role="Editor">Takeshi Seyama</Creator>
-        <Creator Role="Producer">Ned Lott</Creator>
-        <Creator Role="Producer">Rick Dempsey</Creator>
-        <Creator Role="Producer">Tohru Hara</Creator>
-        <Creator Role="Producer">Yasuyoshi Tokuma</Creator>
-        <Director>Hayao Miyazaki</Director>
-        <EAN>0024543061663</EAN>
-        <Format>Animated</Format>
-        <Format>Color</Format>
-        <Format>DVD</Format>
-        <Format>Full Screen</Format>
-        <Format>NTSC</Format>
-        <Label>20th Century Fox</Label>
-        <Languages>
-          <Language>
-            <Name>English</Name>
-            <Type>Original Language</Type>
-            <AudioFormat>Dolby Digital 2.0 Surround</AudioFormat>
-          </Language>
-        </Languages>
-        <ListPrice>
-          <Amount>998</Amount>
-          <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$9.98</FormattedPrice>
-        </ListPrice>
-        <Manufacturer>20th Century Fox</Manufacturer>
-        <NumberOfItems>1</NumberOfItems>
-        <OriginalReleaseDate>1988-01-01</OriginalReleaseDate>
-        <ProductGroup>DVD</ProductGroup>
-        <ProductTypeName>ABIS_DVD</ProductTypeName>
-        <Publisher>20th Century Fox</Publisher>
-        <RegionCode>1</RegionCode>
-        <ReleaseDate>2002-12-03</ReleaseDate>
-        <RunningTime Units="minutes">86</RunningTime>
-        <Studio>20th Century Fox</Studio>
-        <TheatricalReleaseDate>1988</TheatricalReleaseDate>
-        <Title>My Neighbor Totoro (Full Screen Edition)</Title>
-        <UPC>024543061663</UPC>
-      </ItemAttributes>
-      <OfferSummary>
-        <LowestNewPrice>
-          <Amount>898</Amount>
-          <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$8.98</FormattedPrice>
-        </LowestNewPrice>
-        <LowestUsedPrice>
-          <Amount>833</Amount>
-          <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$8.33</FormattedPrice>
-        </LowestUsedPrice>
-        <TotalNew>2</TotalNew>
-        <TotalUsed>24</TotalUsed>
-        <TotalCollectible>0</TotalCollectible>
-        <TotalRefurbished>0</TotalRefurbished>
-      </OfferSummary>
-      <Offers>
-        <TotalOffers>0</TotalOffers>
-        <TotalOfferPages>0</TotalOfferPages>
       </Offers>
     </Item>
   </Items>

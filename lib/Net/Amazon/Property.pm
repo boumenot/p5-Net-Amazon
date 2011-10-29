@@ -113,7 +113,7 @@ sub new {
             # Walk the BrowseNode Ancestors and collect the other BrowseNode Ids
             for (my $ref = $bn->{Ancestors}->{BrowseNode}; defined $ref; $ref = $ref->{Ancestors}->{BrowseNode}) {    
                 # The BrowseNodeId is also available...
-                push @browse_nodes, $ref->{Name};     
+                push @browse_nodes, $ref->{Name} if defined($ref->{Name});
             }
         }
     }

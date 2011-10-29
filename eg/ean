@@ -9,9 +9,10 @@ use Net::Amazon;
 #Log::Log4perl->easy_init($DEBUG);
 
 my $ua = Net::Amazon->new(
-   token       => $ENV{AMAZON_TOKEN},
-   secret_key  => $ENV{AMAZON_SECRET_KEY},
-   locale      => 'uk',
+    associate_tag => $ENV{AMAZON_ASSOCIATE_TAG},
+    token         => $ENV{AMAZON_TOKEN},
+    secret_key    => $ENV{AMAZON_SECRET_KEY},
+    locale      => 'uk',
 );
 
 die "usage: $0 ean\n" unless defined $ARGV[0];

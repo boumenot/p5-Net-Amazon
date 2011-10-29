@@ -4,8 +4,12 @@ use warnings;
 use strict;
 
 use Net::Amazon;
+use Log::Log4perl qw(:easy);
+Log::Log4perl->easy_init($DEBUG);
+
 
 my $ua = Net::Amazon->new(
+    associate_tag => $ENV{AMAZON_ASSOCIATE_TAG},
     token         => $ENV{AMAZON_TOKEN},
     secret_key    => $ENV{AMAZON_SECRET_KEY},
     response_dump => 1, 
@@ -13,5 +17,5 @@ my $ua = Net::Amazon->new(
 
 
 my $resp = $ua->search(
-    seller => 'A23JJ2BNHZMFCO',
+    seller => 'A4G8XK4HCZ00J',
 );

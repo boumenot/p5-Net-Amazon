@@ -24,6 +24,7 @@ $CANNED = File::Spec->catfile("t", "canned") unless -d $CANNED;
 canned("textstream.xml");
 
 my $ua = Net::Amazon->new(
+    associate_tag => 'YOUR_AMZN_ASSOCIATE_TAG',
     token       => 'YOUR_AMZN_TOKEN',
     secret_key  => 'YOUR_AMZN_SECRET_KEY',
 );
@@ -39,7 +40,7 @@ ok($resp->is_success(), "Successful fetch");
 # Check result
 ######################################################################
 my $p = ($resp->properties)[0];
-is($p->publisher(), "HarperBusiness", "Check publisher");
+is($p->publisher(), "Addison-Wesley Professional", "Check publisher");
 
 ######################################################################
 # handle canned responses

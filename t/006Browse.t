@@ -34,6 +34,7 @@ if(! exists $ENV{NET_AMAZON_LIVE_TESTS}) {
 # Successful Browse Node search
 ######################################################################
 my $ua = Net::Amazon->new(
+    associate_tag => 'YOUR_AMZN_ASSOCIATE_TAG',
     token       => 'YOUR_AMZN_TOKEN',
     secret_key  => 'YOUR_AMZN_SECRET_KEY',
 );
@@ -49,8 +50,8 @@ ok($resp->is_success(), "Successful browse node fetch");
 like($resp->as_string(), qr/1571691014/, "Found Cgi Programming Interactive");
 like($resp->as_string(), qr/1562439588/, "Found Mastering Cgi/Perl");
 like($resp->as_string(), qr/1585770671/, "Found: Developing CGI scripts");
-is(($resp->properties())[0]->TotalOffers(), 0, "Checking total offers");
+is(($resp->properties())[0]->TotalOffers(), 1, "Checking total offers");
 my $nodes = join('&', ($resp->properties())[0]->browse_nodes());
-is($nodes, "General&Networks, Protocols & APIs&Networking&Computers & Internet&Subjects&Books&General AAS&Networks, Protocols & APIs&Networking&Computers & Internet&Subjects&Books&CGI Programming&Languages & Tools&Programming&Computers & Internet&Subjects&Books&General&Languages & Tools&Programming&Computers & Internet&Subjects&Books&General AAS&Languages & Tools&Programming&Computers & Internet&Subjects&Books&General&Programming&Computers & Internet&Subjects&Books&General AAS&Programming&Computers & Internet&Subjects&Books&General&Software&Computers & Internet&Subjects&Books&General AAS&Software&Computers & Internet&Subjects&Books&General&Programming&Web Development&Computers & Internet&Subjects&Books&General AAS&Programming&Web Development&Computers & Internet&Subjects&Books&General&Computers & Internet&Subjects&Books&General AAS&Computers & Internet&Subjects&Books&Paperback&Binding (binding)&Refinements&Books&Printed Books&Format (feature_browse-bin)&Refinements&Books");
+is($nodes, "Networks, Protocols & APIs&Networking&Computers & Internet&Subjects&Books&Languages & Tools&Programming&Computers & Internet&Subjects&Books&Software&Computers & Internet&Subjects&Books&Programming&Web Development&Computers & Internet&Subjects&Books&Networking&Computer Science&New & Used Textbooks&Specialty Boutique&Books&Programming Languages&Computer Science&New & Used Textbooks&Specialty Boutique&Books&All product&Products&Books&Products&Books&Deep discounts&Special Features");
 
 __END__

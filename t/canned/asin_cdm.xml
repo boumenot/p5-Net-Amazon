@@ -1,76 +1,97 @@
 <?xml version="1.0"?>
-<ItemLookupResponse xmlns="http://webservices.amazon.com/AWSECommerceService/2009-07-01">
+<ItemLookupResponse xmlns="http://webservices.amazon.com/AWSECommerceService/2011-08-01">
   <Items>
     <Item>
       <ASIN>B00005A46I</ASIN>
-      <SalesRank>28617</SalesRank>
+      <SalesRank>40321</SalesRank>
       <ItemAttributes>
         <Artist>Anne Sofie von Otter</Artist>
         <Artist>Elvis Costello</Artist>
         <Binding>Audio CD</Binding>
+        <Brand>VON OTTER,ANNE SOFI</Brand>
+        <CatalogNumberList>
+          <CatalogNumberListElement>469530</CatalogNumberListElement>
+        </CatalogNumberList>
         <EAN>0028946953020</EAN>
+        <EANList>
+          <EANListElement>0028946953020</EANListElement>
+        </EANList>
+        <ItemDimensions>
+          <Height Units="hundredths-inches">500</Height>
+          <Length Units="hundredths-inches">50</Length>
+          <Weight Units="hundredths-pounds">24</Weight>
+          <Width Units="hundredths-inches">575</Width>
+        </ItemDimensions>
         <Label>Deutsche Grammophon</Label>
+        <Languages>
+          <Language>
+            <Name>English</Name>
+            <Type>Original Language</Type>
+          </Language>
+        </Languages>
         <ListPrice>
           <Amount>1798</Amount>
           <CurrencyCode>USD</CurrencyCode>
           <FormattedPrice>$17.98</FormattedPrice>
         </ListPrice>
         <Manufacturer>Deutsche Grammophon</Manufacturer>
-        <MPN>469530</MPN>
         <NumberOfDiscs>1</NumberOfDiscs>
-        <OriginalReleaseDate>2001-04-10</OriginalReleaseDate>
+        <PackageQuantity>1</PackageQuantity>
         <ProductGroup>Music</ProductGroup>
         <ProductTypeName>ABIS_MUSIC</ProductTypeName>
         <Publisher>Deutsche Grammophon</Publisher>
         <ReleaseDate>2001-04-10</ReleaseDate>
+        <SKU>jp-bk-B00005A46I-2-1</SKU>
         <Studio>Deutsche Grammophon</Studio>
         <Title>For the Stars</Title>
         <UPC>028946953020</UPC>
+        <UPCList>
+          <UPCListElement>028946953020</UPCListElement>
+        </UPCList>
       </ItemAttributes>
       <OfferSummary>
         <LowestNewPrice>
-          <Amount>442</Amount>
+          <Amount>563</Amount>
           <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$4.42</FormattedPrice>
+          <FormattedPrice>$5.63</FormattedPrice>
         </LowestNewPrice>
         <LowestUsedPrice>
-          <Amount>47</Amount>
+          <Amount>1</Amount>
           <CurrencyCode>USD</CurrencyCode>
-          <FormattedPrice>$0.47</FormattedPrice>
+          <FormattedPrice>$0.01</FormattedPrice>
         </LowestUsedPrice>
-        <TotalNew>27</TotalNew>
-        <TotalUsed>48</TotalUsed>
+        <TotalNew>48</TotalNew>
+        <TotalUsed>71</TotalUsed>
         <TotalCollectible>0</TotalCollectible>
         <TotalRefurbished>0</TotalRefurbished>
       </OfferSummary>
       <Offers>
         <TotalOffers>1</TotalOffers>
         <TotalOfferPages>1</TotalOfferPages>
+        <MoreOffersUrl>http://www.amazon.com/gp/offer-listing/B00005A46I%3FSubscriptionId%3D1V5JRJ4JQCSHB3NGG902%26tag%3Dblogdivebombo-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D386001%26creativeASIN%3DB00005A46I</MoreOffersUrl>
         <Offer>
-          <Merchant>
-            <MerchantId>ATVPDKIKX0DER</MerchantId>
-            <GlancePage>http://www.amazon.com/gp/help/seller/home.html?seller=ATVPDKIKX0DER</GlancePage>
-            <AverageFeedbackRating>0.0</AverageFeedbackRating>
-            <TotalFeedback>0</TotalFeedback>
-          </Merchant>
           <OfferAttributes>
             <Condition>New</Condition>
-            <SubCondition>new</SubCondition>
           </OfferAttributes>
           <OfferListing>
-            <OfferListingId>tMZPNDW9g9E4HNiEUsihdNEJ%2Bs9uXOWhSw5TvZnnVQge2yGdwEh53fyZ%2Fpsp2MSDDv3oY3nXS6V39dChcwsFRQ%3D%3D</OfferListingId>
+            <OfferListingId>QRZAsfNhtqQNI9ADf8nu5kDllU8kGf%2FLQv2K9IGZWelrhF6TlDolkuGtH5AlVOI%2FxbItDLC3SZK6mSfr5wQKLVSXB3NZohCkGdCToa8KY8A%3D</OfferListingId>
             <Price>
-              <Amount>1798</Amount>
+              <Amount>1337</Amount>
               <CurrencyCode>USD</CurrencyCode>
-              <FormattedPrice>$17.98</FormattedPrice>
+              <FormattedPrice>$13.37</FormattedPrice>
             </Price>
+            <AmountSaved>
+              <Amount>461</Amount>
+              <CurrencyCode>USD</CurrencyCode>
+              <FormattedPrice>$4.61</FormattedPrice>
+            </AmountSaved>
+            <PercentageSaved>26</PercentageSaved>
             <Availability>Usually ships in 24 hours</Availability>
             <AvailabilityAttributes>
               <AvailabilityType>now</AvailabilityType>
               <MinimumHours>0</MinimumHours>
               <MaximumHours>0</MaximumHours>
             </AvailabilityAttributes>
-            <Quantity>-1</Quantity>
             <IsEligibleForSuperSaverShipping>1</IsEligibleForSuperSaverShipping>
           </OfferListing>
         </Offer>

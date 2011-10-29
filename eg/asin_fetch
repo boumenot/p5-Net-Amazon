@@ -16,8 +16,9 @@ use Log::Log4perl qw(:easy);
 Log::Log4perl->easy_init({level => $INFO, layout => '%F{1}-%L: %m%n'});
 
 my $ua = Net::Amazon->new(
+    associate_tag => $ENV{AMAZON_ASSOCIATE_TAG},
     token         => $ENV{AMAZON_TOKEN},
-    secret_key  => $ENV{AMAZON_SECRET_KEY},
+    secret_key    => $ENV{AMAZON_SECRET_KEY},
     #response_dump => 0,
 );
 

@@ -34,6 +34,7 @@ if(! exists $ENV{NET_AMAZON_LIVE_TESTS}) {
 # Successful Power search
 ######################################################################
 my $ua = Net::Amazon->new(
+    associate_tag => 'YOUR_AMZN_ASSOCIATE_TAG',
     token       => 'YOUR_AMZN_TOKEN',
     secret_key  => 'YOUR_AMZN_SECRET_KEY',
 );
@@ -54,6 +55,7 @@ is($resp->total_results(), 4, "Found 4 total results");
 # Power search with different sorting method
 ######################################################################
 $ua = Net::Amazon->new(
+    associate_tag => 'YOUR_AMZN_ASSOCIATE_TAG',
     token       => 'YOUR_AMZN_TOKEN',
     secret_key  => 'YOUR_AMZN_SECRET_KEY',
 );
@@ -80,6 +82,7 @@ my @sorted_prices = sort { $a <=> $b } @prices;
 # Power search with empty result
 ######################################################################
 $ua = Net::Amazon->new(
+    associate_tag => 'YOUR_AMZN_ASSOCIATE_TAG',
     token       => 'YOUR_AMZN_TOKEN',
     secret_key  => 'YOUR_AMZN_SECRET_KEY',
 );
@@ -95,6 +98,7 @@ ok(!$resp->is_success(), "Power fetch came back empty");
 # Similar products (could be with any other search, not just 'power')
 ######################################################################
 $ua = Net::Amazon->new(
+    associate_tag => 'YOUR_AMZN_ASSOCIATE_TAG',
     token       => 'YOUR_AMZN_TOKEN',
     secret_key  => 'YOUR_AMZN_SECRET_KEY',
 );

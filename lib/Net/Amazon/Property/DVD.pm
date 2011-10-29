@@ -79,8 +79,10 @@ sub init_via_xmlref {
 
     $self->media($ref->{Binding});
 
-    $self->NumMedia($ref->{NumberOfItems});
-    $self->nummedia($ref->{NumberOfItems});
+    # $self->NumMedia($ref->{NumberOfItems});
+    # $self->nummedia($ref->{NumberOfItems});
+    $self->NumMedia($ref->{NumberOfDiscs});
+    $self->nummedia($ref->{NumberOfDiscs});
 
     if ( defined $ref->{TheatricalReleaseDate} ) {
         my $year =  (split(/\-/, $ref->{TheatricalReleaseDate}))[0];
@@ -152,6 +154,9 @@ Returns the DVD's number of media (number of discs) as a string.
 =item theatrical_release_date()
 
 Returns the DVD's theatrical release date.
+
+As of Net::Amazon 0.61 this method has been deprecated.  It appears that 
+this information is no longer from Amazon.
 
 =item mpaa_rating()
 

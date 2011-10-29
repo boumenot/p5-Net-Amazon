@@ -29,6 +29,7 @@ $CANNED = File::Spec->catfile("t", "canned") unless -d $CANNED;
 canned("isbn.xml");
 
 my $ua = Net::Amazon->new(
+    associate_tag => 'YOUR_AMZN_ASSOCIATE_TAG',
     token       => 'YOUR_AMZN_TOKEN',
     secret_key  => 'YOUR_AMZN_SECRET_KEY',
 );
@@ -60,6 +61,7 @@ is($p->publisher(), "Scholastic, Inc.", "Publisher is Scholastic, Inc.");
 canned("isbn-de.xml");
 
 $ua = Net::Amazon->new(
+    associate_tag => 'YOUR_AMZN_ASSOCIATE_TAG',
     token       => 'YOUR_AMZN_TOKEN',
     secret_key  => 'YOUR_AMZN_SECRET_KEY',
     locale      => 'de',

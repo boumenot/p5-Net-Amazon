@@ -1,5 +1,5 @@
 ######################################################################
-    Net::Amazon 0.60
+    Net::Amazon 0.61
 ######################################################################
 NAME
     Net::Amazon - Framework for accessing amazon.com via REST
@@ -8,8 +8,9 @@ SYNOPSIS
       use Net::Amazon;
 
       my $ua = Net::Amazon->new(
-            token      => 'YOUR_AMZN_TOKEN',
-            secret_key => 'YOUR_AMZN_SECRET_KEY');
+            associate_tag => 'YOUR_AMZN_ASSOCIATE_TAG',
+            token         => 'YOUR_AMZN_TOKEN',
+            secret_key    => 'YOUR_AMZN_SECRET_KEY');
 
         # Get a request object
       my $response = $ua->search(asin => '0201360683');
@@ -31,9 +32,10 @@ DESCRIPTION
     like
 
       my $ua = Net::Amazon->new(
-          token      => 'YOUR_AMZN_TOKEN',
-          secret_key => 'YOUR_AMZN_SECRET_KEY',
-          max_pages => 3,
+          associate_tag => 'YOUR_AMZN_ASSOCIATE_TAG',
+          token         => 'YOUR_AMZN_TOKEN',
+          secret_key    => 'YOUR_AMZN_SECRET_KEY',
+          max_pages     => 3,
       );
 
     which you pass your personal amazon developer's token (can be obtained
@@ -83,330 +85,8 @@ DESCRIPTION
         Search by keyword, mandatory parameters "keyword" and "mode". Can
         return many results.
 
-    "$ua->search(wishlist => "1XL5DWOUFMFVJ")"
-        Search for all items in a specified wishlist. Can return many
-        results.
-
-    "$ua->search(upc => "075596278324", mode => "music")"
-        Music search by UPC (product barcode), mandatory parameter "upc".
-        "mode" has to be set to "music". Returns at most one result.
-
-    "$ua->search(isbn => "0439784549")"
-        Book search by ISBN (International Standard Book Number), mandatory
-        parameter "isbn". Returns at most one result. When searching non-US
-        locales use the 13-digit ISBN.
-
-    "$ua->search(similar => "0201360683")"
-        Search for all items similar to the one represented by the ASIN
-        provided. Can return many results.
-
-    "$ua->search(power => "subject: perl and author: schwartz", mode =>
-    "books")"
-        Initiate a power search for all books matching the power query. Can
-        return many results. See Net::Amazon::Request::Power for details.
-
-    "$ua->search(manufacturer => "Disney")"
-        Initiate a search for all items made by a given manufacturrer. Can
-        return many results. See Net::Amazon::Request::Manufacturer for
-        details.
-
-    "$ua->search(musiclabel => "Arista")"
-        Initiate a search for all items made by a given music label. Can
-        return many results. See Net::Amazon::Request::MusicLabel for
-        details.
-
-    "$ua->search(publisher => "o'reilly")"
-        Initiate a search for all items made by a given publisher. Can
-        return many results. See Net::Amazon::Request::Publisher for
-        details.
-
-    "$ua->search(blended => "Perl")"
-        Initiate a search for items in all categories.
-
-    "$ua->search(seller => "A2GXAGU54VOP7")"
-        Start a search on items sold by a specific third-party seller,
-        referenced by its ID (not seller name).
-
-    "$ua->search(textstream => "Blah blah Rolling Stones blah blah")"
-        Find items related to keywords within a text stream.
-
-    The user agent's "search" method returns a response object, which can be
-    checked for success or failure:
-
-      if($resp->is_success()) {
-          print $resp->as_string();
-      } else {
-          print "Error: ", $resp->message(), "\n";
-      }
-
-    In case the request for an item search succeeds, the response contains
-    one or more Amazon 'properties', as it calls the products found. All
-    matches can be retrieved from the Response object using it's
-    "properties()" method.
-
-    In case the request fails, the response contains one or more error
-    messages. The response object's "message()" method will return it (or
-    them) as a single string, while "messages()" (notice the plural) will
-    return a reference to an array of message strings.
-
-    Response objects always have the methods "is_success()", "is_error()",
-    "message()", "total_results()", "as_string()" and "properties()"
-    available.
-
-    "total_results()" returns the total number of results the search
-    yielded. "properties()" returns one or more "Net::Amazon::Property"
-    objects of type "Net::Amazon::Property" (or one of its subclasses like
-    "Net::Amazon::Property::Book", "Net::Amazon::Property::Music" or
-    Net::Amazon::Property::DVD), each of which features accessors named
-    after the attributes of the product found in Amazon's database:
-
-        for ($resp->properties) {
-           print $_->Asin(), " ",
-                 $_->OurPrice(), "\n";
-        }
-
-    In scalar context, "properties()" just returns the *first*
-    "Net::Amazon::Property" object found. Commonly available accessors to
-    "Net::Amazon::Property" objects are "OurPrice()", "ImageUrlLarge()",
-    "ImageUrlMedium()", "ImageUrlSmall()", "ReleaseDate()", "Catalog()",
-    "Asin()", "url()", "Manufacturer()", "UsedPrice()", "ListPrice()",
-    "ProductName()", "Availability()", "SalesRank()", "CollectiblePrice()",
-    "CollectibleCount()", "NumberOfOfferings()", "UsedCount()",
-    "ThirdPartyNewPrice()", "ThirdPartyNewCount()", "similar_asins()". For
-    details, check Net::Amazon::Property.
-
-    Also, the specialized classes "Net::Amazon::Property::Book" and
-    "Net::Amazon::Property::Music" feature convenience methods like
-    "authors()" (returning the list of authors of a book) or "album()" for
-    CDs, returning the album title.
-
-    Customer reviews: Every property features a "review_set()" method which
-    returns a "Net::Amazon::Attribute::ReviewSet" object, which in turn
-    offers a list of "Net::Amazon::Attribute::Review" objects. Check the
-    respective man pages for details on what's available.
-
-  Requests behind the scenes
-    "Net::Amazon"'s "search()" method is just a convenient way to create
-    different kinds of request objects behind the scenes and trigger them to
-    send requests to Amazon.
-
-    Depending on the parameters fed to the "search" method, "Net::Amazon"
-    will determine the kind of search requested and create one of the
-    following request objects:
-
-    Net::Amazon::Request::ASIN
-        Search by ASIN, mandatory parameter "asin". Returns at most one
-        result.
-
-    Net::Amazon::Request::Actor
-        Music search by Actor, mandatory parameter "actor". Can return many
-        results.
-
-    Net::Amazon::Request::Artist
-        Music search by Artist, mandatory parameter "artist". Can return
-        many results.
-
-    Net::Amazon::Request::Author
-        Music search by Author, mandatory parameter "author". Can return
-        many results.
-
-    Net::Amazon::Request::BrowseNode
-        Returns category (node) listing. Mandatory parameters "browsenode"
-        (must be numeric) and "mode". Can return many results.
-
-    Net::Amazon::Request::Keyword
-        Keyword search, mandatory parameters "keyword" and "mode". Can
-        return many results.
-
-    Net::Amazon::Request::UPC
-        Music search by UPC (product barcode), mandatory parameter "upc".
-        "mode" has to be set to "music". Returns at most one result.
-
-    Net::Amazon::Request::Blended
-        'Blended' search on a keyword, resulting in matches across the
-        board. No 'mode' parameter is allowed. According to Amazon's
-        developer's kit, this will result in up to three matches per
-        category and can yield a total of 45 matches.
-
-    Net::Amazon::Request::Power
-        Understands power search strings. See Net::Amazon::Request::Power
-        for details. Mandatory parameter "power".
-
-    Net::Amazon::Request::Manufacturer
-        Searches for all items made by a given manufacturer. Mandatory
-        parameter "manufacturer". With the change to AWS4, manufacturer is
-        no longer used to search for publishers. To search via publisher use
-        Net::Amazon::Request::Publisher.
-
-    Net::Amazon::Request::Publisher
-        Searches for all items made by a given manufacturer. Mandatory
-        parameter "publisher".
-
-    Net::Amazon::Request::Similar
-        Finds items similar to a given one.
-
-    Net::Amazon::Request::Wishlist
-        Find item on someone's wish list.
-
-    Net::Amazon::Request::Seller
-        Searches for a third-party seller on Amazon by seller ID. This
-        search is different than the previous ones, since it doesn't return
-        Amazon items, but a single seller record. Don't use the
-        "properties()" method on the response, use "result()" instead, which
-        returns a Net::Amazon::Result::Seller object. Check the manpage for
-        details.
-
-    Net::Amazon::Request::Exchange
-        Searches for items offered by third-party sellers. Items are
-        referenced by their so-called *Exchange ID*. Similar to
-        Net::Amazon::Request::Seller, this request doesn't return a list of
-        Amazon properties, so please use "result()" instead, which will
-        return a *single* Net::Amazon::Result::Seller::Listing item. Check
-        the manpage for details on what attributes are available there.
-
-    Check the respective man pages for details on these request objects.
-    Request objects are typically created like this (with a Keyword query as
-    an example):
-
-        my $req = Net::Amazon::Request::Keyword->new(
-            keyword   => 'perl',
-            mode      => 'books',
-        );
-
-    and are handed over to the user agent like that:
-
-        # Response is of type Net::Amazon::Response::ASIN
-      my $resp = $ua->request($req);
-
-    The convenient "search()" method just does these two steps in one.
-
-  METHODS
-    $ua = Net::Amazon->new(token => $token, secret_key => $key, ...)
-        Create a new Net::Amazon useragent. $token is the value of the
-        mandatory Amazon developer's token, which can be obtained from
-        <http://aws.amazon.com>.
-
-        By 2009-08-15 Amazon will require that all requests be signed with
-        an Amazon assigned Secret Key. The Secret Key can be obtained from
-        <http://aws.amazon.com>.
-
-        Additional optional parameters:
-
-        "max_pages => $max_pages"
-            Sets how many result pages the module is supposed to fetch back
-            from Amazon, which only sends back 10 results per page. Since
-            each page requires a new query to Amazon, at most one query per
-            second will be made in "strict" mode to comply with Amazon's
-            terms of service. This will impact performance if you perform a
-            search returning many pages of results.
-
-        "strict => 1"
-            Makes sure that "Net::Amazon" complies with Amazon's terms of
-            service by limiting the number of outgoing requests to 1 per
-            second. Defaults to 1, enabling rate limiting as defined via
-            "rate_limit".
-
-        "rate_limit => $reqs_per_sec"
-            Sets the rate limit to $reqs_per_sec requests per second if rate
-            limiting has been enabled with "strict" (see above). Defaults to
-            1, limiting the number of outgoing requests to 1 per second.
-
-        "$resp = $ua->request($request)"
-            Sends a request to the Amazon web service. $request is of a
-            "Net::Amazon::Request::*" type and $response will be of the
-            corresponding "Net::Amazon::Response::*" type.
-
-  Modes
-    Every search method takes a mode parameter. The mode parameter is used
-    to narrow the search to a specific field. For example, when searching by
-    actor you can search by DVD, DigitalMusic, Merchants, VHS, and Video. By
-    default DVD is used when searching by actor. The modes available are
-    dependent upon the type of search, and locale the search is conducted
-    in.
-
-    Determining the modes available to a search type are auto-generated from
-    data published by Amazon on their web site. A man page is available for
-    each type of search. The man page lists the default value if a mode is
-    not specified. A list of mode values is also provided. The man page's
-    name is of the form Net::Amazon::Validate::ItemSearch::<locale>::<type>.
-
-    <locale> is one of any ca, de, fr, jp, uk, or us.
-
-    <type> is one of Actor, Artist, Author, BrowseNode, Director, Keywords,
-    Manufacturer, MusicLabel, Power, Publisher, TextStream, or UPC.
-
-  Accessing foreign Amazon Catalogs
-    As of this writing (01/2007), Amazon also offers its web service for the
-    UK, Germany, Canada, France, and Japan. Just pass in
-
-        locale => 'ca'
-        locale => 'de'
-        locale => 'fr'
-        locale => 'jp'
-        locale => 'uk'
-        locale => 'us'
-
-    respectively to "Net::Amazon"'s constructor "new()" and instead of
-    returning results sent by the US mothership, it will query the
-    particular country's catalog and show prices in (gack!) local
-    currencies.
-
-  EXAMPLE
-    Here's a full-fledged example doing a artist search:
-
-        use Net::Amazon;
-        use Net::Amazon::Request::Artist;
-        use Data::Dumper;
-
-        die "usage: $0 artist\n(use Zwan as an example)\n"
-            unless defined $ARGV[0];
-
-        my $ua = Net::Amazon->new(
-            token      => 'YOUR_AMZN_TOKEN',
-            secret_key => 'YOUR_AMZN_SECRET_KEY',
-        );
-
-        my $req = Net::Amazon::Request::Artist->new(
-            artist  => $ARGV[0],
-        );
-
-           # Response is of type Net::Amazon::Artist::Response
-        my $resp = $ua->request($req);
-
-        if($resp->is_success()) {
-            print $resp->as_string, "\n";
-        } else {
-            print $resp->message(), "\n";
-        }
-
-    And here's one displaying someone's wishlist:
-
-        use Net::Amazon;
-        use Net::Amazon::Request::Wishlist;
-
-        die "usage: $0 wishlist_id\n" .
-            "(use 1XL5DWOUFMFVJ as an example)\n" unless $ARGV[0];
-
-        my $ua = Net::Amazon->new(
-            token      => 'YOUR_AMZN_TOKEN',
-            secret_key => 'YOUR_AMZN_SECRET_KEY',
-        );
-
-        my $req = Net::Amazon::Request::Wishlist->new(
-            id  => $ARGV[0]
-        );
-
-           # Response is of type Net::Amazon::ASIN::Response
-        my $resp = $ua->request($req);
-
-        if($resp->is_success()) {
-            print $resp->as_string, "\n";
-        } else {
-            print $resp->message(), "\n";
-        }
-
-    DETAILS Net::Amazon is based on Amazon Web Services version 4, and uses
-    WSDL version 2009-07-01.
+        DETAILS Net::Amazon is based on Amazon Web Services version 4, and
+        uses WSDL version 2011-08-01.
 
 CACHING
     Responses returned by Amazon's web service can be cached locally.
@@ -469,9 +149,10 @@ PROXY SETTINGS
 
         my $ua = LWP::UserAgent->new();
         my $na = Net::Amazon->new(
-            ua         => $ua, 
-            token      => 'YOUR_AMZN_TOKEN',
-            secret_key => 'YOUR_AMZN_SECRET_KEY',
+            ua            => $ua, 
+            associate_tag => 'YOUR_AMZN_ASSOCIATE_TAG',
+            token         => 'YOUR_AMZN_TOKEN',
+            secret_key    => 'YOUR_AMZN_SECRET_KEY',
         );
         # ...
 
@@ -717,10 +398,19 @@ AUTHOR
         Steve Rushe <steve@deeden.co.uk>
         Tatsuhiko Miyagawa <miyagawa@livedoor.jp>
         Tony Bowden <tony@kasei.com>
+        Vince Veselosky
 
 COPYRIGHT AND LICENSE
-    Copyright 2003, 2004 by Mike Schilli <na@perlmeister.com>
+    Copyright 2003, 2004 by Mike Schilli <na@perlmeister.com> Copyright
+    2007-2009 by Christopher Boumenot <boumenot+na@gmail.com>
 
     This library is free software; you can redistribute it and/or modify it
     under the same terms as Perl itself.
+
+POD ERRORS
+    Hey! The above document had some coding errors, which are explained
+    below:
+
+    Around line 748:
+        You forgot a '=back' before '=head1'
 

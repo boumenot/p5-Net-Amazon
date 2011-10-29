@@ -140,6 +140,9 @@ Returns the number of pages.
 
 Returns the Dewey decimal number, this is for non-fiction only.
 
+This method is deprecated (2011-10-28) as it does not appear to be returned by
+Amazon any more.
+
 =item publication_date()
 
 Returns the publication date.
