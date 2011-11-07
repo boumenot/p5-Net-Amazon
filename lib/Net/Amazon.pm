@@ -8,13 +8,14 @@ use 5.006;
 use strict;
 use warnings;
 
-our $VERSION          = '0.61';
+our $VERSION          = '0.62';
 our $WSDL_DATE        = '2011-08-01';
 our $Locale           = 'us';
 our @CANNED_RESPONSES = ();
 our $IS_CANNED        = 0;
 
 use LWP::UserAgent;
+use HTTP::Message;
 use HTTP::Request::Common;
 use XML::Simple;
 use Data::Dumper;
@@ -73,6 +74,7 @@ sub new {
         rate_limit     => 1.0,  # 1 req/sec
         max_pages      => 5,
         ua             => LWP::UserAgent->new(),
+        compress       => 1,
         %options,
     };
 
@@ -271,7 +273,14 @@ sub fetch_url {
         # rule (or the configured rate_limit).
         $self->pause() if $self->{strict};
 
-        $resp = $ua->request(GET $url);
+        {
+            my $req = GET $url;
+
+            $req->header("Accept-Encoding" => [ HTTP::Message::decodable() ])
+                if $self->{compress};
+
+            $resp = $ua->request($req);
+        }
 
         $self->reset_timer() if $self->{strict};
 
@@ -297,14 +306,14 @@ sub fetch_url {
         if($self->{response_dump}) {
             my $dumpfile = "response-$self->{response_dump}.txt";
             open FILE, ">$dumpfile" or die "Cannot open $dumpfile";
-            print FILE $resp->content();
+            print FILE $resp->decoded_content();
             close FILE;
             $self->{response_dump}++;
         }
 
-        if($resp->content =~ /<Errors>/ &&
+        if($resp->decoded_content =~ /<Errors>/ &&
             # Is this the same value of AWS4?
-           $resp->content =~ /Please retry/i) {
+           $resp->decoded_content =~ /Please retry/i) {
             if($max_retries-- >= 0) {
                 INFO("Temporary Amazon error, retrying");
                 redo;
@@ -318,10 +327,10 @@ sub fetch_url {
     }
 
     if(exists $self->{cache}) {
-        $self->{cache}->set($url_cachablestr, $resp->content());
+        $self->{cache}->set($url_cachablestr, $resp->decoded_content());
     }
 
-    return $resp->content();
+    return $resp->decoded_content();
 }
 
 ##################################################
@@ -784,6 +793,12 @@ adheres to the following interface can be used:
         # Return a cached value, 'undef' if it doesn't exist
     $cache->get($key);
 
+=head1 COMPRESSION
+
+By default C<Net::Amazon> will attempt to use HTTP compression if the 
+L<Compress::Zlib> module is available. Pass C<< compress => 0 >> to 
+C<< ->new() >> to disable this feature.
+
 =head1 PROXY SETTINGS
 
 C<Net::Amazon> uses C<LWP::UserAgent> under the hood to send
@@ -1073,6 +1088,7 @@ Contributors (thanks y'all!):
     Brian Hirt <bhirt@mobygames.com>
     Dan Kreft <dan@kreft.net>
     Dan Sully <daniel@electricrain.com>
+    Dave Cardwell <http://davecardwell.co.uk/>
     Jackie Hamilton <kira@cgi101.com>
     Konstantin Gredeskoul <kig@get.topica.com>
     Lance Cleveland <lancec@proactivewm.com>
