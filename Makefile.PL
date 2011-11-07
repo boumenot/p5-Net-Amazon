@@ -23,6 +23,7 @@ WriteMakefile1(
                              URI            => 0,
                              Digest::SHA    => 0,
                              URI::Escape    => 0,
+                             HTTP::Message  => 0,
                            }, # e.g., Module::Name => 1.1
     ABSTRACT_FROM => 'lib/Net/Amazon.pm',
     AUTHOR => 'Mike <m@perlmeister.com>',

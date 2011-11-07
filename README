@@ -1,5 +1,5 @@
 ######################################################################
-    Net::Amazon 0.61
+    Net::Amazon 0.62
 ######################################################################
 NAME
     Net::Amazon - Framework for accessing amazon.com via REST
@@ -125,6 +125,13 @@ CACHING
 
             # Return a cached value, 'undef' if it doesn't exist
         $cache->get($key);
+
+
+COMPRESSION
+
+By default "Net::Amazon" will attempt to use HTTP compression if the
+"Compress::Zlib" module is available. Pass "compress => 0" to "->new()" to
+disable this feature.
 
 PROXY SETTINGS
     "Net::Amazon" uses "LWP::UserAgent" under the hood to send web requests
@@ -385,6 +392,7 @@ AUTHOR
         Brian Hirt <bhirt@mobygames.com>
         Dan Kreft <dan@kreft.net>
         Dan Sully <daniel@electricrain.com>
+        Dave Cardwell <http://davecardwell.co.uk/>
         Jackie Hamilton <kira@cgi101.com>
         Konstantin Gredeskoul <kig@get.topica.com>
         Lance Cleveland <lancec@proactivewm.com>

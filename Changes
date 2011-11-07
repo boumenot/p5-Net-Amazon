@@ -1,4 +1,7 @@
 Revision history for Perl extension Net::Amazon:
+0.62 (11/07/2011)
+   (dc) Add support for HTTP compression where available, enabled by default.
+
 0.61 (10/28/2011)
    (cb) rt 71937; Amazon now requires an Associate Tag, so enforce usage.
    (cb) The ListLookup operation has been removed from the WSDL (from 2010!),
