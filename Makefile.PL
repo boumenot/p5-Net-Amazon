@@ -17,7 +17,7 @@ WriteMakefile1(
     'VERSION_FROM'	=> 'lib/Net/Amazon.pm', # finds $VERSION
     'PREREQ_PM'		=> { Log::Log4perl  => 0.30,
                              XML::Simple    => 2.08,
-                             LWP::UserAgent => 2,
+                             LWP::UserAgent => 5.814, # need HTTP::Message::decodable()
                              Time::HiRes    => 1,
                              Data::Dumper   => 0,
                              URI            => 0,
