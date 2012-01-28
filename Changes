@@ -1,6 +1,7 @@
 Revision history for Perl extension Net::Amazon:
-0.62 (11/07/2011)
+0.62 (xx/yy/zzzz)
    (dc) Add support for HTTP compression where available, enabled by default.
+   (cb) Add support for EAN to the US locale, as reported by Jacob Turino.
 
 0.61 (10/28/2011)
    (cb) rt 71937; Amazon now requires an Associate Tag, so enforce usage.

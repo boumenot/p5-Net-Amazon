@@ -1,7 +1,7 @@
 # -*- perl -*-
 # !!! DO NOT EDIT !!!
 # This file was automatically generated.
-package Net::Amazon::Validate::ItemSearch::uk::EAN;
+package Net::Amazon::Validate::ItemSearch::us::EAN;
 
 use 5.006;
 use strict;
@@ -99,7 +99,7 @@ sub find_match {
     for (@{$self->{_options}}) {
         return $_ if lc($_) eq lc($value);
     }
-    die "$value is not a valid value for uk::EAN!\n";
+    die "$value is not a valid value for us::EAN!\n";
 }
 
 1;
@@ -108,8 +108,8 @@ __END__
 
 =head1 NAME
 
-Net::Amazon::Validate::ItemSearch::uk::EAN - valid search indicies
-for the uk locale and the EAN SearchIndex.
+Net::Amazon::Validate::ItemSearch::us::EAN - valid search indicies
+for the us locale and the EAN SearchIndex.
 
 =head1 DESCRIPTION
 
