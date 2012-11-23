@@ -127,10 +127,14 @@ sub intl_url {
         $url =~ s/\.com/.ca/;
     } elsif ($self->{locale} eq "de") {
         $url =~ s/\.com/.de/;
+    } elsif ($self->{locale} eq "es") {
+        $url =~ s/\.com/.es/;
     } elsif ($self->{locale} eq "fr") {
         $url =~ s/\.com/.fr/;
     } elsif ($self->{locale} eq "jp") {
         $url =~ s/\.com/.co.jp/;
+    } elsif ($self->{locale} eq "it") {
+        $url =~ s/\.com/.it/;
     } elsif ($self->{locale} eq "uk") {
         $url =~ s/\.com/.co.uk/;
     }

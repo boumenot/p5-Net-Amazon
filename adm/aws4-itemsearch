@@ -30,7 +30,9 @@ sub AWS4_ONLINE_HTML {
 use constant AWS4_LOCALE_HTML => {
     'us' => 'USSearchIndexParamForItemsearch.html',
 #     'de' => 'DESearchIndexParamForItemsearch.html',
+#     'es' => 'ESSearchIndexParamForItemsearch.html',
 #     'jp' => 'JPSearchIndexParamForItemsearch.html',
+#     'it' => 'ITSearchIndexParamForItemsearch.html',
 #     'uk' => 'UKSearchIndexParamForItemsearch.html',
 #     'fr' => 'FRSearchIndexParamForItemsearch.html',
 #     'ca' => 'CASearchIndexParamForItemsearch.html',
