@@ -25,10 +25,8 @@ sub new {
     push @{$self->{_options}}, 'Keywords';
     push @{$self->{_options}}, 'Magazines';
     push @{$self->{_options}}, 'Performer';
-    push @{$self->{_options}}, 'PostalCode';
     push @{$self->{_options}}, 'Publisher';
     push @{$self->{_options}}, 'Sort';
-    push @{$self->{_options}}, 'State';
     push @{$self->{_options}}, 'Title';
 
     bless $self, $class;
@@ -81,10 +79,8 @@ The list of available values are:
     Keywords
     Magazines
     Performer
-    PostalCode
     Publisher
     Sort
-    State
     Title
 
 =cut

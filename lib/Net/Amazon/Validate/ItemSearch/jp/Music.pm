@@ -16,6 +16,9 @@ sub new {
 
     push @{$self->{_options}}, 'Artist';
     push @{$self->{_options}}, 'Availability';
+    push @{$self->{_options}}, 'Availability';
+    push @{$self->{_options}}, 'Brand';
+    push @{$self->{_options}}, 'BrowseNode';
     push @{$self->{_options}}, 'BrowseNode';
     push @{$self->{_options}}, 'Condition';
     push @{$self->{_options}}, 'Count';
@@ -24,16 +27,18 @@ sub new {
     push @{$self->{_options}}, 'ItemPage';
     push @{$self->{_options}}, 'Keywords';
     push @{$self->{_options}}, 'Keywords';
+    push @{$self->{_options}}, 'Keywords';
     push @{$self->{_options}}, 'Magazines';
     push @{$self->{_options}}, 'MaximumPrice';
-    push @{$self->{_options}}, 'MerchantId';
+    push @{$self->{_options}}, 'MaximumPrice';
+    push @{$self->{_options}}, 'MinimumPrice';
     push @{$self->{_options}}, 'MinimumPrice';
     push @{$self->{_options}}, 'MusicLabel';
     push @{$self->{_options}}, 'Performer';
-    push @{$self->{_options}}, 'PostalCode';
     push @{$self->{_options}}, 'Sort';
     push @{$self->{_options}}, 'Sort';
-    push @{$self->{_options}}, 'State';
+    push @{$self->{_options}}, 'Sort';
+    push @{$self->{_options}}, 'Title';
     push @{$self->{_options}}, 'Title';
 
     bless $self, $class;
@@ -77,6 +82,9 @@ The list of available values are:
 
     Artist
     Availability
+    Availability
+    Brand
+    BrowseNode
     BrowseNode
     Condition
     Count
@@ -85,16 +93,18 @@ The list of available values are:
     ItemPage
     Keywords
     Keywords
+    Keywords
     Magazines
     MaximumPrice
-    MerchantId
+    MaximumPrice
+    MinimumPrice
     MinimumPrice
     MusicLabel
     Performer
-    PostalCode
     Sort
     Sort
-    State
+    Sort
+    Title
     Title
 
 =cut

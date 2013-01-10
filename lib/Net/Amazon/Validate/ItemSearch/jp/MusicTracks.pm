@@ -18,7 +18,6 @@ sub new {
     push @{$self->{_options}}, 'ItemPage';
     push @{$self->{_options}}, 'Keywords';
     push @{$self->{_options}}, 'MaximumPrice';
-    push @{$self->{_options}}, 'MerchantId';
     push @{$self->{_options}}, 'MinimumPrice';
     push @{$self->{_options}}, 'Sort';
 
@@ -65,7 +64,6 @@ The list of available values are:
     ItemPage
     Keywords
     MaximumPrice
-    MerchantId
     MinimumPrice
     Sort
 

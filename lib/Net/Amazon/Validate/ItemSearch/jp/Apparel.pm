@@ -20,18 +20,13 @@ sub new {
     push @{$self->{_options}}, 'BrowseNode';
     push @{$self->{_options}}, 'Condition';
     push @{$self->{_options}}, 'Count';
-    push @{$self->{_options}}, 'DeliveryMethod';
     push @{$self->{_options}}, 'Format';
-    push @{$self->{_options}}, 'ISPUPostalCode';
     push @{$self->{_options}}, 'ItemPage';
     push @{$self->{_options}}, 'Keywords';
     push @{$self->{_options}}, 'Magazines';
     push @{$self->{_options}}, 'Manufacturer';
-    push @{$self->{_options}}, 'MerchantId';
     push @{$self->{_options}}, 'Performer';
-    push @{$self->{_options}}, 'PostalCode';
     push @{$self->{_options}}, 'Sort';
-    push @{$self->{_options}}, 'State';
     push @{$self->{_options}}, 'Title';
 
     bless $self, $class;
@@ -79,18 +74,13 @@ The list of available values are:
     BrowseNode
     Condition
     Count
-    DeliveryMethod
     Format
-    ISPUPostalCode
     ItemPage
     Keywords
     Magazines
     Manufacturer
-    MerchantId
     Performer
-    PostalCode
     Sort
-    State
     Title
 
 =cut
