@@ -31,14 +31,11 @@ sub new {
     push @{$self->{_options}}, 'Magazines';
     push @{$self->{_options}}, 'Manufacturer';
     push @{$self->{_options}}, 'MaximumPrice';
-    push @{$self->{_options}}, 'MerchantId';
     push @{$self->{_options}}, 'MinimumPrice';
     push @{$self->{_options}}, 'Performer';
-    push @{$self->{_options}}, 'PostalCode';
     push @{$self->{_options}}, 'Publisher';
     push @{$self->{_options}}, 'Sort';
     push @{$self->{_options}}, 'Sort';
-    push @{$self->{_options}}, 'State';
     push @{$self->{_options}}, 'Title';
     push @{$self->{_options}}, 'Title';
 
@@ -98,14 +95,11 @@ The list of available values are:
     Magazines
     Manufacturer
     MaximumPrice
-    MerchantId
     MinimumPrice
     Performer
-    PostalCode
     Publisher
     Sort
     Sort
-    State
     Title
     Title
 

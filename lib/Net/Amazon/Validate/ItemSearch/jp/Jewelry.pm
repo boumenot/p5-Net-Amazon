@@ -16,9 +16,7 @@ sub new {
 
     push @{$self->{_options}}, 'Availability';
     push @{$self->{_options}}, 'BrowseNode';
-    push @{$self->{_options}}, 'DeliveryMethod';
     push @{$self->{_options}}, 'Keywords';
-    push @{$self->{_options}}, 'MerchantId';
     push @{$self->{_options}}, 'Sort';
     push @{$self->{_options}}, 'Title';
 
@@ -63,9 +61,7 @@ The list of available values are:
 
     Availability
     BrowseNode
-    DeliveryMethod
     Keywords
-    MerchantId
     Sort
     Title
 

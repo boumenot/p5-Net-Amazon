@@ -22,7 +22,6 @@ sub new {
     push @{$self->{_options}}, 'Keywords';
     push @{$self->{_options}}, 'Manufacturer';
     push @{$self->{_options}}, 'MaximumPrice';
-    push @{$self->{_options}}, 'MerchantId';
     push @{$self->{_options}}, 'MinimumPrice';
     push @{$self->{_options}}, 'Sort';
     push @{$self->{_options}}, 'Title';
@@ -74,7 +73,6 @@ The list of available values are:
     Keywords
     Manufacturer
     MaximumPrice
-    MerchantId
     MinimumPrice
     Sort
     Title

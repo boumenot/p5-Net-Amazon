@@ -18,11 +18,8 @@ sub new {
     push @{$self->{_options}}, 'Condition';
     push @{$self->{_options}}, 'ItemPage';
     push @{$self->{_options}}, 'Keywords';
-    push @{$self->{_options}}, 'MerchantId';
     push @{$self->{_options}}, 'MinimumPrice';
     push @{$self->{_options}}, 'Sort';
-    push @{$self->{_options}}, 'State';
-    push @{$self->{_options}}, 'TextStream';
     push @{$self->{_options}}, 'Title';
 
     bless $self, $class;
@@ -68,11 +65,8 @@ The list of available values are:
     Condition
     ItemPage
     Keywords
-    MerchantId
     MinimumPrice
     Sort
-    State
-    TextStream
     Title
 
 =cut

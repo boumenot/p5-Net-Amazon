@@ -15,6 +15,8 @@ sub new {
     };
 
     push @{$self->{_options}}, 'Apparel';
+    push @{$self->{_options}}, 'Appliances';
+    push @{$self->{_options}}, 'Automotive';
     push @{$self->{_options}}, 'Baby';
     push @{$self->{_options}}, 'Beauty';
     push @{$self->{_options}}, 'Blended';
@@ -26,10 +28,16 @@ sub new {
     push @{$self->{_options}}, 'Grocery';
     push @{$self->{_options}}, 'HealthPersonalCare';
     push @{$self->{_options}}, 'Hobbies';
+    push @{$self->{_options}}, 'HomeImprovement';
     push @{$self->{_options}}, 'Jewelry';
     push @{$self->{_options}}, 'Kitchen';
+    push @{$self->{_options}}, 'MP3Downloads';
+    push @{$self->{_options}}, 'Marketplace';
     push @{$self->{_options}}, 'Music';
     push @{$self->{_options}}, 'MusicTracks';
+    push @{$self->{_options}}, 'MusicalInstruments';
+    push @{$self->{_options}}, 'OfficeProducts';
+    push @{$self->{_options}}, 'Shoes';
     push @{$self->{_options}}, 'Software';
     push @{$self->{_options}}, 'SportingGoods';
     push @{$self->{_options}}, 'Toys';
@@ -78,6 +86,8 @@ The default value is Books, unless mode is specified.
 The list of available values are:
 
     Apparel
+    Appliances
+    Automotive
     Baby
     Beauty
     Blended
@@ -89,10 +99,16 @@ The list of available values are:
     Grocery
     HealthPersonalCare
     Hobbies
+    HomeImprovement
     Jewelry
     Kitchen
+    MP3Downloads
+    Marketplace
     Music
     MusicTracks
+    MusicalInstruments
+    OfficeProducts
+    Shoes
     Software
     SportingGoods
     Toys
