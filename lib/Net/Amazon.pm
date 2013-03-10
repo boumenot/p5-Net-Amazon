@@ -8,7 +8,7 @@ use 5.006;
 use strict;
 use warnings;
 
-our $VERSION          = '0.62';
+our $VERSION          = '0.63';
 our $WSDL_DATE        = '2011-08-01';
 our $Locale           = 'us';
 our @CANNED_RESPONSES = ();
@@ -754,7 +754,10 @@ by the so-called I<exchange ID>.
 Search by keyword, mandatory parameters C<keyword> and C<mode>.
 Can return many results.
 
-DETAILS
+=back
+
+=head1 DETAILS
+
         Net::Amazon is based on Amazon Web Services version 4, and uses
         WSDL version 2011-08-01.
 

@@ -1,4 +1,7 @@
 Revision history for Perl extension Net::Amazon:
+0.63 (xx/yy/zzzz)
+   (cb) Debian bug POD bug report.
+
 0.62 (01/26/2013)
    (dc) Add support for HTTP compression where available, enabled by default.
    (cb) Add support for EAN to the US locale, as reported by Jacob Turino.
