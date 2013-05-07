@@ -181,7 +181,7 @@ sub factory {
 
     #DEBUG(sub {"factory xmlref=" . Data::Dumper::Dumper($xmlref)});
 
-    my $catalog = $xmlref->{ItemAttributes}->{ProductGroup};
+    my $catalog = $xmlref->{ItemAttributes}->{ProductGroup} || '';
     my $obj;
 
     if(0) {
