@@ -39,7 +39,7 @@ DESCRIPTION
       );
 
     which you pass your personal amazon developer's token (can be obtained
-    from <http://amazon.com/soap>) and (optionally) the maximum number of
+    from http://amazon.com/soap) and (optionally) the maximum number of
     result pages the agent is going to request from Amazon in case all
     results don't fit on a single page (typically holding 20 items). Note
     that each new page requires a minimum delay of 1 second to comply with
