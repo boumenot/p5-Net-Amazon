@@ -37,6 +37,7 @@ our %DEFAULT_ATTRIBUTES_XPATH = (
     MediumImageWidth => [qw(MediumImage Width content)],
     MediumImageHeight => [qw(MediumImage Height content)],
     OurPrice => [qw(Offers Offer OfferListing Price FormattedPrice)],
+    SalePrice => [qw(Offers Offer OfferListing SalePrice FormattedPrice)],
     ImageUrlSmall => [qw(SmallImage URL)],
     SmallImageUrl => [qw(SmallImage URL)],
     SmallImageWidth => [qw(SmallImage Width content)],
@@ -154,7 +155,9 @@ sub _best_effort_price {
     my($self) = @_;
 
     my $price;
-    if ($self->OurPrice()) {
+    if( $self->SalePrice()) {
+        $price = $self->SalePrice();
+    } elsif ($self->OurPrice()) {
         $price = $self->OurPrice();
     } elsif ($self->ThirdPartyNewPrice()) {
         $price = $self->ThirdPartyNewPrice();
@@ -339,6 +342,10 @@ List price of the item
 =item OurPrice()
 
 Amazon price of the item
+
+=item SalePrice()
+
+Sale price of the item
 
 =item UsedPrice()
 
