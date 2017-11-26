@@ -5,6 +5,7 @@ use warnings;
 use strict;
 
 use Test::More tests => 23;
+use File::Spec::Functions qw( rel2abs );
 BEGIN { use_ok('Net::Amazon') };
 
 #use Log::Log4perl qw(:easy);
@@ -16,7 +17,7 @@ use Net::Amazon::Request::Artist;
 ################################################################
 # Setup
 ################################################################
-  my($TESTDIR) = map { -d $_ ? $_ : () } qw(t ../t .);
+  my($TESTDIR) = map { -d $_ ? rel2abs($_) : () } qw(t ../t .);
   require "$TESTDIR/init.pl";
   my $CANNED = "$TESTDIR/canned";
 ################################################################

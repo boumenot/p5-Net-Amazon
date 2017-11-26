@@ -5,6 +5,7 @@
 use warnings;
 use strict;
 
+use File::Spec::Functions qw( rel2abs );
 use Test::More tests => 17;
 use Net::Amazon;
 use Net::Amazon::Result::Seller::Listing;
@@ -14,7 +15,7 @@ use Log::Log4perl qw(:easy);
 ################################################################
 # Setup
 ################################################################
-  my($TESTDIR) = map { -d $_ ? $_ : () } qw(t ../t .);
+  my($TESTDIR) = map { -d $_ ? rel2abs($_) : () } qw(t ../t .);
   require "$TESTDIR/init.pl";
   my $CANNED = "$TESTDIR/canned";
 ################################################################

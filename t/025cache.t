@@ -4,6 +4,7 @@
 use warnings;
 use strict;
 
+use File::Spec::Functions qw( rel2abs );
 use Test::More tests => 6;
 BEGIN { use_ok('Net::Amazon'); use_ok('Log::Log4perl'); }
 
@@ -20,7 +21,7 @@ Log::Log4perl->easy_init({level => $ALL, file => ">>$log_file"});
 ################################################################
 # Setup
 ################################################################
-  my($TESTDIR) = map { -d $_ ? $_ : () } qw(t ../t .);
+  my($TESTDIR) = map { -d $_ ? rel2abs($_) : () } qw(t ../t .);
   require "$TESTDIR/init.pl";
 
 SKIP: {
