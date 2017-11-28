@@ -6,6 +6,7 @@ use strict;
 use utf8; # Needed to include utf8 strings
 use Encode;
 
+use File::Spec::Functions qw( rel2abs );
 use Test::More tests => 6;
 BEGIN { use_ok('Net::Amazon') };
 
@@ -19,7 +20,7 @@ use URI;
 ################################################################
 # Setup
 ################################################################
-  my($TESTDIR) = map { -d $_ ? $_ : () } qw(t ../t .);
+  my($TESTDIR) = map { -d $_ ? rel2abs($_) : () } qw(t ../t .);
   require "$TESTDIR/init.pl";
   my $CANNED = "$TESTDIR/canned";
 ################################################################

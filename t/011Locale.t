@@ -8,12 +8,13 @@ use strict;
 
 use Net::Amazon;
 use Net::Amazon::Request::ASIN;
+use File::Spec::Functions qw( rel2abs );
 use Test::More tests => 5;
 
 ################################################################
 # Setup
 ################################################################
-  my($TESTDIR) = map { -d $_ ? $_ : () } qw(t ../t .);
+  my($TESTDIR) = map { -d $_ ? rel2abs($_) : () } qw(t ../t .);
   require "$TESTDIR/init.pl";
   my $CANNED = "$TESTDIR/canned";
 ################################################################
