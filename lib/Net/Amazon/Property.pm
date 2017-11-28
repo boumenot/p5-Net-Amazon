@@ -107,6 +107,9 @@ sub new {
     }
 
     my @browse_nodes;
+    if (ref $options{xmlref}->{BrowseNodes}->{BrowseNode} eq 'HASH') {
+        $options{xmlref}->{BrowseNodes}->{BrowseNode} = [ $options{xmlref}->{BrowseNodes}->{BrowseNode} ];
+    }
     if (ref $options{xmlref}->{BrowseNodes}->{BrowseNode} eq 'ARRAY') {
         for my $bn (@{$options{xmlref}->{BrowseNodes}->{BrowseNode}}) {
             push @browse_nodes, $bn->{Name};     
@@ -181,7 +184,7 @@ sub factory {
 
     #DEBUG(sub {"factory xmlref=" . Data::Dumper::Dumper($xmlref)});
 
-    my $catalog = $xmlref->{ItemAttributes}->{ProductGroup};
+    my $catalog = $xmlref->{ItemAttributes}->{ProductGroup} || '';
     my $obj;
 
     if(0) {
